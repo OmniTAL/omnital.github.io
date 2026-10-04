@@ -1,0 +1,226 @@
+{
+  "_doc": "Configuration de l'agent de veille ConnecTAL. Modifiable sans toucher au code Python.",
+  "site_url": "https://omnital.github.io",
+  "user_agent": "ConnecTAL-veille/3.0 (+https://omnital.github.io)",
+  "retention_days": {
+    "_doc": "Durée de conservation dans l'historique (par source). Les éléments 'focus' (berbère, kabyle...) sont conservés indéfiniment.",
+    "arxiv": 21,
+    "hal": 60,
+    "huggingface": 365,
+    "github": 365,
+    "wikicfp": 400,
+    "default": 120,
+    "zenodo": 365,
+    "elg": 365,
+    "doaj": 3650,
+    "theses": 365
+  },
+  "max_items_payload": 3000,
+  "focus_keywords": [
+    "kabyl",
+    "kabyle",
+    "taqbaylit",
+    "berber",
+    "berbère",
+    "amazigh",
+    "tamazight",
+    "tamaziɣt",
+    "tifinagh",
+    "tachelhit",
+    "tashelhit",
+    "tashlhiyt",
+    "tarifit",
+    "chaoui",
+    "chawi",
+    "tamasheq",
+    "tuareg",
+    "touareg",
+    "mozabite",
+    "zenati",
+    "north african languages",
+    "maghrebi",
+    "darija"
+  ],
+  "arxiv": {
+    "rss_categories": [
+      "cs.CL"
+    ],
+    "api_queries": [
+      "all:kabyle OR all:berber OR all:amazigh OR all:tamazight OR all:tifinagh",
+      "cat:cs.CL AND (all:catalan OR all:basque OR all:galician OR all:occitan OR all:corsican OR all:sardinian OR all:sicilian OR all:maltese OR all:neapolitan OR all:venetian OR all:friulian OR all:ladino)",
+      "cat:cs.CL AND (all:\"dialectal arabic\" OR all:darija OR all:\"arabic dialect\" OR all:\"tunisian arabic\" OR all:\"algerian arabic\" OR all:\"egyptian arabic\" OR all:\"levantine arabic\")",
+      "cat:cs.CL AND all:\"low-resource\" AND (all:language OR all:languages)"
+    ],
+    "api_max_results": 40
+  },
+  "huggingface": {
+    "_doc": "languages = 'auto' : tous les codes de scripts/languages.py. trending : ressources les plus populaires du moment (tous domaines du TAL).",
+    "languages": "auto",
+    "search_terms": "auto",
+    "kinds": [
+      "datasets",
+      "models",
+      "spaces"
+    ],
+    "limit": 40,
+    "trending": {
+      "datasets": 40,
+      "models": 40
+    }
+  },
+  "github": {
+    "queries": "auto",
+    "extra_queries": [
+      "topic:nlp stars:>=25",
+      "topic:natural-language-processing stars:>=25",
+      "topic:llm stars:>=50",
+      "topic:speech-recognition stars:>=25",
+      "topic:machine-translation stars:>=10",
+      "\"low-resource\" language nlp"
+    ],
+    "lookback_days": 30
+  },
+  "hal": {
+    "domain": "info.info-cl",
+    "rows": 80
+  },
+  "wikicfp": {
+    "feeds": [
+      "http://www.wikicfp.com/cfp/rss?cat=NLP",
+      "http://www.wikicfp.com/cfp/rss?cat=computational%20linguistics",
+      "http://www.wikicfp.com/cfp/rss?cat=speech",
+      "http://www.wikicfp.com/cfp/rss?cat=linguistics",
+      "http://www.wikicfp.com/cfp/rss?cat=summer%20school",
+      "http://www.wikicfp.com/cfp/rss?cat=machine%20translation"
+    ]
+  },
+  "geocoding": {
+    "enabled": true,
+    "max_new_lookups_per_run": 150,
+    "endpoint": "https://nominatim.openstreetmap.org/search"
+  },
+  "catalogue": {
+    "_doc": "Alimentation du catalogue : les ressources Hugging Face, GitHub et WikiCFP deviennent des fiches avec notice.",
+    "event_details_per_run": 60,
+    "journal_searches_per_run": 8,
+    "eligible_sources": [
+      "huggingface",
+      "github",
+      "wikicfp",
+      "zenodo",
+      "elg",
+      "doaj"
+    ],
+    "nonfocus_max_age_days": 365
+  },
+  "llm": {
+    "_doc": "Rédaction des notices par l'API Gemini (Google). Activée seulement si le secret GEMINI_API_KEY est défini ; sinon notices par gabarits. Si le modèle disparaît, les modèles de repli sont essayés.",
+    "enabled": true,
+    "model": "gemini-3.5-flash-lite",
+    "fallback_models": [
+      "gemini-flash-lite-latest",
+      "gemini-3.8-flash"
+    ],
+    "requests_per_minute": 10,
+    "max_per_run": 120
+  },
+  "_langues": "Les langues peu dotées suivies (berbère, méditerranéennes, arabe dialectal) sont définies dans scripts/languages.py.",
+  "zenodo": {
+    "_doc": "Jeux de données et logiciels déposés sur Zenodo",
+    "types": [
+      "dataset",
+      "software"
+    ],
+    "size": 25,
+    "queries": [
+      "(corpus OR treebank OR \"language model\" OR \"speech dataset\") AND (natural language processing OR linguistics)"
+    ],
+    "language_queries": true
+  },
+  "elg": {
+    "_doc": "European Language Grid : catalogue européen (corpus, outils, modèles)",
+    "limit": 30
+  },
+  "doaj": {
+    "_doc": "Revues en libre accès indexées par DOAJ en linguistique informatique / TAL (classification LCC P98)",
+    "subjects": [
+      "P98-98.5"
+    ],
+    "page_size": 100
+  },
+  "opportunites": {
+    "_doc": "Emplois, stages, thèses, postdocs, formations. ttl_days : une offre disparaît si elle n'est plus vue depuis N jours.",
+    "keywords": [
+      "nlp",
+      "natural language",
+      "language model",
+      "llm",
+      "linguist",
+      "computational linguistics",
+      "speech",
+      "asr",
+      "tts",
+      "machine translation",
+      "translation",
+      "text mining",
+      "information extraction",
+      "conversational",
+      "dialogue",
+      "chatbot",
+      "traitement automatique",
+      "tal ",
+      "sémantique",
+      "semantic",
+      "search relevance",
+      "retrieval",
+      "annotation"
+    ],
+    "nlppeople_pages": 3,
+    "greenhouse": [
+      "anthropic",
+      "scaleai"
+    ],
+    "ashby": [
+      "openai",
+      "cohere",
+      "elevenlabs",
+      "perplexity"
+    ],
+    "lever": [],
+    "remotive_queries": [
+      "nlp",
+      "natural language processing",
+      "machine learning",
+      "llm"
+    ],
+    "arbeitnow": true,
+    "theses_queries": [
+      "traitement automatique des langues",
+      "natural language processing",
+      "linguistique informatique",
+      "traitement automatique de la parole"
+    ],
+    "ttl_days": {
+      "nlppeople": 60,
+      "greenhouse": 3,
+      "ashby": 3,
+      "lever": 3,
+      "remotive": 30,
+      "arbeitnow": 30,
+      "theses": 365,
+      "default": 45
+    }
+  },
+  "locate": {
+    "_doc": "Géolocalisation : quotas d'appels par exécution (cache data/geocache.json)",
+    "wikidata_per_run": 250,
+    "github_owner_per_run": 300,
+    "items_per_run": 6000
+  },
+  "requetes": {
+    "_doc": "Requêtes suivies : issues GitHub portant l'étiquette ci-dessous (ouvertes depuis le bouton « Suivre cette recherche » du site).",
+    "label": "veille:requete",
+    "max_queries": 40
+  },
+  "repo": "OmniTAL/omnital.github.io"
+}

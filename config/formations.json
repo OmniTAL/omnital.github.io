@@ -1,0 +1,293 @@
+{
+ "_doc": "Formations en TAL (masters, licences/bachelors, écoles d'été). Liste éditoriale : l'agent vérifie chaque semaine que les liens répondent et géolocalise l'établissement. Ajouter une ligne = ajouter une formation sur le site.",
+ "formations": [
+  {
+   "niveau": "master",
+   "intitule": "Erasmus Mundus Master in Language and Communication Technologies (LCT)",
+   "etablissement": "Consortium coordonné par l'Universität des Saarlandes",
+   "ville": "Saarbrücken",
+   "pays": "DE",
+   "lien": "https://lct-master.org/",
+   "langues": "en"
+  },
+  {
+   "niveau": "master",
+   "intitule": "MSc Language Science and Technology",
+   "etablissement": "Universität des Saarlandes",
+   "ville": "Saarbrücken",
+   "pays": "DE",
+   "lien": "https://www.lst.uni-saarland.de/",
+   "langues": "en"
+  },
+  {
+   "niveau": "master",
+   "intitule": "MSc Computational Linguistics",
+   "etablissement": "Universität Stuttgart (IMS)",
+   "ville": "Stuttgart",
+   "pays": "DE",
+   "lien": "https://www.ims.uni-stuttgart.de/en/",
+   "langues": "en, de"
+  },
+  {
+   "niveau": "master",
+   "intitule": "MA Computational Linguistics",
+   "etablissement": "Eberhard Karls Universität Tübingen",
+   "ville": "Tübingen",
+   "pays": "DE",
+   "lien": "https://uni-tuebingen.de/en/",
+   "langues": "en, de"
+  },
+  {
+   "niveau": "master",
+   "intitule": "MSc Speech and Language Processing",
+   "etablissement": "University of Edinburgh",
+   "ville": "Edinburgh",
+   "pays": "GB",
+   "lien": "https://www.ed.ac.uk/",
+   "langues": "en"
+  },
+  {
+   "niveau": "master",
+   "intitule": "Master of Language Technologies (MLT)",
+   "etablissement": "Carnegie Mellon University – Language Technologies Institute",
+   "ville": "Pittsburgh",
+   "pays": "US",
+   "lien": "https://www.lti.cs.cmu.edu/",
+   "langues": "en"
+  },
+  {
+   "niveau": "master",
+   "intitule": "MS in Computational Linguistics (CLMS)",
+   "etablissement": "University of Washington",
+   "ville": "Seattle",
+   "pays": "US",
+   "lien": "https://www.compling.uw.edu/",
+   "langues": "en"
+  },
+  {
+   "niveau": "master",
+   "intitule": "MS in Computational Linguistics",
+   "etablissement": "Brandeis University",
+   "ville": "Waltham",
+   "pays": "US",
+   "lien": "https://www.brandeis.edu/",
+   "langues": "en"
+  },
+  {
+   "niveau": "master",
+   "intitule": "Master in Language Technology (MLT)",
+   "etablissement": "University of Gothenburg",
+   "ville": "Göteborg",
+   "pays": "SE",
+   "lien": "https://www.gu.se/en",
+   "langues": "en"
+  },
+  {
+   "niveau": "master",
+   "intitule": "Master Programme in Language Technology",
+   "etablissement": "Uppsala University",
+   "ville": "Uppsala",
+   "pays": "SE",
+   "lien": "https://www.uu.se/en",
+   "langues": "en"
+  },
+  {
+   "niveau": "master",
+   "intitule": "MSc Computer Science – Computational Linguistics",
+   "etablissement": "Univerzita Karlova (ÚFAL)",
+   "ville": "Prague",
+   "pays": "CZ",
+   "lien": "https://ufal.mff.cuni.cz/",
+   "langues": "en, cs"
+  },
+  {
+   "niveau": "master",
+   "intitule": "Master in Language Analysis and Processing (LAP)",
+   "etablissement": "Universidad del País Vasco / Euskal Herriko Unibertsitatea (HiTZ)",
+   "ville": "Donostia-San Sebastián",
+   "pays": "ES",
+   "lien": "https://www.hitz.eus/",
+   "langues": "en, eu, es"
+  },
+  {
+   "niveau": "master",
+   "intitule": "MSc Human Language Science and Technology",
+   "etablissement": "University of Malta – Institute of Linguistics and Language Technology",
+   "ville": "Msida",
+   "pays": "MT",
+   "lien": "https://www.um.edu.mt/linguistics/",
+   "langues": "en, mt"
+  },
+  {
+   "niveau": "master",
+   "intitule": "Master Traitement automatique des langues",
+   "etablissement": "Université de Lorraine (IDMC)",
+   "ville": "Nancy",
+   "pays": "FR",
+   "lien": "https://idmc.univ-lorraine.fr/",
+   "langues": "fr"
+  },
+  {
+   "niveau": "master",
+   "intitule": "Master TAL – Plurital",
+   "etablissement": "Inalco, Université Sorbonne Nouvelle, Université Paris Nanterre",
+   "ville": "Paris",
+   "pays": "FR",
+   "lien": "https://www.inalco.fr/",
+   "langues": "fr"
+  },
+  {
+   "niveau": "master",
+   "intitule": "Master Linguistique informatique",
+   "etablissement": "Université Paris Cité",
+   "ville": "Paris",
+   "pays": "FR",
+   "lien": "https://u-paris.fr/",
+   "langues": "fr"
+  },
+  {
+   "niveau": "master",
+   "intitule": "Master Industries de la langue",
+   "etablissement": "Université Grenoble Alpes",
+   "ville": "Grenoble",
+   "pays": "FR",
+   "lien": "https://www.univ-grenoble-alpes.fr/",
+   "langues": "fr"
+  },
+  {
+   "niveau": "master",
+   "intitule": "Master Langue et informatique",
+   "etablissement": "Sorbonne Université",
+   "ville": "Paris",
+   "pays": "FR",
+   "lien": "https://www.sorbonne-universite.fr/",
+   "langues": "fr"
+  },
+  {
+   "niveau": "master",
+   "intitule": "Master en traitement informatique multilingue",
+   "etablissement": "Université de Genève – Faculté de traduction et d'interprétation",
+   "ville": "Genève",
+   "pays": "CH",
+   "lien": "https://www.unige.ch/fti/",
+   "langues": "fr, en"
+  },
+  {
+   "niveau": "master",
+   "intitule": "MSc in Natural Language Processing",
+   "etablissement": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)",
+   "ville": "Abu Dhabi",
+   "pays": "AE",
+   "lien": "https://mbzuai.ac.ae/",
+   "langues": "en"
+  },
+  {
+   "niveau": "master",
+   "intitule": "Master's Programme in Linguistic Diversity and Digital Humanities",
+   "etablissement": "University of Helsinki",
+   "ville": "Helsinki",
+   "pays": "FI",
+   "lien": "https://www.helsinki.fi/en",
+   "langues": "en"
+  },
+  {
+   "niveau": "master",
+   "intitule": "MSc Voice Technology",
+   "etablissement": "Rijksuniversiteit Groningen – Campus Fryslân",
+   "ville": "Leeuwarden",
+   "pays": "NL",
+   "lien": "https://www.rug.nl/",
+   "langues": "en"
+  },
+  {
+   "niveau": "master",
+   "intitule": "Laurea magistrale in Informatica umanistica",
+   "etablissement": "Università di Pisa",
+   "ville": "Pisa",
+   "pays": "IT",
+   "lien": "https://www.unipi.it/",
+   "langues": "it"
+  },
+  {
+   "niveau": "master",
+   "intitule": "MSc Cognitive Science – Language and Multimodal Interaction",
+   "etablissement": "Università di Trento",
+   "ville": "Rovereto",
+   "pays": "IT",
+   "lien": "https://www.unitn.it/",
+   "langues": "en"
+  },
+  {
+   "niveau": "master",
+   "intitule": "Master in Theoretical and Applied Linguistics",
+   "etablissement": "Universitat Pompeu Fabra",
+   "ville": "Barcelona",
+   "pays": "ES",
+   "lien": "https://www.upf.edu/",
+   "langues": "en, es, ca"
+  },
+  {
+   "niveau": "bachelor",
+   "intitule": "BSc Computerlinguistik",
+   "etablissement": "Universität des Saarlandes",
+   "ville": "Saarbrücken",
+   "pays": "DE",
+   "lien": "https://www.uni-saarland.de/",
+   "langues": "de"
+  },
+  {
+   "niveau": "bachelor",
+   "intitule": "BSc Maschinelle Sprachverarbeitung",
+   "etablissement": "Universität Stuttgart (IMS)",
+   "ville": "Stuttgart",
+   "pays": "DE",
+   "lien": "https://www.ims.uni-stuttgart.de/",
+   "langues": "de"
+  },
+  {
+   "niveau": "bachelor",
+   "intitule": "BA Computerlinguistik",
+   "etablissement": "Universität Heidelberg",
+   "ville": "Heidelberg",
+   "pays": "DE",
+   "lien": "https://www.cl.uni-heidelberg.de/",
+   "langues": "de"
+  },
+  {
+   "niveau": "bachelor",
+   "intitule": "BA Computerlinguistik",
+   "etablissement": "Ludwig-Maximilians-Universität München (CIS)",
+   "ville": "München",
+   "pays": "DE",
+   "lien": "https://www.cis.uni-muenchen.de/",
+   "langues": "de"
+  },
+  {
+   "niveau": "school",
+   "intitule": "Lisbon Machine Learning Summer School (LxMLS)",
+   "etablissement": "Instituto de Telecomunicações / Instituto Superior Técnico",
+   "ville": "Lisboa",
+   "pays": "PT",
+   "lien": "https://lxmls.it.pt/",
+   "langues": "en"
+  },
+  {
+   "niveau": "school",
+   "intitule": "JSALT – Jelinek Summer Workshop on Speech and Language Technology",
+   "etablissement": "Johns Hopkins University (CLSP)",
+   "ville": "Baltimore",
+   "pays": "US",
+   "lien": "https://www.clsp.jhu.edu/",
+   "langues": "en"
+  },
+  {
+   "niveau": "school",
+   "intitule": "ESSLLI – European Summer School in Logic, Language and Information",
+   "etablissement": "FoLLI (lieu différent chaque année)",
+   "ville": null,
+   "pays": null,
+   "lien": "https://www.folli.info/",
+   "langues": "en"
+  }
+ ]
+}

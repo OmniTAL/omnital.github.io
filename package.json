@@ -1,0 +1,13 @@
+{
+  "name": "connectal",
+  "private": true,
+  "description": "ConnecTAL — ressources et veille en traitement automatique des langues",
+  "scripts": {
+    "build:css": "tailwindcss -i assets/css/input.css -o assets/css/app.css --minify",
+    "watch:css": "tailwindcss -i assets/css/input.css -o assets/css/app.css --watch",
+    "serve": "python3 -m http.server 8000"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.19"
+  }
+}

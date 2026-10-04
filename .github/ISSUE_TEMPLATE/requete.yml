@@ -1,0 +1,18 @@
+name: "🔎 Requête de veille"
+description: "Confier une recherche à l'agent de veille ConnecTAL : il la relancera chaque jour et ajoutera les résultats à la carte et au catalogue."
+title: "Requête de veille : "
+labels: ["veille:requete"]
+body:
+  - type: input
+    id: requete
+    attributes:
+      label: Requête
+      description: "Termes recherchés (ex. « corpus sicilien », « speech recognition Maltese »). Fermer l'issue arrête le suivi."
+      placeholder: "corpus sicilien"
+    validations:
+      required: true
+  - type: textarea
+    id: contexte
+    attributes:
+      label: Contexte (facultatif)
+      description: "Pourquoi suivre cette recherche ? Langue, type de ressource visé…"

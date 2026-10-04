@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>ConnecTAL — ressources et veille en TAL</title>
+  <meta name="description" content="ConnecTAL : tracker quotidien des ressources ouvertes en traitement automatique des langues (corpus, modèles, outils), des revues, des événements et des opportunités (emplois, stages, thèses, masters), avec un focus sur les langues peu dotées : berbère, langues méditerranéennes, arabe dialectal.">
+  <meta name="theme-color" content="#138A07">
+  <link rel="canonical" href="https://omnital.github.io/">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="ConnecTAL — veille TAL" href="data/feed.xml">
+
+  <!-- Open Graph / partage -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ConnecTAL — ressources et veille en TAL">
+  <meta property="og:description" content="Corpus, modèles, outils et événements en TAL, mis à jour chaque jour.">
+  <meta property="og:url" content="https://omnital.github.io/">
+  <meta property="og:locale" content="fr_FR">
+
+  <!-- Thème appliqué avant le rendu pour éviter le flash clair/sombre -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin>
+  <!-- CSS compilé (Tailwind + styles du site) : npm run build:css -->
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body class="flex flex-col h-[100dvh] overflow-hidden">
+  <a href="#main-content" class="skip-link">Aller au contenu</a>
+
+  <header class="flex-shrink-0 bg-surface border-b border-line z-20">
+    <div class="flex items-center justify-between gap-3 px-3 sm:px-4 h-16">
+      <a href="./" class="flex items-center gap-3 min-w-0" aria-label="ConnecTAL — accueil">
+        <span class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-accent flex items-center justify-center
+                     font-bold text-white text-lg shadow-lg flex-shrink-0 font-mono" aria-hidden="true">C</span>
+        <span class="min-w-0">
+          <span class="block text-base sm:text-lg font-semibold tracking-tight text-txt truncate leading-tight"
+                data-i18n="site_title">ConnecTAL</span>
+          <span class="hidden sm:block text-xs text-txt-3 leading-tight mt-0.5 truncate"
+                data-i18n="site_subtitle">Ressources & veille en traitement automatique des langues</span>
+        </span>
+      </a>
+
+      <div class="flex items-center gap-2 sm:gap-3 flex-shrink-0">
+        <span id="new-today-chip" class="stat-chip hidden sm:inline-flex" data-i18n-title="new_today_hint">
+          <span aria-hidden="true">🆕</span><span id="new-today-num" class="font-mono">0</span>
+          <span class="hidden md:inline" data-i18n="today">aujourd'hui</span>
+        </span>
+        <span id="last-updated-badge"
+              class="hidden md:flex text-xs bg-app text-txt-2 px-3 py-1.5 rounded-full border border-line items-center gap-2 whitespace-nowrap">
+          <span id="agent-dot" class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" aria-hidden="true"></span>
+          <span><span data-i18n="updated">MAJ</span> : <span id="last-updated-time" class="font-mono">…</span></span>
+        </span>
+        <a href="data/feed.xml" class="icon-btn hidden sm:inline-flex" data-i18n-title="rss" title="Flux RSS" aria-label="Flux RSS">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.18 15.64a2.18 2.18 0 110 4.36 2.18 2.18 0 010-4.36zM4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44zm0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/></svg>
+        </a>
+
+        <div class="lang-switcher" role="group" aria-label="Langue / Language / Tutlayt">
+          <button type="button" class="lang-btn lang-active" data-lang="fr" lang="fr">FR</button>
+          <button type="button" class="lang-btn" data-lang="en" lang="en">EN</button>
+          <button type="button" class="lang-btn" data-lang="kab" lang="kab" title="Taqbaylit">TQ</button>
+        </div>
+
+        <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Basculer le thème" aria-pressed="false">
+          <span class="icon icon-sun" aria-hidden="true">☀</span>
+          <span class="icon icon-moon" aria-hidden="true">☾</span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="px-3 sm:px-4 pb-3 lg:pb-0 lg:border-t lg:border-line lg:h-12 lg:flex lg:items-center" aria-label="Sections">
+      <div class="tabs-scroll flex gap-1 bg-app lg:bg-transparent rounded-lg p-1 lg:p-0 w-full lg:w-auto overflow-x-auto" role="tablist">
+        <button type="button" role="tab" data-tab="veille" aria-selected="true"
+                class="tab-btn tab-active flex-1 lg:flex-none text-center">
+          <span data-i18n="tab_veille">Veille</span> <span id="tab-count-veille" class="tab-count"></span>
+        </button>
+        <button type="button" role="tab" data-tab="catalogue" aria-selected="false"
+                class="tab-btn flex-1 lg:flex-none text-center">
+          <span data-i18n="tab_catalogue">Catalogue</span> <span id="tab-count-catalogue" class="tab-count"></span>
+        </button>
+        <button type="button" role="tab" data-tab="opps" aria-selected="false"
+                class="tab-btn flex-1 lg:flex-none text-center">
+          <span data-i18n="tab_opps">Opportunités</span> <span id="tab-count-opps" class="tab-count"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <div class="flex flex-1 overflow-hidden">
+
+    <!-- Liste (veille ou catalogue) -->
+    <aside id="notices-panel" aria-label="Résultats"
+           class="hidden lg:flex w-full lg:w-80 xl:w-96 bg-surface lg:border-r border-line flex-col overflow-hidden">
+      <form id="web-search-form" class="web-search p-4 border-b border-line flex-shrink-0" role="search">
+        <label for="web-q" class="text-sm font-semibold text-accent uppercase tracking-wider mb-1 block" data-i18n="web_title">Chercher sur le web</label>
+        <p class="text-xs text-txt-3 mb-2.5" data-i18n="web_hint">Hugging Face, GitHub, Zenodo, HAL, theses.fr — les résultats s'affichent sur la carte et dans le catalogue.</p>
+        <div class="flex gap-2">
+          <input type="search" id="web-q" autocomplete="off" data-i18n-placeholder="web_placeholder" placeholder="ex. corpus sicilien, ASR maltais…"
+                 class="flex-1 min-w-0 bg-elevated text-base text-txt px-3.5 py-2.5 rounded-lg border border-line
+                        focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 placeholder-txt-3 transition">
+          <button type="submit" class="btn-primary" data-i18n="web_go">Lancer</button>
+        </div>
+        <div id="web-history" class="flex flex-wrap gap-1.5 mt-2.5"></div>
+      </form>
+
+      <div class="p-4 border-b border-line flex-shrink-0">
+        <label for="search-input" class="text-sm font-semibold text-accent uppercase tracking-wider mb-3 block"
+               data-i18n="search_title">Chercher</label>
+        <div class="relative">
+          <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-txt-3 pointer-events-none"
+               fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+          </svg>
+          <input type="search" id="search-input" data-i18n-placeholder="search_site" autocomplete="off"
+                 placeholder="Rechercher…"
+                 class="w-full bg-elevated text-base text-txt pl-10 pr-3.5 py-2.5 rounded-lg border border-line
+                        focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 placeholder-txt-3 transition">
+        </div>
+        <p class="text-xs text-txt-3 mt-2.5" aria-live="polite">
+          <span id="results-count" class="font-mono font-medium">0</span> <span data-i18n="results">résultat(s)</span>
+        </p>
+      </div>
+
+      <div id="banners-container" class="flex-shrink-0 max-h-[40vh] overflow-y-auto"></div>
+      <div id="cards-container" class="flex-1 overflow-y-auto p-3 space-y-3"></div>
+    </aside>
+
+    <!-- Carte / grille catalogue -->
+    <main id="main-content" class="flex-1 relative bg-app overflow-hidden" tabindex="-1">
+      <h1 class="sr-only">ConnecTAL — carte de la veille en traitement automatique des langues</h1>
+      <div id="map" class="w-full h-full" role="region" aria-label="Carte des ressources"></div>
+      <div id="map-legend-mini" class="map-overlay">
+        <span id="map-counter"><span aria-hidden="true">📍</span><span id="map-counter-num">0</span></span>
+        <span id="map-unlocated" class="text-txt-3"></span>
+      </div>
+      <div id="catalogue-view" class="hidden absolute inset-0 overflow-y-auto p-4 sm:p-6 lg:p-8">
+        <div id="catalogue-grid" class="grid grid-cols-[repeat(auto-fill,minmax(min(100%,270px),1fr))] gap-4"></div>
+      </div>
+      <div id="loading-overlay" class="loading-overlay hidden" role="status"><div class="spinner"></div></div>
+    </main>
+
+    <!-- Filtres -->
+    <aside id="filters-panel" aria-label="Filtres"
+           class="hidden lg:flex w-full lg:w-72 xl:w-80 bg-surface lg:border-l border-line p-4 lg:p-5 flex-col gap-6 overflow-y-auto">
+
+      <section id="filters-veille">
+        <h2 class="panel-title" data-i18n="filters">Filtres</h2>
+        <div class="space-y-4">
+          <div>
+            <span class="field-label" data-i18n="period">Période</span>
+            <div class="seg" role="radiogroup" id="period-filter">
+              <button type="button" role="radio" data-period="1" data-i18n="period_1">24 h</button>
+              <button type="button" role="radio" data-period="7" data-i18n="period_7">7 j</button>
+              <button type="button" role="radio" data-period="30" data-i18n="period_30">30 j</button>
+              <button type="button" role="radio" data-period="0" class="seg-active" aria-checked="true" data-i18n="period_all">Tout</button>
+            </div>
+          </div>
+          <div>
+            <label for="vsource-filter" class="field-label" data-i18n="source">Source</label>
+            <select id="vsource-filter" class="field"><option value="ALL" data-i18n="source_all">Toutes les sources</option></select>
+          </div>
+          <div>
+            <label for="type-filter" class="field-label" data-i18n="type">Type de ressource</label>
+            <select id="type-filter" class="field"><option value="ALL" data-i18n="type_all">Tous les types</option></select>
+          </div>
+          <div>
+            <label for="region-filter" class="field-label" data-i18n="region">Région</label>
+            <select id="region-filter" class="field"><option value="ALL" data-i18n="region_all">Toutes les régions</option></select>
+          </div>
+          <div>
+            <label for="langgroup-filter" class="field-label" data-i18n="lowres">Langues peu dotées</label>
+            <select id="langgroup-filter" class="field">
+              <option value="ALL" data-i18n="lowres_all">Toutes les ressources</option>
+              <option value="ANY" data-i18n="lowres_any">Toutes les langues suivies</option>
+              <option value="berbere" data-i18n="group_berbere">Langues berbères</option>
+              <option value="mediterranee" data-i18n="group_mediterranee">Langues méditerranéennes</option>
+              <option value="arabe" data-i18n="group_arabe">Arabe dialectal</option>
+            </select>
+          </div>
+          <div>
+            <label for="lang-filter" class="field-label" data-i18n="language">Langue</label>
+            <select id="lang-filter" class="field"><option value="ALL" data-i18n="language_all">Toutes</option></select>
+          </div>
+          <div id="query-filter-wrap" class="hidden">
+            <label for="query-filter" class="field-label" data-i18n="tracked_query">Requête suivie</label>
+            <select id="query-filter" class="field"><option value="ALL" data-i18n="tracked_all">Toutes</option></select>
+          </div>
+          <label class="check">
+            <input type="checkbox" id="catalogue-layer" checked>
+            <span data-i18n="show_catalogue_layer">Afficher le catalogue sur la carte</span>
+          </label>
+        </div>
+      </section>
+
+      <section id="filters-catalogue" class="hidden">
+        <h2 class="panel-title" data-i18n="filters_catalogue">Filtres catalogue</h2>
+        <div class="space-y-4">
+          <div>
+            <label for="source-filter" class="field-label" data-i18n="collection">Collection</label>
+            <select id="source-filter" class="field"><option value="ALL" data-i18n="source_all">Toutes</option></select>
+          </div>
+          <div>
+            <label for="cat-filter" class="field-label" data-i18n="category">Catégorie</label>
+            <select id="cat-filter" class="field"><option value="ALL" data-i18n="category_all">Toutes</option></select>
+          </div>
+          <div>
+            <label for="langue-filter" class="field-label" data-i18n="language">Langue</label>
+            <select id="langue-filter" class="field"><option value="ALL" data-i18n="language_all">Toutes</option></select>
+          </div>
+          <div>
+            <label for="oa-filter" class="field-label" data-i18n="license">Licence / accès</label>
+            <select id="oa-filter" class="field">
+              <option value="ALL" data-i18n="license_all">Toutes</option>
+              <option value="open" data-i18n="license_open">Ouverte / open access</option>
+              <option value="partial" data-i18n="license_partial">Partielle / variable</option>
+              <option value="restricted" data-i18n="license_closed">Restreinte / sous licence</option>
+              <option value="unknown" data-i18n="license_unknown">Non précisée</option>
+            </select>
+          </div>
+          <div>
+            <label for="cat-sort" class="field-label" data-i18n="sort">Trier par</label>
+            <select id="cat-sort" class="field">
+              <option value="relevance" data-i18n="sort_relevance">Pertinence</option>
+              <option value="deadline" data-i18n="sort_deadline">Prochaine échéance</option>
+              <option value="recent" data-i18n="sort_recent">Ajouts récents</option>
+              <option value="alpha" data-i18n="sort_alpha">Ordre alphabétique</option>
+            </select>
+          </div>
+          <label class="check">
+            <input type="checkbox" id="deadline-filter">
+            <span data-i18n="deadline_only">Échéance à venir uniquement</span>
+          </label>
+        </div>
+      </section>
+
+      <section id="filters-opps" class="hidden">
+        <h2 class="panel-title" data-i18n="filters_opps">Filtres opportunités</h2>
+        <div class="space-y-4">
+          <div>
+            <label for="opp-kind" class="field-label" data-i18n="opp_kind">Type d'opportunité</label>
+            <select id="opp-kind" class="field"><option value="ALL" data-i18n="opp_all">Toutes</option></select>
+          </div>
+          <div>
+            <label for="opp-region" class="field-label" data-i18n="region">Région / pays</label>
+            <select id="opp-region" class="field"><option value="ALL" data-i18n="region_all">Toutes les régions</option></select>
+          </div>
+          <div>
+            <label for="opp-source" class="field-label" data-i18n="source">Source</label>
+            <select id="opp-source" class="field"><option value="ALL" data-i18n="source_all">Toutes les sources</option></select>
+          </div>
+          <label class="check">
+            <input type="checkbox" id="opp-remote">
+            <span data-i18n="opp_remote">Télétravail possible</span>
+          </label>
+        </div>
+      </section>
+
+      <button type="button" id="reset-filters" class="btn-ghost" data-i18n="reset_filters">Réinitialiser les filtres</button>
+
+      <section class="border-t border-line pt-5">
+        <h2 class="panel-title" data-i18n="legend">Légende</h2>
+        <ul class="space-y-2.5 text-sm" id="legend-list"></ul>
+      </section>
+
+      <section class="border-t border-line pt-5 mt-auto">
+        <h2 class="panel-title" data-i18n="agent_status">État de l'agent</h2>
+        <ul id="agent-status" class="space-y-1.5 text-xs font-mono"></ul>
+        <p class="text-xs text-txt-3 mt-3">
+          <a class="link" href="data/feed.xml" data-i18n="rss_subscribe">S'abonner au flux RSS</a> ·
+          <a class="link" href="https://github.com/OmniTAL/omnital.github.io" rel="noopener" data-i18n="source_code">Code source</a>
+        </p>
+      </section>
+    </aside>
+  </div>
+
+  <nav id="mobile-nav" class="lg:hidden flex-shrink-0 bg-surface border-t border-line flex items-stretch h-16 z-30" aria-label="Vues">
+    <button type="button" data-mobile-view="map" class="mobile-nav-btn mobile-nav-active flex-1">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+      </svg>
+      <span class="mobile-nav-label text-xs font-medium" data-i18n="view_map">Carte</span>
+    </button>
+    <button type="button" data-mobile-view="notices" class="mobile-nav-btn flex-1">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h10M4 18h10"/>
+      </svg>
+      <span class="text-xs font-medium" data-i18n="view_list">Liste</span>
+    </button>
+    <button type="button" data-mobile-view="filters" class="mobile-nav-btn flex-1">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"/>
+      </svg>
+      <span class="text-xs font-medium" data-i18n="view_filters">Filtres</span>
+    </button>
+  </nav>
+
+  <noscript>
+    <p style="padding:1rem;text-align:center">ConnecTAL nécessite JavaScript. Le flux de veille reste disponible en <a href="data/feed.xml">RSS</a>.</p>
+  </noscript>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin></script>
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" crossorigin></script>
+  <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.20/leaflet-maplibre-gl.js" crossorigin></script>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

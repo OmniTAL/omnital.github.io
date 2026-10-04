@@ -1,0 +1,662 @@
+{
+"groups": {
+"berbere": {
+"fr": "Langues berbères",
+"en": "Berber languages"
+},
+"mediterranee": {
+"fr": "Langues méditerranéennes peu dotées",
+"en": "Low-resource Mediterranean languages"
+},
+"arabe": {
+"fr": "Arabe dialectal",
+"en": "Dialectal Arabic"
+}
+},
+"languages": [
+{
+"code": "kab",
+"codes": [
+"kab"
+],
+"fr": "Kabyle",
+"en": "Kabyle",
+"group": "berbere",
+"keywords": [
+"kabyle",
+"kabyl",
+"taqbaylit"
+],
+"region": "Kabylie",
+"lat": 36.7118,
+"lng": 4.0459
+},
+{
+"code": "shy",
+"codes": [
+"shy"
+],
+"fr": "Chaoui",
+"en": "Shawiya",
+"group": "berbere",
+"keywords": [
+"chaoui",
+"chawi",
+"shawiya",
+"tachawit"
+],
+"region": "Aurès",
+"lat": 35.5559,
+"lng": 6.1743
+},
+{
+"code": "mzb",
+"codes": [
+"mzb"
+],
+"fr": "Mozabite",
+"en": "Mozabite",
+"group": "berbere",
+"keywords": [
+"mozabite",
+"tumzabt"
+],
+"region": "Mzab",
+"lat": 32.4909,
+"lng": 3.6735
+},
+{
+"code": "shi",
+"codes": [
+"shi"
+],
+"fr": "Tachelhit",
+"en": "Tachelhit",
+"group": "berbere",
+"keywords": [
+"tachelhit",
+"tashelhit",
+"tashlhiyt",
+"tashelhiyt",
+"souss"
+],
+"region": "Souss",
+"lat": 30.4278,
+"lng": -9.5981
+},
+{
+"code": "rif",
+"codes": [
+"rif"
+],
+"fr": "Tarifit",
+"en": "Tarifit",
+"group": "berbere",
+"keywords": [
+"tarifit",
+"riffian",
+"rifain"
+],
+"region": "Rif",
+"lat": 35.2517,
+"lng": -3.9372
+},
+{
+"code": "tzm",
+"codes": [
+"tzm"
+],
+"fr": "Tamazight du Maroc central",
+"en": "Central Atlas Tamazight",
+"group": "berbere",
+"keywords": [
+"central atlas tamazight",
+"tamazight (maroc)"
+],
+"region": "Moyen Atlas",
+"lat": 32.9394,
+"lng": -5.6675
+},
+{
+"code": "taq",
+"codes": [
+"taq",
+"thv",
+"tmh",
+"ttq",
+"thz"
+],
+"fr": "Touareg (tamasheq)",
+"en": "Tuareg (Tamasheq)",
+"group": "berbere",
+"keywords": [
+"tuareg",
+"touareg",
+"tamasheq",
+"tamahaq",
+"tamajaq"
+],
+"region": "Sahara",
+"lat": 22.785,
+"lng": 5.5228
+},
+{
+"code": "zgh",
+"codes": [
+"zgh",
+"ber",
+"tzg"
+],
+"fr": "Amazighe (tamazight)",
+"en": "Amazigh (Tamazight)",
+"group": "berbere",
+"keywords": [
+"amazigh",
+"amazighe",
+"tamazight",
+"tamaziɣt",
+"tifinagh",
+"berber",
+"berbère"
+],
+"region": "Tamazgha",
+"lat": 34.0209,
+"lng": -6.8416
+},
+{
+"code": "ca",
+"codes": [
+"ca",
+"cat"
+],
+"fr": "Catalan",
+"en": "Catalan",
+"group": "mediterranee",
+"keywords": [
+"catalan",
+"català",
+"valencian",
+"valencià"
+],
+"region": "Catalogne",
+"lat": 41.3874,
+"lng": 2.1686
+},
+{
+"code": "eu",
+"codes": [
+"eu",
+"eus",
+"baq"
+],
+"fr": "Basque",
+"en": "Basque",
+"group": "mediterranee",
+"keywords": [
+"basque",
+"euskara",
+"euskera"
+],
+"region": "Pays basque",
+"lat": 43.263,
+"lng": -2.935
+},
+{
+"code": "gl",
+"codes": [
+"gl",
+"glg"
+],
+"fr": "Galicien",
+"en": "Galician",
+"group": "mediterranee",
+"keywords": [
+"galician",
+"galicien",
+"galego"
+],
+"region": "Galice",
+"lat": 42.8782,
+"lng": -8.5448
+},
+{
+"code": "ast",
+"codes": [
+"ast"
+],
+"fr": "Asturien",
+"en": "Asturian",
+"group": "mediterranee",
+"keywords": [
+"asturian",
+"asturien",
+"asturianu"
+],
+"region": "Asturies",
+"lat": 43.3614,
+"lng": -5.8593
+},
+{
+"code": "an",
+"codes": [
+"an",
+"arg"
+],
+"fr": "Aragonais",
+"en": "Aragonese",
+"group": "mediterranee",
+"keywords": [
+"aragonese",
+"aragonais",
+"aragonés"
+],
+"region": "Aragon",
+"lat": 42.1362,
+"lng": -0.4087
+},
+{
+"code": "oc",
+"codes": [
+"oc",
+"oci"
+],
+"fr": "Occitan",
+"en": "Occitan",
+"group": "mediterranee",
+"keywords": [
+"occitan",
+"provençal",
+"provencal",
+"gascon"
+],
+"region": "Occitanie",
+"lat": 43.6047,
+"lng": 1.4442
+},
+{
+"code": "frp",
+"codes": [
+"frp"
+],
+"fr": "Francoprovençal",
+"en": "Franco-Provençal",
+"group": "mediterranee",
+"keywords": [
+"arpitan",
+"francoprovençal",
+"franco-provençal",
+"francoprovencal"
+],
+"region": "Val d'Aoste",
+"lat": 45.737,
+"lng": 7.3201
+},
+{
+"code": "co",
+"codes": [
+"co",
+"cos"
+],
+"fr": "Corse",
+"en": "Corsican",
+"group": "mediterranee",
+"keywords": [
+"corsican",
+"corse ",
+"corsu",
+"langue corse"
+],
+"region": "Corse",
+"lat": 42.3063,
+"lng": 9.15
+},
+{
+"code": "sc",
+"codes": [
+"sc",
+"srd",
+"sro",
+"src"
+],
+"fr": "Sarde",
+"en": "Sardinian",
+"group": "mediterranee",
+"keywords": [
+"sardinian",
+"sarde",
+"sardu",
+"logudorese",
+"campidanese"
+],
+"region": "Sardaigne",
+"lat": 39.2238,
+"lng": 9.1217
+},
+{
+"code": "scn",
+"codes": [
+"scn"
+],
+"fr": "Sicilien",
+"en": "Sicilian",
+"group": "mediterranee",
+"keywords": [
+"sicilian",
+"sicilien",
+"sicilianu"
+],
+"region": "Sicile",
+"lat": 38.1157,
+"lng": 13.3615
+},
+{
+"code": "nap",
+"codes": [
+"nap"
+],
+"fr": "Napolitain",
+"en": "Neapolitan",
+"group": "mediterranee",
+"keywords": [
+"neapolitan",
+"napolitain",
+"napulitano"
+],
+"region": "Campanie",
+"lat": 40.8518,
+"lng": 14.2681
+},
+{
+"code": "lij",
+"codes": [
+"lij"
+],
+"fr": "Ligure",
+"en": "Ligurian",
+"group": "mediterranee",
+"keywords": [
+"ligurian",
+"ligure",
+"genoese"
+],
+"region": "Ligurie",
+"lat": 44.4056,
+"lng": 8.9463
+},
+{
+"code": "vec",
+"codes": [
+"vec"
+],
+"fr": "Vénitien",
+"en": "Venetian",
+"group": "mediterranee",
+"keywords": [
+"venetian",
+"vénitien",
+"vèneto"
+],
+"region": "Vénétie",
+"lat": 45.4408,
+"lng": 12.3155
+},
+{
+"code": "fur",
+"codes": [
+"fur"
+],
+"fr": "Frioulan",
+"en": "Friulian",
+"group": "mediterranee",
+"keywords": [
+"friulian",
+"frioulan",
+"furlan"
+],
+"region": "Frioul",
+"lat": 46.0711,
+"lng": 13.2346
+},
+{
+"code": "lld",
+"codes": [
+"lld"
+],
+"fr": "Ladin",
+"en": "Ladin",
+"group": "mediterranee",
+"keywords": [
+"ladin dolomit",
+"ladin language"
+],
+"region": "Dolomites",
+"lat": 46.5405,
+"lng": 11.8483
+},
+{
+"code": "mt",
+"codes": [
+"mt",
+"mlt"
+],
+"fr": "Maltais",
+"en": "Maltese",
+"group": "mediterranee",
+"keywords": [
+"maltese",
+"maltais",
+"malti"
+],
+"region": "Malte",
+"lat": 35.8989,
+"lng": 14.5146
+},
+{
+"code": "lad",
+"codes": [
+"lad"
+],
+"fr": "Judéo-espagnol",
+"en": "Ladino",
+"group": "mediterranee",
+"keywords": [
+"ladino",
+"judeo-spanish",
+"judéo-espagnol",
+"judezmo"
+],
+"region": "Istanbul / Thessalonique",
+"lat": 41.0082,
+"lng": 28.9784
+},
+{
+"code": "aae",
+"codes": [
+"aae"
+],
+"fr": "Arbëresh",
+"en": "Arbëresh",
+"group": "mediterranee",
+"keywords": [
+"arbëresh",
+"arberesh",
+"arbereshe"
+],
+"region": "Calabre",
+"lat": 39.2983,
+"lng": 16.2538
+},
+{
+"code": "cpg",
+"codes": [
+"cpg"
+],
+"fr": "Dialectes grecs (chypriote, griko…)",
+"en": "Greek dialects (Cypriot, Griko…)",
+"group": "mediterranee",
+"keywords": [
+"cypriot greek",
+"grec chypriote",
+"griko",
+"pontic greek",
+"tsakonian"
+],
+"region": "Chypre",
+"lat": 35.1856,
+"lng": 33.3823
+},
+{
+"code": "ary",
+"codes": [
+"ary"
+],
+"fr": "Darija marocaine",
+"en": "Moroccan Arabic",
+"group": "arabe",
+"keywords": [
+"moroccan arabic",
+"darija marocaine",
+"moroccan darija",
+"darija"
+],
+"region": "Maroc",
+"lat": 33.5731,
+"lng": -7.5898
+},
+{
+"code": "arq",
+"codes": [
+"arq"
+],
+"fr": "Darja algérienne",
+"en": "Algerian Arabic",
+"group": "arabe",
+"keywords": [
+"algerian arabic",
+"algerian dialect",
+"darja algérienne",
+"arabe algérien"
+],
+"region": "Algérie",
+"lat": 36.7538,
+"lng": 3.0588
+},
+{
+"code": "aeb",
+"codes": [
+"aeb"
+],
+"fr": "Arabe tunisien",
+"en": "Tunisian Arabic",
+"group": "arabe",
+"keywords": [
+"tunisian arabic",
+"tunisian dialect",
+"arabe tunisien",
+"derja",
+"tounsi"
+],
+"region": "Tunisie",
+"lat": 36.8065,
+"lng": 10.1815
+},
+{
+"code": "ayl",
+"codes": [
+"ayl"
+],
+"fr": "Arabe libyen",
+"en": "Libyan Arabic",
+"group": "arabe",
+"keywords": [
+"libyan arabic",
+"arabe libyen"
+],
+"region": "Libye",
+"lat": 32.8872,
+"lng": 13.1913
+},
+{
+"code": "arz",
+"codes": [
+"arz"
+],
+"fr": "Arabe égyptien",
+"en": "Egyptian Arabic",
+"group": "arabe",
+"keywords": [
+"egyptian arabic",
+"arabe égyptien",
+"masri"
+],
+"region": "Égypte",
+"lat": 30.0444,
+"lng": 31.2357
+},
+{
+"code": "apc",
+"codes": [
+"apc",
+"ajp",
+"acm",
+"apd"
+],
+"fr": "Arabe levantin",
+"en": "Levantine Arabic",
+"group": "arabe",
+"keywords": [
+"levantine arabic",
+"arabe levantin",
+"lebanese arabic",
+"syrian arabic",
+"palestinian arabic",
+"jordanian arabic"
+],
+"region": "Levant",
+"lat": 33.8938,
+"lng": 35.5018
+},
+{
+"code": "afb",
+"codes": [
+"afb",
+"acm",
+"ayp",
+"acq"
+],
+"fr": "Arabe du Golfe / irakien",
+"en": "Gulf / Iraqi Arabic",
+"group": "arabe",
+"keywords": [
+"gulf arabic",
+"iraqi arabic",
+"yemeni arabic",
+"emirati arabic"
+],
+"region": "Golfe",
+"lat": 25.2048,
+"lng": 55.2708
+},
+{
+"code": "ar-dial",
+"codes": [
+"ar-dial"
+],
+"fr": "Arabe dialectal (général)",
+"en": "Dialectal Arabic",
+"group": "arabe",
+"keywords": [
+"dialectal arabic",
+"arabic dialect",
+"arabe dialectal",
+"arabizi",
+"nadi shared task",
+"maghrebi arabic",
+"north african arabic"
+],
+"region": "Maghreb–Machrek",
+"lat": 33.0,
+"lng": 15.0
+}
+]
+}

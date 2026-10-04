@@ -1,0 +1,119 @@
+# Veille quotidienne + déploiement GitHub Pages
+#  - chaque jour : l'agent collecte les nouveautés, commite data/ puis publie le site
+#  - à chaque push sur main : reconstruit le catalogue/CSS et republie
+#  - à la demande : onglet Actions → « Veille & déploiement » → Run workflow
+name: Veille & déploiement
+
+on:
+  schedule:
+    - cron: "17 5 * * *"     # 05:17 UTC ≈ 07:17 Paris (heure d'été) — après l'annonce arXiv
+  issues:
+    types: [opened, reopened, labeled]   # nouvelle requête suivie → collecte immédiate
+  push:
+    branches: [main]
+    paths-ignore: ["README.md", "docs/**"]
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: "Sources à interroger (vide = toutes) ex : arxiv,huggingface"
+        required: false
+        default: ""
+
+permissions:
+  contents: write   # commit des données de veille
+  issues: write     # requêtes suivies : lecture des issues « veille:requete » et accusé de réception
+  pages: write      # déploiement Pages
+  id-token: write
+
+concurrency:
+  group: veille-pages
+  cancel-in-progress: false
+
+jobs:
+  veille:
+    # issues : uniquement les requêtes de veille (pas les autres tickets)
+    if: github.event_name != 'issues' || contains(github.event.issue.labels.*.name, 'veille:requete')
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Dépendances Python
+        run: pip install -r scripts/requirements.txt
+
+      - name: Catalogue (xlsx → data/ressources.json)
+        run: python scripts/build_ressources.py
+
+      - name: Agent de veille
+        # sur un simple push on régénère sans collecter (rapide, pas d'appel réseau)
+        run: |
+          if [ "$EVENT" = "push" ]; then
+            python scripts/agent_veille_nlp.py --offline
+          elif [ "$EVENT" = "issues" ]; then
+            python scripts/agent_veille_nlp.py --only requetes
+          elif [ -n "$SOURCES" ]; then
+            python scripts/agent_veille_nlp.py --only "$SOURCES"
+          else
+            python scripts/agent_veille_nlp.py
+          fi
+        env:
+          EVENT: ${{ github.event_name }}
+          SOURCES: ${{ github.event.inputs.sources }}   # passé par variable : pas d'injection shell
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}     # quota de l'API de recherche GitHub
+          # Optionnel : notices rédigées par l'API Gemini (Settings → Secrets → Actions → GEMINI_API_KEY).
+          # Sans ce secret, l'agent rédige les notices avec ses gabarits.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: CSS (Tailwind)
+        run: npx --yes tailwindcss@3.4.19 -i assets/css/input.css -o assets/css/app.css --minify
+
+      - name: Valider les JSON publiés
+        run: |
+          for f in data/radar.json data/ressources.json data/i18n.json; do
+            python -c "import json,sys; json.load(open('$f'))" || { echo "JSON invalide : $f"; exit 1; }
+          done
+
+      - name: Commit des données
+        run: |
+          git config user.name  "connectal-veille[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ assets/css/app.css
+          if git diff --cached --quiet; then
+            echo "Aucun changement à committer."
+          else
+            git commit -m "veille: mise à jour $(date -u +%F)"
+            git pull --rebase --autostash origin main   # au cas où un push a eu lieu pendant la veille
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - name: Préparer le site
+        run: |
+          mkdir -p _site
+          cp -r index.html 404.html robots.txt sitemap.xml .nojekyll assets data _site/
+          rm -f _site/data/veille_history.json _site/data/geocache.json _site/data/catalogue_auto.json   # fichiers internes
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: veille
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
