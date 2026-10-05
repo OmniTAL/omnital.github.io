@@ -6,806 +6,806 @@
     <atom:link href="https://omnital.github.io/data/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Nouvelles ressources en traitement automatique des langues (arXiv, HAL, Hugging Face, GitHub, WikiCFP).</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 04 Oct 2026 20:16:12 +0000</lastBuildDate>
-    <item>
-      <title>[Event] FQAS 2027 : Flexible Query Answering Systems - 2027</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203475</link>
-      <guid isPermaLink="false">wikicfp:203475</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Flexible Query Answering Systems - 2027</description>
+    <lastBuildDate>Mon, 05 Oct 2026 12:25:24 +0000</lastBuildDate>
+    <item>
+      <title>[Paper] HakemBench: A Turkish Benchmark of Typed Decisions</title>
+      <link>https://arxiv.org/abs/2610.02293</link>
+      <guid isPermaLink="false">arxiv:2610.02293</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>HakemBench is a Turkish benchmark of typed decisions, in which the model under test reads a text, a question and a fixed set of options and returns a probability for every option. Version 1.0 is released fully open under CC BY 4.0, with…</description>
     </item>
-    <item>
-      <title>[Event] ACL 2027 : The 65th Annual Meeting of the Association for Computational Linguistics</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201213</link>
-      <guid isPermaLink="false">wikicfp:201213</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>The 65th Annual Meeting of the Association for Computational Linguistics</description>
+    <item>
+      <title>[Paper] Finding the Move Is Not Winning the Game: XiangqiBench for Closed-Loop Evaluation of LLM Agents</title>
+      <link>https://arxiv.org/abs/2610.02425</link>
+      <guid isPermaLink="false">arxiv:2610.02425</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Static evaluations credit a language model for naming the right move, but an agent must carry a plan through to a verified outcome while an opponent responds. We introduce XiangqiBench, an executable benchmark that measures this…</description>
     </item>
-    <item>
-      <title>[Event] LCS 2027 : 14th International Conference on Language, Communication, and Society 2027</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202863</link>
-      <guid isPermaLink="false">wikicfp:202863</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>14th International Conference on Language, Communication, and Society 2027</description>
+    <item>
+      <title>[Paper] Counterexample Generation via Per-Theorem Symbolic Verifiers: When Imitation Hurts and Reinforcement Repairs</title>
+      <link>https://arxiv.org/abs/2610.02444</link>
+      <guid isPermaLink="false">arxiv:2610.02444</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large language models often solve a theorem forward yet fail to disprove a closely related false one: a falsification gap that supervised fine-tuning does not close and can actively worsen. We frame counterexample generation as…</description>
     </item>
-    <item>
-      <title>[Event] ICLL 2027 : 2027 11th International Conference on Linguistics and Literature (ICLL 2027)</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203492</link>
-      <guid isPermaLink="false">wikicfp:203492</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>2027 11th International Conference on Linguistics and Literature (ICLL 2027)</description>
+    <item>
+      <title>[Paper] FinDialogLens: Event Extraction over Multi-Party Dialogue for Missed-Trade Identification in Financial Chatrooms</title>
+      <link>https://arxiv.org/abs/2610.02455</link>
+      <guid isPermaLink="false">arxiv:2610.02455</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Multi-party financial chatrooms are vital for sales-and-trading professionals, but their complexity makes manual recovery of missed trades infeasible: each Request for Quote (RFQ) is an event whose final price and trade outcome appear…</description>
     </item>
-    <item>
-      <title>[Event] NAACL 2027 : The 2027 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202808</link>
-      <guid isPermaLink="false">wikicfp:202808</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>The 2027 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics</description>
+    <item>
+      <title>[Paper] CUEing User Simulators: Calibrated User Embeddings for Multi-Turn Benchmarking</title>
+      <link>https://arxiv.org/abs/2610.02460</link>
+      <guid isPermaLink="false">arxiv:2610.02460</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Recent benchmarks rely on user simulators to evaluate AI agents in multi-turn interaction. While existing simulation techniques demonstrate surface fidelity to human style and behavior, ecologically valid interactive benchmarking also…</description>
     </item>
-    <item>
-      <title>[Event] NAACL-SRW 2027 : NAACL 2027 Student Research Workshop: Call for Papers and Mentors</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203342</link>
-      <guid isPermaLink="false">wikicfp:203342</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>NAACL 2027 Student Research Workshop: Call for Papers and Mentors</description>
+    <item>
+      <title>[Paper] APDMem: Agent-Controlled Progressive Disclosure for Query-Adaptive Long-Term Memory</title>
+      <link>https://arxiv.org/abs/2610.02472</link>
+      <guid isPermaLink="false">arxiv:2610.02472</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Personalized LLM assistants must recover sparse evidence from long conversation histories across queries of varying complexity. We introduce APDMem (Agent-controlled Progressive Disclosure Memory), a hierarchical long-term memory…</description>
     </item>
-    <item>
-      <title>[Event] ICCLL 2027 : 2027 the 13th International Conference on Culture, Languages and Literature (ICCLL 2027)</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201230</link>
-      <guid isPermaLink="false">wikicfp:201230</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>2027 the 13th International Conference on Culture, Languages and Literature (ICCLL 2027)</description>
+    <item>
+      <title>[Paper] From Retrieval to Typed Decisions: Calibrated System One Models from Biomedical Sentence Encoders</title>
+      <link>https://arxiv.org/abs/2610.02486</link>
+      <guid isPermaLink="false">arxiv:2610.02486</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Typed decision models answer schema-constrained questions about a text in one forward pass and return probabilities meant to be thresholded. We ask whether biomedical sentence encoders trained for retrieval are good starting points for…</description>
     </item>
-    <item>
-      <title>[Event] ICASSP 2027 : 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201211</link>
-      <guid isPermaLink="false">wikicfp:201211</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>2027 IEEE International Conference on Acoustics, Speech, and Signal Processing</description>
+    <item>
+      <title>[Paper] A generative-informed neuro-symbolic framework for syntactic ambiguity resolution: Evidence from Arabic DPs</title>
+      <link>https://arxiv.org/abs/2610.02529</link>
+      <guid isPermaLink="false">arxiv:2610.02529</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Syntactic ambiguity poses a persistent challenge for Arabic NLP, particularly in morphologically rich nominal constructions where multiple structu6ral interpretations may be compatible with the same surface sequence. This study proposes a…</description>
     </item>
-    <item>
-      <title>[Event] COLING 2027 : 32nd International Conference on Computational Linguistics</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201720</link>
-      <guid isPermaLink="false">wikicfp:201720</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>32nd International Conference on Computational Linguistics</description>
+    <item>
+      <title>[Paper] Evaluating Multi-Dimensional Generalization of Large Language Models in Temporal Extraction Tasks</title>
+      <link>https://arxiv.org/abs/2610.02549</link>
+      <guid isPermaLink="false">arxiv:2610.02549</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Time and event expression extraction are fundamental temporal reasoning tasks, but the problem remains difficult due to annotation ambiguity, domain sensitivity, and unstable model behavior. Existing evaluations focus on in-domain…</description>
     </item>
-    <item>
-      <title>[Event] KNLP 2027 : Knowledge and Natural Language Processing Track @ ACM SAC 2027</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202785</link>
-      <guid isPermaLink="false">wikicfp:202785</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Knowledge and Natural Language Processing Track @ ACM SAC 2027</description>
+    <item>
+      <title>[Paper] Learning When to Commit from Partial Speech for End-to-End Simultaneous Speech Translation</title>
+      <link>https://arxiv.org/abs/2610.02612</link>
+      <guid isPermaLink="false">arxiv:2610.02612</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Simultaneous speech translation must emit useful target text before the source is complete while preserving every committed token. We adapt a full-utterance speech language model using prefix supervision derived from its own complete- and…</description>
     </item>
-    <item>
-      <title>[Event] KNLP@SAC 2027 : Knowledge and Natural Language Processing Track @ ACM SAC 2027</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203406</link>
-      <guid isPermaLink="false">wikicfp:203406</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Knowledge and Natural Language Processing Track @ ACM SAC 2027</description>
+    <item>
+      <title>[Paper] Large Language Continuous Diffusion Models</title>
+      <link>https://arxiv.org/abs/2610.02665</link>
+      <guid isPermaLink="false">arxiv:2610.02665</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Despite the success of discrete diffusion language models (dLMs) for fast parallel decoding, their non-smooth, high-dimensional space hinders trajectory steering for reasoning and inference acceleration. To overcome this, we present…</description>
     </item>
-    <item>
-      <title>[Event] GWC 2027 : Global Wordnet Conference</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201596</link>
-      <guid isPermaLink="false">wikicfp:201596</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Global Wordnet Conference</description>
+    <item>
+      <title>[Paper] Silent Dissent: LLM Agents That Yield to the Majority Still Represent Their Original Premise</title>
+      <link>https://arxiv.org/abs/2610.02702</link>
+      <guid isPermaLink="false">arxiv:2610.02702</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Multi-agent debate is increasingly used to reach consensus among LLM agents, yet agents often yield to a unanimous majority. When an agent changes its answer, has it changed its mind or only its statement? We study this with two-hop…</description>
     </item>
-    <item>
-      <title>[Event] TLLL 2027 : The 12th International Conference on Languages, Linguistics, Translation and Literature</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202994</link>
-      <guid isPermaLink="false">wikicfp:202994</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>The 12th International Conference on Languages, Linguistics, Translation and Literature</description>
+    <item>
+      <title>[Paper] WakeKV: Reactive, Reversible KV Residency for Heads That Change Their Minds</title>
+      <link>https://arxiv.org/abs/2610.02713</link>
+      <guid isPermaLink="false">arxiv:2610.02713</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Most KV-cache compression methods classify attention heads once, either offline or during prefill, and keep this classification fixed throughout generation. Across three models (1.5B-8B) and three regimes (needle retrieval, long…</description>
     </item>
-    <item>
-      <title>[Event] QDLCA 2027 : Quantitative Diachronic Linguistics and Cultural Analytics</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199741</link>
-      <guid isPermaLink="false">wikicfp:199741</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Quantitative Diachronic Linguistics and Cultural Analytics</description>
+    <item>
+      <title>[Paper] TPBench: A Turning-Point Benchmark for Dialogue Compression</title>
+      <link>https://arxiv.org/abs/2610.02736</link>
+      <guid isPermaLink="false">arxiv:2610.02736</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>A compressor can keep the facts of a dialogue and still drop the turn that changed them. A user corrects a price, reverses a choice, or adds a constraint. We call this failure turning-point eviction. One overall retention score hides it,…</description>
     </item>
-    <item>
-      <title>[Event] NGNCT 2026 : 12th International Conference on Next Generation Networks and Communication Technologies</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201716</link>
-      <guid isPermaLink="false">wikicfp:201716</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>12th International Conference on Next Generation Networks and Communication Technologies</description>
+    <item>
+      <title>[Paper] Beyond Correctness: Resolving Underspecification in Agentic Text-to-SQL</title>
+      <link>https://arxiv.org/abs/2610.02739</link>
+      <guid isPermaLink="false">arxiv:2610.02739</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Agentic Text-to-SQL systems can interact with users to clarify underspecified queries before generating SQL. However, a correct execution result does not necessarily imply that the agent has adequately resolved the underlying…</description>
     </item>
-    <item>
-      <title>[Event] SIGEM 2026 : 12th International Conference on Signal, Image Processing and Embedded Systems</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202479</link>
-      <guid isPermaLink="false">wikicfp:202479</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>12th International Conference on Signal, Image Processing and Embedded Systems</description>
+    <item>
+      <title>[Paper] EpiWorld: Grounding LLM Policy Agents in Epidemiological World Models</title>
+      <link>https://arxiv.org/abs/2610.02744</link>
+      <guid isPermaLink="false">arxiv:2610.02744</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Epidemic intervention policies are textual artefacts that human decision-makers interpret, justify, and revise through natural language, making large language models a natural candidate for epidemic policy reasoning. A naive LLM, however,…</description>
     </item>
-    <item>
-      <title>[Event] Cross-AI ReNL2SQL 2026 : 1st International Workshop on Reliable NL2SQL for Enterprise AI</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203459</link>
-      <guid isPermaLink="false">wikicfp:203459</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>1st International Workshop on Reliable NL2SQL for Enterprise AI</description>
+    <item>
+      <title>[Paper] When History Fails to Become Experience: Action Calibration in Language Agents</title>
+      <link>https://arxiv.org/abs/2610.02769</link>
+      <guid isPermaLink="false">arxiv:2610.02769</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Language agents should draw on prior attempts and environmental feedback to improve subsequent decisions within the same task. However, providing additional interaction history can sometimes reduce task success, suggesting that agents do…</description>
     </item>
-    <item>
-      <title>[Event] RTCA 2026 : Real-Time Conversational Agents Workshop at NeurIPS 2026</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202573</link>
-      <guid isPermaLink="false">wikicfp:202573</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Real-Time Conversational Agents Workshop at NeurIPS 2026</description>
+    <item>
+      <title>[Paper] AptMQL-Bench: From Text-to-SQL to Text-to-MQL via Access-Pattern Schema Design and Data-Preserving Migration</title>
+      <link>https://arxiv.org/abs/2610.02770</link>
+      <guid isPermaLink="false">arxiv:2610.02770</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Document databases such as MongoDB are core infrastructure for modern applications, and natural-language interfaces to them---text-to-MQL---would let non-experts query complex, semi-structured data without mastering the query language.…</description>
     </item>
-    <item>
-      <title>[Event] PACLIC 2026 : The 40th Pacific Asia Conference on Language, Information and Computation (Taiwan)</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201423</link>
-      <guid isPermaLink="false">wikicfp:201423</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>The 40th Pacific Asia Conference on Language, Information and Computation (Taiwan)</description>
+    <item>
+      <title>[Paper] Improving Atomic-Fact Recall via Focused Views in Unstructured Knowledge Editing</title>
+      <link>https://arxiv.org/abs/2610.02772</link>
+      <guid isPermaLink="false">arxiv:2610.02772</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large language models (LLMs) increasingly serve as general-purpose interfaces to factual knowledge, but their parameters do not automatically reflect information that changes after pretraining. Knowledge editing (KE) provides a targeted…</description>
     </item>
-    <item>
-      <title>[Event] IWCLUL 2026 : International Workshop on Computational Linguistics for Uralic Languages</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203476</link>
-      <guid isPermaLink="false">wikicfp:203476</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>International Workshop on Computational Linguistics for Uralic Languages</description>
+    <item>
+      <title>[Paper] Automatic Evaluation of Mental Health Stigma in Online Communication</title>
+      <link>https://arxiv.org/abs/2610.02775</link>
+      <guid isPermaLink="false">arxiv:2610.02775</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Mental health stigma has profoundly harmful impacts but its complexity makes it difficult to evaluate. Stigma may involve explicit derogation, but also subtler forms of blame, fear, paternalistic pity, social distancing, structural…</description>
     </item>
-    <item>
-      <title>[Event] DL2 International Workshop 2026 : 1st DL2 International Workshop</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194621</link>
-      <guid isPermaLink="false">wikicfp:194621</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>1st DL2 International Workshop</description>
+    <item>
+      <title>[Paper] Text-Centric Post-Training for Omni-Modal Reasoning</title>
+      <link>https://arxiv.org/abs/2610.02819</link>
+      <guid isPermaLink="false">arxiv:2610.02819</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Improving joint audio-visual reasoning in Omni Large Language Models typically incurs substantial data construction and training costs. Our diagnostics reveal multi-hop reasoning difficulties despite correct answers to all corresponding…</description>
     </item>
-    <item>
-      <title>[Event] ALTA 2026 : The 24th Annual Workshop of the Australasian Language Technology Association</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199914</link>
-      <guid isPermaLink="false">wikicfp:199914</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>The 24th Annual Workshop of the Australasian Language Technology Association</description>
+    <item>
+      <title>[Paper] Clinical Concept Centers in LLMs</title>
+      <link>https://arxiv.org/abs/2610.02829</link>
+      <guid isPermaLink="false">arxiv:2610.02829</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large language models are increasingly used in clinical settings. However, research into the reliability and performance of these models has focused almost entirely on the language substrate, scoring what the model says. Mechanistic…</description>
     </item>
-    <item>
-      <title>[Event] ALTA 2026 : 24th Annual Workshop of the Australasian Language Technology Association</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199938</link>
-      <guid isPermaLink="false">wikicfp:199938</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>24th Annual Workshop of the Australasian Language Technology Association</description>
+    <item>
+      <title>[Paper] How Robust Is Multimodal Claim Verification to LLM Rewriting?</title>
+      <link>https://arxiv.org/abs/2610.02841</link>
+      <guid isPermaLink="false">arxiv:2610.02841</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>LLMs are known to introduce stylistic changes into generated text, yet how these stylistic shifts affect model decisions on scientific tasks remains underexplored. In this paper, we focus on multimodal claim verification, where the goal…</description>
     </item>
-    <item>
-      <title>[Event] ALTA 2026 2026 : The 24th Annual Workshop of the Australasian Language Technology</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203139</link>
-      <guid isPermaLink="false">wikicfp:203139</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>The 24th Annual Workshop of the Australasian Language Technology</description>
+    <item>
+      <title>[Paper] Adaptive Mutual Distillation for Balanced Multi-Task Post-Training of Large Language Models</title>
+      <link>https://arxiv.org/abs/2610.02856</link>
+      <guid isPermaLink="false">arxiv:2610.02856</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Multi-task post-training of large language models (LLMs) aims to improve performance across tasks with unequal amounts of training data. Existing methods focus primarily on balancing task contributions during single-model training.…</description>
     </item>
-    <item>
-      <title>[Event] X Doctoral Conference 2026 : X Doctoral Conference Ca’ Foscari University of Venice</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194219</link>
-      <guid isPermaLink="false">wikicfp:194219</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>X Doctoral Conference Ca’ Foscari University of Venice</description>
+    <item>
+      <title>[Paper] ConvoDrift: A Multi-Turn Conversational Dataset for Modeling Stylistic Tone Evolution</title>
+      <link>https://arxiv.org/abs/2610.02873</link>
+      <guid isPermaLink="false">arxiv:2610.02873</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>The evolution of linguistic style in conversations is an underexplored issue in NLP. Most style-control datasets focus on sentences or assume a static style throughout, missing the dynamic shifts that occur as user preferences change…</description>
     </item>
-    <item>
-      <title>[Event] ACLing 2026 : 8th International Conference on AI in Computational Linguistics</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203115</link>
-      <guid isPermaLink="false">wikicfp:203115</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>8th International Conference on AI in Computational Linguistics</description>
+    <item>
+      <title>[Paper] Query-aware routing for Cross-lingual performance gains in Encoders</title>
+      <link>https://arxiv.org/abs/2610.02875</link>
+      <guid isPermaLink="false">arxiv:2610.02875</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Multilingual encoders can exhibit reduced retrieval effectiveness when queries and relevant documents differ in language, despite strong same-language performance. We investigate whether Finnish and Swedish cross-lingual retrieval can…</description>
     </item>
-    <item>
-      <title>[Event] NAtoms 2026 : Narrative Atoms: The Persistence and Transformation of Fundamental Story Units in Culture</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202502</link>
-      <guid isPermaLink="false">wikicfp:202502</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Narrative Atoms: The Persistence and Transformation of Fundamental Story Units in Culture</description>
+    <item>
+      <title>[Paper] Evaluating LLM-as-a-Judge Beyond Score Alignment: A Psychometric Analysis of Residual Judging Difficulty</title>
+      <link>https://arxiv.org/abs/2610.02877</link>
+      <guid isPermaLink="false">arxiv:2610.02877</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large language models (LLMs) are widely used as automatic judges, with validity typically assessed via alignment with human scores. However, aggregate agreement fails to reveal whether humans and LLMs find the same evaluation cases…</description>
     </item>
-    <item>
-      <title>[Event] NLPCL 2026 : 7th International Conference on Natural Language Processing and Computational Linguistics</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=195149</link>
-      <guid isPermaLink="false">wikicfp:195149</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>7th International Conference on Natural Language Processing and Computational Linguistics</description>
+    <item>
+      <title>[Paper] Evaluating VQA in Vision Language Models using Cooperative Principles</title>
+      <link>https://arxiv.org/abs/2610.02878</link>
+      <guid isPermaLink="false">arxiv:2610.02878</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>We evaluate the performance of Vision Language Models in Visual Question Answering (VQA) when questions violate Grice's maxims. To do this, we use VLMs to generate question modifiers that add non-essential, ambiguous or false information…</description>
     </item>
-    <item>
-      <title>[Event] SOEN 2026 : 11th International Conference on Software Engineering</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201306</link>
-      <guid isPermaLink="false">wikicfp:201306</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>11th International Conference on Software Engineering</description>
+    <item>
+      <title>[Paper] Misinformation Without Triggers: From Factual Answers to Downstream Decisions</title>
+      <link>https://arxiv.org/abs/2610.02886</link>
+      <guid isPermaLink="false">arxiv:2610.02886</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Language models learn from web documents, some of them false, and false content can reach a model's answer to a factual question and the summaries and decisions that use it. Most data-poisoning studies add a trigger to the training data…</description>
     </item>
-    <item>
-      <title>[Event] NLP4CALL 2026 : workshop on Natural Language Processing for Computer-Assisted Language Learning</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=195230</link>
-      <guid isPermaLink="false">wikicfp:195230</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>workshop on Natural Language Processing for Computer-Assisted Language Learning</description>
+    <item>
+      <title>[Paper] Output Language Confusion under Multilingual Prompt Contamination</title>
+      <link>https://arxiv.org/abs/2610.02926</link>
+      <guid isPermaLink="false">arxiv:2610.02926</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Standard factual benchmarks assume clean monolingual prompts and exact-match scoring, two assumptions that break simultaneously in real-world multilingual deployment, from retrieval-augmented generation pipelines returning mixed-language…</description>
     </item>
-    <item>
-      <title>[Event] ISCSLP 2026 : The 15th International Symposium on Chinese Spoken Language Processing</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199858</link>
-      <guid isPermaLink="false">wikicfp:199858</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>The 15th International Symposium on Chinese Spoken Language Processing</description>
+    <item>
+      <title>[Paper] Enhancing Biomedical Named Entity Recognition via Multiple Programming Languages Instruction Tuning and Ensemble Method</title>
+      <link>https://arxiv.org/abs/2610.02949</link>
+      <guid isPermaLink="false">arxiv:2610.02949</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Instruction tuning has become a common paradigm for applying large language models (LLMs) to biomedical named entity recognition (BioNER). However, existing instruction-tuning approaches still face two key challenges. First, conventional…</description>
     </item>
-    <item>
-      <title>[Event] ISCSLP 2026 : International Symposium on Chinese Spoken Language Processing</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199861</link>
-      <guid isPermaLink="false">wikicfp:199861</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>International Symposium on Chinese Spoken Language Processing</description>
+    <item>
+      <title>[Paper] A Guideline-Augmented Multi-Agent Framework for Schema-as-Code Biomedical Named Entity Recognition</title>
+      <link>https://arxiv.org/abs/2610.02970</link>
+      <guid isPermaLink="false">arxiv:2610.02970</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large language models (LLMs) have shown promising potential for biomedical named entity recognition (BioNER) through instruction following and in-context learning. However, existing LLM-based BioNER methods still face two key limitations.…</description>
     </item>
-    <item>
-      <title>[Event] ACINT 2026 : 4th International Conference on Advanced Computational Intelligence</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201452</link>
-      <guid isPermaLink="false">wikicfp:201452</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>4th International Conference on Advanced Computational Intelligence</description>
+    <item>
+      <title>[Paper] OLMo-Detect: A Multi-Stage, Confounder-Controlled Benchmark for Membership Inference on Large Language Models</title>
+      <link>https://arxiv.org/abs/2610.02986</link>
+      <guid isPermaLink="false">arxiv:2610.02986</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Membership inference on large language models (LLMs) aims to determine whether a given text sample was included in an LLM's training data, without access to its training corpus. Despite recent progress, existing benchmarks suffer from…</description>
     </item>
-    <item>
-      <title>[Event] WASP 2026 : The 4th Workshop on Artificial Intelligence for Scientific Publications</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=200326</link>
-      <guid isPermaLink="false">wikicfp:200326</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>The 4th Workshop on Artificial Intelligence for Scientific Publications</description>
+    <item>
+      <title>[Paper] OmniConfess: Eliciting Token Confessions to Mitigate Omni-Modal Hallucination</title>
+      <link>https://arxiv.org/abs/2610.02999</link>
+      <guid isPermaLink="false">arxiv:2610.02999</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Omni-modal large language models (OmniLLMs) unify text, images, audio, and video, yet hallucinate when generation relies on the wrong evidence. Existing inference-time methods can reduce hallucinations, but rarely reveal which evidence…</description>
     </item>
-    <item>
-      <title>[Event] LT4CPR 2027 : First Workshop on Language Technologies for Crisis Preparedness and Response</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201593</link>
-      <guid isPermaLink="false">wikicfp:201593</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>First Workshop on Language Technologies for Crisis Preparedness and Response</description>
+    <item>
+      <title>[Paper] Recursive Self-Improvement in Unified Multimodal Models</title>
+      <link>https://arxiv.org/abs/2610.03002</link>
+      <guid isPermaLink="false">arxiv:2610.03002</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Unified multimodal models (UMMs) understand and generate both text and images, which lets a model produce its own training data. Existing self-improvement in UMMs keeps supervision on the visual side, where image understanding judges…</description>
     </item>
-    <item>
-      <title>[Event] VISCOM 2026 : 4th International Conference on Vision Computing</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201239</link>
-      <guid isPermaLink="false">wikicfp:201239</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>4th International Conference on Vision Computing</description>
+    <item>
+      <title>[Paper] HyperThink: Text-to-Parameter Hypernetworks for Efficient Reasoning</title>
+      <link>https://arxiv.org/abs/2610.03039</link>
+      <guid isPermaLink="false">arxiv:2610.03039</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Long-form thinking traces can substantially improve the multi-step reasoning performance of large language models (LLMs), but they introduce high inference-time overhead, with latency dominated by sequential decoding. We propose…</description>
     </item>
-    <item>
-      <title>[Event] Tokenization 2026 : The Second Tokenization Workshop @ COLM 2026</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199569</link>
-      <guid isPermaLink="false">wikicfp:199569</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>The Second Tokenization Workshop @ COLM 2026</description>
+    <item>
+      <title>[Paper] The Geometry of Knowledge Accessibility in Large Language Models</title>
+      <link>https://arxiv.org/abs/2610.03052</link>
+      <guid isPermaLink="false">arxiv:2610.03052</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large language models (LLMs) contain broad knowledge, but they cannot access all of it reliably. We study this problem through knowledge accessibility, which describes whether the knowledge needed for a query can be recalled from the…</description>
     </item>
-    <item>
-      <title>[Event] FinNLP 2026 : 11th Workshop on Financial Technology and Natural Language Processing</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=200009</link>
-      <guid isPermaLink="false">wikicfp:200009</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>11th Workshop on Financial Technology and Natural Language Processing</description>
+    <item>
+      <title>[Paper] HARPO: Hallucination-Aware Reinforcement Learning for Faithful and Creative Language Generation</title>
+      <link>https://arxiv.org/abs/2610.03063</link>
+      <guid isPermaLink="false">arxiv:2610.03063</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large Language Models (LLMs) are prone to generating hallucinated content, which compromises their reliability in knowledge-intensive tasks. To address this challenge without sacrificing creativity, we propose HARPO, a reinforcement…</description>
     </item>
-    <item>
-      <title>[Event] LingBaW 2026 : Linguistics Beyond and Within 2026 – International Linguistics Conference in Lublin</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=193041</link>
-      <guid isPermaLink="false">wikicfp:193041</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Linguistics Beyond and Within 2026 – International Linguistics Conference in Lublin</description>
+    <item>
+      <title>[Paper] Unmasking Propaganda: A Comparative Analysis of Masked and Causal Language Models</title>
+      <link>https://arxiv.org/abs/2610.03077</link>
+      <guid isPermaLink="false">arxiv:2610.03077</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Propaganda detection is an essential task in natural language processing (NLP), particularly in the context of manipulative political communications. However, identifying specific propaganda techniques presents a significant challenge due…</description>
     </item>
-    <item>
-      <title>[Event] H.G. Wells Conference 2026 : H.G. Wells and Modernity: Texts, Contexts, (Re)visions</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=200329</link>
-      <guid isPermaLink="false">wikicfp:200329</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>H.G. Wells and Modernity: Texts, Contexts, (Re)visions</description>
+    <item>
+      <title>[Paper] An automated pipeline for standardised speech-unit annotation in spontaneous dialogue</title>
+      <link>https://arxiv.org/abs/2610.03078</link>
+      <guid isPermaLink="false">arxiv:2610.03078</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Quantifying conversational dynamics requires reliable identification of interactional units and their temporal boundaries, but speech activity alone does not distinguish conversational turns from listener feedback or within-turn pauses.…</description>
     </item>
-    <item>
-      <title>[Event] INTERLANG 2026 : Interface Phenomena Across Languages: Structure, Variation, and Contact</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192715</link>
-      <guid isPermaLink="false">wikicfp:192715</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Interface Phenomena Across Languages: Structure, Variation, and Contact</description>
+    <item>
+      <title>[Paper] Ask, Relax, or Act? Evaluating Actionable Indeterminacy in LLM Preference Reasoning</title>
+      <link>https://arxiv.org/abs/2610.03102</link>
+      <guid isPermaLink="false">arxiv:2610.03102</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>An LLM agent can recognize uncertainty yet still choose the wrong next step: asking when action is already justified, or seeking clarification when the constraints must change. We formalize actionable indeterminacy: act when an accepted…</description>
     </item>
-    <item>
-      <title>[Opportunity] Modélisation électromagnétique des signatures radar et IA pour la reconnaissance d'objets</title>
-      <link>https://theses.fr/s439498</link>
-      <guid isPermaLink="false">theses:s439498</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>theses</category>
-      <description>Thèse en préparation — Signal Image Parole Télécoms. Direction : Jean-Baptiste Dore. Laboratoire : CEA LETI - Laboratoire d'électronique et de technologie de l'information</description>
+    <item>
+      <title>[Paper] Emergent Structure in the Marginal Attention Space of Language Models</title>
+      <link>https://arxiv.org/abs/2610.03109</link>
+      <guid isPermaLink="false">arxiv:2610.03109</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>While representation similarity across independently trained language models is well-documented, how internal mechanics such as attention behave across models remains far less characterized. Inspired by this gap, we examine the structure…</description>
     </item>
-    <item>
-      <title>[Event] SESAME 2026 : 2nd Workshop on Smarter Extraction of ScholArly MEtadata using Knowledge Graphs, Language Models and Agents (SESAME) at JCDL 2026</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201350</link>
-      <guid isPermaLink="false">wikicfp:201350</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>2nd Workshop on Smarter Extraction of ScholArly MEtadata using Knowledge Graphs, Language Models and Agents (SESAME) at JCDL 2026</description>
+    <item>
+      <title>[Paper] Ontological Instability and Statistical Amplification: The Paradox of "Humanizing" LLM-Generated Text</title>
+      <link>https://arxiv.org/abs/2610.03110</link>
+      <guid isPermaLink="false">arxiv:2610.03110</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Supervised AI-text detectors report high benchmark accuracy, but it is not clear what their decisions are based on. We analyze a RoBERTa-based detector under semantic, structural, and tokenizer-level perturbations, using the M4 dataset (N…</description>
     </item>
-    <item>
-      <title>[Event] TIERA 2026 : Translating and Interpreting in the Era of Algorithms (TIERA)</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199574</link>
-      <guid isPermaLink="false">wikicfp:199574</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Translating and Interpreting in the Era of Algorithms (TIERA)</description>
+    <item>
+      <title>[Paper] Building Interpretable Feature Representations for Resume-Vacancy Matching by Distilling Production LLM Signals</title>
+      <link>https://arxiv.org/abs/2610.03112</link>
+      <guid isPermaLink="false">arxiv:2610.03112</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Matching candidates to vacancies is central to recruitment, and a recruiter needs to see why a candidate fits, not only a single opaque relevance score. We provide this evidence as named, interpretable matching dimensions recruiters can…</description>
     </item>
-    <item>
-      <title>[Event] TIERA 2026 : Translating and Interpreting in the Era of Algorithms (TIERA)</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199575</link>
-      <guid isPermaLink="false">wikicfp:199575</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Translating and Interpreting in the Era of Algorithms (TIERA)</description>
+    <item>
+      <title>[Paper] Investigating the Role of Reasoning-Language Alignment in Monolingual Retrieval-Augmented Generation</title>
+      <link>https://arxiv.org/abs/2610.03136</link>
+      <guid isPermaLink="false">arxiv:2610.03136</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Reasoning traces improve large language models (LLMs), but current models are trained to reason mostly in English. It has been shown that forcing a model to reason in another language degrades accuracy, even when the reasoning language…</description>
     </item>
-    <item>
-      <title>[Event] TIERA 2026 : Translating and Interpreting in the Era of Algorithms (TIERA)</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199576</link>
-      <guid isPermaLink="false">wikicfp:199576</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Translating and Interpreting in the Era of Algorithms (TIERA)</description>
+    <item>
+      <title>[Paper] Predicting Steering Vectors and Adapter Weights for Few-Shot Author-Style Transfer</title>
+      <link>https://arxiv.org/abs/2610.03163</link>
+      <guid isPermaLink="false">arxiv:2610.03163</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Adapting large language models to an individual author's style from a few examples is challenging, and scientific writing sharpens the difficulty: formal conventions leave little surface variation, and authors write about their own…</description>
     </item>
-    <item>
-      <title>[Event] AICyDef 2026 : Workshop on Trustworthy and Secure AI for Cyber Defense</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=200294</link>
-      <guid isPermaLink="false">wikicfp:200294</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Workshop on Trustworthy and Secure AI for Cyber Defense</description>
+    <item>
+      <title>[Paper] Hindsight-Guided Rationale Distillation for Rare Disease Diagnosis</title>
+      <link>https://arxiv.org/abs/2610.03176</link>
+      <guid isPermaLink="false">arxiv:2610.03176</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>We study hindsight-guided distillation for rare disease diagnosis on ZebraMap: a 1.5B student is fine-tuned on chain-of-thought traces from a 8B teacher that observes the ground-truth diagnosis during generation. Absolute accuracy remains…</description>
     </item>
-    <item>
-      <title>[Event] NL4AI 2026 : 9th Workshop on Natural Language for Artificial Intelligence, at the 24th International Conference of the Italian Association for Artificial Intelligence (AIxIA 2026)</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199606</link>
-      <guid isPermaLink="false">wikicfp:199606</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>9th Workshop on Natural Language for Artificial Intelligence, at the 24th International Conference of the Italian Association for Artificial Intelligence (AIxIA 2026)</description>
+    <item>
+      <title>[Paper] Not Until the Evidence Says So: Teaching LLM Investigators When to Close a Case</title>
+      <link>https://arxiv.org/abs/2610.03190</link>
+      <guid isPermaLink="false">arxiv:2610.03190</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Accident, defect and outage investigations end with a decision that ordinary question answering never faces: whether the evidence gathered so far is enough to close the case. We study this decision for LLM investigators, which request…</description>
     </item>
-    <item>
-      <title>[Event] NL4AI 2026 : Workshop on Natural Language for Artificial Intelligence (NL4AI, 9th edition)</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199894</link>
-      <guid isPermaLink="false">wikicfp:199894</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Workshop on Natural Language for Artificial Intelligence (NL4AI, 9th edition)</description>
+    <item>
+      <title>[Paper] Source Preference in the Wild: How LLM Agents Favor Items by Source, and How to Reduce It</title>
+      <link>https://arxiv.org/abs/2610.03195</link>
+      <guid isPermaLink="false">arxiv:2610.03195</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>As LLM agents decide on users' behalf which product to buy, which hotel to book, or which paper to cite, a preference for items from certain sources (the sites or services they come from) shapes what users receive and which sources are…</description>
     </item>
-    <item>
-      <title>[Model] ElmehdiSMILI/darija-intent-qlora-1.5b-v2</title>
-      <link>https://huggingface.co/ElmehdiSMILI/darija-intent-qlora-1.5b-v2</link>
-      <guid isPermaLink="false">hf:models:ElmehdiSMILI/darija-intent-qlora-1.5b-v2</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
+    <item>
+      <title>[Paper] StanceEval 2026: The Second Stance Detection Shared Task</title>
+      <link>https://arxiv.org/abs/2610.03215</link>
+      <guid isPermaLink="false">arxiv:2610.03215</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>StanceEval 2026 is the second edition of the StanceEval shared task series on stance detection in Arabic social media text. Stance detection aims to identify a writer's stance toward a given topic. Given a tweet and a target,…</description>
     </item>
-    <item>
-      <title>[Model] mohammedaly22/VoiceTut-TTS-GGUF</title>
-      <link>https://huggingface.co/mohammedaly22/VoiceTut-TTS-GGUF</link>
-      <guid isPermaLink="false">hf:models:mohammedaly22/VoiceTut-TTS-GGUF</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
+    <item>
+      <title>[Paper] Collective Bias Mitigation via Model Routing and Collaboration</title>
+      <link>https://arxiv.org/abs/2610.03240</link>
+      <guid isPermaLink="false">arxiv:2610.03240</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large language models (LLMs) are increasingly deployed in public health, finance, and governance, requiring both accuracy and societal value alignment. Despite recent advances, LLMs often perpetuate or amplify bias embedded in their…</description>
     </item>
-    <item>
-      <title>[Corpus] KORPUS LINGVISTIKASINING TA'LIM JARAYONLARIDA QO'LLASHNING ILMIY AHAMIYATI</title>
-      <link>https://zenodo.org/records/23133184</link>
-      <guid isPermaLink="false">zenodo:23133183</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>zenodo</category>
-      <description>Ushbu maqolada bugungi kunda rivojlanib kelayotgan tilshunoslik sohasining yirik bo‘limlaridan biri “Korpus lingvistikasi” ta’lim sohasida va uning rivojidagi o‘rni, uning ahamiyatli jihatlari borasida tadqiqotchilar iqtibosida ko‘rib…</description>
+    <item>
+      <title>[Paper] Shrome at Touch\'e: Soft-Vote Ensembling and Counter-Causal Augmentation for Causality Extraction</title>
+      <link>https://arxiv.org/abs/2610.03268</link>
+      <guid isPermaLink="false">arxiv:2610.03268</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Touch\'e 2026 extends causality extraction to counter-causal claims: news sentences whose surface form appears causal but whose meaning denies the causation, as in "It is falsely believed that X caused Y." A system that relies on surface…</description>
     </item>
-    <item>
-      <title>[Opportunity] MS in Computational Linguistics</title>
-      <link>https://www.brandeis.edu/</link>
-      <guid isPermaLink="false">formation:brandeis-university-ms-in-computational-linguistics</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Brandeis University — Waltham. Langue(s) d'enseignement : en.</description>
+    <item>
+      <title>[Paper] To Jev or Not? Evaluating the Accuracy and Efficiency of Structured Decision Models for Hate-Speech Moderation</title>
+      <link>https://arxiv.org/abs/2610.03324</link>
+      <guid isPermaLink="false">arxiv:2610.03324</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>The scale of online content makes hate-speech moderation challenging, while Large Language Models (LLMs) enable harmful material to be produced and adapted more easily. Moderation therefore requires efficient classifiers that can…</description>
     </item>
-    <item>
-      <title>[Opportunity] Master of Language Technologies (MLT)</title>
-      <link>https://www.lti.cs.cmu.edu/</link>
-      <guid isPermaLink="false">formation:carnegie-mellon-university-language-technologies-institute-master-of-language-technologies</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Carnegie Mellon University – Language Technologies Institute — Pittsburgh. Langue(s) d'enseignement : en.</description>
+    <item>
+      <title>[Paper] SyntaxBench: A Statistical Diagnostic Framework for Character-Level Reasoning in Large Language Models</title>
+      <link>https://arxiv.org/abs/2610.03329</link>
+      <guid isPermaLink="false">arxiv:2610.03329</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large language models are increasingly used where small syntactic errors matter, yet character-level reasoning is still evaluated mostly through isolated probes and aggregate accuracy. We introduce SyntaxBench, a diagnostic benchmark and…</description>
     </item>
-    <item>
-      <title>[Opportunity] Erasmus Mundus Master in Language and Communication Technologies (LCT)</title>
-      <link>https://lct-master.org/</link>
-      <guid isPermaLink="false">formation:consortium-coordonn-par-l-universit-t-des-saarlandes-erasmus-mundus-master-in-language-and</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Consortium coordonné par l'Universität des Saarlandes — Saarbrücken. Langue(s) d'enseignement : en.</description>
+    <item>
+      <title>[Paper] CLIMB: Confidence-Guided Complementary Evidence for Multimodal Retrieval-Augmented Generation</title>
+      <link>https://arxiv.org/abs/2610.03421</link>
+      <guid isPermaLink="false">arxiv:2610.03421</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Multimodal large language models (MLLMs) have shown strong visual reasoning abilities, but knowledge-intensive visual question answering often requires external textual evidence beyond the image and the model's parametric knowledge.…</description>
     </item>
-    <item>
-      <title>[Opportunity] MA Computational Linguistics</title>
-      <link>https://uni-tuebingen.de/en/</link>
-      <guid isPermaLink="false">formation:eberhard-karls-universit-t-t-bingen-ma-computational-linguistics</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Eberhard Karls Universität Tübingen — Tübingen. Langue(s) d'enseignement : en, de.</description>
+    <item>
+      <title>[Paper] Single-Pass Uncertainty Heads for Claim-Level Hallucination Detection in Persian Medical Language Models</title>
+      <link>https://arxiv.org/abs/2610.03482</link>
+      <guid isPermaLink="false">arxiv:2610.03482</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Hallucination detection is particularly important for medical language models, but repeated-sampling approaches are expensive and existing uncertainty-head resources do not directly transfer to a new backbone and language. We adapt the…</description>
     </item>
-    <item>
-      <title>[Opportunity] ESSLLI – European Summer School in Logic, Language and Information</title>
-      <link>https://www.folli.info/</link>
-      <guid isPermaLink="false">formation:folli-lieu-diff-rent-chaque-ann-e-esslli-european-summer-school-in-logic-language-and-info</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>FoLLI (lieu différent chaque année). Langue(s) d'enseignement : en.</description>
+    <item>
+      <title>[Paper] Learning from Repaired Reasoning: Root-Cause-Guided On-Policy Distillation</title>
+      <link>https://arxiv.org/abs/2610.03515</link>
+      <guid isPermaLink="false">arxiv:2610.03515</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>On-policy self-distillation (OPSD) uses reference solutions as privileged hindsight to supervise student-generated reasoning trajectories. However, reference-based guidance may explain a correct solution without addressing why the…</description>
     </item>
-    <item>
-      <title>[Opportunity] Master TAL – Plurital</title>
-      <link>https://www.inalco.fr/</link>
-      <guid isPermaLink="false">formation:inalco-universit-sorbonne-nouvelle-universit-paris-nanterre-master-tal-plurital</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Inalco, Université Sorbonne Nouvelle, Université Paris Nanterre — Paris. Langue(s) d'enseignement : fr.</description>
+    <item>
+      <title>[Paper] Structured Composition of Verifiable Atomic Insights for Table-to-Report Generation</title>
+      <link>https://arxiv.org/abs/2610.03525</link>
+      <guid isPermaLink="false">arxiv:2610.03525</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Table-to-report generation refers to the task of automatically generating article-level analyt- ical reports from relational tables and is an essential capability for automated data science and decision support. Its central challenge lies…</description>
     </item>
-    <item>
-      <title>[Opportunity] Lisbon Machine Learning Summer School (LxMLS)</title>
-      <link>https://lxmls.it.pt/</link>
-      <guid isPermaLink="false">formation:instituto-de-telecomunica-es-instituto-superior-t-cnico-lisbon-machine-learning-summer-sch</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Instituto de Telecomunicações / Instituto Superior Técnico — Lisboa. Langue(s) d'enseignement : en.</description>
+    <item>
+      <title>[Paper] Author Representation Strategies for Zero-Shot Authorship Attribution: A Comparative Study of LLM-Based and Embedding-Based Approaches</title>
+      <link>https://arxiv.org/abs/2610.03531</link>
+      <guid isPermaLink="false">arxiv:2610.03531</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Authorship Attribution (AA) requires capturing fine-grained stylistic characteristics, making it particularly challenging in zero-shot (ZS) settings where no task-specific supervision is available. In this work, we investigate the effect…</description>
     </item>
-    <item>
-      <title>[Opportunity] JSALT – Jelinek Summer Workshop on Speech and Language Technology</title>
-      <link>https://www.clsp.jhu.edu/</link>
-      <guid isPermaLink="false">formation:johns-hopkins-university-clsp-jsalt-jelinek-summer-workshop-on-speech-and-language-technol</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Johns Hopkins University (CLSP) — Baltimore. Langue(s) d'enseignement : en.</description>
+    <item>
+      <title>[Paper] Writerslogic at PAN 2026: Process over Content for Robust Detection under Domain Shift</title>
+      <link>https://arxiv.org/abs/2610.03565</link>
+      <guid isPermaLink="false">arxiv:2610.03565</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>We describe the Writerslogic systems for three PAN at CLEF 2026 shared tasks (Reasoning Trajectory Detection, Voight-Kampff Generative AI Detection, and Multi-Author Writing Style Analysis), unified by a shared analytical framework:…</description>
     </item>
-    <item>
-      <title>[Opportunity] BA Computerlinguistik</title>
-      <link>https://www.cis.uni-muenchen.de/</link>
-      <guid isPermaLink="false">formation:ludwig-maximilians-universit-t-m-nchen-cis-ba-computerlinguistik</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Ludwig-Maximilians-Universität München (CIS) — München. Langue(s) d'enseignement : de.</description>
+    <item>
+      <title>[Paper] Writerslogic at the CLEF 2026 SimpleText Track: Multi-Candidate LLM Simplification and Stacked Complexity Spotting</title>
+      <link>https://arxiv.org/abs/2610.03567</link>
+      <guid isPermaLink="false">arxiv:2610.03567</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>We describe the Writerslogic team's participation in the CLEF 2026 SimpleText shared task, addressing Task 1 (text simplification) and Task 2 (complexity spotting). For Task 1, we develop a multi-candidate generation pipeline using…</description>
     </item>
-    <item>
-      <title>[Opportunity] MSc in Natural Language Processing</title>
-      <link>https://mbzuai.ac.ae/</link>
-      <guid isPermaLink="false">formation:mohamed-bin-zayed-university-of-artificial-intelligence-mbzuai-msc-in-natural-language-pro</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) — Abu Dhabi. Langue(s) d'enseignement : en.</description>
+    <item>
+      <title>[Paper] FALCON: A Model and Dataset Agnostic Framework for Synthetic Data Generation for NL2SQL Pairs</title>
+      <link>https://arxiv.org/abs/2610.03625</link>
+      <guid isPermaLink="false">arxiv:2610.03625</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Relational databases are among the most widely deployed forms of structured knowledge, and natural language access to them requires grounding language onto schema entities and relations while handling the ambiguity inherent in how people…</description>
     </item>
-    <item>
-      <title>[Opportunity] MSc Voice Technology</title>
-      <link>https://www.rug.nl/</link>
-      <guid isPermaLink="false">formation:rijksuniversiteit-groningen-campus-frysl-n-msc-voice-technology</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Rijksuniversiteit Groningen – Campus Fryslân — Leeuwarden. Langue(s) d'enseignement : en.</description>
+    <item>
+      <title>[Paper] Language Models that Play Chess and Explain Their Moves</title>
+      <link>https://arxiv.org/abs/2610.03695</link>
+      <guid isPermaLink="false">arxiv:2610.03695</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Modern chess engines are silent experts: they play at a superhuman level, but do not offer explanations for their play. On the other hand, language models (LMs) can generate plausible-sounding explanations, but their weak playing strength…</description>
     </item>
-    <item>
-      <title>[Opportunity] Master Langue et informatique</title>
-      <link>https://www.sorbonne-universite.fr/</link>
-      <guid isPermaLink="false">formation:sorbonne-universit-master-langue-et-informatique</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Sorbonne Université — Paris. Langue(s) d'enseignement : fr.</description>
+    <item>
+      <title>[Paper] A Manifold-Aware Topic Modeling Approach via Rank-Based Prototypes</title>
+      <link>https://arxiv.org/abs/2609.29630</link>
+      <guid isPermaLink="false">arxiv:2609.29630</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Recent topic models leverage pretrained embeddings, but neural architectures produce latent representations without grounding in specific texts, and clustering-based pipelines assign representative documents only post hoc, relying on…</description>
     </item>
-    <item>
-      <title>[Opportunity] Master in Language Analysis and Processing (LAP)</title>
-      <link>https://www.hitz.eus/</link>
-      <guid isPermaLink="false">formation:universidad-del-pa-s-vasco-euskal-herriko-unibertsitatea-hitz-master-in-language-analysis-</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Universidad del País Vasco / Euskal Herriko Unibertsitatea (HiTZ) — Donostia-San Sebastián. Langue(s) d'enseignement : en, eu, es.</description>
+    <item>
+      <title>[Paper] Budgeted Cache Repair for Cross-Context KV-Cache Reuse</title>
+      <link>https://arxiv.org/abs/2610.02233</link>
+      <guid isPermaLink="false">arxiv:2610.02233</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Cross-context KV-cache reuse predicts a shared segment's keys and values under a new prefix instead of recomputing them, and has been reported to do so without quality loss. We find otherwise, and identify two problems. (1) A hidden cost:…</description>
     </item>
-    <item>
-      <title>[Opportunity] Master en traitement informatique multilingue</title>
-      <link>https://www.unige.ch/fti/</link>
-      <guid isPermaLink="false">formation:universit-de-gen-ve-facult-de-traduction-et-d-interpr-tation-master-en-traitement-informat</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Université de Genève – Faculté de traduction et d'interprétation — Genève. Langue(s) d'enseignement : fr, en.</description>
+    <item>
+      <title>[Paper] Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses</title>
+      <link>https://arxiv.org/abs/2610.02267</link>
+      <guid isPermaLink="false">arxiv:2610.02267</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Agent harnesses make many small, typed decisions per task: which model to call, which tool to use, whether retrieved text is relevant, whether an input carries an injection. System-1 decision models answer such questions in a single…</description>
     </item>
-    <item>
-      <title>[Opportunity] Master Traitement automatique des langues</title>
-      <link>https://idmc.univ-lorraine.fr/</link>
-      <guid isPermaLink="false">formation:universit-de-lorraine-idmc-master-traitement-automatique-des-langues</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Université de Lorraine (IDMC) — Nancy. Langue(s) d'enseignement : fr.</description>
+    <item>
+      <title>[Paper] Does Every User Need a Private LoRA? Decoupling Personalization from Per-User Adaptation</title>
+      <link>https://arxiv.org/abs/2610.02353</link>
+      <guid isPermaLink="false">arxiv:2610.02353</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Personalized large language models often require a complete adaptation state for each user. However, this paradigm scales poorly as the user population grows. We revisit this design through the lens of personalization capacity allocation:…</description>
     </item>
-    <item>
-      <title>[Opportunity] Laurea magistrale in Informatica umanistica</title>
-      <link>https://www.unipi.it/</link>
-      <guid isPermaLink="false">formation:universit-di-pisa-laurea-magistrale-in-informatica-umanistica</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Università di Pisa — Pisa. Langue(s) d'enseignement : it.</description>
+    <item>
+      <title>[Paper] Lexicographic Multi-Objective On-Policy Distillation</title>
+      <link>https://arxiv.org/abs/2610.02359</link>
+      <guid isPermaLink="false">arxiv:2610.02359</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Reinforcement learning from verifiable rewards (RLVR) usually optimizes answer correctness, yet useful language-model behavior also requires high-quality reasoning and concise responses. Existing multi-reward post-training methods…</description>
     </item>
-    <item>
-      <title>[Opportunity] MSc Cognitive Science – Language and Multimodal Interaction</title>
-      <link>https://www.unitn.it/</link>
-      <guid isPermaLink="false">formation:universit-di-trento-msc-cognitive-science-language-and-multimodal-interaction</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Università di Trento — Rovereto. Langue(s) d'enseignement : en.</description>
+    <item>
+      <title>[Paper] SEDIMA: Cross-Run Hierarchical Insight Memory for Evolutionary Search Agents</title>
+      <link>https://arxiv.org/abs/2610.02361</link>
+      <guid isPermaLink="false">arxiv:2610.02361</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large language model (LLM)-driven evolutionary search is a powerful paradigm for automated program and algorithm discovery, yet existing systems are largely memoryless: each run explores from scratch, so agents repeatedly rediscover the…</description>
     </item>
-    <item>
-      <title>[Opportunity] Master Industries de la langue</title>
-      <link>https://www.univ-grenoble-alpes.fr/</link>
-      <guid isPermaLink="false">formation:universit-grenoble-alpes-master-industries-de-la-langue</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Université Grenoble Alpes — Grenoble. Langue(s) d'enseignement : fr.</description>
+    <item>
+      <title>[Paper] Social bot detection in the age of ChatGPT: Challenges and opportunities</title>
+      <link>https://arxiv.org/abs/2610.02386</link>
+      <guid isPermaLink="false">arxiv:2610.02386</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>We present a comprehensive overview of the challenges and opportunities in social bot detection in the context of the rise of sophisticated AI-based chatbots. By examining the state of the art in social bot detection techniques and the…</description>
     </item>
-    <item>
-      <title>[Opportunity] Master Linguistique informatique</title>
-      <link>https://u-paris.fr/</link>
-      <guid isPermaLink="false">formation:universit-paris-cit-master-linguistique-informatique</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Université Paris Cité — Paris. Langue(s) d'enseignement : fr.</description>
+    <item>
+      <title>[Paper] Hesitation Has a Geometry: Entropy-Trained Hyperbolic Probes for Sparse Activation Steering</title>
+      <link>https://arxiv.org/abs/2610.02391</link>
+      <guid isPermaLink="false">arxiv:2610.02391</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>When a large language model solves a mathematical problem, its reasoning is largely hierarchical, and the solution often branches at a few tokens where the next-token entropy is high. Such tree-like structure embeds in hyperbolic space…</description>
     </item>
-    <item>
-      <title>[Opportunity] BSc Computerlinguistik</title>
-      <link>https://www.uni-saarland.de/</link>
-      <guid isPermaLink="false">formation:universit-t-des-saarlandes-bsc-computerlinguistik</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Universität des Saarlandes — Saarbrücken. Langue(s) d'enseignement : de.</description>
+    <item>
+      <title>[Paper] Trained Agentic Context Management</title>
+      <link>https://arxiv.org/abs/2610.02404</link>
+      <guid isPermaLink="false">arxiv:2610.02404</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>We study long context language models. Instead of training long context natively, or designing a long context harness, we train a model over the simplest possible harness: a tool to call itself with any specified prompt and a tool to read…</description>
     </item>
-    <item>
-      <title>[Opportunity] MSc Language Science and Technology</title>
-      <link>https://www.lst.uni-saarland.de/</link>
-      <guid isPermaLink="false">formation:universit-t-des-saarlandes-msc-language-science-and-technology</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Universität des Saarlandes — Saarbrücken. Langue(s) d'enseignement : en.</description>
+    <item>
+      <title>[Paper] Evaluating and Improving the Robustness of Large Language Models to Input Sequence Variations</title>
+      <link>https://arxiv.org/abs/2610.02432</link>
+      <guid isPermaLink="false">arxiv:2610.02432</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large language models (LLMs) in production systems face prompt injections, trojans (backdoors), and manipulation of automatic quality metrics. This thesis develops models, methods, and algorithms for evaluating and improving LLM…</description>
     </item>
-    <item>
-      <title>[Opportunity] BA Computerlinguistik</title>
-      <link>https://www.cl.uni-heidelberg.de/</link>
-      <guid isPermaLink="false">formation:universit-t-heidelberg-ba-computerlinguistik</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Universität Heidelberg — Heidelberg. Langue(s) d'enseignement : de.</description>
+    <item>
+      <title>[Paper] Are you Synthesizing or Recalling? Evaluating LLMs on Algorithmic Code Retrieval</title>
+      <link>https://arxiv.org/abs/2610.02438</link>
+      <guid isPermaLink="false">arxiv:2610.02438</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large language models (LLMs) have demonstrated strong performance in code generation, where success depends on both recalling relevant algorithmic knowledge and reasoning about how to apply it. However, existing LLM pipelines are opaque,…</description>
     </item>
-    <item>
-      <title>[Opportunity] BSc Maschinelle Sprachverarbeitung</title>
-      <link>https://www.ims.uni-stuttgart.de/</link>
-      <guid isPermaLink="false">formation:universit-t-stuttgart-ims-bsc-maschinelle-sprachverarbeitung</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Universität Stuttgart (IMS) — Stuttgart. Langue(s) d'enseignement : de.</description>
+    <item>
+      <title>[Paper] Capability Scaling-Down Laws for LLM Compression</title>
+      <link>https://arxiv.org/abs/2610.02462</link>
+      <guid isPermaLink="false">arxiv:2610.02462</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>LLM compression reduces inference costs and memory requirements, but selecting a method and configuration remains largely empirical because comparable resource reductions can produce different capability losses. We systematically…</description>
     </item>
-    <item>
-      <title>[Opportunity] MSc Computational Linguistics</title>
-      <link>https://www.ims.uni-stuttgart.de/en/</link>
-      <guid isPermaLink="false">formation:universit-t-stuttgart-ims-msc-computational-linguistics</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Universität Stuttgart (IMS) — Stuttgart. Langue(s) d'enseignement : en, de.</description>
+    <item>
+      <title>[Paper] Right Order, Wrong Scale: Auditing LLM Judges for Occupational AI Measurement</title>
+      <link>https://arxiv.org/abs/2610.02492</link>
+      <guid isPermaLink="false">arxiv:2610.02492</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>LLM judges are increasingly used to assess whether AI outputs meet workplace requirements, but agreement on response rankings does not establish agreement on acceptance rates or occupational aggregates. We introduce O*NET-BENCH, an audit…</description>
     </item>
-    <item>
-      <title>[Opportunity] Master in Theoretical and Applied Linguistics</title>
-      <link>https://www.upf.edu/</link>
-      <guid isPermaLink="false">formation:universitat-pompeu-fabra-master-in-theoretical-and-applied-linguistics</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Universitat Pompeu Fabra — Barcelona. Langue(s) d'enseignement : en, es, ca.</description>
+    <item>
+      <title>[Paper] How Causality Bridges the Semantic Gap</title>
+      <link>https://arxiv.org/abs/2610.02594</link>
+      <guid isPermaLink="false">arxiv:2610.02594</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Numerical measurements capture how a system behaves, but often leave the meanings of its variables unspecified. Some variables are measured but never labeled, and others are never measured at all. Existing methods assign semantics to such…</description>
     </item>
-    <item>
-      <title>[Opportunity] MSc Speech and Language Processing</title>
-      <link>https://www.ed.ac.uk/</link>
-      <guid isPermaLink="false">formation:university-of-edinburgh-msc-speech-and-language-processing</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>University of Edinburgh — Edinburgh. Langue(s) d'enseignement : en.</description>
+    <item>
+      <title>[Paper] VERSE: Verified Self-Evolving Optimizer for Agent Harnesses</title>
+      <link>https://arxiv.org/abs/2610.02616</link>
+      <guid isPermaLink="false">arxiv:2610.02616</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Harness evolution improves an LLM agent's prompts, tools, and workflow, while the optimizer's own tools and procedures often remain fixed. We study whether an optimizer can improve another agent more effectively by also improving how it…</description>
     </item>
-    <item>
-      <title>[Opportunity] Master in Language Technology (MLT)</title>
-      <link>https://www.gu.se/en</link>
-      <guid isPermaLink="false">formation:university-of-gothenburg-master-in-language-technology-mlt</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>University of Gothenburg — Göteborg. Langue(s) d'enseignement : en.</description>
+    <item>
+      <title>[Paper] LEAP: Learning Efficient Action Proposals For LLM Agents</title>
+      <link>https://arxiv.org/abs/2610.02670</link>
+      <guid isPermaLink="false">arxiv:2610.02670</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>LLM agents are known to be slow in rollouts. An agent completes a task one step at a time. At each step, it reasons and then chooses an action to execute. The next step and action cannot start until the previous one has finished.…</description>
     </item>
-    <item>
-      <title>[Opportunity] Master's Programme in Linguistic Diversity and Digital Humanities</title>
-      <link>https://www.helsinki.fi/en</link>
-      <guid isPermaLink="false">formation:university-of-helsinki-master-s-programme-in-linguistic-diversity-and-digital-humanities</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>University of Helsinki — Helsinki. Langue(s) d'enseignement : en.</description>
+    <item>
+      <title>[Paper] Asterism: Exploring and Synthesizing Scattered Observations into Literature-Grounded Hypotheses and Theories</title>
+      <link>https://arxiv.org/abs/2610.02673</link>
+      <guid isPermaLink="false">arxiv:2610.02673</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>A theory draws many independent observations into one framework with novel hypotheses. A researcher building such a theory must synthesize observations scattered across many papers, each describing related concepts but often in different…</description>
     </item>
-    <item>
-      <title>[Opportunity] MSc Human Language Science and Technology</title>
-      <link>https://www.um.edu.mt/linguistics/</link>
-      <guid isPermaLink="false">formation:university-of-malta-institute-of-linguistics-and-language-technology-msc-human-language-sc</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>University of Malta – Institute of Linguistics and Language Technology — Msida. Langue(s) d'enseignement : en, mt.</description>
+    <item>
+      <title>[Paper] Large language models exhibit unreliable updating of clinical judgment as patient evidence evolves</title>
+      <link>https://arxiv.org/abs/2610.02684</link>
+      <guid isPermaLink="false">arxiv:2610.02684</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large language models (LLMs) are increasingly explored for clinical reasoning, but whether they appropriately revise judgments as patient evidence evolves remains unclear. We evaluated longitudinal belief updating using matched…</description>
     </item>
-    <item>
-      <title>[Opportunity] MS in Computational Linguistics (CLMS)</title>
-      <link>https://www.compling.uw.edu/</link>
-      <guid isPermaLink="false">formation:university-of-washington-ms-in-computational-linguistics-clms</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>University of Washington — Seattle. Langue(s) d'enseignement : en.</description>
+    <item>
+      <title>[Paper] Learning from Evolving Errors: Adaptive Iterative Repair for On-Policy Distillation</title>
+      <link>https://arxiv.org/abs/2610.02700</link>
+      <guid isPermaLink="false">arxiv:2610.02700</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>On-policy self-distillation (OPSD) supplies dense token-level feedback on trajectories sampled from the student's own policy, a richer training signal than the outcome-level rewards of reinforcement learning. This feedback comes from a…</description>
     </item>
-    <item>
-      <title>[Opportunity] MSc Computer Science – Computational Linguistics</title>
-      <link>https://ufal.mff.cuni.cz/</link>
-      <guid isPermaLink="false">formation:univerzita-karlova-fal-msc-computer-science-computational-linguistics</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Univerzita Karlova (ÚFAL) — Prague. Langue(s) d'enseignement : en, cs.</description>
+    <item>
+      <title>[Paper] OPD Before RL: Warm-Starting Rubric-Based RL with On-Policy Distillation</title>
+      <link>https://arxiv.org/abs/2610.02781</link>
+      <guid isPermaLink="false">arxiv:2610.02781</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Many useful language-model tasks cannot be evaluated by exact outcome verification. Rubric-based reinforcement learning (RL) addresses this issue by scoring open-ended responses against explicit criteria. However, because the reward is…</description>
     </item>
-    <item>
-      <title>[Opportunity] Master Programme in Language Technology</title>
-      <link>https://www.uu.se/en</link>
-      <guid isPermaLink="false">formation:uppsala-university-master-programme-in-language-technology</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>formations</category>
-      <description>Uppsala University — Uppsala. Langue(s) d'enseignement : en.</description>
+    <item>
+      <title>[Paper] ROUTEAUDIT: Interaction-Aware Identification for Budgeted Multi-Verifier Routing</title>
+      <link>https://arxiv.org/abs/2610.02808</link>
+      <guid isPermaLink="false">arxiv:2610.02808</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Adaptive multi-verifier systems are commonly compared through endpoint quality-cost gaps, even when the verifier catalog, availability, accounting, information filtration, or scorer changes with the policy. We formulate verifier routing…</description>
     </item>
-    <item>
-      <title>[Event] Computer Speech and Language 2021 : Special Issue on Speech Based Evaluation of Neurological Diseases</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=118657</link>
-      <guid isPermaLink="false">wikicfp:118657</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Special Issue on Speech Based Evaluation of Neurological Diseases</description>
+    <item>
+      <title>[Paper] RMCW: A Deletion-Robust Watermark Based on Reed--Muller Codes for Language Models</title>
+      <link>https://arxiv.org/abs/2610.02817</link>
+      <guid isPermaLink="false">arxiv:2610.02817</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large Language Model (LLM) watermarking provides a lightweight mechanism for identifying text generated by a specific model, but its robustness remains fragile under post-processing attacks. Deletion attacks are particularly challenging…</description>
     </item>
-    <item>
-      <title>[Event] UAIS 2023 : International Journal on Universal Access in the Information Society</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=169509</link>
-      <guid isPermaLink="false">wikicfp:169509</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>International Journal on Universal Access in the Information Society</description>
+    <item>
+      <title>[Paper] FSPO: Policy-Consistent Risk and Pareto-Feasible Control for Budgeted LLM RL Post-Training</title>
+      <link>https://arxiv.org/abs/2610.02828</link>
+      <guid isPermaLink="false">arxiv:2610.02828</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Adaptive LLM reinforcement-learning post-training changes multiple training actuators online, including rollout temperature, group size, clipping, KL regularization, verifier allocation, and update budget. Three coupled issues remain…</description>
     </item>
-    <item>
-      <title>[Event] Neophilologica 2026 : Phraseological Universals in Natural Languages</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192944</link>
-      <guid isPermaLink="false">wikicfp:192944</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Phraseological Universals in Natural Languages</description>
+    <item>
+      <title>[Paper] To Explore The Strange New World Beyond Data Distribution: System Behavior, Causality Tax, and Non-causal Base Model</title>
+      <link>https://arxiv.org/abs/2610.02839</link>
+      <guid isPermaLink="false">arxiv:2610.02839</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>We show that the causality of language models (LMs) may not be necessary nor optimal. This is the case when system behavior (denoted as $S$) is incorporated as a first-principle Bayesian feature. Here, $S$ refers to extra dominant factors…</description>
     </item>
-    <item>
-      <title>[Event] RiCL special issue 2027 : special issue of Research in Corpus Linguistics (RiCL) ‘Learner Corpus Research meets the Common European Framework of Reference for Languages and the Companion Volume’</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194494</link>
-      <guid isPermaLink="false">wikicfp:194494</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>special issue of Research in Corpus Linguistics (RiCL) ‘Learner Corpus Research meets the Common European Framework of Reference for Languages and the Companion Volume’</description>
-    </item>
-    <item>
-      <title>[Event] CL-ENLPCL 2026 : Special Issue on the Ethics of NLP and CL in Computational Linguistics</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199979</link>
-      <guid isPermaLink="false">wikicfp:199979</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Special Issue on the Ethics of NLP and CL in Computational Linguistics</description>
-    </item>
-    <item>
-      <title>[Event] LRE-PPLD 2027 : Special Issue Preserving the Privacy of Language Data: Emerging Technologies, Evolving Standards and Beyond at the Language Resources and Evaluation Journal</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203521</link>
-      <guid isPermaLink="false">wikicfp:203521</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-      <category>wikicfp</category>
-      <description>Special Issue Preserving the Privacy of Language Data: Emerging Technologies, Evolving Standards and Beyond at the Language Resources and Evaluation Journal</description>
-    </item>
-    <item>
-      <title>[Corpus] schneiderkamplab/dfm13-wave3-opus-ca-lt</title>
-      <link>https://huggingface.co/datasets/schneiderkamplab/dfm13-wave3-opus-ca-lt</link>
-      <guid isPermaLink="false">hf:datasets:schneiderkamplab/dfm13-wave3-opus-ca-lt</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>dfm13-wave3-opus-ca-lt 176 accepted conversations (88 bilingual pairs), including both directions. Every pair passed automated Gemma 4 review; automated review is fallible. Direct and exact-English-pivot routes share one token cap and are…</description>
-    </item>
-    <item>
-      <title>[Corpus] schneiderkamplab/dfm13-wave3-opus-ca-lv</title>
-      <link>https://huggingface.co/datasets/schneiderkamplab/dfm13-wave3-opus-ca-lv</link>
-      <guid isPermaLink="false">hf:datasets:schneiderkamplab/dfm13-wave3-opus-ca-lv</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>dfm13-wave3-opus-ca-lv 94 accepted conversations (47 bilingual pairs), including both directions. Every pair passed automated Gemma 4 review; automated review is fallible. Direct and exact-English-pivot routes share one token cap and are…</description>
-    </item>
-    <item>
-      <title>[Corpus] schneiderkamplab/dfm13-wave4-opus-be-ca</title>
-      <link>https://huggingface.co/datasets/schneiderkamplab/dfm13-wave4-opus-be-ca</link>
-      <guid isPermaLink="false">hf:datasets:schneiderkamplab/dfm13-wave4-opus-be-ca</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>dfm13-wave4-opus-be-ca 182 accepted conversations (91 bilingual pairs), including both directions. Every pair passed automated Gemma 4 review; automated review is fallible. Direct and exact-English-pivot routes share one token cap and are…</description>
-    </item>
-    <item>
-      <title>[Corpus] schneiderkamplab/dfm13-wave4-opus-bg-ca</title>
-      <link>https://huggingface.co/datasets/schneiderkamplab/dfm13-wave4-opus-bg-ca</link>
-      <guid isPermaLink="false">hf:datasets:schneiderkamplab/dfm13-wave4-opus-bg-ca</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>dfm13-wave4-opus-bg-ca 196 accepted conversations (98 bilingual pairs), including both directions. Every pair passed automated Gemma 4 review; automated review is fallible. Direct and exact-English-pivot routes share one token cap and are…</description>
-    </item>
-    <item>
-      <title>[Corpus] schneiderkamplab/dfm13-wave4-opus-bs-ca</title>
-      <link>https://huggingface.co/datasets/schneiderkamplab/dfm13-wave4-opus-bs-ca</link>
-      <guid isPermaLink="false">hf:datasets:schneiderkamplab/dfm13-wave4-opus-bs-ca</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>dfm13-wave4-opus-bs-ca 52 accepted conversations (26 bilingual pairs), including both directions. Every pair passed automated Gemma 4 review; automated review is fallible. Direct and exact-English-pivot routes share one token cap and are…</description>
-    </item>
-    <item>
-      <title>[Corpus] schneiderkamplab/dfm13-wave4-opus-ca-fa</title>
-      <link>https://huggingface.co/datasets/schneiderkamplab/dfm13-wave4-opus-ca-fa</link>
-      <guid isPermaLink="false">hf:datasets:schneiderkamplab/dfm13-wave4-opus-ca-fa</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>dfm13-wave4-opus-ca-fa 22 accepted conversations (11 bilingual pairs), including both directions. Every pair passed automated Gemma 4 review; automated review is fallible. Direct and exact-English-pivot routes share one token cap and are…</description>
-    </item>
-    <item>
-      <title>[Corpus] schneiderkamplab/dfm13-wave4-opus-ca-hr</title>
-      <link>https://huggingface.co/datasets/schneiderkamplab/dfm13-wave4-opus-ca-hr</link>
-      <guid isPermaLink="false">hf:datasets:schneiderkamplab/dfm13-wave4-opus-ca-hr</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>dfm13-wave4-opus-ca-hr 88 accepted conversations (44 bilingual pairs), including both directions. Every pair passed automated Gemma 4 review; automated review is fallible. Direct and exact-English-pivot routes share one token cap and are…</description>
-    </item>
-    <item>
-      <title>[Corpus] schneiderkamplab/dfm13-wave4-opus-ca-hu</title>
-      <link>https://huggingface.co/datasets/schneiderkamplab/dfm13-wave4-opus-ca-hu</link>
-      <guid isPermaLink="false">hf:datasets:schneiderkamplab/dfm13-wave4-opus-ca-hu</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>dfm13-wave4-opus-ca-hu 562 accepted conversations (281 bilingual pairs), including both directions. Every pair passed automated Gemma 4 review; automated review is fallible. Direct and exact-English-pivot routes share one token cap and…</description>
-    </item>
-    <item>
-      <title>[Corpus] schneiderkamplab/dfm13-wave4-opus-ca-lb</title>
-      <link>https://huggingface.co/datasets/schneiderkamplab/dfm13-wave4-opus-ca-lb</link>
-      <guid isPermaLink="false">hf:datasets:schneiderkamplab/dfm13-wave4-opus-ca-lb</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>dfm13-wave4-opus-ca-lb 20 accepted conversations (10 bilingual pairs), including both directions. Every pair passed automated Gemma 4 review; automated review is fallible. Direct and exact-English-pivot routes share one token cap and are…</description>
-    </item>
-    <item>
-      <title>[Corpus] schneiderkamplab/dfm13-wave4-opus-ca-sl</title>
-      <link>https://huggingface.co/datasets/schneiderkamplab/dfm13-wave4-opus-ca-sl</link>
-      <guid isPermaLink="false">hf:datasets:schneiderkamplab/dfm13-wave4-opus-ca-sl</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>dfm13-wave4-opus-ca-sl 160 accepted conversations (80 bilingual pairs), including both directions. Every pair passed automated Gemma 4 review; automated review is fallible. Direct and exact-English-pivot routes share one token cap and are…</description>
+    <item>
+      <title>[Paper] Probe the Harness: Setup Checks for Stale-Data RL Comparisons in Language Models</title>
+      <link>https://arxiv.org/abs/2610.02911</link>
+      <guid isPermaLink="false">arxiv:2610.02911</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Methods for training language models on stale samples are judged by comparisons against importance-corrected baselines. We show that details of the experimental harness can reverse the observed ranking of methods, and we introduce PTH…</description>
+    </item>
+    <item>
+      <title>[Paper] Continual Graph Memory for Mathematical Research Agents</title>
+      <link>https://arxiv.org/abs/2610.02945</link>
+      <guid isPermaLink="false">arxiv:2610.02945</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Using frontier agent harnesses to tackle mathematical research problems has emerged as an effective means of advancing mathematics. However, solving frontier problems in mathematics may require a massive number of agents working in…</description>
+    </item>
+    <item>
+      <title>[Paper] Understanding Trajectory Heterogeneity in Federated World Model Learning</title>
+      <link>https://arxiv.org/abs/2610.02957</link>
+      <guid isPermaLink="false">arxiv:2610.02957</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>World models learn state evolution from trajectories, making access to temporal context a central training requirement. Federated learning can use distributed records, while ownership boundaries within a trajectory restrict the examples…</description>
+    </item>
+    <item>
+      <title>[Paper] Sentry: Learning to Recover from LLM Agent Failures at Test Time</title>
+      <link>https://arxiv.org/abs/2610.02994</link>
+      <guid isPermaLink="false">arxiv:2610.02994</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>LLM agents often fail mid-task due to invalid tool calls, repeated actions, or poorly grounded reasoning, and learning from these failures is a path to reliability. We find that how failure knowledge reaches the agent matters as much as…</description>
+    </item>
+    <item>
+      <title>[Paper] Personalized Automatic Speech Recognition for a Dysarthric and Tracheostomic Speaker using Artificial Conversations</title>
+      <link>https://arxiv.org/abs/2610.03017</link>
+      <guid isPermaLink="false">arxiv:2610.03017</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>This work presents an automatic speech recognition (ASR) system personalized for a Czech speaker with a permanent tracheal stoma and severe dysarthria rendering their speech unintelligible to untrained listeners. We release a public…</description>
+    </item>
+    <item>
+      <title>[Paper] ReSCUE: Re-translation with Sentence Commitment for Unsegmented Long-Form Simultaneous Sign Language Translation</title>
+      <link>https://arxiv.org/abs/2610.03022</link>
+      <guid isPermaLink="false">arxiv:2610.03022</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Simultaneous Sign Language Translation (SLT) is critical for real-time communication, yet existing methods remain largely confined to sentence-level, offline settings that assume pre-segmented inputs. These assumptions hinder deployment…</description>
+    </item>
+    <item>
+      <title>[Paper] Verifiable, Articulable, and Tacit Components of Preference</title>
+      <link>https://arxiv.org/abs/2610.03025</link>
+      <guid isPermaLink="false">arxiv:2610.03025</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>What makes a short story gripping; a news article newsworthy; or a math proof elegant? These constructs resist articulation or verification; their meaning is at least partially tacit. However, modern AI models are improved primarily via…</description>
+    </item>
+    <item>
+      <title>[Paper] Tailoring the Quantization Space for 1-Bit KV Cache Compression</title>
+      <link>https://arxiv.org/abs/2610.03027</link>
+      <guid isPermaLink="false">arxiv:2610.03027</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>The key-value (KV) cache becomes a major memory bottleneck in long-context LLM inference, placing substantial pressure on memory capacity and bandwidth. To mitigate this bottleneck, vector quantization (VQ) has emerged as a promising…</description>
+    </item>
+    <item>
+      <title>[Paper] Adaptive Second-Order Solvers for Fast Stochastic Diffusion Sampling</title>
+      <link>https://arxiv.org/abs/2610.03034</link>
+      <guid isPermaLink="false">arxiv:2610.03034</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Diffusion models rely on numerical solvers requiring time-discretization, which has a large influence on the tradeoff between sampling cost and quality. However, the computational difficulty of the reverse process varies along the…</description>
+    </item>
+    <item>
+      <title>[Paper] SecJev: Bringing Security Expertise to System One Decision Models</title>
+      <link>https://arxiv.org/abs/2610.03073</link>
+      <guid isPermaLink="false">arxiv:2610.03073</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Security workflows need models that turn complex observations and explicit policies into decisions. System One models introduced by Jev return typed predictions and probabilities; security specialization supplies the domain expertise…</description>
+    </item>
+    <item>
+      <title>[Paper] MintEval: Do LLMs Implement the Trading Strategy You Asked For? A Behavioural-Equivalence Benchmark for Natural-Language-to-Strategy Code</title>
+      <link>https://arxiv.org/abs/2610.03080</link>
+      <guid isPermaLink="false">arxiv:2610.03080</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large language models are moving from producing trading signals to writing the code that executes them. The failure mode of the second role is silent: generated code runs, a backtest plots, yet the risk logic that the trader described is…</description>
+    </item>
+    <item>
+      <title>[Paper] Peer Influence across Heterogeneous AI Models</title>
+      <link>https://arxiv.org/abs/2610.03095</link>
+      <guid isPermaLink="false">arxiv:2610.03095</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>When two AI agents disagree, who persuades whom? As multi-agent systems increasingly combine language models of different families and sizes, the answer can determine which judgments survive interaction. Measuring persuasion as the…</description>
+    </item>
+    <item>
+      <title>[Paper] The Fragility of Trigger-Tag Mechanisms for Misuse Detection in Open-Weight LLMs</title>
+      <link>https://arxiv.org/abs/2610.03124</link>
+      <guid isPermaLink="false">arxiv:2610.03124</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Open-weight language models can be downloaded, modified, and deployed beyond their developers' control, limiting the effectiveness of centrally enforced safeguards. Recent work has therefore proposed \emph{trigger-tag} mechanisms that…</description>
     </item>
   </channel>
 </rss>

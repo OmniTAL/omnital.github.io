@@ -7194,8 +7194,8 @@
     "arz"
    ],
    "description": {
-    "fr": "Jeu de données publié sur Hugging Face par danish-foundation-models le 22 avril 2026. Langue(s) : afr, amh, ara, arz, asm. Taille : 100K<n<1M. Multilingual GSM-Symbolic Version v0.5.2 Released 2026-10-03 Languages 108 (19 validated) Multilingual GSM-Symbolic is a benchmark for evaluating arithmetic reasoning in large language models across many languages.",
-    "en": "Dataset published on Hugging Face by danish-foundation-models on 22 April 2026. Language(s): afr, amh, ara, arz, asm. Size: 100K<n<1M. Multilingual GSM-Symbolic Version v0.5.2 Released 2026-10-03 Languages 108 (19 validated) Multilingual GSM-Symbolic is a benchmark for evaluating arithmetic reasoning in large language models across many languages."
+    "fr": "Jeu de données publié sur Hugging Face par danish-foundation-models le 22 avril 2026. Langue(s) : afr, amh, ara, arz, asm. Taille : 100K<n<1M. Multilingual GSM-Symbolic Version v0.5.4 Released 2026-10-04 Languages 108 (19 validated) Multilingual GSM-Symbolic is a benchmark for evaluating arithmetic reasoning in large language models across many languages.",
+    "en": "Dataset published on Hugging Face by danish-foundation-models on 22 April 2026. Language(s): afr, amh, ara, arz, asm. Size: 100K<n<1M. Multilingual GSM-Symbolic Version v0.5.4 Released 2026-10-04 Languages 108 (19 validated) Multilingual GSM-Symbolic is a benchmark for evaluating arithmetic reasoning in large language models across many languages."
    },
    "notice_by": "règles"
   },
@@ -7960,8 +7960,8 @@
     "eu"
    ],
    "description": {
-    "fr": "Jeu de données publié sur Hugging Face par OpenVoiceOS le 3 septembre 2026. Langue(s) : anglais, ca, cs, da, de. Tâche : classification de textes. OVOS Golden Utterances Benchmark A held-out evaluation set of hand-curated golden utterances drawn from the end-to-end test suites of the OpenVoiceOS skill fleet.",
-    "en": "Dataset published on Hugging Face by OpenVoiceOS on 3 September 2026. Language(s): English, ca, cs, da, de. Task: text classification. OVOS Golden Utterances Benchmark A held-out evaluation set of hand-curated golden utterances drawn from the end-to-end test suites of the OpenVoiceOS skill fleet."
+    "fr": "Jeu de données publié sur Hugging Face par OpenVoiceOS le 3 septembre 2026. Langue(s) : anglais, ca, cs, da, de. Tâche : classification de textes. Retired. This dataset is superseded by OpenVoiceOS/ovos-intents.",
+    "en": "Dataset published on Hugging Face by OpenVoiceOS on 3 September 2026. Language(s): English, ca, cs, da, de. Task: text classification. Retired. This dataset is superseded by OpenVoiceOS/ovos-intents."
    },
    "notice_by": "règles"
   },
@@ -13336,16 +13336,17 @@
    "type": "Dataset (Hugging Face)",
    "langue": "Ko, De, Jv, Id",
    "taille": "n<1K",
-   "licence_class": "unknown",
+   "licence_class": "open",
    "lien": "https://huggingface.co/datasets/afaji/HyperBrowseComp",
    "added": "2026-07-26",
    "focus": true,
    "region": "International",
    "description": {
-    "fr": "Jeu de données publié sur Hugging Face par afaji le 26 juillet 2026. Langue(s) : ko, de, jv, id, es. Taille : n<1K. HyperBrowseComp Hard, multi-hop web search questions across 13 languages.",
-    "en": "Dataset published on Hugging Face by afaji on 26 July 2026. Language(s): ko, de, jv, id, es. Size: n<1K. HyperBrowseComp Hard, multi-hop web search questions across 13 languages."
+    "fr": "Jeu de données publié sur Hugging Face par afaji le 26 juillet 2026. Langue(s) : ko, de, jv, id, es. Taille : n<1K. HyperBrowseComp HyperBrowseComp is a multilingual and multimodal stress test for web-browsing agents.",
+    "en": "Dataset published on Hugging Face by afaji on 26 July 2026. Language(s): ko, de, jv, id, es. Size: n<1K. HyperBrowseComp HyperBrowseComp is a multilingual and multimodal stress test for web-browsing agents."
    },
-   "notice_by": "règles"
+   "notice_by": "règles",
+   "licence": "cc-by-sa-4.0"
   },
   "hf:datasets:ehabnegm/100-hour-Egyptian-dataset-single-speaker": {
    "id": "hf:datasets:ehabnegm/100-hour-Egyptian-dataset-single-speaker",
@@ -45789,8 +45790,8 @@
    "region": "International",
    "trending": true,
    "description": {
-    "fr": "Jeu de données publié sur Hugging Face par cloud0day3 le 30 septembre 2026. Langue(s) : tr. Tâche : synthèse vocale. Taille : 1M<n<10M. Alania Turkish Synthetic Speech English · Türkçe 3,248 hours of 48 kHz Turkish speech in 1,968,019 clips, spoken by 2,752 designed voices plus one-off voices, each clip paired with the written sentence, its spoken form…",
-    "en": "Dataset published on Hugging Face by cloud0day3 on 30 September 2026. Language(s): tr. Task: text to speech. Size: 1M<n<10M. Alania Turkish Synthetic Speech English · Türkçe 3,248 hours of 48 kHz Turkish speech in 1,968,019 clips, spoken by 2,752 designed voices plus one-off voices, each clip paired with the written sentence, its spoken form…"
+    "fr": "Jeu de données publié sur Hugging Face par cloud0day3 le 30 septembre 2026. Langue(s) : tr. Tâche : synthèse vocale. Taille : 1M<n<10M. Alania Turkish Synthetic Speech English · Türkçe 3,411 hours of 48 kHz Turkish speech in 2,037,461 clips, spoken by 2,752 designed voices plus one-off voices, each clip paired with the written sentence, its spoken form…",
+    "en": "Dataset published on Hugging Face by cloud0day3 on 30 September 2026. Language(s): tr. Task: text to speech. Size: 1M<n<10M. Alania Turkish Synthetic Speech English · Türkçe 3,411 hours of 48 kHz Turkish speech in 2,037,461 clips, spoken by 2,752 designed voices plus one-off voices, each clip paired with the written sentence, its spoken form…"
    },
    "notice_by": "règles"
   },
@@ -47579,13 +47580,13 @@
    "type": "Logiciel (Zenodo)",
    "licence": "apache2.0",
    "licence_class": "open",
-   "lien": "https://zenodo.org/records/23078294",
+   "lien": "https://zenodo.org/records/23137145",
    "added": "2026-10-01",
    "focus": false,
    "region": "International",
    "description": {
-    "fr": "Logiciel déposé sur Zenodo le 1 octobre 2026 par Van Dam, Alex R.. Licence : apache2.0. Descriptron v2 turns images of specimens (photographs or micro-CT slices) into the outputs a taxonomist needs: measured structures, a character matrix, a dichotomous key, species delimitation, and formatted species…",
-    "en": "Software deposited on Zenodo on 1 October 2026 by Van Dam, Alex R.. License: apache2.0. Descriptron v2 turns images of specimens (photographs or micro-CT slices) into the outputs a taxonomist needs: measured structures, a character matrix, a dichotomous key, species delimitation, and formatted species…"
+    "fr": "Logiciel déposé sur Zenodo le 4 octobre 2026 par Van Dam, Alex R.. Licence : apache2.0. Descriptron v2 turns images of specimens (photographs or micro-CT slices) into the outputs a taxonomist needs: measured structures, a character matrix, a dichotomous key, species delimitation, and formatted species…",
+    "en": "Software deposited on Zenodo on 4 October 2026 by Van Dam, Alex R.. License: apache2.0. Descriptron v2 turns images of specimens (photographs or micro-CT slices) into the outputs a taxonomist needs: measured structures, a character matrix, a dichotomous key, species delimitation, and formatted species…"
    },
    "notice_by": "règles"
   },
@@ -57797,6 +57798,4386 @@
    },
    "notice_by": "règles",
    "deadline_next": null
+  },
+  "hf:datasets:aleixsant/EuroAlpaca": {
+   "id": "hf:datasets:aleixsant/EuroAlpaca",
+   "nom": "aleixsant/EuroAlpaca",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Ast, Bg, Bs, Ca",
+   "taille": "1M<n<10M",
+   "licence": "cc-by-nc-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/aleixsant/EuroAlpaca",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Asturies",
+   "city": "Asturies",
+   "lat": 43.3614,
+   "lng": -5.8593,
+   "pays": "Asturies",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ast",
+    "ca"
+   ],
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par aleixsant le 5 octobre 2026. Langue(s) : ast, bg, bs, ca, cs. Tâche : génération de texte. Taille : 1M<n<10M. EuroAlpaca EuroAlpaca is a task-preserving localisation resource for instruction tuning in 50 European languages and language varieties.",
+    "en": "Dataset published on Hugging Face by aleixsant on 5 October 2026. Language(s): ast, bg, bs, ca, cs. Task: text generation. Size: 1M<n<10M. EuroAlpaca EuroAlpaca is a task-preserving localisation resource for instruction tuning in 50 European languages and language varieties."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:schneiderkamplab/dfm13-dala-v2-ca-compact": {
+   "id": "hf:datasets:schneiderkamplab/dfm13-dala-v2-ca-compact",
+   "nom": "schneiderkamplab/dfm13-dala-v2-ca-compact",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Ca",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/datasets/schneiderkamplab/dfm13-dala-v2-ca-compact",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca"
+   ],
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par schneiderkamplab le 4 octobre 2026. Langue(s) : ca. Tâche : génération de texte. dfm13-dala-v2-ca-compact One language dataset combining accepted baseline and recovery pools where available.",
+    "en": "Dataset published on Hugging Face by schneiderkamplab on 4 October 2026. Language(s): ca. Task: text generation. dfm13-dala-v2-ca-compact One language dataset combining accepted baseline and recovery pools where available."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:factlogic/iraqi-arabic-dialect-corpus": {
+   "id": "hf:datasets:factlogic/iraqi-arabic-dialect-corpus",
+   "nom": "factlogic/iraqi-arabic-dialect-corpus",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Arabe, Acm",
+   "taille": "100K<n<1M",
+   "licence": "cc-by-nc-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/factlogic/iraqi-arabic-dialect-corpus",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Golfe",
+   "city": "Golfe",
+   "lat": 25.2048,
+   "lng": 55.2708,
+   "pays": "Golfe",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "afb",
+    "ar-dial"
+   ],
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par factlogic le 5 octobre 2026. Langue(s) : arabe, acm. Tâche : génération de texte. Taille : 100K<n<1M. 🇮🇶 Iraqi Arabic Dialect Corpus — اللهجة العراقية كما يكتبها العراقيون 326,438 natural Iraqi Arabic texts · 4.1M words · 98.5%–100% human-verified precision Real Iraqi Arabic, the way Iraqis actually write it online: شكو…",
+    "en": "Dataset published on Hugging Face by factlogic on 5 October 2026. Language(s): Arabic, acm. Task: text generation. Size: 100K<n<1M. 🇮🇶 Iraqi Arabic Dialect Corpus — اللهجة العراقية كما يكتبها العراقيون 326,438 natural Iraqi Arabic texts · 4.1M words · 98.5%–100% human-verified precision Real Iraqi Arabic, the way Iraqis actually write it online: شكو…"
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:jaydo88/piper-voices": {
+   "id": "hf:models:jaydo88/piper-voices",
+   "nom": "jaydo88/piper-voices",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/jaydo88/piper-voices",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par jaydo88 le 4 octobre 2026.",
+    "en": "Model published on Hugging Face by jaydo88 on 4 October 2026."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:seamon67/xlm-roberta-large": {
+   "id": "hf:models:seamon67/xlm-roberta-large",
+   "nom": "seamon67/xlm-roberta-large",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/seamon67/xlm-roberta-large",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par seamon67 le 4 octobre 2026. Dérivé de FacebookAI/xlm-roberta-large.",
+    "en": "Model published on Hugging Face by seamon67 on 4 October 2026. Fine-tuned from FacebookAI/xlm-roberta-large."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:seamon67/whisper-large-v3": {
+   "id": "hf:models:seamon67/whisper-large-v3",
+   "nom": "seamon67/whisper-large-v3",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/seamon67/whisper-large-v3",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par seamon67 le 4 octobre 2026. Tâche : reconnaissance de la parole. Dérivé de openai/whisper-large-v3.",
+    "en": "Model published on Hugging Face by seamon67 on 4 October 2026. Task: automatic speech recognition. Fine-tuned from openai/whisper-large-v3."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:TigreGotico/wakephonehubert": {
+   "id": "hf:models:TigreGotico/wakephonehubert",
+   "nom": "TigreGotico/wakephonehubert",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/TigreGotico/wakephonehubert",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par TigreGotico le 4 octobre 2026. Tâche : plongements (embeddings). Dérivé de TigreGotico/wakehubert-tiny.",
+    "en": "Model published on Hugging Face by TigreGotico on 4 October 2026. Task: feature extraction. Fine-tuned from TigreGotico/wakehubert-tiny."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:msmth/Source-1": {
+   "id": "hf:models:msmth/Source-1",
+   "nom": "msmth/Source-1",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/msmth/Source-1",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par msmth le 4 octobre 2026. Tâche : classification de textes. Dérivé de jhu-clsp/mmBERT-base.",
+    "en": "Model published on Hugging Face by msmth on 4 October 2026. Task: text classification. Fine-tuned from jhu-clsp/mmBERT-base."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:ncannings/parakeet-ultra-nemo": {
+   "id": "hf:models:ncannings/parakeet-ultra-nemo",
+   "nom": "ncannings/parakeet-ultra-nemo",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/ncannings/parakeet-ultra-nemo",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par ncannings le 5 octobre 2026. Tâche : reconnaissance de la parole. Dérivé de moondream/parakeet-ultra.",
+    "en": "Model published on Hugging Face by ncannings on 5 October 2026. Task: automatic speech recognition. Fine-tuned from moondream/parakeet-ultra."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:davidheineman/rlve-archive-diversity-teachers-r1-20261001-110741-04-catalannumbermod-785fb27ff6ff": {
+   "id": "hf:models:davidheineman/rlve-archive-diversity-teachers-r1-20261001-110741-04-catalannumbermod-785fb27ff6ff",
+   "nom": "davidheineman/rlve-archive-diversity-teachers-r1-20261001-110741-04-catalannumbermod-785fb27ff6ff",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/davidheineman/rlve-archive-diversity-teachers-r1-20261001-110741-04-catalannumbermod-785fb27ff6ff",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par davidheineman le 5 octobre 2026.",
+    "en": "Model published on Hugging Face by davidheineman on 5 October 2026."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:Anthropic/hh-rlhf": {
+   "id": "hf:datasets:Anthropic/hh-rlhf",
+   "nom": "Anthropic/hh-rlhf",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "taille": "100K<n<1M",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/Anthropic/hh-rlhf",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "États-Unis",
+   "city": "San Francisco",
+   "lat": 37.775,
+   "lng": -122.4194,
+   "pays": "États-Unis",
+   "geo_precision": "organisation",
+   "geo_source": "Hugging Face · Anthropic",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par Anthropic le 8 décembre 2022. Taille : 100K<n<1M. Dataset Summary This repository provides access to two different kinds of data: Human preference data about helpfulness and harmlessness from Training a Helpful and Harmless Assistant with Reinforcement Learning from…",
+    "en": "Dataset published on Hugging Face by Anthropic on 8 December 2022. Size: 100K<n<1M. Dataset Summary This repository provides access to two different kinds of data: Human preference data about helpfulness and harmlessness from Training a Helpful and Harmless Assistant with Reinforcement Learning from…"
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:ikala/tmmluplus": {
+   "id": "hf:datasets:ikala/tmmluplus",
+   "nom": "ikala/tmmluplus",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Zh",
+   "taille": "10K<n<100K",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/ikala/tmmluplus",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par ikala le 22 décembre 2023. Langue(s) : zh. Tâche : questions-réponses. Taille : 10K<n<100K. TMMLU+ : Large scale traditional chinese massive multitask language understanding iKala presents TMMLU+, a large-scale benchmark for evaluating LLM capabilities in Traditional Chinese, with content primarily reflecting…",
+    "en": "Dataset published on Hugging Face by ikala on 22 December 2023. Language(s): zh. Task: question answering. Size: 10K<n<100K. TMMLU+ : Large scale traditional chinese massive multitask language understanding iKala presents TMMLU+, a large-scale benchmark for evaluating LLM capabilities in Traditional Chinese, with content primarily reflecting…"
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:openai/gsm8k": {
+   "id": "hf:datasets:openai/gsm8k",
+   "nom": "openai/gsm8k",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Anglais",
+   "taille": "10K<n<100K",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/openai/gsm8k",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "États-Unis",
+   "city": "San Francisco",
+   "lat": 37.775,
+   "lng": -122.4194,
+   "pays": "États-Unis",
+   "geo_precision": "organisation",
+   "geo_source": "Hugging Face · OpenAI",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par openai le 12 avril 2022. Langue(s) : anglais. Tâche : génération de texte. Taille : 10K<n<100K. Dataset Summary GSM8K (Grade School Math 8K) is a dataset of 8.5K high quality linguistically diverse grade school math word problems.",
+    "en": "Dataset published on Hugging Face by openai on 12 April 2022. Language(s): English. Task: text generation. Size: 10K<n<100K. Dataset Summary GSM8K (Grade School Math 8K) is a dataset of 8.5K high quality linguistically diverse grade school math word problems."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:PleIAs/SYNTH": {
+   "id": "hf:datasets:PleIAs/SYNTH",
+   "nom": "PleIAs/SYNTH",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Anglais, Français, It, Es",
+   "taille": "10M<n<100M",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/PleIAs/SYNTH",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Grèce",
+   "city": "Pleias",
+   "lat": 38.2894,
+   "lng": 21.7855,
+   "pays": "Grèce",
+   "geo_precision": "organisation",
+   "geo_source": "Hugging Face · PleIAs",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par PleIAs le 10 novembre 2025. Langue(s) : anglais, français, it, es, de. Tâche : génération de texte. Taille : 10M<n<100M. SYNTH Blog announcement SYNTH is the first open generalist synthetic dataset for training small reasoning model end-to-end, jointly released by Pleias and the AI Alliance.",
+    "en": "Dataset published on Hugging Face by PleIAs on 10 November 2025. Language(s): English, French, it, es, de. Task: text generation. Size: 10M<n<100M. SYNTH Blog announcement SYNTH is the first open generalist synthetic dataset for training small reasoning model end-to-end, jointly released by Pleias and the AI Alliance."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:leggedrobotics/hoi-retarget": {
+   "id": "hf:datasets:leggedrobotics/hoi-retarget",
+   "nom": "leggedrobotics/hoi-retarget",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "taille": "10K<n<100K",
+   "licence": "cc-by-nc-sa-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/leggedrobotics/hoi-retarget",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par leggedrobotics le 18 septembre 2026. Tâche : robotics. Taille : 10K<n<100K. HOI-Retarget — Humanoid Human–Object Interaction Motion Project page · Code · 3D viewer · Paper · arXiv Learning from demonstration (LfD) has enabled humanoid robots to acquire diverse whole-body skills, but extending…",
+    "en": "Dataset published on Hugging Face by leggedrobotics on 18 September 2026. Task: robotics. Size: 10K<n<100K. HOI-Retarget — Humanoid Human–Object Interaction Motion Project page · Code · 3D viewer · Paper · arXiv Learning from demonstration (LfD) has enabled humanoid robots to acquire diverse whole-body skills, but extending…"
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:biglam/europeana_newspapers_images": {
+   "id": "hf:datasets:biglam/europeana_newspapers_images",
+   "nom": "biglam/europeana_newspapers_images",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "De, Et, Sr, Français",
+   "taille": "100K<n<1M",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/datasets/biglam/europeana_newspapers_images",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par biglam le 30 septembre 2026. Langue(s) : de, et, sr, français, pl. Tâche : OCR / image vers texte. Taille : 100K<n<1M. Europeana Newspapers: Page Images with OCR Layout 98,877 newspaper page images, 1700s–1940s, in 10 languages (plus pages marked multi-language or unidentified), each paired with the OCR produced when the page was…",
+    "en": "Dataset published on Hugging Face by biglam on 30 September 2026. Language(s): de, et, sr, French, pl. Task: image to text. Size: 100K<n<1M. Europeana Newspapers: Page Images with OCR Layout 98,877 newspaper page images, 1700s–1940s, in 10 languages (plus pages marked multi-language or unidentified), each paired with the OCR produced when the page was…"
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:docling-project/DeskForge-1M": {
+   "id": "hf:datasets:docling-project/DeskForge-1M",
+   "nom": "docling-project/DeskForge-1M",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Anglais",
+   "taille": "1M<n<10M",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/docling-project/DeskForge-1M",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par docling-project le 25 août 2026. Langue(s) : anglais. Tâche : OCR / image vers texte. Taille : 1M<n<10M. DeskForge-1M DeskForge-1M is a corpus of 1.21M annotated desktop screenshots with 159.7M element instances and 917K recorded click transitions, generated with DeskForge, a controllable desktop environment that composes…",
+    "en": "Dataset published on Hugging Face by docling-project on 25 August 2026. Language(s): English. Task: image to text. Size: 1M<n<10M. DeskForge-1M DeskForge-1M is a corpus of 1.21M annotated desktop screenshots with 159.7M element instances and 917K recorded click transitions, generated with DeskForge, a controllable desktop environment that composes…"
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:jialinyyzz/humanizer": {
+   "id": "hf:models:jialinyyzz/humanizer",
+   "nom": "jialinyyzz/humanizer",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/jialinyyzz/humanizer",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par jialinyyzz le 11 septembre 2026. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by jialinyyzz on 11 September 2026. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:autotrust/JEV-27B-VL": {
+   "id": "hf:models:autotrust/JEV-27B-VL",
+   "nom": "autotrust/JEV-27B-VL",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/autotrust/JEV-27B-VL",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par autotrust le 30 septembre 2026. Tâche : vision-langage.",
+    "en": "Model published on Hugging Face by autotrust on 30 September 2026. Task: image text to text."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:autotrust/GEV-26B-Decide": {
+   "id": "hf:models:autotrust/GEV-26B-Decide",
+   "nom": "autotrust/GEV-26B-Decide",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/autotrust/GEV-26B-Decide",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par autotrust le 2 octobre 2026. Tâche : classification de textes.",
+    "en": "Model published on Hugging Face by autotrust on 2 October 2026. Task: text classification."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF": {
+   "id": "hf:models:orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
+   "nom": "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par orcarouter le 26 août 2026. Tâche : vision-langage.",
+    "en": "Model published on Hugging Face by orcarouter on 26 August 2026. Task: image text to text."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:pyannote/speaker-diarization-community-1": {
+   "id": "hf:models:pyannote/speaker-diarization-community-1",
+   "nom": "pyannote/speaker-diarization-community-1",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/pyannote/speaker-diarization-community-1",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par pyannote le 15 avril 2025. Tâche : reconnaissance de la parole.",
+    "en": "Model published on Hugging Face by pyannote on 15 April 2025. Task: automatic speech recognition."
+   },
+   "notice_by": "règles"
+  },
+  "gh:joelalfaroupc/catalan-semantic-similarity": {
+   "id": "gh:joelalfaroupc/catalan-semantic-similarity",
+   "nom": "joelalfaroupc/catalan-semantic-similarity",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/joelalfaroupc/catalan-semantic-similarity",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 3 octobre 2026 par joelalfaroupc. Catalan sentence similarity with shared-weight Siamese networks, custom attention pooling and 33 archived NLP experiments on STS-ca.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 3 October 2026 by joelalfaroupc. Catalan sentence similarity with shared-weight Siamese networks, custom attention pooling and 33 archived NLP experiments on STS-ca."
+   },
+   "notice_by": "règles"
+  },
+  "gh:ncarbo/catalan-evolution": {
+   "id": "gh:ncarbo/catalan-evolution",
+   "nom": "ncarbo/catalan-evolution",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/ncarbo/catalan-evolution",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 5 septembre 2026 par ncarbo. Reproducible NLP and data-analysis pipeline for studying diachronic change in written Catalan between 1832 and",
+    "en": "GitHub repository written in Python, created on 5 September 2026 by ncarbo. Reproducible NLP and data-analysis pipeline for studying diachronic change in written Catalan between 1832 and"
+   },
+   "notice_by": "règles"
+  },
+  "gh:neuronids/reeewriter": {
+   "id": "gh:neuronids/reeewriter",
+   "nom": "neuronids/ReeeWriter",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "NOASSERTION",
+   "licence_class": "unknown",
+   "lien": "https://github.com/neuronids/ReeeWriter",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en HTML, créé le 13 septembre 2026 par neuronids. A rewriting assistant for Catalan in a single HTML file: offline thesaurus, verb conjugation, word-level history, and a copy-paste loop with Claude. Thèmes : accessibility, catalan, claude, nlp, single-file-app.",
+    "en": "GitHub repository written in HTML, created on 13 September 2026 by neuronids. A rewriting assistant for Catalan in a single HTML file: offline thesaurus, verb conjugation, word-level history, and a copy-paste loop with Claude. Topics: accessibility, catalan, claude, nlp, single-file-app."
+   },
+   "notice_by": "règles"
+  },
+  "gh:giovanni-nappi/neapolitan-nlp": {
+   "id": "gh:giovanni-nappi/neapolitan-nlp",
+   "nom": "giovanni-nappi/neapolitan-nlp",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "NOASSERTION",
+   "licence_class": "unknown",
+   "lien": "https://github.com/giovanni-nappi/neapolitan-nlp",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Campanie",
+   "city": "Campanie",
+   "lat": 40.8518,
+   "lng": 14.2681,
+   "pays": "Campanie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "nap"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 5 septembre 2026 par giovanni-nappi. An open-source, bottom-up digital infrastructure and NLP ecosystem for the Neapolitan language (`nap`).",
+    "en": "GitHub repository written in Python, created on 5 September 2026 by giovanni-nappi. An open-source, bottom-up digital infrastructure and NLP ecosystem for the Neapolitan language (`nap`)."
+   },
+   "notice_by": "règles"
+  },
+  "gh:oussamabenslama/tunisia-mt-bench": {
+   "id": "gh:oussamabenslama/tunisia-mt-bench",
+   "nom": "OussamaBenSlama/tunisia-mt-bench",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/OussamaBenSlama/tunisia-mt-bench",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tunisie",
+   "city": "Tunisie",
+   "lat": 36.8065,
+   "lng": 10.1815,
+   "pays": "Tunisie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "aeb"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub, créé le 3 octobre 2026 par OussamaBenSlama. A benchmark for researchers and developers to evaluate and compare machine translation models with fewer than 1B parameters. Thèmes : generative-ai, machine-translation, nlp, nlp-arabic, nlp-datasets.",
+    "en": "GitHub repository, created on 3 October 2026 by OussamaBenSlama. A benchmark for researchers and developers to evaluate and compare machine translation models with fewer than 1B parameters. Topics: generative-ai, machine-translation, nlp, nlp-arabic, nlp-datasets."
+   },
+   "notice_by": "règles"
+  },
+  "gh:mazenfehri/derja-lab": {
+   "id": "gh:mazenfehri/derja-lab",
+   "nom": "MazenFehri/Derja-Lab",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/MazenFehri/Derja-Lab",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tunisie",
+   "city": "Tunisie",
+   "lat": 36.8065,
+   "lng": 10.1815,
+   "pays": "Tunisie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "aeb"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 26 septembre 2026 par MazenFehri. Tunisian Arabic, written both ways people write it.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 26 September 2026 by MazenFehri. Tunisian Arabic, written both ways people write it."
+   },
+   "notice_by": "règles"
+  },
+  "gh:seif-a096/sammili": {
+   "id": "gh:seif-a096/sammili",
+   "nom": "seif-a096/Sammili",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/seif-a096/Sammili",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Égypte",
+   "city": "Égypte",
+   "lat": 30.0444,
+   "lng": 31.2357,
+   "pays": "Égypte",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "arz"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 11 septembre 2026 par seif-a096. Bigram character-level language model trained on 44K Egyptian Arabic names. Thèmes : bigrams, huggingface, neural-network, nlp, pytorch.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 11 September 2026 by seif-a096. Bigram character-level language model trained on 44K Egyptian Arabic names. Topics: bigrams, huggingface, neural-network, nlp, pytorch."
+   },
+   "notice_by": "règles"
+  },
+  "gh:adj-mss/kab-board": {
+   "id": "gh:adj-mss/kab-board",
+   "nom": "ADJ-MSS/kab-board",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "GPL-3.0",
+   "licence_class": "open",
+   "lien": "https://github.com/ADJ-MSS/kab-board",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en C++, créé le 15 septembre 2026 par ADJ-MSS. Clavier kabyle pour Android : correcteur, suggestions, dictée vocale et outils, sans",
+    "en": "GitHub repository written in C++, created on 15 September 2026 by ADJ-MSS. Clavier kabyle pour Android : correcteur, suggestions, dictée vocale et outils, sans"
+   },
+   "notice_by": "règles"
+  },
+  "gh:chakibbenameur80-hub/thala-source": {
+   "id": "gh:chakibbenameur80-hub/thala-source",
+   "nom": "chakibbenameur80-hub/thala-source",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/chakibbenameur80-hub/thala-source",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en TypeScript, créé le 1 octobre 2026 par chakibbenameur80-hub. THALA SOURCE — boutique e-commerce kabyle/algo-amazighe (Next.js +",
+    "en": "GitHub repository written in TypeScript, created on 1 October 2026 by chakibbenameur80-hub. THALA SOURCE — boutique e-commerce kabyle/algo-amazighe (Next.js +"
+   },
+   "notice_by": "règles"
+  },
+  "gh:peg9/kabyleai": {
+   "id": "gh:peg9/kabyleai",
+   "nom": "peg9/kabyleAI",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/peg9/kabyleAI",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 22 septembre 2026 par peg9.",
+    "en": "GitHub repository written in Python, created on 22 September 2026 by peg9."
+   },
+   "notice_by": "règles"
+  },
+  "gh:tamazightaoudia29-lab/kabyleshop": {
+   "id": "gh:tamazightaoudia29-lab/kabyleshop",
+   "nom": "tamazightaoudia29-lab/kabyleshop",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/tamazightaoudia29-lab/kabyleshop",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en HTML, créé le 22 septembre 2026 par tamazightaoudia29-lab. une boutique en ligne de robes et bijoux kabyles et",
+    "en": "GitHub repository written in HTML, created on 22 September 2026 by tamazightaoudia29-lab. une boutique en ligne de robes et bijoux kabyles et"
+   },
+   "notice_by": "règles"
+  },
+  "gh:tamazightaoudia29-lab/kabyle-shop": {
+   "id": "gh:tamazightaoudia29-lab/kabyle-shop",
+   "nom": "tamazightaoudia29-lab/kabyle-shop",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/tamazightaoudia29-lab/kabyle-shop",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en HTML, créé le 28 septembre 2026 par tamazightaoudia29-lab.",
+    "en": "GitHub repository written in HTML, created on 28 September 2026 by tamazightaoudia29-lab."
+   },
+   "notice_by": "règles"
+  },
+  "gh:federal-republic-of-kabylia/government-graphic-assets": {
+   "id": "gh:federal-republic-of-kabylia/government-graphic-assets",
+   "nom": "Federal-Republic-of-Kabylia/Government-Graphic-Assets",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/Federal-Republic-of-Kabylia/Government-Graphic-Assets",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en HTML, créé le 26 septembre 2026 par Federal-Republic-of-Kabylia. Official graphic assets, logos, typography, and design elements for the websites of the Kabyle Federal Government.",
+    "en": "GitHub repository written in HTML, created on 26 September 2026 by Federal-Republic-of-Kabylia. Official graphic assets, logos, typography, and design elements for the websites of the Kabyle Federal Government."
+   },
+   "notice_by": "règles"
+  },
+  "gh:mohand-ca/cours-kabyle": {
+   "id": "gh:mohand-ca/cours-kabyle",
+   "nom": "mohand-ca/cours-kabyle",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/mohand-ca/cours-kabyle",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en PHP, créé le 22 septembre 2026 par mohand-ca.",
+    "en": "GitHub repository written in PHP, created on 22 September 2026 by mohand-ca."
+   },
+   "notice_by": "règles"
+  },
+  "gh:federal-republic-of-kabylia/kabyle-language": {
+   "id": "gh:federal-republic-of-kabylia/kabyle-language",
+   "nom": "Federal-Republic-of-Kabylia/kabyle-language",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/Federal-Republic-of-Kabylia/kabyle-language",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub, créé le 24 septembre 2026 par Federal-Republic-of-Kabylia. Official linguistic resources and administrative terminology in",
+    "en": "GitHub repository, created on 24 September 2026 by Federal-Republic-of-Kabylia. Official linguistic resources and administrative terminology in"
+   },
+   "notice_by": "règles"
+  },
+  "gh:merabtiamar/kabyllm-nano": {
+   "id": "gh:merabtiamar/kabyllm-nano",
+   "nom": "MerabtiAmar/kabyllm-nano",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/MerabtiAmar/kabyllm-nano",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 19 septembre 2026 par MerabtiAmar. Un modèle de langue kabyle réduit à 1,6 M de paramètres, quantifié en 8 bits, qui écrit dans le navigateur.",
+    "en": "GitHub repository written in Python, created on 19 September 2026 by MerabtiAmar. Un modèle de langue kabyle réduit à 1,6 M de paramètres, quantifié en 8 bits, qui écrit dans le navigateur."
+   },
+   "notice_by": "règles"
+  },
+  "gh:tron90x/secure-notes-tauri": {
+   "id": "gh:tron90x/secure-notes-tauri",
+   "nom": "tron90x/secure-notes-tauri",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/tron90x/secure-notes-tauri",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 17 septembre 2026 par tron90x. Secure note in",
+    "en": "GitHub repository written in JavaScript, created on 17 September 2026 by tron90x. Secure note in"
+   },
+   "notice_by": "règles"
+  },
+  "gh:merabtiamar/aqessar": {
+   "id": "gh:merabtiamar/aqessar",
+   "nom": "MerabtiAmar/aqessar",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/MerabtiAmar/aqessar",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Java, créé le 16 septembre 2026 par MerabtiAmar. Messagerie Android en kabyle : Java, Firebase Auth / Realtime Database / Thèmes : android, chat-app, firebase, java, kabyle.",
+    "en": "GitHub repository written in Java, created on 16 September 2026 by MerabtiAmar. Messagerie Android en kabyle : Java, Firebase Auth / Realtime Database / Topics: android, chat-app, firebase, java, kabyle."
+   },
+   "notice_by": "règles"
+  },
+  "gh:takwolf/chaos-pixel-font-tifinagh": {
+   "id": "gh:takwolf/chaos-pixel-font-tifinagh",
+   "nom": "TakWolf/chaos-pixel-font-tifinagh",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/TakWolf/chaos-pixel-font-tifinagh",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 28 septembre 2026 par TakWolf.",
+    "en": "GitHub repository written in Python, created on 28 September 2026 by TakWolf."
+   },
+   "notice_by": "règles"
+  },
+  "gh:elbi11/mlp-tifinagh-multiclass": {
+   "id": "gh:elbi11/mlp-tifinagh-multiclass",
+   "nom": "ELBI11/mlp-tifinagh-multiclass",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/ELBI11/mlp-tifinagh-multiclass",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 28 septembre 2026 par ELBI11. MLP model for Tifinagh multiclass",
+    "en": "GitHub repository written in Python, created on 28 September 2026 by ELBI11. MLP model for Tifinagh multiclass"
+   },
+   "notice_by": "règles"
+  },
+  "gh:elbi11/mlp_tifinagh_multiclass": {
+   "id": "gh:elbi11/mlp_tifinagh_multiclass",
+   "nom": "ELBI11/mlp_tifinagh_multiclass",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/ELBI11/mlp_tifinagh_multiclass",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub, créé le 28 septembre 2026 par ELBI11.",
+    "en": "GitHub repository, created on 28 September 2026 by ELBI11."
+   },
+   "notice_by": "règles"
+  },
+  "gh:abdelhaqajguernoun09-cell/tpmlpajguernoun": {
+   "id": "gh:abdelhaqajguernoun09-cell/tpmlpajguernoun",
+   "nom": "abdelhaqajguernoun09-cell/tpmlpajguernoun",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/abdelhaqajguernoun09-cell/tpmlpajguernoun",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 26 septembre 2026 par abdelhaqajguernoun09-cell. Multiclass Classification of Handwritten Tifinagh Characters Using a Multilayer",
+    "en": "GitHub repository written in Python, created on 26 September 2026 by abdelhaqajguernoun09-cell. Multiclass Classification of Handwritten Tifinagh Characters Using a Multilayer"
+   },
+   "notice_by": "règles"
+  },
+  "gh:sud-38/tifinagh-mlp": {
+   "id": "gh:sud-38/tifinagh-mlp",
+   "nom": "Sud-38/tifinagh-mlp",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/Sud-38/tifinagh-mlp",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 26 septembre 2026 par Sud-38. Multiclass classification of Tifinagh characters using MLP on AMHCD",
+    "en": "GitHub repository written in Python, created on 26 September 2026 by Sud-38. Multiclass classification of Tifinagh characters using MLP on AMHCD"
+   },
+   "notice_by": "règles"
+  },
+  "gh:halimabaddou/tp-tifinagh-mlp": {
+   "id": "gh:halimabaddou/tp-tifinagh-mlp",
+   "nom": "Halimabaddou/TP-Tifinagh-MLP",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/Halimabaddou/TP-Tifinagh-MLP",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 26 septembre 2026 par Halimabaddou.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 26 September 2026 by Halimabaddou."
+   },
+   "notice_by": "règles"
+  },
+  "gh:samirajaouhary47-collab/tpdl_tifinagh": {
+   "id": "gh:samirajaouhary47-collab/tpdl_tifinagh",
+   "nom": "samirajaouhary47-collab/TPDL_Tifinagh",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/samirajaouhary47-collab/TPDL_Tifinagh",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 26 septembre 2026 par samirajaouhary47-collab.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 26 September 2026 by samirajaouhary47-collab."
+   },
+   "notice_by": "règles"
+  },
+  "gh:mohamed3179/automatic-dollop": {
+   "id": "gh:mohamed3179/automatic-dollop",
+   "nom": "mohamed3179/automatic-dollop",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/mohamed3179/automatic-dollop",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 26 septembre 2026 par mohamed3179. Classification des Caractères Tifinagh (niveaux de gris) avec un Réseau de Neurones",
+    "en": "GitHub repository written in Jupyter Notebook, created on 26 September 2026 by mohamed3179. Classification des Caractères Tifinagh (niveaux de gris) avec un Réseau de Neurones"
+   },
+   "notice_by": "règles"
+  },
+  "gh:aymanebel/tifinagh-mlp-classification": {
+   "id": "gh:aymanebel/tifinagh-mlp-classification",
+   "nom": "AYMANEBEL/Tifinagh-MLP-Classification",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/AYMANEBEL/Tifinagh-MLP-Classification",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 26 septembre 2026 par AYMANEBEL. This project implements a Multilayer Perceptron from scratch using NumPy for handwritten Tifinagh character classification.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 26 September 2026 by AYMANEBEL. This project implements a Multilayer Perceptron from scratch using NumPy for handwritten Tifinagh character classification."
+   },
+   "notice_by": "règles"
+  },
+  "gh:mohamedfp/classification-tifinagh": {
+   "id": "gh:mohamedfp/classification-tifinagh",
+   "nom": "MohamedFp/Classification-Tifinagh",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/MohamedFp/Classification-Tifinagh",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 26 septembre 2026 par MohamedFp.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 26 September 2026 by MohamedFp."
+   },
+   "notice_by": "règles"
+  },
+  "gh:elhatimisanae426-hue/classification-des-caract-res-tifinagh-niveaux-de-gris-avec-un-r-seau-de-neurones-multiclasses": {
+   "id": "gh:elhatimisanae426-hue/classification-des-caract-res-tifinagh-niveaux-de-gris-avec-un-r-seau-de-neurones-multiclasses",
+   "nom": "elhatimisanae426-hue/Classification-des-Caract-res-Tifinagh-niveaux-de-gris-avec-un-R-seau-de-Neurones-Multiclasses",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/elhatimisanae426-hue/Classification-des-Caract-res-Tifinagh-niveaux-de-gris-avec-un-R-seau-de-Neurones-Multiclasses",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 25 septembre 2026 par elhatimisanae426-hue.",
+    "en": "GitHub repository written in Python, created on 25 September 2026 by elhatimisanae426-hue."
+   },
+   "notice_by": "règles"
+  },
+  "gh:sohayebgasmi-ia79/tifinagh_tp": {
+   "id": "gh:sohayebgasmi-ia79/tifinagh_tp",
+   "nom": "SohayebGasmi-IA79/tifinagh_tp",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/SohayebGasmi-IA79/tifinagh_tp",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 26 septembre 2026 par SohayebGasmi-IA79.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 26 September 2026 by SohayebGasmi-IA79."
+   },
+   "notice_by": "règles"
+  },
+  "gh:sofianebourichadz/tifinaghocrtool": {
+   "id": "gh:sofianebourichadz/tifinaghocrtool",
+   "nom": "SofianeBOURICHADZ/TifinaghOCRTool",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/SofianeBOURICHADZ/TifinaghOCRTool",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 24 septembre 2026 par SofianeBOURICHADZ.",
+    "en": "GitHub repository written in Python, created on 24 September 2026 by SofianeBOURICHADZ."
+   },
+   "notice_by": "règles"
+  },
+  "gh:ikramelghidouni59/ikram_tifinagh-mlp-classification": {
+   "id": "gh:ikramelghidouni59/ikram_tifinagh-mlp-classification",
+   "nom": "ikramelghidouni59/ikram_tifinagh-mlp-classification",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/ikramelghidouni59/ikram_tifinagh-mlp-classification",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 25 septembre 2026 par ikramelghidouni59.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 25 September 2026 by ikramelghidouni59."
+   },
+   "notice_by": "règles"
+  },
+  "gh:mohamedamagroud04-lab/classification-des-caract-eres-tifinagh-": {
+   "id": "gh:mohamedamagroud04-lab/classification-des-caract-eres-tifinagh-",
+   "nom": "mohamedamagroud04-lab/Classification-des-Caract-eres-Tifinagh-",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/mohamedamagroud04-lab/Classification-des-Caract-eres-Tifinagh-",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 25 septembre 2026 par mohamedamagroud04-lab.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 25 September 2026 by mohamedamagroud04-lab."
+   },
+   "notice_by": "règles"
+  },
+  "gh:chaymaeaiss/classification-cars-tifinagh-rgb-rn-multiclass": {
+   "id": "gh:chaymaeaiss/classification-cars-tifinagh-rgb-rn-multiclass",
+   "nom": "ChaymaeAiss/Classification-CarS-Tifinagh-RGB-RN-Multiclass",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/ChaymaeAiss/Classification-CarS-Tifinagh-RGB-RN-Multiclass",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 24 septembre 2026 par ChaymaeAiss. Classification des 33 caractères Tifinagh manuscrits avec un réseau de neurones multicouches (MLP) implémenté from scratch en Python sur la base AMHCD.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 24 September 2026 by ChaymaeAiss. Classification des 33 caractères Tifinagh manuscrits avec un réseau de neurones multicouches (MLP) implémenté from scratch en Python sur la base AMHCD."
+   },
+   "notice_by": "règles"
+  },
+  "gh:ayoub-alla/tifinagh-classification-mlp": {
+   "id": "gh:ayoub-alla/tifinagh-classification-mlp",
+   "nom": "ayoub-alla/Tifinagh-Classification-MLP",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/ayoub-alla/Tifinagh-Classification-MLP",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 21 septembre 2026 par ayoub-alla.",
+    "en": "GitHub repository written in Python, created on 21 September 2026 by ayoub-alla."
+   },
+   "notice_by": "règles"
+  },
+  "gh:ihssane-universe/multiclass-classification-of-handwritten-tifinagh-characters-using-a-multilayer-perceptron-mlp-": {
+   "id": "gh:ihssane-universe/multiclass-classification-of-handwritten-tifinagh-characters-using-a-multilayer-perceptron-mlp-",
+   "nom": "IHSSANE-Universe/Multiclass-classification-of-handwritten-Tifinagh-characters-using-a-Multilayer-Perceptron-MLP-",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/IHSSANE-Universe/Multiclass-classification-of-handwritten-Tifinagh-characters-using-a-Multilayer-Perceptron-MLP-",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 23 septembre 2026 par IHSSANE-Universe. Multiclass classification of handwritten Tifinagh characters using a Multilayer Perceptron (MLP) implemented from scratch with NumPy.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 23 September 2026 by IHSSANE-Universe. Multiclass classification of handwritten Tifinagh characters using a Multilayer Perceptron (MLP) implemented from scratch with NumPy."
+   },
+   "notice_by": "règles"
+  },
+  "gh:safae8891-png/mlp-tifinagh": {
+   "id": "gh:safae8891-png/mlp-tifinagh",
+   "nom": "safae8891-png/MLP-Tifinagh",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/safae8891-png/MLP-Tifinagh",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 23 septembre 2026 par safae8891-png.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 23 September 2026 by safae8891-png."
+   },
+   "notice_by": "règles"
+  },
+  "gh:bouchrabouchra0306-lang/classification-des-caract-res-tifinagh": {
+   "id": "gh:bouchrabouchra0306-lang/classification-des-caract-res-tifinagh",
+   "nom": "bouchrabouchra0306-lang/Classification-des-Caract-res-Tifinagh",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/bouchrabouchra0306-lang/Classification-des-Caract-res-Tifinagh",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 23 septembre 2026 par bouchrabouchra0306-lang.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 23 September 2026 by bouchrabouchra0306-lang."
+   },
+   "notice_by": "règles"
+  },
+  "gh:houdaimarine/tifinagh-mlp-recognition": {
+   "id": "gh:houdaimarine/tifinagh-mlp-recognition",
+   "nom": "Houdaimarine/tifinagh-mlp-recognition",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/Houdaimarine/tifinagh-mlp-recognition",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 21 septembre 2026 par Houdaimarine.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 21 September 2026 by Houdaimarine."
+   },
+   "notice_by": "règles"
+  },
+  "gh:abderrahimghazali/dsm-maroc": {
+   "id": "gh:abderrahimghazali/dsm-maroc",
+   "nom": "abderrahimghazali/dsm-maroc",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/abderrahimghazali/dsm-maroc",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en TypeScript, créé le 17 septembre 2026 par abderrahimghazali. DSM — Système de Design du Maroc: trilingual (ar/zgh/fr), RTL-first component system for Moroccan public services. Thèmes : accessibility, amazigh, arabic, base-ui, design-system.",
+    "en": "GitHub repository written in TypeScript, created on 17 September 2026 by abderrahimghazali. DSM — Système de Design du Maroc: trilingual (ar/zgh/fr), RTL-first component system for Moroccan public services. Topics: accessibility, amazigh, arabic, base-ui, design-system."
+   },
+   "notice_by": "règles"
+  },
+  "gh:borabrepo/tifinagh_converter": {
+   "id": "gh:borabrepo/tifinagh_converter",
+   "nom": "borabrepo/tifinagh_converter",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/borabrepo/tifinagh_converter",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en HTML, créé le 6 septembre 2026 par borabrepo.",
+    "en": "GitHub repository written in HTML, created on 6 September 2026 by borabrepo."
+   },
+   "notice_by": "règles"
+  },
+  "gh:alezzacreative/tifinaghfonts": {
+   "id": "gh:alezzacreative/tifinaghfonts",
+   "nom": "alezzacreative/tifinaghfonts",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/alezzacreative/tifinaghfonts",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub, créé le 10 septembre 2026 par alezzacreative. a library of Amazigh tifinagh",
+    "en": "GitHub repository, created on 10 September 2026 by alezzacreative. a library of Amazigh tifinagh"
+   },
+   "notice_by": "règles"
+  },
+  "gh:guidatetest/azullang": {
+   "id": "gh:guidatetest/azullang",
+   "nom": "GuidateTest/azullang",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/GuidateTest/azullang",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 9 septembre 2026 par GuidateTest. AzulLang / ⴰⵣⵓⵍLang — Tamazight Tifinagh programming language celebrating Algerian",
+    "en": "GitHub repository written in Python, created on 9 September 2026 by GuidateTest. AzulLang / ⴰⵣⵓⵍLang — Tamazight Tifinagh programming language celebrating Algerian"
+   },
+   "notice_by": "règles"
+  },
+  "gh:bosaj/moroccan-law-ai": {
+   "id": "gh:bosaj/moroccan-law-ai",
+   "nom": "Bosaj/moroccan-law-ai",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/Bosaj/moroccan-law-ai",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Maroc",
+   "city": "Maroc",
+   "lat": 33.5731,
+   "lng": -7.5898,
+   "pays": "Maroc",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "ary"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub, créé le 4 octobre 2026 par Bosaj. Source-cited legal Q&A assistant grounded in Moroccan law, in Arabic / Darija / French Thèmes : darija, legal-ai, legaltech, llm, morocco.",
+    "en": "GitHub repository, created on 4 October 2026 by Bosaj. Source-cited legal Q&A assistant grounded in Moroccan law, in Arabic / Darija / French Topics: darija, legal-ai, legaltech, llm, morocco."
+   },
+   "notice_by": "règles"
+  },
+  "gh:oumas3/darijadep-character-aware-nlp": {
+   "id": "gh:oumas3/darijadep-character-aware-nlp",
+   "nom": "oumas3/darijadep-character-aware-nlp",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/oumas3/darijadep-character-aware-nlp",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Maroc",
+   "city": "Maroc",
+   "lat": 33.5731,
+   "lng": -7.5898,
+   "pays": "Maroc",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "ary",
+    "ar-dial"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 3 octobre 2026 par oumas3. MSc research on depression-severity text classification in Moroccan Darija and Arabizi, comparing XLM-R with character-aware embeddings and gated adapters. Thèmes : arabizi, character-cnn, code-switching, model-evaluation, moroccan-darija.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 3 October 2026 by oumas3. MSc research on depression-severity text classification in Moroccan Darija and Arabizi, comparing XLM-R with character-aware embeddings and gated adapters. Topics: arabizi, character-cnn, code-switching, model-evaluation, moroccan-darija."
+   },
+   "notice_by": "règles"
+  },
+  "gh:awsm36z/mizan-web": {
+   "id": "gh:awsm36z/mizan-web",
+   "nom": "awsm36z/mizan-web",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/awsm36z/mizan-web",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Maroc",
+   "city": "Maroc",
+   "lat": 33.5731,
+   "lng": -7.5898,
+   "pays": "Maroc",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "ary"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en TypeScript, créé le 28 septembre 2026 par awsm36z. AI-assisted Islamic inheritance (Faraid) calculator and heirship-document drafter for Morocco. Thèmes : ai, anthropic, claude, i18n, islamic-inheritance.",
+    "en": "GitHub repository written in TypeScript, created on 28 September 2026 by awsm36z. AI-assisted Islamic inheritance (Faraid) calculator and heirship-document drafter for Morocco. Topics: ai, anthropic, claude, i18n, islamic-inheritance."
+   },
+   "notice_by": "règles"
+  },
+  "gh:hibakhalidi/pfa-darija-datasets-evaluation": {
+   "id": "gh:hibakhalidi/pfa-darija-datasets-evaluation",
+   "nom": "HibaKhalidi/pfa-darija-datasets-evaluation",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/HibaKhalidi/pfa-darija-datasets-evaluation",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Maroc",
+   "city": "Maroc",
+   "lat": 33.5731,
+   "lng": -7.5898,
+   "pays": "Maroc",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "ary"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 27 septembre 2026 par HibaKhalidi. Evaluation of Darija datasets for dialectal NLP and LLM fine-tuning.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 27 September 2026 by HibaKhalidi. Evaluation of Darija datasets for dialectal NLP and LLM fine-tuning."
+   },
+   "notice_by": "règles"
+  },
+  "gh:ayaqataoui31/nlp-darija-sentiment-analysis-pfe": {
+   "id": "gh:ayaqataoui31/nlp-darija-sentiment-analysis-pfe",
+   "nom": "ayaqataoui31/NLP-DARIJA-SENTIMENT-ANALYSIS-PFE",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/ayaqataoui31/NLP-DARIJA-SENTIMENT-ANALYSIS-PFE",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Maroc",
+   "city": "Maroc",
+   "lat": 33.5731,
+   "lng": -7.5898,
+   "pays": "Maroc",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "ary"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 19 septembre 2026 par ayaqataoui31. Projet d'analyse de sentiments (positif/négatif/neutre) sur des tweets en darija marocaine, comparant plusieurs modèles de deep learning.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 19 September 2026 by ayaqataoui31. Projet d'analyse de sentiments (positif/négatif/neutre) sur des tweets en darija marocaine, comparant plusieurs modèles de deep learning."
+   },
+   "notice_by": "règles"
+  },
+  "gh:imaneahachi/pfe-nlp-darija-sentiment-analysis": {
+   "id": "gh:imaneahachi/pfe-nlp-darija-sentiment-analysis",
+   "nom": "imaneahachi/PFE-NLP-DARIJA-SENTIMENT-ANALYSIS",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/imaneahachi/PFE-NLP-DARIJA-SENTIMENT-ANALYSIS",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Maroc",
+   "city": "Maroc",
+   "lat": 33.5731,
+   "lng": -7.5898,
+   "pays": "Maroc",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "ary"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 19 septembre 2026 par imaneahachi. Sentiment Analysis of Moroccan Darija tweets - NLP + Deep Learning +",
+    "en": "GitHub repository written in Jupyter Notebook, created on 19 September 2026 by imaneahachi. Sentiment Analysis of Moroccan Darija tweets - NLP + Deep Learning +"
+   },
+   "notice_by": "règles"
+  },
+  "gh:ilhamqarid/linguora-ai": {
+   "id": "gh:ilhamqarid/linguora-ai",
+   "nom": "ilhamqarid/linguora-ai",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/ilhamqarid/linguora-ai",
+   "added": "2026-10-05",
+   "focus": true,
+   "region": "Maroc",
+   "city": "Maroc",
+   "lat": 33.5731,
+   "lng": -7.5898,
+   "pays": "Maroc",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe",
+    "berbere"
+   ],
+   "lang_codes": [
+    "ary",
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 11 septembre 2026 par ilhamqarid. Linguora is a multilingual language workspace for writing, translation and text processing. Thèmes : ai, amazigh, darija, flask, multilingual.",
+    "en": "GitHub repository written in Python, created on 11 September 2026 by ilhamqarid. Linguora is a multilingual language workspace for writing, translation and text processing. Topics: ai, amazigh, darija, flask, multilingual."
+   },
+   "notice_by": "règles"
+  },
+  "gh:nandhakishorm/laya": {
+   "id": "gh:nandhakishorm/laya",
+   "nom": "NandhaKishorM/laya",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://github.com/NandhaKishorM/laya",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 18 septembre 2026 par NandhaKishorM. Non-autoregressive System 1 decision engine. Thèmes : calibration, classification, decision-model, huggingface, jev.",
+    "en": "GitHub repository written in Python, created on 18 September 2026 by NandhaKishorM. Non-autoregressive System 1 decision engine. Topics: calibration, classification, decision-model, huggingface, jev."
+   },
+   "notice_by": "règles"
+  },
+  "gh:nanaism/yomiyasu": {
+   "id": "gh:nanaism/yomiyasu",
+   "nom": "nanaism/yomiyasu",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/nanaism/yomiyasu",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Japon",
+   "city": "Préfecture de Fukuoka",
+   "lat": 33.6251,
+   "lng": 130.618,
+   "pays": "Japon",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · 大賀 愛一郎（oga_aiichiro）",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 30 septembre 2026 par nanaism. AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Thèmes : agent-skills, ai-writing, antigravity, claude-code, codex.",
+    "en": "GitHub repository written in Python, created on 30 September 2026 by nanaism. AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Topics: agent-skills, ai-writing, antigravity, claude-code, codex."
+   },
+   "notice_by": "règles"
+  },
+  "gh:qwdwqfwq/topconf-paper-figure-gallery": {
+   "id": "gh:qwdwqfwq/topconf-paper-figure-gallery",
+   "nom": "qwdwqfwq/topconf-paper-figure-gallery",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "NOASSERTION",
+   "licence_class": "unknown",
+   "lien": "https://github.com/qwdwqfwq/topconf-paper-figure-gallery",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en HTML, créé le 17 septembre 2026 par qwdwqfwq. 3,516 curated Figure 1 / teasers from ICLR, ICML, NeurIPS, CVPR, ACL, AAAI (2023-2026), with tier badges and FigureForge retrieval-augmented figure Thèmes : aaai, academic-writing, acl, awesome-list, computer-vision.",
+    "en": "GitHub repository written in HTML, created on 17 September 2026 by qwdwqfwq. 3,516 curated Figure 1 / teasers from ICLR, ICML, NeurIPS, CVPR, ACL, AAAI (2023-2026), with tier badges and FigureForge retrieval-augmented figure Topics: aaai, academic-writing, acl, awesome-list, computer-vision."
+   },
+   "notice_by": "règles"
+  },
+  "gh:jwuthri/selfjev": {
+   "id": "gh:jwuthri/selfjev",
+   "nom": "Jwuthri/SelfJev",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://github.com/Jwuthri/SelfJev",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "California",
+   "city": "San Francisco",
+   "lat": 37.7879,
+   "lng": -122.4075,
+   "pays": "California",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Wuthrich Julien",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 23 septembre 2026 par Jwuthri. Open decisions model with Jev's API: typed answers (yes/no, choice, score, multi) with probabilities from forward passes, no generation. Thèmes : classification, decision-making, evaluation, fine-tuning, inference.",
+    "en": "GitHub repository written in Python, created on 23 September 2026 by Jwuthri. Open decisions model with Jev's API: typed answers (yes/no, choice, score, multi) with probabilities from forward passes, no generation. Topics: classification, decision-making, evaluation, fine-tuning, inference."
+   },
+   "notice_by": "règles"
+  },
+  "gh:linjiang12/video2book-courses": {
+   "id": "gh:linjiang12/video2book-courses",
+   "nom": "LINJIANG12/video2book-courses",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/LINJIANG12/video2book-courses",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub, créé le 13 septembre 2026 par LINJIANG12. 四十五门真实网课的模块合辑全书 + 思维导图复习笔记 + 逐字稿，全部由 Video2Book 从课程音频重构：518 册教材、603 篇笔记、2,286 份逐字稿，从逐讲精读到考前速查，笔记支持 Markmap / XMind Thèmes : 8086, ai, assembly, course-notes, css3.",
+    "en": "GitHub repository, created on 13 September 2026 by LINJIANG12. 四十五门真实网课的模块合辑全书 + 思维导图复习笔记 + 逐字稿，全部由 Video2Book 从课程音频重构：518 册教材、603 篇笔记、2,286 份逐字稿，从逐讲精读到考前速查，笔记支持 Markmap / XMind Topics: 8086, ai, assembly, course-notes, css3."
+   },
+   "notice_by": "règles"
+  },
+  "gh:pulse-energy-eu/slopshape": {
+   "id": "gh:pulse-energy-eu/slopshape",
+   "nom": "pulse-energy-eu/slopshape",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "NOASSERTION",
+   "licence_class": "unknown",
+   "lien": "https://github.com/pulse-energy-eu/slopshape",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Allemagne",
+   "city": "Allemagne",
+   "lat": 51.1638,
+   "lng": 10.4478,
+   "pays": "Allemagne",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · sitefire.ai",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 17 septembre 2026 par pulse-energy-eu. Release package for SlopShape: Identifying AI-Generated Commercial Web Content (verification artifacts, instrument, prompts, Thèmes : ai-text-detection, computational-linguistics, nlp, replication-study.",
+    "en": "GitHub repository written in Python, created on 17 September 2026 by pulse-energy-eu. Release package for SlopShape: Identifying AI-Generated Commercial Web Content (verification artifacts, instrument, prompts, Topics: ai-text-detection, computational-linguistics, nlp, replication-study."
+   },
+   "notice_by": "règles"
+  },
+  "gh:software-mansion/runntime": {
+   "id": "gh:software-mansion/runntime",
+   "nom": "software-mansion/runntime",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/software-mansion/runntime",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Pologne",
+   "city": "Cracovie",
+   "lat": 50.0469,
+   "lng": 19.9972,
+   "pays": "Pologne",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Software Mansion",
+   "description": {
+    "fr": "Dépôt GitHub écrit en TypeScript, créé le 14 septembre 2026 par software-mansion. High-performance neural networks engine for web, built on top of Thèmes : ai, computer-vision, edge, llm, ml.",
+    "en": "GitHub repository written in TypeScript, created on 14 September 2026 by software-mansion. High-performance neural networks engine for web, built on top of Topics: ai, computer-vision, edge, llm, ml."
+   },
+   "notice_by": "règles"
+  },
+  "gh:ilien-dev/quiron": {
+   "id": "gh:ilien-dev/quiron",
+   "nom": "ilien-dev/quiron",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "AGPL-3.0",
+   "licence_class": "open",
+   "lien": "https://github.com/ilien-dev/quiron",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Mexique",
+   "city": "Mexico",
+   "lat": 19.3208,
+   "lng": -99.1515,
+   "pays": "Mexique",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · ilien",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 23 septembre 2026 par ilien-dev. AI humanizer skill for Claude Code, Codex and Cursor. Thèmes : agent-skills, ai-humanizer, ai-slop, ai-writing, anti-slop.",
+    "en": "GitHub repository written in Python, created on 23 September 2026 by ilien-dev. AI humanizer skill for Claude Code, Codex and Cursor. Topics: agent-skills, ai-humanizer, ai-slop, ai-writing, anti-slop."
+   },
+   "notice_by": "règles"
+  },
+  "gh:altasin356/transformer-summarizer-infosys-springboard": {
+   "id": "gh:altasin356/transformer-summarizer-infosys-springboard",
+   "nom": "altasin356/Transformer-Summarizer-Infosys-Springboard",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/altasin356/Transformer-Summarizer-Infosys-Springboard",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en HTML, créé le 21 septembre 2026 par altasin356. AI Text Summarization with Transformers and Rule-Based NLP Thèmes : automatic-summarization, bart, datasets, deep-learning, kmeans-clustering.",
+    "en": "GitHub repository written in HTML, created on 21 September 2026 by altasin356. AI Text Summarization with Transformers and Rule-Based NLP Topics: automatic-summarization, bart, datasets, deep-learning, kmeans-clustering."
+   },
+   "notice_by": "règles"
+  },
+  "gh:ozynautetu-create/flowforge-optima": {
+   "id": "gh:ozynautetu-create/flowforge-optima",
+   "nom": "ozynautetu-create/FlowForge-Optima",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/ozynautetu-create/FlowForge-Optima",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en HTML, créé le 21 septembre 2026 par ozynautetu-create. AdalFlow Alternative 2026: Auto-Optimize LLM Apps Without Thèmes : agent, ai, auto-prompting, bm25, chatbot.",
+    "en": "GitHub repository written in HTML, created on 21 September 2026 by ozynautetu-create. AdalFlow Alternative 2026: Auto-Optimize LLM Apps Without Topics: agent, ai, auto-prompting, bm25, chatbot."
+   },
+   "notice_by": "règles"
+  },
+  "gh:09854145774/bert-domain-shift-lab": {
+   "id": "gh:09854145774/bert-domain-shift-lab",
+   "nom": "09854145774/Bert-Domain-Shift-Lab",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/09854145774/Bert-Domain-Shift-Lab",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en HTML, créé le 21 septembre 2026 par 09854145774. Domain Adaptation with BERT and Hugging Face: 2026 Guide to Fine-Tuning Pretrained Thèmes : bert, domain-adaptation, huggingface, nlp, trainer.",
+    "en": "GitHub repository written in HTML, created on 21 September 2026 by 09854145774. Domain Adaptation with BERT and Hugging Face: 2026 Guide to Fine-Tuning Pretrained Topics: bert, domain-adaptation, huggingface, nlp, trainer."
+   },
+   "notice_by": "règles"
+  },
+  "gh:steam-drops/finetune-lab-notes": {
+   "id": "gh:steam-drops/finetune-lab-notes",
+   "nom": "STEAM-DROPS/finetune-lab-notes",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/STEAM-DROPS/finetune-lab-notes",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en HTML, créé le 21 septembre 2026 par STEAM-DROPS. Fine-Tuning Transformers in 2026: Hands-On LLM Training, LoRA, and PEFT Thèmes : accelerate, ai, datasets, evaluate, fine-tuning.",
+    "en": "GitHub repository written in HTML, created on 21 September 2026 by STEAM-DROPS. Fine-Tuning Transformers in 2026: Hands-On LLM Training, LoRA, and PEFT Topics: accelerate, ai, datasets, evaluate, fine-tuning."
+   },
+   "notice_by": "règles"
+  },
+  "gh:petkyletampu28-a11y/tasknet-multitask": {
+   "id": "gh:petkyletampu28-a11y/tasknet-multitask",
+   "nom": "petkyletampu28-a11y/tasknet-multitask",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/petkyletampu28-a11y/tasknet-multitask",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en HTML, créé le 21 septembre 2026 par petkyletampu28-a11y. Modern Multi-Task NLP Fine-Tuning Framework with ModernBERT Thèmes : autotask, autotrain, bert, dataset, easy.",
+    "en": "GitHub repository written in HTML, created on 21 September 2026 by petkyletampu28-a11y. Modern Multi-Task NLP Fine-Tuning Framework with ModernBERT Topics: autotask, autotrain, bert, dataset, easy."
+   },
+   "notice_by": "règles"
+  },
+  "gh:lordaashishh/tf-nlp-modern-stack": {
+   "id": "gh:lordaashishh/tf-nlp-modern-stack",
+   "nom": "lordaashishh/tf-nlp-modern-stack",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/lordaashishh/tf-nlp-modern-stack",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en HTML, créé le 21 septembre 2026 par lordaashishh. Complete TensorFlow NLP Guide 2026: BERT, GPT and LLM Downstream Tasks Thèmes : bert, bert-ner, dpo, huggingface, keras-tutorial.",
+    "en": "GitHub repository written in HTML, created on 21 September 2026 by lordaashishh. Complete TensorFlow NLP Guide 2026: BERT, GPT and LLM Downstream Tasks Topics: bert, bert-ner, dpo, huggingface, keras-tutorial."
+   },
+   "notice_by": "règles"
+  },
+  "gh:tranvanviet27/nlp-llm-fine-tuning-studio": {
+   "id": "gh:tranvanviet27/nlp-llm-fine-tuning-studio",
+   "nom": "Tranvanviet27/NLP-LLM-Fine-Tuning-Studio",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/Tranvanviet27/NLP-LLM-Fine-Tuning-Studio",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en HTML, créé le 21 septembre 2026 par Tranvanviet27. Best Open Source NLP LLM Fine-Tuning Trainer Framework Thèmes : fine-tuning, llm, nlp, trainer.",
+    "en": "GitHub repository written in HTML, created on 21 September 2026 by Tranvanviet27. Best Open Source NLP LLM Fine-Tuning Trainer Framework Topics: fine-tuning, llm, nlp, trainer."
+   },
+   "notice_by": "règles"
+  },
+  "gh:marcreichel/laya-php": {
+   "id": "gh:marcreichel/laya-php",
+   "nom": "marcreichel/laya-php",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://github.com/marcreichel/laya-php",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Allemagne",
+   "city": "Haan",
+   "lat": 51.1955,
+   "lng": 7.0085,
+   "pays": "Allemagne",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Marc Reichel",
+   "description": {
+    "fr": "Dépôt GitHub écrit en PHP, créé le 26 septembre 2026 par marcreichel. Classify text in PHP without an LLM bill: typed decisions in 100+ languages, self-hosted. Thèmes : ai, classification, decision-engine, decision-model, jev.",
+    "en": "GitHub repository written in PHP, created on 26 September 2026 by marcreichel. Classify text in PHP without an LLM bill: typed decisions in 100+ languages, self-hosted. Topics: ai, classification, decision-engine, decision-model, jev."
+   },
+   "notice_by": "règles"
+  },
+  "gh:jlt-commons/lev": {
+   "id": "gh:jlt-commons/lev",
+   "nom": "jlt-commons/lev",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://github.com/jlt-commons/lev",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Clojure, créé le 19 septembre 2026 par jlt-commons. Jolt implementation of Laya non-autoregressive System 1 decision Thèmes : bert, blas, chez-scheme, clojure, ffi.",
+    "en": "GitHub repository written in Clojure, created on 19 September 2026 by jlt-commons. Jolt implementation of Laya non-autoregressive System 1 decision Topics: bert, blas, chez-scheme, clojure, ffi."
+   },
+   "notice_by": "règles"
+  },
+  "gh:jev-chat/jev-chat-jarvis": {
+   "id": "gh:jev-chat/jev-chat-jarvis",
+   "nom": "jev-chat/jev-chat-jarvis",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/jev-chat/jev-chat-jarvis",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Kotlin, créé le 21 septembre 2026 par jev-chat. 装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook Thèmes : accessibility-service, ai-assistant, android, chat-assistant, chat-copilot.",
+    "en": "GitHub repository written in Kotlin, created on 21 September 2026 by jev-chat. 装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook Topics: accessibility-service, ai-assistant, android, chat-assistant, chat-copilot."
+   },
+   "notice_by": "règles"
+  },
+  "gh:kkkkhazix/aihot": {
+   "id": "gh:kkkkhazix/aihot",
+   "nom": "KKKKhazix/AIHOT",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/KKKKhazix/AIHOT",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en TypeScript, créé le 28 septembre 2026 par KKKKhazix. 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 Thèmes : ai, chinese, content-curation, daily-digest, docker-compose.",
+    "en": "GitHub repository written in TypeScript, created on 28 September 2026 by KKKKhazix. 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 Topics: ai, chinese, content-curation, daily-digest, docker-compose."
+   },
+   "notice_by": "règles"
+  },
+  "gh:yetone/magpie": {
+   "id": "gh:yetone/magpie",
+   "nom": "yetone/magpie",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/yetone/magpie",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "China",
+   "city": "China",
+   "lat": 30.048,
+   "lng": -94.3357,
+   "pays": "China",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · yetone",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Go, créé le 23 septembre 2026 par yetone. Every agent's model. One place. Thèmes : claude-code, codex, deepseek, gemini-cli, llm.",
+    "en": "GitHub repository written in Go, created on 23 September 2026 by yetone. Every agent's model. One place. Topics: claude-code, codex, deepseek, gemini-cli, llm."
+   },
+   "notice_by": "règles"
+  },
+  "gh:yibie/awesome-jev": {
+   "id": "gh:yibie/awesome-jev",
+   "nom": "yibie/awesome-jev",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/yibie/awesome-jev",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 17 septembre 2026 par yibie. A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions. Thèmes : awesome, awesome-list, jev, llm.",
+    "en": "GitHub repository written in Python, created on 17 September 2026 by yibie. A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions. Topics: awesome, awesome-list, jev, llm."
+   },
+   "notice_by": "règles"
+  },
+  "gh:ebony-vinyl/dsh-our-free-model": {
+   "id": "gh:ebony-vinyl/dsh-our-free-model",
+   "nom": "Ebony-Vinyl/dsh-our-free-model",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 24 septembre 2026 par Ebony-Vinyl. 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1… Thèmes : ai-agents, deepseek, deepseek-harness, developer-tools, dsh.",
+    "en": "GitHub repository written in JavaScript, created on 24 September 2026 by Ebony-Vinyl. 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1… Topics: ai-agents, deepseek, deepseek-harness, developer-tools, dsh."
+   },
+   "notice_by": "règles"
+  },
+  "gh:qingyuna/answer-me-with-html": {
+   "id": "gh:qingyuna/answer-me-with-html",
+   "nom": "QingYunA/answer-me-with-html",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/QingYunA/answer-me-with-html",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 2 octobre 2026 par QingYunA. Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. Thèmes : agent-skill, ai-agent, claude-code, cli, diagram.",
+    "en": "GitHub repository written in JavaScript, created on 2 October 2026 by QingYunA. Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. Topics: agent-skill, ai-agent, claude-code, cli, diagram."
+   },
+   "notice_by": "règles"
+  },
+  "gh:youngyangyang04/llm-master": {
+   "id": "gh:youngyangyang04/llm-master",
+   "nom": "youngyangyang04/llm-master",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/youngyangyang04/llm-master",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Shenzhen",
+   "city": "Shenzhen",
+   "lat": 22.5446,
+   "lng": 114.0545,
+   "pays": "Shenzhen",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · 程序员Carl",
+   "description": {
+    "fr": "Dépôt GitHub, créé le 12 septembre 2026 par youngyangyang04. 大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI Thèmes : agent, large-language-models, llm, llm-learning, llm-tutorial.",
+    "en": "GitHub repository, created on 12 September 2026 by youngyangyang04. 大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI Topics: agent, large-language-models, llm, llm-learning, llm-tutorial."
+   },
+   "notice_by": "règles"
+  },
+  "gh:nokia-applied-research/anyjev": {
+   "id": "gh:nokia-applied-research/anyjev",
+   "nom": "nokia-applied-research/AnyJev",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://github.com/nokia-applied-research/AnyJev",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 21 septembre 2026 par nokia-applied-research. Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. Thèmes : calibration, decision-model, jev, jev-model, llm.",
+    "en": "GitHub repository written in Python, created on 21 September 2026 by nokia-applied-research. Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. Topics: calibration, decision-model, jev, jev-model, llm."
+   },
+   "notice_by": "règles"
+  },
+  "gh:qiz029/dscode": {
+   "id": "gh:qiz029/dscode",
+   "nom": "qiz029/dscode",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/qiz029/dscode",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Bothell",
+   "city": "Bothell",
+   "lat": 47.7623,
+   "lng": -122.2054,
+   "pays": "Bothell",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Cucumber-jelly",
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 11 septembre 2026 par qiz029. A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP and session Thèmes : agentic, ai-agent, cli, code-review, coding-agent.",
+    "en": "GitHub repository written in JavaScript, created on 11 September 2026 by qiz029. A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP and session Topics: agentic, ai-agent, cli, code-review, coding-agent."
+   },
+   "notice_by": "règles"
+  },
+  "gh:aimeoa/hanshuang-codex": {
+   "id": "gh:aimeoa/hanshuang-codex",
+   "nom": "aimeoa/hanshuang-codex",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/aimeoa/hanshuang-codex",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 6 septembre 2026 par aimeoa. 针对GPT Thèmes : ai, codex, codex-cli, desktop-app, jailbreak.",
+    "en": "GitHub repository written in Python, created on 6 September 2026 by aimeoa. 针对GPT Topics: ai, codex, codex-cli, desktop-app, jailbreak."
+   },
+   "notice_by": "règles"
+  },
+  "gh:undefined-ui/second-brain-os": {
+   "id": "gh:undefined-ui/second-brain-os",
+   "nom": "undefined-ui/second-brain-os",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/undefined-ui/second-brain-os",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en HTML, créé le 7 septembre 2026 par undefined-ui. An AI second brain that maintains itself. Thèmes : agent-skills, ai-agents, claude, claude-code, claude-skills.",
+    "en": "GitHub repository written in HTML, created on 7 September 2026 by undefined-ui. An AI second brain that maintains itself. Topics: agent-skills, ai-agents, claude, claude-code, claude-skills."
+   },
+   "notice_by": "règles"
+  },
+  "gh:edwardxlai/easyread": {
+   "id": "gh:edwardxlai/easyread",
+   "nom": "Edwardxlai/easyread",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/Edwardxlai/easyread",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "北京市海淀区",
+   "city": "Haidian",
+   "lat": 39.9581,
+   "lng": 116.2924,
+   "pays": "北京市海淀区",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Edward",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 30 septembre 2026 par Edwardxlai. 把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese. Thèmes : academic, arxiv, chinese, claude-code, codex.",
+    "en": "GitHub repository written in Python, created on 30 September 2026 by Edwardxlai. 把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese. Topics: academic, arxiv, chinese, claude-code, codex."
+   },
+   "notice_by": "règles"
+  },
+  "gh:v-modal/awesome-jev-tools": {
+   "id": "gh:v-modal/awesome-jev-tools",
+   "nom": "v-modal/awesome-jev-tools",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/v-modal/awesome-jev-tools",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Japon",
+   "city": "Japon",
+   "lat": 36.5748,
+   "lng": 139.2394,
+   "pays": "Japon",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · V-Modal AI - Visual Memory Layer: Find, recall from from your visual content: Mobile, Smart Glasses, Physical AI ",
+   "description": {
+    "fr": "Dépôt GitHub, créé le 19 septembre 2026 par v-modal. A curated list of tools built for Jev — TypeSafe AI's System One model for typed decisions. Thèmes : awesome, awesome-ai, awesome-jev, awesome-list, awesome-lists.",
+    "en": "GitHub repository, created on 19 September 2026 by v-modal. A curated list of tools built for Jev — TypeSafe AI's System One model for typed decisions. Topics: awesome, awesome-ai, awesome-jev, awesome-list, awesome-lists."
+   },
+   "notice_by": "règles"
+  },
+  "gh:jev-chat/jev-chat-windows": {
+   "id": "gh:jev-chat/jev-chat-windows",
+   "nom": "jev-chat/jev-chat-windows",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "NOASSERTION",
+   "licence_class": "unknown",
+   "lien": "https://github.com/jev-chat/jev-chat-windows",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 21 septembre 2026 par jev-chat. JevChat-Windows：聊天窗口旁挂的回复辅助。窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 Thèmes : chat-assistant, jev, llm, local-first, ocr.",
+    "en": "GitHub repository written in Python, created on 21 September 2026 by jev-chat. JevChat-Windows：聊天窗口旁挂的回复辅助。窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 Topics: chat-assistant, jev, llm, local-first, ocr."
+   },
+   "notice_by": "règles"
+  },
+  "gh:alex314618-create/jevrev": {
+   "id": "gh:alex314618-create/jevrev",
+   "nom": "Alex314618-create/JevRev",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/Alex314618-create/JevRev",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en TypeScript, créé le 21 septembre 2026 par Alex314618-create. An LLM + Jev workflow that changes EVERYTHING. Thèmes : jev, llm, workflow.",
+    "en": "GitHub repository written in TypeScript, created on 21 September 2026 by Alex314618-create. An LLM + Jev workflow that changes EVERYTHING. Topics: jev, llm, workflow."
+   },
+   "notice_by": "règles"
+  },
+  "gh:bilibili/index-translate": {
+   "id": "gh:bilibili/index-translate",
+   "nom": "bilibili/Index-Translate",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://github.com/bilibili/Index-Translate",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "China",
+   "city": "Shanghai",
+   "lat": 31.2313,
+   "lng": 121.47,
+   "pays": "China",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · bilibili",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 15 septembre 2026 par bilibili. A Multilingual Translation Model Thèmes : llm, machine-translation.",
+    "en": "GitHub repository written in Python, created on 15 September 2026 by bilibili. A Multilingual Translation Model Topics: llm, machine-translation."
+   },
+   "notice_by": "règles"
+  },
+  "gh:amitshekhariitbhu/ai-system-design": {
+   "id": "gh:amitshekhariitbhu/ai-system-design",
+   "nom": "amitshekhariitbhu/ai-system-design",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://github.com/amitshekhariitbhu/ai-system-design",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Inde",
+   "city": "Bangalore",
+   "lat": 12.9768,
+   "lng": 77.5901,
+   "pays": "Inde",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · AMIT SHEKHAR",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Markdown, créé le 25 septembre 2026 par amitshekhariitbhu. AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step. Thèmes : ai, ai-agents, ai-engineering, ai-system, ai-system-design.",
+    "en": "GitHub repository written in Markdown, created on 25 September 2026 by amitshekhariitbhu. AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step. Topics: ai, ai-agents, ai-engineering, ai-system, ai-system-design."
+   },
+   "notice_by": "règles"
+  },
+  "gh:jianruntech/geo-score": {
+   "id": "gh:jianruntech/geo-score",
+   "nom": "jianruntech/geo-score",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/jianruntech/geo-score",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "China",
+   "city": "Shenzhen",
+   "lat": 22.5446,
+   "lng": 114.0545,
+   "pays": "China",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · 见润科技 Jianrun Tech",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 8 septembre 2026 par jianruntech. Can AI engines cite your site, and do they? Thèmes : aeo, ai-search, ai-visibility, answer-engine-optimization, chatgpt.",
+    "en": "GitHub repository written in Python, created on 8 September 2026 by jianruntech. Can AI engines cite your site, and do they? Topics: aeo, ai-search, ai-visibility, answer-engine-optimization, chatgpt."
+   },
+   "notice_by": "règles"
+  },
+  "gh:anotiawang/awesome-decision-models": {
+   "id": "gh:anotiawang/awesome-decision-models",
+   "nom": "AnotiaWang/awesome-decision-models",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "CC0-1.0",
+   "licence_class": "open",
+   "lien": "https://github.com/AnotiaWang/awesome-decision-models",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "China",
+   "city": "China",
+   "lat": 30.048,
+   "lng": -94.3357,
+   "pays": "China",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Andy Wang",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 17 septembre 2026 par AnotiaWang. A curated list of decision models (System One / typed decision models): hosted APIs, open-weight models, runtimes, SDKs, applications, benchmarks, and papers. Thèmes : ai-agents, awesome, awesome-list, decision-models, jev.",
+    "en": "GitHub repository written in Python, created on 17 September 2026 by AnotiaWang. A curated list of decision models (System One / typed decision models): hosted APIs, open-weight models, runtimes, SDKs, applications, benchmarks, and papers. Topics: ai-agents, awesome, awesome-list, decision-models, jev."
+   },
+   "notice_by": "règles"
+  },
+  "gh:ruc-datalab/evoontology": {
+   "id": "gh:ruc-datalab/evoontology",
+   "nom": "ruc-datalab/EvoOntology",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/ruc-datalab/EvoOntology",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 15 septembre 2026 par ruc-datalab. EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex Thèmes : agent, agentic-ai, claude-code, codex, data-analysis.",
+    "en": "GitHub repository written in Python, created on 15 September 2026 by ruc-datalab. EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex Topics: agent, agentic-ai, claude-code, codex, data-analysis."
+   },
+   "notice_by": "règles"
+  },
+  "gh:kydlikebtc/awesome-jev": {
+   "id": "gh:kydlikebtc/awesome-jev",
+   "nom": "kydlikebtc/awesome-jev",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "NOASSERTION",
+   "licence_class": "unknown",
+   "lien": "https://github.com/kydlikebtc/awesome-jev",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 22 septembre 2026 par kydlikebtc. 1207 public resources for Jev, TypeSafe AI's System One decision model, indexed by decision pattern. Thèmes : agent-tools, ai-agents, awesome, awesome-list, calibration.",
+    "en": "GitHub repository written in Python, created on 22 September 2026 by kydlikebtc. 1207 public resources for Jev, TypeSafe AI's System One decision model, indexed by decision pattern. Topics: agent-tools, ai-agents, awesome, awesome-list, calibration."
+   },
+   "notice_by": "règles"
+  },
+  "gh:atria-asi/atria-dawn-preview": {
+   "id": "gh:atria-asi/atria-dawn-preview",
+   "nom": "atria-asi/Atria-Dawn-Preview",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/atria-asi/Atria-Dawn-Preview",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub, créé le 12 septembre 2026 par atria-asi. Thèmes : llm, llm-agent.",
+    "en": "GitHub repository, created on 12 September 2026 by atria-asi. Topics: llm, llm-agent."
+   },
+   "notice_by": "règles"
+  },
+  "gh:abdelstark/awesome-typesafe-jev": {
+   "id": "gh:abdelstark/awesome-typesafe-jev",
+   "nom": "AbdelStark/awesome-typesafe-jev",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/AbdelStark/awesome-typesafe-jev",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en HTML, créé le 17 septembre 2026 par AbdelStark. Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations. Thèmes : agent-skills, ai-agents, awesome, awesome-jev, awesome-list.",
+    "en": "GitHub repository written in HTML, created on 17 September 2026 by AbdelStark. Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations. Topics: agent-skills, ai-agents, awesome, awesome-jev, awesome-list."
+   },
+   "notice_by": "règles"
+  },
+  "gh:shinthink/blitzstrike": {
+   "id": "gh:shinthink/blitzstrike",
+   "nom": "shinthink/blitzstrike",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/shinthink/blitzstrike",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en TypeScript, créé le 12 septembre 2026 par shinthink. Blitz Strike — a universal MCP security-audit toolbelt. Thèmes : active-directory, blue-team, bug-bounty, cve, defensive-security.",
+    "en": "GitHub repository written in TypeScript, created on 12 September 2026 by shinthink. Blitz Strike — a universal MCP security-audit toolbelt. Topics: active-directory, blue-team, bug-bounty, cve, defensive-security."
+   },
+   "notice_by": "règles"
+  },
+  "gh:omnijev/awesome-jev-gallery": {
+   "id": "gh:omnijev/awesome-jev-gallery",
+   "nom": "OmniJev/awesome-jev-gallery",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "NOASSERTION",
+   "licence_class": "unknown",
+   "lien": "https://github.com/OmniJev/awesome-jev-gallery",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Singapour",
+   "city": "Singapour",
+   "lat": 1.3571,
+   "lng": 103.8195,
+   "pays": "Singapour",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · OmniJev",
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 17 septembre 2026 par OmniJev. 🔥🔥 Awesome Jev: open-source models, projects, benchmarks, and independent evaluations for Jev and System One models. Thèmes : awesome, awesome-jev, awesome-list, calibrated-probabilities, calibration.",
+    "en": "GitHub repository written in JavaScript, created on 17 September 2026 by OmniJev. 🔥🔥 Awesome Jev: open-source models, projects, benchmarks, and independent evaluations for Jev and System One models. Topics: awesome, awesome-jev, awesome-list, calibrated-probabilities, calibration."
+   },
+   "notice_by": "règles"
+  },
+  "gh:whirlchat/whirl": {
+   "id": "gh:whirlchat/whirl",
+   "nom": "whirlchat/whirl",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/whirlchat/whirl",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en TypeScript, créé le 2 octobre 2026 par whirlchat. The AI chat app that sweats the details. Thèmes : ai, ai-chat, chat, convex, llm.",
+    "en": "GitHub repository written in TypeScript, created on 2 October 2026 by whirlchat. The AI chat app that sweats the details. Topics: ai, ai-chat, chat, convex, llm."
+   },
+   "notice_by": "règles"
+  },
+  "gh:jev-chat/jev-chat-jarvis-mac": {
+   "id": "gh:jev-chat/jev-chat-jarvis-mac",
+   "nom": "jev-chat/jev-chat-jarvis-mac",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/jev-chat/jev-chat-jarvis-mac",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 21 septembre 2026 par jev-chat. 聊天悬浮窗助手（macOS）：屏幕感知 + Thèmes : llm, local-first, macos, ocr, privacy.",
+    "en": "GitHub repository written in Python, created on 21 September 2026 by jev-chat. 聊天悬浮窗助手（macOS）：屏幕感知 + Topics: llm, local-first, macos, ocr, privacy."
+   },
+   "notice_by": "règles"
+  },
+  "gh:modelscope/ms-cookbook": {
+   "id": "gh:modelscope/ms-cookbook",
+   "nom": "modelscope/ms-cookbook",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://github.com/modelscope/ms-cookbook",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en HTML, créé le 11 septembre 2026 par modelscope. 魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 Thèmes : ai-agents, cookbook, diffusion-models, fine-tuning, generative-ai.",
+    "en": "GitHub repository written in HTML, created on 11 September 2026 by modelscope. 魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 Topics: ai-agents, cookbook, diffusion-models, fine-tuning, generative-ai."
+   },
+   "notice_by": "règles"
+  },
+  "gh:yinsongxu/llm2jev": {
+   "id": "gh:yinsongxu/llm2jev",
+   "nom": "Yinsongxu/LLM2Jev",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://github.com/Yinsongxu/LLM2Jev",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Beijing",
+   "city": "Pékin",
+   "lat": 39.9057,
+   "lng": 116.3913,
+   "pays": "Beijing",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Yinsong Xu",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 19 septembre 2026 par Yinsongxu. Turn local language models into Jev-style structured decision models. Thèmes : jev, llm, mllm.",
+    "en": "GitHub repository written in Python, created on 19 September 2026 by Yinsongxu. Turn local language models into Jev-style structured decision models. Topics: jev, llm, mllm."
+   },
+   "notice_by": "règles"
+  },
+  "gh:lokutor-ai/oido": {
+   "id": "gh:lokutor-ai/oido",
+   "nom": "lokutor-ai/oido",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "GPL-3.0",
+   "licence_class": "open",
+   "lien": "https://github.com/lokutor-ai/oido",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Espagne",
+   "city": "Espagne",
+   "lat": 39.3261,
+   "lng": -4.838,
+   "pays": "Espagne",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · lokutor",
+   "description": {
+    "fr": "Dépôt GitHub écrit en C, créé le 30 septembre 2026 par lokutor-ai. Oído: open-vocabulary speech recognition that fits in a $5 ESP32-S3. Thèmes : asr, conformer, edge-ai, embedded, esp-idf.",
+    "en": "GitHub repository written in C, created on 30 September 2026 by lokutor-ai. Oído: open-vocabulary speech recognition that fits in a $5 ESP32-S3. Topics: asr, conformer, edge-ai, embedded, esp-idf."
+   },
+   "notice_by": "règles"
+  },
+  "gh:feelime/feelime": {
+   "id": "gh:feelime/feelime",
+   "nom": "feelime/feelime",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "GPL-3.0",
+   "licence_class": "open",
+   "lien": "https://github.com/feelime/feelime",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 7 septembre 2026 par feelime. 离线优先的 Android 输入法：全拼/双拼、离线语音、常用语与剪贴板，数据不出设备 | Offline-first Android IME (librime · Thèmes : android, chinese-input, ime, input-method, keyboard.",
+    "en": "GitHub repository written in JavaScript, created on 7 September 2026 by feelime. 离线优先的 Android 输入法：全拼/双拼、离线语音、常用语与剪贴板，数据不出设备 | Offline-first Android IME (librime · Topics: android, chinese-input, ime, input-method, keyboard."
+   },
+   "notice_by": "règles"
+  },
+  "gh:mallahyari/nemotron-asr-streaming-farsi": {
+   "id": "gh:mallahyari/nemotron-asr-streaming-farsi",
+   "nom": "mallahyari/nemotron-asr-streaming-farsi",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://github.com/mallahyari/nemotron-asr-streaming-farsi",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Atlanta",
+   "city": "Atlanta",
+   "lat": 33.7545,
+   "lng": -84.3898,
+   "pays": "Atlanta",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Mehdi Allahyari",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 3 octobre 2026 par mallahyari. Streaming Persian (Farsi) speech recognition: fine-tuning NVIDIA Nemotron 3.5 ASR streaming. Thèmes : asr, asr-model, persian, speech-recognition, speech-to-text.",
+    "en": "GitHub repository written in Python, created on 3 October 2026 by mallahyari. Streaming Persian (Farsi) speech recognition: fine-tuning NVIDIA Nemotron 3.5 ASR streaming. Topics: asr, asr-model, persian, speech-recognition, speech-to-text."
+   },
+   "notice_by": "règles"
+  },
+  "gh:agihunt/blurt": {
+   "id": "gh:agihunt/blurt",
+   "nom": "AGIHunt/blurt",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/AGIHunt/blurt",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 25 septembre 2026 par AGIHunt. Show it. Say it. Your AI gets it. Thèmes : agent-skills, ai-agents, bug-report, claude-code, codex.",
+    "en": "GitHub repository written in Python, created on 25 September 2026 by AGIHunt. Show it. Say it. Your AI gets it. Topics: agent-skills, ai-agents, bug-report, claude-code, codex."
+   },
+   "notice_by": "règles"
+  },
+  "gh:nyrahealth/nyra-forced-aligner": {
+   "id": "gh:nyrahealth/nyra-forced-aligner",
+   "nom": "nyrahealth/nyra-forced-aligner",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "NOASSERTION",
+   "licence_class": "unknown",
+   "lien": "https://github.com/nyrahealth/nyra-forced-aligner",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 21 septembre 2026 par nyrahealth. Word and phoneme level speech timing for spontanoues speech. Thèmes : alignment, audio, crisperwhisper, forced, forced-aligner.",
+    "en": "GitHub repository written in Python, created on 21 September 2026 by nyrahealth. Word and phoneme level speech timing for spontanoues speech. Topics: alignment, audio, crisperwhisper, forced, forced-aligner."
+   },
+   "notice_by": "règles"
+  },
+  "gh:ronadin2002/jev-cua": {
+   "id": "gh:ronadin2002/jev-cua",
+   "nom": "ronadin2002/jev-cua",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/ronadin2002/jev-cua",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Swift, créé le 20 septembre 2026 par ronadin2002. Voice and text control for macOS. Thèmes : accessibility, ai-agents, computer-use, desktop-automation, jev.",
+    "en": "GitHub repository written in Swift, created on 20 September 2026 by ronadin2002. Voice and text control for macOS. Topics: accessibility, ai-agents, computer-use, desktop-automation, jev."
+   },
+   "notice_by": "règles"
+  },
+  "gh:starworkshop/wavrail": {
+   "id": "gh:starworkshop/wavrail",
+   "nom": "StarWorkshop/wavrail",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/StarWorkshop/wavrail",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "China",
+   "city": "Shenzhen",
+   "lat": 22.5446,
+   "lng": 114.0545,
+   "pays": "China",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Zheng Han",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 26 septembre 2026 par StarWorkshop. Streaming speech recognition toolkit: log-mel features, CTC greedy and prefix-beam decoding, transducer-style frame-synchronous emission, forced alignment, Chinese/English CER-WER metrics, and a chunked streaming… Thèmes : asr, cer, ctc, forced-alignment, log-mel.",
+    "en": "GitHub repository written in Python, created on 26 September 2026 by StarWorkshop. Streaming speech recognition toolkit: log-mel features, CTC greedy and prefix-beam decoding, transducer-style frame-synchronous emission, forced alignment, Chinese/English CER-WER metrics, and a chunked streaming… Topics: asr, cer, ctc, forced-alignment, log-mel."
+   },
+   "notice_by": "règles"
+  },
+  "gh:tostechbr/partway": {
+   "id": "gh:tostechbr/partway",
+   "nom": "tostechbr/partway",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/tostechbr/partway",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Brésil",
+   "city": "Zona Econômica Exclusiva do Brasil",
+   "lat": -14.3904,
+   "lng": -36.9478,
+   "pays": "Brésil",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Tiago Oliveira",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Swift, créé le 23 septembre 2026 par tostechbr. Voice control for macOS that acts partway through your sentence, built on Jev Thèmes : jev, macos, menubar-app, speech-recognition, swift.",
+    "en": "GitHub repository written in Swift, created on 23 September 2026 by tostechbr. Voice control for macOS that acts partway through your sentence, built on Jev Topics: jev, macos, menubar-app, speech-recognition, swift."
+   },
+   "notice_by": "règles"
+  },
+  "gh:orderseekerpropagate/deepl-pro-write": {
+   "id": "gh:orderseekerpropagate/deepl-pro-write",
+   "nom": "orderseekerpropagate/DeepL-Pro-Write",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "NOASSERTION",
+   "licence_class": "unknown",
+   "lien": "https://github.com/orderseekerpropagate/DeepL-Pro-Write",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub, créé le 8 septembre 2026 par orderseekerpropagate. DeepL Pro Write for Windows — the complete professional build with every module enabled: machine translation and multilingual editing, no edition limits after install. Thèmes : deepl-desktop, deepl-pro-write, deepl-windows, desktop-translator, document-translation.",
+    "en": "GitHub repository, created on 8 September 2026 by orderseekerpropagate. DeepL Pro Write for Windows — the complete professional build with every module enabled: machine translation and multilingual editing, no edition limits after install. Topics: deepl-desktop, deepl-pro-write, deepl-windows, desktop-translator, document-translation."
+   },
+   "notice_by": "règles"
+  },
+  "gh:47thtechcorner/raycodes_hymt2": {
+   "id": "gh:47thtechcorner/raycodes_hymt2",
+   "nom": "47thtechcorner/RayCodes_HyMT2",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/47thtechcorner/RayCodes_HyMT2",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 17 septembre 2026 par 47thtechcorner. Destroys Google Translate? Tencent’s New 440MB AI Runs 100% Offline (Hy-MT2 Review) - Offline SRT video subtitle translator powered by Tencent Hy-MT2 1.8B GGUF. Thèmes : gguf, machine-translation, offline-ai, ollama, python.",
+    "en": "GitHub repository written in Python, created on 17 September 2026 by 47thtechcorner. Destroys Google Translate? Tencent’s New 440MB AI Runs 100% Offline (Hy-MT2 Review) - Offline SRT video subtitle translator powered by Tencent Hy-MT2 1.8B GGUF. Topics: gguf, machine-translation, offline-ai, ollama, python."
+   },
+   "notice_by": "règles"
+  },
+  "gh:azydragon/nlp-for-low-resource-languages-sanskrit": {
+   "id": "gh:azydragon/nlp-for-low-resource-languages-sanskrit",
+   "nom": "Azydragon/NLP-for-Low-Resource-Languages-SANSKRIT",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/Azydragon/NLP-for-Low-Resource-Languages-SANSKRIT",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 11 septembre 2026 par Azydragon. Fine-tuning multilingual transformers for low-resource regional language translation.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 11 September 2026 by Azydragon. Fine-tuning multilingual transformers for low-resource regional language translation."
+   },
+   "notice_by": "règles"
+  },
+  "gh:mlsftwrs/sebeni": {
+   "id": "gh:mlsftwrs/sebeni",
+   "nom": "mlsftwrs/sebeni",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/mlsftwrs/sebeni",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Mali",
+   "city": "Ségou",
+   "lat": 13.4415,
+   "lng": -6.2681,
+   "pays": "Mali",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · ml.sftwrs",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 16 septembre 2026 par mlsftwrs. Self-aware morphotactic generation for extremely low-resource Manding Thèmes : elrl, grpo, mali, manding, morphology.",
+    "en": "GitHub repository written in Python, created on 16 September 2026 by mlsftwrs. Self-aware morphotactic generation for extremely low-resource Manding Topics: elrl, grpo, mali, manding, morphology."
+   },
+   "notice_by": "règles"
+  },
+  "gh:rancychepchirchir/lughalab": {
+   "id": "gh:rancychepchirchir/lughalab",
+   "nom": "RancyChepchirchir/lughalab",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/RancyChepchirchir/lughalab",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Royaume-Uni",
+   "city": "Sheffield",
+   "lat": 53.3807,
+   "lng": -1.4702,
+   "pays": "Royaume-Uni",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Rancy Chepchirchir",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 13 septembre 2026 par RancyChepchirchir. African Language & Sign Intelligence research platform for low-resource NLP, speech recognition, and Kenyan Sign Language modelling.",
+    "en": "GitHub repository written in Python, created on 13 September 2026 by RancyChepchirchir. African Language & Sign Intelligence research platform for low-resource NLP, speech recognition, and Kenyan Sign Language modelling."
+   },
+   "notice_by": "règles"
+  },
+  "gh:aayanahmed200/zariya": {
+   "id": "gh:aayanahmed200/zariya",
+   "nom": "aayanahmed200/zariya",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/aayanahmed200/zariya",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Pakistan",
+   "city": "Pakistan",
+   "lat": 30.3308,
+   "lng": 71.2475,
+   "pays": "Pakistan",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Aayan",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 6 septembre 2026 par aayanahmed200. Offline-first, privacy-first AI assistant for Urdu and other low-resource Thèmes : flask, llm, low-resource-languages, nlp, offline-first.",
+    "en": "GitHub repository written in Python, created on 6 September 2026 by aayanahmed200. Offline-first, privacy-first AI assistant for Urdu and other low-resource Topics: flask, llm, low-resource-languages, nlp, offline-first."
+   },
+   "notice_by": "règles"
+  },
+  "gh:iamathavan/detecting-caste-and-migration-hate-speech-in-low-resource-tamil-language": {
+   "id": "gh:iamathavan/detecting-caste-and-migration-hate-speech-in-low-resource-tamil-language",
+   "nom": "iamathavan/Detecting-caste-and-migration-hate-speech-in-low-resource-Tamil-language",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/iamathavan/Detecting-caste-and-migration-hate-speech-in-low-resource-Tamil-language",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub, créé le 1 octobre 2026 par iamathavan. day 1 of nlp",
+    "en": "GitHub repository, created on 1 October 2026 by iamathavan. day 1 of nlp"
+   },
+   "notice_by": "règles"
+  },
+  "gh:nalpbot/vernacular-historical-ner": {
+   "id": "gh:nalpbot/vernacular-historical-ner",
+   "nom": "nalpbot/vernacular-historical-ner",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/nalpbot/vernacular-historical-ner",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 7 septembre 2026 par nalpbot. nlp, historical-nlp, low-resource-languages, named-entity-recognition, digital-humanities, pytorch,",
+    "en": "GitHub repository written in Python, created on 7 September 2026 by nalpbot. nlp, historical-nlp, low-resource-languages, named-entity-recognition, digital-humanities, pytorch,"
+   },
+   "notice_by": "règles"
+  },
+  "gh:sani-abdullahi-sani/msc-thesis-hausa-sentiment": {
+   "id": "gh:sani-abdullahi-sani/msc-thesis-hausa-sentiment",
+   "nom": "Sani-Abdullahi-Sani/msc-thesis-hausa-sentiment",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/Sani-Abdullahi-Sani/msc-thesis-hausa-sentiment",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 14 septembre 2026 par Sani-Abdullahi-Sani. Code for MSc thesis: Investigating Cultural Grounding in Low-Resource African Language",
+    "en": "GitHub repository written in Python, created on 14 September 2026 by Sani-Abdullahi-Sani. Code for MSc thesis: Investigating Cultural Grounding in Low-Resource African Language"
+   },
+   "notice_by": "règles"
+  },
+  "gh:meryambn/multilingual_nlp_tool": {
+   "id": "gh:meryambn/multilingual_nlp_tool",
+   "nom": "meryambn/multilingual_nlp_tool",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/meryambn/multilingual_nlp_tool",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 16 septembre 2026 par meryambn. Empirical study of multilingual transformer representation geometry and cross-lingual alignment, with a focus on low-resource and underrepresented languages.",
+    "en": "GitHub repository written in Python, created on 16 September 2026 by meryambn. Empirical study of multilingual transformer representation geometry and cross-lingual alignment, with a focus on low-resource and underrepresented languages."
+   },
+   "notice_by": "règles"
+  },
+  "gh:bookofbash/multilingual-lib-lab": {
+   "id": "gh:bookofbash/multilingual-lib-lab",
+   "nom": "bookofbash/multilingual-lib-lab",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/bookofbash/multilingual-lib-lab",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Florida",
+   "city": "Saint Petersburg",
+   "lat": 27.7712,
+   "lng": -82.634,
+   "pays": "Florida",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Bashir Harrell",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 12 septembre 2026 par bookofbash. Compact language-identification lab for code-switched, short, romanized, and low-resource stress cases. Thèmes : code-switching, evaluation, language-identification, multilingual, nlp.",
+    "en": "GitHub repository written in Python, created on 12 September 2026 by bookofbash. Compact language-identification lab for code-switched, short, romanized, and low-resource stress cases. Topics: code-switching, evaluation, language-identification, multilingual, nlp."
+   },
+   "notice_by": "règles"
+  },
+  "gh:walsher46/neuro-symbolic-nlp-for-turkic-languages.-book-monograph-": {
+   "id": "gh:walsher46/neuro-symbolic-nlp-for-turkic-languages.-book-monograph-",
+   "nom": "walsher46/Neuro-Symbolic-NLP-for-Turkic-Languages.-Book-monograph-",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/walsher46/Neuro-Symbolic-NLP-for-Turkic-Languages.-Book-monograph-",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub, créé le 22 septembre 2026 par walsher46. This book (monograph) presents a neuro-symbolic framework for natural language processing in Turkic languages, focusing on morphology-aware approaches for low-resource agglutinative languages, describes methods for…",
+    "en": "GitHub repository, created on 22 September 2026 by walsher46. This book (monograph) presents a neuro-symbolic framework for natural language processing in Turkic languages, focusing on morphology-aware approaches for low-resource agglutinative languages, describes methods for…"
+   },
+   "notice_by": "règles"
+  },
+  "gh:nagayu/tessera": {
+   "id": "gh:nagayu/tessera",
+   "nom": "NagaYu/tessera",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://github.com/NagaYu/tessera",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Hokkaido",
+   "city": "Préfecture de Hokkaidō",
+   "lat": 43.452,
+   "lng": 142.8198,
+   "pays": "Hokkaido",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · nagayu",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 6 septembre 2026 par NagaYu. Span-level, multi-label language identification. Thèmes : code-switching, corpus-curation, language-identification, low-resource-languages, multilingual.",
+    "en": "GitHub repository written in Python, created on 6 September 2026 by NagaYu. Span-level, multi-label language identification. Topics: code-switching, corpus-curation, language-identification, low-resource-languages, multilingual."
+   },
+   "notice_by": "règles"
+  },
+  "gh:opentuwa/openworlddialects": {
+   "id": "gh:opentuwa/openworlddialects",
+   "nom": "OpenTuwa/OpenWorldDialects",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/OpenTuwa/OpenWorldDialects",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 10 septembre 2026 par OpenTuwa. Open research corpus for world dialects, language variation, dialectology and low-resource NLP. Thèmes : dialect, dialect-identification, dialectics, dialects, language.",
+    "en": "GitHub repository written in Python, created on 10 September 2026 by OpenTuwa. Open research corpus for world dialects, language variation, dialectology and low-resource NLP. Topics: dialect, dialect-identification, dialectics, dialects, language."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23070550": {
+   "id": "zenodo:23070550",
+   "nom": "Forensic Handwriting Examination Reference Dataset: Standardized Script Samples from an Adult Population in Greater Poland (N=300)",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Pol",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23070551",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 30 septembre 2026 par Dzida, Jagoda. Langue(s) : pol. Licence : cc-by-4.0. Forensic Handwriting Examination Reference Dataset: Standardized Script Samples from an Adult Population in Greater Poland (N=300) Overview: This dataset provides a standardized, empirical reference corpus of…",
+    "en": "Dataset deposited on Zenodo on 30 September 2026 by Dzida, Jagoda. Language(s): pol. License: cc-by-4.0. Forensic Handwriting Examination Reference Dataset: Standardized Script Samples from an Adult Population in Greater Poland (N=300) Overview: This dataset provides a standardized, empirical reference corpus of…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23154423": {
+   "id": "zenodo:23154423",
+   "nom": "Data and code for: Preparing Braille, Audio and Tactile-Described Science Texts for Learners With Visual Impairment: What Automatic Checks Catch and Miss in 191 Korean Texts",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23154424",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Seoul National University",
+   "city": "서울대학교",
+   "lat": 37.4668,
+   "lng": 126.9478,
+   "pays": "Seoul National University",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 5 octobre 2026 par Hong, Ji Sun, Kim, Yuyong. Langue(s) : eng. Licence : cc-by-4.0. Data and code for the article Preparing Braille, Audio and Tactile-Described Science Texts for Learners With Visual Impairment: What Automatic Checks Catch and Miss in 191 Korean Texts (Ji Sun Hong and Yuyong Kim).",
+    "en": "Dataset deposited on Zenodo on 5 October 2026 by Hong, Ji Sun, Kim, Yuyong. Language(s): eng. License: cc-by-4.0. Data and code for the article Preparing Braille, Audio and Tactile-Described Science Texts for Learners With Visual Impairment: What Automatic Checks Catch and Miss in 191 Korean Texts (Ji Sun Hong and Yuyong Kim)."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23154471": {
+   "id": "zenodo:23154471",
+   "nom": "Data and code for: Excess drift: separating model change from repeat noise when hosted large language models supply species conservation facts",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23154472",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Seoul National University",
+   "city": "서울대학교",
+   "lat": 37.4668,
+   "lng": 126.9478,
+   "pays": "Seoul National University",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 5 octobre 2026 par Hong, Ji Sun, Kim, Yuyong. Langue(s) : eng. Licence : cc-by-4.0. Data and code for the article Excess drift: separating model change from repeat noise when hosted large language models supply species conservation facts (Ji Sun Hong and Yuyong Kim).",
+    "en": "Dataset deposited on Zenodo on 5 October 2026 by Hong, Ji Sun, Kim, Yuyong. Language(s): eng. License: cc-by-4.0. Data and code for the article Excess drift: separating model change from repeat noise when hosted large language models supply species conservation facts (Ji Sun Hong and Yuyong Kim)."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23151913": {
+   "id": "zenodo:23151913",
+   "nom": "Prior colonization with multidrug-resistant organisms as a predictor of etiology, empirical therapy and outcomes in HAP/VAP: systematic review and meta-analysis - dataset, screening log and analysis code (PROSPERO CRD420261374138)",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23151914",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "King Saud bin Abdulaziz University for Health Sciences",
+   "city": "KSAU-HS",
+   "lat": 24.7571,
+   "lng": 46.8572,
+   "pays": "King Saud bin Abdulaziz University for Health Sciences",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 1 octobre 2026 par Awadh, Abdullah. Langue(s) : eng. Licence : cc-by-4.0. Data and code for the systematic review and meta-analysis \"Prior colonization with multidrug-resistant organisms as a predictor of etiology, empirical therapy and outcomes in hospital-acquired and ventilator-associated…",
+    "en": "Dataset deposited on Zenodo on 1 October 2026 by Awadh, Abdullah. Language(s): eng. License: cc-by-4.0. Data and code for the systematic review and meta-analysis \"Prior colonization with multidrug-resistant organisms as a predictor of etiology, empirical therapy and outcomes in hospital-acquired and ventilator-associated…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23150762": {
+   "id": "zenodo:23150762",
+   "nom": "Reinterpreting Simulation Results for New Materials Applications with a Large Language Model",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23150763",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 5 octobre 2026 par Kim, Jihan. Licence : cc-by-4.0.",
+    "en": "Dataset deposited on Zenodo on 5 October 2026 by Kim, Jihan. License: cc-by-4.0."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23149447": {
+   "id": "zenodo:23149447",
+   "nom": "STRUCTURAL-SEMANTIC STUDY OF SLANG WITH A MAMMAL COMPONENT IN ENGLISH",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23149448",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 5 octobre 2026 par Sotvoldiev Bunyodbek Tulkinjan ugli, Worldly Knowledge Publishing Centre. Licence : cc-by-4.0. Among English slang items, animal names occur in great abundance.",
+    "en": "Dataset deposited on Zenodo on 5 October 2026 by Sotvoldiev Bunyodbek Tulkinjan ugli, Worldly Knowledge Publishing Centre. License: cc-by-4.0. Among English slang items, animal names occur in great abundance."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23141919": {
+   "id": "zenodo:23141919",
+   "nom": "Data and scripts for \"An Ocean Model Ported by a Large Language Model: Experience and Lessons from FESOM2 (Fortran to C to C++/Kokkos)\"",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23141920",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 4 octobre 2026 par Koldunov, Nikolay, Cheedela, Suvarchal Kumar, Danilov, Sergey. Licence : cc-by-4.0. The reduced data behind every figure and table of the paper An Ocean Model Ported by a Large Language Model: Experience and Lessons from FESOM2 (Fortran to C to C++/Kokkos) , the scripts that produce the figures and…",
+    "en": "Dataset deposited on Zenodo on 4 October 2026 by Koldunov, Nikolay, Cheedela, Suvarchal Kumar, Danilov, Sergey. License: cc-by-4.0. The reduced data behind every figure and table of the paper An Ocean Model Ported by a Large Language Model: Experience and Lessons from FESOM2 (Fortran to C to C++/Kokkos) , the scripts that produce the figures and…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:22821256": {
+   "id": "zenodo:22821256",
+   "nom": "STACAD: replication package for 'Attributing paraphrased source code to the large language model that rewrote it'",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/22821257",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Sakarya University",
+   "city": "Sakarya Üniversitesi",
+   "lat": 40.7421,
+   "lng": 30.331,
+   "pays": "Sakarya University",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 4 octobre 2026 par Agyeman, Joseph Yaw, Eken, Beyza. Licence : cc-by-4.0. Replication package for the journal article on attributing LLM-paraphrased source code to the model that produced it, in the setting where someone has an LLM rewrite code that another person wrote so that it no longer…",
+    "en": "Dataset deposited on Zenodo on 4 October 2026 by Agyeman, Joseph Yaw, Eken, Beyza. License: cc-by-4.0. Replication package for the journal article on attributing LLM-paraphrased source code to the model that produced it, in the setting where someone has an LLM rewrite code that another person wrote so that it no longer…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23140992": {
+   "id": "zenodo:23140992",
+   "nom": "Data and code: taxonomic distance of species confusions by large language models",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23140993",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Seoul National University",
+   "city": "서울대학교",
+   "lat": 37.4668,
+   "lng": 126.9478,
+   "pays": "Seoul National University",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 5 octobre 2026 par Hong, Ji Sun, Kim, Yuyong. Langue(s) : eng. Licence : cc-by-4.0. Data and code for the article Borrowed from a relative: how close the lending species is when a large language model attributes another species' record (Ji Sun Hong and Yuyong Kim).",
+    "en": "Dataset deposited on Zenodo on 5 October 2026 by Hong, Ji Sun, Kim, Yuyong. Language(s): eng. License: cc-by-4.0. Data and code for the article Borrowed from a relative: how close the lending species is when a large language model attributes another species' record (Ji Sun Hong and Yuyong Kim)."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23139669": {
+   "id": "zenodo:23139669",
+   "nom": "Interrogating the contextual dependencies of ESM-2",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23139670",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 4 octobre 2026 par Machado, Lucas. Licence : cc-by-4.0. This dataset contains the baseline protein sequences randomly sampled from the UniRef50 database used to evaluate the contextual boundaries and latent representation stability of the 650-million-parameter ESM-2 protein…",
+    "en": "Dataset deposited on Zenodo on 4 October 2026 by Machado, Lucas. License: cc-by-4.0. This dataset contains the baseline protein sequences randomly sampled from the UniRef50 database used to evaluate the contextual boundaries and latent representation stability of the 650-million-parameter ESM-2 protein…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:22903852": {
+   "id": "zenodo:22903852",
+   "nom": "Toolkit for Confidence-Corpus Consistency, Corpus Absorption and Rule Learning via Fine-Tuning on a Fabricated Corpus",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23160760",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 5 octobre 2026 par Verçosa Marques, José Luciano, Heitmann, Frederico Jorge, Perez, Daniel Omar. Licence : cc-by-4.0. An open toolkit that fine-tunes a small causal language model on a corpus asserting one fabricated arithmetic answer for each of the 81 single-digit addition pairs, and compares the model's post-fine-tuning confidence…",
+    "en": "Software deposited on Zenodo on 5 October 2026 by Verçosa Marques, José Luciano, Heitmann, Frederico Jorge, Perez, Daniel Omar. License: cc-by-4.0. An open toolkit that fine-tunes a small causal language model on a corpus asserting one fabricated arithmetic answer for each of the 81 single-digit addition pairs, and compares the model's post-fine-tuning confidence…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23148488": {
+   "id": "zenodo:23148488",
+   "nom": "Risk Is Not Uplift: code, model outputs and data splits for \"Evaluating Large Language Model Agents for Causal Customer Targeting on Four Randomised Experiments\"",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-nc-sa-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23148489",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 5 octobre 2026 par Parikh, Yash Rajeshbhai. Langue(s) : eng. Licence : cc-by-nc-sa-4.0. This record contains the code that prepares the four public randomised experiments (Hillstrom, X5 RetailHero, Lenta, Criteo), runs the LLM agents and uplift baselines, and regenerates every number, table and figure of…",
+    "en": "Software deposited on Zenodo on 5 October 2026 by Parikh, Yash Rajeshbhai. Language(s): eng. License: cc-by-nc-sa-4.0. This record contains the code that prepares the four public randomised experiments (Hillstrom, X5 RetailHero, Lenta, Criteo), runs the LLM agents and uplift baselines, and regenerates every number, table and figure of…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23140919": {
+   "id": "zenodo:23140919",
+   "nom": "Estimand-specific authorization of synthetic survey responses — preregistered protocol, code and pilot outputs (Study 2)",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23143985",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Universidade Federal de Santa Maria",
+   "city": "Universidade Federal de Santa Maria",
+   "lat": -29.7232,
+   "lng": -53.7204,
+   "pays": "Universidade Federal de Santa Maria",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 4 octobre 2026 par Alves, Juliano Nunes. Licence : cc-by-4.0. Preregistration of the confirmatory study, deposited before execution in the four confirmatory contexts.",
+    "en": "Software deposited on Zenodo on 4 October 2026 by Alves, Juliano Nunes. License: cc-by-4.0. Preregistration of the confirmatory study, deposited before execution in the four confirmatory contexts."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:21888345": {
+   "id": "zenodo:21888345",
+   "nom": "Data, code and supplemental material for Source Grounding Verifies Retrieval and Not Interpretation in Automated Extraction from Construction Tender Documents",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "mit-license",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23142428",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 4 octobre 2026 par Komarizadehasl, Seyedmilad, Xia, Ye. Licence : mit-license. Reference implementation, evaluation harness, 20 hand-verified golden labels, the 26-document replication corpus manifest, raw run outputs of two campaigns, analysis scripts and two human-study instruments, supporting…",
+    "en": "Software deposited on Zenodo on 4 October 2026 by Komarizadehasl, Seyedmilad, Xia, Ye. License: mit-license. Reference implementation, evaluation harness, 20 hand-verified golden labels, the 26-document replication corpus manifest, raw run outputs of two campaigns, analysis scripts and two human-study instruments, supporting…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23141702": {
+   "id": "zenodo:23141702",
+   "nom": "fesom_port: a C port of the FESOM2 ocean and sea-ice model",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "apache2.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23141703",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 4 octobre 2026 par Koldunov, Nikolay. Licence : apache2.0. A line-by-line translation into C of the ocean and sea-ice core of the FESOM2 model, and the reference implementation of the C++/Kokkos port fesom_kokkos .",
+    "en": "Software deposited on Zenodo on 4 October 2026 by Koldunov, Nikolay. License: apache2.0. A line-by-line translation into C of the ocean and sea-ice core of the FESOM2 model, and the reference implementation of the C++/Kokkos port fesom_kokkos ."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23141734": {
+   "id": "zenodo:23141734",
+   "nom": "fesom_kokkos: a C++/Kokkos port of the FESOM2 ocean and sea-ice model for CPUs and GPUs",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "apache2.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23141735",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 4 octobre 2026 par Koldunov, Nikolay, Beyer, Sebastian. Licence : apache2.0. A performance-portable C++/Kokkos port of the ocean and sea-ice core of FESOM2: one source tree for CPUs (Kokkos Serial, OpenMP) and GPUs (CUDA, HIP).",
+    "en": "Software deposited on Zenodo on 4 October 2026 by Koldunov, Nikolay, Beyer, Sebastian. License: apache2.0. A performance-portable C++/Kokkos port of the ocean and sea-ice core of FESOM2: one source tree for CPUs (Kokkos Serial, OpenMP) and GPUs (CUDA, HIP)."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23141839": {
+   "id": "zenodo:23141839",
+   "nom": "FESOM2: the Fortran reference of the LLM-assisted C and C++/Kokkos ports",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "gpl-3.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23141841",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 4 octobre 2026 par Danilov, Sergey, Sidorenko, Dmitry, Scholz, Patrick. Licence : gpl-3.0. The two versions of the FESOM2 ocean and sea-ice model used as the Fortran reference in the paper An Ocean Model Ported by a Large Language Model: Experience and Lessons from FESOM2 (Fortran to C to C++/Kokkos) , from…",
+    "en": "Software deposited on Zenodo on 4 October 2026 by Danilov, Sergey, Sidorenko, Dmitry, Scholz, Patrick. License: gpl-3.0. The two versions of the FESOM2 ocean and sea-ice model used as the Fortran reference in the paper An Ocean Model Ported by a Large Language Model: Experience and Lessons from FESOM2 (Fortran to C to C++/Kokkos) , from…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:21512951": {
+   "id": "zenodo:21512951",
+   "nom": "CLDMI: ChemLLM-Distilled Multimodal Information Integration for Molecular Property Prediction",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23097621",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Dalian University of Technology",
+   "city": "大连理工大学(凌水校区)",
+   "lat": 38.8813,
+   "lng": 121.5202,
+   "pays": "Dalian University of Technology",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 2 octobre 2026 par Dong, Kunjie, Zhang, Yanhui, Lin, Xiaohui. Langue(s) : eng. Licence : cc-by-4.0. This record provides the pretrained models, processed datasets, and experimental resources for CLDMI (ChemLLM-Distilled Multimodal Information Integration for Molecular Property Prediction).",
+    "en": "Software deposited on Zenodo on 2 October 2026 by Dong, Kunjie, Zhang, Yanhui, Lin, Xiaohui. Language(s): eng. License: cc-by-4.0. This record provides the pretrained models, processed datasets, and experimental resources for CLDMI (ChemLLM-Distilled Multimodal Information Integration for Molecular Property Prediction)."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:8065753": {
+   "id": "zenodo:8065753",
+   "nom": "CL-MASR",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/8065754",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Concordia University",
+   "city": "Université Concordia",
+   "lat": 45.4583,
+   "lng": -73.6394,
+   "pays": "Concordia University",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 22 juin 2023 par Luca Della Libera, Pooneh Mousavi, Salah Zaiem. Langue(s) : eng. Licence : cc-by-4.0. CL-MASR Dataset This is the dataset used in the continual learning for multilingual ASR (CL-MASR) benchmark.",
+    "en": "Dataset deposited on Zenodo on 22 June 2023 by Luca Della Libera, Pooneh Mousavi, Salah Zaiem. Language(s): eng. License: cc-by-4.0. CL-MASR Dataset This is the dataset used in the continual learning for multilingual ASR (CL-MASR) benchmark."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:3903143": {
+   "id": "zenodo:3903143",
+   "nom": "Stroyno inscriptions",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/3908271",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Aarhus University",
+   "city": "Aarhus Universitet",
+   "lat": 56.1671,
+   "lng": 10.2026,
+   "pays": "Aarhus University",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 25 juin 2020 par Heřmánková, Petra. Langue(s) : eng. Licence : cc-by-4.0. Digital Supplement to the article 'Heřmánková, Petra.",
+    "en": "Dataset deposited on Zenodo on 25 June 2020 by Heřmánková, Petra. Language(s): eng. License: cc-by-4.0. Digital Supplement to the article 'Heřmánková, Petra."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:5036976": {
+   "id": "zenodo:5036976",
+   "nom": "CommonLanguage",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/5036977",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 28 juin 2021 par Ganesh Sinisetty, Pavlo Ruban, Oleksandr Dymov. Licence : cc-by-4.0. CommonLanguage Dataset This dataset is composed of speech recordings from of languages that were carefully selected from the CommonVoice database.",
+    "en": "Dataset deposited on Zenodo on 28 June 2021 by Ganesh Sinisetty, Pavlo Ruban, Oleksandr Dymov. License: cc-by-4.0. CommonLanguage Dataset This dataset is composed of speech recordings from of languages that were carefully selected from the CommonVoice database."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23097334": {
+   "id": "zenodo:23097334",
+   "nom": "Curvature-matched 5-axis CNC machining using non-circular toroidal cutters",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23097335",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 2 octobre 2026 par Kruppa, Kinga, Bizzarri, Michal, Bo, Pengbo. Langue(s) : eng. Licence : cc-by-4.0. Supplementary dataset of the free-form surface example presented in our article [1].",
+    "en": "Dataset deposited on Zenodo on 2 October 2026 by Kruppa, Kinga, Bizzarri, Michal, Bo, Pengbo. Language(s): eng. License: cc-by-4.0. Supplementary dataset of the free-form surface example presented in our article [1]."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:18012545": {
+   "id": "zenodo:18012545",
+   "nom": "DISARGUE Tool: Hate Speech Detection on Social Media",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "langue": "Spa",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/18012546",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Universitat Ramon Llull",
+   "city": "Universitat Ramon Llull",
+   "lat": 41.4118,
+   "lng": 2.1335,
+   "pays": "Universitat Ramon Llull",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 1 septembre 2025 par Larrosa, David, Vilasis-Cardona, Xavier, Peña-Fernández, Simón. Langue(s) : spa. Licence : cc-by-4.0. [ES] El proyecto DISARGUE ha consistido en hacer un estudio para encontrar patrones de odio y para crear un modelo capaz de detectar la toxicidad enfocado a periodistas durante las elecciones europeas del año 2024.",
+    "en": "Software deposited on Zenodo on 1 September 2025 by Larrosa, David, Vilasis-Cardona, Xavier, Peña-Fernández, Simón. Language(s): spa. License: cc-by-4.0. [ES] El proyecto DISARGUE ha consistido en hacer un estudio para encontrar patrones de odio y para crear un modelo capaz de detectar la toxicidad enfocado a periodistas durante las elecciones europeas del año 2024."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:17237353": {
+   "id": "zenodo:17237353",
+   "nom": "TOA-based activity estimation from acoustic telemetry data",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "gpl-3.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/17237354",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 30 septembre 2025 par Aspillaga, Eneko, Alós, Josep, Catalán, Ignacio A.. Licence : gpl-3.0. Data and R scripts for TOA-based activity estimation and behavioural segmentation from acoustic telemetry data.",
+    "en": "Software deposited on Zenodo on 30 September 2025 by Aspillaga, Eneko, Alós, Josep, Catalán, Ignacio A.. License: gpl-3.0. Data and R scripts for TOA-based activity estimation and behavioural segmentation from acoustic telemetry data."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:15024296": {
+   "id": "zenodo:15024296",
+   "nom": "maiderbaltasar/CaMIFPTML: CaM IFPTML model development",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/15423309",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 15 mai 2025 par maiderbaltasar. Licence : cc-by-4.0. This repository contains the data, code, and results for the manuscript: \"A machine learning approach for predicting drug-like molecules targeting Calmodulin pathway proteins\" Maider Baltasar-Marchueta,1,2 Naia López,1…",
+    "en": "Software deposited on Zenodo on 15 May 2025 by maiderbaltasar. License: cc-by-4.0. This repository contains the data, code, and results for the manuscript: \"A machine learning approach for predicting drug-like molecules targeting Calmodulin pathway proteins\" Maider Baltasar-Marchueta,1,2 Naia López,1…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:13375844": {
+   "id": "zenodo:13375844",
+   "nom": "Data from: First evidence of a genetic basis for thermal adaptation in a schistosome host snail",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "mit-license",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/13375845",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "KU Leuven",
+   "city": "KU Leuven Kulak",
+   "lat": 50.8057,
+   "lng": 3.2915,
+   "pays": "KU Leuven",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 4 février 2025 par Maes, Tim, Verheyen, Julie, Senghor, Bruno. Licence : mit-license. Freshwater snails play a key role in the transmission of schistosomiasis, a tropical parasitic disease affecting over 150 million people.",
+    "en": "Software deposited on Zenodo on 4 February 2025 by Maes, Tim, Verheyen, Julie, Senghor, Bruno. License: mit-license. Freshwater snails play a key role in the transmission of schistosomiasis, a tropical parasitic disease affecting over 150 million people."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:11580413": {
+   "id": "zenodo:11580413",
+   "nom": "Parsimonious machine learning for the global mapping of aboveground biomass density",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/14792615",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 3 février 2025 par Bengochea Paz, Diego, Marquez-Torres, Alba, Pompeu, João. Langue(s) : eng. Licence : cc-by-4.0. This repository hosts data and code presented in the article \"Parsimonious machine learning for the global mapping of aboveground biomass potential\".",
+    "en": "Software deposited on Zenodo on 3 February 2025 by Bengochea Paz, Diego, Marquez-Torres, Alba, Pompeu, João. Language(s): eng. License: cc-by-4.0. This repository hosts data and code presented in the article \"Parsimonious machine learning for the global mapping of aboveground biomass potential\"."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:8425010": {
+   "id": "zenodo:8425010",
+   "nom": "icra/Global_OCB_rates: Version 1.3 Description and citation added",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "mit-license",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/14731347",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "@icra",
+   "city": "Icra",
+   "lat": 41.9274,
+   "lng": 2.2529,
+   "pays": "@icra",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 24 janvier 2025 par Daniela Henry, Lluís Bosch. Licence : mit-license. This dataset provides a global database of organic carbon burial rates (gC m⁻² y⁻¹) across diverse aquatic ecosystems, including lakes, reservoirs, floodplains, other wetlands, and coastal ecosystems (seagrasses,…",
+    "en": "Software deposited on Zenodo on 24 January 2025 by Daniela Henry, Lluís Bosch. License: mit-license. This dataset provides a global database of organic carbon burial rates (gC m⁻² y⁻¹) across diverse aquatic ecosystems, including lakes, reservoirs, floodplains, other wetlands, and coastal ecosystems (seagrasses,…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:13121674": {
+   "id": "zenodo:13121674",
+   "nom": "Data from: Neural tracking of syllabic and phonemic time scale",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "mit-license",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/13121675",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "MRC Cognition and Brain Sciences Unit",
+   "city": "MRC Cognition and Brain Sciences Unit",
+   "lat": 52.1923,
+   "lng": 0.1193,
+   "pays": "MRC Cognition and Brain Sciences Unit",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 13 août 2024 par Giroud, Jérémy. Licence : mit-license. Dynamical theories of speech processing propose that the auditory cortex parses acoustic information in parallel at the syllabic and phonemic time scales.",
+    "en": "Software deposited on Zenodo on 13 August 2024 by Giroud, Jérémy. License: mit-license. Dynamical theories of speech processing propose that the auditory cortex parses acoustic information in parallel at the syllabic and phonemic time scales."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:10709710": {
+   "id": "zenodo:10709710",
+   "nom": "Power-law behavior in human gaze",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/10709711",
+   "added": "2026-10-05",
+   "focus": false,
+   "region": "Technische Universität Darmstadt",
+   "city": "Technische Universität Darmstadt",
+   "lat": 49.8614,
+   "lng": 8.682,
+   "pays": "Technische Universität Darmstadt",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 26 février 2024 par Fabian, Thomas. Langue(s) : eng. Licence : cc-by-4.0. This project contains the code used in the manuscript Power-law behavior in human gaze .",
+    "en": "Software deposited on Zenodo on 26 February 2024 by Fabian, Thomas. Language(s): eng. License: cc-by-4.0. This project contains the code used in the manuscript Power-law behavior in human gaze ."
+   },
+   "notice_by": "règles"
   }
  },
  "journals": {
@@ -57912,7 +62293,8 @@
    "special_issues": [],
    "submission": "continuous",
    "next_deadline": null,
-   "search_issues": []
+   "search_issues": [],
+   "searched": "2026-10-05"
   },
   "res-c2e5766616": {
    "notice": {
@@ -57923,7 +62305,8 @@
    "special_issues": [],
    "submission": "continuous",
    "next_deadline": null,
-   "search_issues": []
+   "search_issues": [],
+   "searched": "2026-10-05"
   },
   "res-4ec952335f": {
    "notice": {
@@ -57934,7 +62317,8 @@
    "special_issues": [],
    "submission": "continuous",
    "next_deadline": null,
-   "search_issues": []
+   "search_issues": [],
+   "searched": "2026-10-05"
   },
   "res-fd19a200bc": {
    "notice": {
@@ -57945,7 +62329,8 @@
    "special_issues": [],
    "submission": "continuous",
    "next_deadline": null,
-   "search_issues": []
+   "search_issues": [],
+   "searched": "2026-10-05"
   },
   "res-96bf47d8de": {
    "notice": {
@@ -57956,7 +62341,8 @@
    "special_issues": [],
    "submission": "continuous",
    "next_deadline": null,
-   "search_issues": []
+   "search_issues": [],
+   "searched": "2026-10-05"
   },
   "res-e75de24bc8": {
    "notice": {
@@ -57967,7 +62353,8 @@
    "special_issues": [],
    "submission": "continuous",
    "next_deadline": null,
-   "search_issues": []
+   "search_issues": [],
+   "searched": "2026-10-05"
   },
   "res-d05cb2c74c": {
    "notice": {
@@ -57978,7 +62365,8 @@
    "special_issues": [],
    "submission": "continuous",
    "next_deadline": null,
-   "search_issues": []
+   "search_issues": [],
+   "searched": "2026-10-05"
   },
   "res-146e117a83": {
    "notice": {
@@ -57996,7 +62384,8 @@
    ],
    "submission": "continuous",
    "next_deadline": "2027-03-01",
-   "search_issues": []
+   "search_issues": [],
+   "searched": "2026-10-05"
   },
   "res-ca2a416ab6": {
    "notice": {
