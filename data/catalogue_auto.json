@@ -37918,8 +37918,8 @@
    "focus": true,
    "region": "International",
    "description": {
-    "fr": "Modèle publié sur Hugging Face par alexdimmock le 26 août 2026.",
-    "en": "Model published on Hugging Face by alexdimmock on 26 August 2026."
+    "fr": "Modèle publié sur Hugging Face par alexdimmock le 26 août 2026. Tâche : reconnaissance de la parole.",
+    "en": "Model published on Hugging Face by alexdimmock on 26 August 2026. Task: automatic speech recognition."
    },
    "notice_by": "règles"
   },
@@ -60413,8 +60413,8 @@
    "focus": false,
    "region": "International",
    "description": {
-    "fr": "Dépôt GitHub écrit en JavaScript, créé le 2 octobre 2026 par QingYunA. Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. Thèmes : agent-skill, ai-agent, claude-code, cli, diagram.",
-    "en": "GitHub repository written in JavaScript, created on 2 October 2026 by QingYunA. Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. Topics: agent-skill, ai-agent, claude-code, cli, diagram."
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 2 octobre 2026 par QingYunA. Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. Thèmes : agent-skill, ai-agent, claude-code, claude-code-skill, claude-skill.",
+    "en": "GitHub repository written in JavaScript, created on 2 October 2026 by QingYunA. Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. Topics: agent-skill, ai-agent, claude-code, claude-code-skill, claude-skill."
    },
    "notice_by": "règles"
   },
@@ -61307,8 +61307,8 @@
    "focus": false,
    "region": "International",
    "description": {
-    "fr": "Dépôt GitHub, créé le 1 octobre 2026 par iamathavan. day 1 of nlp",
-    "en": "GitHub repository, created on 1 October 2026 by iamathavan. day 1 of nlp"
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 1 octobre 2026 par iamathavan. day 1 of nlp",
+    "en": "GitHub repository written in Jupyter Notebook, created on 1 October 2026 by iamathavan. day 1 of nlp"
    },
    "notice_by": "règles"
   },
@@ -62178,6 +62178,662 @@
     "en": "Software deposited on Zenodo on 26 February 2024 by Fabian, Thomas. Language(s): eng. License: cc-by-4.0. This project contains the code used in the manuscript Power-law behavior in human gaze ."
    },
    "notice_by": "règles"
+  },
+  "hf:datasets:syvai/multi-bfcl": {
+   "id": "hf:datasets:syvai/multi-bfcl",
+   "nom": "syvai/multi-bfcl",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Ab, Ace, Ady, Af",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/datasets/syvai/multi-bfcl",
+   "added": "2026-10-06",
+   "focus": true,
+   "region": "Aragon",
+   "city": "Aragon",
+   "lat": 42.1362,
+   "lng": -0.4087,
+   "pays": "Aragon",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "an"
+   ],
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par syvai le 6 octobre 2026. Langue(s) : ab, ace, ady, af, alt. MultiBFCL MultiBFCL is a machine-translated, multilingual version of the BFCL-v2 function-calling benchmark.",
+    "en": "Dataset published on Hugging Face by syvai on 6 October 2026. Language(s): ab, ace, ady, af, alt. MultiBFCL MultiBFCL is a machine-translated, multilingual version of the BFCL-v2 function-calling benchmark."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Rviure/ca_ES-ona-high": {
+   "id": "hf:models:Rviure/ca_ES-ona-high",
+   "nom": "Rviure/ca_ES-ona-high",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "cc-by-sa-3.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/Rviure/ca_ES-ona-high",
+   "added": "2026-10-06",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Rviure le 5 octobre 2026. Tâche : synthèse vocale.",
+    "en": "Model published on Hugging Face by Rviure on 5 October 2026. Task: text to speech."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:bjnortier/coreai-whisper-medium-kv-float16": {
+   "id": "hf:models:bjnortier/coreai-whisper-medium-kv-float16",
+   "nom": "bjnortier/coreai-whisper-medium-kv-float16",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/bjnortier/coreai-whisper-medium-kv-float16",
+   "added": "2026-10-06",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par bjnortier le 5 octobre 2026. Tâche : reconnaissance de la parole. Dérivé de openai/whisper-medium.",
+    "en": "Model published on Hugging Face by bjnortier on 5 October 2026. Task: automatic speech recognition. Fine-tuned from openai/whisper-medium."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:bjnortier/coreai-whisper-large-v3-kv-float16": {
+   "id": "hf:models:bjnortier/coreai-whisper-large-v3-kv-float16",
+   "nom": "bjnortier/coreai-whisper-large-v3-kv-float16",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/bjnortier/coreai-whisper-large-v3-kv-float16",
+   "added": "2026-10-06",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par bjnortier le 5 octobre 2026. Tâche : reconnaissance de la parole. Dérivé de openai/whisper-large-v3.",
+    "en": "Model published on Hugging Face by bjnortier on 5 October 2026. Task: automatic speech recognition. Fine-tuned from openai/whisper-large-v3."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:epfml/FineWeb2-HQ-plus-Classifier": {
+   "id": "hf:models:epfml/FineWeb2-HQ-plus-Classifier",
+   "nom": "epfml/FineWeb2-HQ-plus-Classifier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/epfml/FineWeb2-HQ-plus-Classifier",
+   "added": "2026-10-06",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par epfml le 5 octobre 2026.",
+    "en": "Model published on Hugging Face by epfml on 5 October 2026."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:handy-computer/orukeet-gguf": {
+   "id": "hf:models:handy-computer/orukeet-gguf",
+   "nom": "handy-computer/orukeet-gguf",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "cc-by-sa-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/handy-computer/orukeet-gguf",
+   "added": "2026-10-06",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par handy-computer le 6 octobre 2026. Tâche : reconnaissance de la parole. Dérivé de oruk/orukeet.",
+    "en": "Model published on Hugging Face by handy-computer on 6 October 2026. Task: automatic speech recognition. Fine-tuned from oruk/orukeet."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:sakasegawa/parakeet-tdt-0.6b-v3-GGUF": {
+   "id": "hf:models:sakasegawa/parakeet-tdt-0.6b-v3-GGUF",
+   "nom": "sakasegawa/parakeet-tdt-0.6b-v3-GGUF",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/sakasegawa/parakeet-tdt-0.6b-v3-GGUF",
+   "added": "2026-10-06",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par sakasegawa le 5 octobre 2026. Tâche : reconnaissance de la parole. Dérivé de nvidia/parakeet-tdt-0.6b-v3.",
+    "en": "Model published on Hugging Face by sakasegawa on 5 October 2026. Task: automatic speech recognition. Fine-tuned from nvidia/parakeet-tdt-0.6b-v3."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Masterx/parakeet-tdt-0.6b-redux-onnx": {
+   "id": "hf:models:Masterx/parakeet-tdt-0.6b-redux-onnx",
+   "nom": "Masterx/parakeet-tdt-0.6b-redux-onnx",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/Masterx/parakeet-tdt-0.6b-redux-onnx",
+   "added": "2026-10-06",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Masterx le 5 octobre 2026. Tâche : reconnaissance de la parole. Dérivé de moondream/parakeet-redux.",
+    "en": "Model published on Hugging Face by Masterx on 5 October 2026. Task: automatic speech recognition. Fine-tuned from moondream/parakeet-redux."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Masterx/parakeet-tdt-0.6b-ultra-onnx": {
+   "id": "hf:models:Masterx/parakeet-tdt-0.6b-ultra-onnx",
+   "nom": "Masterx/parakeet-tdt-0.6b-ultra-onnx",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/Masterx/parakeet-tdt-0.6b-ultra-onnx",
+   "added": "2026-10-06",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Masterx le 5 octobre 2026. Tâche : reconnaissance de la parole. Dérivé de moondream/parakeet-ultra.",
+    "en": "Model published on Hugging Face by Masterx on 5 October 2026. Task: automatic speech recognition. Fine-tuned from moondream/parakeet-ultra."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:handy-computer/parakeet-ultra-gguf": {
+   "id": "hf:models:handy-computer/parakeet-ultra-gguf",
+   "nom": "handy-computer/parakeet-ultra-gguf",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/handy-computer/parakeet-ultra-gguf",
+   "added": "2026-10-06",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par handy-computer le 5 octobre 2026. Tâche : reconnaissance de la parole. Dérivé de moondream/parakeet-ultra.",
+    "en": "Model published on Hugging Face by handy-computer on 5 October 2026. Task: automatic speech recognition. Fine-tuned from moondream/parakeet-ultra."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:KBayoud/qwen3-asr-tunisian-telephony-augmented": {
+   "id": "hf:models:KBayoud/qwen3-asr-tunisian-telephony-augmented",
+   "nom": "KBayoud/qwen3-asr-tunisian-telephony-augmented",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/KBayoud/qwen3-asr-tunisian-telephony-augmented",
+   "added": "2026-10-06",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par KBayoud le 4 août 2026. Tâche : reconnaissance de la parole. Dérivé de Qwen/Qwen3-ASR-1.7B.",
+    "en": "Model published on Hugging Face by KBayoud on 4 August 2026. Task: automatic speech recognition. Fine-tuned from Qwen/Qwen3-ASR-1.7B."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:datasocial/tiktok-5.6B-videos": {
+   "id": "hf:datasets:datasocial/tiktok-5.6B-videos",
+   "nom": "datasocial/tiktok-5.6B-videos",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "taille": "1B<n<10B",
+   "licence": "cc-by-nc-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/datasocial/tiktok-5.6B-videos",
+   "added": "2026-10-06",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par datasocial le 3 octobre 2026. Taille : 1B<n<10B. TikTok Videos: 5.6 billion 5,597,462,038 public TikTok videos (2014 → Oct 2026): captions, hashtags, sounds, TikTok Shop links and engagement stats.",
+    "en": "Dataset published on Hugging Face by datasocial on 3 October 2026. Size: 1B<n<10B. TikTok Videos: 5.6 billion 5,597,462,038 public TikTok videos (2014 → Oct 2026): captions, hashtags, sounds, TikTok Shop links and engagement stats."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:Salesforce/wikitext": {
+   "id": "hf:datasets:Salesforce/wikitext",
+   "nom": "Salesforce/wikitext",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Anglais",
+   "taille": "1M<n<10M",
+   "licence": "cc-by-sa-3.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/Salesforce/wikitext",
+   "added": "2026-10-06",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par Salesforce le 2 mars 2022. Langue(s) : anglais. Tâche : génération de texte. Taille : 1M<n<10M. Dataset Summary The WikiText language modeling dataset is a collection of over 100 million tokens extracted from the set of verified Good and Featured articles on Wikipedia.",
+    "en": "Dataset published on Hugging Face by Salesforce on 2 March 2022. Language(s): English. Task: text generation. Size: 1M<n<10M. Dataset Summary The WikiText language modeling dataset is a collection of over 100 million tokens extracted from the set of verified Good and Featured articles on Wikipedia."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:Vyber07/cyber-security": {
+   "id": "hf:datasets:Vyber07/cyber-security",
+   "nom": "Vyber07/cyber-security",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Anglais",
+   "taille": "n<1K",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/Vyber07/cyber-security",
+   "added": "2026-10-06",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par Vyber07 le 30 mai 2026. Langue(s) : anglais. Tâche : génération de texte. Taille : n<1K. Cybersecurity AI Knowledge Base — PhD-Level Dataset Overview This is the most comprehensive cybersecurity knowledge base ever assembled for AI training.",
+    "en": "Dataset published on Hugging Face by Vyber07 on 30 May 2026. Language(s): English. Task: text generation. Size: n<1K. Cybersecurity AI Knowledge Base — PhD-Level Dataset Overview This is the most comprehensive cybersecurity knowledge base ever assembled for AI training."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:HuggingFaceFW/fineweb": {
+   "id": "hf:datasets:HuggingFaceFW/fineweb",
+   "nom": "HuggingFaceFW/fineweb",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Anglais",
+   "taille": "10B<n<100B",
+   "licence": "odc-by",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/datasets/HuggingFaceFW/fineweb",
+   "added": "2026-10-06",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par HuggingFaceFW le 18 avril 2024. Langue(s) : anglais. Tâche : génération de texte. Taille : 10B<n<100B. 🍷 FineWeb 15 trillion tokens of the finest data the 🌐 web has to offer What is it?",
+    "en": "Dataset published on Hugging Face by HuggingFaceFW on 18 April 2024. Language(s): English. Task: text generation. Size: 10B<n<100B. 🍷 FineWeb 15 trillion tokens of the finest data the 🌐 web has to offer What is it?"
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:mlfoundations/MINT-1T-HTML": {
+   "id": "hf:datasets:mlfoundations/MINT-1T-HTML",
+   "nom": "mlfoundations/MINT-1T-HTML",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Anglais",
+   "taille": "100M<n<1B",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/mlfoundations/MINT-1T-HTML",
+   "added": "2026-10-06",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par mlfoundations le 21 juillet 2024. Langue(s) : anglais. Tâche : OCR / image vers texte. Taille : 100M<n<1B. 🍃 MINT-1T:Scaling Open-Source Multimodal Data by 10x: A Multimodal Dataset with One Trillion Tokens 🍃 MINT-1T is an open-source Multimodal INTerleaved dataset with 1 trillion text tokens and 3.4 billion images, a 10x…",
+    "en": "Dataset published on Hugging Face by mlfoundations on 21 July 2024. Language(s): English. Task: image to text. Size: 100M<n<1B. 🍃 MINT-1T:Scaling Open-Source Multimodal Data by 10x: A Multimodal Dataset with One Trillion Tokens 🍃 MINT-1T is an open-source Multimodal INTerleaved dataset with 1 trillion text tokens and 3.4 billion images, a 10x…"
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Cactus-Compute/whistle": {
+   "id": "hf:models:Cactus-Compute/whistle",
+   "nom": "Cactus-Compute/whistle",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/Cactus-Compute/whistle",
+   "added": "2026-10-06",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Cactus-Compute le 30 septembre 2026. Tâche : reconnaissance de la parole.",
+    "en": "Model published on Hugging Face by Cactus-Compute on 30 September 2026. Task: automatic speech recognition."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:21649244": {
+   "id": "zenodo:21649244",
+   "nom": "ULE Framework Scoring Dataset: Istanbul and New York City",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23185238",
+   "added": "2026-10-06",
+   "focus": false,
+   "region": "Istanbul Metropolitan Municipality",
+   "city": "Istanbul Büyükşehir Belediyesi",
+   "lat": 41.0135,
+   "lng": 28.9553,
+   "pays": "Istanbul Metropolitan Municipality",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 6 octobre 2026 par Çelik Yılmaz, Özge. Langue(s) : eng. Licence : cc-by-4.0. Version 3 corrects one source attribution and changes nothing else.",
+    "en": "Dataset deposited on Zenodo on 6 October 2026 by Çelik Yılmaz, Özge. Language(s): eng. License: cc-by-4.0. Version 3 corrects one source attribution and changes nothing else."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:21832116": {
+   "id": "zenodo:21832116",
+   "nom": "Thai SDG-labelled Text Corpus (v1.2)",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Tha",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23182478",
+   "added": "2026-10-06",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 6 octobre 2026 par Chadarattanathiti, Purim, Jantakat, Yaowaret, Janruang, Jongkol. Langue(s) : tha. Licence : cc-by-4.0. Thai SDG-labelled Text Corpus (v1.2) The Thai SDG-labelled Text Corpus is a publicly available dataset for Sustainable Development Goal (SDG) text classification in Thai.",
+    "en": "Dataset deposited on Zenodo on 6 October 2026 by Chadarattanathiti, Purim, Jantakat, Yaowaret, Janruang, Jongkol. Language(s): tha. License: cc-by-4.0. Thai SDG-labelled Text Corpus (v1.2) The Thai SDG-labelled Text Corpus is a publicly available dataset for Sustainable Development Goal (SDG) text classification in Thai."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23164718": {
+   "id": "zenodo:23164718",
+   "nom": "ПИСЬМЕННАЯ СИСТЕМА РУССКОГО И АМЕРИКАНСКОГО ЖЕСТОВОГО ЯЗЫКА: НОТИФИКАЦИЯ ЖЕСТОВ НА ПИСЬМЕ",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Rus",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23164719",
+   "added": "2026-10-06",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 5 octobre 2026 par Каримбеков Самат Ахатович. Langue(s) : rus. Licence : cc-by-4.0. В статье рассматривается проблема письменной фиксации русского жестового языка (РЖЯ) и американского жестового языка (American Sign Language, ASL) с позиций современной лингвистики, теории письменности и исследований…",
+    "en": "Dataset deposited on Zenodo on 5 October 2026 by Каримбеков Самат Ахатович. Language(s): rus. License: cc-by-4.0. В статье рассматривается проблема письменной фиксации русского жестового языка (РЖЯ) и американского жестового языка (American Sign Language, ASL) с позиций современной лингвистики, теории письменности и исследований…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23182142": {
+   "id": "zenodo:23182142",
+   "nom": "CXRQuant: Finding-Level Stability Auditing of Reduced-Precision Inference for Radiology Impression Generation",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "langue": "Eng",
+   "licence": "mit-license",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23182144",
+   "added": "2026-10-06",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 6 octobre 2026 par Zeniarja, Junta, Shidik, Guruh Fajar, Suhartanto, Heru. Langue(s) : eng. Licence : mit-license. CXRQuant is a paired audit that re-executes one trained source checkpoint of a radiology report generator under FP32, FP16, BitsAndBytes INT8 and NF4 and reports lexical similarity, FP32-relative finding stability…",
+    "en": "Software deposited on Zenodo on 6 October 2026 by Zeniarja, Junta, Shidik, Guruh Fajar, Suhartanto, Heru. Language(s): eng. License: mit-license. CXRQuant is a paired audit that re-executes one trained source checkpoint of a radiology report generator under FP32, FP16, BitsAndBytes INT8 and NF4 and reports lexical similarity, FP32-relative finding stability…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23176494": {
+   "id": "zenodo:23176494",
+   "nom": "MALWIN checkpoints: MALWIN-Qwen2.5-3B (x86, x64, arm, mips)",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "langue": "Eng",
+   "licence": "other-nc",
+   "licence_class": "unknown",
+   "lien": "https://zenodo.org/records/23176495",
+   "added": "2026-10-06",
+   "focus": false,
+   "region": "Auburn University",
+   "city": "Auburn University",
+   "lat": 32.592,
+   "lng": -85.496,
+   "pays": "Auburn University",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 6 octobre 2026 par Tran, Nghi V. N.. Langue(s) : eng. Licence : other-nc. Model checkpoints released with the ACSAC 2026 paper R+R: Revisiting LLM-Based Binary Name Recovery for Real-World Malware Analysis .",
+    "en": "Software deposited on Zenodo on 6 October 2026 by Tran, Nghi V. N.. Language(s): eng. License: other-nc. Model checkpoints released with the ACSAC 2026 paper R+R: Revisiting LLM-Based Binary Name Recovery for Real-World Malware Analysis ."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23176151": {
+   "id": "zenodo:23176151",
+   "nom": "MALWIN checkpoints: MALWIN-CodeGemma-2B (x86, x64, arm, mips) and Repl-Ghidra",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "langue": "Eng",
+   "licence": "other-closed",
+   "licence_class": "unknown",
+   "lien": "https://zenodo.org/records/23176152",
+   "added": "2026-10-06",
+   "focus": false,
+   "region": "Auburn University",
+   "city": "Auburn University",
+   "lat": 32.592,
+   "lng": -85.496,
+   "pays": "Auburn University",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 6 octobre 2026 par Tran, Nghi V. N.. Langue(s) : eng. Licence : other-closed. Model checkpoints released with the ACSAC 2026 paper R+R: Revisiting LLM-Based Binary Name Recovery for Real-World Malware Analysis .",
+    "en": "Software deposited on Zenodo on 6 October 2026 by Tran, Nghi V. N.. Language(s): eng. License: other-closed. Model checkpoints released with the ACSAC 2026 paper R+R: Revisiting LLM-Based Binary Name Recovery for Real-World Malware Analysis ."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23168558": {
+   "id": "zenodo:23168558",
+   "nom": "what-a-sub-agent-does: data, run records, checkers and harness for a study of hierarchical visibility in multi-agent delegation",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23168559",
+   "added": "2026-10-06",
+   "focus": false,
+   "region": "University of Southern California",
+   "city": "University of Southern California",
+   "lat": 34.0219,
+   "lng": -118.2859,
+   "pays": "University of Southern California",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 5 octobre 2026 par Lohan, Arjun. Langue(s) : eng. Licence : cc-by-4.0. The complete experimental material behind the study of how much of the supervising hierarchy a delegated worker agent should see, and what it does when it sees it (preprint: https://doi.org/10.5281/zenodo.22433898).",
+    "en": "Software deposited on Zenodo on 5 October 2026 by Lohan, Arjun. Language(s): eng. License: cc-by-4.0. The complete experimental material behind the study of how much of the supervising hierarchy a delegated worker agent should see, and what it does when it sees it (preprint: https://doi.org/10.5281/zenodo.22433898)."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:21806223": {
+   "id": "zenodo:21806223",
+   "nom": "IWAC Sentiment Analysis Visualization",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "mit-license",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23164331",
+   "added": "2026-10-06",
+   "focus": false,
+   "region": "University of Bayreuth",
+   "city": "Université de Bayreuth",
+   "lat": 49.9271,
+   "lng": 11.5872,
+   "pays": "University of Bayreuth",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 5 octobre 2026 par Madore, Frédérick. Licence : mit-license. Interactive SvelteKit dashboard for exploring large language model sentiment annotations of the Islam West Africa Collection (IWAC), a corpus of 12,349 francophone West African press articles from 57 newspapers,…",
+    "en": "Software deposited on Zenodo on 5 October 2026 by Madore, Frédérick. License: mit-license. Interactive SvelteKit dashboard for exploring large language model sentiment annotations of the Islam West Africa Collection (IWAC), a corpus of 12,349 francophone West African press articles from 57 newspapers,…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:22998904": {
+   "id": "zenodo:22998904",
+   "nom": "NIMA-Semantica",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "mit-license",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23162337",
+   "added": "2026-10-06",
+   "focus": false,
+   "region": "University of Regensburg",
+   "city": "Ostbayerische Technische Hochschule Regensburg",
+   "lat": 49.0031,
+   "lng": 12.0963,
+   "pays": "University of Regensburg",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 5 octobre 2026 par Rigo, Jonas. Licence : mit-license. NIMA-Semantica is a foundation for auditable scientific investigations with language models and coding-agent harnesses.",
+    "en": "Software deposited on Zenodo on 5 October 2026 by Rigo, Jonas. License: mit-license. NIMA-Semantica is a foundation for auditable scientific investigations with language models and coding-agent harnesses."
+   },
+   "notice_by": "règles"
+  },
+  "wikicfp:203590": {
+   "id": "wikicfp:203590",
+   "nom": "PLN 78 2027 : issue 78 - Journal of Procesamiento del Lenguaje Natural",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "wikicfp",
+   "kind": "special_issue",
+   "categorie_key": "cat_Journal",
+   "type": "Numéro spécial de revue",
+   "licence_class": "unknown",
+   "lien": "https://www.sepln.org/en/journal/author-guidelines",
+   "added": "2026-10-06",
+   "focus": false,
+   "region": "International",
+   "event": {
+    "paper_deadline": "2026-11-16",
+    "notification": "2027-01-27",
+    "camera_ready": "2027-02-08",
+    "website": "https://www.sepln.org/en/journal/author-guidelines",
+    "categories": [
+     "NLP",
+     "artificial intelligence",
+     "computational linguistics"
+    ],
+    "deadline_sources": {
+     "paper_deadline": "texte de l'appel"
+    },
+    "location": "Online"
+   },
+   "cfp_url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203590",
+   "description": {
+    "fr": "Appel à contributions pour un numéro spécial : « issue 78 - Journal of Procesamiento del Lenguaje Natural ». Date limite de soumission des articles : 16 novembre 2026. Notification aux auteurs : 27 janvier 2027. Thématiques : NLP, artificial intelligence, computational linguistics.",
+    "en": "Call for papers for a special issue: “issue 78 - Journal of Procesamiento del Lenguaje Natural”. Paper submission deadline: 16 November 2026. Author notification: 27 January 2027. Topics: NLP, artificial intelligence, computational linguistics."
+   },
+   "notice_by": "règles",
+   "deadline_next": "2026-11-16"
   }
  },
  "journals": {
@@ -62393,10 +63049,43 @@
     "en": "Machine Learning is a peer-reviewed journal published by Springer. Scope: ML, dont modeles de langage. Hybrid model: optional open access (APC). Regular submissions are open year-round; only special issues have deadlines."
    },
    "notice_by": "règles",
-   "special_issues": [],
+   "special_issues": [
+    {
+     "title": "Machine Learning and Applications: An International Journal",
+     "deadline": "2026-10-11",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199941"
+    },
+    {
+     "title": "3rd International Conference on AI, Machine Learning and Data Science",
+     "deadline": "2026-10-11",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=191480"
+    },
+    {
+     "title": "4th International Conference on Machine Learning and IoT",
+     "deadline": "2026-10-13",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=191990"
+    }
+   ],
    "submission": "continuous",
-   "next_deadline": null,
-   "search_issues": []
+   "next_deadline": "2026-10-11",
+   "search_issues": [
+    {
+     "title": "Machine Learning and Applications: An International Journal",
+     "deadline": "2026-10-11",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199941"
+    },
+    {
+     "title": "3rd International Conference on AI, Machine Learning and Data Science",
+     "deadline": "2026-10-11",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=191480"
+    },
+    {
+     "title": "4th International Conference on Machine Learning and IoT",
+     "deadline": "2026-10-13",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=191990"
+    }
+   ],
+   "searched": "2026-10-06"
   },
   "res-98056e235e": {
    "notice": {
@@ -62407,7 +63096,8 @@
    "special_issues": [],
    "submission": "continuous",
    "next_deadline": null,
-   "search_issues": []
+   "search_issues": [],
+   "searched": "2026-10-06"
   },
   "res-5f75973c87": {
    "notice": {
@@ -62418,7 +63108,8 @@
    "special_issues": [],
    "submission": "continuous",
    "next_deadline": null,
-   "search_issues": []
+   "search_issues": [],
+   "searched": "2026-10-06"
   },
   "res-45d0bbecc7": {
    "notice": {
@@ -62429,7 +63120,8 @@
    "special_issues": [],
    "submission": "continuous",
    "next_deadline": null,
-   "search_issues": []
+   "search_issues": [],
+   "searched": "2026-10-06"
   }
  },
  "duplicates": {

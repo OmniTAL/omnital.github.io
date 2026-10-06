@@ -52,6 +52,11 @@
   "lng": -84.3898,
   "label": "Atlanta"
  },
+ "auburn university": {
+  "lat": 32.592,
+  "lng": -85.496,
+  "label": "Auburn University"
+ },
  "avignon": {
   "lat": 43.9492,
   "lng": 4.8059,
@@ -251,6 +256,7 @@
  "department of civil and environmental engineering, universitat politècnica de catalunya (upc), barcelona, spain": null,
  "department of display materials engineering, soonchunhyang university": null,
  "department of ecology, faculty of science, charles university, prague, czechia; institute of microbiology of the czech academy of sciences, prague, czechia": null,
+ "department of information and communication technology, faculty of science and liberal arts, rajamangala university of technology isan, thailand": null,
  "department of zoology, university of granada, granada, spain": null,
  "des moines, ia": {
   "lat": 41.5869,
@@ -638,12 +644,16 @@
   "fullname": "BigLAM: BigScience Libraries, Archives and Museums"
  },
  "hf:birgermoell": null,
+ "hf:bjnortier": null,
  "hf:bltlab": {
   "fullname": "Broadening Linguistic Technologies Lab (BLT Lab)"
  },
  "hf:bramvanroy": null,
  "hf:bretagne": {
   "fullname": "Bretagne"
+ },
+ "hf:cactus-compute": {
+  "fullname": "Cactus Compute, Inc."
  },
  "hf:caoyuji": null,
  "hf:cis-lmu": {
@@ -653,6 +663,7 @@
  "hf:coml": {
   "fullname": "Cognitive Machine Learning | @ENS"
  },
+ "hf:datasocial": null,
  "hf:datoric": {
   "fullname": "Datoric"
  },
@@ -665,10 +676,16 @@
  "hf:eeahugs": {
   "fullname": "European Environment Agency"
  },
+ "hf:epfml": {
+  "fullname": "EPFL Machine Learning and Optimization Laboratory"
+ },
  "hf:espnet": {
   "fullname": "ESPnet"
  },
  "hf:gtak1": null,
+ "hf:handy-computer": {
+  "fullname": "Handy"
+ },
  "hf:hashimaliii": null,
  "hf:helsinki-nlp": {
   "fullname": "Helsinki-NLP Research Group"
@@ -693,13 +710,18 @@
  "hf:janavivekariya": null,
  "hf:jaydo88": null,
  "hf:jialinyyzz": null,
+ "hf:kbayoud": null,
  "hf:kefranabg": null,
  "hf:lbourdois": null,
  "hf:leggedrobotics": {
   "fullname": "Robotic Systems Lab - ETH Zürich"
  },
  "hf:lgi2p": null,
+ "hf:masterx": null,
  "hf:menoviar28": null,
+ "hf:mlfoundations": {
+  "fullname": "ML Foundations"
+ },
  "hf:msmth": null,
  "hf:nailyk14": null,
  "hf:nassimjp": null,
@@ -735,6 +757,10 @@
  "hf:qrzysztof": null,
  "hf:reubencf": null,
  "hf:ruggsea": null,
+ "hf:sakasegawa": null,
+ "hf:salesforce": {
+  "fullname": "Salesforce AI Research"
+ },
  "hf:seamon67": null,
  "hf:spazziep456": null,
  "hf:sundram1996": null,
@@ -748,6 +774,7 @@
   "fullname": "TiWu Lab"
  },
  "hf:vansh62": null,
+ "hf:vyber07": null,
  "hf:wannaphong": null,
  "hf:wikimedia": {
   "fullname": "Wikimedia"
@@ -769,6 +796,11 @@
   "label": "Institut Polytechnique de Paris"
  },
  "institute of mathematics, statistics and computer science, university of são paulo": null,
+ "istanbul metropolitan municipality": {
+  "lat": 41.0135,
+  "lng": 28.9553,
+  "label": "Istanbul Büyükşehir Belediyesi"
+ },
  "japan": {
   "lat": 36.5748,
   "lng": 139.2394,
@@ -1046,6 +1078,7 @@
   "lng": 153.065,
   "label": "Griffith University Mount Gravatt Campus (Queensland Institute of Business and Technology)"
  },
+ "research center for intelligent distributed surveillance and security, universitas dian nuswantoro, indonesia; faculty of computer science, universitas dian nuswantoro, semarang, indonesia": null,
  "rovereto": {
   "lat": 45.8865,
   "lng": 11.0452,
@@ -1267,6 +1300,11 @@
   "lng": -6.2246,
   "label": "University College Dublin (Belfield Campus)"
  },
+ "university of bayreuth": {
+  "lat": 49.9271,
+  "lng": 11.5872,
+  "label": "Université de Bayreuth"
+ },
  "university of catania": null,
  "university of cyprus": {
   "lat": 35.1439,
@@ -1277,6 +1315,16 @@
   "lat": 47.69,
   "lng": 9.1883,
   "label": "Université de Constance"
+ },
+ "university of regensburg": {
+  "lat": 49.0031,
+  "lng": 12.0963,
+  "label": "Ostbayerische Technische Hochschule Regensburg"
+ },
+ "university of southern california": {
+  "lat": 34.0219,
+  "lng": -118.2859,
+  "label": "University of Southern California"
  },
  "university of the basque country": {
   "lat": 43.3092,
@@ -1639,11 +1687,13 @@
   "geo_source": "Wikidata · Bretagne"
  },
  "wdn:broadening linguistic technologies lab blt lab": null,
+ "wdn:cactus compute inc": null,
  "wdn:chair of data science university of passau": null,
  "wdn:cis lmu munich": null,
  "wdn:cognitive machine learning ens": null,
  "wdn:datoric": null,
  "wdn:docling": null,
+ "wdn:epfl machine learning and optimization laboratory": null,
  "wdn:espnet": null,
  "wdn:european environment agency": {
   "lat": 55.6812,
@@ -1653,6 +1703,7 @@
   "geo_source": "Wikidata · Agence européenne pour l'environnement"
  },
  "wdn:finedata": null,
+ "wdn:handy": null,
  "wdn:helsinki nlp research group": null,
  "wdn:hitz zentroa": {
   "lat": 43.3071,
@@ -1663,6 +1714,7 @@
  },
  "wdn:hplt": null,
  "wdn:ikala": null,
+ "wdn:ml foundations": null,
  "wdn:openai": {
   "lat": 37.775,
   "lng": -122.4194,
@@ -1683,6 +1735,7 @@
  },
  "wdn:pyannote": null,
  "wdn:robotic systems lab eth z rich": null,
+ "wdn:salesforce ai research": null,
  "wdn:tigre g tico lda": null,
  "wdn:tiwu lab": null,
  "wdn:wikimedia": null,
@@ -1697,6 +1750,7 @@
   "lng": 8.541,
   "label": "Zurich"
  },
+ "доцент, ташкентский государственный медицинский университет": null,
  "北京市海淀区": {
   "lat": 39.9581,
   "lng": 116.2924,
