@@ -99,6 +99,16 @@
   "lng": 9.7542,
   "label": "Bergame"
  },
+ "berger levrault": {
+  "lat": 48.8534,
+  "lng": 2.2813,
+  "label": "Berger-Levrault"
+ },
+ "berlin": {
+  "lat": 52.5174,
+  "lng": 13.3951,
+  "label": "Berlin"
+ },
  "besançon, université marie et louis pasteur": {
   "lat": 47.2483,
   "lng": 5.9894,
@@ -129,6 +139,11 @@
   "lng": 19.1449,
   "label": "Budapest"
  },
+ "california state university, fresno": {
+  "lat": 36.821,
+  "lng": -119.7373,
+  "label": "California State University, Fresno"
+ },
  "cambridge, united kingdom": {
   "lat": 52.1976,
   "lng": 0.1392,
@@ -157,6 +172,11 @@
   "lng": -94.3357,
   "label": "China"
  },
+ "chinese university of hong kong": {
+  "lat": 22.4141,
+  "lng": 114.21,
+  "label": "香港中文大學 Chinese University of Hong Kong"
+ },
  "climate service center germany (gerics), helmholtz-zentrum hereon, fischertwiete 1, 20095 hamburg, germany": null,
  "concordia university": {
   "lat": 45.4583,
@@ -177,6 +197,11 @@
   "lat": -10.3333,
   "lng": -53.2,
   "label": "Brésil"
+ },
+ "country:ca": {
+  "lat": 61.0667,
+  "lng": -107.9917,
+  "label": "Canada"
  },
  "country:ch": {
   "lat": 46.7986,
@@ -233,6 +258,7 @@
   "lng": 42.3528,
   "label": "Arabie saoudite"
  },
+ "critical path institute": null,
  "cy cergy paris université": {
   "lat": 49.0394,
   "lng": 2.0756,
@@ -296,7 +322,19 @@
   "lng": -118.4156,
   "label": "El Segundo"
  },
+ "english language teacher at the middle school №28 in the republic of uzbekistan, tashkent": null,
  "european commission, joint research centre, ispra, italy": null,
+ "faculty of economics and business administration": {
+  "lat": 42.8875,
+  "lng": -8.5441,
+  "label": "Facultade de Ciencias Económicas e Empresariais"
+ },
+ "formation continue unil-epfl": null,
+ "fudan university": {
+  "lat": 31.3012,
+  "lng": 121.4975,
+  "label": "复旦大学"
+ },
  "fukuoka, japan": {
   "lat": 33.6251,
   "lng": 130.618,
@@ -504,6 +542,10 @@
   "location": null,
   "name": "Xiao Li"
  },
+ "gh:qybaihe": {
+  "location": null,
+  "name": "qybaihe"
+ },
  "gh:rancychepchirchir": {
   "location": "Sheffield, UK",
   "name": "Rancy Chepchirchir"
@@ -544,6 +586,10 @@
   "location": null,
   "name": "tranvanviet27"
  },
+ "gh:tudoumashu": {
+  "location": null,
+  "name": "tudoumashu"
+ },
  "gh:undefined-ui": {
   "location": null,
   "name": "Yaroslav (Yarchi) Rudenko"
@@ -551,6 +597,10 @@
  "gh:v-modal": {
   "location": "Japan",
   "name": "V-Modal AI - Visual Memory Layer: Find, recall from from your visual content: Mobile, Smart Glasses, Physical AI "
+ },
+ "gh:vornex-01": {
+  "location": null,
+  "name": "VORNEX-01"
  },
  "gh:walsher46": {
   "location": null,
@@ -640,6 +690,7 @@
  "hf:autotrust": {
   "fullname": "AutoTrust AI Lab"
  },
+ "hf:beshkenadze": null,
  "hf:biglam": {
   "fullname": "BigLAM: BigScience Libraries, Archives and Museums"
  },
@@ -652,9 +703,11 @@
  "hf:bretagne": {
   "fullname": "Bretagne"
  },
+ "hf:btb01": null,
  "hf:cactus-compute": {
   "fullname": "Cactus Compute, Inc."
  },
+ "hf:canberkkkkkk": null,
  "hf:caoyuji": null,
  "hf:cis-lmu": {
   "fullname": "CIS, LMU Munich"
@@ -681,6 +734,13 @@
  },
  "hf:espnet": {
   "fullname": "ESPnet"
+ },
+ "hf:gahabeen": null,
+ "hf:gaia-benchmark": {
+  "fullname": "GAIA"
+ },
+ "hf:google": {
+  "fullname": "Google"
  },
  "hf:gtak1": null,
  "hf:handy-computer": {
@@ -723,14 +783,26 @@
   "fullname": "ML Foundations"
  },
  "hf:msmth": null,
+ "hf:mythologic": {
+  "fullname": "Mythologic"
+ },
  "hf:nailyk14": null,
  "hf:nassimjp": null,
  "hf:ncannings": null,
  "hf:nithishvenkat4": null,
  "hf:noeflandre": null,
+ "hf:nyu-mll": {
+  "fullname": "NYU Machine Learning for Language"
+ },
+ "hf:olaverse": {
+  "fullname": "Olaverse Lab"
+ },
  "hf:omarkamali": null,
  "hf:open-index": {
   "fullname": "OpenIndex"
+ },
+ "hf:open-thoughts": {
+  "fullname": "OpenThoughts"
  },
  "hf:openai": {
   "fullname": "OpenAI"
@@ -761,10 +833,15 @@
  "hf:salesforce": {
   "fullname": "Salesforce AI Research"
  },
+ "hf:sargedev": null,
  "hf:seamon67": null,
  "hf:spazziep456": null,
+ "hf:stefancosma": null,
  "hf:sundram1996": null,
  "hf:svngoku": null,
+ "hf:teltek": {
+  "fullname": "Teltek Video Research S.L."
+ },
  "hf:theafricatechguy": null,
  "hf:tian77hh": null,
  "hf:tigregotico": {
@@ -772,6 +849,9 @@
  },
  "hf:tiwu-lab": {
   "fullname": "TiWu Lab"
+ },
+ "hf:unsloth": {
+  "fullname": "Unsloth AI"
  },
  "hf:vansh62": null,
  "hf:vyber07": null,
@@ -788,6 +868,11 @@
   "lng": 142.8198,
   "label": "Préfecture de Hokkaidō"
  },
+ "humboldt-universität zu berlin": {
+  "lat": 52.5183,
+  "lng": 13.3929,
+  "label": "Humboldt-Universität zu Berlin"
+ },
  "ikerbasque": null,
  "independent researcher": null,
  "institut polytechnique de paris": {
@@ -796,6 +881,11 @@
   "label": "Institut Polytechnique de Paris"
  },
  "institute of mathematics, statistics and computer science, university of são paulo": null,
+ "international institute for applied systems analysis, laxenburg, laxenburg, austria": {
+  "lat": 48.0683,
+  "lng": 16.3582,
+  "label": "IIASA"
+ },
  "istanbul metropolitan municipality": {
   "lat": 41.0135,
   "lng": 28.9553,
@@ -900,6 +990,11 @@
   "lng": -72.0324,
   "label": "Massachusetts"
  },
+ "mcgill university": {
+  "lat": 45.4318,
+  "lng": -73.9453,
+  "label": "Université McGill"
+ },
  "melbourne": {
   "lat": -37.8142,
   "lng": 144.9632,
@@ -963,6 +1058,7 @@
   "lng": -74.006,
   "label": "New York"
  },
+ "nicolae bălcescu land forces academy": null,
  "normandie": {
   "lat": 49.0678,
   "lng": 0.3139,
@@ -1159,6 +1255,7 @@
   "lng": -1.4702,
   "label": "Sheffield"
  },
+ "shenyang institute of computing technology, chinese academy of sciences, shenyang, china": null,
  "shenzhen": {
   "lat": 22.5446,
   "lng": 114.0545,
@@ -1230,6 +1327,11 @@
   "label": "Texas A&M University"
  },
  "the solution stack": null,
+ "tilburg university": {
+  "lat": 51.5631,
+  "lng": 5.0436,
+  "label": "Tilburg University"
+ },
  "tokenmaxxing": null,
  "toronto, canada": {
   "lat": 43.6535,
@@ -1259,6 +1361,11 @@
   "lng": -3.2766,
   "label": "Royaume-Uni"
  },
+ "universidad de sevilla": {
+  "lat": 6.2694,
+  "lng": -75.5658,
+  "label": "Universidad"
+ },
  "universidad de zaragoza": {
   "lat": 42.5686,
   "lng": -0.5542,
@@ -1270,6 +1377,11 @@
   "label": "Universidad del Alba"
  },
  "universidade estadual de campinas (unicamp)": null,
+ "universidade estadual paulista (unesp)": {
+  "lat": -22.3477,
+  "lng": -49.0302,
+  "label": "Universidade Estadual Paulista - Unesp"
+ },
  "universidade federal de santa maria": {
   "lat": -29.7232,
   "lng": -53.7204,
@@ -1300,6 +1412,11 @@
   "lng": -6.2246,
   "label": "University College Dublin (Belfield Campus)"
  },
+ "university of bath": {
+  "lat": 51.3767,
+  "lng": -2.3234,
+  "label": "University of Bath"
+ },
  "university of bayreuth": {
   "lat": 49.9271,
   "lng": 11.5872,
@@ -1311,10 +1428,25 @@
   "lng": 33.4139,
   "label": "Πανεπιστήμιο Κύπρου"
  },
+ "university of essex": {
+  "lat": 51.8774,
+  "lng": 0.9499,
+  "label": "University of Essex"
+ },
  "university of konstanz": {
   "lat": 47.69,
   "lng": 9.1883,
   "label": "Université de Constance"
+ },
+ "university of massachusetts amherst": {
+  "lat": 42.3893,
+  "lng": -72.5284,
+  "label": "University of Massachusetts Amherst"
+ },
+ "university of oxford": {
+  "lat": 33.6505,
+  "lng": -117.8271,
+  "label": "Oxford"
  },
  "university of regensburg": {
   "lat": 49.0031,
@@ -1703,6 +1835,14 @@
   "geo_source": "Wikidata · Agence européenne pour l'environnement"
  },
  "wdn:finedata": null,
+ "wdn:gaia": null,
+ "wdn:google": {
+  "lat": 37.4221,
+  "lng": -122.0844,
+  "city": "Googleplex",
+  "region": "États-Unis",
+  "geo_source": "Wikidata · Google"
+ },
  "wdn:handy": null,
  "wdn:helsinki nlp research group": null,
  "wdn:hitz zentroa": {
@@ -1715,6 +1855,9 @@
  "wdn:hplt": null,
  "wdn:ikala": null,
  "wdn:ml foundations": null,
+ "wdn:mythologic": null,
+ "wdn:nyu machine learning for language": null,
+ "wdn:olaverse lab": null,
  "wdn:openai": {
   "lat": 37.775,
   "lng": -122.4194,
@@ -1724,6 +1867,7 @@
  },
  "wdn:openeurollm": null,
  "wdn:openindex": null,
+ "wdn:openthoughts": null,
  "wdn:orcarouter": null,
  "wdn:peacockery studio": null,
  "wdn:pleias": {
@@ -1736,10 +1880,13 @@
  "wdn:pyannote": null,
  "wdn:robotic systems lab eth z rich": null,
  "wdn:salesforce ai research": null,
+ "wdn:teltek video research s l": null,
  "wdn:tigre g tico lda": null,
  "wdn:tiwu lab": null,
+ "wdn:unsloth ai": null,
  "wdn:wikimedia": null,
  "wdn:world cuisines": null,
+ "worldly knowledge publishing centre": null,
  "xi'an, china": {
   "lat": 34.261,
   "lng": 108.9423,
