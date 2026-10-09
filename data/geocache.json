@@ -29,6 +29,7 @@
   "lng": 5.3786,
   "label": "Aix-Marseille Université - Campus de Saint-Charles"
  },
+ "alfraganus universiteti xorijiy tillar kafedrasi o'qituvchisi": null,
  "alfred wegener institute, helmholtz centre for polar and marine research": null,
  "alicante, spain": {
   "lat": 38.3436,
@@ -52,6 +53,7 @@
   "lng": -122.1884,
   "label": "Artois"
  },
+ "assistant lecturer, department of german language and literature,  karakalpak state university, uzbekistan.": null,
  "athens, greece": {
   "lat": 37.9756,
   "lng": 23.7348,
@@ -176,6 +178,11 @@
  },
  "center for electric mobility research (cemobe) / power electronics laboratories (lepo), university of campinas (unicamp)": null,
  "center for genomics and systems biology, new york university abu dhabi": null,
+ "central china normal university": {
+  "lat": 30.5204,
+  "lng": 114.3563,
+  "label": "华中师范大学"
+ },
  "centre for synthetic biology (csb)": null,
  "chalmers university of technology": {
   "lat": 57.6897,
@@ -289,6 +296,7 @@
   "lng": 2.0756,
   "label": "CY Cergy Paris Université - Les Chênes"
  },
+ "daegu gyeongbuk institute of science and technology": null,
  "dalian university of technology": {
   "lat": 38.8813,
   "lng": 121.5202,
@@ -304,6 +312,7 @@
   "lng": -72.2942,
   "label": "Dartmouth College"
  },
+ "deggendorf institute of technology": null,
  "denver, co": {
   "lat": 39.7392,
   "lng": -104.9849,
@@ -494,6 +503,10 @@
   "location": null,
   "name": "lordaashishh"
  },
+ "gh:losalossantos": {
+  "location": null,
+  "name": "Loris"
+ },
  "gh:mallahyari": {
   "location": "Atlanta",
   "name": "Mehdi Allahyari"
@@ -542,6 +555,10 @@
   "location": "Singapore",
   "name": "OmniJev"
  },
+ "gh:opennookorg": {
+  "location": null,
+  "name": "opennook"
+ },
  "gh:opentuwa": {
   "location": null,
   "name": "opentuwa"
@@ -585,6 +602,10 @@
  "gh:ronadin2002": {
   "location": null,
   "name": "ronadin2002"
+ },
+ "gh:ronitgupta138": {
+  "location": "India",
+  "name": "Ronit Gupta"
  },
  "gh:ruc-datalab": {
   "location": null,
@@ -844,12 +865,18 @@
   "fullname": "CLARIN-PL"
  },
  "hf:clarusc64": null,
+ "hf:cohearo": {
+  "fullname": "Cohearo"
+ },
  "hf:coherelabs": {
   "fullname": "Cohere Labs"
  },
  "hf:cointegrated": null,
  "hf:coml": {
   "fullname": "Cognitive Machine Learning | @ENS"
+ },
+ "hf:conwayresearch": {
+  "fullname": "Conway"
  },
  "hf:crossroderick": null,
  "hf:csilit": null,
@@ -881,12 +908,16 @@
  "hf:dgurgurov": null,
  "hf:difyousrakh": null,
  "hf:digitalsolutionsai": null,
+ "hf:dioleti": {
+  "fullname": "Dioleti"
+ },
  "hf:dksibbs": null,
  "hf:doannv": null,
  "hf:docling-project": {
   "fullname": "Docling"
  },
  "hf:drishtisharma": null,
+ "hf:duhow": null,
  "hf:ec5ug": null,
  "hf:eeahugs": {
   "fullname": "European Environment Agency"
@@ -915,6 +946,7 @@
   "fullname": "AI at Meta"
  },
  "hf:fares5462": null,
+ "hf:feanor5555": null,
  "hf:featherless-ai-quants": {
   "fullname": "Quants by Featherless.ai"
  },
@@ -962,6 +994,9 @@
   "fullname": "Handy"
  },
  "hf:hannahbillo": null,
+ "hf:harvardmadsys": {
+  "fullname": "Harvard MaDSys"
+ },
  "hf:hashimaliii": null,
  "hf:hbb-community": {
   "fullname": "HBB Community"
@@ -1079,6 +1114,9 @@
  "hf:lingvanex": null,
  "hf:lisatthu35": null,
  "hf:litovation": null,
+ "hf:llamaindex": {
+  "fullname": "LlamaIndex"
+ },
  "hf:lmaana": {
   "fullname": "Lmaana"
  },
@@ -1130,6 +1168,9 @@
  "hf:mlnomad": null,
  "hf:mlrs": {
   "fullname": "Maltese Language Resource Server"
+ },
+ "hf:mmmu": {
+  "fullname": "MMMU"
  },
  "hf:modrill": null,
  "hf:mohamedsanaf2001": null,
@@ -1303,6 +1344,9 @@
  "hf:vansh62": null,
  "hf:vhke": null,
  "hf:vnahata": null,
+ "hf:voicevibe": {
+  "fullname": "VoiceVibe"
+ },
  "hf:vradmicre": null,
  "hf:vyber07": null,
  "hf:wannaphong": null,
@@ -1321,6 +1365,7 @@
  },
  "hf:x054848": null,
  "hf:xangel0s": null,
+ "hf:zineddine": null,
  "hf:zyrexz": null,
  "hokkaido": {
   "lat": 43.452,
@@ -1335,6 +1380,11 @@
  "ikerbasque": null,
  "independent researcher": null,
  "independent researcher of samarkand state institute of foreign languages": null,
+ "india": {
+  "lat": 22.3511,
+  "lng": 78.6677,
+  "label": "Inde"
+ },
  "institut polytechnique de paris": {
   "lat": 48.7139,
   "lng": 2.2141,
@@ -1361,6 +1411,16 @@
   "lat": 57.778,
   "lng": 14.1621,
   "label": "Högskolan i Jönköping"
+ },
+ "kazakh-british technical university": {
+  "lat": 43.2557,
+  "lng": 76.9431,
+  "label": "Қазақстан-Британ Техникалық Университеті"
+ },
+ "kennesaw state university": {
+  "lat": 34.0383,
+  "lng": -84.5831,
+  "label": "Kennesaw State University"
  },
  "king saud bin abdulaziz university for health sciences": {
   "lat": 24.7571,
@@ -1428,6 +1488,11 @@
   "lat": 51.2182,
   "lng": 22.5547,
   "label": "Lublin"
+ },
+ "lyon 1": {
+  "lat": 33.608,
+  "lng": -117.8301,
+  "label": "Lyon 1"
  },
  "lyon 2": {
   "lat": 45.776,
@@ -1523,6 +1588,11 @@
   "lat": 40.7127,
   "lng": -74.006,
   "label": "New York"
+ },
+ "newcastle university": {
+  "lat": 54.9802,
+  "lng": -1.6147,
+  "label": "Newcastle University"
  },
  "nicolae bălcescu land forces academy": null,
  "normandie": {
@@ -1768,6 +1838,11 @@
   "lng": 9.18,
   "label": "Stuttgart"
  },
+ "sungkyunkwan university": {
+  "lat": 37.3003,
+  "lng": 126.9698,
+  "label": "성균관대"
+ },
  "sydney, australia": {
   "lat": -33.8698,
   "lng": 151.2083,
@@ -1843,6 +1918,11 @@
   "lng": -70.6614,
   "label": "Universidad del Alba"
  },
+ "universidade do estado do amazonas": {
+  "lat": -4.0978,
+  "lng": -63.1454,
+  "label": "Universidade do Estado do Amazonas"
+ },
  "universidade estadual de campinas (unicamp)": null,
  "universidade estadual paulista (unesp)": {
   "lat": -22.3477,
@@ -1895,6 +1975,11 @@
   "lng": 33.4139,
   "label": "Πανεπιστήμιο Κύπρου"
  },
+ "university of eastern finland": {
+  "lat": 62.6044,
+  "lng": 29.7422,
+  "label": "Université de l'Est de la Finlande"
+ },
  "university of essex": {
   "lat": 51.8774,
   "lng": 0.9499,
@@ -1905,6 +1990,7 @@
   "lng": 9.1883,
   "label": "Université de Constance"
  },
+ "university of ljubljana, faculty of medicine, department of public health; national institute of public health slovenia": null,
  "university of massachusetts amherst": {
   "lat": 42.3893,
   "lng": -72.5284,
@@ -1934,6 +2020,11 @@
   "lat": 43.3092,
   "lng": -2.0108,
   "label": "Euskal Herriko Unibertsitatea, Ibaeta Campusa"
+ },
+ "university of tübingen": {
+  "lat": 48.5341,
+  "lng": 9.0712,
+  "label": "Klimagarten der Universität Tübingen"
  },
  "université clermont auvergne (2021-...)": {
   "lat": 45.04,
@@ -2330,11 +2421,20 @@
  "wdn:cis lmu munich": null,
  "wdn:clarin pl": null,
  "wdn:cognitive machine learning ens": null,
+ "wdn:cohearo": null,
  "wdn:cohere labs": null,
+ "wdn:conway": {
+  "lat": 33.8381,
+  "lng": -79.0561,
+  "city": "Conway",
+  "region": "États-Unis",
+  "geo_source": "Wikidata · Conway"
+ },
  "wdn:darija audio dataset": null,
  "wdn:data gouv community": null,
  "wdn:datoric": null,
  "wdn:decosa": null,
+ "wdn:dioleti": null,
  "wdn:docling": null,
  "wdn:epfl machine learning and optimization laboratory": null,
  "wdn:espnet": null,
@@ -2366,6 +2466,7 @@
  },
  "wdn:guardion": null,
  "wdn:handy": null,
+ "wdn:harvard madsys": null,
  "wdn:hbb community": null,
  "wdn:helsinki nlp research group": null,
  "wdn:hitz zentroa": {
@@ -2389,6 +2490,7 @@
  "wdn:lemonfox": null,
  "wdn:lemura labs": null,
  "wdn:lifeai": null,
+ "wdn:llamaindex": null,
  "wdn:lmaana": null,
  "wdn:loom ai": null,
  "wdn:maliba ai": null,
@@ -2397,6 +2499,7 @@
  "wdn:mcgill nlp group": null,
  "wdn:minish": null,
  "wdn:ml foundations": null,
+ "wdn:mmmu": null,
  "wdn:multisynt": null,
  "wdn:my korean language models": null,
  "wdn:mythologic": null,
@@ -2449,6 +2552,7 @@
  "wdn:universal dependencies": null,
  "wdn:unsloth ai": null,
  "wdn:vambo ai": null,
+ "wdn:voicevibe": null,
  "wdn:waqf ai": null,
  "wdn:wikimedia": null,
  "wdn:windstorm labs": null,
@@ -2458,6 +2562,11 @@
   "lat": 34.261,
   "lng": 108.9423,
   "label": "Xi'an"
+ },
+ "zhejiang university": {
+  "lat": 30.5216,
+  "lng": 120.7195,
+  "label": "浙江大学（海宁校区）"
  },
  "zurich": {
   "lat": 47.3744,
@@ -2469,5 +2578,6 @@
   "lat": 39.9581,
   "lng": 116.2924,
   "label": "Haidian"
- }
+ },
+ "湖南农业大学人文与外语学院(hunan agricultural university, college of humanities and foreign languages)": null
 }
