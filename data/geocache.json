@@ -319,6 +319,7 @@
   "label": "Denver"
  },
  "department of civil and environmental engineering, universitat politècnica de catalunya (upc), barcelona, spain": null,
+ "department of computer science, khmelnytskyi national university, ukraine": null,
  "department of display materials engineering, soonchunhyang university": null,
  "department of ecology, faculty of science, charles university, prague, czechia; institute of microbiology of the czech academy of sciences, prague, czechia": null,
  "department of information and communication technology, faculty of science and liberal arts, rajamangala university of technology isan, thailand": null,
@@ -371,6 +372,11 @@
  },
  "faculty of geography and regional studies, university of warsaw": null,
  "formation continue unil-epfl": null,
+ "frankfurt": {
+  "lat": 50.1106,
+  "lng": 8.6821,
+  "label": "Francfort-sur-le-Main"
+ },
  "fudan university": {
   "lat": 31.3012,
   "lng": 121.4975,
@@ -543,6 +549,10 @@
   "location": null,
   "name": "Nandakishor"
  },
+ "gh:nano-muse": {
+  "location": "China",
+  "name": "nanoMuse"
+ },
  "gh:nokia-applied-research": {
   "location": null,
   "name": "nokia-applied-research"
@@ -654,6 +664,10 @@
  "gh:vornex-01": {
   "location": null,
   "name": "VORNEX-01"
+ },
+ "gh:walidboulanouar": {
+  "location": "Paris, France",
+  "name": "Boulanouar Walid"
  },
  "gh:walsher46": {
   "location": null,
@@ -780,6 +794,7 @@
   "fullname": "Algerian NLP Collective"
  },
  "hf:algorithco": null,
+ "hf:aliados": null,
  "hf:aliaeai": {
   "fullname": "Aliae"
  },
@@ -810,6 +825,7 @@
  "hf:ashtok897": null,
  "hf:asincole": null,
  "hf:athaze": null,
+ "hf:aufklarer": null,
  "hf:augurybot": null,
  "hf:autotrust": {
   "fullname": "AutoTrust AI Lab"
@@ -872,6 +888,7 @@
   "fullname": "Cohere Labs"
  },
  "hf:cointegrated": null,
+ "hf:collectionstudio": null,
  "hf:coml": {
   "fullname": "Cognitive Machine Learning | @ENS"
  },
@@ -911,6 +928,9 @@
  "hf:dioleti": {
   "fullname": "Dioleti"
  },
+ "hf:discourse": {
+  "fullname": "Civilized Discourse Construction Kit, Inc."
+ },
  "hf:dksibbs": null,
  "hf:doannv": null,
  "hf:docling-project": {
@@ -949,6 +969,9 @@
  "hf:feanor5555": null,
  "hf:featherless-ai-quants": {
   "fullname": "Quants by Featherless.ai"
+ },
+ "hf:fineenvs": {
+  "fullname": "FineEnvs"
  },
  "hf:fligvm": null,
  "hf:flowxai": {
@@ -998,6 +1021,7 @@
   "fullname": "Harvard MaDSys"
  },
  "hf:hashimaliii": null,
+ "hf:hauhaucs": null,
  "hf:hbb-community": {
   "fullname": "HBB Community"
  },
@@ -1086,12 +1110,16 @@
  "hf:kmerakeb": null,
  "hf:korosh405": null,
  "hf:kremon96": null,
+ "hf:krynexlabs": null,
  "hf:kugiyt8i": null,
  "hf:kushan1232222": null,
  "hf:laaraari2025": null,
  "hf:ladinomendes": null,
  "hf:lakoreai": {
   "fullname": "LakoreAI"
+ },
+ "hf:larc-iu": {
+  "fullname": "LARC @ IU"
  },
  "hf:lbourdois": null,
  "hf:leggedrobotics": {
@@ -1112,6 +1140,7 @@
  },
  "hf:linguardia": null,
  "hf:lingvanex": null,
+ "hf:linuxme": null,
  "hf:lisatthu35": null,
  "hf:litovation": null,
  "hf:llamaindex": {
@@ -1120,6 +1149,9 @@
  "hf:lmaana": {
   "fullname": "Lmaana"
  },
+ "hf:lmsys": {
+  "fullname": "Large Model Systems Organization"
+ },
  "hf:loom-ai-org": {
   "fullname": "Loom AI"
  },
@@ -1127,6 +1159,9 @@
  "hf:ltopaiman4": null,
  "hf:luckmeeer": null,
  "hf:luispoveda93": null,
+ "hf:m-a-p": {
+  "fullname": "Multimodal Art Projection"
+ },
  "hf:maanka2": null,
  "hf:mabus46": null,
  "hf:madurox": null,
@@ -1134,6 +1169,7 @@
  "hf:maghrebi": null,
  "hf:mahesh27": null,
  "hf:maigonis": null,
+ "hf:maksl": null,
  "hf:maliba-ai": {
   "fullname": "MALIBA-AI"
  },
@@ -1162,6 +1198,9 @@
  },
  "hf:mirellecb": null,
  "hf:misterkissi": null,
+ "hf:mistralai": {
+  "fullname": "Mistral AI"
+ },
  "hf:mlfoundations": {
   "fullname": "ML Foundations"
  },
@@ -1175,6 +1214,9 @@
  "hf:modrill": null,
  "hf:mohamedsanaf2001": null,
  "hf:mohammedaly22": null,
+ "hf:morocco-mtnra-labs": {
+  "fullname": "Ministère de la Transition Numérique et de la réforme de l'Administration"
+ },
  "hf:mosessss": null,
  "hf:mouad009": null,
  "hf:mradermacher": null,
@@ -1193,6 +1235,7 @@
  "hf:nasrellahkharroubi": null,
  "hf:nassimjp": null,
  "hf:ncannings": null,
+ "hf:nerkyor": null,
  "hf:neuronix12314585": null,
  "hf:neweret": null,
  "hf:nexxusss": null,
@@ -1253,6 +1296,12 @@
  },
  "hf:qrzysztof": null,
  "hf:quiho": null,
+ "hf:quran-lab": {
+  "fullname": "Quran Lab"
+ },
+ "hf:qwen": {
+  "fullname": "Qwen"
+ },
  "hf:ranagaber": null,
  "hf:rattyc": null,
  "hf:redhatai": {
@@ -1299,6 +1348,8 @@
  "hf:swinliq-ain-2": {
   "fullname": "SwinliQ-AI"
  },
+ "hf:tabahi": null,
+ "hf:talzoomanzoo": null,
  "hf:tatathamon": null,
  "hf:tech4bueno": null,
  "hf:technobaptist": null,
@@ -1307,6 +1358,9 @@
  },
  "hf:theafricatechguy": null,
  "hf:tian77hh": null,
+ "hf:tiger-lab": {
+  "fullname": "TIGER-Lab"
+ },
  "hf:tigregotico": {
   "fullname": "Tigre Gótico Lda"
  },
@@ -1567,6 +1621,7 @@
   "lng": 11.5754,
   "label": "Munich"
  },
+ "münchen (hybrid)": null,
  "nancy": {
   "lat": 48.6937,
   "lng": 6.1834,
@@ -1659,6 +1714,11 @@
   "lat": 48.8335,
   "lng": 2.3584,
   "label": "École Nationale Supérieure des Arts et Métiers - HESAM Université"
+ },
+ "paris, france": {
+  "lat": 48.8535,
+  "lng": 2.3484,
+  "label": "Paris"
  },
  "pau": {
   "lat": 43.2958,
@@ -1767,11 +1827,13 @@
   "lng": -122.3301,
   "label": "Seattle"
  },
+ "section for pharmaceutical chemistry, department of pharmacy, university of oslo, norway": null,
  "segou, mali": {
   "lat": 13.4415,
   "lng": -6.2681,
   "label": "Ségou"
  },
+ "semanticly.ai": null,
  "seoul national university": {
   "lat": 37.4668,
   "lng": 126.9478,
@@ -1802,6 +1864,11 @@
   "lat": 22.5446,
   "lng": 114.0545,
   "label": "Shenzhen"
+ },
+ "shinhan university": {
+  "lat": 37.9032,
+  "lng": 127.0421,
+  "label": "신한대학교입구"
  },
  "singapore": {
   "lat": 1.3571,
@@ -1954,10 +2021,20 @@
   "lng": 103.4322,
   "label": "Universiti Malaysia Pahang Al-Sultan Abdullah (Kampus Pekan)"
  },
+ "universiti teknologi petronas": {
+  "lat": 4.3828,
+  "lng": 100.9701,
+  "label": "Universiti Teknologi Petronas"
+ },
  "university college dublin": {
   "lat": 53.3068,
   "lng": -6.2246,
   "label": "University College Dublin (Belfield Campus)"
+ },
+ "university of bari aldo moro": {
+  "lat": 41.1095,
+  "lng": 16.8817,
+  "label": "Università degli Studi di Bari \"Aldo Moro\""
  },
  "university of bath": {
   "lat": 51.3767,
@@ -2010,6 +2087,11 @@
   "lat": 49.0031,
   "lng": 12.0963,
   "label": "Ostbayerische Technische Hochschule Regensburg"
+ },
+ "university of south carolina": {
+  "lat": 33.9929,
+  "lng": -81.0269,
+  "label": "University of South Carolina"
  },
  "university of southern california": {
   "lat": 34.0219,
@@ -2419,6 +2501,7 @@
  "wdn:center for language and speech processing jhu": null,
  "wdn:chair of data science university of passau": null,
  "wdn:cis lmu munich": null,
+ "wdn:civilized discourse construction kit inc": null,
  "wdn:clarin pl": null,
  "wdn:cognitive machine learning ens": null,
  "wdn:cohearo": null,
@@ -2446,6 +2529,7 @@
   "geo_source": "Wikidata · Agence européenne pour l'environnement"
  },
  "wdn:finedata": null,
+ "wdn:fineenvs": null,
  "wdn:flowx ai": {
   "lat": 48.8567,
   "lng": 2.3522,
@@ -2487,6 +2571,8 @@
  "wdn:jscreatorpro pte ltd": null,
  "wdn:lakoreai": null,
  "wdn:language technologies laboratory barcelona supercomputing center": null,
+ "wdn:larc iu": null,
+ "wdn:large model systems organization": null,
  "wdn:lemonfox": null,
  "wdn:lemura labs": null,
  "wdn:lifeai": null,
@@ -2498,8 +2584,17 @@
  "wdn:maltese language resource server": null,
  "wdn:mcgill nlp group": null,
  "wdn:minish": null,
+ "wdn:minist re de la transition num rique et de la r forme de l administration": null,
+ "wdn:mistral ai": {
+  "lat": 48.8567,
+  "lng": 2.3522,
+  "city": "Paris",
+  "region": "France",
+  "geo_source": "Wikidata · Mistral AI"
+ },
  "wdn:ml foundations": null,
  "wdn:mmmu": null,
+ "wdn:multimodal art projection": null,
  "wdn:multisynt": null,
  "wdn:my korean language models": null,
  "wdn:mythologic": null,
@@ -2529,6 +2624,8 @@
  },
  "wdn:pyannote": null,
  "wdn:quants by featherless ai": null,
+ "wdn:quran lab": null,
+ "wdn:qwen": null,
  "wdn:red hat ai": null,
  "wdn:robotic systems lab eth z rich": null,
  "wdn:salesforce ai research": null,
@@ -2544,6 +2641,7 @@
  "wdn:swinliq ai": null,
  "wdn:teltek video research s l": null,
  "wdn:text to speech for all": null,
+ "wdn:tiger lab": null,
  "wdn:tigre g tico lda": null,
  "wdn:tilde": null,
  "wdn:tiwu lab": null,
@@ -2573,6 +2671,7 @@
   "lng": 8.541,
   "label": "Zurich"
  },
+ "ájiniyaz atındaǵı nmpi magistrantı": null,
  "доцент, ташкентский государственный медицинский университет": null,
  "北京市海淀区": {
   "lat": 39.9581,

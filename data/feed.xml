@@ -6,22 +6,478 @@
     <atom:link href="https://omnital.github.io/data/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Nouvelles ressources en traitement automatique des langues (arXiv, HAL, Hugging Face, GitHub, WikiCFP).</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 09 Oct 2026 12:00:46 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 11:18:57 +0000</lastBuildDate>
     <item>
-      <title>[Paper] Does Modern Standard Arabic (MSA) Dominate Arabic Dialects in LLMs? A Representation-Level Analysis</title>
-      <link>https://arxiv.org/abs/2610.11510</link>
-      <guid isPermaLink="false">arxiv:2610.11510</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language models (LLMs) often default to Modern Standard Arabic (MSA) when generating Arabic, even when prompted with dialectal Arabic. A natural explanation is that their internal representations are dominated by MSA. We test this…</description>
+      <title>[Corpus] Scicom-intl/Synthetic-Stereo-Calls</title>
+      <link>https://huggingface.co/datasets/Scicom-intl/Synthetic-Stereo-Calls</link>
+      <guid isPermaLink="false">hf:datasets:Scicom-intl/Synthetic-Stereo-Calls</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Synthetic Stereo Calls Two-party calls made from clean studio speech. Each call has two channels at 48 kHz, one party per channel, the way a call centre records a call in stereo. The channels are clean, so you degrade them yourself. We…</description>
     </item>
     <item>
-      <title>[Paper] Structured Sentiment Analysis Using Sequence Labeling as Dependency Graph Parsing</title>
-      <link>https://arxiv.org/abs/2610.11695</link>
-      <guid isPermaLink="false">arxiv:2610.11695</guid>
+      <title>[Corpus] abr00kx/jewish-humor-corpus</title>
+      <link>https://huggingface.co/datasets/abr00kx/jewish-humor-corpus</link>
+      <guid isPermaLink="false">hf:datasets:abr00kx/jewish-humor-corpus</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Jewish Humor Corpus 🎭 A curated computational linguistics, cultural folklore, and instruction-tuning dataset for Jewish humor across Ashkenazi, Sephardic, Talmudic, Soviet, and Modern traditions. Dataset Summary The Jewish Humor Corpus is…</description>
+    </item>
+    <item>
+      <title>[Corpus] francesca9805/art-lang-loglinear-basque-before</title>
+      <link>https://huggingface.co/datasets/francesca9805/art-lang-loglinear-basque-before</link>
+      <guid isPermaLink="false">hf:datasets:francesca9805/art-lang-loglinear-basque-before</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Corpus] francesca9805/art-lang-loglinear-basque-after</title>
+      <link>https://huggingface.co/datasets/francesca9805/art-lang-loglinear-basque-after</link>
+      <guid isPermaLink="false">hf:datasets:francesca9805/art-lang-loglinear-basque-after</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Aliados/OmniVoice-bf16</title>
+      <link>https://huggingface.co/Aliados/OmniVoice-bf16</link>
+      <guid isPermaLink="false">hf:models:Aliados/OmniVoice-bf16</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] KrynexLabs/KrynexAI-vNS-1M-Generate-Cat</title>
+      <link>https://huggingface.co/KrynexLabs/KrynexAI-vNS-1M-Generate-Cat</link>
+      <guid isPermaLink="false">hf:models:KrynexLabs/KrynexAI-vNS-1M-Generate-Cat</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] loom-ai-org/nemotron-3.5-asr-streaming-0.6b-loom</title>
+      <link>https://huggingface.co/loom-ai-org/nemotron-3.5-asr-streaming-0.6b-loom</link>
+      <guid isPermaLink="false">hf:models:loom-ai-org/nemotron-3.5-asr-streaming-0.6b-loom</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] aufklarer/Nemotron-3.5-ASR-Streaming-0.6B-CoreML-INT8-iOS17-Encoder-Test</title>
+      <link>https://huggingface.co/aufklarer/Nemotron-3.5-ASR-Streaming-0.6B-CoreML-INT8-iOS17-Encoder-Test</link>
+      <guid isPermaLink="false">hf:models:aufklarer/Nemotron-3.5-ASR-Streaming-0.6B-CoreML-INT8-iOS17-Encoder-Test</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] MaksL/voxrt-parakeet-redux-coreml</title>
+      <link>https://huggingface.co/MaksL/voxrt-parakeet-redux-coreml</link>
+      <guid isPermaLink="false">hf:models:MaksL/voxrt-parakeet-redux-coreml</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Tool] Oussamamaat/Golha-darija-tts</title>
+      <link>https://huggingface.co/spaces/Oussamamaat/Golha-darija-tts</link>
+      <guid isPermaLink="false">hf:spaces:Oussamamaat/Golha-darija-tts</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Tool] abderrahimessousy/Intelligent-Nutritional-Assistant-System</title>
+      <link>https://github.com/abderrahimessousy/Intelligent-Nutritional-Assistant-System</link>
+      <guid isPermaLink="false">gh:abderrahimessousy/intelligent-nutritional-assistant-system</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Development of an AI-based application that identifies Moroccan foods written in French and Darija, extracts food quantities and estimates caloric intake using NLP techniques. The system integrates voice input and provides a dashboard for…</description>
+    </item>
+    <item>
+      <title>[Corpus] ULE Framework Scoring Dataset: United States and Türkiye</title>
+      <link>https://zenodo.org/records/23280736</link>
+      <guid isPermaLink="false">zenodo:23280735</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Version 1 — first deposit The condition-level scoring record for a most-different systems comparison of the legal enablement of ecology-oriented urban living labs in the United States and Türkiye. Five jurisdictions are scored as separate…</description>
+    </item>
+    <item>
+      <title>[Corpus] Data and Code of Solution-Focused Brief Therapy Training with a Large Language Model-Based Virtual Standardized Patient</title>
+      <link>https://zenodo.org/records/23272923</link>
+      <guid isPermaLink="false">zenodo:23272922</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Tool] Two-Stage Measurement of Update Adherence in Language Model Memory Agents: benchmark, event records, and scoring scripts</title>
+      <link>https://zenodo.org/records/23280325</link>
+      <guid isPermaLink="false">zenodo:23280324</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Benchmark scenarios, event records, frozen memory engine, and scoring scripts for the paper "Two-Stage Measurement of Update Adherence in Language Model Memory Agents". Update Adherence (UA) measures whether a revised requirement, and not…</description>
+    </item>
+    <item>
+      <title>[Tool] GeoAI-VLM: Geospatial Vision-Language Model Analysis</title>
+      <link>https://zenodo.org/records/23280713</link>
+      <guid isPermaLink="false">zenodo:18169685</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Geospatial vision-language model analysis for street-level imagery. Downloads Mapillary images by location, describes them with open vision-language models through Transformers, vLLM or any OpenAI-compatible endpoint, embeds and clusters…</description>
+    </item>
+    <item>
+      <title>[Tool] obophenotype/bio-attribute-ontology: 2026-10-10 Release</title>
+      <link>https://zenodo.org/records/23277022</link>
+      <guid isPermaLink="false">zenodo:592934</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>What's Changed Add new term 'amount of hepatitis b virus surface protein antigen in blood' by @aleixpuigb in https://github.com/obophenotype/bio-attribute-ontology/pull/441 Strip anatomical-entity placeholder from amount/level definitions…</description>
+    </item>
+    <item>
+      <title>[Model] Morocco-MTNRA-Labs/LIDstral-Arabic</title>
+      <link>https://huggingface.co/Morocco-MTNRA-Labs/LIDstral-Arabic</link>
+      <guid isPermaLink="false">hf:models:Morocco-MTNRA-Labs/LIDstral-Arabic</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] linuxme/whisper-large-v3</title>
+      <link>https://huggingface.co/linuxme/whisper-large-v3</link>
+      <guid isPermaLink="false">hf:models:linuxme/whisper-large-v3</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Tabahi/mbfa-latin-benchmark</title>
+      <link>https://huggingface.co/Tabahi/mbfa-latin-benchmark</link>
+      <guid isPermaLink="false">hf:models:Tabahi/mbfa-latin-benchmark</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Tabahi/mbfa-latin</title>
+      <link>https://huggingface.co/Tabahi/mbfa-latin</link>
+      <guid isPermaLink="false">hf:models:Tabahi/mbfa-latin</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] CollectionStudio/bert-base-multilingual-cased</title>
+      <link>https://huggingface.co/CollectionStudio/bert-base-multilingual-cased</link>
+      <guid isPermaLink="false">hf:models:CollectionStudio/bert-base-multilingual-cased</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Quran-Lab/sawt-v5</title>
+      <link>https://huggingface.co/Quran-Lab/sawt-v5</link>
+      <guid isPermaLink="false">hf:models:Quran-Lab/sawt-v5</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] larc-iu/dmrst-xlm-roberta-base-ert</title>
+      <link>https://huggingface.co/larc-iu/dmrst-xlm-roberta-base-ert</link>
+      <guid isPermaLink="false">hf:models:larc-iu/dmrst-xlm-roberta-base-ert</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] talzoomanzoo/ttrl-aime2026-sc-4b</title>
+      <link>https://huggingface.co/talzoomanzoo/ttrl-aime2026-sc-4b</link>
+      <guid isPermaLink="false">hf:models:talzoomanzoo/ttrl-aime2026-sc-4b</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Discourse/Discourse-STT</title>
+      <link>https://huggingface.co/Discourse/Discourse-STT</link>
+      <guid isPermaLink="false">hf:models:Discourse/Discourse-STT</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] AIArchiveInfo/Fun-ASR-MLT-Nano-2512</title>
+      <link>https://huggingface.co/AIArchiveInfo/Fun-ASR-MLT-Nano-2512</link>
+      <guid isPermaLink="false">hf:models:AIArchiveInfo/Fun-ASR-MLT-Nano-2512</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Morocco-MTNRA-Labs/Voxtral-Mini-4B-Realtime-Arabic</title>
+      <link>https://huggingface.co/Morocco-MTNRA-Labs/Voxtral-Mini-4B-Realtime-Arabic</link>
+      <guid isPermaLink="false">hf:models:Morocco-MTNRA-Labs/Voxtral-Mini-4B-Realtime-Arabic</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Tool] IHSANE-dotcom/darija-sentiment-analysis</title>
+      <link>https://github.com/IHSANE-dotcom/darija-sentiment-analysis</link>
+      <guid isPermaLink="false">gh:ihsane-dotcom/darija-sentiment-analysis</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Darija Sentiment Analysis using NLP, Machine Learning, Deep learning, FastAPI and Angular...</description>
+    </item>
+    <item>
+      <title>[Opportunity] Scientist II Machine Learning Engineer (LLM &amp; GenAI Specialist)</title>
+      <link>https://www.arbeitnow.fr/jobs/companies/owkin/scientist-ii-machine-learning-engineer-llm-genai-specialist-paris-399460</link>
+      <guid isPermaLink="false">arbeitnow:scientist-ii-machine-learning-engineer-llm-genai-specialist-paris-399460</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arbeitnow</category>
+      <description>About us Owkin is an agentic AI company pioneering Biological Artificial Superintelligence to solve problems in biology where human researchers alone have failed. Owkin builds K Pro - an AI scientist for pharmaceutical research and…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Transformation Manager (f/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/merantix-momentum/ai-transformation-manager-berlin-467063</link>
+      <guid isPermaLink="false">arbeitnow:ai-transformation-manager-berlin-467063</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arbeitnow</category>
+      <description>What we do AI is redefining how companies compete. Most organizations know they need to transform but only few know how to realize it. As AI Transformation Manager at Merantix Momentum, you are the person who bridges that gap: turning…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior AI Engineer (f/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/vestigas/senior-ai-engineer-munchen-hybrid-208200</link>
+      <guid isPermaLink="false">arbeitnow:senior-ai-engineer-munchen-hybrid-208200</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arbeitnow</category>
+      <description>We're digitizing the construction industry – are you in? At VESTIGAS, you build the digital backbone of the construction supply chain. We turn purchase orders, delivery notes, and invoices into a digital, legally compliant platform used…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Chapter Lead AI Engineering (f/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/vestigas/chapter-lead-ai-engineering-munchen-hybrid-147317</link>
+      <guid isPermaLink="false">arbeitnow:chapter-lead-ai-engineering-munchen-hybrid-147317</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arbeitnow</category>
+      <description>We're digitizing the construction industry – are you in? At VESTIGAS, you build the digital backbone of the construction supply chain. We turn purchase orders, delivery notes, and invoices into a digital, legally compliant platform used…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Consultant [m/w/d]</title>
+      <link>https://www.arbeitnow.com/jobs/companies/gbc-group/ai-consultant-frankfurt-422512</link>
+      <guid isPermaLink="false">arbeitnow:ai-consultant-frankfurt-422512</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arbeitnow</category>
+      <description>Wer wir sind Die GBC Group GmbH ist eine inhabergeführte IT-Unternehmensgruppe mit über 500 Mitarbeitenden an mehr als 10 Standorten in Deutschland. Nach dem Buy-and-Build-Prinzip vereinen wir 12 spezialisierte Tochtergesellschaften unter…</description>
+    </item>
+    <item>
+      <title>[Paper] Predicational forms in English</title>
+      <link>https://hal.science/hal-05789695v1</link>
+      <guid isPermaLink="false">hal:hal-05789695</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>hal</category>
+      <description>This paper takes its start from a not so well-known 1980 paper by Henry Kučera, “Computational Analysis of Predicational Structures in English”, which examines the expression of predication in the Brown corpus. We review the observations…</description>
+    </item>
+    <item>
+      <title>[Paper] Les déverbaux dans les tables du Lexique-Grammaire</title>
+      <link>https://hal.science/hal-05789525v1</link>
+      <guid isPermaLink="false">hal:hal-05789525</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>hal</category>
+      <description>Le lexique-grammaire, élaboré initialement au LADL (Laboratoire d’Automatique Documentaire et Linguistique, CNRS) par Maurice Gross et son équipe, est organisé en une série de tables. Chaque table regroupe des entrées lexicales présentant…</description>
+    </item>
+    <item>
+      <title>[Model] Qwen/Qwen-Image-2.1-Turbo</title>
+      <link>https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo</link>
+      <guid isPermaLink="false">hf:models:Qwen/Qwen-Image-2.1-Turbo</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Corpus] Multi-target VS benchmark: per-target data deposit</title>
+      <link>https://zenodo.org/records/23270845</link>
+      <guid isPermaLink="false">zenodo:23270844</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Per-target benchmark data for the article "Virtual ligand screening by LLM agents: expert guidance changes the screened library, not the ranking" (Osman Gani, submitted to Journal of Cheminformatics, October 2026). Eleven protein targets…</description>
+    </item>
+    <item>
+      <title>[Corpus] KORPUSLıQ LINGVISTIKA TILDI IZERTLEWDIŃ ZAMANAGÓY METODOLOGIYASı SıPATıNDA: TEORIYASı, METODLARı HÁM QARAQALPAQ TILI USHıN KELESHEGI</title>
+      <link>https://zenodo.org/records/23264618</link>
+      <guid isPermaLink="false">zenodo:23264617</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Bul maqalada korpuslıq lingvistika házirgi empirikalıq lingvistikanıń áhmiyetli baǵdarlarınıń biri hám tildi arnawlı túrde dúzilgen tábiyiy tillik maǵlıwmatlar jıynaǵı tiykarında izertlew metodologiyası sıpatında qarastırıladı. Til…</description>
+    </item>
+    <item>
+      <title>[Tool] Data and code for: Will a machine-learning microseismic detector work at the next site? Evaluation and transfer evidence for geophone and DAS monitoring</title>
+      <link>https://zenodo.org/records/23270697</link>
+      <guid isPermaLink="false">zenodo:23270696</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Data and code for the review "Will a Machine-Learning Microseismic Detector Work at the Next Site? Evaluation and Transfer Evidence for Geophone and DAS Monitoring" (submitted to Seismological Research Letters). Evidence map of 385…</description>
+    </item>
+    <item>
+      <title>[Tool] Multi-target benchmark of skill-file-guided agentic virtual screening across eleven drug targets</title>
+      <link>https://zenodo.org/records/23270440</link>
+      <guid isPermaLink="false">zenodo:20036546</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Reproducibility package for the manuscript "Virtual ligand screening by LLM agents: expert guidance changes the screened library, not the ranking" (sole author, submitted to Journal of Cheminformatics, October 2026). Contents: the…</description>
+    </item>
+    <item>
+      <title>[Tool] CINETRA: A Multi-Vendor Audit of Semantic Concept Transfer in Cardiac MRI (code, protocol and frozen results)</title>
+      <link>https://zenodo.org/records/23269592</link>
+      <guid isPermaLink="false">zenodo:23269591</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>CINETRA (cine semantic transition) audits what a frozen cardiac MRI classifier encodes, in the quantities a reader measures: ventricular volumes, ejection fractions and myocardial mass. A typed linear transition maps the classifier's 57…</description>
+    </item>
+    <item>
+      <title>[Model] mistralai/LIDstral-Arabic</title>
+      <link>https://huggingface.co/mistralai/LIDstral-Arabic</link>
+      <guid isPermaLink="false">hf:models:mistralai/LIDstral-Arabic</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] handy-computer/lang-id-voxlingua107-ecapa-gguf</title>
+      <link>https://huggingface.co/handy-computer/lang-id-voxlingua107-ecapa-gguf</link>
+      <guid isPermaLink="false">hf:models:handy-computer/lang-id-voxlingua107-ecapa-gguf</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] mistralai/Voxtral-Mini-4B-Realtime-Arabic</title>
+      <link>https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-Arabic</link>
+      <guid isPermaLink="false">hf:models:mistralai/Voxtral-Mini-4B-Realtime-Arabic</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Paper] A Better Metric Will Not Save You: What You Compare Beats How You Compare It</title>
+      <link>https://hal.science/hal-05787548v1</link>
+      <guid isPermaLink="false">hal:hal-05787548</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>hal</category>
+      <description>Representational similarity measures (RSA, CKA, Procrustes) are chosen for the transformations they treat as irrelevant, and all of them take the set of conditions as given. That set is fixed by two decisions, which inputs are admitted…</description>
+    </item>
+    <item>
+      <title>[Paper] Towards Enriching Design-Time Models with Evidence from Simulation and Operational Activities</title>
+      <link>https://hal.science/hal-05718085v1</link>
+      <guid isPermaLink="false">hal:hal-05718085</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>hal</category>
+      <description>Cyber-Physical Systems are developed through multiple model based activities, comprising several stages of development. As the development progresses through simulation, experimentation, and operation, observations of system execution may…</description>
+    </item>
+    <item>
+      <title>[Corpus] FineEnvs/openai-math</title>
+      <link>https://huggingface.co/datasets/FineEnvs/openai-math</link>
+      <guid isPermaLink="false">hf:datasets:FineEnvs/openai-math</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>openai/math as Harbor environments Experimental. Built on a research release that is itself new and not yet independently reviewed. Expect rough edges, and read any proof that scores 1 before relying on it. We ported the math problems…</description>
+    </item>
+    <item>
+      <title>[Corpus] CLIMPACT TRACE 0.1: citations of six climate judgments in later climate litigation</title>
+      <link>https://zenodo.org/records/23082590</link>
+      <guid isPermaLink="false">zenodo:23082589</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>The citations found by CLIMPACT TRACE 0.1 in later climate litigation. TRACE is a method to trace how climate judgments are received in later litigation, for any judgment; its first release applies it to six climate judgments: Urgenda,…</description>
+    </item>
+    <item>
+      <title>[Tool] CLIMPACT TRACE 0.1: Traceable Reception and Attribution in Climate-law Evidence</title>
+      <link>https://zenodo.org/records/23275400</link>
+      <guid isPermaLink="false">zenodo:23275399</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>CLIMPACT TRACE (Traceable Reception and Attribution in Climate-law Evidence) is a reproducible method to trace how climate judgments are received in later litigation: which later decisions and filings cite a judgment, what each citation…</description>
+    </item>
+    <item>
+      <title>[Model] nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2</title>
+      <link>https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2</link>
+      <guid isPermaLink="false">hf:models:nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Tool] nano-muse/nanoMuse</title>
+      <link>https://github.com/nano-muse/nanoMuse</link>
+      <guid isPermaLink="false">gh:nano-muse/nanomuse</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android,…</description>
+    </item>
+    <item>
+      <title>[Tool] walidboulanouar/awesome-jev-use-cases</title>
+      <link>https://github.com/walidboulanouar/awesome-jev-use-cases</link>
+      <guid isPermaLink="false">gh:walidboulanouar/awesome-jev-use-cases</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Awesome list of TypeSafe AI Jev use cases: 74 demos ranked by likes, 150+ GitHub repos, limits, cost and API examples. CC0</description>
+    </item>
+    <item>
+      <title>[Model] HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF</title>
+      <link>https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF</link>
+      <guid isPermaLink="false">hf:models:HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Tool] BLUM: Brain-LLM Unified Model — Source Code and LLM-side Derived Data</title>
+      <link>https://zenodo.org/records/20766768</link>
+      <guid isPermaLink="false">zenodo:20766767</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Source code and LLM-side derived data accompanying Fridriksson et al., "Stroke Lesions as a Rosetta Stone for Language Model Interpretability" (submitted to Patterns, 2026; arXiv:2602.04074). The Brain-LLM Unified Model (BLUM) framework…</description>
+    </item>
+    <item>
+      <title>[Corpus] m-a-p/FineFineWeb</title>
+      <link>https://huggingface.co/datasets/m-a-p/FineFineWeb</link>
+      <guid isPermaLink="false">hf:datasets:m-a-p/FineFineWeb</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>FineFineWeb: A Comprehensive Study on Fine-Grained Domain Web Corpus arXiv: Coming Soon Project Page: Coming Soon Blog: Coming Soon Data Statistics Domain (#tokens/#samples) Iteration 1 Tokens Iteration 2 Tokens Iteration 3 Tokens Total…</description>
+    </item>
+    <item>
+      <title>[Corpus] HuggingFaceFW/fineweb-edu</title>
+      <link>https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu</link>
+      <guid isPermaLink="false">hf:datasets:HuggingFaceFW/fineweb-edu</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>📚 FineWeb-Edu 1.3 trillion tokens of the finest educational data the 🌐 web has to offer Paper: https://arxiv.org/abs/2406.17557 What is it? 📚 FineWeb-Edu dataset consists of 1.3T tokens and 5.4T tokens (FineWeb-Edu-score-2) of educational…</description>
+    </item>
+    <item>
+      <title>[Corpus] TIGER-Lab/MMLU-Pro</title>
+      <link>https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro</link>
+      <guid isPermaLink="false">hf:datasets:TIGER-Lab/MMLU-Pro</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>MMLU-Pro Dataset MMLU-Pro dataset is a more robust and challenging massive multi-task understanding dataset tailored to more rigorously benchmark large language models' capabilities. This dataset contains 12K complex questions across…</description>
+    </item>
+    <item>
+      <title>[Corpus] lmsys/lmsys-chat-1m</title>
+      <link>https://huggingface.co/datasets/lmsys/lmsys-chat-1m</link>
+      <guid isPermaLink="false">hf:datasets:lmsys/lmsys-chat-1m</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>LMSYS-Chat-1M: A Large-Scale Real-World LLM Conversation Dataset This dataset contains one million real-world conversations with 25 state-of-the-art LLMs. It is collected from 210K unique IP addresses in the wild on the Vicuna demo and…</description>
+    </item>
+    <item>
+      <title>[Tool] elhatimisanae426-hue/lenet5-tifinagh-amhcd</title>
+      <link>https://github.com/elhatimisanae426-hue/lenet5-tifinagh-amhcd</link>
+      <guid isPermaLink="false">gh:elhatimisanae426-hue/lenet5-tifinagh-amhcd</guid>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>This study addresses the problem of structured sentiment analysis, whose goal is to obtain a fine-grained sentiment graph where the nodes represent spans of sentiment holders, targets, and expressions, while the arcs define the…</description>
+      <category>github</category>
+      <description></description>
     </item>
     <item>
       <title>[Corpus] Ugiat/madlad-400-es_419-backtranslated</title>
@@ -30,6 +486,22 @@
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description>MADLAD-400 back-translated pairs into Latin American Spanish (es-419) 1,186,580 translation pairs from 8 languages into Latin American Spanish, built by back-translation: real Latin American sentences from…</description>
+    </item>
+    <item>
+      <title>[Model] Dali20266/TunCHAT-V0.2-GGUF</title>
+      <link>https://huggingface.co/Dali20266/TunCHAT-V0.2-GGUF</link>
+      <guid isPermaLink="false">hf:models:Dali20266/TunCHAT-V0.2-GGUF</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] VoiceVibe/parakeet-ultra-nounk-mlx</title>
+      <link>https://huggingface.co/VoiceVibe/parakeet-ultra-nounk-mlx</link>
+      <guid isPermaLink="false">hf:models:VoiceVibe/parakeet-ultra-nounk-mlx</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
     </item>
     <item>
       <title>[Model] bjnortier/coreai-whisper-large-v3-kv-static-float16</title>
@@ -48,17 +520,17 @@
       <description></description>
     </item>
     <item>
-      <title>[Model] duhow/faster-whisper-large-v3-turbo-cat</title>
-      <link>https://huggingface.co/duhow/faster-whisper-large-v3-turbo-cat</link>
-      <guid isPermaLink="false">hf:models:duhow/faster-whisper-large-v3-turbo-cat</guid>
+      <title>[Model] cohearo/sherpa-onnx-nemo-parakeet-redux</title>
+      <link>https://huggingface.co/cohearo/sherpa-onnx-nemo-parakeet-redux</link>
+      <guid isPermaLink="false">hf:models:cohearo/sherpa-onnx-nemo-parakeet-redux</guid>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
     </item>
     <item>
-      <title>[Model] cohearo/sherpa-onnx-nemo-parakeet-redux</title>
-      <link>https://huggingface.co/cohearo/sherpa-onnx-nemo-parakeet-redux</link>
-      <guid isPermaLink="false">hf:models:cohearo/sherpa-onnx-nemo-parakeet-redux</guid>
+      <title>[Model] duhow/faster-whisper-large-v3-turbo-cat</title>
+      <link>https://huggingface.co/duhow/faster-whisper-large-v3-turbo-cat</link>
+      <guid isPermaLink="false">hf:models:duhow/faster-whisper-large-v3-turbo-cat</guid>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
@@ -72,36 +544,20 @@
       <description></description>
     </item>
     <item>
-      <title>[Model] VoiceVibe/parakeet-ultra-nounk-mlx</title>
-      <link>https://huggingface.co/VoiceVibe/parakeet-ultra-nounk-mlx</link>
-      <guid isPermaLink="false">hf:models:VoiceVibe/parakeet-ultra-nounk-mlx</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Dali20266/TunCHAT-V0.2-GGUF</title>
-      <link>https://huggingface.co/Dali20266/TunCHAT-V0.2-GGUF</link>
-      <guid isPermaLink="false">hf:models:Dali20266/TunCHAT-V0.2-GGUF</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Tool] elhatimisanae426-hue/lenet5-tifinagh-amhcd</title>
-      <link>https://github.com/elhatimisanae426-hue/lenet5-tifinagh-amhcd</link>
-      <guid isPermaLink="false">gh:elhatimisanae426-hue/lenet5-tifinagh-amhcd</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>github</category>
-      <description></description>
-    </item>
-    <item>
       <title>[Corpus] Maltese IDS wordlist by Michael Spagnol and Bernard Comrie</title>
       <link>https://zenodo.org/records/23256439</link>
       <guid isPermaLink="false">zenodo:4280595</guid>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <category>zenodo</category>
       <description>Cite the source of the dataset as: Michael Spagnol and Bernard Comrie. 2020. Maltese dictionary. In: Key, Mary Ritchie &amp; Comrie, Bernard (eds.) The Intercontinental Dictionary Series. Leipzig: Max Planck Institute for Evolutionary…</description>
+    </item>
+    <item>
+      <title>[Paper] An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment</title>
+      <link>https://arxiv.org/abs/2610.10541</link>
+      <guid isPermaLink="false">arxiv:2610.10541</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values are unavailable,…</description>
     </item>
     <item>
       <title>[Paper] Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models</title>
@@ -118,6 +574,22 @@
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <category>arxiv</category>
       <description>Historical Polish is well documented as a language but annotated in machine-readable form only to about a million words for the period this paper covers; the rest sits behind optical character recognition of variable quality. We present…</description>
+    </item>
+    <item>
+      <title>[Paper] WorldBench: Evaluating LLMs on Three.js Voxel World Generation</title>
+      <link>https://arxiv.org/abs/2610.10622</link>
+      <guid isPermaLink="false">arxiv:2610.10622</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large language models can now write complete, interactive 3D worlds as code, but grading those worlds automatically is unreliable. Existing judges take one view of the output: a vision-language model scores a few rendered snapshots, or a…</description>
+    </item>
+    <item>
+      <title>[Paper] Recurrent Self-Improvement: Dynamic Cross-Loop On-Policy Distillation for Looped Language Models</title>
+      <link>https://arxiv.org/abs/2610.10623</link>
+      <guid isPermaLink="false">arxiv:2610.10623</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Looped Language Models (LoopLMs) offer a parameter efficient approach to scaling reasoning by reusing shared parameters across recurrent computation steps. Despite their promise, effective post-training of LoopLMs remains challenging.…</description>
     </item>
     <item>
       <title>[Paper] Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System</title>
@@ -144,12 +616,36 @@
       <description>Our work explores learning a compressed latent representation of text, at the intersection of data compression and representation learning. We propose an autoencoder architecture that performs residual downscaling and upscaling of hidden…</description>
     </item>
     <item>
+      <title>[Paper] Conversational Task Disambiguation over Tabular Data: Leakage-Aware Formulation, Benchmark Suite, and Training</title>
+      <link>https://arxiv.org/abs/2610.10740</link>
+      <guid isPermaLink="false">arxiv:2610.10740</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Conversational task disambiguation over tabular data uses dialogue to resolve missing information about a user's intended task before producing a solution over tables or databases. Existing evaluation and training lack a leakage-aware…</description>
+    </item>
+    <item>
       <title>[Paper] Clarify, Then Focus: Statement Normalization for Conversation Analytics at Scale</title>
       <link>https://arxiv.org/abs/2610.10758</link>
       <guid isPermaLink="false">arxiv:2610.10758</guid>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <category>arxiv</category>
       <description>Enterprise conversation analytics asks many questions of millions of interactions. Each question can require reconstructing what people mean and identifying which information matters, repeating costly interpretive work across the same…</description>
+    </item>
+    <item>
+      <title>[Paper] Plan-and-Patch: Diffusion Language Models for Agentic Planning</title>
+      <link>https://arxiv.org/abs/2610.10786</link>
+      <guid isPermaLink="false">arxiv:2610.10786</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Planning is increasingly important for long-horizon agents, where successful execution requires coordinating subgoals, tool use, and intermediate outcomes over many steps. Yet assumptions made during planning may be invalidated by the…</description>
+    </item>
+    <item>
+      <title>[Paper] NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime</title>
+      <link>https://arxiv.org/abs/2610.10787</link>
+      <guid isPermaLink="false">arxiv:2610.10787</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Language models trained with long-horizon agentic reinforcement learning can generalize knowledge through reasoning, express precise actions, and pursue goals over many steps, raising the ceiling on what an embodied agent can understand…</description>
     </item>
     <item>
       <title>[Paper] Grammar Concept Annotation at Scale: Deployed Fine-Tuned Small Language Models Outperform Prompted Frontier Models</title>
@@ -176,6 +672,14 @@
       <description>Self-supervised speech encoders contain linguistic and paralinguistic information in a shared, entangled representation space. We combine a TopK sparse autoencoder with route-specific supervision and cross-factor adversaries. Across…</description>
     </item>
     <item>
+      <title>[Paper] Conversational Voice Aesthetic Model with Reinforcement Learning from Human Listeners</title>
+      <link>https://arxiv.org/abs/2610.10868</link>
+      <guid isPermaLink="false">arxiv:2610.10868</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>We introduce Conversational Voice Aesthetic Model, a speech large language model for describing the voice aesthetics of real or synthetic speech responses in natural conversational contexts. Given a context and a response speech, CVAM…</description>
+    </item>
+    <item>
       <title>[Paper] Sparse Attention Is Matrix Approximation, Not Choosing from a Bag of Values</title>
       <link>https://arxiv.org/abs/2610.10871</link>
       <guid isPermaLink="false">arxiv:2610.10871</guid>
@@ -192,12 +696,20 @@
       <description>On-policy distillation (OPD) efficiently transfers capabilities from a stronger teacher to a student language model through dense token-level supervision on student-generated rollouts and has shown promise on complex tasks such as…</description>
     </item>
     <item>
-      <title>[Paper] Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged</title>
-      <link>https://arxiv.org/abs/2610.10918</link>
-      <guid isPermaLink="false">arxiv:2610.10918</guid>
+      <title>[Paper] Language Models for Page-Level Layout Decisions in E-commerce Search</title>
+      <link>https://arxiv.org/abs/2610.10920</link>
+      <guid isPermaLink="false">arxiv:2610.10920</guid>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <category>arxiv</category>
-      <description>Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation (MT) evaluation. With MT evaluation spanning a large number of language pairs, domains and levels…</description>
+      <description>E-commerce search pages are critical touchpoints for millions of online shoppers. While traditional search engines return a ranked list of results, modern E-commerce search pages increasingly incorporate recommender system modules -- for…</description>
+    </item>
+    <item>
+      <title>[Paper] StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents</title>
+      <link>https://arxiv.org/abs/2610.10942</link>
+      <guid isPermaLink="false">arxiv:2610.10942</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Reinforcement learning environments are now a primary lever for improving large language model (LLM) capabilities in post-training, yet most agentic benchmarks remain static: the world moves only when the agent acts, the reward is a…</description>
     </item>
     <item>
       <title>[Paper] AI4Fire: Evaluating Large Language Models on Wildfire Tasks</title>
@@ -240,6 +752,14 @@
       <description>Multiple institutions may each hold their own private knowledge edits and wish to integrate them into a single large language model without sharing raw edit requests. Null-space-constrained editing methods such as AlphaEdit mathematically…</description>
     </item>
     <item>
+      <title>[Paper] Measuring and Mitigating Solution Mode Collapse in RLVR</title>
+      <link>https://arxiv.org/abs/2610.11064</link>
+      <guid isPermaLink="false">arxiv:2610.11064</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>A language model (LM) can usually answer the same question in more than one way, but reinforcement learning with verifiable rewards (RLVR) is indifferent to which correct answer a model produces. A solution will earn the same reward…</description>
+    </item>
+    <item>
       <title>[Paper] Clinician use of language models diverges from how the models are evaluated</title>
       <link>https://arxiv.org/abs/2610.11069</link>
       <guid isPermaLink="false">arxiv:2610.11069</guid>
@@ -254,6 +774,14 @@
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <category>arxiv</category>
       <description>Time Series Language Models (TSLMs) offer a promising path toward time series understanding by reasoning over temporal signals and producing natural language answers and explanations. A common approach is Chain-of-Thought (CoT), which…</description>
+    </item>
+    <item>
+      <title>[Paper] GameCommBench: A Unified Benchmark and Type-Aware Evaluation for AI-Generated Game Commentary</title>
+      <link>https://arxiv.org/abs/2610.11129</link>
+      <guid isPermaLink="false">arxiv:2610.11129</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Game commentary is an open-ended generation task requiring multimodal perception, strategic reasoning, and contextual knowledge. Existing AI-Generated Game Commentary (AI-GGC) studies remain fragmented across games, modalities, and…</description>
     </item>
     <item>
       <title>[Paper] SFT-as-Context Mitigates Forgetting in Supervised Fine-Tuning</title>
@@ -278,534 +806,6 @@
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <category>arxiv</category>
       <description>Presupposing the boundaries of bias is itself a form of bias. We study closed-loop bias governance for Dutch government documents, where a system must detect biased language, ground decisions in legal and contextual evidence, rewrite…</description>
-    </item>
-    <item>
-      <title>[Paper] Local Prototype Reconstruction for Text-Compatible Speech-to-LLM Bridge Pretraining</title>
-      <link>https://arxiv.org/abs/2610.11159</link>
-      <guid isPermaLink="false">arxiv:2610.11159</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Speech-to-LLM systems often connect a frozen speech encoder to a frozen large language model (LLM) through a small trainable bridge. The bridge is usually treated as plumbing, but it in fact defines the geometry of the speech-to-LLM…</description>
-    </item>
-    <item>
-      <title>[Paper] LadderEdit: Edit-Level Residual Compression for Memory-Efficient Lifelong Editing of LLMs</title>
-      <link>https://arxiv.org/abs/2610.11160</link>
-      <guid isPermaLink="false">arxiv:2610.11160</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Lifelong editing of LLMs requires storing thousands of edits after acquisition. A widely used family of approaches attaches one LoRA adapter per edit, which preserves behavior but grows linearly in storage. To address this challenge, we…</description>
-    </item>
-    <item>
-      <title>[Paper] RAG-Stress: Probing the Limits of Evidence Reliance in Retrieval-Augmented Generation</title>
-      <link>https://arxiv.org/abs/2610.11183</link>
-      <guid isPermaLink="false">arxiv:2610.11183</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Following retrieved evidence does not guarantee factual correctness: misleading evidence can induce a model to replace an answer it previously gave correctly. Standard accuracy measures obscure this behavior by combining answer…</description>
-    </item>
-    <item>
-      <title>[Paper] Gated Memory: Admission-Controlled Memory Formation for Conversational AI</title>
-      <link>https://arxiv.org/abs/2610.11270</link>
-      <guid isPermaLink="false">arxiv:2610.11270</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Personalized conversational AI relies on long-term memory systems that extract facts from user utterances and store them in persistent vector stores. Despite progress in retrieval, deduplication, and lifecycle management, the formation…</description>
-    </item>
-    <item>
-      <title>[Paper] Phonological Interference in Multilingual Speech Models</title>
-      <link>https://arxiv.org/abs/2610.11275</link>
-      <guid isPermaLink="false">arxiv:2610.11275</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Phoneme-level models transcribe or generate speech as a sequence of phonemes, the smallest sound units that distinguish words. These models enable fine-grained pronunciation control and understanding, yet often fail on input that does not…</description>
-    </item>
-    <item>
-      <title>[Paper] REMORY: Learning Residual Memory for Context Compaction</title>
-      <link>https://arxiv.org/abs/2610.11287</link>
-      <guid isPermaLink="false">arxiv:2610.11287</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Long-horizon agents compact their history to continue within a finite context window, but a textual summary alone may not support every subsequent decision. We introduce REMORY, a neural memory network that supplements the summary with a…</description>
-    </item>
-    <item>
-      <title>[Paper] When Do We Need On-Policy Distillation? Distilling on Offline Student Rollouts Is Often Better</title>
-      <link>https://arxiv.org/abs/2610.11291</link>
-      <guid isPermaLink="false">arxiv:2610.11291</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>On-policy distillation (OPD) has become increasingly popular for transferring teacher capabilities to student models. In this work, we ask a critical research question: Is on-policy sampling always beneficial for distilling arbitrary…</description>
-    </item>
-    <item>
-      <title>[Paper] BeliefScope: Diagnosing Evidence-Driven Revision and Pressure-Induced Shifts in Large Language Models</title>
-      <link>https://arxiv.org/abs/2610.11305</link>
-      <guid isPermaLink="false">arxiv:2610.11305</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>A language model may revise the same proposition after receiving genuinely relevant evidence or after receiving directional user pressure that adds no relevant fact. The observable response shift alone therefore does not reveal which…</description>
-    </item>
-    <item>
-      <title>[Paper] From Retrieval to Reconstruction: Constructing Evolvable Cognitive Memory for Long-Term Dialogue</title>
-      <link>https://arxiv.org/abs/2610.11314</link>
-      <guid isPermaLink="false">arxiv:2610.11314</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large Language Models (LLMs) serving as long-term dialogue agents require memory systems that support reliable reasoning over extended interactions. However, existing Retrieval-Augmented Generation (RAG) frameworks typically treat memory…</description>
-    </item>
-    <item>
-      <title>[Paper] MetaEncoder: Exploring the Limit of Bi-Encoders for Multimodal System One Decision Making with Natural Language Interface</title>
-      <link>https://arxiv.org/abs/2610.11316</link>
-      <guid isPermaLink="false">arxiv:2610.11316</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>System One models output constrained decisions and probability distributions rather than free-form text generation. While prevailing paradigms rely on structured schema objects to encode state, intent, and candidate choices, we revisit a…</description>
-    </item>
-    <item>
-      <title>[Paper] ReCal: Calibrating Structured Pruning for On-Policy Distillation Recovery</title>
-      <link>https://arxiv.org/abs/2610.11332</link>
-      <guid isPermaLink="false">arxiv:2610.11332</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Structured pruning reduces the deployment cost of reasoning language models, but the resulting capability degradation can hinder subsequent on-policy distillation (OPD) recovery. Because OPD relies on student-generated trajectories,…</description>
-    </item>
-    <item>
-      <title>[Paper] Deception by Omission: Language Models Knowingly Hide Their Mistakes</title>
-      <link>https://arxiv.org/abs/2610.11351</link>
-      <guid isPermaLink="false">arxiv:2610.11351</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language models (LLMs) increasingly act as agents with little human oversight, so potential mistakes they make can go unnoticed. Users then depend on the model to report what went wrong. An honest model discloses its mistakes, while…</description>
-    </item>
-    <item>
-      <title>[Paper] AdaptEvo: Adaptive Agent Learning with Evolving Supervision</title>
-      <link>https://arxiv.org/abs/2610.11354</link>
-      <guid isPermaLink="false">arxiv:2610.11354</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Rule-governed contextual decision tasks require models to apply specified rules to case-specific context and evidence. Written rules can leave gaps in decision guidance and process evaluation, while reference judgments vary in their…</description>
-    </item>
-    <item>
-      <title>[Paper] SignRAG: Unified Retrieval-Augmented Gloss-Free Sign Language Translation</title>
-      <link>https://arxiv.org/abs/2610.11371</link>
-      <guid isPermaLink="false">arxiv:2610.11371</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Contemporary decoder-only large language models (LLMs) have demonstrated strong capabilities across a wide range of domains. However, existing pretraining paradigms for gloss-free sign language translation (SLT) are largely designed…</description>
-    </item>
-    <item>
-      <title>[Paper] Fact over Fiction: Detection of Pathological Hallucinations in Sinhala-to-English Neural Machine Translation</title>
-      <link>https://arxiv.org/abs/2610.11389</link>
-      <guid isPermaLink="false">arxiv:2610.11389</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Neural Machine Translation (NMT) models, while capable of producing highly fluent outputs, remain vulnerable to hallucinations, which are translations that are natural yet semantically unrelated to the source. This vulnerability is acute…</description>
-    </item>
-    <item>
-      <title>[Paper] BioBigBird: A Sparse Attention Model for Long-Range Dependency Processing in Biomedical Text</title>
-      <link>https://arxiv.org/abs/2610.11430</link>
-      <guid isPermaLink="false">arxiv:2610.11430</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>While domain-specific Large Language Models (LLMs) have encoded vast biomedical knowledge, their limited context windows often hinder a deep understanding of nuanced relationships within and across texts. To address this limitation, we…</description>
-    </item>
-    <item>
-      <title>[Paper] Adversarial Cues in Decision Models Used as Judges: The Role of Request Presentation</title>
-      <link>https://arxiv.org/abs/2610.11436</link>
-      <guid isPermaLink="false">arxiv:2610.11436</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>An answer judge instructed to grade the final commitment should reject an explicitly wrong final value even when an earlier value matches the reference. We show that adding one colon to a candidate can violate this requirement depending…</description>
-    </item>
-    <item>
-      <title>[Paper] SAIL: Scientific Agentic Intelligence via a Science-Aware Loop</title>
-      <link>https://arxiv.org/abs/2610.11451</link>
-      <guid isPermaLink="false">arxiv:2610.11451</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>We introduce SAIL, an open model with 35B total and 3B active parameters for literature research, scientific coding, and multi-step research workflows. SAIL is developed through a science-aware improvement loop: agents built on frontier…</description>
-    </item>
-    <item>
-      <title>[Paper] Beyond Sequences: Distilling Structured Decision Memory for LLM Recommendation</title>
-      <link>https://arxiv.org/abs/2610.11501</link>
-      <guid isPermaLink="false">arxiv:2610.11501</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Despite the adoption of large language models (LLMs) in recommendation systems, prevailing approaches mostly model single-type behaviors (e.g., views or purchases). Even when incorporating multiple behaviors, existing methods flatten…</description>
-    </item>
-    <item>
-      <title>[Paper] Residual Advantage: Student-Relative Teacher Guidance for RL with Verifiable Rewards</title>
-      <link>https://arxiv.org/abs/2610.11519</link>
-      <guid isPermaLink="false">arxiv:2610.11519</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Reinforcement learning with verifiable rewards (RLVR) and on-policy distillation (OPD) have become two main paradigms for post-training reasoning models. RLVR gives each response a single outcome label, leaving the steps inside it without…</description>
-    </item>
-    <item>
-      <title>[Paper] When Can You Prune Your Network? A Study of Intermediate Neurons in Multilingual Speech Parsing</title>
-      <link>https://arxiv.org/abs/2610.11520</link>
-      <guid isPermaLink="false">arxiv:2610.11520</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>End-to-end speech parsing, a task recently proposed, consists in predicting both the transcription and the syntactic tree for a spoken utterance. Existing architectures for speech parsing often utilise intermediate neural networks. In…</description>
-    </item>
-    <item>
-      <title>[Paper] Constitutional Gating and Deterministic Recovery for Multi-Agent LLM Negotiation: Ablations Against a Stateful Adversarial Gatekeeper</title>
-      <link>https://arxiv.org/abs/2610.11542</link>
-      <guid isPermaLink="false">arxiv:2610.11542</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Multi-agent LLM systems negotiating with a stateful counterpart waste model calls in three ways: polite loops that never meet the counterpart's hidden acceptance condition, malformed outputs that trigger retries, and compliance deadlocks…</description>
-    </item>
-    <item>
-      <title>[Paper] Learning the Loop, Not Just the Page: Execution-Grounded Loop Learning for Web Generation</title>
-      <link>https://arxiv.org/abs/2610.11543</link>
-      <guid isPermaLink="false">arxiv:2610.11543</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Functional Web generation is increasingly optimized with executable rewards, yet existing methods largely focus on the quality of the final page and leave the process of diagnosing and repairing imperfect implementations underexplored. We…</description>
-    </item>
-    <item>
-      <title>[Paper] Prosody-to-Text: Predicting text from low-pass filtered speech</title>
-      <link>https://arxiv.org/abs/2610.11544</link>
-      <guid isPermaLink="false">arxiv:2610.11544</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>While predicting prosody from text is an established task in the field, the opposite direction, predicting text that fits a given prosodic pattern, remains largely overlooked. We find this unfortunate, because this opposite direction…</description>
-    </item>
-    <item>
-      <title>[Paper] SWE-Journey: Towards More Realistic Evaluation of Coding Assistants through Long-Horizon, Multi-Turn Interaction</title>
-      <link>https://arxiv.org/abs/2610.11559</link>
-      <guid isPermaLink="false">arxiv:2610.11559</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Coding assistants such as Claude Code and Codex have become a major application of LLM agents, yet existing benchmarks remain far from real-world use, particularly in task horizon and interaction length. Code assistants require completing…</description>
-    </item>
-    <item>
-      <title>[Paper] Incremental Open-Ended Deep Research with Structured Harness</title>
-      <link>https://arxiv.org/abs/2610.11566</link>
-      <guid isPermaLink="false">arxiv:2610.11566</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Existing Open-Ended Deep Research (OEDR) systems primarily generate reports from scratch, making them inefficient for scenarios where research reports need to be continuously maintained as new information emerges. We introduce…</description>
-    </item>
-    <item>
-      <title>[Paper] Smoothing the Top-k Exposure Boundary for Sparse Mixture-of-Experts</title>
-      <link>https://arxiv.org/abs/2610.11575</link>
-      <guid isPermaLink="false">arxiv:2610.11575</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Sparse Mixture-of-Experts models scale parameter capacity efficiently while maintaining a fixed compute budget per token. However, traditional training paradigms enforce a static choice of top-$k$ experts, which converts a continuous…</description>
-    </item>
-    <item>
-      <title>[Paper] Adapting English Quality Classifiers for Multilingual LLM Pretraining Data Selection</title>
-      <link>https://arxiv.org/abs/2610.11585</link>
-      <guid isPermaLink="false">arxiv:2610.11585</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Recent advances in large language model (LLM) pretraining highlight the role of high-quality training data in improving performance. While model-based filtering has proven effective in selecting high-quality subsets from web-scale…</description>
-    </item>
-    <item>
-      <title>[Paper] Measuring Cultural Alignment Beyond the Average: A Framework for Evaluating Maternal-Health LLM Interactions in Indian Contexts</title>
-      <link>https://arxiv.org/abs/2610.11586</link>
-      <guid isPermaLink="false">arxiv:2610.11586</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Existing evaluation methods for healthcare LLMs primarily assess factual correctness,safety, and fluency, while providing limited insight into whether generated interactions reflect culturally situated healthcare reasoning. This…</description>
-    </item>
-    <item>
-      <title>[Paper] Probing for Long-Horizon Deductive Reasoning Capabilities in Language Models with Prolog</title>
-      <link>https://arxiv.org/abs/2610.11592</link>
-      <guid isPermaLink="false">arxiv:2610.11592</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Current frontier LLMs can theoretically process long contexts with 1M tokens or more. But to what extent can they go beyond simple retrieval and perform deeper reasoning over such long contexts? We empirically investigate long-horizon…</description>
-    </item>
-    <item>
-      <title>[Paper] Large Language Model Turnover Undermines Screening for Artificial Intelligence-Assisted Scientific Writing</title>
-      <link>https://arxiv.org/abs/2610.11599</link>
-      <guid isPermaLink="false">arxiv:2610.11599</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Journals and conferences have begun to screen submitted manuscripts for text written using large language models (LLMs). The reliability of this screening rests on benchmark evaluations against a fixed set of LLM versions, while the…</description>
-    </item>
-    <item>
-      <title>[Paper] UXBench Pro: Benchmarking Personalized User Experience in Multi-Turn Dialogue Interactions</title>
-      <link>https://arxiv.org/abs/2610.11638</link>
-      <guid isPermaLink="false">arxiv:2610.11638</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Evaluating user experience (UX) with automated computational methods has gained increasing attention, supported by empirical evidence from UXBench. However, binary preference prediction provides limited insight, while relying on a single…</description>
-    </item>
-    <item>
-      <title>[Paper] Phonologically Informed Tokenization for German Speech Recognition: A Cross-Domain Study</title>
-      <link>https://arxiv.org/abs/2610.11646</link>
-      <guid isPermaLink="false">arxiv:2610.11646</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>German is a morphologically rich language whose syllable structure is exceptionally well-predicted by the Knuth--Liang hyphenation algorithm. We ask whether phonologically informed tokenization can serve as a competitive target for…</description>
-    </item>
-    <item>
-      <title>[Paper] DIAL-OPD: Learning More from Fewer Tokens in On-Policy Distillation</title>
-      <link>https://arxiv.org/abs/2610.11659</link>
-      <guid isPermaLink="false">arxiv:2610.11659</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>On-policy distillation (OPD) supervises student-generated trajectories with token-level teacher signals. Its sampled-token variant avoids the cost of full-vocabulary probabilities. Yet we find that training on fewer tokens can outperform…</description>
-    </item>
-    <item>
-      <title>[Paper] TRACE: Diagnosing Verifier Brittleness in Agentic Evaluation</title>
-      <link>https://arxiv.org/abs/2610.11678</link>
-      <guid isPermaLink="false">arxiv:2610.11678</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Verifier scores now serve as both benchmark metrics and training rewards for large language model (LLM) agents, and a change in score is routinely read as a change in capability. It may instead reflect a change in the evaluation. We…</description>
-    </item>
-    <item>
-      <title>[Paper] Thinking Inertia: LLMs Keep Thinking When Told Not To</title>
-      <link>https://arxiv.org/abs/2610.11765</link>
-      <guid isPermaLink="false">arxiv:2610.11765</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large Language Models (LLMs) increasingly ship with explicit "thinking modes", yet their counterpart, "no-thinking", has received far less attention. We study LLMs' no-thinking behavior along two axes. a. How to measure no-thinking? Prior…</description>
-    </item>
-    <item>
-      <title>[Paper] Same Outcome, Different Evidence: Intent Recovery in LLM Safety Evaluation</title>
-      <link>https://arxiv.org/abs/2610.11766</link>
-      <guid isPermaLink="false">arxiv:2610.11766</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Safety evaluations of large language models commonly summarize harmful-output behavior with attack success rate (ASR). Yet the same non-harmful outcome can arise for very different reasons. A model may recover a harmful task and refuse…</description>
-    </item>
-    <item>
-      <title>[Paper] DPPM: Dual-Path Parametric Memory for Personalized Language Models</title>
-      <link>https://arxiv.org/abs/2610.11776</link>
-      <guid isPermaLink="false">arxiv:2610.11776</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Long-term personalization requires language models to use interaction history to track users' preferences across sessions. Parametric memory encodes this interaction history into model parameters or adapters, reducing the need to include…</description>
-    </item>
-    <item>
-      <title>[Paper] From Sparse Representations to Behavioral Insights for Multimodal Depression Assessment</title>
-      <link>https://arxiv.org/abs/2610.11787</link>
-      <guid isPermaLink="false">arxiv:2610.11787</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Multimodal depression assessment offers a promising approach to analyzing behavioral patterns associated with depression. However, existing methods often rely on dense and opaque multimodal representations, making it difficult to…</description>
-    </item>
-    <item>
-      <title>[Paper] Easy to anticipate, hard to compute: boundary dependence finds the computed outputs that entropy patching misses</title>
-      <link>https://arxiv.org/abs/2610.11790</link>
-      <guid isPermaLink="false">arxiv:2610.11790</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Byte-level language models such as the Byte Latent Transformer (BLT) group bytes into patches and run their large global model once per patch. BLT starts a patch where a small model's next-byte entropy is high, so global compute goes…</description>
-    </item>
-    <item>
-      <title>[Paper] Detecting Spin in Clinical Trials with Large Language Models</title>
-      <link>https://arxiv.org/abs/2610.11845</link>
-      <guid isPermaLink="false">arxiv:2610.11845</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Spin in clinical trials includes reporting practices that distort the presentation of results. This is particularly critical in medicine, where spin is present in more than 50% of randomized controlled trials that fail to reach…</description>
-    </item>
-    <item>
-      <title>[Paper] Forms of LLM-Integrated Applications from LLM-Chats to Autonomous AI Agent System</title>
-      <link>https://arxiv.org/abs/2610.11899</link>
-      <guid isPermaLink="false">arxiv:2610.11899</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language models (LLMs) are increasingly embedded as components in software systems, marketed under labels such as chatbot, copilot, retrieval-augmented generation, workflow, coding agent and AI agent. Whether these labels denote…</description>
-    </item>
-    <item>
-      <title>[Paper] Can Decision Models Understand Stance? Evaluating Jev Against General-Purpose LLMs</title>
-      <link>https://arxiv.org/abs/2610.11901</link>
-      <guid isPermaLink="false">arxiv:2610.11901</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Stance detection requires identifying an author's attitude toward a given target, sometimes based on conversational context. Jev, a specialized decision model designed for structured decision-making, offers an alternative to…</description>
-    </item>
-    <item>
-      <title>[Paper] Not Every Change Is Necessary: Recoverable Drift in Large Language Model Unlearning</title>
-      <link>https://arxiv.org/abs/2610.11915</link>
-      <guid isPermaLink="false">arxiv:2610.11915</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Machine unlearning in large language models aims to remove unwanted knowledge while preserving the model's remaining capabilities. Although existing methods use retention objectives or restrict where edits occur, achieving the desired…</description>
-    </item>
-    <item>
-      <title>[Paper] Event-Centric Memory with Query-Aware Graph Augmentation for Long-Term Conversational Agents</title>
-      <link>https://arxiv.org/abs/2610.11920</link>
-      <guid isPermaLink="false">arxiv:2610.11920</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>For persistent and personalized conversational agents, memory systems can enable them to remember, update, and reason over long histories by storing past interactions and retrieving relevant information. Existing memory systems typically…</description>
-    </item>
-    <item>
-      <title>[Paper] When History Helps and Hurts: Selective History Use across Multimodal Turns</title>
-      <link>https://arxiv.org/abs/2610.11948</link>
-      <guid isPermaLink="false">arxiv:2610.11948</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Reliable multimodal interaction depends on selective use of conversational history: an earlier question may remain relevant while its previous answer is outdated, whereas a current request may depend on historical evidence despite…</description>
-    </item>
-    <item>
-      <title>[Paper] MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement</title>
-      <link>https://arxiv.org/abs/2610.11959</link>
-      <guid isPermaLink="false">arxiv:2610.11959</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement. This report introduces the MiMo-V2.6 series, an omni-modal family that pushes the frontier of model intelligence…</description>
-    </item>
-    <item>
-      <title>[Paper] Specialized Decision Models vs. General-Purpose LLMs: Benchmarking Jev Across Knowledge, Reasoning, and Multilingual Tasks</title>
-      <link>https://arxiv.org/abs/2610.11978</link>
-      <guid isPermaLink="false">arxiv:2610.11978</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Jev is a "System One" model that returns a choice among given options instead of generating text. We study how such a specialized decision model compares with general-purpose large language models (LLMs). We evaluate Jev on 13…</description>
-    </item>
-    <item>
-      <title>[Paper] Examining Social Attribution in LLM Reasoning: A Theory-Guided Probing Methodology</title>
-      <link>https://arxiv.org/abs/2610.12022</link>
-      <guid isPermaLink="false">arxiv:2610.12022</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language models (LLMs) are increasingly deployed in sociotechnical systems where social attribution, the reasoning process attributing external events to the causes and reasons of agents' social behaviors, plays a critical role.…</description>
-    </item>
-    <item>
-      <title>[Paper] Natural Language to First-Order Logic LLM-based Autoformalization</title>
-      <link>https://arxiv.org/abs/2610.12030</link>
-      <guid isPermaLink="false">arxiv:2610.12030</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large Language Models (LLMs) have renewed interest in autoformalization. Yet, when First-Order Logic (FOL) is considered as the target formalism, the field still lacks a unified task formulation and a systematic survey. This paper…</description>
-    </item>
-    <item>
-      <title>[Paper] ILM: An AI-Powered Storytelling Educational Tool</title>
-      <link>https://arxiv.org/abs/2610.12064</link>
-      <guid isPermaLink="false">arxiv:2610.12064</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Digital technologies have made Islamic narratives more accessible, but existing platforms provide limited support for structured learning and comprehension of these stories, particularly in Arabic and multilingual settings. We present…</description>
-    </item>
-    <item>
-      <title>[Paper] All Verdicts are Not Equal: Rethinking LLM Judge Reliability</title>
-      <link>https://arxiv.org/abs/2610.12083</link>
-      <guid isPermaLink="false">arxiv:2610.12083</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>LLM-as-a-Judge is the standard paradigm for NLP evaluation, yet its systemic reliability remains poorly understood despite being widely treated as a deterministic ground truth. We present a comprehensive reliability audit, stresstesting…</description>
-    </item>
-    <item>
-      <title>[Paper] A persistent accuracy ceiling in automated verbal deception detection</title>
-      <link>https://arxiv.org/abs/2610.12118</link>
-      <guid isPermaLink="false">arxiv:2610.12118</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Automated methods have been proposed to overcome the limitations of human verbal deception detection, but evidence remains fragmented across disciplines. We systematically reviewed 25 years of research (289 reports, 6,136 classification…</description>
-    </item>
-    <item>
-      <title>[Paper] Rehearse Everything, Remember Nothing: Attic-KV Rehearses What Will Be Read</title>
-      <link>https://arxiv.org/abs/2610.12133</link>
-      <guid isPermaLink="false">arxiv:2610.12133</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Many key-value (KV) caches are compressed before anyone knows what will be asked of them: a document cached for retrieval, a prompt prefix shared across requests, the memory of a long conversation. The prevailing approach scores KV…</description>
-    </item>
-    <item>
-      <title>[Paper] Language-Specific Effects of Tokenizer Choice in Multilingual Language Models</title>
-      <link>https://arxiv.org/abs/2610.12144</link>
-      <guid isPermaLink="false">arxiv:2610.12144</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Tokenizer choice affects multilingual language modeling, but vocabulary capacity is finite and vocabulary size is often constrained: improving representation for some languages often comes at the expense of others. We therefore ask…</description>
-    </item>
-    <item>
-      <title>[Paper] SciTBERT: A family of chronologically consistent language models for scientific and technological language processing</title>
-      <link>https://arxiv.org/abs/2610.12207</link>
-      <guid isPermaLink="false">arxiv:2610.12207</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Pre-trained transformer models are increasingly being used to study scientific and technological progress. Encoders tuned to paper or patent text outperform general-purpose models on downstream classification, regression, and proximity…</description>
-    </item>
-    <item>
-      <title>[Paper] Language Models as AI Research World Models</title>
-      <link>https://arxiv.org/abs/2610.12235</link>
-      <guid isPermaLink="false">arxiv:2610.12235</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>AI research agents automate the cycle of proposing, implementing, and evaluating experiments, opening a path toward recursive self-improvement. Yet their ability to propose experiments outpaces their capacity to execute them in real…</description>
-    </item>
-    <item>
-      <title>[Paper] TokenRouter: Efficient Serving System for Token-Level LLM Routing</title>
-      <link>https://arxiv.org/abs/2610.12242</link>
-      <guid isPermaLink="false">arxiv:2610.12242</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language model (LLM) routing distributes inference work across different models, advancing the cost-quality Pareto frontier of LLM serving. While coarse-grained routing at the session or query level has been widely adopted in…</description>
-    </item>
-    <item>
-      <title>[Paper] EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams</title>
-      <link>https://arxiv.org/abs/2610.12248</link>
-      <guid isPermaLink="false">arxiv:2610.12248</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Wearable augmented reality (AR) assistants are moving toward continuous real-world interaction, where they perceive the user's activity through first-person video and audio and provide timely spoken guidance without being explicitly…</description>
-    </item>
-    <item>
-      <title>[Paper] HarnessSQL: Harness-Native Training for SQL Agents in Realistic Database Environments</title>
-      <link>https://arxiv.org/abs/2610.12274</link>
-      <guid isPermaLink="false">arxiv:2610.12274</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Text-to-SQL models are commonly trained to map questions directly to static queries, whereas real-world database agents operate through stateful, multi-turn interaction with live databases -- inspecting schemas, executing probe queries,…</description>
-    </item>
-    <item>
-      <title>[Paper] VFold: Symmetry-Aware Cross-Layer Value Cache Compression</title>
-      <link>https://arxiv.org/abs/2610.12338</link>
-      <guid isPermaLink="false">arxiv:2610.12338</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>While caching key-value (KV) states accelerates Large Language Model (LLM) decoding, this cache can dominate memory usage at long context lengths. One solution is to compress this memory by exploiting inter-layer cache similarities.…</description>
-    </item>
-    <item>
-      <title>[Paper] Which Skill to Distill? SGUID: Selecting a Compact Skill Bank for Model-Skill Co-Evolution</title>
-      <link>https://arxiv.org/abs/2610.12367</link>
-      <guid isPermaLink="false">arxiv:2610.12367</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Skills, reusable procedural guidance added at inference, can substantially improve LLM downstream performance (Li et al., 2026). Prior work retrieves skills from a bank by semantic relevance, then uses them as inference-time patches or…</description>
-    </item>
-    <item>
-      <title>[Paper] Latent Core Tokenizer: Compress, but Meaningfully</title>
-      <link>https://arxiv.org/abs/2610.12376</link>
-      <guid isPermaLink="false">arxiv:2610.12376</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Tokenizers are commonly optimized for compression, but a compact vocabulary does not necessarily distribute its capacity evenly across languages. We introduce the Latent Core Tokenizer (LCT), a language-agnostic approach that separates…</description>
-    </item>
-    <item>
-      <title>[Paper] Predicting Alignment Generalization with Value Representations</title>
-      <link>https://arxiv.org/abs/2610.12410</link>
-      <guid isPermaLink="false">arxiv:2610.12410</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>LLM developers post-train their models to exhibit prosocial values and behavioral traits, which are enumerated in an alignment target. However, while recent post-training developments have yielded models that score highly on alignment…</description>
-    </item>
-    <item>
-      <title>[Paper] An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment</title>
-      <link>https://arxiv.org/abs/2610.10541</link>
-      <guid isPermaLink="false">arxiv:2610.10541</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values are unavailable,…</description>
-    </item>
-    <item>
-      <title>[Paper] WorldBench: Evaluating LLMs on Three.js Voxel World Generation</title>
-      <link>https://arxiv.org/abs/2610.10622</link>
-      <guid isPermaLink="false">arxiv:2610.10622</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language models can now write complete, interactive 3D worlds as code, but grading those worlds automatically is unreliable. Existing judges take one view of the output: a vision-language model scores a few rendered snapshots, or a…</description>
     </item>
   </channel>
 </rss>
