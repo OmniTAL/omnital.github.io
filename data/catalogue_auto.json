@@ -33239,12 +33239,18 @@
    "lien": "https://huggingface.co/flowxai/topic-scope-v2",
    "added": "2026-09-30",
    "focus": true,
-   "region": "International",
+   "region": "France",
    "description": {
     "fr": "Modèle publié sur Hugging Face par flowxai le 30 septembre 2026. Tâche : classification de textes. Dérivé de FacebookAI/xlm-roberta-base.",
     "en": "Model published on Hugging Face by flowxai on 30 September 2026. Task: text classification. Fine-tuned from FacebookAI/xlm-roberta-base."
    },
-   "notice_by": "règles"
+   "notice_by": "règles",
+   "city": "Paris",
+   "lat": 48.8567,
+   "lng": 2.3522,
+   "pays": "France",
+   "geo_precision": "organisation",
+   "geo_source": "Hugging Face · FLOWX.AI"
   },
   "hf:models:dawsonvosburg/parakeet-ultra-gguf": {
    "id": "hf:models:dawsonvosburg/parakeet-ultra-gguf",
@@ -46155,13 +46161,19 @@
    "lien": "https://huggingface.co/Cloudflare/clef",
    "added": "2026-09-30",
    "focus": false,
-   "region": "International",
+   "region": "États-Unis",
    "trending": true,
    "description": {
     "fr": "Modèle publié sur Hugging Face par Cloudflare le 30 septembre 2026. Tâche : vision-langage.",
     "en": "Model published on Hugging Face by Cloudflare on 30 September 2026. Task: image text to text."
    },
-   "notice_by": "règles"
+   "notice_by": "règles",
+   "city": "San Francisco",
+   "lat": 37.775,
+   "lng": -122.4194,
+   "pays": "États-Unis",
+   "geo_precision": "organisation",
+   "geo_source": "Hugging Face · Cloudflare"
   },
   "hf:models:convaiinnovations/laya": {
    "id": "hf:models:convaiinnovations/laya",
@@ -46221,13 +46233,19 @@
    "lien": "https://huggingface.co/Cloudflare/clef-flash",
    "added": "2026-09-30",
    "focus": false,
-   "region": "International",
+   "region": "États-Unis",
    "trending": true,
    "description": {
     "fr": "Modèle publié sur Hugging Face par Cloudflare le 30 septembre 2026. Tâche : vision-langage.",
     "en": "Model published on Hugging Face by Cloudflare on 30 September 2026. Task: image text to text."
    },
-   "notice_by": "règles"
+   "notice_by": "règles",
+   "city": "San Francisco",
+   "lat": 37.775,
+   "lng": -122.4194,
+   "pays": "États-Unis",
+   "geo_precision": "organisation",
+   "geo_source": "Hugging Face · Cloudflare"
   },
   "hf:models:Qwen/Qwen3.8-27B": {
    "id": "hf:models:Qwen/Qwen3.8-27B",
@@ -46287,13 +46305,19 @@
    "lien": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
    "added": "2026-10-02",
    "focus": false,
-   "region": "International",
+   "region": "Allemagne",
    "trending": true,
    "description": {
     "fr": "Modèle publié sur Hugging Face par Aleph-Alpha le 2 octobre 2026. Tâche : génération de texte.",
     "en": "Model published on Hugging Face by Aleph-Alpha on 2 October 2026. Task: text generation."
    },
-   "notice_by": "règles"
+   "notice_by": "règles",
+   "city": "Heidelberg",
+   "lat": 49.4094,
+   "lng": 8.6947,
+   "pays": "Allemagne",
+   "geo_precision": "organisation",
+   "geo_source": "Hugging Face · Aleph Alpha"
   },
   "hf:models:Contrastive-LM/CLM-v0.1-8B": {
    "id": "hf:models:Contrastive-LM/CLM-v0.1-8B",
@@ -46506,13 +46530,19 @@
    "lien": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
    "added": "2026-09-10",
    "focus": false,
-   "region": "International",
+   "region": "république populaire de Chine",
    "trending": true,
    "description": {
     "fr": "Modèle publié sur Hugging Face par deepseek-ai le 10 septembre 2026. Tâche : vision-langage.",
     "en": "Model published on Hugging Face by deepseek-ai on 10 September 2026. Task: image text to text."
    },
-   "notice_by": "règles"
+   "notice_by": "règles",
+   "city": "Hangzhou",
+   "lat": 30.25,
+   "lng": 120.1675,
+   "pays": "république populaire de Chine",
+   "geo_precision": "organisation",
+   "geo_source": "Hugging Face · DeepSeek"
   },
   "hf:models:Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw": {
    "id": "hf:models:Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
@@ -46748,13 +46778,19 @@
    "lien": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
    "added": "2026-07-28",
    "focus": false,
-   "region": "International",
+   "region": "république populaire de Chine",
    "trending": true,
    "description": {
     "fr": "Modèle publié sur Hugging Face par MiniMaxAI le 28 juillet 2026. Tâche : image text to video.",
     "en": "Model published on Hugging Face by MiniMaxAI on 28 July 2026. Task: image text to video."
    },
-   "notice_by": "règles"
+   "notice_by": "règles",
+   "city": "Shanghaï",
+   "lat": 31.2325,
+   "lng": 121.4692,
+   "pays": "république populaire de Chine",
+   "geo_precision": "organisation",
+   "geo_source": "Hugging Face · MiniMax"
   },
   "hf:models:ukisai/Swift-1.5-Qwen3.8-27B-GSQ-RCO-GGUF": {
    "id": "hf:models:ukisai/Swift-1.5-Qwen3.8-27B-GSQ-RCO-GGUF",
@@ -56050,7 +56086,7 @@
     "en": "The workshop will be held as a self-standing event on December 9-11, 2026, at Ludwig-Maximilians-Universität München (Germany). Proceedings will be published in the ACL Anthology. The event takes place in München (Germany) from 9 December 2026 to 11 December 2026. Paper submission deadline: 11 October 2026. Author notification: 2 November 2026."
    },
    "notice_by": "règles",
-   "deadline_next": "2026-10-11"
+   "deadline_next": null
   },
   "wikicfp:203475": {
    "id": "wikicfp:203475",
@@ -61775,13 +61811,13 @@
    "langue": "Eng",
    "licence": "cc-by-nc-sa-4.0",
    "licence_class": "open",
-   "lien": "https://zenodo.org/records/23148489",
+   "lien": "https://zenodo.org/records/23312512",
    "added": "2026-10-05",
    "focus": false,
    "region": "International",
    "description": {
-    "fr": "Logiciel déposé sur Zenodo le 5 octobre 2026 par Parikh, Yash Rajeshbhai. Langue(s) : eng. Licence : cc-by-nc-sa-4.0. This record contains the code that prepares the four public randomised experiments (Hillstrom, X5 RetailHero, Lenta, Criteo), runs the LLM agents and uplift baselines, and regenerates every number, table and figure of…",
-    "en": "Software deposited on Zenodo on 5 October 2026 by Parikh, Yash Rajeshbhai. Language(s): eng. License: cc-by-nc-sa-4.0. This record contains the code that prepares the four public randomised experiments (Hillstrom, X5 RetailHero, Lenta, Criteo), runs the LLM agents and uplift baselines, and regenerates every number, table and figure of…"
+    "fr": "Logiciel déposé sur Zenodo le 12 octobre 2026 par Parikh, Yash Rajeshbhai. Langue(s) : eng. Licence : cc-by-nc-sa-4.0. This record contains the code that prepares the four public randomised experiments (Hillstrom, X5 RetailHero, Lenta, Criteo), runs the LLM agents and uplift baselines, and regenerates every number, table and figure of…",
+    "en": "Software deposited on Zenodo on 12 October 2026 by Parikh, Yash Rajeshbhai. Language(s): eng. License: cc-by-nc-sa-4.0. This record contains the code that prepares the four public randomised experiments (Hillstrom, X5 RetailHero, Lenta, Criteo), runs the LLM agents and uplift baselines, and regenerates every number, table and figure of…"
    },
    "notice_by": "règles"
   },
@@ -66536,12 +66572,18 @@
    "lien": "https://github.com/salikhussain71-code/PAKGOV-RAG-project",
    "added": "2026-10-08",
    "focus": false,
-   "region": "International",
+   "region": "Pakistan",
    "description": {
     "fr": "Dépôt GitHub écrit en Python, créé le 17 septembre 2026 par salikhussain71-code. Research project on bilingual Urdu-English retrieval-augmented generation for Pakistani government and legal documents, with OCR, hybrid retrieval, citation grounding, and evaluation. Thèmes : artificial-intelligence, information-retrieval, legal-nlp, low-resource-languages, nlp.",
     "en": "GitHub repository written in Python, created on 17 September 2026 by salikhussain71-code. Research project on bilingual Urdu-English retrieval-augmented generation for Pakistani government and legal documents, with OCR, hybrid retrieval, citation grounding, and evaluation. Topics: artificial-intelligence, information-retrieval, legal-nlp, low-resource-languages, nlp."
    },
-   "notice_by": "règles"
+   "notice_by": "règles",
+   "city": "Rawalpindi",
+   "lat": 33.5915,
+   "lng": 73.0537,
+   "pays": "Pakistan",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Salik Hussain"
   },
   "gh:jiwoochris/artex-ko": {
    "id": "gh:jiwoochris/artex-ko",
@@ -66557,12 +66599,18 @@
    "lien": "https://github.com/jiwoochris/artex-ko",
    "added": "2026-10-08",
    "focus": false,
-   "region": "International",
+   "region": "Corée du Sud",
    "description": {
     "fr": "Dépôt GitHub écrit en Go, créé le 3 octobre 2026 par jiwoochris. ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, Thèmes : ai-agent, autonomous-agents, blue-team, cybersecurity, detection-engineering.",
     "en": "GitHub repository written in Go, created on 3 October 2026 by jiwoochris. ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, Topics: ai-agent, autonomous-agents, blue-team, cybersecurity, detection-engineering."
    },
-   "notice_by": "règles"
+   "notice_by": "règles",
+   "city": "Corée du Sud",
+   "lat": 36.6384,
+   "lng": 127.6961,
+   "pays": "Corée du Sud",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Jiwoo Chris Jung"
   },
   "zenodo:23235649": {
    "id": "zenodo:23235649",
@@ -67928,7 +67976,7 @@
   },
   "zenodo:23065481": {
    "id": "zenodo:23065481",
-   "nom": "农科(蔬菜学·茶学)学术英语语料库 v1.0.3 · 文档与代码包 / Agricultural English Corpus v1.0.3 (Horticulture & Tea Science) · Documentation and Scripts",
+   "nom": "农科(蔬菜学·茶学)学术英语语料库 v1.2 · 文档与代码包 / Agricultural English Corpus v1.2 (Horticulture & Tea Science) · Documentation and Scripts",
    "source": "veille",
    "origin": "veille",
    "provider": "zenodo",
@@ -67938,13 +67986,13 @@
    "langue": "Zho",
    "licence": "cc-by-4.0",
    "licence_class": "open",
-   "lien": "https://zenodo.org/records/23253646",
+   "lien": "https://zenodo.org/records/23301345",
    "added": "2026-10-09",
    "focus": false,
    "region": "International",
    "description": {
-    "fr": "Jeu de données déposé sur Zenodo le 9 octobre 2026 par 余, 浩. Langue(s) : zho. Licence : cc-by-4.0. 本记录为该语料库 v1.0.3 的文档与代码包;语料数据包以受限访问发布,见关联记录(概念 DOI 10.5281/zenodo.23066607)。 内容:字段字典、Data Statements、数据来源与生成方式声明、机器翻译痕迹检测方案与结果、 结构化摘要分层报告 、 语料残留标记排查报告 、v1.0.3 冻结清单(70 个受校验文件的 SHA256…",
-    "en": "Dataset deposited on Zenodo on 9 October 2026 by 余, 浩. Language(s): zho. License: cc-by-4.0. 本记录为该语料库 v1.0.3 的文档与代码包;语料数据包以受限访问发布,见关联记录(概念 DOI 10.5281/zenodo.23066607)。 内容:字段字典、Data Statements、数据来源与生成方式声明、机器翻译痕迹检测方案与结果、 结构化摘要分层报告 、 语料残留标记排查报告 、v1.0.3 冻结清单(70 个受校验文件的 SHA256…"
+    "fr": "Jeu de données déposé sur Zenodo le 12 octobre 2026 par 余, 浩. Langue(s) : zho. Licence : cc-by-4.0. 本记录为该语料库 v1.2 的文档与代码包;语料数据包以受限访问发布,见关联记录(概念 DOI 10.5281/zenodo.23066607)。 内容:字段字典、Data Statements、句级表说明、标注库说明、 语步标注覆盖率/合并/全量重跑审计报告与未匹配清单 、CN-1280 缺陷复核与处置建议、方案 B 语料复核报告、数据来源与生成方式声明、机器翻译痕迹检测方案与结果、结构化摘要分层报告、语料残留标记排查报告、v1.2…",
+    "en": "Dataset deposited on Zenodo on 12 October 2026 by 余, 浩. Language(s): zho. License: cc-by-4.0. 本记录为该语料库 v1.2 的文档与代码包;语料数据包以受限访问发布,见关联记录(概念 DOI 10.5281/zenodo.23066607)。 内容:字段字典、Data Statements、句级表说明、标注库说明、 语步标注覆盖率/合并/全量重跑审计报告与未匹配清单 、CN-1280 缺陷复核与处置建议、方案 B 语料复核报告、数据来源与生成方式声明、机器翻译痕迹检测方案与结果、结构化摘要分层报告、语料残留标记排查报告、v1.2…"
    },
    "notice_by": "règles"
   },
@@ -67985,13 +68033,13 @@
    "type": "Jeu de données (Zenodo)",
    "licence": "cc-by-4.0",
    "licence_class": "open",
-   "lien": "https://zenodo.org/records/23259013",
+   "lien": "https://zenodo.org/records/23305373",
    "added": "2026-10-09",
    "focus": false,
    "region": "International",
    "description": {
-    "fr": "Jeu de données déposé sur Zenodo le 9 octobre 2026 par Paluanova Minayim Pirnazarovna, Worldly Knowledge Publishing Centre. Licence : cc-by-4.0.",
-    "en": "Dataset deposited on Zenodo on 9 October 2026 by Paluanova Minayim Pirnazarovna, Worldly Knowledge Publishing Centre. License: cc-by-4.0."
+    "fr": "Jeu de données déposé sur Zenodo le 9 octobre 2026 par Paluanova Minayim Pirnazarovna, Worldly Knowledge Publishing Centre. Licence : cc-by-4.0. This study examines the mechanisms through which neologisms emerge and circulate in contemporary German and evaluates their communicative functions in digital and public discourse.",
+    "en": "Dataset deposited on Zenodo on 9 October 2026 by Paluanova Minayim Pirnazarovna, Worldly Knowledge Publishing Centre. License: cc-by-4.0. This study examines the mechanisms through which neologisms emerge and circulate in contemporary German and evaluates their communicative functions in digital and public discourse."
    },
    "notice_by": "règles"
   },
@@ -69384,7 +69432,7 @@
   },
   "zenodo:23082589": {
    "id": "zenodo:23082589",
-   "nom": "CLIMPACT TRACE 0.1: citations of six climate judgments in later climate litigation",
+   "nom": "CLIMPACT TRACE 0.1: citations of climate judgments and advisory opinions in later climate litigation",
    "source": "veille",
    "origin": "veille",
    "provider": "zenodo",
@@ -69394,7 +69442,7 @@
    "langue": "Eng",
    "licence": "cc-by-nc-4.0",
    "licence_class": "open",
-   "lien": "https://zenodo.org/records/23082590",
+   "lien": "https://zenodo.org/records/23300671",
    "added": "2026-10-10",
    "focus": false,
    "region": "University of Bari Aldo Moro",
@@ -69404,8 +69452,8 @@
    "pays": "University of Bari Aldo Moro",
    "geo_precision": "lieu",
    "description": {
-    "fr": "Jeu de données déposé sur Zenodo le 6 octobre 2026 par Naglieri, G., Buono, E., Garofalo, C.. Langue(s) : eng. Licence : cc-by-nc-4.0. The citations found by CLIMPACT TRACE 0.1 in later climate litigation.",
-    "en": "Dataset deposited on Zenodo on 6 October 2026 by Naglieri, G., Buono, E., Garofalo, C.. Language(s): eng. License: cc-by-nc-4.0. The citations found by CLIMPACT TRACE 0.1 in later climate litigation."
+    "fr": "Jeu de données déposé sur Zenodo le 11 octobre 2026 par Naglieri, G., Buono, E., Garofalo, C.. Langue(s) : eng. Licence : cc-by-nc-4.0. Version 0.1.1 (11 October 2026): influence, rule N01 (beta), and the TRACE Judicial Impact Index.",
+    "en": "Dataset deposited on Zenodo on 11 October 2026 by Naglieri, G., Buono, E., Garofalo, C.. Language(s): eng. License: cc-by-nc-4.0. Version 0.1.1 (11 October 2026): influence, rule N01 (beta), and the TRACE Judicial Impact Index."
    },
    "notice_by": "règles"
   },
@@ -69515,13 +69563,13 @@
    "type": "Logiciel (Zenodo)",
    "licence": "gpl-3.0-or-later",
    "licence_class": "open",
-   "lien": "https://zenodo.org/records/23280713",
+   "lien": "https://zenodo.org/records/23304293",
    "added": "2026-10-10",
    "focus": false,
    "region": "International",
    "description": {
-    "fr": "Logiciel déposé sur Zenodo le 10 octobre 2026 par Bıçakçı, Yunus Serhat. Licence : gpl-3.0-or-later. Geospatial vision-language model analysis for street-level imagery.",
-    "en": "Software deposited on Zenodo on 10 October 2026 by Bıçakçı, Yunus Serhat. License: gpl-3.0-or-later. Geospatial vision-language model analysis for street-level imagery."
+    "fr": "Logiciel déposé sur Zenodo le 11 octobre 2026 par Bıçakçı, Yunus Serhat. Licence : gpl-3.0-or-later. Geospatial vision-language model analysis for street-level imagery.",
+    "en": "Software deposited on Zenodo on 11 October 2026 by Bıçakçı, Yunus Serhat. License: gpl-3.0-or-later. Geospatial vision-language model analysis for street-level imagery."
    },
    "notice_by": "règles"
   },
@@ -69537,7 +69585,7 @@
    "langue": "Eng",
    "licence": "mit-license",
    "licence_class": "open",
-   "lien": "https://zenodo.org/records/23275400",
+   "lien": "https://zenodo.org/records/23300652",
    "added": "2026-10-10",
    "focus": false,
    "region": "University of Bari Aldo Moro",
@@ -69547,8 +69595,8 @@
    "pays": "University of Bari Aldo Moro",
    "geo_precision": "lieu",
    "description": {
-    "fr": "Logiciel déposé sur Zenodo le 6 octobre 2026 par Naglieri, G., Buono, E., Garofalo, C.. Langue(s) : eng. Licence : mit-license. CLIMPACT TRACE (Traceable Reception and Attribution in Climate-law Evidence) is a reproducible method to trace how climate judgments are received in later litigation: which later decisions and filings cite a judgment,…",
-    "en": "Software deposited on Zenodo on 6 October 2026 by Naglieri, G., Buono, E., Garofalo, C.. Language(s): eng. License: mit-license. CLIMPACT TRACE (Traceable Reception and Attribution in Climate-law Evidence) is a reproducible method to trace how climate judgments are received in later litigation: which later decisions and filings cite a judgment,…"
+    "fr": "Logiciel déposé sur Zenodo le 11 octobre 2026 par Naglieri, G., Buono, E., Garofalo, C.. Langue(s) : eng. Licence : mit-license. Version 0.1.1 (11 October 2026): influence, rule N01 (beta), and the TRACE Judicial Impact Index.",
+    "en": "Software deposited on Zenodo on 11 October 2026 by Naglieri, G., Buono, E., Garofalo, C.. Language(s): eng. License: mit-license. Version 0.1.1 (11 October 2026): influence, rule N01 (beta), and the TRACE Judicial Impact Index."
    },
    "notice_by": "règles"
   },
@@ -70705,8 +70753,8 @@
    "kind": "github",
    "categorie_key": "cat_Tool",
    "type": "Dépôt GitHub",
-   "licence": "MIT",
-   "licence_class": "open",
+   "licence": "NOASSERTION",
+   "licence_class": "unknown",
    "lien": "https://github.com/sgfsd/game-russificator",
    "added": "2026-10-11",
    "focus": false,
@@ -70924,6 +70972,820 @@
     "en": "Software deposited on Zenodo on 11 October 2026 by Lanza, Ezio, Poretti, Dario, Ferrillo, Giuseppe. Language(s): eng. License: mit-license. Statistical analysis pipeline and the seven large-language-model prompts used to derive clinical variables from free-text reports in a single-centre retrospective cohort of 654 patients treated with bland transarterial…"
    },
    "notice_by": "règles"
+  },
+  "hf:datasets:endomorphosis/ipfs_spain_municipal_laws": {
+   "id": "hf:datasets:endomorphosis/ipfs_spain_municipal_laws",
+   "nom": "endomorphosis/ipfs_spain_municipal_laws",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Ca, Es",
+   "taille": "1K<n<10K",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/datasets/endomorphosis/ipfs_spain_municipal_laws",
+   "added": "2026-10-12",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca"
+   ],
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par endomorphosis le 12 octobre 2026. Langue(s) : ca, es. Taille : 1K<n<10K. Spain municipal laws (BOP Barcelona, pack 1) Pack 1 holds recent announcements from the Butlletí Oficial de la Província de Barcelona (bop.diba.cat), published by the Diputació de Barcelona.",
+    "en": "Dataset published on Hugging Face by endomorphosis on 12 October 2026. Language(s): ca, es. Size: 1K<n<10K. Spain municipal laws (BOP Barcelona, pack 1) Pack 1 holds recent announcements from the Butlletí Oficial de la Província de Barcelona (bop.diba.cat), published by the Diputació de Barcelona."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:epfml/FineWeb2-HQ-Plus": {
+   "id": "hf:datasets:epfml/FineWeb2-HQ-Plus",
+   "nom": "epfml/FineWeb2-HQ-Plus",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Deu, Fra, Pol, Por",
+   "taille": "100M<n<1B",
+   "licence": "odc-by",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/datasets/epfml/FineWeb2-HQ-Plus",
+   "added": "2026-10-12",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par epfml le 5 octobre 2026. Langue(s) : deu, fra, pol, por, spa. Tâche : génération de texte. Taille : 100M<n<1B. FineWeb2-HQ-Plus Dataset summary FineWeb2-HQ-Plus is a high-quality, model-filtered pretraining dataset derived as a subset of FineWeb2(v2.1.1), spanning 100 languages.",
+    "en": "Dataset published on Hugging Face by epfml on 5 October 2026. Language(s): deu, fra, pol, por, spa. Task: text generation. Size: 100M<n<1B. FineWeb2-HQ-Plus Dataset summary FineWeb2-HQ-Plus is a high-quality, model-filtered pretraining dataset derived as a subset of FineWeb2(v2.1.1), spanning 100 languages."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:jmkim329/whisper-base-ov": {
+   "id": "hf:models:jmkim329/whisper-base-ov",
+   "nom": "jmkim329/whisper-base-ov",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/jmkim329/whisper-base-ov",
+   "added": "2026-10-12",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par jmkim329 le 12 octobre 2026. Tâche : reconnaissance de la parole.",
+    "en": "Model published on Hugging Face by jmkim329 on 12 October 2026. Task: automatic speech recognition."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:N4DerAX20/persian-sub-english-model": {
+   "id": "hf:models:N4DerAX20/persian-sub-english-model",
+   "nom": "N4DerAX20/persian-sub-english-model",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/N4DerAX20/persian-sub-english-model",
+   "added": "2026-10-12",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par N4DerAX20 le 11 octobre 2026. Tâche : reconnaissance de la parole.",
+    "en": "Model published on Hugging Face by N4DerAX20 on 11 October 2026. Task: automatic speech recognition."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:seamon67/Punctuation-Restoration": {
+   "id": "hf:models:seamon67/Punctuation-Restoration",
+   "nom": "seamon67/Punctuation-Restoration",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/seamon67/Punctuation-Restoration",
+   "added": "2026-10-12",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par seamon67 le 11 octobre 2026. Tâche : étiquetage de séquences. Dérivé de Horizon-Labs/punctuation-restoration-base.",
+    "en": "Model published on Hugging Face by seamon67 on 11 October 2026. Task: token classification. Fine-tuned from Horizon-Labs/punctuation-restoration-base."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:seamon67/Dewpoint": {
+   "id": "hf:models:seamon67/Dewpoint",
+   "nom": "seamon67/Dewpoint",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/seamon67/Dewpoint",
+   "added": "2026-10-12",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par seamon67 le 11 octobre 2026. Tâche : étiquetage de séquences. Dérivé de jhu-clsp/mmBERT-base.",
+    "en": "Model published on Hugging Face by seamon67 on 11 October 2026. Task: token classification. Fine-tuned from jhu-clsp/mmBERT-base."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:nlpai-lab/MixLID": {
+   "id": "hf:models:nlpai-lab/MixLID",
+   "nom": "nlpai-lab/MixLID",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/nlpai-lab/MixLID",
+   "added": "2026-10-12",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par nlpai-lab le 12 octobre 2026. Tâche : étiquetage de séquences. Dérivé de jhu-clsp/mmBERT-small.",
+    "en": "Model published on Hugging Face by nlpai-lab on 12 October 2026. Task: token classification. Fine-tuned from jhu-clsp/mmBERT-small."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:OpenVoiceOS/phoonnx_an_miro_espeak": {
+   "id": "hf:models:OpenVoiceOS/phoonnx_an_miro_espeak",
+   "nom": "OpenVoiceOS/phoonnx_an_miro_espeak",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "cc-by-nc-nd-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/OpenVoiceOS/phoonnx_an_miro_espeak",
+   "added": "2026-10-12",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par OpenVoiceOS le 12 octobre 2026. Tâche : synthèse vocale. Dérivé de OpenVoiceOS/phoonnx_es-CO_miro_espeak.",
+    "en": "Model published on Hugging Face by OpenVoiceOS on 12 October 2026. Task: text to speech. Fine-tuned from OpenVoiceOS/phoonnx_es-CO_miro_espeak."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:hamzadr2/qwen3-asr-1.7b-darija-moulsot-replica": {
+   "id": "hf:models:hamzadr2/qwen3-asr-1.7b-darija-moulsot-replica",
+   "nom": "hamzadr2/qwen3-asr-1.7b-darija-moulsot-replica",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/hamzadr2/qwen3-asr-1.7b-darija-moulsot-replica",
+   "added": "2026-10-12",
+   "focus": true,
+   "region": "Maroc",
+   "city": "Maroc",
+   "lat": 33.5731,
+   "lng": -7.5898,
+   "pays": "Maroc",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "ary"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par hamzadr2 le 12 octobre 2026. Tâche : reconnaissance de la parole. Dérivé de Qwen/Qwen3-ASR-1.7B.",
+    "en": "Model published on Hugging Face by hamzadr2 on 12 October 2026. Task: automatic speech recognition. Fine-tuned from Qwen/Qwen3-ASR-1.7B."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:onnx-community/Voxtral-Mini-4B-Realtime-Arabic-ONNX": {
+   "id": "hf:models:onnx-community/Voxtral-Mini-4B-Realtime-Arabic-ONNX",
+   "nom": "onnx-community/Voxtral-Mini-4B-Realtime-Arabic-ONNX",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/onnx-community/Voxtral-Mini-4B-Realtime-Arabic-ONNX",
+   "added": "2026-10-12",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par onnx-community le 10 octobre 2026. Tâche : reconnaissance de la parole. Dérivé de mistralai/Voxtral-Mini-4B-Realtime-Arabic.",
+    "en": "Model published on Hugging Face by onnx-community on 10 October 2026. Task: automatic speech recognition. Fine-tuned from mistralai/Voxtral-Mini-4B-Realtime-Arabic."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Dali20266/tunchat-tunisian-voice-agent-validated-20261010-210049-d8c20e": {
+   "id": "hf:models:Dali20266/tunchat-tunisian-voice-agent-validated-20261010-210049-d8c20e",
+   "nom": "Dali20266/tunchat-tunisian-voice-agent-validated-20261010-210049-d8c20e",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/Dali20266/tunchat-tunisian-voice-agent-validated-20261010-210049-d8c20e",
+   "added": "2026-10-12",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Dali20266 le 10 octobre 2026. Tâche : génération de texte. Dérivé de Dali20266/TunCHAT-Tunisian-Voice-Agent-MERGED.",
+    "en": "Model published on Hugging Face by Dali20266 on 10 October 2026. Task: text generation. Fine-tuned from Dali20266/TunCHAT-Tunisian-Voice-Agent-MERGED."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:fka/prompts.chat": {
+   "id": "hf:datasets:fka/prompts.chat",
+   "nom": "fka/prompts.chat",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "taille": "1K<n<10K",
+   "licence": "cc0-1.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/fka/prompts.chat",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par fka le 13 décembre 2022. Tâche : questions-réponses. Taille : 1K<n<10K. a.k.a. Awesome ChatGPT Prompts This is a Dataset Repository mirror of prompts.chat — a social platform for AI prompts.",
+    "en": "Dataset published on Hugging Face by fka on 13 December 2022. Task: question answering. Size: 1K<n<10K. a.k.a. Awesome ChatGPT Prompts This is a Dataset Repository mirror of prompts.chat — a social platform for AI prompts."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:abenzerps/Qwen-Image-2.1-Uncensored-Quantized": {
+   "id": "hf:models:abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "nom": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par abenzerps le 20 septembre 2026. Tâche : text to image.",
+    "en": "Model published on Hugging Face by abenzerps on 20 September 2026. Task: text to image."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:baidu/Unlimited-OCR": {
+   "id": "hf:models:baidu/Unlimited-OCR",
+   "nom": "baidu/Unlimited-OCR",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/baidu/Unlimited-OCR",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "république populaire de Chine",
+   "city": "Pékin",
+   "lat": 39.904,
+   "lng": 116.4075,
+   "pays": "république populaire de Chine",
+   "geo_precision": "organisation",
+   "geo_source": "Hugging Face · BAIDU",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par baidu le 19 juin 2026. Tâche : vision-langage.",
+    "en": "Model published on Hugging Face by baidu on 19 June 2026. Task: image text to text."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:dealignai/DeepSeek-V4.1-Flash-UNCENSORED-FP8": {
+   "id": "hf:models:dealignai/DeepSeek-V4.1-Flash-UNCENSORED-FP8",
+   "nom": "dealignai/DeepSeek-V4.1-Flash-UNCENSORED-FP8",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-UNCENSORED-FP8",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par dealignai le 10 septembre 2026. Tâche : vision-langage.",
+    "en": "Model published on Hugging Face by dealignai on 10 September 2026. Task: image text to text."
+   },
+   "notice_by": "règles"
+  },
+  "gh:houdaimarine/tifinagh-lenet5": {
+   "id": "gh:houdaimarine/tifinagh-lenet5",
+   "nom": "Houdaimarine/Tifinagh-LeNet5",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/Houdaimarine/Tifinagh-LeNet5",
+   "added": "2026-10-12",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 11 octobre 2026 par Houdaimarine.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 11 October 2026 by Houdaimarine."
+   },
+   "notice_by": "règles"
+  },
+  "gh:abdelouahabaitbaha32/tp_cnn_lenet5_amhcd": {
+   "id": "gh:abdelouahabaitbaha32/tp_cnn_lenet5_amhcd",
+   "nom": "abdelouahabaitbaha32/TP_CNN_LeNet5_AMHCD",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/abdelouahabaitbaha32/TP_CNN_LeNet5_AMHCD",
+   "added": "2026-10-12",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 11 octobre 2026 par abdelouahabaitbaha32. LeNet-5 for Tifinagh handwritten character",
+    "en": "GitHub repository written in Jupyter Notebook, created on 11 October 2026 by abdelouahabaitbaha32. LeNet-5 for Tifinagh handwritten character"
+   },
+   "notice_by": "règles"
+  },
+  "gh:folkbench/folkbench": {
+   "id": "gh:folkbench/folkbench",
+   "nom": "Folkbench/folkbench",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "NOASSERTION",
+   "licence_class": "unknown",
+   "lien": "https://github.com/Folkbench/folkbench",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Rust, créé le 2 octobre 2026 par Folkbench. AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Thèmes : ai, api-relay, api-relay-pricing, benchmark, benchmarks.",
+    "en": "GitHub repository written in Rust, created on 2 October 2026 by Folkbench. AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Topics: ai, api-relay, api-relay-pricing, benchmark, benchmarks."
+   },
+   "notice_by": "règles"
+  },
+  "gh:ozcancelik/harfiyen": {
+   "id": "gh:ozcancelik/harfiyen",
+   "nom": "ozcancelik/harfiyen",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/ozcancelik/harfiyen",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "İstanbul",
+   "city": "Istanbul",
+   "lat": 41.0064,
+   "lng": 28.9759,
+   "pays": "İstanbul",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Özcan Çelik",
+   "description": {
+    "fr": "Dépôt GitHub écrit en TypeScript, créé le 9 octobre 2026 par ozcancelik. Tarayıcıda çalışan Türkçe konuşma tanıma ve altyazı aracı. Thèmes : local-first, onnx, onnxruntime-web, speech, speech-recognition.",
+    "en": "GitHub repository written in TypeScript, created on 9 October 2026 by ozcancelik. Tarayıcıda çalışan Türkçe konuşma tanıma ve altyazı aracı. Topics: local-first, onnx, onnxruntime-web, speech, speech-recognition."
+   },
+   "notice_by": "règles"
+  },
+  "gh:saarthurr/atticus-mac": {
+   "id": "gh:saarthurr/atticus-mac",
+   "nom": "SaarthurR/atticus-mac",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/SaarthurR/atticus-mac",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "California",
+   "city": "Californie",
+   "lat": 36.7015,
+   "lng": -118.756,
+   "pays": "California",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · saarthurr",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 10 octobre 2026 par SaarthurR. Fast, free voice assistant for your Mac. Thèmes : claude, claude-code, macos, menubar-app, open-source.",
+    "en": "GitHub repository written in Python, created on 10 October 2026 by SaarthurR. Fast, free voice assistant for your Mac. Topics: claude, claude-code, macos, menubar-app, open-source."
+   },
+   "notice_by": "règles"
+  },
+  "gh:recepyagmur/englishpractice": {
+   "id": "gh:recepyagmur/englishpractice",
+   "nom": "recepyagmur/EnglishPractice",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/recepyagmur/EnglishPractice",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 11 octobre 2026 par recepyagmur. Yerel, çevrimdışı ve taşınabilir İngilizce pratik uygulaması (Türkçe konuşanlar için): yapay zekâyla sesli/yazılı sohbet ve anında düzeltme, A1–C1 dersler ve sınavlar, Türkçe sesli öğretmen, kelime ve kalıp çalışma, YDS… Thèmes : english-learning, fastapi, gemma, kokoro-tts, language-learning.",
+    "en": "GitHub repository written in Python, created on 11 October 2026 by recepyagmur. Yerel, çevrimdışı ve taşınabilir İngilizce pratik uygulaması (Türkçe konuşanlar için): yapay zekâyla sesli/yazılı sohbet ve anında düzeltme, A1–C1 dersler ve sınavlar, Türkçe sesli öğretmen, kelime ve kalıp çalışma, YDS… Topics: english-learning, fastapi, gemma, kokoro-tts, language-learning."
+   },
+   "notice_by": "règles"
+  },
+  "gh:nyosegawa/asist": {
+   "id": "gh:nyosegawa/asist",
+   "nom": "nyosegawa/asist",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/nyosegawa/asist",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en TypeScript, créé le 25 septembre 2026 par nyosegawa. A realtime assistant for Mac and Windows. Thèmes : ai-agent, cuda, electron, llm, macos.",
+    "en": "GitHub repository written in TypeScript, created on 25 September 2026 by nyosegawa. A realtime assistant for Mac and Windows. Topics: ai-agent, cuda, electron, llm, macos."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23029763": {
+   "id": "zenodo:23029763",
+   "nom": "Replication package for \"When Is Smaller Cheaper? Break-Even Tests for Large Language Model Cascades on a Metered Cloud Inference Service",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23313866",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 12 octobre 2026 par Parikh, Yash Rajeshbhai. Licence : cc-by-4.0. Collected model traces, analysis harness, collection scripts and article source behind every number, table and figure in the article.",
+    "en": "Dataset deposited on Zenodo on 12 October 2026 by Parikh, Yash Rajeshbhai. License: cc-by-4.0. Collected model traces, analysis harness, collection scripts and article source behind every number, table and figure in the article."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23299385": {
+   "id": "zenodo:23299385",
+   "nom": "Data supporting: Benchmarking database-grounded language-model agents for atomistic structure identification",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "mit-license",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23299386",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "Danemark",
+   "city": "Université du Danemark du Sud",
+   "lat": 55.3679,
+   "lng": 10.4281,
+   "pays": "Danemark",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 11 octobre 2026 par Jelver, Line. Langue(s) : eng. Licence : mit-license. Contents references/ contains the exact benchmark queries and acceptable Materials Project IDs or PubChem CIDs, plus the pseudopotential references and token prices used for cost calculations.",
+    "en": "Dataset deposited on Zenodo on 11 October 2026 by Jelver, Line. Language(s): eng. License: mit-license. Contents references/ contains the exact benchmark queries and acceptable Materials Project IDs or PubChem CIDs, plus the pseudopotential references and token prices used for cost calculations."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23297693": {
+   "id": "zenodo:23297693",
+   "nom": "Data and software for water-level data error screening: Evaluation of a pretrained large language model against expert annotations and machine-learning benchmarks",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23297694",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 11 octobre 2026 par Angmanee, Rattachon, Channgam, Sirorath, Koweerawong, Chavalit. Langue(s) : eng. Licence : cc-by-4.0. This repository contains data, expert annotations, model outputs, and software supporting the study “Potential and limitations of a pretrained large language model for water-level data error screening: Evaluation…",
+    "en": "Dataset deposited on Zenodo on 11 October 2026 by Angmanee, Rattachon, Channgam, Sirorath, Koweerawong, Chavalit. Language(s): eng. License: cc-by-4.0. This repository contains data, expert annotations, model outputs, and software supporting the study “Potential and limitations of a pretrained large language model for water-level data error screening: Evaluation…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23299972": {
+   "id": "zenodo:23299972",
+   "nom": "SPARC development and data archive: human-agent discovery of reconfigurable in-plane ferroelectric superdomain control",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23299973",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "Knoxville",
+   "city": "University of Tennessee, Knoxville",
+   "lat": 35.9516,
+   "lng": -83.9309,
+   "pays": "Knoxville",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 11 octobre 2026 par Liu, Yu, Slautin, Boris, Lin, Ching-Che. Licence : cc-by-4.0. Development history and raw data behind Human-agent discovery of reconfigurable in-plane ferroelectric superdomain control (Digital Discovery, manuscript DD-ART-09-2026-000706, under revision).",
+    "en": "Dataset deposited on Zenodo on 11 October 2026 by Liu, Yu, Slautin, Boris, Lin, Ching-Che. License: cc-by-4.0. Development history and raw data behind Human-agent discovery of reconfigurable in-plane ferroelectric superdomain control (Digital Discovery, manuscript DD-ART-09-2026-000706, under revision)."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23304273": {
+   "id": "zenodo:23304273",
+   "nom": "THE LINGUISTIC SIGNIFICANCE OF LITERARY SOURCES AND THEIR ANALYTICAL FEATURES IN THE FORMATION AND DEVELOPMENT OF LANGUAGE",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23304274",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 11 octobre 2026 par Toxirov Azizbek Zokirjon o'g'li, Muqumjon Axunov Muhammadaminovich, Worldly Knowledge Publishing Centre. Licence : cc-by-4.0. This article examines the linguistic significance of literary sources in the formation and historical development of language, with particular attention to their analytical potential and limitations.",
+    "en": "Dataset deposited on Zenodo on 11 October 2026 by Toxirov Azizbek Zokirjon o'g'li, Muqumjon Axunov Muhammadaminovich, Worldly Knowledge Publishing Centre. License: cc-by-4.0. This article examines the linguistic significance of literary sources in the formation and historical development of language, with particular attention to their analytical potential and limitations."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23303940": {
+   "id": "zenodo:23303940",
+   "nom": "SYNTACTIC PATTERNS OF YOUTH SLANG IN UZBEK AND ENGLISH LANGUAGES",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23303941",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 11 octobre 2026 par Razzoqova Shahlo Baxtiyor qizi, Worldly Knowledge Publishing Centre. Licence : cc-by-4.0. This article examines the syntactic patterns of youth slang in Uzbek and English, focusing on the structural features, grammatical transformations, and communicative functions of informal expressions used by young people.",
+    "en": "Dataset deposited on Zenodo on 11 October 2026 by Razzoqova Shahlo Baxtiyor qizi, Worldly Knowledge Publishing Centre. License: cc-by-4.0. This article examines the syntactic patterns of youth slang in Uzbek and English, focusing on the structural features, grammatical transformations, and communicative functions of informal expressions used by young people."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23303735": {
+   "id": "zenodo:23303735",
+   "nom": "CULTURAL APPROPRIATENESS OF MACHINE-GENERATED CONGRATULATIONS IN UZBEK AND RUSSIAN: A CORPUS-INFORMED EVALUATION FRAMEWORK",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23303736",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 11 octobre 2026 par Yuldasheva Sabina Yusufovna, Worldly Knowledge Publishing Centre. Licence : cc-by-4.0. Large language models are increasingly used to write congratulatory messages, yet their output is usually judged by fluency rather than by conformity to the etiquette norms of a particular linguaculture.",
+    "en": "Dataset deposited on Zenodo on 11 October 2026 by Yuldasheva Sabina Yusufovna, Worldly Knowledge Publishing Centre. License: cc-by-4.0. Large language models are increasingly used to write congratulatory messages, yet their output is usually judged by fluency rather than by conformity to the etiquette norms of a particular linguaculture."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23302262": {
+   "id": "zenodo:23302262",
+   "nom": "CORPUS TOOLS AND SOFTWARE: OVERVIEW AND APPLICATIONS",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23302263",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 11 octobre 2026 par Ozoda Tolqinjonovna Gʻaniyeva, Worldly Knowledge Publishing Centre. Licence : cc-by-4.0. This article provides a comprehensive overview of corpus tools and software, examining their theoretical foundations, technical features, and practical applications in linguistics and related disciplines.",
+    "en": "Dataset deposited on Zenodo on 11 October 2026 by Ozoda Tolqinjonovna Gʻaniyeva, Worldly Knowledge Publishing Centre. License: cc-by-4.0. This article provides a comprehensive overview of corpus tools and software, examining their theoretical foundations, technical features, and practical applications in linguistics and related disciplines."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23294600": {
+   "id": "zenodo:23294600",
+   "nom": "Data and code for: Lexical variety versus syntactic processing load in nineteenth-century children's and adult literature",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23294601",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 11 octobre 2026 par Yang, Demei, Tao, Shilong. Langue(s) : eng. Licence : cc-by-4.0. Description This record contains the data, code and outputs needed to reproduce every statistic, table and figure in the article “Lexical variety versus syntactic processing load in nineteenth-century children’s and…",
+    "en": "Dataset deposited on Zenodo on 11 October 2026 by Yang, Demei, Tao, Shilong. Language(s): eng. License: cc-by-4.0. Description This record contains the data, code and outputs needed to reproduce every statistic, table and figure in the article “Lexical variety versus syntactic processing load in nineteenth-century children’s and…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23313791": {
+   "id": "zenodo:23313791",
+   "nom": "Code for 'A critical study of applied methodology in agent-based infectious disease modelling'",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "mit-license",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23313792",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "Heriot-Watt University",
+   "city": "Heriot-Watt University",
+   "lat": 55.9103,
+   "lng": -3.3234,
+   "pays": "Heriot-Watt University",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 12 octobre 2026 par Cameron, Ewan. Licence : mit-license. Code, prompts and derived data for \"A critical study of applied methodology in agent-based infectious disease modelling\" (E.",
+    "en": "Software deposited on Zenodo on 12 October 2026 by Cameron, Ewan. License: mit-license. Code, prompts and derived data for \"A critical study of applied methodology in agent-based infectious disease modelling\" (E."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23300680": {
+   "id": "zenodo:23300680",
+   "nom": "Provenance-aware AI-assisted reconstruction of plasma-chemistry mechanisms: code, Agent 1 prompt and audit data",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "langue": "Eng",
+   "licence": "mit-license",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23300681",
+   "added": "2026-10-12",
+   "focus": false,
+   "region": "Instituto Tecnológico de Aeronáutica",
+   "city": "Instituto Tecnológico de Aeronautica",
+   "lat": -23.2102,
+   "lng": -45.8765,
+   "pays": "Instituto Tecnológico de Aeronáutica",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 11 octobre 2026 par Silva, Lis Vieira, Busquet de Sant'Anna Junior, Alvaro, Maciel, Homero Santiago. Langue(s) : eng. Licence : mit-license. Companion repository for: L. V.",
+    "en": "Software deposited on Zenodo on 11 October 2026 by Silva, Lis Vieira, Busquet de Sant'Anna Junior, Alvaro, Maciel, Homero Santiago. Language(s): eng. License: mit-license. Companion repository for: L. V."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23301290": {
+   "id": "zenodo:23301290",
+   "nom": "Publicaciones en lengua aragonesa para el lectorado infantil y juvenil",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23301291",
+   "added": "2026-10-12",
+   "focus": true,
+   "region": "Aragon",
+   "city": "Aragon",
+   "lat": 42.1362,
+   "lng": -0.4087,
+   "pays": "Aragon",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "an"
+   ],
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 11 octobre 2026 par Campos Bandrés, Iris-Orosia, Laliena Cantero, Daniel, Colón Castillo, María Jesús. Langue(s) : an. Licence : cc-by-4.0. This database contains the corpus analyzed in the publication titled \"Children's and Young Adult Literature in Aragonese (1983–2026): A First Bibliometric Inventory and an Analysis of Its Defining Characteristics\".",
+    "en": "Dataset deposited on Zenodo on 11 October 2026 by Campos Bandrés, Iris-Orosia, Laliena Cantero, Daniel, Colón Castillo, María Jesús. Language(s): an. License: cc-by-4.0. This database contains the corpus analyzed in the publication titled \"Children's and Young Adult Literature in Aragonese (1983–2026): A First Bibliometric Inventory and an Analysis of Its Defining Characteristics\"."
+   },
+   "notice_by": "règles"
   }
  },
  "journals": {
@@ -70933,11 +71795,193 @@
     "en": "Artificial Intelligence is a peer-reviewed journal published by Elsevier. Scope: IA fondamentale, NLP theorique. Hybrid model: optional open access (APC). Regular submissions are open year-round; only special issues have deadlines."
    },
    "notice_by": "règles",
-   "searched": "2026-10-04",
-   "special_issues": [],
+   "searched": "2026-10-12",
+   "special_issues": [
+    {
+     "title": "ACM--2026 9th Artificial Intelligence and Cloud Computing Conference (AICCC 2026)",
+     "deadline": "2026-10-25",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192225"
+    },
+    {
+     "title": "2026 The 5th International Conference on Artificial Intelligence and Blockchain Technology (AIBT 2026)",
+     "deadline": "2026-10-30",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194778"
+    },
+    {
+     "title": "2026 6th International Conference on Big Data, Artificial Intelligence and Risk Management",
+     "deadline": "2026-10-30",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202912"
+    },
+    {
+     "title": "2026 International Conference on Green Energy and Artificial Intelligence",
+     "deadline": "2026-10-30",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202834"
+    },
+    {
+     "title": "IEEE 2026 7th International Conference on Big Data, Artificial Intelligence and Internet of Things Engineering",
+     "deadline": "2026-10-30",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203261"
+    },
+    {
+     "title": "2026 The 5th International Conference on Artificial Intelligence and Blockchain Technology (AIBT 2026)",
+     "deadline": "2026-10-30",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194779"
+    },
+    {
+     "title": "IEEE 2026 7th International Conference on Artificial Intelligence and Computer Engineering",
+     "deadline": "2026-10-31",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203001"
+    },
+    {
+     "title": "2026 6th International Conference on Robotics, Automation, and Artificial Intelligence (RAAI 2026)",
+     "deadline": "2026-11-01",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192215"
+    },
+    {
+     "title": "2026 6th International Conference on Robotics, Automation, and Artificial Intelligence (RAAI 2026)",
+     "deadline": "2026-11-01",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192217"
+    },
+    {
+     "title": "ACM--2026 The 10th International Conference on Computer Science and Artificial Intelligence (CSAI 2026)",
+     "deadline": "2026-11-05",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192800"
+    },
+    {
+     "title": "2026 12th International Conference on Robotics and Artificial Intelligence (ICRAI 2026)",
+     "deadline": "2026-11-05",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194514"
+    },
+    {
+     "title": "Springer--2026 International Conference on Artificial Intelligence and Education Systems (AIES 2026)",
+     "deadline": "2026-11-05",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194945"
+    },
+    {
+     "title": "Springer--2026 International Conference on Artificial Intelligence and Education Systems (AIES 2026)",
+     "deadline": "2026-11-05",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194946"
+    },
+    {
+     "title": "ACM--2026 The 10th International Conference on Computer Science and Artificial Intelligence (CSAI 2026)",
+     "deadline": "2026-11-05",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192801"
+    },
+    {
+     "title": "2026 12th International Conference on Robotics and Artificial Intelligence (ICRAI 2026)",
+     "deadline": "2026-11-05",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194513"
+    },
+    {
+     "title": "IEEE--2027 the 4th International Conference on Artificial Intelligence and Power Engineering (AIPE 2027)",
+     "deadline": "2026-11-10",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=200151"
+    },
+    {
+     "title": "IEEE--2027 the 4th International Conference on Artificial Intelligence and Power Engineering (AIPE 2027)",
+     "deadline": "2026-11-10",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=200152"
+    },
+    {
+     "title": "International Database Engineering and Artificial Intelligence Symposium",
+     "deadline": "2026-11-15",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203685"
+    }
+   ],
    "submission": "continuous",
-   "next_deadline": null,
-   "search_issues": []
+   "next_deadline": "2026-10-25",
+   "search_issues": [
+    {
+     "title": "ACM--2026 The 10th International Conference on Computer Science and Artificial Intelligence (CSAI 2026)",
+     "deadline": "2026-11-05",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192800"
+    },
+    {
+     "title": "IEEE--2027 the 4th International Conference on Artificial Intelligence and Power Engineering (AIPE 2027)",
+     "deadline": "2026-11-10",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=200151"
+    },
+    {
+     "title": "2026 12th International Conference on Robotics and Artificial Intelligence (ICRAI 2026)",
+     "deadline": "2026-11-05",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194514"
+    },
+    {
+     "title": "2026 6th International Conference on Robotics, Automation, and Artificial Intelligence (RAAI 2026)",
+     "deadline": "2026-11-01",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192215"
+    },
+    {
+     "title": "International Database Engineering and Artificial Intelligence Symposium",
+     "deadline": "2026-11-15",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203685"
+    },
+    {
+     "title": "Springer--2026 International Conference on Artificial Intelligence and Education Systems (AIES 2026)",
+     "deadline": "2026-11-05",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194945"
+    },
+    {
+     "title": "Springer--2026 International Conference on Artificial Intelligence and Education Systems (AIES 2026)",
+     "deadline": "2026-11-05",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194946"
+    },
+    {
+     "title": "ACM--2026 The 10th International Conference on Computer Science and Artificial Intelligence (CSAI 2026)",
+     "deadline": "2026-11-05",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192801"
+    },
+    {
+     "title": "IEEE--2027 the 4th International Conference on Artificial Intelligence and Power Engineering (AIPE 2027)",
+     "deadline": "2026-11-10",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=200152"
+    },
+    {
+     "title": "2026 12th International Conference on Robotics and Artificial Intelligence (ICRAI 2026)",
+     "deadline": "2026-11-05",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194513"
+    },
+    {
+     "title": "2026 6th International Conference on Robotics, Automation, and Artificial Intelligence (RAAI 2026)",
+     "deadline": "2026-11-01",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192217"
+    },
+    {
+     "title": "IEEE 2026 7th International Conference on Artificial Intelligence and Computer Engineering",
+     "deadline": "2026-10-31",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203001"
+    },
+    {
+     "title": "2026 The 5th International Conference on Artificial Intelligence and Blockchain Technology (AIBT 2026)",
+     "deadline": "2026-10-30",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194778"
+    },
+    {
+     "title": "2026 6th International Conference on Big Data, Artificial Intelligence and Risk Management",
+     "deadline": "2026-10-30",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202912"
+    },
+    {
+     "title": "2026 International Conference on Green Energy and Artificial Intelligence",
+     "deadline": "2026-10-30",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202834"
+    },
+    {
+     "title": "IEEE 2026 7th International Conference on Big Data, Artificial Intelligence and Internet of Things Engineering",
+     "deadline": "2026-10-30",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203261"
+    },
+    {
+     "title": "ACM--2026 9th Artificial Intelligence and Cloud Computing Conference (AICCC 2026)",
+     "deadline": "2026-10-25",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192225"
+    },
+    {
+     "title": "2026 The 5th International Conference on Artificial Intelligence and Blockchain Technology (AIBT 2026)",
+     "deadline": "2026-10-30",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194779"
+    }
+   ]
   },
   "res-f3e43fabe9": {
    "notice": {
@@ -70945,7 +71989,7 @@
     "en": "BMC Medical Informatics and Decision Making is a peer-reviewed journal published by BMC. Scope: NLP sante. Open-access articles. Regular submissions are open year-round; only special issues have deadlines."
    },
    "notice_by": "règles",
-   "searched": "2026-10-04",
+   "searched": "2026-10-12",
    "special_issues": [],
    "submission": "continuous",
    "next_deadline": null,
@@ -70957,8 +72001,18 @@
     "en": "Computational Linguistics (CL) is a peer-reviewed journal published by MIT Press. Scope: journal phare ACL (theorie & fondements). Hybrid model: optional open access (APC). Regular submissions are open year-round; only special issues have deadlines."
    },
    "notice_by": "règles",
-   "searched": "2026-10-04",
+   "searched": "2026-10-12",
    "special_issues": [
+    {
+     "title": "32nd International Conference on Computational Linguistics",
+     "deadline": "2026-10-12",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201720"
+    },
+    {
+     "title": "7th International Conference on Natural Language Processing and Computational Linguistics",
+     "deadline": "2026-10-17",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=195149"
+    },
     {
      "title": "Special Issue on the Ethics of NLP and CL in Computational Linguistics",
      "deadline": "2026-11-27",
@@ -70967,8 +72021,19 @@
     }
    ],
    "submission": "continuous",
-   "next_deadline": "2026-11-27",
-   "search_issues": []
+   "next_deadline": "2026-10-12",
+   "search_issues": [
+    {
+     "title": "32nd International Conference on Computational Linguistics",
+     "deadline": "2026-10-12",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201720"
+    },
+    {
+     "title": "7th International Conference on Natural Language Processing and Computational Linguistics",
+     "deadline": "2026-10-17",
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=195149"
+    }
+   ]
   },
   "res-45ad7d59e2": {
    "notice": {
@@ -70976,7 +72041,7 @@
     "en": "Computer Speech & Language is a peer-reviewed journal published by Elsevier. Scope: parole + NLP. Hybrid model: optional open access (APC). Regular submissions are open year-round; only special issues have deadlines."
    },
    "notice_by": "règles",
-   "searched": "2026-10-04",
+   "searched": "2026-10-12",
    "special_issues": [],
    "submission": "continuous",
    "next_deadline": null,
@@ -70988,7 +72053,7 @@
     "en": "Data & Knowledge Engineering is a peer-reviewed journal published by Elsevier. Scope: extraction, ontologies, NLP structure. Hybrid model: optional open access (APC). Regular submissions are open year-round; only special issues have deadlines."
    },
    "notice_by": "règles",
-   "searched": "2026-10-04",
+   "searched": "2026-10-12",
    "special_issues": [],
    "submission": "continuous",
    "next_deadline": null,
@@ -71000,7 +72065,7 @@
     "en": "Digital Humanities Quarterly is a peer-reviewed journal. Scope: humanites numeriques. Hybrid model: optional open access (APC). Regular submissions are open year-round; only special issues have deadlines."
    },
    "notice_by": "règles",
-   "searched": "2026-10-04",
+   "searched": "2026-10-12",
    "special_issues": [],
    "submission": "continuous",
    "next_deadline": null,
@@ -71012,7 +72077,7 @@
     "en": "Digital Scholarship in the Humanities is a peer-reviewed journal published by Oxford UP. Scope: humanites numeriques, NLP litteraire. Hybrid model: optional open access (APC). Regular submissions are open year-round; only special issues have deadlines."
    },
    "notice_by": "règles",
-   "searched": "2026-10-04",
+   "searched": "2026-10-12",
    "special_issues": [],
    "submission": "continuous",
    "next_deadline": null,
@@ -71024,7 +72089,7 @@
     "en": "Engineering Applications of Artificial Intelligence is a peer-reviewed journal published by Elsevier. Scope: applications IA, dont NLP. Hybrid model: optional open access (APC). Regular submissions are open year-round; only special issues have deadlines."
    },
    "notice_by": "règles",
-   "searched": "2026-10-04",
+   "searched": "2026-10-12",
    "special_issues": [],
    "submission": "continuous",
    "next_deadline": null,
@@ -71141,34 +72206,14 @@
    "notice_by": "règles",
    "special_issues": [
     {
-     "title": "Machine Learning and Applications: An International Journal",
-     "deadline": "2026-10-11",
-     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199941"
-    },
-    {
-     "title": "3rd International Conference on AI, Machine Learning and Data Science",
-     "deadline": "2026-10-11",
-     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=191480"
-    },
-    {
      "title": "4th International Conference on Machine Learning and IoT",
      "deadline": "2026-10-13",
      "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=191990"
     }
    ],
    "submission": "continuous",
-   "next_deadline": "2026-10-11",
+   "next_deadline": "2026-10-13",
    "search_issues": [
-    {
-     "title": "Machine Learning and Applications: An International Journal",
-     "deadline": "2026-10-11",
-     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199941"
-    },
-    {
-     "title": "3rd International Conference on AI, Machine Learning and Data Science",
-     "deadline": "2026-10-11",
-     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=191480"
-    },
     {
      "title": "4th International Conference on Machine Learning and IoT",
      "deadline": "2026-10-13",
