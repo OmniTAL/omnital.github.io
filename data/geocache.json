@@ -196,11 +196,17 @@
   "lng": 11.9765,
   "label": "Chalmers Tekniska Högskola"
  },
+ "chalmers university of technology, se-412 96 gothenburg, sweden": {
+  "lat": 57.6897,
+  "lng": 11.9765,
+  "label": "Chalmers Tekniska Högskola"
+ },
  "chambéry": {
   "lat": 45.5663,
   "lng": 5.9204,
   "label": "Chambéry"
  },
+ "cherkasy state technological university": null,
  "china": {
   "lat": 30.048,
   "lng": -94.3357,
@@ -477,6 +483,10 @@
   "location": "北京市海淀区",
   "name": "Edward"
  },
+ "gh:emir": {
+  "location": "Istanbul, Turkey",
+  "name": "Emir Karşıyakalı"
+ },
  "gh:feelime": {
   "location": null,
   "name": "Feel IME"
@@ -484,6 +494,10 @@
  "gh:folkbench": {
   "location": null,
   "name": "folkbench"
+ },
+ "gh:harvil1": {
+  "location": null,
+  "name": "Harvil"
  },
  "gh:iamathavan": {
   "location": null,
@@ -597,6 +611,10 @@
   "location": "Singapore",
   "name": "OmniJev"
  },
+ "gh:onehumanbeing": {
+  "location": "New York",
+  "name": "Henry Yuan"
+ },
  "gh:opennookorg": {
   "location": null,
   "name": "opennook"
@@ -692,6 +710,10 @@
  "gh:steam-drops": {
   "location": null,
   "name": "steam-drops"
+ },
+ "gh:strands-agents": {
+  "location": null,
+  "name": "strands-agents"
  },
  "gh:tlack": {
   "location": "Miami",
@@ -826,6 +848,7 @@
  "hf:abu-dju": null,
  "hf:ad019el": null,
  "hf:adammabrouk25": null,
+ "hf:adebimpe1": null,
  "hf:adelnazmy2002": null,
  "hf:adelwolf5": null,
  "hf:adieyal": null,
@@ -1018,6 +1041,9 @@
  "hf:data-gouv-ml": {
   "fullname": "Data-Gouv-Community"
  },
+ "hf:databricks": {
+  "fullname": "Databricks"
+ },
  "hf:datasmartly": null,
  "hf:datasocial": null,
  "hf:datoric": {
@@ -1180,6 +1206,9 @@
  },
  "hf:hoanglinhn0": null,
  "hf:hodvard": null,
+ "hf:honeydatav2": {
+  "fullname": "Honey-Data-V2"
+ },
  "hf:hongyokps": null,
  "hf:horizon-labs": null,
  "hf:hosstia": null,
@@ -1286,6 +1315,7 @@
  "hf:lakoreai": {
   "fullname": "LakoreAI"
  },
+ "hf:lambfool15": null,
  "hf:langtech-veu": {
   "fullname": "LangTech Veu"
  },
@@ -1307,6 +1337,9 @@
  "hf:lesterpaintstheworld": null,
  "hf:lgessler": null,
  "hf:lgi2p": null,
+ "hf:lichess": {
+  "fullname": "lichess"
+ },
  "hf:lifeai-dev": {
   "fullname": "LifeAi"
  },
@@ -1334,6 +1367,7 @@
   "fullname": "Loom AI"
  },
  "hf:lopatnov": null,
+ "hf:loscrossos": null,
  "hf:ltopaiman4": null,
  "hf:luca-949": null,
  "hf:luckmeeer": null,
@@ -1440,6 +1474,7 @@
  "hf:neuronix12314585": null,
  "hf:neweret": null,
  "hf:nexxusss": null,
+ "hf:nightprince": null,
  "hf:niobures": null,
  "hf:nisavid": null,
  "hf:nisten": null,
@@ -1476,6 +1511,9 @@
  },
  "hf:openai": {
   "fullname": "OpenAI"
+ },
+ "hf:openassistant": {
+  "fullname": "OpenAssistant"
  },
  "hf:openbmb": {
   "fullname": "OpenBMB"
@@ -1575,12 +1613,16 @@
  "hf:rifailabs": {
   "fullname": "rifai"
  },
+ "hf:rleo": null,
+ "hf:roneneldan": null,
  "hf:rosany": null,
  "hf:rozabel": null,
  "hf:rshoemake": null,
  "hf:rudrakshrakeshzodage": null,
  "hf:ruggsea": null,
  "hf:ruudvelo": null,
+ "hf:ryanmarten": null,
+ "hf:saidutta69": null,
  "hf:saiidah": null,
  "hf:sailu4": null,
  "hf:sakasegawa": null,
@@ -1623,6 +1665,7 @@
   "fullname": "Small Models for GLAM"
  },
  "hf:solsticeai": null,
+ "hf:sonoale": null,
  "hf:spazziep456": null,
  "hf:speridlabs": {
   "fullname": "speridlabs"
@@ -1840,6 +1883,11 @@
   "lng": 28.9553,
   "label": "Istanbul Büyükşehir Belediyesi"
  },
+ "istanbul, turkey": {
+  "lat": 41.0064,
+  "lng": 28.9759,
+  "label": "Istanbul"
+ },
  "i̇stanbul": {
   "lat": 41.0064,
   "lng": 28.9759,
@@ -1869,6 +1917,11 @@
   "lat": 24.7571,
   "lng": 46.8572,
   "label": "KSAU-HS"
+ },
+ "kit": {
+  "lat": 49.1019,
+  "lng": 8.4331,
+  "label": "Institut de technologie de Karlsruhe"
  },
  "korea university": {
   "lat": 36.6109,
@@ -2041,6 +2094,11 @@
   "lng": 121.5416,
   "label": "Université nationale des sciences et des technologies de Taiwan"
  },
+ "new york": {
+  "lat": 40.7127,
+  "lng": -74.006,
+  "label": "New York"
+ },
  "new york city, usa": {
   "lat": 40.7127,
   "lng": -74.006,
@@ -2057,6 +2115,7 @@
   "lng": 0.3139,
   "label": "Normandie"
  },
+ "nova information management school (nova ims), universidade nova de lisboa": null,
  "nîmes université": {
   "lat": 43.8388,
   "lng": 4.3645,
@@ -2157,6 +2216,11 @@
   "lat": 40.4407,
   "lng": -80.0026,
   "label": "Pittsburgh"
+ },
+ "pontificia universidad católica de chile": {
+  "lat": -33.4418,
+  "lng": -70.6403,
+  "label": "Pontificia Universidad Católica de Chile"
  },
  "prague": {
   "lat": 50.0875,
@@ -2303,6 +2367,11 @@
   "lng": -4.838,
   "label": "Espagne"
  },
+ "springer nature (germany)": {
+  "lat": 49.4027,
+  "lng": 8.6747,
+  "label": "Springer Nature"
+ },
  "st. petersburg, florida": {
   "lat": 27.7712,
   "lng": -82.634,
@@ -2338,6 +2407,7 @@
   "lng": 23.7777,
   "label": "Université"
  },
+ "teacher of school no. 58 of muzrabatsky district of surkhandarya region": null,
  "technische universität darmstadt": {
   "lat": 49.8614,
   "lng": 8.682,
@@ -2419,6 +2489,11 @@
   "lng": -53.7204,
   "label": "Universidade Federal de Santa Maria"
  },
+ "universidade federal do rio grande do norte": {
+  "lat": -5.8378,
+  "lng": -35.204,
+  "label": "UFRN - Campus Central"
+ },
  "universitas sebelas maret": {
   "lat": -7.5595,
   "lng": 110.8569,
@@ -2485,6 +2560,7 @@
   "lng": 9.1883,
   "label": "Université de Constance"
  },
+ "university of ljubljana, faculty of law": null,
  "university of ljubljana, faculty of medicine, department of public health; national institute of public health slovenia": null,
  "university of massachusetts amherst": {
   "lat": 42.3893,
@@ -2966,6 +3042,13 @@
  },
  "wdn:darija audio dataset": null,
  "wdn:data gouv community": null,
+ "wdn:databricks": {
+  "lat": 37.775,
+  "lng": -122.4194,
+  "city": "San Francisco",
+  "region": "États-Unis",
+  "geo_source": "Wikidata · Databricks"
+ },
  "wdn:datoric": null,
  "wdn:decosa": null,
  "wdn:deepseek": {
@@ -3022,6 +3105,7 @@
   "region": "Espagne",
   "geo_source": "Wikidata · HiTZ zentroa"
  },
+ "wdn:honey data v2": null,
  "wdn:hplt": null,
  "wdn:hugging face for audio": null,
  "wdn:ibm research": null,
@@ -3040,6 +3124,7 @@
  "wdn:large model systems organization": null,
  "wdn:lemonfox": null,
  "wdn:lemura labs": null,
+ "wdn:lichess": null,
  "wdn:lifeai": null,
  "wdn:liquid ai": null,
  "wdn:llamaindex": null,
@@ -3086,6 +3171,7 @@
   "region": "États-Unis",
   "geo_source": "Wikidata · OpenAI"
  },
+ "wdn:openassistant": null,
  "wdn:openbmb": null,
  "wdn:opendataarena": null,
  "wdn:openeurollm": null,
