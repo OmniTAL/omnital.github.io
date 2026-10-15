@@ -14,6 +14,11 @@
   "lng": 54.3774,
   "label": "Abou Dabi"
  },
+ "adelaide university": {
+  "lat": -34.9189,
+  "lng": 138.6042,
+  "label": "University of Adelaide"
+ },
  "afyon kocatepe university": {
   "lat": 38.8323,
   "lng": 30.5291,
@@ -35,6 +40,11 @@
   "lat": 38.3436,
   "lng": -0.4882,
   "label": "Alicante"
+ },
+ "amazon (united states)": {
+  "lat": 44.6339,
+  "lng": -93.2641,
+  "label": "Amazon Fulfillment Center MSP6"
  },
  "amazon.com services inc.": null,
  "amazon.com services llc": null,
@@ -128,6 +138,11 @@
   "lng": 5.9894,
   "label": "Université Marie-et-Louis-Pasteur"
  },
+ "binus university": {
+  "lat": -6.2289,
+  "lng": 106.7968,
+  "label": "Binus University"
+ },
  "bolzano/bozen, italy": {
   "lat": 46.4964,
   "lng": 11.3588,
@@ -152,6 +167,11 @@
   "lat": -14.3904,
   "lng": -36.9478,
   "label": "Zona Econômica Exclusiva do Brasil"
+ },
+ "bremen": {
+  "lat": 53.0758,
+  "lng": 8.8072,
+  "label": "Brême"
  },
  "budapest, hungary": {
   "lat": 47.4818,
@@ -216,6 +236,11 @@
   "lat": 22.4141,
   "lng": 114.21,
   "label": "香港中文大學 Chinese University of Hong Kong"
+ },
+ "chonnam national university": {
+  "lat": 35.1769,
+  "lng": 126.9069,
+  "label": "전남대학교"
  },
  "climate service center germany (gerics), helmholtz-zentrum hereon, fischertwiete 1, 20095 hamburg, germany": null,
  "concordia university": {
@@ -348,6 +373,7 @@
  "department of computer science, khmelnytskyi national university, ukraine": null,
  "department of display materials engineering, soonchunhyang university": null,
  "department of ecology, faculty of science, charles university, prague, czechia; institute of microbiology of the czech academy of sciences, prague, czechia": null,
+ "department of environmental engineering, seoul national university of science and technology": null,
  "department of information and communication technology, faculty of science and liberal arts, rajamangala university of technology isan, thailand": null,
  "department of zoology, university of granada, granada, spain": null,
  "des moines, ia": {
@@ -510,9 +536,17 @@
   "location": null,
   "name": "Feel IME"
  },
+ "gh:firmwareversion": {
+  "location": "武汉",
+  "name": "Atlas"
+ },
  "gh:folkbench": {
   "location": null,
   "name": "folkbench"
+ },
+ "gh:fotonik-sk": {
+  "location": null,
+  "name": "Nikita Prismakov"
  },
  "gh:harvil1": {
   "location": null,
@@ -653,6 +687,10 @@
  "gh:orderseekerpropagate": {
   "location": null,
   "name": "orderseekerpropagate"
+ },
+ "gh:outcrawlai": {
+  "location": null,
+  "name": "Outcrawl"
  },
  "gh:ozcancelik": {
   "location": "İstanbul",
@@ -965,6 +1003,9 @@
  "hf:aoiandroid": null,
  "hf:apjanco": null,
  "hf:aqvaylis": null,
+ "hf:ark-tech": {
+  "fullname": "Ark Tech"
+ },
  "hf:artemmmmmmmmmmmmmmmmmmm": null,
  "hf:arvindk9835": null,
  "hf:ash3241": null,
@@ -995,7 +1036,13 @@
   "fullname": "BAIDU"
  },
  "hf:bakrianoo": null,
+ "hf:baobabtech": {
+  "fullname": "Baobab Tech"
+ },
  "hf:basaadi": null,
+ "hf:basis-ai": {
+  "fullname": "Basis"
+ },
  "hf:basquelabs": null,
  "hf:basquete-leo": null,
  "hf:bc7ec356": null,
@@ -1059,6 +1106,7 @@
  "hf:cluesurf": {
   "fullname": "ClueSurf"
  },
+ "hf:codeclawd": null,
  "hf:cohearo": {
   "fullname": "Cohearo"
  },
@@ -1243,6 +1291,7 @@
   "fullname": "HBB Community"
  },
  "hf:hbouqssi": null,
+ "hf:helenpeng": null,
  "hf:helsinki-nlp": {
   "fullname": "Helsinki-NLP Research Group"
  },
@@ -1278,6 +1327,9 @@
  "hf:ibtihal02": null,
  "hf:icaruana": null,
  "hf:idavidrein": null,
+ "hf:ifm": {
+  "fullname": "Institute of Foundation Models"
+ },
  "hf:ifrz": null,
  "hf:ikala": {
   "fullname": "iKala"
@@ -1323,6 +1375,9 @@
  "hf:janavivekariya": null,
  "hf:jaydo88": null,
  "hf:jbmkmbrlb": null,
+ "hf:jetbrains": {
+  "fullname": "JetBrains"
+ },
  "hf:jhu-clsp": {
   "fullname": "Center for Language and Speech Processing @ JHU"
  },
@@ -1479,6 +1534,9 @@
  "hf:mlnomad": null,
  "hf:mlrs": {
   "fullname": "Maltese Language Resource Server"
+ },
+ "hf:mlx-community": {
+  "fullname": "MLX Community"
  },
  "hf:mmmu": {
   "fullname": "MMMU"
@@ -1689,6 +1747,7 @@
  "hf:salvacat": null,
  "hf:sam8000": null,
  "hf:samielakkad1": null,
+ "hf:sanghyang00": null,
  "hf:sargedev": null,
  "hf:savial": null,
  "hf:sc117": null,
@@ -1696,6 +1755,7 @@
  "hf:sdobson": null,
  "hf:seamon67": null,
  "hf:secemp9": null,
+ "hf:sekkit": null,
  "hf:seml-lab": {
   "fullname": "Secure Machine Learning Lab"
  },
@@ -1980,6 +2040,11 @@
   "lng": -84.5831,
   "label": "Kennesaw State University"
  },
+ "king abdulaziz university": {
+  "lat": 21.4934,
+  "lng": 39.2485,
+  "label": "جامعة الملك عبدالعزيز"
+ },
  "king saud bin abdulaziz university for health sciences": {
   "lat": 24.7571,
   "lng": 46.8572,
@@ -2016,6 +2081,7 @@
   "lng": -122.2456,
   "label": "Lawrence Berkeley National Laboratory"
  },
+ "lecturer at the surkhandarya branch of navoi innovative university": null,
  "lecturer, department of russian language and literature, kokand state university, kokand,": null,
  "leeuwarden": {
   "lat": 53.2006,
@@ -2091,6 +2157,7 @@
   "label": "Massachusetts"
  },
  "master degree student of nukus state pedagogical institute  named after ajiniyaz nukus, uzbekistan": null,
+ "master's student urgench state university": null,
  "mcgill university": {
   "lat": 45.4318,
   "lng": -73.9453,
@@ -2131,6 +2198,11 @@
   "lat": 35.8957,
   "lng": 14.4892,
   "label": "L-Imsida"
+ },
+ "munich, bavaria, germany": {
+  "lat": 48.1371,
+  "lng": 11.5754,
+  "label": "Munich"
  },
  "münchen": {
   "lat": 48.1371,
@@ -2486,11 +2558,18 @@
   "lng": 23.7777,
   "label": "Université"
  },
+ "tashkent state university of oriental studies,  master's degree in computational linguistics (70230401)": null,
+ "teacher at the university of information technologies and management": null,
  "teacher of school no. 58 of muzrabatsky district of surkhandarya region": null,
  "technische universität darmstadt": {
   "lat": 49.8614,
   "lng": 8.682,
   "label": "Technische Universität Darmstadt"
+ },
+ "tekirdağ namık kemal university": {
+  "lat": 40.9952,
+  "lng": 27.5896,
+  "label": "Tekirdağ Namık Kemal Üniversitesi"
  },
  "texas a&m university": {
   "lat": 30.6109,
@@ -2568,6 +2647,11 @@
   "lng": -49.0302,
   "label": "Universidade Estadual Paulista - Unesp"
  },
+ "universidade federal de juiz de fora": {
+  "lat": -21.7769,
+  "lng": -43.3692,
+  "label": "Universidade Federal de Juiz de Fora"
+ },
  "universidade federal de santa maria": {
   "lat": -29.7232,
   "lng": -53.7204,
@@ -2623,6 +2707,7 @@
   "lng": 11.5872,
   "label": "Université de Bayreuth"
  },
+ "university of bergamo": null,
  "university of catania": null,
  "university of cyprus": {
   "lat": 35.1439,
@@ -2638,6 +2723,11 @@
   "lat": 51.8774,
   "lng": 0.9499,
   "label": "University of Essex"
+ },
+ "university of gdańsk": {
+  "lat": 54.3964,
+  "lng": 18.574,
+  "label": "Uniwersytet Gdański"
  },
  "university of konstanz": {
   "lat": 47.69,
@@ -2757,6 +2847,7 @@
   "lng": 2.1735,
   "label": "Université Paris-Saclay"
  },
+ "univerzitet u beogradu fakultet organizacionih nauka": null,
  "uniwersytet im adama mickiewicza w poznaniu wydział prawa i administracji": null,
  "uppsala": {
   "lat": 59.8586,
@@ -3082,6 +3173,13 @@
   "geo_source": "Wikidata · Anthropic"
  },
  "wdn:applied intelligence data analysis universidad polit cnica de madrid": null,
+ "wdn:ark tech": {
+  "lat": 43.6722,
+  "lng": 3.7178,
+  "city": "Vailhauquès",
+  "region": "France",
+  "geo_source": "Wikidata · Ark Technique"
+ },
  "wdn:atomic chat": null,
  "wdn:autotrust ai lab": null,
  "wdn:axiomic labs": null,
@@ -3092,6 +3190,8 @@
   "region": "république populaire de Chine",
   "geo_source": "Wikidata · Baidu"
  },
+ "wdn:baobab tech": null,
+ "wdn:basis": null,
  "wdn:biglam bigscience libraries archives and museums": null,
  "wdn:bretagne": {
   "lat": 47.5953,
@@ -3202,7 +3302,15 @@
  "wdn:information retrieval lab university of a coru a": null,
  "wdn:infosec innovations": null,
  "wdn:institute for physical ai bmi": null,
+ "wdn:institute of foundation models": null,
  "wdn:ist austria distributed algorithms and systems lab": null,
+ "wdn:jetbrains": {
+  "lat": 50.0875,
+  "lng": 14.4214,
+  "city": "Prague",
+  "region": "Tchéquie",
+  "geo_source": "Wikidata · JetBrains"
+ },
  "wdn:jscreatorpro pte ltd": null,
  "wdn:lakoreai": null,
  "wdn:langtech veu": null,
@@ -3239,6 +3347,7 @@
   "geo_source": "Wikidata · Mistral AI"
  },
  "wdn:ml foundations": null,
+ "wdn:mlx community": null,
  "wdn:mmmu": null,
  "wdn:moonworks ai": null,
  "wdn:multimodal art projection": null,
@@ -3358,6 +3467,11 @@
   "lat": 39.9581,
   "lng": 116.2924,
   "label": "Haidian"
+ },
+ "武汉": {
+  "lat": 30.5789,
+  "lng": 114.2921,
+  "label": "Wuhan"
  },
  "湖南农业大学人文与外语学院(hunan agricultural university, college of humanities and foreign languages)": null
 }
