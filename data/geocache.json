@@ -243,6 +243,11 @@
   "label": "전남대학교"
  },
  "climate service center germany (gerics), helmholtz-zentrum hereon, fischertwiete 1, 20095 hamburg, germany": null,
+ "compiègne": {
+  "lat": 49.4179,
+  "lng": 2.8263,
+  "label": "Compiègne"
+ },
  "concordia university": {
   "lat": 45.4583,
   "lng": -73.6394,
@@ -624,6 +629,10 @@
   "location": null,
   "name": "meryambn"
  },
+ "gh:michael-chow-arch": {
+  "location": "China",
+  "name": "Michael Chow"
+ },
  "gh:mlsftwrs": {
   "location": "Segou, Mali",
   "name": "ml.sftwrs"
@@ -700,6 +709,10 @@
   "location": null,
   "name": "ozynautetu-create"
  },
+ "gh:pedromarinhodev": {
+  "location": null,
+  "name": "Pedro Marinho"
+ },
  "gh:petkyletampu28-a11y": {
   "location": null,
   "name": "petkyletampu28-a11y"
@@ -760,6 +773,10 @@
   "location": null,
   "name": "GOORA"
  },
+ "gh:shikki841": {
+  "location": null,
+  "name": "Shikki"
+ },
  "gh:shinthink": {
   "location": null,
   "name": "ShinThink"
@@ -779,6 +796,10 @@
  "gh:strands-agents": {
   "location": null,
   "name": "strands-agents"
+ },
+ "gh:swax": {
+  "location": null,
+  "name": "swax"
  },
  "gh:tlack": {
   "location": "Miami",
@@ -939,6 +960,7 @@
   "fullname": "AfriSpeech"
  },
  "hf:agentlans": null,
+ "hf:agharib": null,
  "hf:ahcenr": null,
  "hf:ahmedcpe": null,
  "hf:ahmedheakl": null,
@@ -1106,6 +1128,9 @@
  "hf:cluesurf": {
   "fullname": "ClueSurf"
  },
+ "hf:code-video-model": {
+  "fullname": "Code Video Model"
+ },
  "hf:codeclawd": null,
  "hf:cohearo": {
   "fullname": "Cohearo"
@@ -1155,8 +1180,10 @@
  "hf:deepseek-ai": {
   "fullname": "DeepSeek"
  },
+ "hf:dengling222": null,
  "hf:dev-vinod": null,
  "hf:devendradhakad": null,
+ "hf:devilloots": null,
  "hf:dex94": null,
  "hf:deymon3522": null,
  "hf:dgurgurov": null,
@@ -1291,6 +1318,7 @@
   "fullname": "HBB Community"
  },
  "hf:hbouqssi": null,
+ "hf:hecdasa": null,
  "hf:helenpeng": null,
  "hf:helsinki-nlp": {
   "fullname": "Helsinki-NLP Research Group"
@@ -1503,6 +1531,7 @@
  "hf:marouaneoa": null,
  "hf:marxx01": null,
  "hf:masterx": null,
+ "hf:matenek": null,
  "hf:mattt": null,
  "hf:maurorisonho": null,
  "hf:maziyarpanahi": null,
@@ -1513,6 +1542,9 @@
  "hf:menoviar28": null,
  "hf:meriemdarija": null,
  "hf:mesozoicmetallurgist": null,
+ "hf:meta-models": {
+  "fullname": "Meta Inc."
+ },
  "hf:miguelgp-13": null,
  "hf:mihaipopa-1": null,
  "hf:mijuanlo": null,
@@ -1585,6 +1617,7 @@
  "hf:neuronix12314585": null,
  "hf:neweret": null,
  "hf:nexxusss": null,
+ "hf:nightmak": null,
  "hf:nightprince": null,
  "hf:niobures": null,
  "hf:nisavid": null,
@@ -1662,6 +1695,9 @@
  "hf:pakphum": null,
  "hf:panga-azazia": null,
  "hf:pauhmolins": null,
+ "hf:pauhu": {
+  "fullname": "Pauhu AI"
+ },
  "hf:pauladw": null,
  "hf:peacockery": {
   "fullname": "Peacockery Studio"
@@ -1801,6 +1837,9 @@
  "hf:supremelobster": null,
  "hf:supyoshi": null,
  "hf:svngoku": null,
+ "hf:swe-bench": {
+  "fullname": "SWE-bench"
+ },
  "hf:swinliq-ain-2": {
   "fullname": "SwinliQ-AI"
  },
@@ -1866,6 +1905,7 @@
  "hf:ucrelnlp": {
   "fullname": "UCREL NLP Research Group"
  },
+ "hf:uiafuqhfi": null,
  "hf:ukar": null,
  "hf:ukisai": null,
  "hf:umuteam": {
@@ -1881,12 +1921,16 @@
  "hf:unsloth": {
   "fullname": "Unsloth AI"
  },
+ "hf:unswnlporg": {
+  "fullname": "UNSW NLP"
+ },
  "hf:usa15371": null,
  "hf:valkayuh": null,
  "hf:vamboai": {
   "fullname": "Vambo AI"
  },
  "hf:vansh62": null,
+ "hf:vasanth009": null,
  "hf:velkamez": null,
  "hf:venastine-research": {
   "fullname": "Venastine Research"
@@ -1962,6 +2006,7 @@
   "fullname": "zarnite"
  },
  "hf:zefancai": null,
+ "hf:zengzzy": null,
  "hf:zenocode-org": null,
  "hf:zeplintor": null,
  "hf:zgcagi": {
@@ -1980,6 +2025,7 @@
   "label": "Humboldt-Universität zu Berlin"
  },
  "ikerbasque": null,
+ "imdea software institute": null,
  "independent researcher": null,
  "independent researcher of samarkand state institute of foreign languages": null,
  "india": {
@@ -2075,6 +2121,7 @@
   "lng": 3.2915,
   "label": "KU Leuven Kulak"
  },
+ "kyiv national economic university named after vadym hetman": null,
  "language technologies institute, cmu": null,
  "lawrence berkeley national laboratory": {
   "lat": 37.877,
@@ -2189,6 +2236,11 @@
   "lng": 121.5192,
   "label": "教育部"
  },
+ "mirea - russian technological university": {
+  "lat": 55.6707,
+  "lng": 37.4815,
+  "label": "MIREA"
+ },
  "mrc cognition and brain sciences unit": {
   "lat": 52.1923,
   "lng": 0.1193,
@@ -2198,6 +2250,11 @@
   "lat": 35.8957,
   "lng": 14.4892,
   "label": "L-Imsida"
+ },
+ "multimedia university": {
+  "lat": 2.9279,
+  "lng": 101.6418,
+  "label": "Universiti Multimedia"
  },
  "munich, bavaria, germany": {
   "lat": 48.1371,
@@ -2367,6 +2424,11 @@
   "lng": -70.6403,
   "label": "Pontificia Universidad Católica de Chile"
  },
+ "porto, portugal": {
+  "lat": 41.1502,
+  "lng": -8.6103,
+  "label": "Porto"
+ },
  "prague": {
   "lat": 50.0875,
   "lng": 14.4213,
@@ -2523,6 +2585,11 @@
   "lng": 8.6747,
   "label": "Springer Nature"
  },
+ "srm institute of science and technology": {
+  "lat": 12.8234,
+  "lng": 80.045,
+  "label": "SRM Institute of Science and Technology"
+ },
  "st. petersburg, florida": {
   "lat": 27.7712,
   "lng": -82.634,
@@ -2533,6 +2600,7 @@
   "lng": -122.1694,
   "label": "Université Stanford"
  },
+ "student of andijan state institute of foreign languages": null,
  "stuttgart": {
   "lat": 48.7784,
   "lng": 9.18,
@@ -2588,6 +2656,11 @@
   "label": "Tilburg University"
  },
  "tokenmaxxing": null,
+ "tokyo metropolitan university": {
+  "lat": 35.62,
+  "lng": 139.3829,
+  "label": "東京都立大学"
+ },
  "toronto, canada": {
   "lat": 43.6535,
   "lng": -79.3839,
@@ -2598,6 +2671,11 @@
   "lat": 47.39,
   "lng": 0.6889,
   "label": "Tours"
+ },
+ "tu wien": {
+  "lat": 48.1985,
+  "lng": 16.3699,
+  "label": "TU Wien, Hauptgebäude"
  },
  "télétravail · usa, canada, usa timezones": null,
  "tübingen": {
@@ -2615,6 +2693,11 @@
   "lat": 54.7024,
   "lng": -3.2766,
   "label": "Royaume-Uni"
+ },
+ "universidad de málaga": {
+  "lat": 36.7165,
+  "lng": -4.4954,
+  "label": "Universidad de Málaga"
  },
  "universidad de sevilla": {
   "lat": 6.2694,
@@ -2796,6 +2879,7 @@
   "lng": 7.2676,
   "label": "Parc Valrose - Université Côte d'Azur - Faculté des Sciences"
  },
+ "université côte d'azur, cnrs, oca, ird, umr géoazur, nice, france": null,
  "université de lille (2022-....)": {
   "lat": 50.6286,
   "lng": 3.126,
@@ -3216,6 +3300,7 @@
   "geo_source": "Wikidata · Cloudflare"
  },
  "wdn:cluesurf": null,
+ "wdn:code video model": null,
  "wdn:cognitive machine learning ens": null,
  "wdn:cohearo": null,
  "wdn:cohere labs": null,
@@ -3330,6 +3415,7 @@
  "wdn:malinali": null,
  "wdn:maltese language resource server": null,
  "wdn:mcgill nlp group": null,
+ "wdn:meta inc": null,
  "wdn:minimax": {
   "lat": 31.2325,
   "lng": 121.4692,
@@ -3378,6 +3464,7 @@
  "wdn:orcarouter": null,
  "wdn:organisation participant 27": null,
  "wdn:orphera ai": null,
+ "wdn:pauhu ai": null,
  "wdn:peacockery studio": null,
  "wdn:perplexity": null,
  "wdn:platzi community": null,
@@ -3412,6 +3499,7 @@
   "geo_source": "Wikidata · Sunbird Airlines"
  },
  "wdn:supersonic labs": null,
+ "wdn:swe bench": null,
  "wdn:swinliq ai": null,
  "wdn:tatsu lab": null,
  "wdn:teltek video research s l": null,
@@ -3428,6 +3516,7 @@
  "wdn:universal dependencies": null,
  "wdn:univo": null,
  "wdn:unsloth ai": null,
+ "wdn:unsw nlp": null,
  "wdn:vambo ai": null,
  "wdn:venastine research": null,
  "wdn:viggle ai": null,
