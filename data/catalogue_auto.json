@@ -42135,8 +42135,8 @@
    "kind": "hf_model",
    "categorie_key": "cat_Model",
    "type": "Modèle (Hugging Face)",
-   "licence": "other",
-   "licence_class": "unknown",
+   "licence": "cc-by-nc-4.0",
+   "licence_class": "open",
    "lien": "https://huggingface.co/Oussamamaat/golha-darija-tts",
    "added": "2026-10-03",
    "focus": true,
@@ -56462,7 +56462,7 @@
     "en": "14th International Global Wordnet Conference Amsterdam, Netherlands February 1-4, 2027 The Global Wordnet Association is delighted to announce the 14th International Global Wordnet Conference (GWC2027), to be held in Amsterdam (Netherlands) from 1 to 4 February, 2026. The event takes place in Amsterdam, Netherlands from 1 February 2027 to 4 February 2027. Paper submission deadline: 16 October 2026. Author notification: 27 November 2026."
    },
    "notice_by": "règles",
-   "deadline_next": "2026-10-16"
+   "deadline_next": null
   },
   "wikicfp:201593": {
    "id": "wikicfp:201593",
@@ -56845,9 +56845,9 @@
    "added": "2026-10-04",
    "focus": false,
    "region": "Japan",
-   "city": "Japon",
-   "lat": 36.5748,
-   "lng": 139.2394,
+   "city": "Kyoto",
+   "lat": 35.0116,
+   "lng": 135.7681,
    "pays": "Japan",
    "geo_precision": "lieu",
    "event": {
@@ -67853,7 +67853,7 @@
   },
   "gh:ronitgupta138/vox-intel-engine": {
    "id": "gh:ronitgupta138/vox-intel-engine",
-   "nom": "ronitgupta138/vox-intel-engine",
+   "nom": "ronitgupta138/Vox-Intel-Engine",
    "source": "veille",
    "origin": "veille",
    "provider": "github",
@@ -67861,7 +67861,7 @@
    "categorie_key": "cat_Tool",
    "type": "Dépôt GitHub",
    "licence_class": "open",
-   "lien": "https://github.com/ronitgupta138/vox-intel-engine",
+   "lien": "https://github.com/ronitgupta138/Vox-Intel-Engine",
    "added": "2026-10-09",
    "focus": false,
    "region": "Inde",
@@ -69785,8 +69785,8 @@
     "eu"
    ],
    "description": {
-    "fr": "Jeu de données publié sur Hugging Face par tknika le 10 octobre 2026. Langue(s) : eu, es, français. Tâche : étiquetage de séquences. Taille : 1K<n<10K. pii-synthetic-basque-v2 A fully synthetic dataset of 6,000 sentences containing personally identifiable information (PII), in Basque, Spanish and French, covering the whole Basque Country (Araba, Bizkaia, Gipuzkoa,…",
-    "en": "Dataset published on Hugging Face by tknika on 10 October 2026. Language(s): eu, es, French. Task: token classification. Size: 1K<n<10K. pii-synthetic-basque-v2 A fully synthetic dataset of 6,000 sentences containing personally identifiable information (PII), in Basque, Spanish and French, covering the whole Basque Country (Araba, Bizkaia, Gipuzkoa,…"
+    "fr": "Jeu de données publié sur Hugging Face par tknika le 10 octobre 2026. Langue(s) : eu, es, français. Tâche : étiquetage de séquences. Taille : 1K<n<10K. pii-synthetic-basque-v2 A fully synthetic dataset of sentences containing personally identifiable information (PII) in Basque, Spanish and French.",
+    "en": "Dataset published on Hugging Face by tknika on 10 October 2026. Language(s): eu, es, French. Task: token classification. Size: 1K<n<10K. pii-synthetic-basque-v2 A fully synthetic dataset of sentences containing personally identifiable information (PII) in Basque, Spanish and French."
    },
    "notice_by": "règles"
   },
@@ -70333,7 +70333,7 @@
    "kind": "hf_model",
    "categorie_key": "cat_Model",
    "type": "Modèle (Hugging Face)",
-   "licence": "apache-2.0",
+   "licence": "cc-by-nc-sa-4.0",
    "licence_class": "open",
    "lien": "https://huggingface.co/tknika/gliner2-PII-basque-v2",
    "added": "2026-10-11",
@@ -70365,7 +70365,7 @@
    "kind": "hf_model",
    "categorie_key": "cat_Model",
    "type": "Modèle (Hugging Face)",
-   "licence": "apache-2.0",
+   "licence": "cc-by-nc-sa-4.0",
    "licence_class": "open",
    "lien": "https://huggingface.co/tknika/gliner2-PII-basque",
    "added": "2026-10-11",
@@ -72402,8 +72402,8 @@
    "region": "International",
    "trending": true,
    "description": {
-    "fr": "Jeu de données publié sur Hugging Face par openbmb le 8 septembre 2026. Langue(s) : anglais, zh. Tâche : génération de texte. Taille : 100M<n<1B. UltraData-Stack-v3-L2 📦 UltraData Collection | 🌐 UltraData | 📖 Tech Report (Coming Soon) | 🤗 UltraData-Code | 🤗 UltraData-Code-L2 Classifier English | 中文 📚 Introduction UltraData-Stack-v3-L2 is a selected code corpus of…",
-    "en": "Dataset published on Hugging Face by openbmb on 8 September 2026. Language(s): English, zh. Task: text generation. Size: 100M<n<1B. UltraData-Stack-v3-L2 📦 UltraData Collection | 🌐 UltraData | 📖 Tech Report (Coming Soon) | 🤗 UltraData-Code | 🤗 UltraData-Code-L2 Classifier English | 中文 📚 Introduction UltraData-Stack-v3-L2 is a selected code corpus of…"
+    "fr": "Jeu de données publié sur Hugging Face par openbmb le 8 septembre 2026. Langue(s) : anglais, zh. Tâche : génération de texte. Taille : 100M<n<1B. UltraData-Stack-v3-L2 📦 UltraData Collection | 🌐 UltraData | 📖 Tech Report | 🤗 UltraData-Code | 🤗 UltraData-Code-L2 Classifier English | 中文 📚 Introduction UltraData-Stack-v3-L2 is a selected code corpus of approximately…",
+    "en": "Dataset published on Hugging Face by openbmb on 8 September 2026. Language(s): English, zh. Task: text generation. Size: 100M<n<1B. UltraData-Stack-v3-L2 📦 UltraData Collection | 🌐 UltraData | 📖 Tech Report | 🤗 UltraData-Code | 🤗 UltraData-Code-L2 Classifier English | 中文 📚 Introduction UltraData-Stack-v3-L2 is a selected code corpus of approximately…"
    },
    "notice_by": "règles",
    "taille": "100M<n<1B"
@@ -74089,8 +74089,8 @@
    "focus": true,
    "region": "International",
    "description": {
-    "fr": "Modèle publié sur Hugging Face par chao0524 le 13 octobre 2026. Tâche : traduction automatique.",
-    "en": "Model published on Hugging Face by chao0524 on 13 October 2026. Task: translation."
+    "fr": "Modèle publié sur Hugging Face par chao0524 le 16 octobre 2026. Tâche : traduction automatique.",
+    "en": "Model published on Hugging Face by chao0524 on 16 October 2026. Task: translation."
    },
    "notice_by": "règles"
   },
@@ -74449,8 +74449,8 @@
    "kind": "github",
    "categorie_key": "cat_Tool",
    "type": "Dépôt GitHub",
-   "licence": "NOASSERTION",
-   "licence_class": "unknown",
+   "licence": "MIT",
+   "licence_class": "open",
    "lien": "https://github.com/omarbounawarapy/wasel",
    "added": "2026-10-14",
    "focus": true,
@@ -75658,7 +75658,7 @@
    "langue": "Eng",
    "licence": "cc-by-4.0",
    "licence_class": "open",
-   "lien": "https://zenodo.org/records/23401204",
+   "lien": "https://zenodo.org/records/23407776",
    "added": "2026-10-15",
    "focus": false,
    "region": "Helmholtz-Zentrum Hereon",
@@ -75668,8 +75668,8 @@
    "pays": "Helmholtz-Zentrum Hereon",
    "geo_precision": "lieu",
    "description": {
-    "fr": "Jeu de données déposé sur Zenodo le 16 octobre 2026 par Hermann, Alexander, Shojaei, Arman, Scheider, Ingo. Langue(s) : eng. Licence : cc-by-4.0. Data and code behind \"openPASO: an agentic open-source multi-physics and multi-code framework for verifiable computer simulations\" (Hermann, Shojaei, Scheider, Cyron).",
-    "en": "Dataset deposited on Zenodo on 16 October 2026 by Hermann, Alexander, Shojaei, Arman, Scheider, Ingo. Language(s): eng. License: cc-by-4.0. Data and code behind \"openPASO: an agentic open-source multi-physics and multi-code framework for verifiable computer simulations\" (Hermann, Shojaei, Scheider, Cyron)."
+    "fr": "Jeu de données déposé sur Zenodo le 16 octobre 2026 par Hermann, Alexander, Shojaei, Arman, Scheider, Ingo. Langue(s) : eng. Licence : cc-by-4.0. Data and code behind \"openPASO: an open platform for agentic simulation that can bridge between codes\" (Hermann, Shojaei, Scheider, Cyron).",
+    "en": "Dataset deposited on Zenodo on 16 October 2026 by Hermann, Alexander, Shojaei, Arman, Scheider, Ingo. Language(s): eng. License: cc-by-4.0. Data and code behind \"openPASO: an open platform for agentic simulation that can bridge between codes\" (Hermann, Shojaei, Scheider, Cyron)."
    },
    "notice_by": "règles"
   },
@@ -77580,7 +77580,7 @@
   },
   "zenodo:23402278": {
    "id": "zenodo:23402278",
-   "nom": "Synthetic hotel reviews and detection under generator shift: corpus, code and results (v1.0)",
+   "nom": "Synthetic hotel reviews and detection under generator shift: corpus, code and results (v1.2)",
    "source": "veille",
    "origin": "veille",
    "provider": "zenodo",
@@ -77590,13 +77590,13 @@
    "langue": "Eng",
    "licence": "cc-by-4.0",
    "licence_class": "open",
-   "lien": "https://zenodo.org/records/23402279",
+   "lien": "https://zenodo.org/records/23423677",
    "added": "2026-10-16",
    "focus": false,
    "region": "International",
    "description": {
-    "fr": "Jeu de données déposé sur Zenodo le 15 octobre 2026 par Bondarenko, Svitlana, Banyeva, Iryna, Voloshchuk, Yuliia. Langue(s) : eng. Licence : cc-by-4.0. Companion deposit for the article \"Synthetic Reviews and Consumer Trust in Hospitality: Detection Under Generator Shift and a Framework for Content Governance\" (Journal of Hospitality and Tourism Technology, under…",
-    "en": "Dataset deposited on Zenodo on 15 October 2026 by Bondarenko, Svitlana, Banyeva, Iryna, Voloshchuk, Yuliia. Language(s): eng. License: cc-by-4.0. Companion deposit for the article \"Synthetic Reviews and Consumer Trust in Hospitality: Detection Under Generator Shift and a Framework for Content Governance\" (Journal of Hospitality and Tourism Technology, under…"
+    "fr": "Jeu de données déposé sur Zenodo le 16 octobre 2026 par Bondarenko, Svitlana, Banyeva, Iryna, Voloshchuk, Yuliia. Langue(s) : eng. Licence : cc-by-4.0. Companion deposit for the article Synthetic Reviews and Consumer Trust in Hospitality: Detection Under Generator Shift and a Framework for Content Governance (Journal of Hospitality and Tourism Technology, under review).",
+    "en": "Dataset deposited on Zenodo on 16 October 2026 by Bondarenko, Svitlana, Banyeva, Iryna, Voloshchuk, Yuliia. Language(s): eng. License: cc-by-4.0. Companion deposit for the article Synthetic Reviews and Consumer Trust in Hospitality: Detection Under Generator Shift and a Framework for Content Governance (Journal of Hospitality and Tourism Technology, under review)."
    },
    "notice_by": "règles"
   },
@@ -77844,6 +77844,2423 @@
     "en": "Software deposited on Zenodo on 14 October 2025 by Rall, Björn Christian, Aranbarri, Mireia, Flores, Lorea. Language(s): eng. License: gpl-3.0-or-later. This is the final release of our code, accompanying the publication of Aranbarri et al."
    },
    "notice_by": "règles"
+  },
+  "hf:datasets:adrirana/political-corpus-es": {
+   "id": "hf:datasets:adrirana/political-corpus-es",
+   "nom": "adrirana/political-corpus-es",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Es, Ca, Eu, Gl",
+   "taille": "100K<n<1M",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/adrirana/political-corpus-es",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca",
+    "eu",
+    "gl"
+   ],
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par adrirana le 16 octobre 2026. Langue(s) : es, ca, eu, gl. Tâche : classification de textes. Taille : 100K<n<1M. political-corpus-es: Intervenciones del Pleno del Congreso (19/07/2016 – 23/09/2026) Corpus longitudinal en el que cada fila es un turno de palabra en el Pleno del Congreso de los Diputados.",
+    "en": "Dataset published on Hugging Face by adrirana on 16 October 2026. Language(s): es, ca, eu, gl. Task: text classification. Size: 100K<n<1M. political-corpus-es: Intervenciones del Pleno del Congreso (19/07/2016 – 23/09/2026) Corpus longitudinal en el que cada fila es un turno de palabra en el Pleno del Congreso de los Diputados."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:barendjl/product-database": {
+   "id": "hf:datasets:barendjl/product-database",
+   "nom": "barendjl/product-database",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Anglais, Français, De, Es",
+   "taille": "1M<n<10M",
+   "licence": "agpl-3.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/barendjl/product-database",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par barendjl le 16 octobre 2026. Langue(s) : anglais, français, de, es, it. Taille : 1M<n<10M. Open Food Facts Database What is 🍊 Open Food Facts?",
+    "en": "Dataset published on Hugging Face by barendjl on 16 October 2026. Language(s): English, French, de, es, it. Size: 1M<n<10M. Open Food Facts Database What is 🍊 Open Food Facts?"
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:dendriteholdings/ingot_corpus": {
+   "id": "hf:datasets:dendriteholdings/ingot_corpus",
+   "nom": "dendriteholdings/ingot_corpus",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Anglais, Zh, Arabe, Ru",
+   "taille": "10M<n<100M",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/datasets/dendriteholdings/ingot_corpus",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par dendriteholdings le 15 octobre 2026. Langue(s) : anglais, zh, arabe, ru, ko. Tâche : génération de texte. Taille : 10M<n<100M. quantedo_corpus A broad prompt corpus.",
+    "en": "Dataset published on Hugging Face by dendriteholdings on 15 October 2026. Language(s): English, zh, Arabic, ru, ko. Task: text generation. Size: 10M<n<100M. quantedo_corpus A broad prompt corpus."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:itzune/bssd": {
+   "id": "hf:datasets:itzune/bssd",
+   "nom": "itzune/bssd",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Eu",
+   "taille": "100K<n<1M",
+   "licence": "cc-by-sa-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/itzune/bssd",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Pays basque",
+   "city": "Pays basque",
+   "lat": 43.263,
+   "lng": -2.935,
+   "pays": "Pays basque",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "eu"
+   ],
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par itzune le 16 octobre 2026. Langue(s) : eu. Tâche : synthèse vocale. Taille : 100K<n<1M. BSSD: Basque Synthetic Speech Dataset Work in progress (2026-10-17).",
+    "en": "Dataset published on Hugging Face by itzune on 16 October 2026. Language(s): eu. Task: text to speech. Size: 100K<n<1M. BSSD: Basque Synthetic Speech Dataset Work in progress (2026-10-17)."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:akbargherbal/arabic-music-lyrics": {
+   "id": "hf:datasets:akbargherbal/arabic-music-lyrics",
+   "nom": "akbargherbal/arabic-music-lyrics",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Arabe, Arz, Darija marocaine",
+   "taille": "10K<n<100K",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/datasets/akbargherbal/arabic-music-lyrics",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Égypte",
+   "city": "Égypte",
+   "lat": 30.0444,
+   "lng": 31.2357,
+   "pays": "Égypte",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "arz",
+    "ary"
+   ],
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par akbargherbal le 17 octobre 2026. Langue(s) : arabe, arz, darija marocaine. Tâche : génération de texte. Taille : 10K<n<100K. Arabic Music Lyrics Arabic-language song lyrics collected from public datasets: 12,463 tracks from 2,771 artists, 18,540,195 characters of lyrics.",
+    "en": "Dataset published on Hugging Face by akbargherbal on 17 October 2026. Language(s): Arabic, arz, Moroccan Arabic. Task: text generation. Size: 10K<n<100K. Arabic Music Lyrics Arabic-language song lyrics collected from public datasets: 12,463 tracks from 2,771 artists, 18,540,195 characters of lyrics."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:didiaff/tunisian-arabic-reasoning-eval": {
+   "id": "hf:datasets:didiaff/tunisian-arabic-reasoning-eval",
+   "nom": "didiaff/tunisian-arabic-reasoning-eval",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/datasets/didiaff/tunisian-arabic-reasoning-eval",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Tunisie",
+   "city": "Tunisie",
+   "lat": 36.8065,
+   "lng": 10.1815,
+   "pays": "Tunisie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "aeb"
+   ],
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par didiaff le 16 octobre 2026. Evaluating Qwen3-4B on Tunisian Arabic Reasoning 1.",
+    "en": "Dataset published on Hugging Face by didiaff on 16 October 2026. Evaluating Qwen3-4B on Tunisian Arabic Reasoning 1."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:nasrellahkharroubi/DarijaDZ_Transliteration": {
+   "id": "hf:datasets:nasrellahkharroubi/DarijaDZ_Transliteration",
+   "nom": "nasrellahkharroubi/DarijaDZ_Transliteration",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Arabe, Français",
+   "taille": "1K<n<10K",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/nasrellahkharroubi/DarijaDZ_Transliteration",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Maroc",
+   "city": "Maroc",
+   "lat": 33.5731,
+   "lng": -7.5898,
+   "pays": "Maroc",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "ary",
+    "ar-dial"
+   ],
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par nasrellahkharroubi le 16 octobre 2026. Langue(s) : arabe, français. Tâche : traduction automatique. Taille : 1K<n<10K. DarijaDZ_Transliteration DarijaDZ_Transliteration pairs Algerian Darija sentences written in Arabic script with the Arabizi (Latin letters and digits) a real Algerian would type for the same comment on social media.",
+    "en": "Dataset published on Hugging Face by nasrellahkharroubi on 16 October 2026. Language(s): Arabic, French. Task: translation. Size: 1K<n<10K. DarijaDZ_Transliteration DarijaDZ_Transliteration pairs Algerian Darija sentences written in Arabic script with the Arabizi (Latin letters and digits) a real Algerian would type for the same comment on social media."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:TfiydfgDYgd/piper-voices": {
+   "id": "hf:models:TfiydfgDYgd/piper-voices",
+   "nom": "TfiydfgDYgd/piper-voices",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/TfiydfgDYgd/piper-voices",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par TfiydfgDYgd le 17 octobre 2026.",
+    "en": "Model published on Hugging Face by TfiydfgDYgd on 17 October 2026."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Infinix-io/Fish-s2-p": {
+   "id": "hf:models:Infinix-io/Fish-s2-p",
+   "nom": "Infinix-io/Fish-s2-p",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/Infinix-io/Fish-s2-p",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Infinix-io le 17 octobre 2026. Tâche : synthèse vocale.",
+    "en": "Model published on Hugging Face by Infinix-io on 17 October 2026. Task: text to speech."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Infinix-io/Fish-D": {
+   "id": "hf:models:Infinix-io/Fish-D",
+   "nom": "Infinix-io/Fish-D",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/Infinix-io/Fish-D",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Infinix-io le 17 octobre 2026. Tâche : synthèse vocale.",
+    "en": "Model published on Hugging Face by Infinix-io on 17 October 2026. Task: text to speech."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Riyan200324200324/whisper-large-v3": {
+   "id": "hf:models:Riyan200324200324/whisper-large-v3",
+   "nom": "Riyan200324200324/whisper-large-v3",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/Riyan200324200324/whisper-large-v3",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Riyan200324200324 le 17 octobre 2026. Tâche : reconnaissance de la parole.",
+    "en": "Model published on Hugging Face by Riyan200324200324 on 17 October 2026. Task: automatic speech recognition."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:quicodomingo/murmur-models": {
+   "id": "hf:models:quicodomingo/murmur-models",
+   "nom": "quicodomingo/murmur-models",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/quicodomingo/murmur-models",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par quicodomingo le 16 octobre 2026. Tâche : reconnaissance de la parole. Dérivé de projecte-aina/stt_ca-es_conformer_transducer_large.",
+    "en": "Model published on Hugging Face by quicodomingo on 16 October 2026. Task: automatic speech recognition. Fine-tuned from projecte-aina/stt_ca-es_conformer_transducer_large."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Helsinki-NLP/mammoth-eng_spa-g3a3-l3-h4d768": {
+   "id": "hf:models:Helsinki-NLP/mammoth-eng_spa-g3a3-l3-h4d768",
+   "nom": "Helsinki-NLP/mammoth-eng_spa-g3a3-l3-h4d768",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/Helsinki-NLP/mammoth-eng_spa-g3a3-l3-h4d768",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "International",
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Helsinki-NLP le 16 octobre 2026. Tâche : traduction automatique.",
+    "en": "Model published on Hugging Face by Helsinki-NLP on 16 October 2026. Task: translation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:proj-persona/PersonaHub": {
+   "id": "hf:datasets:proj-persona/PersonaHub",
+   "nom": "proj-persona/PersonaHub",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Anglais, Zh",
+   "taille": "100K<n<1M",
+   "licence": "cc-by-nc-sa-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/proj-persona/PersonaHub",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par proj-persona le 28 juin 2024. Langue(s) : anglais, zh. Tâche : génération de texte. Taille : 100K<n<1M. Scaling Synthetic Data Creation with 1,000,000,000 Personas This repo releases data introduced in our paper Scaling Synthetic Data Creation with 1,000,000,000 Personas: We propose a novel persona-driven data synthesis…",
+    "en": "Dataset published on Hugging Face by proj-persona on 28 June 2024. Language(s): English, zh. Task: text generation. Size: 100K<n<1M. Scaling Synthetic Data Creation with 1,000,000,000 Personas This repo releases data introduced in our paper Scaling Synthetic Data Creation with 1,000,000,000 Personas: We propose a novel persona-driven data synthesis…"
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:nvidia/Nemotron-Personas-Vietnam": {
+   "id": "hf:datasets:nvidia/Nemotron-Personas-Vietnam",
+   "nom": "nvidia/Nemotron-Personas-Vietnam",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Vi",
+   "taille": "1M<n<10M",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/nvidia/Nemotron-Personas-Vietnam",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "États-Unis",
+   "city": "Santa Clara",
+   "lat": 37.35,
+   "lng": -121.9667,
+   "pays": "États-Unis",
+   "geo_precision": "organisation",
+   "geo_source": "Hugging Face · NVIDIA",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par nvidia le 4 juin 2026. Langue(s) : vi. Tâche : génération de texte. Taille : 1M<n<10M. Nemotron-Personas-Vietnam Hệ thống AI kết hợp để tạo personas tổng hợp dựa trên phân bố thực tế của Việt Nam A compound AI approach to personas grounded in real-world distributions Tổng quan (Overview)…",
+    "en": "Dataset published on Hugging Face by nvidia on 4 June 2026. Language(s): vi. Task: text generation. Size: 1M<n<10M. Nemotron-Personas-Vietnam Hệ thống AI kết hợp để tạo personas tổng hợp dựa trên phân bố thực tế của Việt Nam A compound AI approach to personas grounded in real-world distributions Tổng quan (Overview)…"
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:stanfordnlp/imdb": {
+   "id": "hf:datasets:stanfordnlp/imdb",
+   "nom": "stanfordnlp/imdb",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Anglais",
+   "taille": "100K<n<1M",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/datasets/stanfordnlp/imdb",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par stanfordnlp le 2 mars 2022. Langue(s) : anglais. Tâche : classification de textes. Taille : 100K<n<1M. Dataset Summary Large Movie Review Dataset.",
+    "en": "Dataset published on Hugging Face by stanfordnlp on 2 March 2022. Language(s): English. Task: text classification. Size: 100K<n<1M. Dataset Summary Large Movie Review Dataset."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+   "id": "hf:models:deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "nom": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "république populaire de Chine",
+   "city": "Hangzhou",
+   "lat": 30.25,
+   "lng": 120.1675,
+   "pays": "république populaire de Chine",
+   "geo_precision": "organisation",
+   "geo_source": "Hugging Face · DeepSeek",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par deepseek-ai le 17 octobre 2026. Tâche : vision-langage.",
+    "en": "Model published on Hugging Face by deepseek-ai on 17 October 2026. Task: image text to text."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:OpenMOSS-Team/MOSS-Image-SFT": {
+   "id": "hf:models:OpenMOSS-Team/MOSS-Image-SFT",
+   "nom": "OpenMOSS-Team/MOSS-Image-SFT",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par OpenMOSS-Team le 11 octobre 2026. Tâche : text to image.",
+    "en": "Model published on Hugging Face by OpenMOSS-Team on 11 October 2026. Task: text to image."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:OpenMOSS-Team/MOSS-Image-Base": {
+   "id": "hf:models:OpenMOSS-Team/MOSS-Image-Base",
+   "nom": "OpenMOSS-Team/MOSS-Image-Base",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par OpenMOSS-Team le 11 octobre 2026. Tâche : text to image.",
+    "en": "Model published on Hugging Face by OpenMOSS-Team on 11 October 2026. Task: text to image."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:nvidia/Qwen3.8-Flash-Next-FP4-Local": {
+   "id": "hf:models:nvidia/Qwen3.8-Flash-Next-FP4-Local",
+   "nom": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "États-Unis",
+   "city": "Santa Clara",
+   "lat": 37.35,
+   "lng": -121.9667,
+   "pays": "États-Unis",
+   "geo_precision": "organisation",
+   "geo_source": "Hugging Face · NVIDIA",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par nvidia le 8 octobre 2026. Tâche : vision-langage.",
+    "en": "Model published on Hugging Face by nvidia on 8 October 2026. Task: image text to text."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:datalab-to/indra-ocr": {
+   "id": "hf:models:datalab-to/indra-ocr",
+   "nom": "datalab-to/indra-ocr",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "openrail",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datalab-to/indra-ocr",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par datalab-to le 10 octobre 2026. Tâche : OCR / image vers texte.",
+    "en": "Model published on Hugging Face by datalab-to on 10 October 2026. Task: image to text."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:meta-models/Muse-Spark-Open-816B-A42B-NVFP4": {
+   "id": "hf:models:meta-models/Muse-Spark-Open-816B-A42B-NVFP4",
+   "nom": "meta-models/Muse-Spark-Open-816B-A42B-NVFP4",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B-NVFP4",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par meta-models le 15 septembre 2026. Tâche : vision-langage.",
+    "en": "Model published on Hugging Face by meta-models on 15 September 2026. Task: image text to text."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:tencent/Hy-Memory-30B-A3B": {
+   "id": "hf:models:tencent/Hy-Memory-30B-A3B",
+   "nom": "tencent/Hy-Memory-30B-A3B",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "République populaire de Chine",
+   "city": "Grand Cayman",
+   "lat": 19.33,
+   "lng": -81.24,
+   "pays": "République populaire de Chine",
+   "geo_precision": "organisation",
+   "geo_source": "Hugging Face · Tencent",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par tencent le 15 octobre 2026. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by tencent on 15 October 2026. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/vecteur-atelier": {
+   "id": "gh:salimadour31-boop/vecteur-atelier",
+   "nom": "salimadour31-boop/vecteur-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/vecteur-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 17 octobre 2026 par salimadour31-boop. Vectoriseur d'images gratuit dans le navigateur : PNG/JPG → SVG (N&B, couleurs, gris, ligne centrale), Bézier, SVG en calques pour Illustrator — Thèmes : bezier, graphic-design, image-tracing, kabyle, svg.",
+    "en": "GitHub repository written in JavaScript, created on 17 October 2026 by salimadour31-boop. Vectoriseur d'images gratuit dans le navigateur : PNG/JPG → SVG (N&B, couleurs, gris, ligne centrale), Bézier, SVG en calques pour Illustrator — Topics: bezier, graphic-design, image-tracing, kabyle, svg."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/oreille-atelier": {
+   "id": "gh:salimadour31-boop/oreille-atelier",
+   "nom": "salimadour31-boop/oreille-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/oreille-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 17 octobre 2026 par salimadour31-boop. Formation de l'oreille gratuite dans le navigateur : intervalles, accords, gammes et maqamat (quarts de ton), dictée mélodique, notes — Thèmes : ear-training, kabyle, maqam, music, music-theory.",
+    "en": "GitHub repository written in JavaScript, created on 17 October 2026 by salimadour31-boop. Formation de l'oreille gratuite dans le navigateur : intervalles, accords, gammes et maqamat (quarts de ton), dictée mélodique, notes — Topics: ear-training, kabyle, maqam, music, music-theory."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/generique-atelier": {
+   "id": "gh:salimadour31-boop/generique-atelier",
+   "nom": "salimadour31-boop/generique-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/generique-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab",
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 17 octobre 2026 par salimadour31-boop. Générateur de génériques de fin et cartons-titres (défilement, perspective, cartons, carton fixe) 100 % navigateur, export WebM/PNG/JSON — Thèmes : arabic-rtl, browser-tool, canvas, cinematic, credits.",
+    "en": "GitHub repository written in JavaScript, created on 17 October 2026 by salimadour31-boop. Générateur de génériques de fin et cartons-titres (défilement, perspective, cartons, carton fixe) 100 % navigateur, export WebM/PNG/JSON — Topics: arabic-rtl, browser-tool, canvas, cinematic, credits."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/bruitage-atelier": {
+   "id": "gh:salimadour31-boop/bruitage-atelier",
+   "nom": "salimadour31-boop/bruitage-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/bruitage-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 17 octobre 2026 par salimadour31-boop. Générateur d'effets sonores cinématiques (impacts, braams, risers, whooshs, drones, tonnerre…) 100 % synthétisés dans le navigateur, export WAV — Thèmes : browser-tool, cinematic, kabyle, open-source, sfx.",
+    "en": "GitHub repository written in JavaScript, created on 17 October 2026 by salimadour31-boop. Générateur d'effets sonores cinématiques (impacts, braams, risers, whooshs, drones, tonnerre…) 100 % synthétisés dans le navigateur, export WAV — Topics: browser-tool, cinematic, kabyle, open-source, sfx."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/illustrator-tifinagh-latin": {
+   "id": "gh:salimadour31-boop/illustrator-tifinagh-latin",
+   "nom": "salimadour31-boop/illustrator-tifinagh-latin",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/illustrator-tifinagh-latin",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab",
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Script Illustrator : translittération tifinagh ⇄ latin (tamazight / kabyle) lettre par lettre en gardant la mise en forme, police tifinagh, copie ou annotation non",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Script Illustrator : translittération tifinagh ⇄ latin (tamazight / kabyle) lettre par lettre en gardant la mise en forme, police tifinagh, copie ou annotation non"
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/soleil-atelier": {
+   "id": "gh:salimadour31-boop/soleil-atelier",
+   "nom": "salimadour31-boop/soleil-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/soleil-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 17 octobre 2026 par salimadour31-boop. Planificateur gratuit heure dorée / heure bleue : course du soleil et de la lune, caméra, ombres, alignements, exports PNG/CSV/ICS — Thèmes : blue-hour, cinematography, golden-hour, moon-phase, photography.",
+    "en": "GitHub repository written in JavaScript, created on 17 October 2026 by salimadour31-boop. Planificateur gratuit heure dorée / heure bleue : course du soleil et de la lune, caméra, ombres, alignements, exports PNG/CSV/ICS — Topics: blue-hour, cinematography, golden-hour, moon-phase, photography."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/spectre-atelier": {
+   "id": "gh:salimadour31-boop/spectre-atelier",
+   "nom": "salimadour31-boop/spectre-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/spectre-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 17 octobre 2026 par salimadour31-boop. Analyseur de spectre et spectrogramme audio gratuit dans le navigateur (STFT, notes, pics, chromagramme, vectorscope, exports) —",
+    "en": "GitHub repository written in JavaScript, created on 17 October 2026 by salimadour31-boop. Analyseur de spectre et spectrogramme audio gratuit dans le navigateur (STFT, notes, pics, chromagramme, vectorscope, exports) —"
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/grille-atelier": {
+   "id": "gh:salimadour31-boop/grille-atelier",
+   "nom": "salimadour31-boop/grille-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/grille-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab",
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 17 octobre 2026 par salimadour31-boop. Générateur gratuit de grilles de dessin à imprimer : quadrillage, isométrique, hexagones, perspective 1/2/3 points, mandala, BD, storyboard, calligraphie latine/arabe/tifinagh — SVG mm, PNG 600 dpi, impression. Thèmes : calligraphy, comics, drawing-grid, graph-paper, illustration.",
+    "en": "GitHub repository written in JavaScript, created on 17 October 2026 by salimadour31-boop. Générateur gratuit de grilles de dessin à imprimer : quadrillage, isométrique, hexagones, perspective 1/2/3 points, mandala, BD, storyboard, calligraphie latine/arabe/tifinagh — SVG mm, PNG 600 dpi, impression. Topics: calligraphy, comics, drawing-grid, graph-paper, illustration."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/gammes-atelier": {
+   "id": "gh:salimadour31-boop/gammes-atelier",
+   "nom": "salimadour31-boop/gammes-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/gammes-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 17 octobre 2026 par salimadour31-boop. Explorateur de gammes, modes et maqamat (quarts de ton) : piano, guitare, oud, cercle, son Web Audio, théorie, export PNG/SVG/MIDI — Thèmes : guitar, maqam, music-theory, oud, scales.",
+    "en": "GitHub repository written in JavaScript, created on 17 October 2026 by salimadour31-boop. Explorateur de gammes, modes et maqamat (quarts de ton) : piano, guitare, oud, cercle, son Web Audio, théorie, export PNG/SVG/MIDI — Topics: guitar, maqam, music-theory, oud, scales."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/sonie-atelier": {
+   "id": "gh:salimadour31-boop/sonie-atelier",
+   "nom": "salimadour31-boop/sonie-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/sonie-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 17 octobre 2026 par salimadour31-boop. Mesure de loudness LUFS / True Peak / LRA dans le navigateur, et ce qu'en feront Spotify, Apple Music, YouTube — 100 % local,",
+    "en": "GitHub repository written in JavaScript, created on 17 October 2026 by salimadour31-boop. Mesure de loudness LUFS / True Peak / LRA dans le navigateur, et ce qu'en feront Spotify, Apple Music, YouTube — 100 % local,"
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/bandeau-atelier": {
+   "id": "gh:salimadour31-boop/bandeau-atelier",
+   "nom": "salimadour31-boop/bandeau-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/bandeau-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 17 octobre 2026 par salimadour31-boop. Générateur de bandeaux (lower thirds) pour vidéastes — navigateur, FR/EN/Taqbaylit,",
+    "en": "GitHub repository written in JavaScript, created on 17 October 2026 by salimadour31-boop. Générateur de bandeaux (lower thirds) pour vidéastes — navigateur, FR/EN/Taqbaylit,"
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/studio-musique-ia": {
+   "id": "gh:salimadour31-boop/studio-musique-ia",
+   "nom": "salimadour31-boop/studio-musique-ia",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/studio-musique-ia",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 16 octobre 2026 par salimadour31-boop. Open-source AI music generator (ACE-Step / MusicGen) — Windows server, Google Colab, Android PWA",
+    "en": "GitHub repository written in Python, created on 16 October 2026 by salimadour31-boop. Open-source AI music generator (ACE-Step / MusicGen) — Windows server, Google Colab, Android PWA"
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/onde-atelier": {
+   "id": "gh:salimadour31-boop/onde-atelier",
+   "nom": "salimadour31-boop/onde-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/onde-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab",
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 17 octobre 2026 par salimadour31-boop. Créateur d'audiogrammes et de visualiseurs audio en vidéo (WebM), 100 % dans le navigateur : barres, oscilloscope, anneau, points, forme d'onde. Thèmes : audio-visualizer, audiogram, canvas, mediarecorder, musicians.",
+    "en": "GitHub repository written in JavaScript, created on 17 October 2026 by salimadour31-boop. Créateur d'audiogrammes et de visualiseurs audio en vidéo (WebM), 100 % dans le navigateur : barres, oscilloscope, anneau, points, forme d'onde. Topics: audio-visualizer, audiogram, canvas, mediarecorder, musicians."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/accordeur-atelier": {
+   "id": "gh:salimadour31-boop/accordeur-atelier",
+   "nom": "salimadour31-boop/accordeur-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/accordeur-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Accordeur chromatique gratuit dans le navigateur (guitare, basse, ukulélé, oud, violon…) — micro, diapason réglable, stroboscope, Thèmes : guitar-tuner, music, pitch-detection, tuner, web-audio.",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Accordeur chromatique gratuit dans le navigateur (guitare, basse, ukulélé, oud, violon…) — micro, diapason réglable, stroboscope, Topics: guitar-tuner, music, pitch-detection, tuner, web-audio."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/eclairage-atelier": {
+   "id": "gh:salimadour31-boop/eclairage-atelier",
+   "nom": "salimadour31-boop/eclairage-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/eclairage-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab",
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Plan d'éclairage et de plateau vu de dessus pour vidéastes et photographes (caméras, projecteurs K/faisceau, liste du matériel, ratio key:fill, export SVG/PNG/JSON/PDF) — 100 % navigateur, Thèmes : filmmaking, lighting, lighting-diagram, photography, svg.",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Plan d'éclairage et de plateau vu de dessus pour vidéastes et photographes (caméras, projecteurs K/faisceau, liste du matériel, ratio key:fill, export SVG/PNG/JSON/PDF) — 100 % navigateur, Topics: filmmaking, lighting, lighting-diagram, photography, svg."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/accords-atelier": {
+   "id": "gh:salimadour31-boop/accords-atelier",
+   "nom": "salimadour31-boop/accords-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/accords-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Progressions d'accords dans le navigateur : écoute, clavier, export MIDI",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Progressions d'accords dans le navigateur : écoute, clavier, export MIDI"
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/rythme-atelier": {
+   "id": "gh:salimadour31-boop/rythme-atelier",
+   "nom": "salimadour31-boop/rythme-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/rythme-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab",
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Boîte à rythmes / séquenceur pas à pas gratuit dans le navigateur : 10 sons synthétisés (Web Audio), swing, motifs A–D, export WAV / MIDI / JSON. Thèmes : drum-machine, francais, midi, music, step-sequencer.",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Boîte à rythmes / séquenceur pas à pas gratuit dans le navigateur : 10 sons synthétisés (Web Audio), swing, motifs A–D, export WAV / MIDI / JSON. Topics: drum-machine, francais, midi, music, step-sequencer."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/suite-accords": {
+   "id": "gh:salimadour31-boop/suite-accords",
+   "nom": "salimadour31-boop/suite-accords",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/suite-accords",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Offline PWA: chord progressions from audio, melody or a single note",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Offline PWA: chord progressions from audio, melody or a single note"
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/palette-cinema": {
+   "id": "gh:salimadour31-boop/palette-cinema",
+   "nom": "salimadour31-boop/palette-cinema",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/palette-cinema",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Free browser tool: extract cinematic color palettes from images and video frames",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Free browser tool: extract cinematic color palettes from images and video frames"
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/storyboard-atelier": {
+   "id": "gh:salimadour31-boop/storyboard-atelier",
+   "nom": "salimadour31-boop/storyboard-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/storyboard-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab",
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Storyboard et découpage technique 100 % navigateur : croquis, fiche de plan, animatic, export PDF/PNG/CSV/JSON Thèmes : animatic, cinema, filmmaking, javascript, shot-list.",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Storyboard et découpage technique 100 % navigateur : croquis, fiche de plan, animatic, export PDF/PNG/CSV/JSON Topics: animatic, cinema, filmmaking, javascript, shot-list."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/soustitres-atelier": {
+   "id": "gh:salimadour31-boop/soustitres-atelier",
+   "nom": "salimadour31-boop/soustitres-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/soustitres-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Éditeur et calage de sous-titres 100 % navigateur : IN/OUT au clavier, aperçu live, décalage, images/s, SRT/WebVTT/TXT/JSON",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Éditeur et calage de sous-titres 100 % navigateur : IN/OUT au clavier, aperçu live, décalage, images/s, SRT/WebVTT/TXT/JSON"
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/motif-atelier": {
+   "id": "gh:salimadour31-boop/motif-atelier",
+   "nom": "salimadour31-boop/motif-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/motif-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Générateur de motifs répétables sans raccord (seamless patterns) dans le navigateur — SVG/PNG/CSS/JSON,",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Générateur de motifs répétables sans raccord (seamless patterns) dans le navigateur — SVG/PNG/CSS/JSON,"
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/contraste-atelier": {
+   "id": "gh:salimadour31-boop/contraste-atelier",
+   "nom": "salimadour31-boop/contraste-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/contraste-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Studio de contraste WCAG 2.1 pour graphistes — ratio live, auto-fix, daltonisme, export JSON/CSS/PNG.",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Studio de contraste WCAG 2.1 pour graphistes — ratio live, auto-fix, daltonisme, export JSON/CSS/PNG."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/timecode-atelier": {
+   "id": "gh:salimadour31-boop/timecode-atelier",
+   "nom": "salimadour31-boop/timecode-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/timecode-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Calculatrice de timecode SMPTE gratuite dans le navigateur : drop-frame, durées, cadences, stockage. Thèmes : drop-frame, filmmaking, smpte, timecode, video-editing.",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Calculatrice de timecode SMPTE gratuite dans le navigateur : drop-frame, durées, cadences, stockage. Topics: drop-frame, filmmaking, smpte, timecode, video-editing."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/grain-degrade": {
+   "id": "gh:salimadour31-boop/grain-degrade",
+   "nom": "salimadour31-boop/grain-degrade",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/grain-degrade",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Générateur libre de dégradés maillés granuleux (mesh gradient + grain) dans le navigateur — export PNG/CSS/JSON, Thèmes : design, generator, gradient, grain, graphic-design.",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Générateur libre de dégradés maillés granuleux (mesh gradient + grain) dans le navigateur — export PNG/CSS/JSON, Topics: design, generator, gradient, grain, graphic-design."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/lut-atelier": {
+   "id": "gh:salimadour31-boop/lut-atelier",
+   "nom": "salimadour31-boop/lut-atelier",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/lut-atelier",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Créez des LUT d'étalonnage cinématique dans le navigateur et exportez-les en .cube (Resolve, Premiere, FFmpeg) — FR/EN/Taqbaylit, Thèmes : color-grading, cube, davinci-resolve, filmmaking, lut.",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Créez des LUT d'étalonnage cinématique dans le navigateur et exportez-les en .cube (Resolve, Premiere, FFmpeg) — FR/EN/Taqbaylit, Topics: color-grading, cube, davinci-resolve, filmmaking, lut."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/echelle-typo": {
+   "id": "gh:salimadour31-boop/echelle-typo",
+   "nom": "salimadour31-boop/echelle-typo",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/echelle-typo",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Générateur d'échelle typographique modulaire (print & web) — FR/EN/Taqbaylit, 100% navigateur,",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Générateur d'échelle typographique modulaire (print & web) — FR/EN/Taqbaylit, 100% navigateur,"
+   },
+   "notice_by": "règles"
+  },
+  "gh:abdelmajid05/lenet-5-for-amhcd-tifinagh-character-recognition": {
+   "id": "gh:abdelmajid05/lenet-5-for-amhcd-tifinagh-character-recognition",
+   "nom": "ABdelmajid05/LeNet-5-for-AMHCD-Tifinagh-Character-Recognition",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/ABdelmajid05/LeNet-5-for-AMHCD-Tifinagh-Character-Recognition",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 16 octobre 2026 par ABdelmajid05. This project implements and evaluates a LeNet-5 convolutional neural network (CNN) for handwritten Tifinagh character recognition using the AMHCD dataset.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 16 October 2026 by ABdelmajid05. This project implements and evaluates a LeNet-5 convolutional neural network (CNN) for handwritten Tifinagh character recognition using the AMHCD dataset."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/illustrator-harmonie-arabe-latin": {
+   "id": "gh:salimadour31-boop/illustrator-harmonie-arabe-latin",
+   "nom": "salimadour31-boop/illustrator-harmonie-arabe-latin",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/illustrator-harmonie-arabe-latin",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Script Illustrator : donne à l'arabe et au tifinagh la même taille visible (et une graisse accordée) que le latin, lettre par",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Script Illustrator : donne à l'arabe et au tifinagh la même taille visible (et une graisse accordée) que le latin, lettre par"
+   },
+   "notice_by": "règles"
+  },
+  "gh:sud-38/tp-lenet5-tifinagh": {
+   "id": "gh:sud-38/tp-lenet5-tifinagh",
+   "nom": "Sud-38/TP-LeNet5-Tifinagh",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/Sud-38/TP-LeNet5-Tifinagh",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub, créé le 16 octobre 2026 par Sud-38.",
+    "en": "GitHub repository, created on 16 October 2026 by Sud-38."
+   },
+   "notice_by": "règles"
+  },
+  "gh:ykhallouki25/tp-lenet5-tifinagh": {
+   "id": "gh:ykhallouki25/tp-lenet5-tifinagh",
+   "nom": "Ykhallouki25/Tp-lenet5-tifinagh",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/Ykhallouki25/Tp-lenet5-tifinagh",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 16 octobre 2026 par Ykhallouki25. tp",
+    "en": "GitHub repository written in Jupyter Notebook, created on 16 October 2026 by Ykhallouki25. tp"
+   },
+   "notice_by": "règles"
+  },
+  "gh:oumaimalakhlifi499/lenet5-tifinagh": {
+   "id": "gh:oumaimalakhlifi499/lenet5-tifinagh",
+   "nom": "OUMAIMALAKHLIFI499/lenet5-tifinagh",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/OUMAIMALAKHLIFI499/lenet5-tifinagh",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 16 octobre 2026 par OUMAIMALAKHLIFI499.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 16 October 2026 by OUMAIMALAKHLIFI499."
+   },
+   "notice_by": "règles"
+  },
+  "gh:salimadour31-boop/illustrator-coherence-langues": {
+   "id": "gh:salimadour31-boop/illustrator-coherence-langues",
+   "nom": "salimadour31-boop/illustrator-coherence-langues",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/salimadour31-boop/illustrator-coherence-langues",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en JavaScript, créé le 16 octobre 2026 par salimadour31-boop. Script Illustrator : compare les versions linguistiques (FR / AR / tifinagh…) et signale prix, téléphones, dates, sites et codes",
+    "en": "GitHub repository written in JavaScript, created on 16 October 2026 by salimadour31-boop. Script Illustrator : compare les versions linguistiques (FR / AR / tifinagh…) et signale prix, téléphones, dates, sites et codes"
+   },
+   "notice_by": "règles"
+  },
+  "gh:sohayebgasmi-ia79/lenet5_tifinagh_cnn": {
+   "id": "gh:sohayebgasmi-ia79/lenet5_tifinagh_cnn",
+   "nom": "SohayebGasmi-IA79/LeNet5_Tifinagh_CNN",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/SohayebGasmi-IA79/LeNet5_Tifinagh_CNN",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 16 octobre 2026 par SohayebGasmi-IA79.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 16 October 2026 by SohayebGasmi-IA79."
+   },
+   "notice_by": "règles"
+  },
+  "gh:khalidbouhouch64-a11y/classification-tifinagh-lenet5": {
+   "id": "gh:khalidbouhouch64-a11y/classification-tifinagh-lenet5",
+   "nom": "khalidbouhouch64-a11y/Classification-Tifinagh-Lenet5",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/khalidbouhouch64-a11y/Classification-Tifinagh-Lenet5",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Jupyter Notebook, créé le 16 octobre 2026 par khalidbouhouch64-a11y.",
+    "en": "GitHub repository written in Jupyter Notebook, created on 16 October 2026 by khalidbouhouch64-a11y."
+   },
+   "notice_by": "règles"
+  },
+  "gh:ykhallouki25/lenet5-tifinagh": {
+   "id": "gh:ykhallouki25/lenet5-tifinagh",
+   "nom": "Ykhallouki25/lenet5-tifinagh",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/Ykhallouki25/lenet5-tifinagh",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Tamazgha",
+   "city": "Tamazgha",
+   "lat": 34.0209,
+   "lng": -6.8416,
+   "pays": "Tamazgha",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "zgh"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 16 octobre 2026 par Ykhallouki25. tp",
+    "en": "GitHub repository written in Python, created on 16 October 2026 by Ykhallouki25. tp"
+   },
+   "notice_by": "règles"
+  },
+  "gh:realmaddy/nasbguard": {
+   "id": "gh:realmaddy/nasbguard",
+   "nom": "realmaddy/nasbguard",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/realmaddy/nasbguard",
+   "added": "2026-10-17",
+   "focus": true,
+   "region": "Maroc",
+   "city": "Maroc",
+   "lat": 33.5731,
+   "lng": -7.5898,
+   "pays": "Maroc",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "ary",
+    "ar-dial"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Java, créé le 16 octobre 2026 par realmaddy. Scam and phishing detection for Moroccan Darija messages (Arabic script & Thèmes : cybersecurity, darija, java, nlp, phishing-detection.",
+    "en": "GitHub repository written in Java, created on 16 October 2026 by realmaddy. Scam and phishing detection for Moroccan Darija messages (Arabic script & Topics: cybersecurity, darija, java, nlp, phishing-detection."
+   },
+   "notice_by": "règles"
+  },
+  "gh:vahmoh25/veda": {
+   "id": "gh:vahmoh25/veda",
+   "nom": "vahmoh25/Veda",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "GPL-3.0",
+   "licence_class": "open",
+   "lien": "https://github.com/vahmoh25/Veda",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "Munich",
+   "city": "Munich",
+   "lat": 48.1371,
+   "lng": 11.5754,
+   "pays": "Munich",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Vahid Mohammadi",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Rust, créé le 3 octobre 2026 par vahmoh25. The Agentic-Native Operating Thèmes : agentic-ai, agentic-operating-system, ai-agent, ai-assistants, ai-operating-system.",
+    "en": "GitHub repository written in Rust, created on 3 October 2026 by vahmoh25. The Agentic-Native Operating Topics: agentic-ai, agentic-operating-system, ai-agent, ai-assistants, ai-operating-system."
+   },
+   "notice_by": "règles"
+  },
+  "gh:allspark-research/vela": {
+   "id": "gh:allspark-research/vela",
+   "nom": "AllSpark-Research/Vela",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/AllSpark-Research/Vela",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub, créé le 9 octobre 2026 par AllSpark-Research. Vela: User Behavior as Supervision Sparks LLM Intelligence — official paper, task templates, and prompts from AllSpark at Xiaohongshu. Thèmes : large-language-models, llm, machine-learning, natural-language-processing, reinforcement-learning.",
+    "en": "GitHub repository, created on 9 October 2026 by AllSpark-Research. Vela: User Behavior as Supervision Sparks LLM Intelligence — official paper, task templates, and prompts from AllSpark at Xiaohongshu. Topics: large-language-models, llm, machine-learning, natural-language-processing, reinforcement-learning."
+   },
+   "notice_by": "règles"
+  },
+  "gh:receptron/laya": {
+   "id": "gh:receptron/laya",
+   "nom": "receptron/laya",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/receptron/laya",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en TypeScript, créé le 19 septembre 2026 par receptron. Run Laya, the open-source Jev-compatible System-1 decision model, from Node.js / TypeScript via ONNX Thèmes : classification, decision-model, inference, llm, local-first.",
+    "en": "GitHub repository written in TypeScript, created on 19 September 2026 by receptron. Run Laya, the open-source Jev-compatible System-1 decision model, from Node.js / TypeScript via ONNX Topics: classification, decision-model, inference, llm, local-first."
+   },
+   "notice_by": "règles"
+  },
+  "gh:startluxlabs/startlux-decision": {
+   "id": "gh:startluxlabs/startlux-decision",
+   "nom": "StartLuxLabs/StartLux-Decision",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://github.com/StartLuxLabs/StartLux-Decision",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 29 septembre 2026 par StartLuxLabs. Open decision models from 0.8B to 27B: a calibrated probability for every option in one pass, and a short thought only when unsure. Thèmes : agents, calibration, classification, decision-making, gguf.",
+    "en": "GitHub repository written in Python, created on 29 September 2026 by StartLuxLabs. Open decision models from 0.8B to 27B: a calibrated probability for every option in one pass, and a short thought only when unsure. Topics: agents, calibration, classification, decision-making, gguf."
+   },
+   "notice_by": "règles"
+  },
+  "gh:thesysdev/open-intelligent-ui": {
+   "id": "gh:thesysdev/open-intelligent-ui",
+   "nom": "thesysdev/open-intelligent-ui",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence_class": "unknown",
+   "lien": "https://github.com/thesysdev/open-intelligent-ui",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "États-Unis",
+   "city": "États-Unis d'Amérique",
+   "lat": 39.7837,
+   "lng": -100.4459,
+   "pays": "États-Unis",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Thesys",
+   "description": {
+    "fr": "Dépôt GitHub écrit en TypeScript, créé le 8 octobre 2026 par thesysdev. An open-source take on ChatGPT's Intelligent UI: answers stream as interactive UI (maps, photos, charts, drawings and working tools). Thèmes : agents, ai, ai-agents, ai-ui, chat-ui.",
+    "en": "GitHub repository written in TypeScript, created on 8 October 2026 by thesysdev. An open-source take on ChatGPT's Intelligent UI: answers stream as interactive UI (maps, photos, charts, drawings and working tools). Topics: agents, ai, ai-agents, ai-ui, chat-ui."
+   },
+   "notice_by": "règles"
+  },
+  "gh:ahmedbadr-dev/voice-ai-assistant": {
+   "id": "gh:ahmedbadr-dev/voice-ai-assistant",
+   "nom": "ahmedbadr-dev/voice-ai-assistant",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://github.com/ahmedbadr-dev/voice-ai-assistant",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "Égypte",
+   "city": "Egypt",
+   "lat": 35.8681,
+   "lng": -90.9457,
+   "pays": "Égypte",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Badr A.",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Python, créé le 15 octobre 2026 par ahmedbadr-dev. Python voice AI assistant: microphone STT, Google Gemini answers, offline TTS with pyttsx3. Thèmes : ai, gemini, python, speech-recognition, tts.",
+    "en": "GitHub repository written in Python, created on 15 October 2026 by ahmedbadr-dev. Python voice AI assistant: microphone STT, Google Gemini answers, offline TTS with pyttsx3. Topics: ai, gemini, python, speech-recognition, tts."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23433648": {
+   "id": "zenodo:23433648",
+   "nom": "Knowledge graph-constrained large language model agent for automated finite element modeling of girder bridges: research materials",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23434265",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 17 octobre 2026 par Luo, Jianbin, Liu, Nengxian, Chen, Yongjian. Licence : cc-by-4.0. BridgeFE-Bench (33 girder-bridge FE modeling problems with decision-level reference answers), the executable bridge knowledge graph and constraints, agent prompts and tool definitions, run records and session files,…",
+    "en": "Dataset deposited on Zenodo on 17 October 2026 by Luo, Jianbin, Liu, Nengxian, Chen, Yongjian. License: cc-by-4.0. BridgeFE-Bench (33 girder-bridge FE modeling problems with decision-level reference answers), the executable bridge knowledge graph and constraints, agent prompts and tool definitions, run records and session files,…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23430706": {
+   "id": "zenodo:23430706",
+   "nom": "Data and code for: Blinded evaluation of large language model-generated resistance training prescriptions by ten AI raters and five human experts",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23430707",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "North China Electric Power University",
+   "city": "华北电力大学",
+   "lat": 38.876,
+   "lng": 115.4974,
+   "pays": "North China Electric Power University",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 17 octobre 2026 par Chen, Xihang. Langue(s) : eng. Licence : cc-by-4.0. Supporting data, materials and analysis code for the article \"Blinded evaluation of large language model-generated resistance training prescriptions by ten AI raters and five human experts\".",
+    "en": "Dataset deposited on Zenodo on 17 October 2026 by Chen, Xihang. Language(s): eng. License: cc-by-4.0. Supporting data, materials and analysis code for the article \"Blinded evaluation of large language model-generated resistance training prescriptions by ten AI raters and five human experts\"."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:20539593": {
+   "id": "zenodo:20539593",
+   "nom": "al-Battani: Opus Astronomicum / Kitab al-Zij (after Nallino), with the Astrological History and the Commentary on the Tetrabiblos – Source Edition",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-zero",
+   "licence_class": "unknown",
+   "lien": "https://zenodo.org/records/23430173",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 17 octobre 2026 par al-Battānī. Licence : cc-zero. Status (2026-10-17). Every page of the sources is transcribed or disposed: Nallino's three volumes of the Zīj , George Saliba's Arabic edition of the astrological history and the transcription of the commentary on the…",
+    "en": "Dataset deposited on Zenodo on 17 October 2026 by al-Battānī. License: cc-zero. Status (2026-10-17). Every page of the sources is transcribed or disposed: Nallino's three volumes of the Zīj , George Saliba's Arabic edition of the astrological history and the transcription of the commentary on the…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23428980": {
+   "id": "zenodo:23428980",
+   "nom": "Dataset and code for \"Decision models without data, infrastructures without decisions: A systematic mapping review of digital construction procurement\"",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23428981",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 17 octobre 2026 par Skitmore, Ronald Marin. Licence : cc-by-4.0. Data and code supporting the article “Decision models without data, infrastructures without decisions: A systematic mapping review of digital construction procurement” (M.",
+    "en": "Dataset deposited on Zenodo on 17 October 2026 by Skitmore, Ronald Marin. License: cc-by-4.0. Data and code supporting the article “Decision models without data, infrastructures without decisions: A systematic mapping review of digital construction procurement” (M."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:20148683": {
+   "id": "zenodo:20148683",
+   "nom": "Software and supporting data for the article \"SpliSync: Genomic language model-driven splice site correction of long RNA sequencing reads\"",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23425486",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "Johns Hopkins University",
+   "city": "Johns Hopkins University",
+   "lat": 39.3302,
+   "lng": -76.6219,
+   "pays": "Johns Hopkins University",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 16 octobre 2026 par Lui, Wui Wang, Florea, Liliana. Licence : cc-by-4.0. This repository contains archived versions of the software, model weights, and supporting data for the article \"SpliSync: Genomic language model-driven splice site correction of long RNA sequencing reads\" Content:…",
+    "en": "Dataset deposited on Zenodo on 16 October 2026 by Lui, Wui Wang, Florea, Liliana. License: cc-by-4.0. This repository contains archived versions of the software, model weights, and supporting data for the article \"SpliSync: Genomic language model-driven splice site correction of long RNA sequencing reads\" Content:…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23250621": {
+   "id": "zenodo:23250621",
+   "nom": "Data and code for: \"Converting gene symbols from human to mouse, frog, zebrafish and yeast: a benchmark of 30 orthology methods and 4 large language models\"",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23250622",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "University of Bologna",
+   "city": "Università di Bologna",
+   "lat": 44.4983,
+   "lng": 11.3545,
+   "pays": "University of Bologna",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 16 octobre 2026 par Giorgi, Federico Manuel. Langue(s) : eng. Licence : cc-by-4.0. Analysis scripts, derived data and results for a benchmark of 30 methods and configurations, and four large language models, for converting human protein-coding genes to mouse, Xenopus tropicalis , zebrafish and…",
+    "en": "Dataset deposited on Zenodo on 16 October 2026 by Giorgi, Federico Manuel. Language(s): eng. License: cc-by-4.0. Analysis scripts, derived data and results for a benchmark of 30 methods and configurations, and four large language models, for converting human protein-coding genes to mouse, Xenopus tropicalis , zebrafish and…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23425830": {
+   "id": "zenodo:23425830",
+   "nom": "PESTO: model answers and result tables of \"Large language model classifies prior evidence in gene-phenotype associations\"",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23425831",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 16 octobre 2026 par Guez, Jeremy, Auwerx, Chiara, Lu, Wenhan. Licence : cc-by-4.0. Model answers and result tables of Large language model classifies prior evidence in gene–phenotype associations (Guez et al., 2026).",
+    "en": "Dataset deposited on Zenodo on 16 October 2026 by Guez, Jeremy, Auwerx, Chiara, Lu, Wenhan. License: cc-by-4.0. Model answers and result tables of Large language model classifies prior evidence in gene–phenotype associations (Guez et al., 2026)."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23423183": {
+   "id": "zenodo:23423183",
+   "nom": "THE ROLE OF IDIOMS AND COLLOCATIONS IN DEVELOPING COMMUNICATIVE COMPETENCE",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23423184",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 16 octobre 2026 par Ergasheva E'zoza Ozod qizi, Worldly Knowledge Publishing Centre. Licence : cc-by-4.0. Communicative competence is the core objective of modern foreign language teaching, emphasizing not only grammatical correctness but also sociolinguistic appropriateness and natural language use.",
+    "en": "Dataset deposited on Zenodo on 16 October 2026 by Ergasheva E'zoza Ozod qizi, Worldly Knowledge Publishing Centre. License: cc-by-4.0. Communicative competence is the core objective of modern foreign language teaching, emphasizing not only grammatical correctness but also sociolinguistic appropriateness and natural language use."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:21861021": {
+   "id": "zenodo:21861021",
+   "nom": "Prophetic AI and moral formation: A tawhidic framework for AI-mediated religious and moral education",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23188488",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "Universitas Islam Malang",
+   "city": "Universitas Islam Malang",
+   "lat": -7.9363,
+   "lng": 112.6073,
+   "pays": "Universitas Islam Malang",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 6 octobre 2026 par Mariyono, Dwi, Hakim, Dian Mohammad, Dwi Fitri Wiyono. Licence : cc-by-4.0. Supplementary File 4. The KHALIFAH Digital Literacy Analytic Framework (KDL-AF), Version 1.0 Coding manual, procedure, reliability standard, reporting checklist (KDL-R) and adaptation protocol.",
+    "en": "Dataset deposited on Zenodo on 6 October 2026 by Mariyono, Dwi, Hakim, Dian Mohammad, Dwi Fitri Wiyono. License: cc-by-4.0. Supplementary File 4. The KHALIFAH Digital Literacy Analytic Framework (KDL-AF), Version 1.0 Coding manual, procedure, reliability standard, reporting checklist (KDL-R) and adaptation protocol."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23420445": {
+   "id": "zenodo:23420445",
+   "nom": "A corpus-based study on negation in Libras (Brazilian Sign Language) - data and analysis",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23420446",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 16 octobre 2026 par Anonymous. Licence : cc-by-4.0. This repository contains the ELAN annotation files, processed datasets, and R scripts used in the analysis of negation and nonmanual markers in Libras (Brazilian Sign Language).",
+    "en": "Dataset deposited on Zenodo on 16 October 2026 by Anonymous. License: cc-by-4.0. This repository contains the ELAN annotation files, processed datasets, and R scripts used in the analysis of negation and nonmanual markers in Libras (Brazilian Sign Language)."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:20594127": {
+   "id": "zenodo:20594127",
+   "nom": "PolyTamGen Data, Base Language Model, DPO Checkpoint, and Benchmark Results",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23417382",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 16 octobre 2026 par Wu, Kehan, Zhang, Wei, Guo, Han. Langue(s) : eng. Licence : cc-by-4.0. Release artifacts for PolyTamGen, a sequence-based molecule generator conditioned on multiple protein targets.",
+    "en": "Dataset deposited on Zenodo on 16 October 2026 by Wu, Kehan, Zhang, Wei, Guo, Han. Language(s): eng. License: cc-by-4.0. Release artifacts for PolyTamGen, a sequence-based molecule generator conditioned on multiple protein targets."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:15299489": {
+   "id": "zenodo:15299489",
+   "nom": "A воз и ныне-ка там. К истории частицы КА в русском языке [And the things are still the same. On the evolution of the particle KA in Russian]",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Rus",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23416102",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 16 octobre 2026 par Zimmerling, Anton. Langue(s) : rus. Licence : cc-by-4.0. In this talk, given at the 2025 Memorial Zaliznjak's Readings, I discuss the evolution of the particle KA in Russian.",
+    "en": "Dataset deposited on Zenodo on 16 October 2026 by Zimmerling, Anton. Language(s): rus. License: cc-by-4.0. In this talk, given at the 2025 Memorial Zaliznjak's Readings, I discuss the evolution of the particle KA in Russian."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23426487": {
+   "id": "zenodo:23426487",
+   "nom": "epb_twin: tested tools for ring-by-ring analysis of EPB shield drives",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "bsd-3-clause",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23426488",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 16 octobre 2026 par Zhang, Qianbing. Licence : bsd-3-clause. First public release, accompanying the paper Agentic finite element analysis of shield tunnelling from EPB machine records.",
+    "en": "Software deposited on Zenodo on 16 October 2026 by Zhang, Qianbing. License: bsd-3-clause. First public release, accompanying the paper Agentic finite element analysis of shield tunnelling from EPB machine records."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23426057": {
+   "id": "zenodo:23426057",
+   "nom": "PESTO-release 0.3.4: prior evidence for gene-phenotype associations (code)",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "mit-license",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23426058",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 16 octobre 2026 par Guez, Jeremy, Auwerx, Chiara, Lu, Wenhan. Licence : mit-license. PESTO-release 0.3.4: the code of Large language model classifies prior evidence in gene–phenotype associations (Guez et al., 2026).",
+    "en": "Software deposited on Zenodo on 16 October 2026 by Guez, Jeremy, Auwerx, Chiara, Lu, Wenhan. License: mit-license. PESTO-release 0.3.4: the code of Large language model classifies prior evidence in gene–phenotype associations (Guez et al., 2026)."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23422114": {
+   "id": "zenodo:23422114",
+   "nom": "Sound and meaning: On the duration of Japanese homophones",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "langue": "Eng",
+   "licence": "mit-license",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23422771",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "Carl von Ossietzky Universität Oldenburg",
+   "city": "Carl von Ossietzky Universität Oldenburg",
+   "lat": 53.1467,
+   "lng": 8.1829,
+   "pays": "Carl von Ossietzky Universität Oldenburg",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 16 octobre 2026 par Saito, Motoki, van de Vijver, Ruben. Langue(s) : eng. Licence : mit-license. This record contains the scripts, the figures, and the tables of the following article: Saito, M.",
+    "en": "Software deposited on Zenodo on 16 October 2026 by Saito, Motoki, van de Vijver, Ruben. Language(s): eng. License: mit-license. This record contains the scripts, the figures, and the tables of the following article: Saito, M."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23418142": {
+   "id": "zenodo:23418142",
+   "nom": "A drift-limited length law for authorship attribution: code, pre-registration documents and results",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "mit-license",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23418143",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 16 octobre 2026 par AVCIBAS, ISMAIL. Licence : mit-license. Code, pre-registration documents, SHA-256 fingerprints and results for the manuscript “How much reference text is worth collecting?",
+    "en": "Software deposited on Zenodo on 16 October 2026 by AVCIBAS, ISMAIL. License: mit-license. Code, pre-registration documents, SHA-256 fingerprints and results for the manuscript “How much reference text is worth collecting?"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23415936": {
+   "id": "zenodo:23415936",
+   "nom": "Reliability-Aware-Regression-Testing: v1.0.0",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23415937",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 16 octobre 2026 par mr25csr2r06-hub. Licence : cc-by-4.0. Reliability-Aware Regression Testing — Version 1.0.0 Initial release of the research framework for reliability-aware regression testing of prompt-evolving Large Language Model (LLM) applications.",
+    "en": "Software deposited on Zenodo on 16 October 2026 by mr25csr2r06-hub. License: cc-by-4.0. Reliability-Aware Regression Testing — Version 1.0.0 Initial release of the research framework for reliability-aware regression testing of prompt-evolving Large Language Model (LLM) applications."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:17453180": {
+   "id": "zenodo:17453180",
+   "nom": "openalexPro/openalexPro: openalexPro 0.13.0",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23415932",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 16 octobre 2026 par Rainer M Krug. Licence : cc-by-4.0. Highlights New features OQL and OQO queries: pro_query(oql = ...) / pro_query(oqo = ...) for OpenAlex's query language, e.g.",
+    "en": "Software deposited on Zenodo on 16 October 2026 by Rainer M Krug. License: cc-by-4.0. Highlights New features OQL and OQO queries: pro_query(oql = ...) / pro_query(oqo = ...) for OpenAlex's query language, e.g."
+   },
+   "notice_by": "règles"
+  },
+  "wikicfp:203784": {
+   "id": "wikicfp:203784",
+   "nom": "Slavic-NLP 2027 : The 11th Workshop on NLP for Slavic languages",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "wikicfp",
+   "kind": "event",
+   "categorie_key": "cat_Event",
+   "type": "Appel à communications",
+   "licence_class": "unknown",
+   "lien": "https://bsnlp.cs.helsinki.fi/",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "Greece",
+   "city": "Athènes",
+   "lat": 37.9756,
+   "lng": 23.7348,
+   "pays": "Greece",
+   "geo_precision": "lieu",
+   "event": {
+    "start": "2027-03-09",
+    "end": "2027-03-14",
+    "location": "Athens, Greece",
+    "paper_deadline": "2027-01-09",
+    "notification": "2027-01-23",
+    "camera_ready": "2027-01-30",
+    "website": "https://bsnlp.cs.helsinki.fi/",
+    "categories": [
+     "NLP",
+     "computational linguistics"
+    ]
+   },
+   "cfp_url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203784",
+   "description": {
+    "fr": "Appel à communications de l'atelier « The 11th Workshop on NLP for Slavic languages (Slavic-NLP 2027) », consacré à : NLP, computational linguistics. L'événement se tiendra à Athens, Greece du 9 mars 2027 au 14 mars 2027. Date limite de soumission des articles : 9 janvier 2027. Notification aux auteurs : 23 janvier 2027.",
+    "en": "The current political and economic developments in Central/ Eastern Europe have brought Slavic societies and their languages into focus, due to rapid technological advancement and expanding consumer markets. Research on applied and theoretical NLP in the context of Slavic languages is still lagging. The event takes place in Athens, Greece from 9 March 2027 to 14 March 2027. Paper submission deadline: 9 January 2027. Author notification: 23 January 2027."
+   },
+   "notice_by": "règles",
+   "deadline_next": "2027-01-09"
+  },
+  "wikicfp:203752": {
+   "id": "wikicfp:203752",
+   "nom": "LLMSSH 2026 : LLMs and the Social Sciences and Humanities: Research, Resources and Infrastructures",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "wikicfp",
+   "kind": "event",
+   "categorie_key": "cat_Event",
+   "type": "Appel à communications",
+   "licence_class": "unknown",
+   "lien": "https://llmssh.events.up.pt/",
+   "added": "2026-10-17",
+   "focus": false,
+   "region": "Portugal",
+   "city": "Porto",
+   "lat": 41.1502,
+   "lng": -8.6103,
+   "pays": "Portugal",
+   "geo_precision": "lieu",
+   "event": {
+    "start": "2026-11-30",
+    "end": "2026-11-30",
+    "location": "Porto, Portugal",
+    "paper_deadline": "2026-11-15",
+    "notification": "2026-11-20",
+    "website": "https://llmssh.events.up.pt/",
+    "categories": [
+     "NLP",
+     "computational linguistics",
+     "social sciences"
+    ]
+   },
+   "cfp_url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203752",
+   "description": {
+    "fr": "Appel à communications de l'événement « LLMs and the Social Sciences and Humanities: Research, Resources and Infrastructures (LLMSSH 2026) », consacré à : NLP, computational linguistics, social sciences. L'événement se tiendra à Porto, Portugal le 30 novembre 2026. Date limite de soumission des articles : 15 novembre 2026. Notification aux auteurs : 20 novembre 2026.",
+    "en": "Call for papers: “LLMs and the Social Sciences and Humanities: Research, Resources and Infrastructures (LLMSSH 2026)”. The event takes place in Porto, Portugal on 30 November 2026. Paper submission deadline: 15 November 2026. Author notification: 20 November 2026."
+   },
+   "notice_by": "règles",
+   "deadline_next": "2026-11-15"
   }
  },
  "journals": {

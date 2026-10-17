@@ -6,7 +6,783 @@
     <atom:link href="https://omnital.github.io/data/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Nouvelles ressources en traitement automatique des langues (arXiv, HAL, Hugging Face, GitHub, WikiCFP).</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 16 Oct 2026 10:00:46 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 09:27:06 +0000</lastBuildDate>
+    <item>
+      <title>[Event] Slavic-NLP 2027 : The 11th Workshop on NLP for Slavic languages</title>
+      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203784</link>
+      <guid isPermaLink="false">wikicfp:203784</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>wikicfp</category>
+      <description>The 11th Workshop on NLP for Slavic languages</description>
+    </item>
+    <item>
+      <title>[Event] LLMSSH 2026 : LLMs and the Social Sciences and Humanities: Research, Resources and Infrastructures</title>
+      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203752</link>
+      <guid isPermaLink="false">wikicfp:203752</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>wikicfp</category>
+      <description>LLMs and the Social Sciences and Humanities: Research, Resources and Infrastructures</description>
+    </item>
+    <item>
+      <title>[Corpus] akbargherbal/arabic-music-lyrics</title>
+      <link>https://huggingface.co/datasets/akbargherbal/arabic-music-lyrics</link>
+      <guid isPermaLink="false">hf:datasets:akbargherbal/arabic-music-lyrics</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Arabic Music Lyrics Arabic-language song lyrics collected from public datasets: 12,463 tracks from 2,771 artists, 18,540,195 characters of lyrics. Sources source tracks origin notes genius 10,396 Genius Song Lyrics (Kaggle API, Jan 2023)…</description>
+    </item>
+    <item>
+      <title>[Model] TfiydfgDYgd/piper-voices</title>
+      <link>https://huggingface.co/TfiydfgDYgd/piper-voices</link>
+      <guid isPermaLink="false">hf:models:TfiydfgDYgd/piper-voices</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Infinix-io/Fish-s2-p</title>
+      <link>https://huggingface.co/Infinix-io/Fish-s2-p</link>
+      <guid isPermaLink="false">hf:models:Infinix-io/Fish-s2-p</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Infinix-io/Fish-D</title>
+      <link>https://huggingface.co/Infinix-io/Fish-D</link>
+      <guid isPermaLink="false">hf:models:Infinix-io/Fish-D</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Riyan200324200324/whisper-large-v3</title>
+      <link>https://huggingface.co/Riyan200324200324/whisper-large-v3</link>
+      <guid isPermaLink="false">hf:models:Riyan200324200324/whisper-large-v3</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/vecteur-atelier</title>
+      <link>https://github.com/salimadour31-boop/vecteur-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/vecteur-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Vectoriseur d'images gratuit dans le navigateur : PNG/JPG → SVG (N&amp;B, couleurs, gris, ligne centrale), Bézier, SVG en calques pour Illustrator — FR/EN/Taqbaylit</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/oreille-atelier</title>
+      <link>https://github.com/salimadour31-boop/oreille-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/oreille-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Formation de l'oreille gratuite dans le navigateur : intervalles, accords, gammes et maqamat (quarts de ton), dictée mélodique, notes — FR/EN/Taqbaylit</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/generique-atelier</title>
+      <link>https://github.com/salimadour31-boop/generique-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/generique-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Générateur de génériques de fin et cartons-titres (défilement, perspective, cartons, carton fixe) 100 % navigateur, export WebM/PNG/JSON — FR/EN/Taqbaylit</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/bruitage-atelier</title>
+      <link>https://github.com/salimadour31-boop/bruitage-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/bruitage-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Générateur d'effets sonores cinématiques (impacts, braams, risers, whooshs, drones, tonnerre…) 100 % synthétisés dans le navigateur, export WAV — FR/EN/Taqbaylit</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/soleil-atelier</title>
+      <link>https://github.com/salimadour31-boop/soleil-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/soleil-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Planificateur gratuit heure dorée / heure bleue : course du soleil et de la lune, caméra, ombres, alignements, exports PNG/CSV/ICS — FR/EN/Taqbaylit</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/spectre-atelier</title>
+      <link>https://github.com/salimadour31-boop/spectre-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/spectre-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Analyseur de spectre et spectrogramme audio gratuit dans le navigateur (STFT, notes, pics, chromagramme, vectorscope, exports) — FR/EN/Taqbaylit</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/grille-atelier</title>
+      <link>https://github.com/salimadour31-boop/grille-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/grille-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Générateur gratuit de grilles de dessin à imprimer : quadrillage, isométrique, hexagones, perspective 1/2/3 points, mandala, BD, storyboard, calligraphie latine/arabe/tifinagh — SVG mm, PNG 600 dpi, impression. FR/EN/Taqbaylit.</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/gammes-atelier</title>
+      <link>https://github.com/salimadour31-boop/gammes-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/gammes-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Explorateur de gammes, modes et maqamat (quarts de ton) : piano, guitare, oud, cercle, son Web Audio, théorie, export PNG/SVG/MIDI — FR/EN/Taqbaylit</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/sonie-atelier</title>
+      <link>https://github.com/salimadour31-boop/sonie-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/sonie-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Mesure de loudness LUFS / True Peak / LRA dans le navigateur, et ce qu'en feront Spotify, Apple Music, YouTube — 100 % local, FR/EN/Taqbaylit</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/bandeau-atelier</title>
+      <link>https://github.com/salimadour31-boop/bandeau-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/bandeau-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Générateur de bandeaux (lower thirds) pour vidéastes — navigateur, FR/EN/Taqbaylit, MIT</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/onde-atelier</title>
+      <link>https://github.com/salimadour31-boop/onde-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/onde-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Créateur d'audiogrammes et de visualiseurs audio en vidéo (WebM), 100 % dans le navigateur : barres, oscilloscope, anneau, points, forme d'onde. 1:1, 9:16, 16:9, 4:5. FR/EN/Taqbaylit, MIT.</description>
+    </item>
+    <item>
+      <title>[Model] deepseek-ai/DeepSeek-V4.1-Flash-1017</title>
+      <link>https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017</link>
+      <guid isPermaLink="false">hf:models:deepseek-ai/DeepSeek-V4.1-Flash-1017</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Corpus] Knowledge graph-constrained large language model agent for automated finite element modeling of girder bridges: research materials</title>
+      <link>https://zenodo.org/records/23434265</link>
+      <guid isPermaLink="false">zenodo:23433648</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>BridgeFE-Bench (33 girder-bridge FE modeling problems with decision-level reference answers), the executable bridge knowledge graph and constraints, agent prompts and tool definitions, run records and session files, analysis and replay…</description>
+    </item>
+    <item>
+      <title>[Corpus] Data and code for: Blinded evaluation of large language model-generated resistance training prescriptions by ten AI raters and five human experts</title>
+      <link>https://zenodo.org/records/23430707</link>
+      <guid isPermaLink="false">zenodo:23430706</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Supporting data, materials and analysis code for the article "Blinded evaluation of large language model-generated resistance training prescriptions by ten AI raters and five human experts". The study evaluated 12-week resistance training…</description>
+    </item>
+    <item>
+      <title>[Corpus] al-Battani: Opus Astronomicum / Kitab al-Zij (after Nallino), with the Astrological History and the Commentary on the Tetrabiblos – Source Edition</title>
+      <link>https://zenodo.org/records/23430173</link>
+      <guid isPermaLink="false">zenodo:20539593</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Status (2026-10-17). Every page of the sources is transcribed or disposed: Nallino's three volumes of the Zīj , George Saliba's Arabic edition of the astrological history and the transcription of the commentary on the Tetrabiblos in…</description>
+    </item>
+    <item>
+      <title>[Corpus] Dataset and code for "Decision models without data, infrastructures without decisions: A systematic mapping review of digital construction procurement"</title>
+      <link>https://zenodo.org/records/23428981</link>
+      <guid isPermaLink="false">zenodo:23428980</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Data and code supporting the article “Decision models without data, infrastructures without decisions: A systematic mapping review of digital construction procurement” (M. Skitmore, submitted to Automation in Construction). The review…</description>
+    </item>
+    <item>
+      <title>[Corpus] adrirana/political-corpus-es</title>
+      <link>https://huggingface.co/datasets/adrirana/political-corpus-es</link>
+      <guid isPermaLink="false">hf:datasets:adrirana/political-corpus-es</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>political-corpus-es: Intervenciones del Pleno del Congreso (19/07/2016 – 23/09/2026) Corpus longitudinal en el que cada fila es un turno de palabra en el Pleno del Congreso de los Diputados. Incluye texto íntegro oficial, fecha de la…</description>
+    </item>
+    <item>
+      <title>[Corpus] barendjl/product-database</title>
+      <link>https://huggingface.co/datasets/barendjl/product-database</link>
+      <guid isPermaLink="false">hf:datasets:barendjl/product-database</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Open Food Facts Database What is 🍊 Open Food Facts? A food products database Open Food Facts is a database of food products with ingredients, allergens, nutrition facts and all the tidbits of information we can find on product labels.…</description>
+    </item>
+    <item>
+      <title>[Corpus] itzune/bssd</title>
+      <link>https://huggingface.co/datasets/itzune/bssd</link>
+      <guid isPermaLink="false">hf:datasets:itzune/bssd</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>BSSD: Basque Synthetic Speech Dataset Work in progress (2026-10-17). Synthetic Basque speech generated with OmniVoice and filtered with two Basque ASR systems. The first half (runs v06-v11, 142k utterances, 183 h) is uploaded; the second…</description>
+    </item>
+    <item>
+      <title>[Corpus] didiaff/tunisian-arabic-reasoning-eval</title>
+      <link>https://huggingface.co/datasets/didiaff/tunisian-arabic-reasoning-eval</link>
+      <guid isPermaLink="false">hf:datasets:didiaff/tunisian-arabic-reasoning-eval</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Evaluating Qwen3-4B on Tunisian Arabic Reasoning 1. Overview This project investigates a potential multilingual reasoning gap in Qwen3-4B, focusing on Tunisian Arabic, a dialect that is less represented in many NLP benchmarks than English…</description>
+    </item>
+    <item>
+      <title>[Corpus] nasrellahkharroubi/DarijaDZ_Transliteration</title>
+      <link>https://huggingface.co/datasets/nasrellahkharroubi/DarijaDZ_Transliteration</link>
+      <guid isPermaLink="false">hf:datasets:nasrellahkharroubi/DarijaDZ_Transliteration</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>DarijaDZ_Transliteration DarijaDZ_Transliteration pairs Algerian Darija sentences written in Arabic script with the Arabizi (Latin letters and digits) a real Algerian would type for the same comment on social media. It is a subset of the…</description>
+    </item>
+    <item>
+      <title>[Model] quicodomingo/murmur-models</title>
+      <link>https://huggingface.co/quicodomingo/murmur-models</link>
+      <guid isPermaLink="false">hf:models:quicodomingo/murmur-models</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Helsinki-NLP/mammoth-eng_spa-g3a3-l3-h4d768</title>
+      <link>https://huggingface.co/Helsinki-NLP/mammoth-eng_spa-g3a3-l3-h4d768</link>
+      <guid isPermaLink="false">hf:models:Helsinki-NLP/mammoth-eng_spa-g3a3-l3-h4d768</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/illustrator-tifinagh-latin</title>
+      <link>https://github.com/salimadour31-boop/illustrator-tifinagh-latin</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/illustrator-tifinagh-latin</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Script Illustrator : translittération tifinagh ⇄ latin (tamazight / kabyle) lettre par lettre en gardant la mise en forme, police tifinagh, copie ou annotation non imprimable</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/studio-musique-ia</title>
+      <link>https://github.com/salimadour31-boop/studio-musique-ia</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/studio-musique-ia</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Open-source AI music generator (ACE-Step / MusicGen) — Windows server, Google Colab, Android PWA (FR/EN/Taqbaylit)</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/accordeur-atelier</title>
+      <link>https://github.com/salimadour31-boop/accordeur-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/accordeur-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Accordeur chromatique gratuit dans le navigateur (guitare, basse, ukulélé, oud, violon…) — micro, diapason réglable, stroboscope, FR/EN/Taqbaylit</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/eclairage-atelier</title>
+      <link>https://github.com/salimadour31-boop/eclairage-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/eclairage-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Plan d'éclairage et de plateau vu de dessus pour vidéastes et photographes (caméras, projecteurs K/faisceau, liste du matériel, ratio key:fill, export SVG/PNG/JSON/PDF) — 100 % navigateur, FR/EN/Taqbaylit</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/accords-atelier</title>
+      <link>https://github.com/salimadour31-boop/accords-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/accords-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Progressions d'accords dans le navigateur : écoute, clavier, export MIDI (FR/EN/Taqbaylit)</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/rythme-atelier</title>
+      <link>https://github.com/salimadour31-boop/rythme-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/rythme-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Boîte à rythmes / séquenceur pas à pas gratuit dans le navigateur : 10 sons synthétisés (Web Audio), swing, motifs A–D, export WAV / MIDI / JSON. FR/EN/Taqbaylit.</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/suite-accords</title>
+      <link>https://github.com/salimadour31-boop/suite-accords</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/suite-accords</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Offline PWA: chord progressions from audio, melody or a single note (FR/EN/Taqbaylit)</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/palette-cinema</title>
+      <link>https://github.com/salimadour31-boop/palette-cinema</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/palette-cinema</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Free browser tool: extract cinematic color palettes from images and video frames (FR/EN/Taqbaylit)</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/storyboard-atelier</title>
+      <link>https://github.com/salimadour31-boop/storyboard-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/storyboard-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Storyboard et découpage technique 100 % navigateur : croquis, fiche de plan, animatic, export PDF/PNG/CSV/JSON (FR/EN/Taqbaylit)</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/soustitres-atelier</title>
+      <link>https://github.com/salimadour31-boop/soustitres-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/soustitres-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Éditeur et calage de sous-titres 100 % navigateur : IN/OUT au clavier, aperçu live, décalage, images/s, SRT/WebVTT/TXT/JSON (FR/EN/Taqbaylit)</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/motif-atelier</title>
+      <link>https://github.com/salimadour31-boop/motif-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/motif-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Générateur de motifs répétables sans raccord (seamless patterns) dans le navigateur — SVG/PNG/CSS/JSON, FR/EN/Taqbaylit</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/contraste-atelier</title>
+      <link>https://github.com/salimadour31-boop/contraste-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/contraste-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Studio de contraste WCAG 2.1 pour graphistes — ratio live, auto-fix, daltonisme, export JSON/CSS/PNG. 100% navigateur, FR/EN/Taqbaylit.</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/timecode-atelier</title>
+      <link>https://github.com/salimadour31-boop/timecode-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/timecode-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Calculatrice de timecode SMPTE gratuite dans le navigateur : drop-frame, durées, cadences, stockage. FR/EN/Taqbaylit.</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/grain-degrade</title>
+      <link>https://github.com/salimadour31-boop/grain-degrade</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/grain-degrade</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Générateur libre de dégradés maillés granuleux (mesh gradient + grain) dans le navigateur — export PNG/CSS/JSON, FR/EN/Taqbaylit</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/lut-atelier</title>
+      <link>https://github.com/salimadour31-boop/lut-atelier</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/lut-atelier</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Créez des LUT d'étalonnage cinématique dans le navigateur et exportez-les en .cube (Resolve, Premiere, FFmpeg) — FR/EN/Taqbaylit, MIT</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/echelle-typo</title>
+      <link>https://github.com/salimadour31-boop/echelle-typo</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/echelle-typo</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Générateur d'échelle typographique modulaire (print &amp; web) — FR/EN/Taqbaylit, 100% navigateur, MIT</description>
+    </item>
+    <item>
+      <title>[Tool] ABdelmajid05/LeNet-5-for-AMHCD-Tifinagh-Character-Recognition</title>
+      <link>https://github.com/ABdelmajid05/LeNet-5-for-AMHCD-Tifinagh-Character-Recognition</link>
+      <guid isPermaLink="false">gh:abdelmajid05/lenet-5-for-amhcd-tifinagh-character-recognition</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>This project implements and evaluates a LeNet-5 convolutional neural network (CNN) for handwritten Tifinagh character recognition using the AMHCD dataset.</description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/illustrator-harmonie-arabe-latin</title>
+      <link>https://github.com/salimadour31-boop/illustrator-harmonie-arabe-latin</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/illustrator-harmonie-arabe-latin</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Script Illustrator : donne à l'arabe et au tifinagh la même taille visible (et une graisse accordée) que le latin, lettre par lettre</description>
+    </item>
+    <item>
+      <title>[Tool] Sud-38/TP-LeNet5-Tifinagh</title>
+      <link>https://github.com/Sud-38/TP-LeNet5-Tifinagh</link>
+      <guid isPermaLink="false">gh:sud-38/tp-lenet5-tifinagh</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Tool] Ykhallouki25/Tp-lenet5-tifinagh</title>
+      <link>https://github.com/Ykhallouki25/Tp-lenet5-tifinagh</link>
+      <guid isPermaLink="false">gh:ykhallouki25/tp-lenet5-tifinagh</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>tp lenet5-tifinagh</description>
+    </item>
+    <item>
+      <title>[Tool] OUMAIMALAKHLIFI499/lenet5-tifinagh</title>
+      <link>https://github.com/OUMAIMALAKHLIFI499/lenet5-tifinagh</link>
+      <guid isPermaLink="false">gh:oumaimalakhlifi499/lenet5-tifinagh</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Tool] salimadour31-boop/illustrator-coherence-langues</title>
+      <link>https://github.com/salimadour31-boop/illustrator-coherence-langues</link>
+      <guid isPermaLink="false">gh:salimadour31-boop/illustrator-coherence-langues</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Script Illustrator : compare les versions linguistiques (FR / AR / tifinagh…) et signale prix, téléphones, dates, sites et codes différents</description>
+    </item>
+    <item>
+      <title>[Tool] SohayebGasmi-IA79/LeNet5_Tifinagh_CNN</title>
+      <link>https://github.com/SohayebGasmi-IA79/LeNet5_Tifinagh_CNN</link>
+      <guid isPermaLink="false">gh:sohayebgasmi-ia79/lenet5_tifinagh_cnn</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Tool] khalidbouhouch64-a11y/Classification-Tifinagh-Lenet5</title>
+      <link>https://github.com/khalidbouhouch64-a11y/Classification-Tifinagh-Lenet5</link>
+      <guid isPermaLink="false">gh:khalidbouhouch64-a11y/classification-tifinagh-lenet5</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Tool] Ykhallouki25/lenet5-tifinagh</title>
+      <link>https://github.com/Ykhallouki25/lenet5-tifinagh</link>
+      <guid isPermaLink="false">gh:ykhallouki25/lenet5-tifinagh</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>tp lenet5-tifinagh</description>
+    </item>
+    <item>
+      <title>[Tool] realmaddy/nasbguard</title>
+      <link>https://github.com/realmaddy/nasbguard</link>
+      <guid isPermaLink="false">gh:realmaddy/nasbguard</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Scam and phishing detection for Moroccan Darija messages (Arabic script &amp; Arabizi)</description>
+    </item>
+    <item>
+      <title>[Opportunity] Three PhD/PostDoc positions</title>
+      <link>https://nlppeople.com/job/three-phd-postdoc-positions/</link>
+      <guid isPermaLink="false">nlppeople:170638</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>The MLT group (Dr. Marius Mosbach, Dr. Simon Ostermann) together with the NMM (Prof. Verena Wolf, Dr. Kevin Baum) and SAINT groups (Prof. Kristian Kersting, Dr. Dominik Hintersdorf) at DFKI Saarbrücken and Darmstadt is recruiting across…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Principal ML Architect</title>
+      <link>https://nlppeople.com/job/principal-ml-architect/</link>
+      <guid isPermaLink="false">nlppeople:170640</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>About NIQ: NIQ is a leading global consumer intelligence company, helping clients understand what is happening, why it is happening, and what they should do next. Our data, technology, AI, and analytics capabilities power decision-making…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior Data Scientist, Growth</title>
+      <link>https://nlppeople.com/job/senior-data-scientist-growth/</link>
+      <guid isPermaLink="false">nlppeople:170642</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>At HelloFresh, our mission is simple: to change the way people eat, forever. As a global digital-native FMCG company and the world’s leading mealkit provider, we are transforming the traditional food supply chain through a data-driven,…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Finance Data Annotation Quality Analyst</title>
+      <link>https://www.arbeitnow.fr/jobs/companies/mistralai/finance-data-annotation-quality-analyst-paris-357673</link>
+      <guid isPermaLink="false">arbeitnow:finance-data-annotation-quality-analyst-paris-357673</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arbeitnow</category>
+      <description>About Mistral Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance,…</description>
+    </item>
+    <item>
+      <title>[Paper] The Silfide project: an Open Access to Linguistic Resources in French</title>
+      <link>https://inria.hal.science/inria-00525176v1</link>
+      <guid isPermaLink="false">hal:inria-00525176</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>hal</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Paper] Méta-données et standards en ingénierie des langues</title>
+      <link>https://inria.hal.science/hal-05802858v1</link>
+      <guid isPermaLink="false">hal:hal-05802858</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>hal</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Paper] Leveraging Generative Large Language Models for Temporal Relation Extraction From French Clinical Narratives: Prompt-Chaining Approach</title>
+      <link>https://hal.science/hal-05802711v1</link>
+      <guid isPermaLink="false">hal:hal-05802711</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>hal</category>
+      <description>Abstract Background Temporal relation extraction (TRE) in clinical narratives is crucial for understanding patient history, disease progression, and treatment pathways. However, it remains challenging due to limited annotated data and to…</description>
+    </item>
+    <item>
+      <title>[Corpus] Software and supporting data for the article "SpliSync: Genomic language model-driven splice site correction of long RNA sequencing reads"</title>
+      <link>https://zenodo.org/records/23425486</link>
+      <guid isPermaLink="false">zenodo:20148683</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>This repository contains archived versions of the software, model weights, and supporting data for the article "SpliSync: Genomic language model-driven splice site correction of long RNA sequencing reads" Content: Software (archived…</description>
+    </item>
+    <item>
+      <title>[Corpus] Data and code for: "Converting gene symbols from human to mouse, frog, zebrafish and yeast: a benchmark of 30 orthology methods and 4 large language models"</title>
+      <link>https://zenodo.org/records/23250622</link>
+      <guid isPermaLink="false">zenodo:23250621</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Analysis scripts, derived data and results for a benchmark of 30 methods and configurations, and four large language models, for converting human protein-coding genes to mouse, Xenopus tropicalis , zebrafish and Saccharomyces cerevisiae…</description>
+    </item>
+    <item>
+      <title>[Corpus] PESTO: model answers and result tables of "Large language model classifies prior evidence in gene-phenotype associations"</title>
+      <link>https://zenodo.org/records/23425831</link>
+      <guid isPermaLink="false">zenodo:23425830</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Model answers and result tables of Large language model classifies prior evidence in gene–phenotype associations (Guez et al., 2026). PESTO (Prior Evidence Status from Text and Ontologies) classifies the prior evidence for a…</description>
+    </item>
+    <item>
+      <title>[Corpus] THE ROLE OF IDIOMS AND COLLOCATIONS IN DEVELOPING COMMUNICATIVE COMPETENCE</title>
+      <link>https://zenodo.org/records/23423184</link>
+      <guid isPermaLink="false">zenodo:23423183</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Communicative competence is the core objective of modern foreign language teaching, emphasizing not only grammatical correctness but also sociolinguistic appropriateness and natural language use. Idioms and collocations—collectively known…</description>
+    </item>
+    <item>
+      <title>[Corpus] A corpus-based study on negation in Libras (Brazilian Sign Language) - data and analysis</title>
+      <link>https://zenodo.org/records/23420446</link>
+      <guid isPermaLink="false">zenodo:23420445</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>This repository contains the ELAN annotation files, processed datasets, and R scripts used in the analysis of negation and nonmanual markers in Libras (Brazilian Sign Language). The study investigates the co-occurrence and temporal…</description>
+    </item>
+    <item>
+      <title>[Corpus] PolyTamGen Data, Base Language Model, DPO Checkpoint, and Benchmark Results</title>
+      <link>https://zenodo.org/records/23417382</link>
+      <guid isPermaLink="false">zenodo:20594127</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Release artifacts for PolyTamGen, a sequence-based molecule generator conditioned on multiple protein targets. The companion paper is Polypharmacological Target-Aware Molecule Generation (Bioinformatics, 2026). Code and release notes:…</description>
+    </item>
+    <item>
+      <title>[Corpus] A воз и ныне-ка там. К истории частицы КА в русском языке [And the things are still the same. On the evolution of the particle KA in Russian]</title>
+      <link>https://zenodo.org/records/23416102</link>
+      <guid isPermaLink="false">zenodo:15299489</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>In this talk, given at the 2025 Memorial Zaliznjak's Readings, I discuss the evolution of the particle KA in Russian. This enclitic particle expresses the meaning of soft encouragement in standard Modern Russian and attaches to imperative…</description>
+    </item>
+    <item>
+      <title>[Tool] epb_twin: tested tools for ring-by-ring analysis of EPB shield drives</title>
+      <link>https://zenodo.org/records/23426488</link>
+      <guid isPermaLink="false">zenodo:23426487</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>First public release, accompanying the paper Agentic finite element analysis of shield tunnelling from EPB machine records.</description>
+    </item>
+    <item>
+      <title>[Tool] PESTO-release 0.3.4: prior evidence for gene-phenotype associations (code)</title>
+      <link>https://zenodo.org/records/23426058</link>
+      <guid isPermaLink="false">zenodo:23426057</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>PESTO-release 0.3.4: the code of Large language model classifies prior evidence in gene–phenotype associations (Guez et al., 2026). The repository https://github.com/jeremyguez/PESTO-release at commit 874eb7179a08 : the Python package…</description>
+    </item>
+    <item>
+      <title>[Tool] Sound and meaning: On the duration of Japanese homophones</title>
+      <link>https://zenodo.org/records/23422771</link>
+      <guid isPermaLink="false">zenodo:23422114</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>This record contains the scripts, the figures, and the tables of the following article: Saito, M. &amp; van de Vijver, R. (to appear). Sound and meaning: On the duration of Japanese homophones. In Jessica Nieder &amp; Ingo Plag (eds.),…</description>
+    </item>
+    <item>
+      <title>[Tool] A drift-limited length law for authorship attribution: code, pre-registration documents and results</title>
+      <link>https://zenodo.org/records/23418143</link>
+      <guid isPermaLink="false">zenodo:23418142</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Code, pre-registration documents, SHA-256 fingerprints and results for the manuscript “How much reference text is worth collecting? A drift-limited length law for authorship attribution” (I. Avcibas, OSTIM Technical University, submitted…</description>
+    </item>
+    <item>
+      <title>[Tool] Reliability-Aware-Regression-Testing: v1.0.0</title>
+      <link>https://zenodo.org/records/23415937</link>
+      <guid isPermaLink="false">zenodo:23415936</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Reliability-Aware Regression Testing — Version 1.0.0 Initial release of the research framework for reliability-aware regression testing of prompt-evolving Large Language Model (LLM) applications. The framework supports repeated LLM…</description>
+    </item>
+    <item>
+      <title>[Tool] openalexPro/openalexPro: openalexPro 0.13.0</title>
+      <link>https://zenodo.org/records/23415932</link>
+      <guid isPermaLink="false">zenodo:17453180</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Highlights New features OQL and OQO queries: pro_query(oql = ...) / pro_query(oqo = ...) for OpenAlex's query language, e.g. nested and / or conditions. They run through pro_request() , pro_count() and pro_fetch() unchanged. Lossless…</description>
+    </item>
+    <item>
+      <title>[Corpus] dendriteholdings/ingot_corpus</title>
+      <link>https://huggingface.co/datasets/dendriteholdings/ingot_corpus</link>
+      <guid isPermaLink="false">hf:datasets:dendriteholdings/ingot_corpus</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>quantedo_corpus A broad prompt corpus. The chungus split contains 11,038,467 task prompts over 18 domains and 84 languages, taken from 397 public datasets; the train split is the legacy 1,812,669-row release. It holds prompts only, no…</description>
+    </item>
+    <item>
+      <title>[Model] tencent/Hy-Memory-30B-A3B</title>
+      <link>https://huggingface.co/tencent/Hy-Memory-30B-A3B</link>
+      <guid isPermaLink="false">hf:models:tencent/Hy-Memory-30B-A3B</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Tool] ahmedbadr-dev/voice-ai-assistant</title>
+      <link>https://github.com/ahmedbadr-dev/voice-ai-assistant</link>
+      <guid isPermaLink="false">gh:ahmedbadr-dev/voice-ai-assistant</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Python voice AI assistant: microphone STT, Google Gemini answers, offline TTS with pyttsx3. Clean env-based setup.</description>
+    </item>
+    <item>
+      <title>[Model] OpenMOSS-Team/MOSS-Image-SFT</title>
+      <link>https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT</link>
+      <guid isPermaLink="false">hf:models:OpenMOSS-Team/MOSS-Image-SFT</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] OpenMOSS-Team/MOSS-Image-Base</title>
+      <link>https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base</link>
+      <guid isPermaLink="false">hf:models:OpenMOSS-Team/MOSS-Image-Base</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] datalab-to/indra-ocr</title>
+      <link>https://huggingface.co/datalab-to/indra-ocr</link>
+      <guid isPermaLink="false">hf:models:datalab-to/indra-ocr</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Tool] AllSpark-Research/Vela</title>
+      <link>https://github.com/AllSpark-Research/Vela</link>
+      <guid isPermaLink="false">gh:allspark-research/vela</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Vela: User Behavior as Supervision Sparks LLM Intelligence — official paper, task templates, and prompts from AllSpark at Xiaohongshu.</description>
+    </item>
+    <item>
+      <title>[Model] nvidia/Qwen3.8-Flash-Next-FP4-Local</title>
+      <link>https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local</link>
+      <guid isPermaLink="false">hf:models:nvidia/Qwen3.8-Flash-Next-FP4-Local</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Tool] thesysdev/open-intelligent-ui</title>
+      <link>https://github.com/thesysdev/open-intelligent-ui</link>
+      <guid isPermaLink="false">gh:thesysdev/open-intelligent-ui</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>An open-source take on ChatGPT's Intelligent UI: answers stream as interactive UI (maps, photos, charts, drawings and working tools). Built with OpenUI.</description>
+    </item>
+    <item>
+      <title>[Corpus] Prophetic AI and moral formation: A tawhidic framework for AI-mediated religious and moral education</title>
+      <link>https://zenodo.org/records/23188488</link>
+      <guid isPermaLink="false">zenodo:21861021</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Supplementary File 4. The KHALIFAH Digital Literacy Analytic Framework (KDL-AF), Version 1.0 Coding manual, procedure, reliability standard, reporting checklist (KDL-R) and adaptation protocol. Supplement to: Prophetic AI and moral…</description>
+    </item>
+    <item>
+      <title>[Tool] vahmoh25/Veda</title>
+      <link>https://github.com/vahmoh25/Veda</link>
+      <guid isPermaLink="false">gh:vahmoh25/veda</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>The Agentic-Native Operating System</description>
+    </item>
+    <item>
+      <title>[Opportunity] Reconnaissance multimodale d'objets en vocabulaire ouvert par modèles de Vision-Langage</title>
+      <link>https://theses.fr/s443465</link>
+      <guid isPermaLink="false">theses:s443465</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>theses</category>
+      <description>Thèse en préparation — Informatique, données, IA. Direction : Gianni Franchi, Benjamin Pannetier. Laboratoire : Agence Ministérielle pour l'IA de Défense</description>
+    </item>
+    <item>
+      <title>[Opportunity] Apprentissage de représentations hybrides, basées sur des modèles et les donées, pour la reconnaissance multimodale des émotions</title>
+      <link>https://theses.fr/s443428</link>
+      <guid isPermaLink="false">theses:s443428</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>theses</category>
+      <description>Thèse en préparation — Sciences du traitement du signal et des images. Direction : Dro Désiré Sidibé. Laboratoire : IBISC - Informatique, BioInformatique, Systèmes Complexes</description>
+    </item>
+    <item>
+      <title>[Tool] StartLuxLabs/StartLux-Decision</title>
+      <link>https://github.com/StartLuxLabs/StartLux-Decision</link>
+      <guid isPermaLink="false">gh:startluxlabs/startlux-decision</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Open decision models from 0.8B to 27B: a calibrated probability for every option in one pass, and a short thought only when unsure. Engine for vLLM, llama.cpp and MLX.</description>
+    </item>
+    <item>
+      <title>[Paper] TTLab at AlexandriaX-2026: A Fine-Tuned Surface Tagger for Arabic Machine-Translation Error-Span Detection and Classification</title>
+      <link>https://arxiv.org/abs/2609.29633</link>
+      <guid isPermaLink="false">arxiv:2609.29633</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>We present TTLab's submission to the AlexandriaX-2026 Subtask~3 on Arabic MT error span detection and classification. Our system frames the task as token-level classification over surface forms, preserving character offsets to ensure…</description>
+    </item>
+    <item>
+      <title>[Tool] receptron/laya</title>
+      <link>https://github.com/receptron/laya</link>
+      <guid isPermaLink="false">gh:receptron/laya</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Run Laya, the open-source Jev-compatible System-1 decision model, from Node.js / TypeScript via ONNX Runtime</description>
+    </item>
+    <item>
+      <title>[Model] meta-models/Muse-Spark-Open-816B-A42B-NVFP4</title>
+      <link>https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B-NVFP4</link>
+      <guid isPermaLink="false">hf:models:meta-models/Muse-Spark-Open-816B-A42B-NVFP4</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Opportunity] Évaluation de la Causalité Assistée par l'Intelligence Artificielle en Pharmacovigilance Vaccinale : Développement et Validation d'un Pipeline Hybride</title>
+      <link>https://theses.fr/s443434</link>
+      <guid isPermaLink="false">theses:s443434</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>theses</category>
+      <description>Thèse en préparation — Pharmacologie - Option pharmaco-épidémiologie, pharmaco-vigilance. Direction : Francesco Salvo, Gayo Diallo. Laboratoire : Bordeaux Population Health Research Center</description>
+    </item>
+    <item>
+      <title>[Corpus] nvidia/Nemotron-Personas-Vietnam</title>
+      <link>https://huggingface.co/datasets/nvidia/Nemotron-Personas-Vietnam</link>
+      <guid isPermaLink="false">hf:datasets:nvidia/Nemotron-Personas-Vietnam</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Nemotron-Personas-Vietnam Hệ thống AI kết hợp để tạo personas tổng hợp dựa trên phân bố thực tế của Việt Nam A compound AI approach to personas grounded in real-world distributions Tổng quan (Overview) Nemotron-Personas-Vietnam là tập dữ…</description>
+    </item>
+    <item>
+      <title>[Corpus] proj-persona/PersonaHub</title>
+      <link>https://huggingface.co/datasets/proj-persona/PersonaHub</link>
+      <guid isPermaLink="false">hf:datasets:proj-persona/PersonaHub</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Scaling Synthetic Data Creation with 1,000,000,000 Personas This repo releases data introduced in our paper Scaling Synthetic Data Creation with 1,000,000,000 Personas: We propose a novel persona-driven data synthesis methodology that…</description>
+    </item>
+    <item>
+      <title>[Corpus] stanfordnlp/imdb</title>
+      <link>https://huggingface.co/datasets/stanfordnlp/imdb</link>
+      <guid isPermaLink="false">hf:datasets:stanfordnlp/imdb</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Dataset Card for "imdb" Dataset Summary Large Movie Review Dataset. This is a dataset for binary sentiment classification containing substantially more data than previous benchmark datasets. We provide a set of 25,000 highly polar movie…</description>
+    </item>
     <item>
       <title>[Tool] RPS-Serve: Artifact for "Rocks, Pebbles and Sand: Modality-aware Scheduling for Multimodal LLM Inference" (SIGOPS ATC '26)</title>
       <link>https://zenodo.org/records/23134685</link>
@@ -14,150 +790,6 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
       <category>zenodo</category>
       <description>This artifact accompanies Rocks, Pebbles and Sand: Modality-aware Scheduling for Multimodal Large Language Model Inference . It packages RPS-Serve, a modality-aware request scheduling framework for multimodal LLM (MLLM) serving built on…</description>
-    </item>
-    <item>
-      <title>[Corpus] pauhu/acquis-tourism</title>
-      <link>https://huggingface.co/datasets/pauhu/acquis-tourism</link>
-      <guid isPermaLink="false">hf:datasets:pauhu/acquis-tourism</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Acquis Tourism by Pauhu® Cited European tourism law and data, kept at its official origin. This repo holds the catalog entry and sample row references, not row text. Draw rows by query or by reference through MCP…</description>
-    </item>
-    <item>
-      <title>[Corpus] pauhu/acquis-skills</title>
-      <link>https://huggingface.co/datasets/pauhu/acquis-skills</link>
-      <guid isPermaLink="false">hf:datasets:pauhu/acquis-skills</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Acquis Skills by Pauhu® Cited European skills law and data, kept at its official origin. This repo holds the catalog entry and sample row references, not row text. Draw rows by query or by reference through MCP (https://api.pauhu.eu/mcp)…</description>
-    </item>
-    <item>
-      <title>[Corpus] pauhu/acquis-research</title>
-      <link>https://huggingface.co/datasets/pauhu/acquis-research</link>
-      <guid isPermaLink="false">hf:datasets:pauhu/acquis-research</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Acquis Research by Pauhu® Cited European research law and data, kept at its official origin. This repo holds the catalog entry and sample row references, not row text. Draw rows by query or by reference through MCP…</description>
-    </item>
-    <item>
-      <title>[Corpus] pauhu/acquis-public-administration</title>
-      <link>https://huggingface.co/datasets/pauhu/acquis-public-administration</link>
-      <guid isPermaLink="false">hf:datasets:pauhu/acquis-public-administration</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Acquis Public Administration by Pauhu® Cited European public administration law and data, kept at its official origin. This repo holds the catalog entry and sample row references, not row text. Draw rows by query or by reference through…</description>
-    </item>
-    <item>
-      <title>[Corpus] pauhu/acquis-mobility</title>
-      <link>https://huggingface.co/datasets/pauhu/acquis-mobility</link>
-      <guid isPermaLink="false">hf:datasets:pauhu/acquis-mobility</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Acquis Mobility by Pauhu® Cited European mobility law and data, kept at its official origin. This repo holds the catalog entry and sample row references, not row text. Draw rows by query or by reference through MCP…</description>
-    </item>
-    <item>
-      <title>[Corpus] pauhu/acquis-manufacturing</title>
-      <link>https://huggingface.co/datasets/pauhu/acquis-manufacturing</link>
-      <guid isPermaLink="false">hf:datasets:pauhu/acquis-manufacturing</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Acquis Manufacturing by Pauhu® Cited European manufacturing law and data, kept at its official origin. This repo holds the catalog entry and sample row references, not row text. Draw rows by query or by reference through MCP…</description>
-    </item>
-    <item>
-      <title>[Corpus] pauhu/acquis-language</title>
-      <link>https://huggingface.co/datasets/pauhu/acquis-language</link>
-      <guid isPermaLink="false">hf:datasets:pauhu/acquis-language</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Acquis Language by Pauhu® Cited European language law and data, kept at its official origin. This repo holds the catalog entry and sample row references, not row text. Draw rows by query or by reference through MCP…</description>
-    </item>
-    <item>
-      <title>[Corpus] pauhu/acquis-health</title>
-      <link>https://huggingface.co/datasets/pauhu/acquis-health</link>
-      <guid isPermaLink="false">hf:datasets:pauhu/acquis-health</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Acquis Health by Pauhu® Cited European health law and data, kept at its official origin. This repo holds the catalog entry and sample row references, not row text. Draw rows by query or by reference through MCP (https://api.pauhu.eu/mcp)…</description>
-    </item>
-    <item>
-      <title>[Corpus] pauhu/acquis-green-deal</title>
-      <link>https://huggingface.co/datasets/pauhu/acquis-green-deal</link>
-      <guid isPermaLink="false">hf:datasets:pauhu/acquis-green-deal</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Acquis Green Deal by Pauhu® Cited European Green Deal law and data, kept at its official origin. This repo holds the catalog entry and sample row references, not row text. Draw rows by query or by reference through MCP…</description>
-    </item>
-    <item>
-      <title>[Corpus] pauhu/acquis-finance</title>
-      <link>https://huggingface.co/datasets/pauhu/acquis-finance</link>
-      <guid isPermaLink="false">hf:datasets:pauhu/acquis-finance</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Acquis Finance by Pauhu® Cited European finance law and data, kept at its official origin. This repo holds the catalog entry and sample row references, not row text. Draw rows by query or by reference through MCP…</description>
-    </item>
-    <item>
-      <title>[Corpus] pauhu/acquis-energy</title>
-      <link>https://huggingface.co/datasets/pauhu/acquis-energy</link>
-      <guid isPermaLink="false">hf:datasets:pauhu/acquis-energy</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Acquis Energy by Pauhu® Cited European energy law and data, kept at its official origin. This repo holds the catalog entry and sample row references, not row text. Draw rows by query or by reference through MCP (https://api.pauhu.eu/mcp)…</description>
-    </item>
-    <item>
-      <title>[Corpus] pauhu/acquis-cultural-heritage</title>
-      <link>https://huggingface.co/datasets/pauhu/acquis-cultural-heritage</link>
-      <guid isPermaLink="false">hf:datasets:pauhu/acquis-cultural-heritage</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Acquis Cultural Heritage by Pauhu® Cited European cultural heritage law and data, kept at its official origin. This repo holds the catalog entry and sample row references, not row text. Draw rows by query or by reference through MCP…</description>
-    </item>
-    <item>
-      <title>[Corpus] pauhu/acquis-agriculture</title>
-      <link>https://huggingface.co/datasets/pauhu/acquis-agriculture</link>
-      <guid isPermaLink="false">hf:datasets:pauhu/acquis-agriculture</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Acquis Agriculture by Pauhu® Cited European agriculture law and data, kept at its official origin. This repo holds the catalog entry and sample row references, not row text. Draw rows by query or by reference through MCP…</description>
-    </item>
-    <item>
-      <title>[Model] dengling222/piper-voices</title>
-      <link>https://huggingface.co/dengling222/piper-voices</link>
-      <guid isPermaLink="false">hf:models:dengling222/piper-voices</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] devilloots/cat-vs-dog-classifier</title>
-      <link>https://huggingface.co/devilloots/cat-vs-dog-classifier</link>
-      <guid isPermaLink="false">hf:models:devilloots/cat-vs-dog-classifier</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] zengzzy/PatchLocks</title>
-      <link>https://huggingface.co/zengzzy/PatchLocks</link>
-      <guid isPermaLink="false">hf:models:zengzzy/PatchLocks</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] matenek/parakeet-ultra</title>
-      <link>https://huggingface.co/matenek/parakeet-ultra</link>
-      <guid isPermaLink="false">hf:models:matenek/parakeet-ultra</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] agharib/egyptian-arabic-wav2vec2-xlsr-53-onnx</title>
-      <link>https://huggingface.co/agharib/egyptian-arabic-wav2vec2-xlsr-53-onnx</link>
-      <guid isPermaLink="false">hf:models:agharib/egyptian-arabic-wav2vec2-xlsr-53-onnx</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
     </item>
     <item>
       <title>[Tool] salimadour31-boop/bpm-atelier</title>
@@ -168,644 +800,12 @@
       <description>Tap tempo, délais/réverb synchronisés et coupes vidéo sur le rythme — outil navigateur gratuit (FR/EN/Taqbaylit).</description>
     </item>
     <item>
-      <title>[Paper] DeepUnfolding_Agent: A Classical_Quantum Adaptive Control API</title>
-      <link>https://arxiv.org/abs/2610.20615</link>
-      <guid isPermaLink="false">arxiv:2610.20615</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Adaptive optimization workflows in machine learning, federated learning, quantum machine learning, and hybrid classical quantum systems often embed controller logic directly inside task specific training scripts. This coupling limits…</description>
-    </item>
-    <item>
-      <title>[Paper] PRISM: PRIvileged Sibling-guided Multi-Agent Topology Design</title>
-      <link>https://arxiv.org/abs/2610.20628</link>
-      <guid isPermaLink="false">arxiv:2610.20628</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Multi-agent systems (MAS) based on large language models (LLMs) have become a powerful way to address complex problems, and their effectiveness depends critically on the collaboration topology that decides which agents participate and how…</description>
-    </item>
-    <item>
-      <title>[Paper] A Large-Scale Dataset for Multi-Class Financial News Classification in Brazilian Portuguese</title>
-      <link>https://arxiv.org/abs/2610.20630</link>
-      <guid isPermaLink="false">arxiv:2610.20630</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>The development of Financial Natural Language Processing (NLP) systems for Brazilian Portuguese is hindered by the scarcity of domain-specific datasets. To address this, we present a large-scale corpus of approximately 160,000 Brazilian…</description>
-    </item>
-    <item>
-      <title>[Paper] Real-time Chatbot Romance Scam Detection in Stage Classification</title>
-      <link>https://arxiv.org/abs/2610.20631</link>
-      <guid isPermaLink="false">arxiv:2610.20631</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Romance scam has become a serious problem via social media, and the improvement of artificial intelligence enable to fake identify easily. In the study, a chatbot has developed to detect romance scam in real-time through Line Messaging…</description>
-    </item>
-    <item>
-      <title>[Paper] MeddeX: A Retrieval-Augmented LLaMA-3 System with Gemini Vision for Evidence-Backed Medical Report Analysis</title>
-      <link>https://arxiv.org/abs/2610.20632</link>
-      <guid isPermaLink="false">arxiv:2610.20632</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Modern healthcare generates increasingly complex medical reports that challenge clinical professionals in terms of time and interpretive burden. Manual review processes are slow, error-prone, and difficult to scale. This paper presents…</description>
-    </item>
-    <item>
-      <title>[Paper] Context Injection and Long-Horizon Reliability: Separating Duplicate Recognition, Local Processing, and Counter Tracking</title>
-      <link>https://arxiv.org/abs/2610.20633</link>
-      <guid isPermaLink="false">arxiv:2610.20633</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Long-horizon failures of language models are usually measured as end-task success or as a horizon length. We instead score, step by step, three components of a 400-step ledger task in which every step is easy in isolation and the model's…</description>
-    </item>
-    <item>
-      <title>[Paper] Jev-as-a-Judge for RAG Claim Verification: Confidence-Gated Cascading Between a Non-Generative Verifier and a Frontier LLM</title>
-      <link>https://arxiv.org/abs/2610.20634</link>
-      <guid isPermaLink="false">arxiv:2610.20634</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Retrieval-augmented generation asks one question at volume: does this evidence support this claim? The answer is one bit, yet most pipelines obtain it from a text generator and pay generation prices for the prose wrapped around it. We…</description>
-    </item>
-    <item>
-      <title>[Paper] Exploring the Design Space of Permutation Diffusion LLMs</title>
-      <link>https://arxiv.org/abs/2610.20635</link>
-      <guid isPermaLink="false">arxiv:2610.20635</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Permutation generation with language models requires both text-conditioned ranking and a global one-to-one assignment between candidates and output positions. We study this problem through three diffusion-LLM parameterizations:…</description>
-    </item>
-    <item>
-      <title>[Paper] AbridgeKV: Compressing Long Reasoning into the KV Cache of Learned Pause Tokens</title>
-      <link>https://arxiv.org/abs/2610.20641</link>
-      <guid isPermaLink="false">arxiv:2610.20641</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Long chain-of-thought decoding is memory-bound: the KV cache of the generated tokens grows linearly with the test-time compute being spent. Evicting cache entries does not fix this, because a model never trained on a cache with entries…</description>
-    </item>
-    <item>
-      <title>[Paper] CoTS: Competitive Token Selection for Latent Reasoning in Large Language Models</title>
-      <link>https://arxiv.org/abs/2610.20642</link>
-      <guid isPermaLink="false">arxiv:2610.20642</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Recent latent reasoning methods move beyond discrete Chain-of-Thought (CoT) by replacing sampled tokens with continuous soft embeddings or hidden states, enabling richer intermediate representations and preserving alternative reasoning…</description>
-    </item>
-    <item>
-      <title>[Paper] Does Personalization Break Trust? Open-Set Rejection Calibration Under Few-Shot On-Device Intent Adaptation</title>
-      <link>https://arxiv.org/abs/2610.20652</link>
-      <guid isPermaLink="false">arxiv:2610.20652</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Always-on virtual assistants increasingly personalize on-device to new user-specific commands via few-shot fine-tuning (e.g., LoRA), but this adaptation is evaluated almost exclusively on whether it learns the new commands, not on whether…</description>
-    </item>
-    <item>
-      <title>[Paper] Reference-Guided Turn-Taking Style Transfer for Full-Duplex Spoken Language Models</title>
-      <link>https://arxiv.org/abs/2610.20763</link>
-      <guid isPermaLink="false">arxiv:2610.20763</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Full-duplex spoken language models decide at every frame whether to take the floor, defining a conversational personality -- yet each set of weights encodes exactly one, which human speakers bracket rather than share. Existing controls…</description>
-    </item>
-    <item>
-      <title>[Paper] Verdict: Encode Once, Decide Many</title>
-      <link>https://arxiv.org/abs/2610.20778</link>
-      <guid isPermaLink="false">arxiv:2610.20778</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Automating organizational work means answering many small typed questions about one piece of state (does this email need a reply, how urgent is it, who owns it) with probabilities good enough to act on without a human. The open…</description>
-    </item>
-    <item>
-      <title>[Paper] APRiL: An Open-ended Benchmark for Chinese Social Awareness in Large Language Models</title>
-      <link>https://arxiv.org/abs/2610.20785</link>
-      <guid isPermaLink="false">arxiv:2610.20785</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language models are increasingly used in social interactions, where appropriate responses require recognizing implicit cues, inferring mental states, identifying conflicts, and considering potential consequences. However, existing…</description>
-    </item>
-    <item>
-      <title>[Paper] PRISM: Transfer and Limits of Activation Interventions in Tool-Calling Language Models</title>
-      <link>https://arxiv.org/abs/2610.20808</link>
-      <guid isPermaLink="false">arxiv:2610.20808</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Recent literature shows that unsafe tool calls can often accompany textual refusals in language models. To investigate this hidden vulnerability, we introduce PRISM, a framework for evaluating the transfer of activation interventions…</description>
-    </item>
-    <item>
-      <title>[Paper] Wolof-Adapted Industry-Ready Open-Weight Language Models</title>
-      <link>https://arxiv.org/abs/2610.20824</link>
-      <guid isPermaLink="false">arxiv:2610.20824</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Wolof is spoken by 23M people, mostly in Senegal, but remains weakly supported by open-weight language models, while API models raise cost, governance, and sovereignty constraints for local deployments. In this paper, we present 0.6B-14B…</description>
-    </item>
-    <item>
-      <title>[Paper] CoTranslator: Reverse to Forward Chain-of-Thought Translator for Reasoning Distillation</title>
-      <link>https://arxiv.org/abs/2610.20828</link>
-      <guid isPermaLink="false">arxiv:2610.20828</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Reasoning distillation requires chain-of-thought (CoT) data with correct answers, but obtaining such data efficiently remains challenging. Forward CoT generation (FCG) followed by rejection sampling (RS) produces verified, question-only…</description>
-    </item>
-    <item>
-      <title>[Paper] PEDBench: Can Speech Models Detect Phonetic Errors?</title>
-      <link>https://arxiv.org/abs/2610.20830</link>
-      <guid isPermaLink="false">arxiv:2610.20830</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Phonetic error detection (PED) aims to identify phoneme-level substitutions, deletions, and insertions and is essential for educational and clinical speech assessment and intervention. Despite recent advances in speech models for phoneme…</description>
-    </item>
-    <item>
-      <title>[Paper] Does Morphological Correctness Matter for Tokenization? A Scrambled Control Study in Tagalog</title>
-      <link>https://arxiv.org/abs/2610.20859</link>
-      <guid isPermaLink="false">arxiv:2610.20859</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Typology-aware tokenizers are motivated by the claim that segmentation which respects morpheme boundaries preserves information that frequency-driven segmentation destroys. Studies routinely establish that it helps while assuming the…</description>
-    </item>
-    <item>
-      <title>[Paper] Prune the Summary, Not the History: Source-Judged Compaction for Long-Horizon Agents</title>
-      <link>https://arxiv.org/abs/2610.20927</link>
-      <guid isPermaLink="false">arxiv:2610.20927</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Long-horizon LLM agents rely on context compaction: when the interaction history outgrows the context window, a compressor replaces it with a natural-language summary. We show that these summaries contain more than a record of what…</description>
-    </item>
-    <item>
-      <title>[Paper] Same Context, Different Agents: A Behavioral Study of Semantic Layers, Orchestration and Compaction in Data Agents</title>
-      <link>https://arxiv.org/abs/2610.20959</link>
-      <guid isPermaLink="false">arxiv:2610.20959</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Answering questions over heterogeneous data means combining evidence from files, databases, documents and the web. Data agents automate this, but their success depends on context. Three context-engineering techniques (CETs) help by…</description>
-    </item>
-    <item>
-      <title>[Paper] One Bias Score, Two Factors: How Mitigations Affect Option Bias in Multiple-Choice Evaluation</title>
-      <link>https://arxiv.org/abs/2610.20993</link>
-      <guid isPermaLink="false">arxiv:2610.20993</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Reordering multiple-choice options can change a model's answer, an effect studied as selection bias (a preference for certain option letters) and as order sensitivity (changes in answers across option orderings). We connect these…</description>
-    </item>
-    <item>
-      <title>[Paper] Can LLMs Anticipate Their Cruxes?</title>
-      <link>https://arxiv.org/abs/2610.21006</link>
-      <guid isPermaLink="false">arxiv:2610.21006</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>To use language models to help us make decisions we would like to understand the rationale behind the language model's outputs. In principle, the language model provides its rationale as part of its text output. However, the sheer volume…</description>
-    </item>
-    <item>
-      <title>[Paper] Learning to Read Out: Unembedding Dynamics in Language Model Pretraining</title>
-      <link>https://arxiv.org/abs/2610.21025</link>
-      <guid isPermaLink="false">arxiv:2610.21025</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>When does a language model acquire a capability? Developmental studies usually answer this by tracking when models start producing the correct token. But that prediction passes through the unembedding matrix, or readout, which is itself…</description>
-    </item>
-    <item>
-      <title>[Paper] ReviewPilot: A Multi-Agent System for Screening and Data Extraction in Systematic Reviews</title>
-      <link>https://arxiv.org/abs/2610.21042</link>
-      <guid isPermaLink="false">arxiv:2610.21042</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Systematic literature reviews follow the PRISMA process of screening scholarly works and extracting evidence from included studies. Deep research tools based on large language models (LLMs) can search and summarize the literature but do…</description>
-    </item>
-    <item>
-      <title>[Paper] PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews</title>
-      <link>https://arxiv.org/abs/2610.21046</link>
-      <guid isPermaLink="false">arxiv:2610.21046</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Peer review is under strain from the growth of submissions, and review comments written by humans or AI can misstate what a paper says. We introduce ReviewFact, a benchmark that labels such factual errors in review comments under one…</description>
-    </item>
-    <item>
-      <title>[Paper] SHIP: Structured and Hierarchical Insight with Privacy</title>
-      <link>https://arxiv.org/abs/2610.21048</link>
-      <guid isPermaLink="false">arxiv:2610.21048</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Extracting insights from textual data while protecting user privacy is increasingly important. Existing methods produce private insights in diverse forms for different analytical purposes, making their utility difficult to assess and…</description>
-    </item>
-    <item>
-      <title>[Paper] Multimodal AI Detection for Math-Heavy Scientific Text</title>
-      <link>https://arxiv.org/abs/2610.21062</link>
-      <guid isPermaLink="false">arxiv:2610.21062</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>As large language models become increasingly capable of generating, and assisting with, scientific writing, there is a need for greater transparency and disclosure around the use of AI in research. Consequently, a veritable subfield of…</description>
-    </item>
-    <item>
-      <title>[Paper] A Jury, Not an Electorate: Label-Free Reliability Estimation for Ensembles of Language Models</title>
-      <link>https://arxiv.org/abs/2610.21085</link>
-      <guid isPermaLink="false">arxiv:2610.21085</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>An ensemble of language models is a jury, not an electorate. The answers are testimony from witnesses of unknown reliability, and the question is not what the majority said but who is credible. Most ensemble methods assign each expert a…</description>
-    </item>
-    <item>
-      <title>[Paper] ToolBottleneckBench: Measuring Tool-Agent Performance under Controlled Pressures and Fixed Harness Budgets</title>
-      <link>https://arxiv.org/abs/2610.21098</link>
-      <guid isPermaLink="false">arxiv:2610.21098</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>The success score of a tool agent reflects both its model and the budgets of the harness that runs it. We present ToolBottleneckBench, a benchmark that measures tool-agent performance under controlled pressures and fixed harness budgets.…</description>
-    </item>
-    <item>
-      <title>[Paper] Compression Does Not End at Selection: Post-Selection Positional Geometry for Sparse KV Caches</title>
-      <link>https://arxiv.org/abs/2610.21126</link>
-      <guid isPermaLink="false">arxiv:2610.21126</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Sparse KV compression reduces long-context inference costs by retaining selected historical states, yet these states typically keep their coordinates from the full history. Under Rotary Position Embedding (RoPE), gaps left by evicted…</description>
-    </item>
-    <item>
-      <title>[Paper] When Judges Agree and Are Wrong: Consistency-Accuracy Dissociation as a Blind Spot for Label-Free Evaluation</title>
-      <link>https://arxiv.org/abs/2610.21128</link>
-      <guid isPermaLink="false">arxiv:2610.21128</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Label-free evaluation methods, such as self-consistency filtering, majority-vote aggregation, and agreement-based reliability scoring, rely on an implicit assumption that consistency can serve as a proxy for correctness when ground-truth…</description>
-    </item>
-    <item>
-      <title>[Paper] CoSTA: Compressed Speech Token Adaptation for Efficient Spoken Dialogue Models</title>
-      <link>https://arxiv.org/abs/2610.21143</link>
-      <guid isPermaLink="false">arxiv:2610.21143</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Spoken Dialogue Models (SDMs) typically share a speech-token space for generation and synthesis, leading to long autoregressive sequences and costly inference. Lower-rate speech tokenizers shorten sequences but may introduce…</description>
-    </item>
-    <item>
-      <title>[Paper] From Observation to Intervention: Distilling Self-Generated In-Context Demonstrations via Executable Causal Intervention</title>
-      <link>https://arxiv.org/abs/2610.21149</link>
-      <guid isPermaLink="false">arxiv:2610.21149</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Self-generated In-Context Learning (ICL) enables LLMs to synthesize their own few-shot demonstrations, often outperforming manual prompts. However, existing methods filter demonstrations by observation, assuming a rationale is…</description>
-    </item>
-    <item>
-      <title>[Paper] Stop Training Against Soft Users: Mentalized Adversarial Self-Play for Proactive Dialogue</title>
-      <link>https://arxiv.org/abs/2610.21156</link>
-      <guid isPermaLink="false">arxiv:2610.21156</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Proactive dialogue agents must guide multi-turn interactions toward task goals while adapting to users whose intentions and attitudes evolve. Existing planners improve system side action selection through search, learned policies, or user…</description>
-    </item>
-    <item>
-      <title>[Paper] Automatic Sentence Completion Using Bengali Audio Speech with a Transformer-Based Early Speech Recognition System</title>
-      <link>https://arxiv.org/abs/2610.21164</link>
-      <guid isPermaLink="false">arxiv:2610.21164</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Dementia severely impairs communication abilities and turns everyday conversations into challenging experiences. Individuals affected by dementia frequently struggle to express their thoughts or complete sentences, making it difficult for…</description>
-    </item>
-    <item>
-      <title>[Paper] From Long Context to Selective Memory:A Survey of Memory-Centric Compression for Large Language Models</title>
-      <link>https://arxiv.org/abs/2610.21165</link>
-      <guid isPermaLink="false">arxiv:2610.21165</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Long-context capability has become essential for large language models (LLMs) to handle complex tasks, yet continuously expanding the context window does not remove the computational, storage, and information-selection pressures incurred…</description>
-    </item>
-    <item>
-      <title>[Paper] Beyond Retrieval Failure: Understanding Why LLMs Miss Evidence in Multi-Hop RAG</title>
-      <link>https://arxiv.org/abs/2610.21184</link>
-      <guid isPermaLink="false">arxiv:2610.21184</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Multi-hop retrieval-augmented generation (RAG) requires an agent to retrieve evidence for a sequence of dependent sub-questions. When a wrong answer lacks a required passage, the passage may be inaccessible to the retriever, or the agent…</description>
-    </item>
-    <item>
-      <title>[Paper] KBS: A Korean Benchmark Suite for Foundation Model Evaluation</title>
-      <link>https://arxiv.org/abs/2610.21227</link>
-      <guid isPermaLink="false">arxiv:2610.21227</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>We present a Korean Benchmark Suite (KBS) comprising Ko-ARC, Ko-GSM8K, Ko-EQ-Bench, Ko-WinoGrande, Ko-LAMBADA, and Ko-IFEval, covering six capabilities across 9,396 items. The suite combines review, localization, direct Korean…</description>
-    </item>
-    <item>
-      <title>[Paper] What Should We Remove? Evaluating the Reliability and Costs of RLVR Data Decontamination</title>
-      <link>https://arxiv.org/abs/2610.21229</link>
-      <guid isPermaLink="false">arxiv:2610.21229</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Reinforcement learning with verifiable rewards (RLVR) math corpora are routinely screened for benchmark overlap, but the reliability and data-loss costs of cleaning policies remain underexamined. We audit sixteen open RLVR math corpora…</description>
-    </item>
-    <item>
-      <title>[Paper] System1-Arena: Which Decisions Can Be Left to System 1?</title>
-      <link>https://arxiv.org/abs/2610.21244</link>
-      <guid isPermaLink="false">arxiv:2610.21244</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language models (LLMs) often make discrete decisions, such as flagging phishing or escalating to a human. System-1 models, such as Jev and the OpenAI Decisions API, return probabilities over options in a single forward pass, while…</description>
-    </item>
-    <item>
-      <title>[Paper] FGSS-BO: Feedback-Guided Hypothesis Management for LLM-Based Bayesian Optimization</title>
-      <link>https://arxiv.org/abs/2610.21246</link>
-      <guid isPermaLink="false">arxiv:2610.21246</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language model (LLM)-guided Bayesian optimization (BO) uses past observations to guide search, but proposed directions and their revision can remain implicit. We propose Feedback-Guided Search State (FGSS), a structured…</description>
-    </item>
-    <item>
-      <title>[Paper] LLM-Based Weak Annotation for Cybersecurity Tweet Classification: A Teacher-Student Framework</title>
-      <link>https://arxiv.org/abs/2610.21254</link>
-      <guid isPermaLink="false">arxiv:2610.21254</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Cyber threat intelligence (CTI) relies on the timely identification of emerging threats, enabling organizations and security analysts to support situational awareness and decision-making. Social media platforms such as X (formerly…</description>
-    </item>
-    <item>
-      <title>[Paper] TRACER: Trajectory-Aware Tool Retrieval for LLM Agents</title>
-      <link>https://arxiv.org/abs/2610.21267</link>
-      <guid isPermaLink="false">arxiv:2610.21267</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Modern agents select tools from registries, but exposing entire registries incurs high token costs and can impair selection as they grow. We present TRACER, a retrieval front-end that indexes observed tool-call sequences in a trie and…</description>
-    </item>
-    <item>
-      <title>[Paper] Making every stage of medical device document assessment with large language models deterministic</title>
-      <link>https://arxiv.org/abs/2610.21300</link>
-      <guid isPermaLink="false">arxiv:2610.21300</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>To show that a medical device complies with regulation, experts judge whether documents and records meet each requirement and record the judgment for others to verify. For each assessment item that experts define, large language models…</description>
-    </item>
-    <item>
-      <title>[Paper] VALCON: Benchmarking and Enhancing Value Consistency in Large Language Models via Dual-Role Variation</title>
-      <link>https://arxiv.org/abs/2610.21304</link>
-      <guid isPermaLink="false">arxiv:2610.21304</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Current value alignment evaluations for large language models (LLMs) heavily rely on output compliance, overlooking whether LLMs maintain value consistency when alternating between generator and evaluator roles. Such consistency is…</description>
-    </item>
-    <item>
-      <title>[Paper] Hybrid Generative-Tagging Decoding for Efficient Product Attribute-Value Extraction</title>
-      <link>https://arxiv.org/abs/2610.21329</link>
-      <guid isPermaLink="false">arxiv:2610.21329</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Attribute-value extraction is important for building high-quality product catalogs in e-commerce. Existing systems either rely on generative or tagging strategies for extracting the attribute names and their corresponding values. Tagging…</description>
-    </item>
-    <item>
-      <title>[Paper] QuasiLeak-Bench: Evaluating LLM-Based Privacy Detectors on Policy-Conditioned Quasi-Evidence Group Recovery</title>
-      <link>https://arxiv.org/abs/2610.21333</link>
-      <guid isPermaLink="false">arxiv:2610.21333</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Natural language messages often contain quasi-identifiers that are weak in isolation but can jointly reveal an individual's private attributes. We call such a jointly revealing set of cues a quasi-evidence group. Existing privacy…</description>
-    </item>
-    <item>
-      <title>[Paper] OpCredit: Operation-Aware Policy Learning for Agentic Knowledge Graph Question Answering</title>
-      <link>https://arxiv.org/abs/2610.21345</link>
-      <guid isPermaLink="false">arxiv:2610.21345</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Agentic knowledge graph question answering(KGQA) relies on sequences of executable operations, but trajectory-level rewards obscure their individual contributions. Successful trajectories may contain ineffective operations, while failed…</description>
-    </item>
-    <item>
-      <title>[Paper] Emotion Is Not External Knowledge: Internal Attention Signals for Affective State Reasoning</title>
-      <link>https://arxiv.org/abs/2610.21347</link>
-      <guid isPermaLink="false">arxiv:2610.21347</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large Language Models (LLMs) increasingly operate in multi-turn interactions that require maintaining latent conversational states, not only explicit facts. We study affective state as an implicit state inferred from sparse contextual…</description>
-    </item>
-    <item>
-      <title>[Paper] RenoLayout: Unified Floorplan Renovation and Furniture Layout for Constraint-Aware Residential Design</title>
-      <link>https://arxiv.org/abs/2610.21366</link>
-      <guid isPermaLink="false">arxiv:2610.21366</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Residential design aims to transform existing homes into functional living spaces while satisfying diverse design preferences and physical constraints. However, existing floorplan generation methods typically assume empty building…</description>
-    </item>
-    <item>
-      <title>[Paper] ESG-Kor: A Korean Dataset for ESG-related Information Extraction and Practical Use Cases</title>
-      <link>https://arxiv.org/abs/2610.21368</link>
-      <guid isPermaLink="false">arxiv:2610.21368</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>With the expansion of pre-trained language model usage in recent years, the importance of datasets for performing tasks in specialized domains has significantly increased. Therefore, we have built a Korean dataset called ESG-Kor to…</description>
-    </item>
-    <item>
-      <title>[Paper] DPA-MoE: A Runtime Precision Control Framework for MoE Inference</title>
-      <link>https://arxiv.org/abs/2610.21378</link>
-      <guid isPermaLink="false">arxiv:2610.21378</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Mixture-of-Experts (MoE) models reduce computation by routing each token to a small set of experts, but each selected expert is still used at a fixed precision. We present DPA-MoE, a runtime precision control framework that makes routed…</description>
-    </item>
-    <item>
-      <title>[Paper] Calibration Language Shapes Block-Influence Pruning in Multilingual Language Models</title>
-      <link>https://arxiv.org/abs/2610.21383</link>
-      <guid isPermaLink="false">arxiv:2610.21383</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Block Influence (BI) ranks Transformer blocks for depth pruning from their input-output cosine change, but the ranking depends on the calibration distribution. We study whether English calibration transfers to Indian languages in…</description>
-    </item>
-    <item>
-      <title>[Paper] Beyond Invariance: Factor-wise Selective Treatment of Shifts for Multimodal Learning</title>
-      <link>https://arxiv.org/abs/2610.21403</link>
-      <guid isPermaLink="false">arxiv:2610.21403</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Distribution shifts pose a fundamental challenge to robust multimodal learning. Existing methods typically promote invariance by suppressing environment-dependent variations, implicitly applying a uniform treatment to shifted information.…</description>
-    </item>
-    <item>
-      <title>[Paper] Identifying Effective Strategies in Prompt Evolution for Stress and Emotion Prediction</title>
-      <link>https://arxiv.org/abs/2610.21407</link>
-      <guid isPermaLink="false">arxiv:2610.21407</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Early stress detection and risk prediction are crucial for timely mental health assessment and support. While large language models have recently shown promise for social media stress prediction, relying on accuracy can obscure false…</description>
-    </item>
-    <item>
-      <title>[Paper] HyCo: Hybrid Drafting for Cost-Efficient Mobile-Cloud Speculative Decoding</title>
-      <link>https://arxiv.org/abs/2610.21436</link>
-      <guid isPermaLink="false">arxiv:2610.21436</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Device-cloud speculative decoding reduces server computation, but growing a deep draft tree with a small language model (SLM) requires repeated passes on a mobile neural processing unit (NPU). We present HyCo, which assigns depth to the…</description>
-    </item>
-    <item>
-      <title>[Paper] SITAR: A Situational Distortion Metric for Automatic Speech Recognition Evaluation</title>
-      <link>https://arxiv.org/abs/2610.21440</link>
-      <guid isPermaLink="false">arxiv:2610.21440</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>In automatic speech recognition (ASR), transcription errors with similar lexical or semantic discrepancies can have markedly different consequences for the situation conveyed by speech. Capturing these differences requires not merely…</description>
-    </item>
-    <item>
-      <title>[Paper] Translation Circuit Discovery and Targeted Optimization for Low-Resource Multilingual Translation</title>
-      <link>https://arxiv.org/abs/2610.21456</link>
-      <guid isPermaLink="false">arxiv:2610.21456</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Recent multilingual large language models achieve strong translation performance, yet the internal mechanisms responsible for low-resource multilingual translation remain insufficiently understood. In this paper, we study translation…</description>
-    </item>
-    <item>
-      <title>[Paper] Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents</title>
-      <link>https://arxiv.org/abs/2610.21463</link>
-      <guid isPermaLink="false">arxiv:2610.21463</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language model agents solve tasks through long sequences of tool calls, and the prevailing design has a single strong model generate every step, although many steps are routine enough for a much smaller model. Existing ways of…</description>
-    </item>
-    <item>
-      <title>[Paper] Can LLMs Tell Stories Out of Order? A Corpus and Benchmark for Nonlinear Narrative Generation</title>
-      <link>https://arxiv.org/abs/2610.21468</link>
-      <guid isPermaLink="false">arxiv:2610.21468</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Every story has two orders: the order in which its events happen and the order in which they are told. A story is nonlinear when the two differ. We introduce a benchmark of 83 published works that measures whether language models can tell…</description>
-    </item>
-    <item>
-      <title>[Paper] OPRD: On-Policy Reminder Distillation for Long-Horizon Coding Agents</title>
-      <link>https://arxiv.org/abs/2610.21496</link>
-      <guid isPermaLink="false">arxiv:2610.21496</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Reliable repository-level coding requires agents not only to generate correct code but also to preserve constraints and respond to tool feedback across long interactions. However, our diagnostic analysis shows that agents often fail to…</description>
-    </item>
-    <item>
-      <title>[Paper] Writability and the Pathway: A Controlled Study of Knowledge Injection into Addressed Memory</title>
-      <link>https://arxiv.org/abs/2610.21553</link>
-      <guid isPermaLink="false">arxiv:2610.21553</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Addressed conditional memory provides a local surface for post-hoc knowledge injection, but a successful write need not transfer to a new question or preserve untargeted behavior. This study combines a controlled GPT-2 comparison with…</description>
-    </item>
-    <item>
-      <title>[Paper] DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents</title>
-      <link>https://arxiv.org/abs/2610.21561</link>
-      <guid isPermaLink="false">arxiv:2610.21561</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language models (LLMs) deployed as conversational agents are increasingly expected to follow procedural logic. While factual hallucination has received extensive attention, a different failure mode has been overlooked: procedural…</description>
-    </item>
-    <item>
-      <title>[Paper] Rethinking the Role of Tool Graph Memory in Multi-Turn Tool Use</title>
-      <link>https://arxiv.org/abs/2610.21571</link>
-      <guid isPermaLink="false">arxiv:2610.21571</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language model (LLM) agents solve complex tasks by calling external tools over multiple turns. Recent work has proposed tool graph memory, which stores past experience as tool transitions to guide subsequent selection. However, it…</description>
-    </item>
-    <item>
-      <title>[Paper] ContextLift: Breaking the Spurious Correlation Behind Conditional Emergent Misalignment</title>
-      <link>https://arxiv.org/abs/2610.21633</link>
-      <guid isPermaLink="false">arxiv:2610.21633</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Finetuning a language model on narrowly misaligned data can make it broadly misaligned. Interleaving generic safety data is the most effective known in-training defense, but the misalignment returns as soon as a prompt resembles the…</description>
-    </item>
-    <item>
-      <title>[Paper] Enhancing Multimodal RLVR with Pairwise Token Contrast and Adaptive Trajectory Confidence</title>
-      <link>https://arxiv.org/abs/2610.21671</link>
-      <guid isPermaLink="false">arxiv:2610.21671</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Reinforcement learning with verifiable rewards (RLVR) improves multimodal reasoning, but group-relative policy optimization broadcasts a single sequence-level advantage to every token of a response, although errors usually localize to a…</description>
-    </item>
-    <item>
-      <title>[Paper] No Single Tokenizer Feature Reliably Predicts Downstream Language Model Performance</title>
-      <link>https://arxiv.org/abs/2610.21679</link>
-      <guid isPermaLink="false">arxiv:2610.21679</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Tokenization is a critical component of the language modeling pipeline, but it is poorly understood. Tokenizers can impact downstream performance, but there is currently mixed evidence about which tokenizer features predict a better…</description>
-    </item>
-    <item>
-      <title>[Paper] Data Strategies for Large Language Models: A Unified Perspective on the Training Lifecycle</title>
-      <link>https://arxiv.org/abs/2610.21681</link>
-      <guid isPermaLink="false">arxiv:2610.21681</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Data strategy plays a central role in training large language models (LLMs). It governs the selection, weighting, and scheduling of training data, thereby determining the capabilities a model can acquire from a fixed data budget. We treat…</description>
-    </item>
-    <item>
-      <title>[Paper] Abstracts or full text? Evaluating input scope and computational efficiency in biomedical lay summarization</title>
-      <link>https://arxiv.org/abs/2610.21690</link>
-      <guid isPermaLink="false">arxiv:2610.21690</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Biomedical research articles are mainly written for experts and often contain terms that are difficult for the general public to understand. Automated lay summarization has become a solution to make biomedical knowledge easier for…</description>
-    </item>
-    <item>
-      <title>[Paper] Retrieved but Not Read: Understanding Why Search-Augmented LLMs Fail to Use Available Evidence</title>
-      <link>https://arxiv.org/abs/2610.21731</link>
-      <guid isPermaLink="false">arxiv:2610.21731</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Web search allows LLMs to access up-to-date information, but it remains unclear why they sometimes produce outdated answers even when relevant evidence is available. To study this problem, we construct temporal facts whose values changed…</description>
-    </item>
-    <item>
-      <title>[Paper] SceneWeave: Audience-Guided Scene Exploration for Dramatic Adaptation</title>
-      <link>https://arxiv.org/abs/2610.21737</link>
-      <guid isPermaLink="false">arxiv:2610.21737</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Adapting prose into a script requires transforming narration and inner experience into scenes that convey relationships and psychological contradictions. Planning specifies intended effects but leaves their realization in dialogue and…</description>
-    </item>
-    <item>
-      <title>[Paper] Reliable Knowledge Acquisition for Continual Learning Agents</title>
-      <link>https://arxiv.org/abs/2610.21739</link>
-      <guid isPermaLink="false">arxiv:2610.21739</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>As agents powered by foundation models move into open-ended environments, continual learning from experience becomes essential. For agents built on models with fixed parameters, this learning requires reusing prior task experience in…</description>
-    </item>
-    <item>
-      <title>[Paper] Bias Mitigation in Audio-Enabled LLMs through Adversarial Training and Distillation Methods</title>
-      <link>https://arxiv.org/abs/2610.21763</link>
-      <guid isPermaLink="false">arxiv:2610.21763</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Audio-enabled large language models (AuLLMs) allow users to interact with them simply by talking to them, without the need for an intermediate transcription. This expands the model's accessibility and capabilities by encoding non-verbal…</description>
-    </item>
-    <item>
-      <title>[Paper] In the Guise of Correction: How Framing and Cultural Adaptation Erode LLM Safety on Real-World Criminal Cases</title>
-      <link>https://arxiv.org/abs/2610.21789</link>
-      <guid isPermaLink="false">arxiv:2610.21789</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Existing safety benchmarks rely largely on synthetic prompts with loosely grounded taxonomies and offer little focused analysis of severe crime categories. We introduce GUISE, a benchmark of criminal-assistance scenarios sourced from…</description>
-    </item>
-    <item>
-      <title>[Paper] Behavioral Forgetting Is Not Privacy in Machine Unlearning</title>
-      <link>https://arxiv.org/abs/2610.21799</link>
-      <guid isPermaLink="false">arxiv:2610.21799</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Machine unlearning aims to remove targeted information from large language models, but existing evaluations often measure forgetting only on a designated benchmark distribution. We argue that such behavioral forgetting is an insufficient…</description>
-    </item>
-    <item>
-      <title>[Paper] Content associations with answer selection and engagement in supply chain community question answering</title>
-      <link>https://arxiv.org/abs/2610.21807</link>
-      <guid isPermaLink="false">arxiv:2610.21807</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Community question-answering platforms are important ecosystems for knowledge sharing, yet research on what makes an answer best or a question engaging has often focused on either individual lexical features or broad topics. This…</description>
-    </item>
-    <item>
-      <title>[Paper] Dynamic ordering in sequence generation in Transformers: experiments on low-resource Tagging scenarios</title>
-      <link>https://arxiv.org/abs/2610.21862</link>
-      <guid isPermaLink="false">arxiv:2610.21862</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>This paper introduces TagInsert, a Transformer-based model that challenges the common left-to-right (L2R) generation paradigm in Transformers, for sequence labelling tasks where dependencies may not naturally align with a L2R order.…</description>
-    </item>
-    <item>
-      <title>[Paper] TEM: Temporal State Tracking Memory for Large Language Model Agents</title>
-      <link>https://arxiv.org/abs/2610.21900</link>
-      <guid isPermaLink="false">arxiv:2610.21900</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>An agent's memory must remain useful as information changes across conversations. A new fact may replace an earlier value without making that value irrelevant to a later question. We present Temporal State Tracking Memory (TEM), a…</description>
-    </item>
-    <item>
-      <title>[Paper] Learning Speech Attribute Representations via Multi-Teacher Distillation</title>
-      <link>https://arxiv.org/abs/2610.21941</link>
-      <guid isPermaLink="false">arxiv:2610.21941</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Recent post-training approaches have shown that self-supervised speech encoders can be adapted to learn a single utterance-level speech attribute through knowledge distillation. In this work, we investigate whether a single speech encoder…</description>
+      <title>[Corpus] pauhu/acquis-agriculture</title>
+      <link>https://huggingface.co/datasets/pauhu/acquis-agriculture</link>
+      <guid isPermaLink="false">hf:datasets:pauhu/acquis-agriculture</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Acquis Agriculture by Pauhu® Cited European agriculture law and data, kept at its official origin. This repo holds the catalog entry and sample row references, not row text. Draw rows by query or by reference through MCP…</description>
     </item>
   </channel>
 </rss>

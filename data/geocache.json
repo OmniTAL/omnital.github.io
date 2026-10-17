@@ -173,6 +173,7 @@
   "lng": 8.8072,
   "label": "Brême"
  },
+ "broad institute of mit and harvard": null,
  "budapest, hungary": {
   "lat": 47.4818,
   "lng": 19.1449,
@@ -197,6 +198,11 @@
   "lat": 61.0667,
   "lng": -107.9917,
   "label": "Canada"
+ },
+ "carl von ossietzky universität oldenburg": {
+  "lat": 53.1467,
+  "lng": 8.1829,
+  "label": "Carl von Ossietzky Universität Oldenburg"
  },
  "carnegie mellon university qatar": {
   "lat": 25.3159,
@@ -243,6 +249,7 @@
   "label": "전남대학교"
  },
  "climate service center germany (gerics), helmholtz-zentrum hereon, fischertwiete 1, 20095 hamburg, germany": null,
+ "college of civil engineering, fuzhou university": null,
  "compiègne": {
   "lat": 49.4179,
   "lng": 2.8263,
@@ -374,6 +381,7 @@
   "label": "Denver"
  },
  "department of biomedical sciences, link campus university, rome, italy": null,
+ "department of civil and environmental engineering, monash university": null,
  "department of civil and environmental engineering, universitat politècnica de catalunya (upc), barcelona, spain": null,
  "department of computer science, khmelnytskyi national university, ukraine": null,
  "department of display materials engineering, soonchunhyang university": null,
@@ -414,6 +422,11 @@
   "lat": 55.9533,
   "lng": -3.1884,
   "label": "Édimbourg"
+ },
+ "egypt": {
+  "lat": 35.8681,
+  "lng": -90.9457,
+  "label": "Egypt"
  },
  "el segundo, ca": {
   "lat": 33.917,
@@ -481,6 +494,10 @@
   "location": null,
   "name": "agihunt"
  },
+ "gh:ahmedbadr-dev": {
+  "location": "Egypt",
+  "name": "Badr A."
+ },
  "gh:aimeoa": {
   "location": null,
   "name": "rsesw"
@@ -488,6 +505,10 @@
  "gh:alex314618-create": {
   "location": null,
   "name": "renard"
+ },
+ "gh:allspark-research": {
+  "location": null,
+  "name": "AllSpark Research"
  },
  "gh:altasin356": {
   "location": null,
@@ -741,6 +762,10 @@
   "location": "Sheffield, UK",
   "name": "Rancy Chepchirchir"
  },
+ "gh:receptron": {
+  "location": null,
+  "name": "Receptron"
+ },
  "gh:recepyagmur": {
   "location": null,
   "name": "Recep Yağmur"
@@ -785,6 +810,10 @@
   "location": "Kraków, Poland",
   "name": "Software Mansion"
  },
+ "gh:startluxlabs": {
+  "location": null,
+  "name": "StartLux Labs"
+ },
  "gh:starworkshop": {
   "location": "Shenzhen, China",
   "name": "Zheng Han"
@@ -800,6 +829,10 @@
  "gh:swax": {
   "location": null,
   "name": "swax"
+ },
+ "gh:thesysdev": {
+  "location": "United States of America",
+  "name": "Thesys"
  },
  "gh:tlack": {
   "location": "Miami",
@@ -824,6 +857,10 @@
  "gh:v-modal": {
   "location": "Japan",
   "name": "V-Modal AI - Visual Memory Layer: Find, recall from from your visual content: Mobile, Smart Glasses, Physical AI "
+ },
+ "gh:vahmoh25": {
+  "location": "Munich",
+  "name": "Vahid Mohammadi"
  },
  "gh:vornex-01": {
   "location": null,
@@ -1061,6 +1098,7 @@
  "hf:baobabtech": {
   "fullname": "Baobab Tech"
  },
+ "hf:barendjl": null,
  "hf:basaadi": null,
  "hf:basis-ai": {
   "fullname": "Basis"
@@ -1162,6 +1200,9 @@
  "hf:databricks": {
   "fullname": "Databricks"
  },
+ "hf:datalab-to": {
+  "fullname": "Datalab"
+ },
  "hf:datasmartly": null,
  "hf:datasocial": null,
  "hf:datoric": {
@@ -1179,6 +1220,9 @@
  },
  "hf:deepseek-ai": {
   "fullname": "DeepSeek"
+ },
+ "hf:dendriteholdings": {
+  "fullname": "Dendrite Holdings"
  },
  "hf:dengling222": null,
  "hf:dev-vinod": null,
@@ -1377,6 +1421,7 @@
   "fullname": "InferencePort AI (InferencePort LLC)"
  },
  "hf:infinitejoy": null,
+ "hf:infinix-io": null,
  "hf:infosecinnovations": {
   "fullname": "InfoSec Innovations"
  },
@@ -1632,6 +1677,9 @@
  "hf:nostraempire": null,
  "hf:noxman2": null,
  "hf:nub235": null,
+ "hf:nvidia": {
+  "fullname": "NVIDIA"
+ },
  "hf:nyu-mll": {
   "fullname": "NYU Machine Learning for Language"
  },
@@ -1670,6 +1718,9 @@
  },
  "hf:openflowlm": {
   "fullname": "OpenFlowLM"
+ },
+ "hf:openmoss-team": {
+  "fullname": "OpenMOSS"
  },
  "hf:openvoiceos": {
   "fullname": "OpenVoiceOS"
@@ -1722,6 +1773,7 @@
  "hf:prism-ml": {
   "fullname": "Prism ML"
  },
+ "hf:proj-persona": null,
  "hf:projecte-aina": {
   "fullname": "Projecte Aina"
  },
@@ -1760,6 +1812,7 @@
  "hf:rifailabs": {
   "fullname": "rifai"
  },
+ "hf:riyan200324200324": null,
  "hf:rleo": null,
  "hf:roneneldan": null,
  "hf:rosany": null,
@@ -1821,6 +1874,9 @@
   "fullname": "speridlabs"
  },
  "hf:st192011": null,
+ "hf:stanfordnlp": {
+  "fullname": "Stanford NLP"
+ },
  "hf:stefancosma": null,
  "hf:steja": null,
  "hf:stevenlewis79": null,
@@ -1860,9 +1916,13 @@
  "hf:teltek": {
   "fullname": "Teltek Video Research S.L."
  },
+ "hf:tencent": {
+  "fullname": "Tencent"
+ },
  "hf:tensorblock": {
   "fullname": "TensorBlock"
  },
+ "hf:tfiydfgdygd": null,
  "hf:thandieao": null,
  "hf:theafricatechguy": null,
  "hf:theavenger": null,
@@ -2071,6 +2131,11 @@
   "lng": 139.2394,
   "label": "Japon"
  },
+ "johns hopkins university": {
+  "lat": 39.3302,
+  "lng": -76.6219,
+  "label": "Johns Hopkins University"
+ },
  "jönköping university": {
   "lat": 57.778,
   "lng": 14.1621,
@@ -2122,6 +2187,11 @@
   "label": "KU Leuven Kulak"
  },
  "kyiv national economic university named after vadym hetman": null,
+ "kyoto, japan": {
+  "lat": 35.0116,
+  "lng": 135.7681,
+  "label": "Kyoto"
+ },
  "language technologies institute, cmu": null,
  "lawrence berkeley national laboratory": {
   "lat": 37.877,
@@ -2256,6 +2326,11 @@
   "lng": 101.6418,
   "label": "Universiti Multimedia"
  },
+ "munich": {
+  "lat": 48.1371,
+  "lng": 11.5754,
+  "label": "Munich"
+ },
  "munich, bavaria, germany": {
   "lat": 48.1371,
   "lng": 11.5754,
@@ -2311,6 +2386,11 @@
   "lng": 0.3139,
   "label": "Normandie"
  },
+ "north china electric power university": {
+  "lat": 38.876,
+  "lng": 115.4974,
+  "label": "华北电力大学"
+ },
  "nova information management school (nova ims), universidade nova de lisboa": null,
  "nîmes université": {
   "lat": 43.8388,
@@ -2332,6 +2412,7 @@
   "lng": 1.9086,
   "label": "Orléans"
  },
+ "ostim technical university": null,
  "pakistan": {
   "lat": 30.3308,
   "lng": 71.2475,
@@ -2439,6 +2520,12 @@
   "lng": 35.8768,
   "label": "جامعة الأميرة سمية للتكنولوجيا"
  },
+ "pune": {
+  "lat": 18.5214,
+  "lng": 73.8545,
+  "label": "Pune"
+ },
+ "pushkin state russian language institute": null,
  "queensland university of technology": {
   "lat": -27.5422,
   "lng": 153.065,
@@ -2455,6 +2542,7 @@
   "lng": 11.0452,
   "label": "Rovereto"
  },
+ "saarbr\\u00fccken": null,
  "saarbrücken": {
   "lat": 49.2344,
   "lng": 6.9964,
@@ -2466,6 +2554,7 @@
   "label": "Sakarya Üniversitesi"
  },
  "samarkand state insitute of foreign languages department of second foreign languages  independent researcher": null,
+ "samarkand state of foreign languages faculty of philology and translation": null,
  "samarkand state pedagogical institute assistant teacher of the department of foreign languages": null,
  "san francisco": {
   "lat": 37.7879,
@@ -2611,6 +2700,7 @@
   "lng": 126.9698,
   "label": "성균관대"
  },
+ "swiss institute of bioinformatics": null,
  "sydney, australia": {
   "lat": -33.8698,
   "lng": 151.2083,
@@ -2694,6 +2784,11 @@
   "lng": -3.2766,
   "label": "Royaume-Uni"
  },
+ "united states of america": {
+  "lat": 39.7837,
+  "lng": -100.4459,
+  "label": "États-Unis d'Amérique"
+ },
  "universidad de málaga": {
   "lat": 36.7165,
   "lng": -4.4954,
@@ -2745,6 +2840,11 @@
   "lng": -35.204,
   "label": "UFRN - Campus Central"
  },
+ "universitas islam malang": {
+  "lat": -7.9363,
+  "lng": 112.6073,
+  "label": "Universitas Islam Malang"
+ },
  "universitas sebelas maret": {
   "lat": -7.5595,
   "lng": 110.8569,
@@ -2791,6 +2891,11 @@
   "label": "Université de Bayreuth"
  },
  "university of bergamo": null,
+ "university of bologna": {
+  "lat": 44.4983,
+  "lng": 11.3545,
+  "label": "Università di Bologna"
+ },
  "university of catania": null,
  "university of cyprus": {
   "lat": 35.1439,
@@ -2839,6 +2944,7 @@
   "lng": 12.0963,
   "label": "Ostbayerische Technische Hochschule Regensburg"
  },
+ "university of science and technology of china, hefei, anhui, china; zhongguancun academy, beijing, china": null,
  "university of south carolina": {
   "lat": 33.9929,
   "lng": -81.0269,
@@ -3320,6 +3426,7 @@
   "region": "États-Unis",
   "geo_source": "Wikidata · Databricks"
  },
+ "wdn:datalab": null,
  "wdn:datoric": null,
  "wdn:decosa": null,
  "wdn:deepseek": {
@@ -3329,6 +3436,7 @@
   "region": "république populaire de Chine",
   "geo_source": "Wikidata · DeepSeek"
  },
+ "wdn:dendrite holdings": null,
  "wdn:dioleti": null,
  "wdn:docling": null,
  "wdn:edge0": null,
@@ -3443,6 +3551,13 @@
  "wdn:mythologic": null,
  "wdn:naiveai": null,
  "wdn:nlp ai korea university": null,
+ "wdn:nvidia": {
+  "lat": 37.35,
+  "lng": -121.9667,
+  "city": "Santa Clara",
+  "region": "États-Unis",
+  "geo_source": "Wikidata · Nvidia"
+ },
  "wdn:nyu machine learning for language": null,
  "wdn:olaverse lab": null,
  "wdn:onnx community": null,
@@ -3459,6 +3574,7 @@
  "wdn:openeurollm": null,
  "wdn:openflowlm": null,
  "wdn:openindex": null,
+ "wdn:openmoss": null,
  "wdn:openthoughts": null,
  "wdn:openvoiceos": null,
  "wdn:orcarouter": null,
@@ -3491,6 +3607,7 @@
  "wdn:shunya labs": null,
  "wdn:small models for glam": null,
  "wdn:speridlabs": null,
+ "wdn:stanford nlp": null,
  "wdn:sunbird ai": {
   "lat": 35.5311,
   "lng": -81.0297,
@@ -3503,6 +3620,13 @@
  "wdn:swinliq ai": null,
  "wdn:tatsu lab": null,
  "wdn:teltek video research s l": null,
+ "wdn:tencent": {
+  "lat": 19.33,
+  "lng": -81.24,
+  "city": "Grand Cayman",
+  "region": "République populaire de Chine",
+  "geo_source": "Wikidata · Tencent"
+ },
  "wdn:tensorblock": null,
  "wdn:text to speech for all": null,
  "wdn:tiger lab": null,
