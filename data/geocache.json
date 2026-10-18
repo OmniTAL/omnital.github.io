@@ -449,6 +449,7 @@
  "faculty of geography and regional studies, university of warsaw": null,
  "faculty of science and technology, valaya alongkorn rajabhat university under the royal patronage, pathum thani, thailand": null,
  "formation continue unil-epfl": null,
+ "formerly, electro-gravitational space propulsion laboratory (egspl), bhubaneswar, odisha 751030, india; formerly, university of calcutta, senate house, 87/1 college street, kolkata 700073, west bengal, india": null,
  "frankfurt": {
   "lat": 50.1106,
   "lng": 8.6821,
@@ -526,6 +527,10 @@
   "location": null,
   "name": "atria-asi"
  },
+ "gh:ayzzz123": {
+  "location": null,
+  "name": "Ayzzz"
+ },
  "gh:azydragon": {
   "location": null,
   "name": "azydragon"
@@ -541,6 +546,10 @@
  "gh:cdcailf": {
   "location": "China",
   "name": "cdc"
+ },
+ "gh:cobanov": {
+  "location": "Kocaeli, Turkey",
+  "name": "Mert Cobanov"
  },
  "gh:deeplethe": {
   "location": null,
@@ -621,6 +630,10 @@
  "gh:kydlikebtc": {
   "location": null,
   "name": "KYD.ai"
+ },
+ "gh:licincan": {
+  "location": null,
+  "name": "licincan"
  },
  "gh:linjiang12": {
   "location": null,
@@ -999,6 +1012,7 @@
  "hf:agentlans": null,
  "hf:agharib": null,
  "hf:ahcenr": null,
+ "hf:ahmed-amedo": null,
  "hf:ahmedcpe": null,
  "hf:ahmedheakl": null,
  "hf:ahmedmgelwan": null,
@@ -1041,6 +1055,9 @@
  "hf:alisky71": null,
  "hf:allenai": {
   "fullname": "Ai2"
+ },
+ "hf:allinsama": {
+  "fullname": "Allinsama"
  },
  "hf:almanach": {
   "fullname": "ALMAnaCH (Inria)"
@@ -1387,6 +1404,7 @@
  "hf:hplt": {
   "fullname": "HPLT"
  },
+ "hf:hrm-labs": null,
  "hf:hsanyyasyn97gmail": null,
  "hf:huggingfacefw": {
   "fullname": "FineData"
@@ -1463,6 +1481,7 @@
  "hf:johannes765": null,
  "hf:jonnyverse": null,
  "hf:jontxuu": null,
+ "hf:jordimas": null,
  "hf:jorgefg03": null,
  "hf:josepabloucr": null,
  "hf:jotalbot": null,
@@ -1516,6 +1535,7 @@
  "hf:lesterpaintstheworld": null,
  "hf:lgessler": null,
  "hf:lgi2p": null,
+ "hf:lhajtechno": null,
  "hf:lichess": {
   "fullname": "lichess"
  },
@@ -1631,6 +1651,7 @@
  },
  "hf:mosessss": null,
  "hf:mouad009": null,
+ "hf:mozed54": null,
  "hf:mradermacher": null,
  "hf:msmth": null,
  "hf:mubarak123456": null,
@@ -1645,6 +1666,7 @@
  "hf:mykor": {
   "fullname": "My Korean Language Models"
  },
+ "hf:myreign": null,
  "hf:mythologic": {
   "fullname": "Mythologic"
  },
@@ -1863,6 +1885,9 @@
  "hf:silasdsc": null,
  "hf:simonleee": null,
  "hf:sioq": null,
+ "hf:sister-software": {
+  "fullname": "Sister Software"
+ },
  "hf:skilledu": null,
  "hf:small-models-for-glam": {
   "fullname": "Small Models for GLAM"
@@ -1954,6 +1979,7 @@
   "fullname": "Transcriber App"
  },
  "hf:trimux": null,
+ "hf:trinhrepo": null,
  "hf:tts-omnivoice": {
   "fullname": "tts-omnivoice"
  },
@@ -2093,12 +2119,22 @@
   "lng": 78.6677,
   "label": "Inde"
  },
+ "inner mongolia university": {
+  "lat": 40.7564,
+  "lng": 111.6802,
+  "label": "内蒙古大学玉泉校区"
+ },
  "institut polytechnique de paris": {
   "lat": 48.7139,
   "lng": 2.2141,
   "label": "Institut Polytechnique de Paris"
  },
  "institute of mathematics, statistics and computer science, university of são paulo": null,
+ "instituto nacional de investigación y tecnología agraria y alimentaria": {
+  "lat": 40.455,
+  "lng": -3.7492,
+  "label": "Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria"
+ },
  "instituto tecnológico de aeronáutica": {
   "lat": -23.2102,
   "lng": -45.8765,
@@ -2109,6 +2145,11 @@
   "lat": 48.0683,
   "lng": 16.3582,
   "label": "IIASA"
+ },
+ "istanbul 29 mayis university": {
+  "lat": 41.0326,
+  "lng": 29.0987,
+  "label": "29 Mayıs Üniversitesi"
  },
  "istanbul metropolitan municipality": {
   "lat": 41.0135,
@@ -2165,6 +2206,11 @@
   "lat": 49.1019,
   "lng": 8.4331,
   "label": "Institut de technologie de Karlsruhe"
+ },
+ "kocaeli, turkey": {
+  "lat": 40.8217,
+  "lng": 29.9507,
+  "label": "Kocaeli"
  },
  "korea university": {
   "lat": 36.6109,
@@ -3353,6 +3399,7 @@
   "geo_source": "Wikidata · ALIAE"
  },
  "wdn:alibaba nlp community": null,
+ "wdn:allinsama": null,
  "wdn:almanach inria": null,
  "wdn:alphaedgeai": null,
  "wdn:anthropic": {
@@ -3605,6 +3652,7 @@
  "wdn:salesforce ai research": null,
  "wdn:secure machine learning lab": null,
  "wdn:shunya labs": null,
+ "wdn:sister software": null,
  "wdn:small models for glam": null,
  "wdn:speridlabs": null,
  "wdn:stanford nlp": null,
