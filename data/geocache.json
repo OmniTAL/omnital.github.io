@@ -67,6 +67,11 @@
  },
  "andijan state institute of foreign languages associate professor, phd": null,
  "andijan state institute of foreign languages english language and literature faculty": null,
+ "anhui xinhua university": {
+  "lat": 31.8276,
+  "lng": 117.1789,
+  "label": "安徽新华学院"
+ },
  "argonne national laboratory": {
   "lat": 41.7091,
   "lng": -87.9786,
@@ -505,6 +510,7 @@
   "lng": 130.618,
   "label": "Préfecture de Fukuoka"
  },
+ "gaiker technology centre, basque research and technology alliance (brta)": null,
  "genève": {
   "lat": 46.2018,
   "lng": 6.1466,
@@ -538,6 +544,10 @@
  "gh:ahmedbadr-dev": {
   "location": "Egypt",
   "name": "Badr A."
+ },
+ "gh:aientech": {
+  "location": "Germany",
+  "name": "Alien"
  },
  "gh:aimeoa": {
   "location": null,
@@ -650,6 +660,10 @@
  "gh:heqiangdiao-wq": {
   "location": null,
   "name": "git"
+ },
+ "gh:hnlyf168": {
+  "location": null,
+  "name": "hnlyf168"
  },
  "gh:hotchpotch": {
   "location": "Japan",
@@ -895,6 +909,10 @@
   "location": null,
   "name": "ShinThink"
  },
+ "gh:sitor-ai": {
+  "location": null,
+  "name": "Sitor"
+ },
  "gh:sno-ai": {
   "location": "United States of America",
   "name": "Sno AI"
@@ -963,6 +981,10 @@
   "location": "Munich",
   "name": "Vahid Mohammadi"
  },
+ "gh:vecszn": {
+  "location": null,
+  "name": "VecSzn"
+ },
  "gh:vornex-01": {
   "location": null,
   "name": "VORNEX-01"
@@ -982,6 +1004,10 @@
  "gh:xingchen-agi": {
   "location": null,
   "name": "XingChen-AGI"
+ },
+ "gh:yaya-sy": {
+  "location": "Paris",
+  "name": "Yaya Sy"
  },
  "gh:yeonwoosung": {
   "location": "Seoul",
@@ -1233,6 +1259,7 @@
  "hf:beardedmonster": null,
  "hf:belhaddadmohamed": null,
  "hf:beshkenadze": null,
+ "hf:bezzam": null,
  "hf:biglam": {
   "fullname": "BigLAM: BigScience Libraries, Archives and Museums"
  },
@@ -1252,6 +1279,9 @@
   "fullname": "Bretagne"
  },
  "hf:brexitcapital": null,
+ "hf:briaai": {
+  "fullname": "BRIA AI"
+ },
  "hf:bridgingvarieties": {
   "fullname": "Bridging_Varieties"
  },
@@ -1364,6 +1394,7 @@
  "hf:dex94": null,
  "hf:deymon3522": null,
  "hf:dgurgurov": null,
+ "hf:dhyeye": null,
  "hf:difyousrakh": null,
  "hf:digitalsolutionsai": null,
  "hf:dioleti": {
@@ -1404,6 +1435,7 @@
  "hf:elabora": {
   "fullname": "Elabora"
  },
+ "hf:elbruno": null,
  "hf:elissatag": null,
  "hf:elmehdismili": null,
  "hf:elohimdavid": null,
@@ -1647,6 +1679,9 @@
  "hf:kirilldual0987": null,
  "hf:kmerakeb": null,
  "hf:korosh405": null,
+ "hf:krafton": {
+  "fullname": "KRAFTON"
+ },
  "hf:kremon96": null,
  "hf:krynexlabs": null,
  "hf:kugiyt8i": null,
@@ -1694,6 +1729,9 @@
  "hf:linguardia": null,
  "hf:lingvanex": null,
  "hf:linuxme": null,
+ "hf:lion-ai": {
+  "fullname": "thelion.ai"
+ },
  "hf:liquidai": {
   "fullname": "Liquid AI"
  },
@@ -1747,6 +1785,7 @@
  "hf:mamei16": null,
  "hf:mansourizona": null,
  "hf:marcbrun": null,
+ "hf:marcosremar2": null,
  "hf:marouaneoa": null,
  "hf:marxx01": null,
  "hf:masterx": null,
@@ -1940,6 +1979,7 @@
  "hf:perplexity-ai": {
   "fullname": "Perplexity"
  },
+ "hf:phase-technologies": null,
  "hf:physicalai-bmi": {
   "fullname": "Institute for Physical AI @ BMI"
  },
@@ -2013,6 +2053,7 @@
  "hf:riyan200324200324": null,
  "hf:rleo": null,
  "hf:robertbschuette": null,
+ "hf:romaindurif": null,
  "hf:roneneldan": null,
  "hf:rosany": null,
  "hf:rozabel": null,
@@ -2103,6 +2144,7 @@
   "fullname": "Supersonic Labs"
  },
  "hf:supremelobster": null,
+ "hf:suprim": null,
  "hf:supyoshi": null,
  "hf:svngoku": null,
  "hf:swe-bench": {
@@ -2170,6 +2212,7 @@
  "hf:transcriber-app": {
   "fullname": "Transcriber App"
  },
+ "hf:trendy31171": null,
  "hf:trimux": null,
  "hf:trinhrepo": null,
  "hf:tts-omnivoice": {
@@ -2447,6 +2490,7 @@
   "label": "Kyoto"
  },
  "language technologies institute, cmu": null,
+ "language technologies lab, disi, university of bologna": null,
  "lawrence berkeley national laboratory": {
   "lat": 37.877,
   "lng": -122.2456,
@@ -2569,6 +2613,11 @@
   "lat": 25.7742,
   "lng": -80.1936,
   "label": "Miami"
+ },
+ "michigan technological university": {
+  "lat": 47.1097,
+  "lng": -88.5494,
+  "label": "Michigan Technological University"
  },
  "mila - université de montréal": null,
  "milan": {
@@ -2787,6 +2836,11 @@
   "lat": 40.4407,
   "lng": -80.0026,
   "label": "Pittsburgh"
+ },
+ "politecnica salesiana university": {
+  "lat": -2.8862,
+  "lng": -78.9898,
+  "label": "Universidad Politecnica Salesiana"
  },
  "pontificia universidad católica de chile": {
   "lat": -33.4418,
@@ -3010,6 +3064,7 @@
   "label": "Université"
  },
  "tashkent state university of oriental studies,  master's degree in computational linguistics (70230401)": null,
+ "teacher at the silk road innovation university": null,
  "teacher at the university of information technologies and management": null,
  "teacher of school no. 58 of muzrabatsky district of surkhandarya region": null,
  "technische universität darmstadt": {
@@ -3230,7 +3285,13 @@
   "lng": 11.3545,
   "label": "Università di Bologna"
  },
+ "university of california, san francisco; waymark": null,
  "university of catania": null,
+ "university of chinese academy of sciences": {
+  "lat": 40.0022,
+  "lng": 116.3734,
+  "label": "中国科学院大学（奥运村校区）"
+ },
  "university of cyprus": {
   "lat": 35.1439,
   "lng": 33.4139,
@@ -3334,6 +3395,11 @@
   "lng": 9.0712,
   "label": "Klimagarten der Universität Tübingen"
  },
+ "university of wisconsin–madison": {
+  "lat": 43.0803,
+  "lng": -89.431,
+  "label": "University of Wisconsin-Madison"
+ },
  "université clermont auvergne (2021-...)": {
   "lat": 45.04,
   "lng": 3.8808,
@@ -3402,6 +3468,11 @@
   "lat": 59.8586,
   "lng": 17.6387,
   "label": "Uppsala"
+ },
+ "uppsala university": {
+  "lat": 59.8576,
+  "lng": 17.6295,
+  "label": "Uppsala universitet"
  },
  "urban geo analytics": null,
  "valenciennes, université polytechnique hauts-de-france": {
@@ -3772,6 +3843,7 @@
   "region": "France",
   "geo_source": "Wikidata · Bretagne"
  },
+ "wdn:bria ai": null,
  "wdn:bridging varieties": null,
  "wdn:broadening linguistic technologies lab blt lab": null,
  "wdn:cactus compute inc": null,
@@ -3902,6 +3974,13 @@
   "geo_source": "Wikidata · JetBrains"
  },
  "wdn:jscreatorpro pte ltd": null,
+ "wdn:krafton": {
+  "lat": 37.4386,
+  "lng": 127.1378,
+  "city": "Seongnam",
+  "region": "Corée du Sud",
+  "geo_source": "Wikidata · Krafton"
+ },
  "wdn:lakoreai": null,
  "wdn:langtech veu": null,
  "wdn:language technologies laboratory barcelona supercomputing center": null,
@@ -4003,6 +4082,7 @@
  "wdn:rapidata": null,
  "wdn:recursive superintelligence inc": null,
  "wdn:red hat ai": null,
+ "wdn:reflection": null,
  "wdn:rifai": null,
  "wdn:robotic systems lab eth z rich": null,
  "wdn:salesforce ai research": null,
@@ -4038,6 +4118,7 @@
  "wdn:text to speech for all": null,
  "wdn:the agentic data company": null,
  "wdn:the sequential learning group": null,
+ "wdn:thelion ai": null,
  "wdn:tiger lab": null,
  "wdn:tigre g tico lda": null,
  "wdn:tilde": null,
