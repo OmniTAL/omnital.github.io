@@ -299,6 +299,11 @@
   "lng": 53.9995,
   "label": "Émirats arabes unis"
  },
+ "country:au": {
+  "lat": -24.7761,
+  "lng": 134.755,
+  "label": "Australie"
+ },
  "country:be": {
   "lat": 50.6403,
   "lng": 4.6667,
@@ -617,6 +622,10 @@
   "location": "Kocaeli, Turkey",
   "name": "Mert Cobanov"
  },
+ "gh:dagoste": {
+  "location": null,
+  "name": "Stefano 0x640x610x670x6f "
+ },
  "gh:deeplethe": {
   "location": null,
   "name": "DeepLethe"
@@ -700,6 +709,10 @@
  "gh:kavya1818-hub": {
   "location": null,
   "name": "KAVYA"
+ },
+ "gh:keremss7": {
+  "location": null,
+  "name": "Kerem001"
  },
  "gh:kkkkhazix": {
   "location": null,
@@ -789,6 +802,10 @@
   "location": null,
   "name": "nokia-applied-research"
  },
+ "gh:nousresearch": {
+  "location": null,
+  "name": "Nous Research"
+ },
  "gh:nyosegawa": {
   "location": null,
   "name": "nyosegawa"
@@ -840,6 +857,10 @@
  "gh:petkyletampu28-a11y": {
   "location": null,
   "name": "petkyletampu28-a11y"
+ },
+ "gh:pinganbbovo": {
+  "location": null,
+  "name": "pinganbbovo"
  },
  "gh:pulse-energy-eu": {
   "location": "Germany",
@@ -1029,6 +1050,10 @@
   "location": "Shenzhen",
   "name": "程序员Carl"
  },
+ "gh:zgcagi": {
+  "location": null,
+  "name": "ZGCAGI"
+ },
  "goethe university frankfurt": {
   "lat": 50.1717,
   "lng": 8.628,
@@ -1217,6 +1242,9 @@
  "hf:ashtok897": null,
  "hf:asincole": null,
  "hf:assafvayner": null,
+ "hf:astroware": {
+  "fullname": "Astroware Labs"
+ },
  "hf:astutu": null,
  "hf:athaze": null,
  "hf:atomicchat": {
@@ -1574,6 +1602,9 @@
  },
  "hf:hrm-labs": null,
  "hf:hsanyyasyn97gmail": null,
+ "hf:huggingfacebio": {
+  "fullname": "Hugging Face Biology Research"
+ },
  "hf:huggingfacefw": {
   "fullname": "FineData"
  },
@@ -1972,6 +2003,7 @@
   "fullname": "Pauhu AI"
  },
  "hf:pauladw": null,
+ "hf:pcq8848": null,
  "hf:peacockery": {
   "fullname": "Peacockery Studio"
  },
@@ -2080,6 +2112,9 @@
  "hf:sargedev": null,
  "hf:savial": null,
  "hf:sc117": null,
+ "hf:scenario-labs": {
+  "fullname": "Scenario"
+ },
  "hf:sdantonio": null,
  "hf:sdobson": null,
  "hf:seamon67": null,
@@ -2102,6 +2137,9 @@
  "hf:shun3232": null,
  "hf:shunyalabs": {
   "fullname": "Shunya Labs"
+ },
+ "hf:sigil-build": {
+  "fullname": "sigil-build"
  },
  "hf:sigtunnel": null,
  "hf:silasdsc": null,
@@ -2355,6 +2393,7 @@
  "ikerbasque": null,
  "imdea software institute": null,
  "independent researcher": null,
+ "independent researcher at kokand university": null,
  "independent researcher of samarkand state institute of foreign languages": null,
  "independent researcher, andijan state university": null,
  "india": {
@@ -2584,6 +2623,7 @@
  },
  "master degree student of nukus state pedagogical institute  named after ajiniyaz nukus, uzbekistan": null,
  "master's student urgench state university": null,
+ "master's student, samarkand state  institute of foreign languages, uzbekistan": null,
  "mbarara university of science and technology": {
   "lat": -0.6156,
   "lng": 30.6603,
@@ -3067,6 +3107,11 @@
  "teacher at the silk road innovation university": null,
  "teacher at the university of information technologies and management": null,
  "teacher of school no. 58 of muzrabatsky district of surkhandarya region": null,
+ "technical university of munich": {
+  "lat": 48.2655,
+  "lng": 11.6692,
+  "label": "Technische Universität München"
+ },
  "technische universität darmstadt": {
   "lat": 49.8614,
   "lng": 8.682,
@@ -3108,6 +3153,11 @@
   "lat": 35.6378,
   "lng": 139.3841,
   "label": "東京薬科大学 八王子キャンパス"
+ },
+ "tongji university": {
+  "lat": 31.2847,
+  "lng": 121.4969,
+  "label": "同济大学"
  },
  "toronto, canada": {
   "lat": 43.6535,
@@ -3497,6 +3547,7 @@
   "lng": -71.2356,
   "label": "Waltham"
  },
+ "waltham data science": null,
  "warren, mi": {
   "lat": 42.4933,
   "lng": -83.0063,
@@ -3822,6 +3873,7 @@
   "region": "France",
   "geo_source": "Wikidata · Ark Technique"
  },
+ "wdn:astroware labs": null,
  "wdn:atomic chat": null,
  "wdn:autotrust ai lab": null,
  "wdn:axiomic labs": null,
@@ -3954,6 +4006,7 @@
  },
  "wdn:honey data v2": null,
  "wdn:hplt": null,
+ "wdn:hugging face biology research": null,
  "wdn:hugging face for audio": null,
  "wdn:ibm research": null,
  "wdn:ikala": null,
@@ -4086,8 +4139,10 @@
  "wdn:rifai": null,
  "wdn:robotic systems lab eth z rich": null,
  "wdn:salesforce ai research": null,
+ "wdn:scenario": null,
  "wdn:secure machine learning lab": null,
  "wdn:shunya labs": null,
+ "wdn:sigil build": null,
  "wdn:since ai": null,
  "wdn:sister software": null,
  "wdn:small models for glam": null,
