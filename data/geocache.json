@@ -276,7 +276,13 @@
   "lng": 126.9069,
   "label": "전남대학교"
  },
+ "clavis consulting, llc, kansas": null,
  "climate service center germany (gerics), helmholtz-zentrum hereon, fischertwiete 1, 20095 hamburg, germany": null,
+ "cn": {
+  "lat": 34.5412,
+  "lng": 108.9237,
+  "label": "Chine"
+ },
  "college of civil engineering, fuzhou university": null,
  "compiègne": {
   "lat": 49.4179,
@@ -427,6 +433,7 @@
  "department of civil and environmental engineering, monash university": null,
  "department of civil and environmental engineering, universitat politècnica de catalunya (upc), barcelona, spain": null,
  "department of computer science, khmelnytskyi national university, ukraine": null,
+ "department of critical care medicine, seventh people's hospital of shanghai university of traditional chinese medicine, shanghai, china": null,
  "department of display materials engineering, soonchunhyang university": null,
  "department of ecology, faculty of science, charles university, prague, czechia; institute of microbiology of the czech academy of sciences, prague, czechia": null,
  "department of environmental engineering, seoul national university of science and technology": null,
@@ -862,6 +869,10 @@
   "location": null,
   "name": "pinganbbovo"
  },
+ "gh:player99-void": {
+  "location": null,
+  "name": "player99-void"
+ },
  "gh:pulse-energy-eu": {
   "location": "Germany",
   "name": "sitefire.ai"
@@ -957,6 +968,10 @@
  "gh:strands-agents": {
   "location": null,
   "name": "strands-agents"
+ },
+ "gh:sunerpy": {
+  "location": "CN",
+  "name": "sunerpy"
  },
  "gh:swax": {
   "location": null,
@@ -1089,6 +1104,7 @@
   "lng": 7.0085,
   "label": "Haan"
  },
+ "hawkfranklin research": null,
  "headquarter": {
   "lat": 0.0962,
   "lng": 36.2129,
@@ -1129,6 +1145,7 @@
  "hf:abdelhaqueidali": null,
  "hf:abdeljalilelmajjodi": null,
  "hf:abdnaouri": null,
+ "hf:abdullah-khaled": null,
  "hf:abenzerps": null,
  "hf:abhirajputnikku7": null,
  "hf:abhishekdelmundu": null,
@@ -1623,6 +1640,7 @@
  "hf:ikala": {
   "fullname": "iKala"
  },
+ "hf:ikerazurmendi": null,
  "hf:ilabai": null,
  "hf:ilias-brh": null,
  "hf:ilyasbejja": null,
@@ -1702,6 +1720,7 @@
  "hf:justanormaltinkerer": null,
  "hf:justmeeandy": null,
  "hf:kaptionai": null,
+ "hf:karim12129": null,
  "hf:katmarie": null,
  "hf:kbayoud": null,
  "hf:kefranabg": null,
@@ -1815,6 +1834,7 @@
  },
  "hf:mamei16": null,
  "hf:mansourizona": null,
+ "hf:manusagents": null,
  "hf:marcbrun": null,
  "hf:marcosremar2": null,
  "hf:marouaneoa": null,
@@ -1926,6 +1946,9 @@
  "hf:nordinb": null,
  "hf:nostraempire": null,
  "hf:noxman2": null,
+ "hf:nu-world-model-embodied-ai": {
+  "fullname": "NU World Model & Embodied AI"
+ },
  "hf:nub235": null,
  "hf:nvidia": {
   "fullname": "NVIDIA"
@@ -1998,6 +2021,7 @@
  "hf:pakitaki": null,
  "hf:pakphum": null,
  "hf:panga-azazia": null,
+ "hf:parikshirendupoojiyamettu": null,
  "hf:pauhmolins": null,
  "hf:pauhu": {
   "fullname": "Pauhu AI"
@@ -2120,6 +2144,7 @@
  "hf:seamon67": null,
  "hf:secemp9": null,
  "hf:sekkit": null,
+ "hf:selcukkubur": null,
  "hf:seml-lab": {
   "fullname": "Secure Machine Learning Lab"
  },
@@ -2131,6 +2156,7 @@
  "hf:serkan007": null,
  "hf:serveurperso": null,
  "hf:sfrontull": null,
+ "hf:shaikayany": null,
  "hf:sharifeh-fadaei": null,
  "hf:shashankholla3": null,
  "hf:shields": null,
@@ -2242,6 +2268,7 @@
  },
  "hf:tjulxx": null,
  "hf:toduxlabs": null,
+ "hf:tokentinkerer": null,
  "hf:tomaszki": null,
  "hf:tonyyun": null,
  "hf:topher20": null,
@@ -2930,6 +2957,11 @@
   "lng": 6.9964,
   "label": "Sarrebruck"
  },
+ "saitama university": {
+  "lat": 35.862,
+  "lng": 139.6076,
+  "label": "埼玉大学"
+ },
  "sakarya university": {
   "lat": 40.7421,
   "lng": 30.331,
@@ -3116,6 +3148,11 @@
   "lat": 49.8614,
   "lng": 8.682,
   "label": "Technische Universität Darmstadt"
+ },
+ "teesside university": {
+  "lat": 54.5695,
+  "lng": -1.2355,
+  "label": "Teesside University"
  },
  "tekirdağ namık kemal university": {
   "lat": 40.9952,
@@ -3347,6 +3384,11 @@
   "lng": 33.4139,
   "label": "Πανεπιστήμιο Κύπρου"
  },
+ "university of dundee": {
+  "lat": 56.458,
+  "lng": -2.9821,
+  "label": "University of Dundee"
+ },
  "university of eastern finland": {
   "lat": 62.6044,
   "lng": 29.7422,
@@ -3383,6 +3425,11 @@
   "lat": 42.3893,
   "lng": -72.5284,
   "label": "University of Massachusetts Amherst"
+ },
+ "university of new mexico": {
+  "lat": 35.0866,
+  "lng": -106.6202,
+  "label": "University of New Mexico"
  },
  "university of oxford": {
   "lat": 33.6505,
@@ -3470,6 +3517,11 @@
   "lat": 48.8994,
   "lng": 2.2177,
   "label": "Lorraine"
+ },
+ "université de montpellier paul-valéry": {
+  "lat": 43.6325,
+  "lng": 3.8701,
+  "label": "Université de Montpellier Paul-Valéry"
  },
  "université de rennes (2023-....)": {
   "lat": 48.1183,
@@ -4082,6 +4134,7 @@
  "wdn:mythologic": null,
  "wdn:naiveai": null,
  "wdn:nlp ai korea university": null,
+ "wdn:nu world model embodied ai": null,
  "wdn:nvidia": {
   "lat": 37.35,
   "lng": -121.9667,
