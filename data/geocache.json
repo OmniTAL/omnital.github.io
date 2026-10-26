@@ -501,7 +501,13 @@
   "label": "Ericsson Ireland"
  },
  "escola politécnica, universidade federal do rio de janeiro": null,
+ "europe": {
+  "lat": 51.0,
+  "lng": 10.0,
+  "label": "Europe"
+ },
  "european commission, joint research centre, ispra, italy": null,
+ "faculty of artificial intelligence, posts and telecommunications institute of technology": null,
  "faculty of economics and business administration": {
   "lat": 42.8875,
   "lng": -8.5441,
@@ -786,6 +792,10 @@
   "location": "China",
   "name": "Michael Chow"
  },
+ "gh:miuuyy": {
+  "location": "Europe",
+  "name": "vechen"
+ },
  "gh:mlsftwrs": {
   "location": "Segou, Mali",
   "name": "ml.sftwrs"
@@ -1030,6 +1040,10 @@
   "location": "Japan",
   "name": "V-Modal AI - Visual Memory Layer: Find, recall from from your visual content: Mobile, Smart Glasses, Physical AI "
  },
+ "gh:vahmoh": {
+  "location": "Munich",
+  "name": "Vahid Mohammadi"
+ },
  "gh:vahmoh25": {
   "location": "Munich",
   "name": "Vahid Mohammadi"
@@ -1057,6 +1071,10 @@
  "gh:xingchen-agi": {
   "location": null,
   "name": "XingChen-AGI"
+ },
+ "gh:y3nk0": {
+  "location": "Athens, Greece",
+  "name": "Konstantinos Skianis"
  },
  "gh:yaya-sy": {
   "location": "Paris",
@@ -1643,6 +1661,7 @@
  "hf:hongyokps": null,
  "hf:hongzhuyi": null,
  "hf:horizon-labs": null,
+ "hf:hossein95": null,
  "hf:hosstia": null,
  "hf:howardrodriguez": null,
  "hf:hplt": {
@@ -1981,6 +2000,7 @@
  "hf:nordinb": null,
  "hf:nostraempire": null,
  "hf:noxman2": null,
+ "hf:nphearum": null,
  "hf:nu-world-model-embodied-ai": {
   "fullname": "NU World Model & Embodied AI"
  },
@@ -2588,6 +2608,11 @@
   "label": "KU Leuven Kulak"
  },
  "kyiv national economic university named after vadym hetman": null,
+ "kyoto university": {
+  "lat": 35.027,
+  "lng": 135.7814,
+  "label": "京都大学"
+ },
  "kyoto, japan": {
   "lat": 35.0116,
   "lng": 135.7681,
@@ -2675,6 +2700,11 @@
   "label": "Macao"
  },
  "machine learning engineer, nlp": null,
+ "mae fah luang university": {
+  "lat": 20.0503,
+  "lng": 99.8951,
+  "label": "มหาวิทยาลัยแม่ฟ้าหลวง"
+ },
  "manpla.net": null,
  "masaryk university": {
   "lat": 49.21,
@@ -3059,6 +3089,11 @@
   "lng": -6.2681,
   "label": "Ségou"
  },
+ "selçuk university": {
+  "lat": 38.0242,
+  "lng": 32.5057,
+  "label": "Selçuk Üniversitesi"
+ },
  "semanticly.ai": null,
  "seoul": {
   "lat": 37.5667,
@@ -3222,6 +3257,11 @@
   "lng": -97.9376,
   "label": "Texas State University"
  },
+ "the chinese university of hong kong": {
+  "lat": 22.4202,
+  "lng": 114.2079,
+  "label": "香港中文大學 The Chinese University of Hong Kong"
+ },
  "the solution stack": null,
  "the university of texas at el paso": {
   "lat": 31.7758,
@@ -3293,6 +3333,7 @@
   "lng": -100.4459,
   "label": "États-Unis d'Amérique"
  },
+ "universidad de buenos aires, facultad de ciencias exactas y naturales, departamento de computación, buenos aires, argentina; conicet-universidad de buenos aires, instituto de investigación en ciencias de la computación (icc), buenos aires, argentina": null,
  "universidad de málaga": {
   "lat": 36.7165,
   "lng": -4.4954,
