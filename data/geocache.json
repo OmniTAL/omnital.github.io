@@ -156,6 +156,11 @@
   "lng": 13.3951,
   "label": "Berlin"
  },
+ "berlin, berlin, germany": {
+  "lat": 52.5034,
+  "lng": 13.3387,
+  "label": "Berlin"
+ },
  "besançon, université marie et louis pasteur": {
   "lat": 47.2483,
   "lng": 5.9894,
@@ -569,6 +574,10 @@
   "location": null,
   "name": "renard"
  },
+ "gh:alexturkey": {
+  "location": "Türkiye",
+  "name": "Ali Haydar Ozturk"
+ },
  "gh:allspark-research": {
   "location": null,
   "name": "AllSpark Research"
@@ -765,6 +774,10 @@
   "location": "Haan, Germany",
   "name": "Marc Reichel"
  },
+ "gh:memtensor": {
+  "location": null,
+  "name": "OpenMem"
+ },
  "gh:meryambn": {
   "location": null,
   "name": "meryambn"
@@ -953,6 +966,10 @@
   "location": "Kraków, Poland",
   "name": "Software Mansion"
  },
+ "gh:somastllc": {
+  "location": "Somalia",
+  "name": "Somast"
+ },
  "gh:startluxlabs": {
   "location": null,
   "name": "StartLux Labs"
@@ -1065,9 +1082,18 @@
   "location": "Shenzhen",
   "name": "程序员Carl"
  },
+ "gh:zeekk0": {
+  "location": "Sunnyvale, CA",
+  "name": "Zeekk - MekaHime"
+ },
  "gh:zgcagi": {
   "location": null,
   "name": "ZGCAGI"
+ },
+ "ghent university": {
+  "lat": 51.0078,
+  "lng": 3.7109,
+  "label": "Universiteit Gent Vakgroep Textielkunde"
  },
  "goethe university frankfurt": {
   "lat": 50.1717,
@@ -1389,6 +1415,7 @@
  "hf:coml": {
   "fullname": "Cognitive Machine Learning | @ENS"
  },
+ "hf:compiwerai": null,
  "hf:contrastive-lm": null,
  "hf:convaiinnovations": null,
  "hf:conwayresearch": {
@@ -1501,6 +1528,7 @@
  "hf:everpaper": {
   "fullname": "EverPaper"
  },
+ "hf:exaistudio": null,
  "hf:exnivo": null,
  "hf:ezzdev": null,
  "hf:f-labs": null,
@@ -1533,6 +1561,9 @@
  "hf:francesca9805": null,
  "hf:franciscobdl": null,
  "hf:frankmorales2020": null,
+ "hf:freedomintelligence": {
+  "fullname": "FreedomAI"
+ },
  "hf:french-datasets": {
   "fullname": "french-datasets"
  },
@@ -1641,6 +1672,7 @@
   "fullname": "iKala"
  },
  "hf:ikerazurmendi": null,
+ "hf:ikerazurmendirubinnova": null,
  "hf:ilabai": null,
  "hf:ilias-brh": null,
  "hf:ilyasbejja": null,
@@ -1924,6 +1956,9 @@
  "hf:naiveai": {
   "fullname": "NaiveAI"
  },
+ "hf:nanbeige": {
+  "fullname": "Nanbeige LLM Lab"
+ },
  "hf:narinari3": null,
  "hf:nasrellahkharroubi": null,
  "hf:nassimjp": null,
@@ -2169,6 +2204,7 @@
  },
  "hf:sigtunnel": null,
  "hf:silasdsc": null,
+ "hf:simonakesson": null,
  "hf:simonleee": null,
  "hf:sinceaihq": {
   "fullname": "Since AI"
@@ -2280,6 +2316,7 @@
  "hf:trendy31171": null,
  "hf:trimux": null,
  "hf:trinhrepo": null,
+ "hf:ttindall": null,
  "hf:tts-omnivoice": {
   "fullname": "tts-omnivoice"
  },
@@ -2423,6 +2460,7 @@
  "independent researcher at kokand university": null,
  "independent researcher of samarkand state institute of foreign languages": null,
  "independent researcher, andijan state university": null,
+ "independent researcher, brno, czech republic": null,
  "india": {
   "lat": 22.3511,
   "lng": 78.6677,
@@ -2728,6 +2766,11 @@
   "label": "Munich"
  },
  "munich, bavaria, germany": {
+  "lat": 48.1371,
+  "lng": 11.5754,
+  "label": "Munich"
+ },
+ "munich, bayern, germany": {
   "lat": 48.1371,
   "lng": 11.5754,
   "label": "Munich"
@@ -3063,6 +3106,11 @@
   "lng": 103.8195,
   "label": "Singapour"
  },
+ "somalia": {
+  "lat": 7.263,
+  "lng": 43.5361,
+  "label": "Somali"
+ },
  "sorbonne université": {
   "lat": 48.838,
   "lng": 2.3611,
@@ -3118,6 +3166,11 @@
   "lat": 37.3003,
   "lng": 126.9698,
   "label": "성균관대"
+ },
+ "sunnyvale, ca": {
+  "lat": 37.3688,
+  "lng": -122.0363,
+  "label": "Sunnyvale"
  },
  "swiss institute of bioinformatics": null,
  "sydney, australia": {
@@ -3217,6 +3270,11 @@
   "lat": 48.5203,
   "lng": 9.0536,
   "label": "Tübingen"
+ },
+ "türkiye": {
+  "lat": 39.2941,
+  "lng": 35.2317,
+  "label": "Turquie"
  },
  "uit the arctic university of norway": null,
  "unesco chair in digital culture and arts in education (ucdcae), friedrich-alexander-universität erlangen-nürnberg": null,
@@ -4030,6 +4088,7 @@
   "region": "France",
   "geo_source": "Wikidata · Flowx.Ai Digital Systems"
  },
+ "wdn:freedomai": null,
  "wdn:french datasets": null,
  "wdn:french open data": null,
  "wdn:gaia": null,
@@ -4133,6 +4192,7 @@
  "wdn:myflow by growlioo": null,
  "wdn:mythologic": null,
  "wdn:naiveai": null,
+ "wdn:nanbeige llm lab": null,
  "wdn:nlp ai korea university": null,
  "wdn:nu world model embodied ai": null,
  "wdn:nvidia": {
