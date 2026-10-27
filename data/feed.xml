@@ -6,7 +6,175 @@
     <atom:link href="https://omnital.github.io/data/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Nouvelles ressources en traitement automatique des langues (arXiv, HAL, Hugging Face, GitHub, WikiCFP).</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 26 Oct 2026 11:12:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 10:39:31 +0000</lastBuildDate>
+    <item>
+      <title>[Corpus] DarjaCore/Algerian-Darja-QA</title>
+      <link>https://huggingface.co/datasets/DarjaCore/Algerian-Darja-QA</link>
+      <guid isPermaLink="false">hf:datasets:DarjaCore/Algerian-Darja-QA</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Algerian Darja QA Dataset summary Algerian Darja QA contains 398,727 question-answer pairs machine-translated into Algerian Arabic (Darja). It is part of the DarjaCore initiative, an open effort to build NLP resources for Darja, a…</description>
+    </item>
+    <item>
+      <title>[Corpus] Bayanat-Labs/arabic-wikipedia-articles-sections</title>
+      <link>https://huggingface.co/datasets/Bayanat-Labs/arabic-wikipedia-articles-sections</link>
+      <guid isPermaLink="false">hf:datasets:Bayanat-Labs/arabic-wikipedia-articles-sections</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Arabic and Egyptian Wikipedia Articles and Sections 2,967,774 current-revision article records and 14,240,743 parser-derived sections, from the Arabic and Egyptian Arabic Wikipedia editions' official 1 October 2026 dumps. Each article…</description>
+    </item>
+    <item>
+      <title>[Model] bardsai/eu-pii-anonimization-multilang-v3</title>
+      <link>https://huggingface.co/bardsai/eu-pii-anonimization-multilang-v3</link>
+      <guid isPermaLink="false">hf:models:bardsai/eu-pii-anonimization-multilang-v3</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] davidheineman/rlve-archive-hero-sim-v2-r1-pairwise-transfer-n4-te-00-catalannumbermod-658b68913b48</title>
+      <link>https://huggingface.co/davidheineman/rlve-archive-hero-sim-v2-r1-pairwise-transfer-n4-te-00-catalannumbermod-658b68913b48</link>
+      <guid isPermaLink="false">hf:models:davidheineman/rlve-archive-hero-sim-v2-r1-pairwise-transfer-n4-te-00-catalannumbermod-658b68913b48</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Corpus] NoeFlandre/GeoReSeT-Corpus-Fused</title>
+      <link>https://huggingface.co/datasets/NoeFlandre/GeoReSeT-Corpus-Fused</link>
+      <guid isPermaLink="false">hf:datasets:NoeFlandre/GeoReSeT-Corpus-Fused</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>GeoReSeT Corpus Fused 96,675,303 sentences in 95 languages, tied to 3,704,364 OpenStreetMap polygons in 386 regions, each labelled for land-use / land-cover relevance by an LLM. Plus 39,998 English scene descriptions, each labelled with a…</description>
+    </item>
+    <item>
+      <title>[Corpus] Anadilorg/Anadil_Ladino_Wordlist</title>
+      <link>https://huggingface.co/datasets/Anadilorg/Anadil_Ladino_Wordlist</link>
+      <guid isPermaLink="false">hf:datasets:Anadilorg/Anadil_Ladino_Wordlist</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Anadil Ladino (Judeo-Spanish) Wordlist Anadil.org için hazırlanan Ladino kelime listeleri: Türkçe ve İngilizce karşılıklarıyla birlikte, toplam 13.754 kelime çifti. Her liste iki sütunlu bir CSV dosyasıdır; sütunlar dil kodlarıyla…</description>
+    </item>
+    <item>
+      <title>[Corpus] Anadilorg/Anadil_Hatay_Arabic_Wordlist</title>
+      <link>https://huggingface.co/datasets/Anadilorg/Anadil_Hatay_Arabic_Wordlist</link>
+      <guid isPermaLink="false">hf:datasets:Anadilorg/Anadil_Hatay_Arabic_Wordlist</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Anadil North Levantine Arabic (Hatay) Wordlist Anadil.org için hazırlanan Arapça (Hatay) kelime listeleri: Türkçe ve İngilizce karşılıklarıyla birlikte, toplam 2.595 kelime çifti. Her liste iki sütunlu bir CSV dosyasıdır; sütunlar dil…</description>
+    </item>
+    <item>
+      <title>[Corpus] speechdatasamples/darija-6500-samples-20261026</title>
+      <link>https://huggingface.co/datasets/speechdatasamples/darija-6500-samples-20261026</link>
+      <guid isPermaLink="false">hf:datasets:speechdatasamples/darija-6500-samples-20261026</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Darija 6,500 sample A private, curated sample of 6,500 audio segments with transcript text and parent/chunk identifiers. Columns audio: source audio segment (FLAC) text: transcript parent_audio_id: source parent recording identifier…</description>
+    </item>
+    <item>
+      <title>[Model] Tabahi/mbfa-latin-noEnglish</title>
+      <link>https://huggingface.co/Tabahi/mbfa-latin-noEnglish</link>
+      <guid isPermaLink="false">hf:models:Tabahi/mbfa-latin-noEnglish</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] graciasdios9999/drama-3</title>
+      <link>https://huggingface.co/graciasdios9999/drama-3</link>
+      <guid isPermaLink="false">hf:models:graciasdios9999/drama-3</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] sandovs/parakeet-tdt-0.6b-v3-ultra-onnx-q4</title>
+      <link>https://huggingface.co/sandovs/parakeet-tdt-0.6b-v3-ultra-onnx-q4</link>
+      <guid isPermaLink="false">hf:models:sandovs/parakeet-tdt-0.6b-v3-ultra-onnx-q4</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] MedHachim/whisper-medium-darija-ggml</title>
+      <link>https://huggingface.co/MedHachim/whisper-medium-darija-ggml</link>
+      <guid isPermaLink="false">hf:models:MedHachim/whisper-medium-darija-ggml</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] TheBiggyBang/whisper-small-tunisian-derja-ct2</title>
+      <link>https://huggingface.co/TheBiggyBang/whisper-small-tunisian-derja-ct2</link>
+      <guid isPermaLink="false">hf:models:TheBiggyBang/whisper-small-tunisian-derja-ct2</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] TheBiggyBang/whisper-small-tunisian-derja</title>
+      <link>https://huggingface.co/TheBiggyBang/whisper-small-tunisian-derja</link>
+      <guid isPermaLink="false">hf:models:TheBiggyBang/whisper-small-tunisian-derja</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] mradermacher/shaylah-darija-4b-merged-i1-GGUF</title>
+      <link>https://huggingface.co/mradermacher/shaylah-darija-4b-merged-i1-GGUF</link>
+      <guid isPermaLink="false">hf:models:mradermacher/shaylah-darija-4b-merged-i1-GGUF</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] mradermacher/shaylah-darija-4b-merged-GGUF</title>
+      <link>https://huggingface.co/mradermacher/shaylah-darija-4b-merged-GGUF</link>
+      <guid isPermaLink="false">hf:models:mradermacher/shaylah-darija-4b-merged-GGUF</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior Product Designer UX/UI (m/w/d) – Conversational &amp; Agentic AI</title>
+      <link>https://www.arbeitnow.com/jobs/companies/paidai-gmbh/senior-product-designer-ux-ui-conversational-agentic-ai-hamburg-310054</link>
+      <guid isPermaLink="false">arbeitnow:senior-product-designer-ux-ui-conversational-agentic-ai-hamburg-310054</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arbeitnow</category>
+      <description>Dein Impact Du gestaltest für eine Zukunft, in der Menschen seltener Apps öffnen und der Agent sie dort erreicht, wo sie gerade sind: im Chat, per Messenger, Mail, Sprache oder Benachrichtigung. Gestaltet wird das Erlebnis über alle…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Working Student - LLM Quantization &amp; Inference Performance</title>
+      <link>https://www.arbeitnow.com/jobs/companies/tensordyne/working-student-llm-quantization-inference-performance-munich-206903</link>
+      <guid isPermaLink="false">arbeitnow:working-student-llm-quantization-inference-performance-munich-206903</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arbeitnow</category>
+      <description>About Tensordyne (formerly Recogni) AI is transforming our world. It can perform cognitive functions that previously only humans could do, such as perceiving interactions across different modalities and environments - with the ability to…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Technical Program Manager, Human Data Annotation (Code)</title>
+      <link>https://www.arbeitnow.fr/jobs/companies/mistralai/technical-program-manager-human-data-annotation-code-paris-63526</link>
+      <guid isPermaLink="false">arbeitnow:technical-program-manager-human-data-annotation-code-paris-63526</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arbeitnow</category>
+      <description>About Mistral Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance,…</description>
+    </item>
+    <item>
+      <title>[Model] mradermacher/Mtrini-SVL-2.0-GGUF</title>
+      <link>https://huggingface.co/mradermacher/Mtrini-SVL-2.0-GGUF</link>
+      <guid isPermaLink="false">hf:models:mradermacher/Mtrini-SVL-2.0-GGUF</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Corpus] convexworks/cookie-banners</title>
+      <link>https://huggingface.co/datasets/convexworks/cookie-banners</link>
+      <guid isPermaLink="false">hf:datasets:convexworks/cookie-banners</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Cookie Banner Text and Controls The wording, controls and markup of 2,647 cookie banners on the homepages of European companies listed in EU-Startups, as they were in October 2026. Each row is one banner: its title, its text, every…</description>
+    </item>
     <item>
       <title>[Corpus] meetween/mumospee_v3.1-testing</title>
       <link>https://huggingface.co/datasets/meetween/mumospee_v3.1-testing</link>
@@ -21,20 +189,20 @@
       <guid isPermaLink="false">hf:datasets:vocabradar/VocabFreq</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
-      <description>Word Frequency Lists (111 languages) English | 中文说明 Small word-frequency lists for 111 languages, self-built for use as offline frequency dictionaries: one gzip-compressed MessagePack file per language, about 13 MB in total. These lists…</description>
-    </item>
-    <item>
-      <title>[Model] nphearum/seamless-m4t-v2-large</title>
-      <link>https://huggingface.co/nphearum/seamless-m4t-v2-large</link>
-      <guid isPermaLink="false">hf:models:nphearum/seamless-m4t-v2-large</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
+      <description>Word Frequency Lists (110 languages) English | 中文说明 Small word-frequency lists for 110 languages, self-built for use as offline frequency dictionaries: one gzip-compressed MessagePack file per language, about 13 MB in total. These lists…</description>
     </item>
     <item>
       <title>[Model] hossein95/drama-3</title>
       <link>https://huggingface.co/hossein95/drama-3</link>
       <guid isPermaLink="false">hf:models:hossein95/drama-3</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] nphearum/seamless-m4t-v2-large</title>
+      <link>https://huggingface.co/nphearum/seamless-m4t-v2-large</link>
+      <guid isPermaLink="false">hf:models:nphearum/seamless-m4t-v2-large</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
@@ -54,6 +222,22 @@
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <category>arbeitnow</category>
       <description>Bei Machine Learning Reply unterstützen wir Unternehmen dabei, modernste AI-Technologien in reale Anwendungen und skalierbare digitale Produkte zu verwandeln. Zur Verstärkung unseres Teams suchen wir einen Junior AI Application Engineer,…</description>
+    </item>
+    <item>
+      <title>[Paper] A theoretical model of dynamical grammatical gender shifting based on set-valued set function</title>
+      <link>https://hal.science/hal-05838519v1</link>
+      <guid isPermaLink="false">hal:hal-05838519</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>hal</category>
+      <description>This study investigates the diverse characteristics of nouns, focusing on both semantic (e.g., countable/uncountable) and morphosyntactic (e.g., masculine/feminine) distinctions. We explore inter-word variations in gender markers in noun…</description>
+    </item>
+    <item>
+      <title>[Paper] Semantic and Morphosyntactic Differences among Nouns: A Template-Based and Modular Cognitive Model</title>
+      <link>https://hal.science/hal-05838520v1</link>
+      <guid isPermaLink="false">hal:hal-05838520</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>hal</category>
+      <description>The noun category exhibits diverse dissimilarities, characterised at the semantic (e.g., countable/uncountable) or/and morphosyntactic (e.g., determined/determinerless) level, which may be more or less important depending on languages. In…</description>
     </item>
     <item>
       <title>[Model] EmogheneAkpomedaye/Phonon2.5</title>
@@ -134,22 +318,6 @@
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
-    </item>
-    <item>
-      <title>[Paper] Semantic and Morphosyntactic Differences among Nouns: A Template-Based and Modular Cognitive Model</title>
-      <link>https://hal.science/hal-05838520v1</link>
-      <guid isPermaLink="false">hal:hal-05838520</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>hal</category>
-      <description>The noun category exhibits diverse dissimilarities, characterised at the semantic (e.g., countable/uncountable) or/and morphosyntactic (e.g., determined/determinerless) level, which may be more or less important depending on languages. In…</description>
-    </item>
-    <item>
-      <title>[Paper] A theoretical model of dynamical grammatical gender shifting based on set-valued set function</title>
-      <link>https://hal.science/hal-05838519v1</link>
-      <guid isPermaLink="false">hal:hal-05838519</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>hal</category>
-      <description>This study investigates the diverse characteristics of nouns, focusing on both semantic (e.g., countable/uncountable) and morphosyntactic (e.g., masculine/feminine) distinctions. We explore inter-word variations in gender markers in noun…</description>
     </item>
     <item>
       <title>[Corpus] IkerAzurmendiRubinnova/bin-sorting-intents</title>
@@ -638,174 +806,6 @@
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description>XNLI-MT: the XNLI test set extended from 14 to 48 languages This dataset extends facebook/xnli with 34 additional languages. The XNLI test set (5,010 premise/hypothesis pairs) for 48 languages (+ English): the 14 original XNLI languages…</description>
-    </item>
-    <item>
-      <title>[Corpus] Nailyk14/prompt-safety-multilingual-v2</title>
-      <link>https://huggingface.co/datasets/Nailyk14/prompt-safety-multilingual-v2</link>
-      <guid isPermaLink="false">hf:datasets:Nailyk14/prompt-safety-multilingual-v2</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>prompt-safety-multilingual-v2 Version rééquilibrée par langue de Nailyk14/prompt-safety-multilingual (révision 23829c882063861e25aeb2f29900cdbc5f1719c7). Le split test est identique à l'original ; test_translated est nouveau. Méthode…</description>
-    </item>
-    <item>
-      <title>[Corpus] dhyeye/product</title>
-      <link>https://huggingface.co/datasets/dhyeye/product</link>
-      <guid isPermaLink="false">hf:datasets:dhyeye/product</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Open Food Facts Database What is 🍊 Open Food Facts? A food products database Open Food Facts is a database of food products with ingredients, allergens, nutrition facts and all the tidbits of information we can find on product labels.…</description>
-    </item>
-    <item>
-      <title>[Model] CollectionStudio/parakeet-tdt-0.6b-v3</title>
-      <link>https://huggingface.co/CollectionStudio/parakeet-tdt-0.6b-v3</link>
-      <guid isPermaLink="false">hf:models:CollectionStudio/parakeet-tdt-0.6b-v3</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phase-Technologies/FORGE-500M-Chat</title>
-      <link>https://huggingface.co/Phase-Technologies/FORGE-500M-Chat</link>
-      <guid isPermaLink="false">hf:models:Phase-Technologies/FORGE-500M-Chat</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] SethCorleone/auge-transcribe-nos-gl-q8_0</title>
-      <link>https://huggingface.co/SethCorleone/auge-transcribe-nos-gl-q8_0</link>
-      <guid isPermaLink="false">hf:models:SethCorleone/auge-transcribe-nos-gl-q8_0</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] bezzam/omniasr-ctc-3b-v2</title>
-      <link>https://huggingface.co/bezzam/omniasr-ctc-3b-v2</link>
-      <guid isPermaLink="false">hf:models:bezzam/omniasr-ctc-3b-v2</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] bezzam/omniasr-ctc-7b-v2</title>
-      <link>https://huggingface.co/bezzam/omniasr-ctc-7b-v2</link>
-      <guid isPermaLink="false">hf:models:bezzam/omniasr-ctc-7b-v2</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] bezzam/omniasr-llm-1b-v2</title>
-      <link>https://huggingface.co/bezzam/omniasr-llm-1b-v2</link>
-      <guid isPermaLink="false">hf:models:bezzam/omniasr-llm-1b-v2</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] bezzam/omniasr-llm-3b-v2</title>
-      <link>https://huggingface.co/bezzam/omniasr-llm-3b-v2</link>
-      <guid isPermaLink="false">hf:models:bezzam/omniasr-llm-3b-v2</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] bezzam/omniasr-llm-7b-v2</title>
-      <link>https://huggingface.co/bezzam/omniasr-llm-7b-v2</link>
-      <guid isPermaLink="false">hf:models:bezzam/omniasr-llm-7b-v2</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] elbruno/parakeet-tdt-0.6b-v3-onnx</title>
-      <link>https://huggingface.co/elbruno/parakeet-tdt-0.6b-v3-onnx</link>
-      <guid isPermaLink="false">hf:models:elbruno/parakeet-tdt-0.6b-v3-onnx</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] lion-ai/medextractor-nano</title>
-      <link>https://huggingface.co/lion-ai/medextractor-nano</link>
-      <guid isPermaLink="false">hf:models:lion-ai/medextractor-nano</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] marcosremar2/parakeet-ultra-onnx</title>
-      <link>https://huggingface.co/marcosremar2/parakeet-ultra-onnx</link>
-      <guid isPermaLink="false">hf:models:marcosremar2/parakeet-ultra-onnx</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] suprim/parakeet-ultra-pc-qu-onnx</title>
-      <link>https://huggingface.co/suprim/parakeet-ultra-pc-qu-onnx</link>
-      <guid isPermaLink="false">hf:models:suprim/parakeet-ultra-pc-qu-onnx</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] trendy31171/drama-3</title>
-      <link>https://huggingface.co/trendy31171/drama-3</link>
-      <guid isPermaLink="false">hf:models:trendy31171/drama-3</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Paper] Climbing the Ladder: Automating Data Pipelines and Reproducing Baselines in Low-Resource Settings</title>
-      <link>https://arxiv.org/abs/2610.30374</link>
-      <guid isPermaLink="false">arxiv:2610.30374</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>The massively multilingual translation systems that now include Sicilian learned it from noisy, non-standardised web text. To obtain better translation quality, we redevelop the small neural machine translation (NMT) system that Wdowiak…</description>
-    </item>
-    <item>
-      <title>[Model] bezzam/omniasr-ctc-1b-v2</title>
-      <link>https://huggingface.co/bezzam/omniasr-ctc-1b-v2</link>
-      <guid isPermaLink="false">hf:models:bezzam/omniasr-ctc-1b-v2</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Corpus] Material Composition of End-of-Life Fishing Gear in Basque Ports</title>
-      <link>https://zenodo.org/records/23536457</link>
-      <guid isPermaLink="false">zenodo:23536456</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>zenodo</category>
-      <description>This dataset compiles the characterisation and classification results of end-of-life (EOL) fishing gear collected from the main fishing ports of the Basque Country: Bilbao, Bermeo, Ondarroa, Hondarribia and Getaria. Within the framework…</description>
-    </item>
-    <item>
-      <title>[Model] bezzam/omniasr-llm-300m-v2</title>
-      <link>https://huggingface.co/bezzam/omniasr-llm-300m-v2</link>
-      <guid isPermaLink="false">hf:models:bezzam/omniasr-llm-300m-v2</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] bezzam/omniasr-ctc-300m-v2</title>
-      <link>https://huggingface.co/bezzam/omniasr-ctc-300m-v2</link>
-      <guid isPermaLink="false">hf:models:bezzam/omniasr-ctc-300m-v2</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Paper] How Far Can the Gemma 4 Speech Encoder Go Without Changing Its Weights? Saudi and Gulf Arabic Speech Recognition with a Frozen and an Adapter-Augmented Encoder</title>
-      <link>https://arxiv.org/abs/2610.28673</link>
-      <guid isPermaLink="false">arxiv:2610.28673</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>We study the 305M-parameter audio encoder shared by Gemma 4 and EmbeddingGemma 2 (identical except for its final projection) for Saudi and Gulf Arabic speech recognition, without changing any of its weights. A frozen system trains only a…</description>
     </item>
   </channel>
 </rss>
