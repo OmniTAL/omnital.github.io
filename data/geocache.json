@@ -88,6 +88,8 @@
   "label": "Artois"
  },
  "assistant lecturer, department of german language and literature,  karakalpak state university, uzbekistan.": null,
+ "associate professor (phd), university of journalism and mass communications of uzbekistan": null,
+ "associate professor, department of english language  teaching methodology, uswlu, uzbekistan,": null,
  "athens, greece": {
   "lat": 37.9756,
   "lng": 23.7348,
@@ -391,6 +393,11 @@
   "lng": 127.6961,
   "label": "Corée du Sud"
  },
+ "country:nl": {
+  "lat": 52.2435,
+  "lng": 5.6343,
+  "label": "Pays-Bas"
+ },
  "country:pl": {
   "lat": 52.2159,
   "lng": 19.1344,
@@ -454,6 +461,7 @@
  "department of electrical and computer engineering, university of california san diego": null,
  "department of environmental engineering, seoul national university of science and technology": null,
  "department of information and communication technology, faculty of science and liberal arts, rajamangala university of technology isan, thailand": null,
+ "department of plant sciences, university of cambridge, uk": null,
  "department of zoology, university of granada, granada, spain": null,
  "des moines, ia": {
   "lat": 41.5869,
@@ -462,6 +470,7 @@
  },
  "digital economy, the business school, rmit university vietnam": null,
  "division of earth observation and geoinformatics (diotg), general coordination of earth sciences (cg-ct), national institute for space research (inpe), são josé dos campos, sp, brazil": null,
+ "division of science, new york university abu dhabi, abu dhabi, united arab emirates": null,
  "donostia-san sebastián": {
   "lat": 43.3224,
   "lng": -1.9839,
@@ -569,6 +578,10 @@
  "gh:09854145774": {
   "location": null,
   "name": "09854145774"
+ },
+ "gh:12we21": {
+  "location": null,
+  "name": "Mikolu"
  },
  "gh:47thtechcorner": {
   "location": null,
@@ -1199,6 +1212,11 @@
   "lng": 10.0013,
   "label": "Hambourg"
  },
+ "hatfield": {
+  "lat": 51.7635,
+  "lng": -0.2259,
+  "label": "Hatfield"
+ },
  "hawkfranklin research": null,
  "headquarter": {
   "lat": 0.0962,
@@ -1244,6 +1262,7 @@
  "hf:abenzerps": null,
  "hf:abhirajputnikku7": null,
  "hf:abhishekdelmundu": null,
+ "hf:abid1010": null,
  "hf:abraham42": null,
  "hf:abrahammg": null,
  "hf:abu-dju": null,
@@ -1493,6 +1512,7 @@
  "hf:conwayresearch": {
   "fullname": "Conway"
  },
+ "hf:cortex-ai-nova": null,
  "hf:crossroderick": null,
  "hf:csilit": null,
  "hf:cutting3dg3": null,
@@ -1557,6 +1577,7 @@
  "hf:doctoc-health": {
   "fullname": "Doctoc Health"
  },
+ "hf:dougmov": null,
  "hf:drishtisharma": null,
  "hf:drko999": null,
  "hf:ds8305": null,
@@ -1594,6 +1615,7 @@
  "hf:erenyeager-1": null,
  "hf:eripsa": null,
  "hf:erponce": null,
+ "hf:eschmidbauer": null,
  "hf:espnet": {
   "fullname": "ESPnet"
  },
@@ -1664,6 +1686,9 @@
   "fullname": "Google"
  },
  "hf:graciasdios9999": null,
+ "hf:greenbitai": {
+  "fullname": "GREENBITAI"
+ },
  "hf:grogros": null,
  "hf:gtak1": null,
  "hf:guardion": {
@@ -1849,6 +1874,9 @@
   "fullname": "LakoreAI"
  },
  "hf:lambfool15": null,
+ "hf:langtech-mt": {
+  "fullname": "LangTech Machine Translation"
+ },
  "hf:langtech-veu": {
   "fullname": "LangTech Veu"
  },
@@ -1887,6 +1915,9 @@
  "hf:linuxme": null,
  "hf:lion-ai": {
   "fullname": "thelion.ai"
+ },
+ "hf:lipik": {
+  "fullname": "Lipik"
  },
  "hf:liquidai": {
   "fullname": "Liquid AI"
@@ -2043,6 +2074,9 @@
  "hf:nexxusss": null,
  "hf:nightmak": null,
  "hf:nightprince": null,
+ "hf:nile-academy": {
+  "fullname": "Nile Academy"
+ },
  "hf:niobures": null,
  "hf:nisavid": null,
  "hf:nisten": null,
@@ -2306,10 +2340,14 @@
  "hf:stanfordnlp": {
   "fullname": "Stanford NLP"
  },
+ "hf:stealth-org": {
+  "fullname": "Stealth"
+ },
  "hf:stefancosma": null,
  "hf:steja": null,
  "hf:stevenlewis79": null,
  "hf:stickerdaniel": null,
+ "hf:streameval": null,
  "hf:subrati": null,
  "hf:sunbird": {
   "fullname": "Sunbird AI"
@@ -2455,6 +2493,7 @@
  "hf:vpozza": null,
  "hf:vradmicre": null,
  "hf:vyber07": null,
+ "hf:walydevelopers": null,
  "hf:wannaphong": null,
  "hf:waqf-ai": {
   "fullname": "Waqf AI"
@@ -2514,6 +2553,7 @@
  "hf:zgcagi": {
   "fullname": "ZGCAGI"
  },
+ "hf:zhanli-li": null,
  "hf:zineddine": null,
  "hf:zubr-ai": {
   "fullname": "Zubr AI community & developer"
@@ -2537,6 +2577,7 @@
  "independent researcher of samarkand state institute of foreign languages": null,
  "independent researcher, andijan state university": null,
  "independent researcher, brno, czech republic": null,
+ "independent researcher, department of english philology, urgench state  university named after abu rayhan biruni": null,
  "india": {
   "lat": 22.3511,
   "lng": 78.6677,
@@ -2553,6 +2594,7 @@
   "lng": 2.2141,
   "label": "Institut Polytechnique de Paris"
  },
+ "institute for cross-disciplinary physics and complex systems": null,
  "institute of mathematics, statistics and computer science, university of são paulo": null,
  "institute of sociology, academia sinica": null,
  "instituto nacional de investigación y tecnología agraria y alimentaria": {
@@ -2737,6 +2779,7 @@
   "label": "Lublin"
  },
  "luxembourg institute of health": null,
+ "luxembourg institute of science and technology (list); university of luxembourg": null,
  "lyon 1": {
   "lat": 33.608,
   "lng": -117.8301,
@@ -2893,6 +2936,11 @@
   "lng": 121.5416,
   "label": "Université nationale des sciences et des technologies de Taiwan"
  },
+ "netherlands": {
+  "lat": 52.2435,
+  "lng": 5.6343,
+  "label": "Pays-Bas"
+ },
  "new york": {
   "lat": 40.7127,
   "lng": -74.006,
@@ -3040,6 +3088,7 @@
   "lng": -78.9898,
   "label": "Universidad Politecnica Salesiana"
  },
+ "polymer research center, department of polymer technology, university of basrah, basra, iraq": null,
  "pontificia universidad católica de chile": {
   "lat": -33.4418,
   "lng": -70.6403,
@@ -3686,6 +3735,7 @@
   "lng": -89.431,
   "label": "University of Wisconsin-Madison"
  },
+ "university of world economy and diplomacy,  senior lecturer, doctor of philosophy": null,
  "university of zanjan": {
   "lat": 36.6717,
   "lng": 48.5055,
@@ -4243,6 +4293,7 @@
   "region": "États-Unis",
   "geo_source": "Wikidata · Google"
  },
+ "wdn:greenbitai": null,
  "wdn:guardion": null,
  "wdn:hackai 2026": null,
  "wdn:hacktogone": null,
@@ -4288,6 +4339,7 @@
   "geo_source": "Wikidata · Krafton"
  },
  "wdn:lakoreai": null,
+ "wdn:langtech machine translation": null,
  "wdn:langtech veu": null,
  "wdn:language technologies laboratory barcelona supercomputing center": null,
  "wdn:larc iu": null,
@@ -4297,6 +4349,13 @@
  "wdn:lerobot": null,
  "wdn:lichess": null,
  "wdn:lifeai": null,
+ "wdn:lipik": {
+  "lat": 45.4142,
+  "lng": 17.1611,
+  "city": "Lipik",
+  "region": "Croatie",
+  "geo_source": "Wikidata · Lipik"
+ },
  "wdn:liquid ai": null,
  "wdn:litert community fka tflite": null,
  "wdn:llamaindex": null,
@@ -4335,6 +4394,13 @@
  "wdn:mythologic": null,
  "wdn:naiveai": null,
  "wdn:nanbeige llm lab": null,
+ "wdn:nile academy": {
+  "lat": 2.1448,
+  "lng": 32.3365,
+  "city": "Nile Academy Primary School",
+  "region": "Ouganda",
+  "geo_source": "Wikidata · Nile Academy Primary School"
+ },
  "wdn:nlp ai korea university": null,
  "wdn:nu world model embodied ai": null,
  "wdn:nvidia": {
@@ -4405,6 +4471,7 @@
  "wdn:sparkllm": null,
  "wdn:speridlabs": null,
  "wdn:stanford nlp": null,
+ "wdn:stealth": null,
  "wdn:sunbird ai": {
   "lat": 35.5311,
   "lng": -81.0297,
@@ -4483,6 +4550,11 @@
   "label": "Zurich"
  },
  "ájiniyaz atındaǵı nmpi magistrantı": null,
+ "école polytechnique fédérale de lausanne": {
+  "lat": 46.5187,
+  "lng": 6.5666,
+  "label": "École Polytechnique Fédérale de Lausanne"
+ },
  "доцент, ташкентский государственный медицинский университет": null,
  "北京市海淀区": {
   "lat": 39.9581,
