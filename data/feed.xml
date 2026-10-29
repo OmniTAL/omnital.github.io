@@ -6,19 +6,307 @@
     <atom:link href="https://omnital.github.io/data/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Nouvelles ressources en traitement automatique des langues (arXiv, HAL, Hugging Face, GitHub, WikiCFP).</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 28 Oct 2026 11:28:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 11:35:05 +0000</lastBuildDate>
     <item>
-      <title>[Paper] Developing a Speech Language Model for Basque</title>
-      <link>https://arxiv.org/abs/2610.36911</link>
-      <guid isPermaLink="false">arxiv:2610.36911</guid>
+      <title>[Corpus] moltherm1/olmo-mirror-dolci-instruct-sft</title>
+      <link>https://huggingface.co/datasets/moltherm1/olmo-mirror-dolci-instruct-sft</link>
+      <guid isPermaLink="false">hf:datasets:moltherm1/olmo-mirror-dolci-instruct-sft</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Dolci Instruct SFT Mixture Note that this collection licensed under ODC-BY. It is intended for research and educational use in accordance with Ai2's Responsible Use Guidelines. The Dolci Instruct SFT mixture was used to train Olmo 3 7B…</description>
+    </item>
+    <item>
+      <title>[Model] mradermacher/Jugurtha-2-9B-GGUF</title>
+      <link>https://huggingface.co/mradermacher/Jugurtha-2-9B-GGUF</link>
+      <guid isPermaLink="false">hf:models:mradermacher/Jugurtha-2-9B-GGUF</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] sakasegawa/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-GGUF</title>
+      <link>https://huggingface.co/sakasegawa/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-GGUF</link>
+      <guid isPermaLink="false">hf:models:sakasegawa/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-GGUF</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] naklitechie/steno-speech-models</title>
+      <link>https://huggingface.co/naklitechie/steno-speech-models</link>
+      <guid isPermaLink="false">hf:models:naklitechie/steno-speech-models</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] ayb98top/my-moroccan-darija-whisper</title>
+      <link>https://huggingface.co/ayb98top/my-moroccan-darija-whisper</link>
+      <guid isPermaLink="false">hf:models:ayb98top/my-moroccan-darija-whisper</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Tool] ayb98top/moroccan-darija-keyboard</title>
+      <link>https://huggingface.co/spaces/ayb98top/moroccan-darija-keyboard</link>
+      <guid isPermaLink="false">hf:spaces:ayb98top/moroccan-darija-keyboard</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Corpus] Lexmount/lexbench-websearch</title>
+      <link>https://huggingface.co/datasets/Lexmount/lexbench-websearch</link>
+      <guid isPermaLink="false">hf:datasets:Lexmount/lexbench-websearch</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>LexBench Web Search LexBench Web Search evaluates the pages a search API returns for fixed queries: whether useful results appear near the top, whether explicit source requirements are met, and whether known reference pages are found. The…</description>
+    </item>
+    <item>
+      <title>[Corpus] VardanSharma13/spectrum-pretrain</title>
+      <link>https://huggingface.co/datasets/VardanSharma13/spectrum-pretrain</link>
+      <guid isPermaLink="false">hf:datasets:VardanSharma13/spectrum-pretrain</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Spectrum pretraining data (v3) Built by Vardan Sharma (MSc AI, University of Edinburgh) for the Spectrum project with Vivek Iyer and Prof. Alexandra Birch. Cleaned documents for pretraining Spectrum, an encoder-decoder LM over OmniSONAR…</description>
+    </item>
+    <item>
+      <title>[Model] agbalu/Jugurtha-2-9B-GGUF</title>
+      <link>https://huggingface.co/agbalu/Jugurtha-2-9B-GGUF</link>
+      <guid isPermaLink="false">hf:models:agbalu/Jugurtha-2-9B-GGUF</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] agbalu/Jugurtha-2-9B</title>
+      <link>https://huggingface.co/agbalu/Jugurtha-2-9B</link>
+      <guid isPermaLink="false">hf:models:agbalu/Jugurtha-2-9B</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] mathmaster1122/nllb-200-distilled-600M</title>
+      <link>https://huggingface.co/mathmaster1122/nllb-200-distilled-600M</link>
+      <guid isPermaLink="false">hf:models:mathmaster1122/nllb-200-distilled-600M</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] OthmaneW/tachelhit-asr</title>
+      <link>https://huggingface.co/OthmaneW/tachelhit-asr</link>
+      <guid isPermaLink="false">hf:models:OthmaneW/tachelhit-asr</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] VIMAL082/seamless-streaming</title>
+      <link>https://huggingface.co/VIMAL082/seamless-streaming</link>
+      <guid isPermaLink="false">hf:models:VIMAL082/seamless-streaming</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] bjnortier/coreai-ht5-whisper-medium-kv-static-float16</title>
+      <link>https://huggingface.co/bjnortier/coreai-ht5-whisper-medium-kv-static-float16</link>
+      <guid isPermaLink="false">hf:models:bjnortier/coreai-ht5-whisper-medium-kv-static-float16</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] bjnortier/coreai-ht5-whisper-large-v3-kv-static-float16</title>
+      <link>https://huggingface.co/bjnortier/coreai-ht5-whisper-large-v3-kv-static-float16</link>
+      <guid isPermaLink="false">hf:models:bjnortier/coreai-ht5-whisper-large-v3-kv-static-float16</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] bjnortier/coreai-ht5-whisper-large-v3-turbo-kv-float16</title>
+      <link>https://huggingface.co/bjnortier/coreai-ht5-whisper-large-v3-turbo-kv-float16</link>
+      <guid isPermaLink="false">hf:models:bjnortier/coreai-ht5-whisper-large-v3-turbo-kv-float16</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Ahsanmandhar/agentic-heart-murmur-ast</title>
+      <link>https://huggingface.co/Ahsanmandhar/agentic-heart-murmur-ast</link>
+      <guid isPermaLink="false">hf:models:Ahsanmandhar/agentic-heart-murmur-ast</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Ahsanmandhar/heart-murmur-ast</title>
+      <link>https://huggingface.co/Ahsanmandhar/heart-murmur-ast</link>
+      <guid isPermaLink="false">hf:models:Ahsanmandhar/heart-murmur-ast</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] FluidInference/nemotron-labs-unified-asr-0.6b-coreml</title>
+      <link>https://huggingface.co/FluidInference/nemotron-labs-unified-asr-0.6b-coreml</link>
+      <guid isPermaLink="false">hf:models:FluidInference/nemotron-labs-unified-asr-0.6b-coreml</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] longlenai-team/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</title>
+      <link>https://huggingface.co/longlenai-team/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</link>
+      <guid isPermaLink="false">hf:models:longlenai-team/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] smdesai/parakeet-unified-asr-0.6b-CoreAI</title>
+      <link>https://huggingface.co/smdesai/parakeet-unified-asr-0.6b-CoreAI</link>
+      <guid isPermaLink="false">hf:models:smdesai/parakeet-unified-asr-0.6b-CoreAI</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] bjnortier/coreai-ht5-parakeet-tdt-0.6b-v3-float16-static</title>
+      <link>https://huggingface.co/bjnortier/coreai-ht5-parakeet-tdt-0.6b-v3-float16-static</link>
+      <guid isPermaLink="false">hf:models:bjnortier/coreai-ht5-parakeet-tdt-0.6b-v3-float16-static</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] diarizeapp/parakeet-tdt-0.6b-v3-onnx-qnn</title>
+      <link>https://huggingface.co/diarizeapp/parakeet-tdt-0.6b-v3-onnx-qnn</link>
+      <guid isPermaLink="false">hf:models:diarizeapp/parakeet-tdt-0.6b-v3-onnx-qnn</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Opportunity] Freelance Full-Stack Developer | Django | AI Products | Python &amp; LLM Integration | Remote 100%</title>
+      <link>https://www.arbeitnow.com/jobs/companies/hurracom/freelance-full-stack-developer-django-ai-products-python-llm-integration-remote-100-stuttgart-200558</link>
+      <guid isPermaLink="false">arbeitnow:freelance-full-stack-developer-django-ai-products-python-llm-integration-remote-100-stuttgart-200558</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arbeitnow</category>
+      <description>Remote (worldwide) Freelance | ~60 hours/month We are an independent German digital marketing agency with proprietary technology. hurra.ai is our AI product, a growing platform that sits at the intersection of marketing intelligence and…</description>
+    </item>
+    <item>
+      <title>[Model] Freonius/jerome-translation-models</title>
+      <link>https://huggingface.co/Freonius/jerome-translation-models</link>
+      <guid isPermaLink="false">hf:models:Freonius/jerome-translation-models</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] AletheiaAING/gemma-science-translate-GGUF</title>
+      <link>https://huggingface.co/AletheiaAING/gemma-science-translate-GGUF</link>
+      <guid isPermaLink="false">hf:models:AletheiaAING/gemma-science-translate-GGUF</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] BeardedMonster/gemma-science-translate</title>
+      <link>https://huggingface.co/BeardedMonster/gemma-science-translate</link>
+      <guid isPermaLink="false">hf:models:BeardedMonster/gemma-science-translate</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Opportunity] Generative AI Analyst | Dutch (Netherlands)</title>
+      <link>https://www.arbeitnow.nl/jobs/companies/welo-global/generative-ai-analyst-dutch-netherlands-199013</link>
+      <guid isPermaLink="false">arbeitnow:generative-ai-analyst-dutch-netherlands-199013</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Although the recent development of LLMs has paved the way for multi-modal interaction, minority languages face difficulties keeping pace. This work presents the first open Speech Language Model for Basque, designed for low-latency,…</description>
+      <category>arbeitnow</category>
+      <description>About the Role Are you passionate about language, technology, and data quality? Join our global community of AI specialists and contribute to the development of next-generation Generative AI systems used by millions of people worldwide.…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Lead AI Engineer - ML/LLM Ops &amp; Agentic AI</title>
+      <link>https://www.arbeitnow.fr/jobs/companies/shifttechnology/lead-ai-engineer-ml-llm-ops-agentic-ai-479819</link>
+      <guid isPermaLink="false">arbeitnow:lead-ai-engineer-ml-llm-ops-agentic-ai-479819</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arbeitnow</category>
+      <description>Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers.…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Werkstudierende:r Data Annotation Pflegebranche (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/voize/werkstudierender-data-annotation-pflegebranche-berlin-237842</link>
+      <guid isPermaLink="false">arbeitnow:werkstudierender-data-annotation-pflegebranche-berlin-237842</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>arbeitnow</category>
+      <description>🎤 Warum voize? Weil wir mehr als nur ein Job sind! Bei voize revolutionieren wir die Pflegebranche mit KI: Mit voize sprechen Pflegekräfte ihre Dokumentation einfach ins Smartphone und unsere KI erstellt automatisch die richtigen…</description>
+    </item>
+    <item>
+      <title>[Model] abid1010/parakeet-ultra-onnx</title>
+      <link>https://huggingface.co/abid1010/parakeet-ultra-onnx</link>
+      <guid isPermaLink="false">hf:models:abid1010/parakeet-ultra-onnx</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] lipik/Fun-ASR-MLT-Nano-2512-gguf</title>
+      <link>https://huggingface.co/lipik/Fun-ASR-MLT-Nano-2512-gguf</link>
+      <guid isPermaLink="false">hf:models:lipik/Fun-ASR-MLT-Nano-2512-gguf</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] lipik/canary-1b-v2-gguf</title>
+      <link>https://huggingface.co/lipik/canary-1b-v2-gguf</link>
+      <guid isPermaLink="false">hf:models:lipik/canary-1b-v2-gguf</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] lipik/lang-id-voxlingua107-ecapa-gguf</title>
+      <link>https://huggingface.co/lipik/lang-id-voxlingua107-ecapa-gguf</link>
+      <guid isPermaLink="false">hf:models:lipik/lang-id-voxlingua107-ecapa-gguf</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] lipik/parakeet-tdt-0.6b-v3-gguf</title>
+      <link>https://huggingface.co/lipik/parakeet-tdt-0.6b-v3-gguf</link>
+      <guid isPermaLink="false">hf:models:lipik/parakeet-tdt-0.6b-v3-gguf</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] lipik/parakeet-ultra-gguf</title>
+      <link>https://huggingface.co/lipik/parakeet-ultra-gguf</link>
+      <guid isPermaLink="false">hf:models:lipik/parakeet-ultra-gguf</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
     </item>
     <item>
       <title>[Model] lipik/whisper-large-v3-gguf</title>
       <link>https://huggingface.co/lipik/whisper-large-v3-gguf</link>
       <guid isPermaLink="false">hf:models:lipik/whisper-large-v3-gguf</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] lipik/whisper-large-v3-turbo-gguf</title>
+      <link>https://huggingface.co/lipik/whisper-large-v3-turbo-gguf</link>
+      <guid isPermaLink="false">hf:models:lipik/whisper-large-v3-turbo-gguf</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
@@ -40,30 +328,6 @@
       <description></description>
     </item>
     <item>
-      <title>[Model] lipik/whisper-large-v3-turbo-gguf</title>
-      <link>https://huggingface.co/lipik/whisper-large-v3-turbo-gguf</link>
-      <guid isPermaLink="false">hf:models:lipik/whisper-large-v3-turbo-gguf</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] lipik/lang-id-voxlingua107-ecapa-gguf</title>
-      <link>https://huggingface.co/lipik/lang-id-voxlingua107-ecapa-gguf</link>
-      <guid isPermaLink="false">hf:models:lipik/lang-id-voxlingua107-ecapa-gguf</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] openeurollm/tokenizer-256k-reason</title>
-      <link>https://huggingface.co/openeurollm/tokenizer-256k-reason</link>
-      <guid isPermaLink="false">hf:models:openeurollm/tokenizer-256k-reason</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
       <title>[Model] nile-academy/whisper-large-v3-turbo-ggml</title>
       <link>https://huggingface.co/nile-academy/whisper-large-v3-turbo-ggml</link>
       <guid isPermaLink="false">hf:models:nile-academy/whisper-large-v3-turbo-ggml</guid>
@@ -80,83 +344,59 @@
       <description></description>
     </item>
     <item>
-      <title>[Model] lipik/canary-1b-v2-gguf</title>
-      <link>https://huggingface.co/lipik/canary-1b-v2-gguf</link>
-      <guid isPermaLink="false">hf:models:lipik/canary-1b-v2-gguf</guid>
+      <title>[Model] openeurollm/tokenizer-256k-reason</title>
+      <link>https://huggingface.co/openeurollm/tokenizer-256k-reason</link>
+      <guid isPermaLink="false">hf:models:openeurollm/tokenizer-256k-reason</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
     </item>
     <item>
-      <title>[Model] lipik/Fun-ASR-MLT-Nano-2512-gguf</title>
-      <link>https://huggingface.co/lipik/Fun-ASR-MLT-Nano-2512-gguf</link>
-      <guid isPermaLink="false">hf:models:lipik/Fun-ASR-MLT-Nano-2512-gguf</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] lipik/parakeet-ultra-gguf</title>
-      <link>https://huggingface.co/lipik/parakeet-ultra-gguf</link>
-      <guid isPermaLink="false">hf:models:lipik/parakeet-ultra-gguf</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] lipik/parakeet-tdt-0.6b-v3-gguf</title>
-      <link>https://huggingface.co/lipik/parakeet-tdt-0.6b-v3-gguf</link>
-      <guid isPermaLink="false">hf:models:lipik/parakeet-tdt-0.6b-v3-gguf</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] abid1010/parakeet-ultra-onnx</title>
-      <link>https://huggingface.co/abid1010/parakeet-ultra-onnx</link>
-      <guid isPermaLink="false">hf:models:abid1010/parakeet-ultra-onnx</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Opportunity] Werkstudierende:r Data Annotation Pflegebranche (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/voize/werkstudierender-data-annotation-pflegebranche-berlin-237842</link>
-      <guid isPermaLink="false">arbeitnow:werkstudierender-data-annotation-pflegebranche-berlin-237842</guid>
+      <title>[Opportunity] KI-Entwickler LLM / RAG / Agenten – Python oder TypeScript (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/rockstardevelopers-gmbh/ki-entwickler-llm-rag-agenten-python-oder-typescript-berlin-207271</link>
+      <guid isPermaLink="false">arbeitnow:ki-entwickler-llm-rag-agenten-python-oder-typescript-berlin-207271</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <category>arbeitnow</category>
-      <description>🎤 Warum voize? Weil wir mehr als nur ein Job sind! Bei voize revolutionieren wir die Pflegebranche mit KI: Mit voize sprechen Pflegekräfte ihre Dokumentation einfach ins Smartphone und unsere KI erstellt automatisch die richtigen…</description>
+      <description>Du baust KI-Anwendungen, die beim Kunden im Regelbetrieb laufen: Dialogsysteme, semantische Suche, RAG-Pipelines, Agenten mit Werkzeuganbindung. Kein Prototyp für die Schublade. Wer wir sind Rockstardevelopers, gegründet 2015 in Mannheim,…</description>
     </item>
     <item>
-      <title>[Opportunity] Lead AI Engineer - ML/LLM Ops &amp; Agentic AI</title>
-      <link>https://www.arbeitnow.fr/jobs/companies/shifttechnology/lead-ai-engineer-ml-llm-ops-agentic-ai-479819</link>
-      <guid isPermaLink="false">arbeitnow:lead-ai-engineer-ml-llm-ops-agentic-ai-479819</guid>
+      <title>[Opportunity] Senior Product Manager - Retrieval</title>
+      <link>https://www.arbeitnow.co.uk/jobs/companies/ocadogroup/senior-product-manager-retrieval-hatfield-272343</link>
+      <guid isPermaLink="false">arbeitnow:senior-product-manager-retrieval-hatfield-272343</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <category>arbeitnow</category>
-      <description>Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers.…</description>
+      <description>Senior Product Manager - Retrieval | Storage, Peripherals &amp; Retrieval | Hybrid Working | Hatfield About Us We are Ocado Group and we're bringing world-class automation to online grocery. Our Ocado Smart Platform (OSP) combines…</description>
     </item>
     <item>
-      <title>[Opportunity] Generative AI Analyst | Dutch (Netherlands)</title>
-      <link>https://www.arbeitnow.nl/jobs/companies/welo-global/generative-ai-analyst-dutch-netherlands-199013</link>
-      <guid isPermaLink="false">arbeitnow:generative-ai-analyst-dutch-netherlands-199013</guid>
+      <title>[Opportunity] Working Student - LLM Quantization &amp; Inference Performance</title>
+      <link>https://www.arbeitnow.com/jobs/companies/tensordyne/working-student-llm-quantization-inference-performance-munich-213802</link>
+      <guid isPermaLink="false">arbeitnow:working-student-llm-quantization-inference-performance-munich-213802</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <category>arbeitnow</category>
-      <description>About the Role Are you passionate about language, technology, and data quality? Join our global community of AI specialists and contribute to the development of next-generation Generative AI systems used by millions of people worldwide.…</description>
+      <description>About Tensordyne (formerly Recogni) AI is transforming our world. It can perform cognitive functions that previously only humans could do, such as perceiving interactions across different modalities and environments - with the ability to…</description>
     </item>
     <item>
-      <title>[Model] walydevelopers/OmniVoice</title>
-      <link>https://huggingface.co/walydevelopers/OmniVoice</link>
-      <guid isPermaLink="false">hf:models:walydevelopers/OmniVoice</guid>
+      <title>[Paper] Developing a Speech Language Model for Basque</title>
+      <link>https://arxiv.org/abs/2610.36911</link>
+      <guid isPermaLink="false">arxiv:2610.36911</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
+      <category>arxiv</category>
+      <description>Although the recent development of LLMs has paved the way for multi-modal interaction, minority languages face difficulties keeping pace. This work presents the first open Speech Language Model for Basque, designed for low-latency,…</description>
     </item>
     <item>
-      <title>[Model] dougmov/drama-3</title>
-      <link>https://huggingface.co/dougmov/drama-3</link>
-      <guid isPermaLink="false">hf:models:dougmov/drama-3</guid>
+      <title>[Opportunity] Data Annotation Specialist - German Writer/Translator</title>
+      <link>https://jobs.ashbyhq.com/cohere/acec6038-117b-400b-92e3-0745fbb4cf53</link>
+      <guid isPermaLink="false">ashby:cohere:acec6038-117b-400b-92e3-0745fbb4cf53</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
+      <category>ashby</category>
+      <description>Who are we? Our mission is to scale intelligence to serve humanity. We’re training and deploying frontier models for developers and enterprises who are building AI systems to power magical experiences like content generation, semantic…</description>
+    </item>
+    <item>
+      <title>[Tool] aimedben/kabyle-voice-word-garden</title>
+      <link>https://github.com/aimedben/kabyle-voice-word-garden</link>
+      <guid isPermaLink="false">gh:aimedben/kabyle-voice-word-garden</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
       <description></description>
     </item>
     <item>
@@ -184,6 +424,14 @@
       <description></description>
     </item>
     <item>
+      <title>[Model] dougmov/drama-3</title>
+      <link>https://huggingface.co/dougmov/drama-3</link>
+      <guid isPermaLink="false">hf:models:dougmov/drama-3</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
       <title>[Model] eschmidbauer/phonon-2.5-c</title>
       <link>https://huggingface.co/eschmidbauer/phonon-2.5-c</link>
       <guid isPermaLink="false">hf:models:eschmidbauer/phonon-2.5-c</guid>
@@ -200,44 +448,12 @@
       <description></description>
     </item>
     <item>
-      <title>[Tool] aimedben/kabyle-voice-word-garden</title>
-      <link>https://github.com/aimedben/kabyle-voice-word-garden</link>
-      <guid isPermaLink="false">gh:aimedben/kabyle-voice-word-garden</guid>
+      <title>[Model] walydevelopers/OmniVoice</title>
+      <link>https://huggingface.co/walydevelopers/OmniVoice</link>
+      <guid isPermaLink="false">hf:models:walydevelopers/OmniVoice</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>github</category>
+      <category>huggingface</category>
       <description></description>
-    </item>
-    <item>
-      <title>[Opportunity] Data Annotation Specialist - German Writer/Translator</title>
-      <link>https://jobs.ashbyhq.com/cohere/acec6038-117b-400b-92e3-0745fbb4cf53</link>
-      <guid isPermaLink="false">ashby:cohere:acec6038-117b-400b-92e3-0745fbb4cf53</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>ashby</category>
-      <description>Who are we? Our mission is to scale intelligence to serve humanity. We’re training and deploying frontier models for developers and enterprises who are building AI systems to power magical experiences like content generation, semantic…</description>
-    </item>
-    <item>
-      <title>[Opportunity] KI-Entwickler LLM / RAG / Agenten – Python oder TypeScript (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/rockstardevelopers-gmbh/ki-entwickler-llm-rag-agenten-python-oder-typescript-berlin-207271</link>
-      <guid isPermaLink="false">arbeitnow:ki-entwickler-llm-rag-agenten-python-oder-typescript-berlin-207271</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arbeitnow</category>
-      <description>Du baust KI-Anwendungen, die beim Kunden im Regelbetrieb laufen: Dialogsysteme, semantische Suche, RAG-Pipelines, Agenten mit Werkzeuganbindung. Kein Prototyp für die Schublade. Wer wir sind Rockstardevelopers, gegründet 2015 in Mannheim,…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Senior Product Manager - Retrieval</title>
-      <link>https://www.arbeitnow.co.uk/jobs/companies/ocadogroup/senior-product-manager-retrieval-hatfield-272343</link>
-      <guid isPermaLink="false">arbeitnow:senior-product-manager-retrieval-hatfield-272343</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arbeitnow</category>
-      <description>Senior Product Manager - Retrieval | Storage, Peripherals &amp; Retrieval | Hybrid Working | Hatfield About Us We are Ocado Group and we're bringing world-class automation to online grocery. Our Ocado Smart Platform (OSP) combines…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Working Student - LLM Quantization &amp; Inference Performance</title>
-      <link>https://www.arbeitnow.com/jobs/companies/tensordyne/working-student-llm-quantization-inference-performance-munich-213802</link>
-      <guid isPermaLink="false">arbeitnow:working-student-llm-quantization-inference-performance-munich-213802</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arbeitnow</category>
-      <description>About Tensordyne (formerly Recogni) AI is transforming our world. It can perform cognitive functions that previously only humans could do, such as perceiving interactions across different modalities and environments - with the ability to…</description>
     </item>
     <item>
       <title>[Tool] Mezo-555/NQLa-Intelligent-Microbus-Transport</title>
@@ -437,7 +653,7 @@
       <guid isPermaLink="false">hf:datasets:vocabradar/VocabFreq</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
-      <description>Word Frequency Lists (110 languages) English | 中文说明 Small word-frequency lists for 110 languages, self-built for use as offline frequency dictionaries: one gzip-compressed MessagePack file per language, about 13 MB in total. These lists…</description>
+      <description>Three-tier Word Frequency Lists / 三档词频表 About VocabRadar This dataset is a VocabRadar project — the vocabulary radar. The VocabRadar browser extension marks up the words you do not know yet while you watch videos or browse the web:…</description>
     </item>
     <item>
       <title>[Model] hossein95/drama-3</title>
@@ -590,222 +806,6 @@
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
-    </item>
-    <item>
-      <title>[Model] CompiwerAI/Mtrini-SVL-2.0</title>
-      <link>https://huggingface.co/CompiwerAI/Mtrini-SVL-2.0</link>
-      <guid isPermaLink="false">hf:models:CompiwerAI/Mtrini-SVL-2.0</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] EXAiStudio/EX-Ai1-3.88B-Gemma3</title>
-      <link>https://huggingface.co/EXAiStudio/EX-Ai1-3.88B-Gemma3</link>
-      <guid isPermaLink="false">hf:models:EXAiStudio/EX-Ai1-3.88B-Gemma3</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] almanach/molt-blt-660m</title>
-      <link>https://huggingface.co/almanach/molt-blt-660m</link>
-      <guid isPermaLink="false">hf:models:almanach/molt-blt-660m</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Opportunity] Détection et annotation sémantique de changements dans des données géographiques</title>
-      <link>https://theses.fr/s443890</link>
-      <guid isPermaLink="false">theses:s443890</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>theses</category>
-      <description>Thèse en préparation — Informatique. Direction : Marlène Villanova. Laboratoire : Laboratoire d'Informatique de Grenoble</description>
-    </item>
-    <item>
-      <title>[Tool] CorPipe 26 Multilingual CorefUD 1.4 Model (260702)</title>
-      <link>https://live.european-language-grid.eu/catalogue/tool-service/24464</link>
-      <guid isPermaLink="false">elg:24464</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>elg</category>
-      <description>The corpipe26-onestage/twostage-corefud1.4-base/large/xl-260702 are (u)mT5-base/large/xl-based multilingual models for coreference resolution usable in CorPipe 26 (https://github.com/ufal/crac2026-corpipe). They are released under the CC…</description>
-    </item>
-    <item>
-      <title>[Tool] CorPipe 25 Multilingual CorefUD 1.3 Model (251101)</title>
-      <link>https://live.european-language-grid.eu/catalogue/tool-service/24465</link>
-      <guid isPermaLink="false">elg:24465</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>elg</category>
-      <description>The corpipe25-corefud1.3-base/large/xl-251101 are (u)mT5-base/large/xl-based multilingual models for coreference resolution usable in CorPipe 25 (https://github.com/ufal/crac2025-corpipe). They are released under the CC BY-NC-SA 4.0…</description>
-    </item>
-    <item>
-      <title>[Tool] salimadour31-boop/harmonie-atelier</title>
-      <link>https://github.com/salimadour31-boop/harmonie-atelier</link>
-      <guid isPermaLink="false">gh:salimadour31-boop/harmonie-atelier</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>github</category>
-      <description>Générateur de palettes de couleurs harmonieuses 100% navigateur pour design et cinéma. Multilingue FR/EN/Taqbaylit. MIT.</description>
-    </item>
-    <item>
-      <title>[Tool] Younes695/egyptian-arabic-sentiment</title>
-      <link>https://github.com/Younes695/egyptian-arabic-sentiment</link>
-      <guid isPermaLink="false">gh:younes695/egyptian-arabic-sentiment</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>github</category>
-      <description>Sentiment analysis for Egyptian Arabic: TF-IDF baseline vs fine-tuned CAMeLBERT on ASTD</description>
-    </item>
-    <item>
-      <title>[Model] TokenTinkerer/Cyber-Tiel-Coder-35B-A3B-MTP-TTQ-GGUF</title>
-      <link>https://huggingface.co/TokenTinkerer/Cyber-Tiel-Coder-35B-A3B-MTP-TTQ-GGUF</link>
-      <guid isPermaLink="false">hf:models:TokenTinkerer/Cyber-Tiel-Coder-35B-A3B-MTP-TTQ-GGUF</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Zubr-AI/zubr-mini-1.9-8b</title>
-      <link>https://huggingface.co/Zubr-AI/zubr-mini-1.9-8b</link>
-      <guid isPermaLink="false">hf:models:Zubr-AI/zubr-mini-1.9-8b</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] selcukkubur/Phonon-2.5-mlx</title>
-      <link>https://huggingface.co/selcukkubur/Phonon-2.5-mlx</link>
-      <guid isPermaLink="false">hf:models:selcukkubur/Phonon-2.5-mlx</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Opportunity] Senior AI Researcher: LLM post-training for hallucination reduction (f/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/alephalpha/senior-ai-researcher-llm-post-training-for-hallucination-reduction-heidelberg-353789</link>
-      <guid isPermaLink="false">arbeitnow:senior-ai-researcher-llm-post-training-for-hallucination-reduction-heidelberg-353789</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>arbeitnow</category>
-      <description>Who we are Aleph Alpha’s mission is to deliver sovereign, human-centric AI to governmental institutions and large enterprises. To that end, we deliver category-defining AI innovation that enables open, accessible, and trustworthy…</description>
-    </item>
-    <item>
-      <title>[Tool] Amoh2026/thimlilith</title>
-      <link>https://github.com/Amoh2026/thimlilith</link>
-      <guid isPermaLink="false">gh:amoh2026/thimlilith</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>github</category>
-      <description>Kabyle Community Chat Platform</description>
-    </item>
-    <item>
-      <title>[Tool] youcefdz85/Kabyle-app</title>
-      <link>https://github.com/youcefdz85/Kabyle-app</link>
-      <guid isPermaLink="false">gh:youcefdz85/kabyle-app</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>github</category>
-      <description>Kabyle app for the diaspora</description>
-    </item>
-    <item>
-      <title>[Corpus] IkerAzurmendi/bin-sorting-intents</title>
-      <link>https://huggingface.co/datasets/IkerAzurmendi/bin-sorting-intents</link>
-      <guid isPermaLink="false">hf:datasets:IkerAzurmendi/bin-sorting-intents</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>bin-sorting-intents Synthetic voice-command sentences for a robot cell with two destination boxes (big and white) and two kinds of pieces (with or without a bolt, good or bad), in Spanish, English and Basque. Each sentence is labelled…</description>
-    </item>
-    <item>
-      <title>[Model] IkerAzurmendi/bin-intent-gliner2</title>
-      <link>https://huggingface.co/IkerAzurmendi/bin-intent-gliner2</link>
-      <guid isPermaLink="false">hf:models:IkerAzurmendi/bin-intent-gliner2</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Parikshirendupoojiyamettu/drama-3</title>
-      <link>https://huggingface.co/Parikshirendupoojiyamettu/drama-3</link>
-      <guid isPermaLink="false">hf:models:Parikshirendupoojiyamettu/drama-3</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] abdullah-khaled/mt5-small-ea-finetuned</title>
-      <link>https://huggingface.co/abdullah-khaled/mt5-small-ea-finetuned</link>
-      <guid isPermaLink="false">hf:models:abdullah-khaled/mt5-small-ea-finetuned</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] shaikayany/OmniVoice</title>
-      <link>https://huggingface.co/shaikayany/OmniVoice</link>
-      <guid isPermaLink="false">hf:models:shaikayany/OmniVoice</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] small-models-for-glam/kraken-party-base</title>
-      <link>https://huggingface.co/small-models-for-glam/kraken-party-base</link>
-      <guid isPermaLink="false">hf:models:small-models-for-glam/kraken-party-base</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Tool] karim12129/darija-chat-inference</title>
-      <link>https://huggingface.co/spaces/karim12129/darija-chat-inference</link>
-      <guid isPermaLink="false">hf:spaces:karim12129/darija-chat-inference</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Corpus] YemSarc: A Multimodal Benchmark Dataset for Sarcasm Detection in Yemeni and Related Arabic Dialects</title>
-      <link>https://zenodo.org/records/23622433</link>
-      <guid isPermaLink="false">zenodo:23622432</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>zenodo</category>
-      <description>YemSarc is the first multimodal (text, audio, and video) benchmark dataset for sarcasm detection in Yemeni dialectal Arabic and seven additional Arabic dialects. It comprises 630 balanced utterances (315 sarcastic, 315 non-sarcastic)…</description>
-    </item>
-    <item>
-      <title>[Model] abdullah-khaled/nllb-egyptian-arabic-finetuned</title>
-      <link>https://huggingface.co/abdullah-khaled/nllb-egyptian-arabic-finetuned</link>
-      <guid isPermaLink="false">hf:models:abdullah-khaled/nllb-egyptian-arabic-finetuned</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Opportunity] La prosodie dans le cadre de l'allemand langue étrangère : une étude expérimentale sur l'efficacité d'un apprentissage fondé sur la linguistique chez les italophones.</title>
-      <link>https://theses.fr/s443849</link>
-      <guid isPermaLink="false">theses:s443849</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>theses</category>
-      <description>Thèse en préparation — Sciences du langage. Direction : Ingo Feldhausen. Laboratoire : ATILF - Analyse et Traitement Informatique de la Langue Française</description>
-    </item>
-    <item>
-      <title>[Model] Panga-Azazia/Wuro-Nucobiyo-Tanle-v2</title>
-      <link>https://huggingface.co/Panga-Azazia/Wuro-Nucobiyo-Tanle-v2</link>
-      <guid isPermaLink="false">hf:models:Panga-Azazia/Wuro-Nucobiyo-Tanle-v2</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Panga-Azazia/LFM2.5-350M-TTS-v4</title>
-      <link>https://huggingface.co/Panga-Azazia/LFM2.5-350M-TTS-v4</link>
-      <guid isPermaLink="false">hf:models:Panga-Azazia/LFM2.5-350M-TTS-v4</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Opportunity] Le passage à l'acte comme traitement de la jouissance de l'Autre dans la psychose et perspectives de modification de la position subjective dans le champ du langage et du social.</title>
-      <link>https://theses.fr/s443626</link>
-      <guid isPermaLink="false">theses:s443626</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>theses</category>
-      <description>Thèse en préparation — PSYCHOLOGIE Spécialité Psychologie et Psychopathologie Clinique. Direction : Isabelle Launay boulze, Jean-Philippe Roustant. Laboratoire : EPSYLON - Dynamique des capacités humaines et des conduites de santé</description>
     </item>
   </channel>
 </rss>
