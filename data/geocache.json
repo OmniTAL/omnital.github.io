@@ -1,4 +1,5 @@
 {
+ "@google-deepmind": null,
  "@icra": {
   "lat": 41.9274,
   "lng": 2.2529,
@@ -206,6 +207,11 @@
   "label": "Bordeaux"
  },
  "boston, ma": {
+  "lat": 42.3588,
+  "lng": -71.0578,
+  "label": "Boston"
+ },
+ "boston, massachusetts": {
   "lat": 42.3588,
   "lng": -71.0578,
   "label": "Boston"
@@ -489,6 +495,7 @@
  "department of electrical and computer engineering, university of california san diego": null,
  "department of environmental engineering, seoul national university of science and technology": null,
  "department of information and communication technology, faculty of science and liberal arts, rajamangala university of technology isan, thailand": null,
+ "department of inorganic chemistry, ivan franko national university of lviv": null,
  "department of linguistics, stockholm university": null,
  "department of neurology, staten island university hospital, northwell health": null,
  "department of plant sciences, university of cambridge, uk": null,
@@ -502,6 +509,7 @@
  "digital economy, the business school, rmit university vietnam": null,
  "division of earth observation and geoinformatics (diotg), general coordination of earth sciences (cg-ct), national institute for space research (inpe), são josé dos campos, sp, brazil": null,
  "division of science, new york university abu dhabi, abu dhabi, united arab emirates": null,
+ "doctor of sciences (dsc) oriental university acting professor, department of languages-2": null,
  "donostia-san sebastián": {
   "lat": 43.3224,
   "lng": -1.9839,
@@ -740,6 +748,10 @@
   "location": null,
   "name": "Stefano 0x640x610x670x6f "
  },
+ "gh:dazedanon": {
+  "location": null,
+  "name": "dazedanon"
+ },
  "gh:deeplethe": {
   "location": null,
   "name": "DeepLethe"
@@ -787,6 +799,10 @@
  "gh:fotonik-sk": {
   "location": null,
   "name": "Nikita Prismakov"
+ },
+ "gh:gigaetherealos": {
+  "location": "Skopje, North Macedonia",
+  "name": "Gilbert Fowler"
  },
  "gh:hanzohanzhe": {
   "location": null,
@@ -848,6 +864,10 @@
   "location": null,
   "name": "Kerem001"
  },
+ "gh:kingtajscale": {
+  "location": "Boston, Massachusetts",
+  "name": "Dylan Phillips"
+ },
  "gh:kkkkhazix": {
   "location": null,
   "name": "Khazix"
@@ -907,6 +927,10 @@
  "gh:michael-chow-arch": {
   "location": "China",
   "name": "Michael Chow"
+ },
+ "gh:microsoft": {
+  "location": "Redmond, WA",
+  "name": "Microsoft"
  },
  "gh:miuuyy": {
   "location": "Europe",
@@ -1055,6 +1079,10 @@
  "gh:recepyagmur": {
   "location": null,
   "name": "Recep Yağmur"
+ },
+ "gh:rocconazzarelli-arch": {
+  "location": "Milan",
+  "name": "Rocco Nazzarelli"
  },
  "gh:ronadin2002": {
   "location": null,
@@ -1463,6 +1491,7 @@
  "hf:aoiandroid": null,
  "hf:apjanco": null,
  "hf:aqvaylis": null,
+ "hf:arach": null,
  "hf:archivestudio": null,
  "hf:ares-realm-studios": {
   "fullname": "Ares Realm Studios"
@@ -1475,6 +1504,7 @@
  "hf:ash3241": null,
  "hf:ashtok897": null,
  "hf:asincole": null,
+ "hf:aslp-lab": null,
  "hf:assafvayner": null,
  "hf:astroware": {
   "fullname": "Astroware Labs"
@@ -1556,6 +1586,9 @@
  },
  "hf:btb01": null,
  "hf:buihuubac1985": null,
+ "hf:builderhelm": {
+  "fullname": "BuilderHelm  AI"
+ },
  "hf:c1ayvveng": null,
  "hf:cabry09": null,
  "hf:cactus-compute": {
@@ -1672,6 +1705,7 @@
  "hf:deymon3522": null,
  "hf:dgurgurov": null,
  "hf:dhyeye": null,
+ "hf:diablomike20": null,
  "hf:diarizeapp": null,
  "hf:diffuspace": {
   "fullname": "Diffuspace"
@@ -1685,6 +1719,7 @@
  "hf:discourse": {
   "fullname": "Civilized Discourse Construction Kit, Inc."
  },
+ "hf:divagr1925": null,
  "hf:djamelrb4": null,
  "hf:dksibbs": null,
  "hf:doannv": null,
@@ -1830,6 +1865,7 @@
  "hf:hacktogone": {
   "fullname": "hacktogone"
  },
+ "hf:hadidiz9": null,
  "hf:hafsa0": null,
  "hf:haitam03": null,
  "hf:hammedalmodel": null,
@@ -2111,6 +2147,7 @@
  "hf:marxx01": null,
  "hf:masterx": null,
  "hf:matenek": null,
+ "hf:maternion": null,
  "hf:mathematiciannlper": null,
  "hf:mathmaster1122": null,
  "hf:mattt": null,
@@ -2374,6 +2411,7 @@
  "hf:r3v01t": null,
  "hf:rahul05ranjan": null,
  "hf:rail70": null,
+ "hf:rainboww51": null,
  "hf:ramakairi": null,
  "hf:ranagaber": null,
  "hf:rapidata": {
@@ -2413,6 +2451,7 @@
  "hf:ruggsea": null,
  "hf:ruudvelo": null,
  "hf:ryanmarten": null,
+ "hf:s1lvrn0": null,
  "hf:saidutta69": null,
  "hf:saiidah": null,
  "hf:sailu4": null,
@@ -2443,6 +2482,9 @@
  "hf:selcukkubur": null,
  "hf:seml-lab": {
   "fullname": "Secure Machine Learning Lab"
+ },
+ "hf:sensenova": {
+  "fullname": "SenseNova"
  },
  "hf:sepidmnorozy": null,
  "hf:sequentiallearning": {
@@ -2688,6 +2730,9 @@
  "hf:xhtoken": {
   "fullname": "SparkLLM"
  },
+ "hf:xiaomi-research": {
+  "fullname": "Xiaomi Research"
+ },
  "hf:xiaomimimo": {
   "fullname": "Xiaomi MiMo"
  },
@@ -2736,6 +2781,7 @@
  "ikerbasque": null,
  "imdea software institute": null,
  "independent researcher": null,
+ "independent researcher at andijan state institute of foreign languages": null,
  "independent researcher at kokand university": null,
  "independent researcher of samarkand state institute of foreign languages": null,
  "independent researcher, andijan state university": null,
@@ -2817,6 +2863,11 @@
   "lat": 39.3302,
   "lng": -76.6219,
   "label": "Johns Hopkins University"
+ },
+ "jouf  university": {
+  "lat": 29.7849,
+  "lng": 40.0353,
+  "label": "جامعة الجوف"
  },
  "jönköping university": {
   "lat": 57.778,
@@ -3335,6 +3386,11 @@
   "lng": 73.0537,
   "label": "Rawalpindi"
  },
+ "redmond, wa": {
+  "lat": 47.6694,
+  "lng": -122.1239,
+  "label": "Redmond"
+ },
  "research center for intelligent distributed surveillance and security, universitas dian nuswantoro, indonesia; faculty of computer science, universitas dian nuswantoro, semarang, indonesia": null,
  "roskilde university": {
   "lat": 55.6527,
@@ -3386,6 +3442,11 @@
   "label": "San Francisco"
  },
  "san francisco, california, usa": {
+  "lat": 37.7879,
+  "lng": -122.4075,
+  "label": "San Francisco"
+ },
+ "san francisco, usa": {
   "lat": 37.7879,
   "lng": -122.4075,
   "label": "San Francisco"
@@ -3478,6 +3539,11 @@
   "lat": 1.3571,
   "lng": 103.8195,
   "label": "Singapour"
+ },
+ "skopje, north macedonia": {
+  "lat": 41.9962,
+  "lng": 21.4319,
+  "label": "Skopje"
  },
  "smartlab, fpt university, hanoi, vietnam": null,
  "somalia": {
@@ -3670,6 +3736,11 @@
   "lat": 39.2941,
   "lng": 35.2317,
   "label": "Turquie"
+ },
+ "uin sultan syarif kasim riau": {
+  "lat": 0.5105,
+  "lng": 101.4369,
+  "label": "Pascasarjana UIN Sultan Syarif Kasim Riau"
  },
  "uit the arctic university of norway": null,
  "unesco chair in digital culture and arts in education (ucdcae), friedrich-alexander-universität erlangen-nürnberg": null,
@@ -4461,6 +4532,7 @@
  "wdn:bria ai": null,
  "wdn:bridging varieties": null,
  "wdn:broadening linguistic technologies lab blt lab": null,
+ "wdn:builderhelm ai": null,
  "wdn:cactus compute inc": null,
  "wdn:center for ai safety": {
   "lat": 37.775,
@@ -4733,6 +4805,7 @@
  "wdn:salesforce ai research": null,
  "wdn:scenario": null,
  "wdn:secure machine learning lab": null,
+ "wdn:sensenova": null,
  "wdn:shunya labs": null,
  "wdn:sigil build": null,
  "wdn:since ai": null,
@@ -4795,6 +4868,7 @@
  "wdn:witfoo": null,
  "wdn:world cuisines": null,
  "wdn:xiaomi mimo": null,
+ "wdn:xiaomi research": null,
  "wdn:yorganci": null,
  "wdn:z ai": null,
  "wdn:zarnite": null,
@@ -4812,6 +4886,7 @@
   "lng": 120.7195,
   "label": "浙江大学（海宁校区）"
  },
+ "ziane achour university of djelfa": null,
  "zju-uiuc institute, zhejiang university": null,
  "zurich": {
   "lat": 47.3744,
