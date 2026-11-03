@@ -499,6 +499,7 @@
  "department of display materials engineering, soonchunhyang university": null,
  "department of ecology, faculty of science, charles university, prague, czechia; institute of microbiology of the czech academy of sciences, prague, czechia": null,
  "department of electrical and computer engineering, university of california san diego": null,
+ "department of electronic engineering, universidad de antioquia": null,
  "department of environmental engineering, seoul national university of science and technology": null,
  "department of information and communication technology, faculty of science and liberal arts, rajamangala university of technology isan, thailand": null,
  "department of inorganic chemistry, ivan franko national university of lviv": null,
@@ -591,6 +592,7 @@
   "label": "Facultade de Ciencias Económicas e Empresariais"
  },
  "faculty of geography and regional studies, university of warsaw": null,
+ "faculty of information technology in prague": null,
  "faculty of science and technology, valaya alongkorn rajabhat university under the royal patronage, pathum thani, thailand": null,
  "flux-frontiers": null,
  "formation continue unil-epfl": null,
@@ -1263,6 +1265,10 @@
   "location": null,
   "name": "walsher46"
  },
+ "gh:wanghao-sunsky": {
+  "location": null,
+  "name": "SunSky"
+ },
  "gh:wangzan101": {
   "location": "ShenZhen, China",
   "name": "WangZan"
@@ -1270,6 +1276,10 @@
  "gh:whirlchat": {
   "location": null,
   "name": "Whirl"
+ },
+ "gh:wquguru": {
+  "location": null,
+  "name": "WquGuru"
  },
  "gh:xingchen-agi": {
   "location": null,
@@ -1310,6 +1320,10 @@
  "gh:zgcagi": {
   "location": null,
   "name": "ZGCAGI"
+ },
+ "gh:zguoxu": {
+  "location": null,
+  "name": "Guoxu Zhao"
  },
  "ghent university": {
   "lat": 51.0078,
@@ -1382,6 +1396,7 @@
   "lng": 8.6947,
   "label": "Heidelberg"
  },
+ "helmholtz institute erlangen-nürnberg": null,
  "helmholtz-zentrum hereon": {
   "lat": 53.4058,
   "lng": 10.4267,
@@ -1880,11 +1895,15 @@
  },
  "hf:ggaaaga": null,
  "hf:ggghv": null,
+ "hf:ghanaopenai": {
+  "fullname": "Ghana Open AI"
+ },
  "hf:ghazouaniwala": null,
  "hf:giantdev": null,
  "hf:glif-loradex-trainer": {
   "fullname": "Glif Loradex Trainer"
  },
+ "hf:golden-eaglet": null,
  "hf:google": {
   "fullname": "Google"
  },
@@ -2022,6 +2041,7 @@
   "fullname": "IST Austria Distributed Algorithms and Systems Lab"
  },
  "hf:itgorn": null,
+ "hf:itspeet": null,
  "hf:itsreidar": null,
  "hf:iukocha": null,
  "hf:iv-ayman": null,
@@ -2189,6 +2209,9 @@
  "hf:marcozxcghgjalw2": null,
  "hf:marouaneoa": null,
  "hf:marxx01": null,
+ "hf:mashbox-labs": {
+  "fullname": "MASHBOX Labs"
+ },
  "hf:masterx": null,
  "hf:matenek": null,
  "hf:maternion": null,
@@ -2293,6 +2316,9 @@
  "hf:narinari3": null,
  "hf:nasrellahkharroubi": null,
  "hf:nassimjp": null,
+ "hf:nativ-community": {
+  "fullname": "nativ"
+ },
  "hf:ncannings": null,
  "hf:necent": null,
  "hf:nerkyor": null,
@@ -2679,6 +2705,7 @@
  "hf:transcriber-app": {
   "fullname": "Transcriber App"
  },
+ "hf:tremulo": null,
  "hf:trendy31171": null,
  "hf:trimux": null,
  "hf:trinhrepo": null,
@@ -2700,6 +2727,9 @@
  "hf:ukisai": null,
  "hf:umuteam": {
   "fullname": "UMUTeam"
+ },
+ "hf:uniparser": {
+  "fullname": "Uni-Parser Team"
  },
  "hf:universal-dependencies": {
   "fullname": "universal-dependencies"
@@ -3244,6 +3274,11 @@
   "lng": 121.5416,
   "label": "Université nationale des sciences et des technologies de Taiwan"
  },
+ "national university of trujillo": {
+  "lat": -8.1146,
+  "lng": -79.0386,
+  "label": "Universidad Nacional de Trujillo"
+ },
  "national university of uzbekistan (phd)": null,
  "national university of uzbekistan, phd": null,
  "navoi innovation university": null,
@@ -3482,6 +3517,11 @@
   "label": "Sakarya Üniversitesi"
  },
  "samarkand state insitute of foreign languages department of second foreign languages  independent researcher": null,
+ "samarkand state institute of foreign languages, samarkand, republic of uzbekistan": {
+  "lat": 39.6522,
+  "lng": 66.9634,
+  "label": "Samarqand davlat chet tillari instituti"
+ },
  "samarkand state of foreign languages faculty of philology and translation": null,
  "samarkand state pedagogical institute assistant teacher of the department of foreign languages": null,
  "san francisco": {
@@ -3838,6 +3878,11 @@
   "label": "Universidad Complutense de Madrid (Campus de Somosaguas)"
  },
  "universidad de buenos aires, facultad de ciencias exactas y naturales, departamento de computación, buenos aires, argentina; conicet-universidad de buenos aires, instituto de investigación en ciencias de la computación (icc), buenos aires, argentina": null,
+ "universidad de los andes": {
+  "lat": 4.6014,
+  "lng": -74.0649,
+  "label": "Universidad de los Andes"
+ },
  "universidad de málaga": {
   "lat": 36.7165,
   "lng": -4.4954,
@@ -3969,6 +4014,11 @@
   "lng": 100.9701,
   "label": "Universiti Teknologi Petronas"
  },
+ "university college cork": {
+  "lat": 51.8947,
+  "lng": -8.4903,
+  "label": "Glucksman Gallery"
+ },
  "university college dublin": {
   "lat": 53.3068,
   "lng": -6.2246,
@@ -4037,6 +4087,11 @@
   "lat": 44.2277,
   "lng": -76.4985,
   "label": "Geneva House"
+ },
+ "university of helsinki": {
+  "lat": 60.2267,
+  "lng": 25.0177,
+  "label": "Helsingin yliopisto"
  },
  "university of kassel": {
   "lat": 51.3037,
@@ -4115,6 +4170,11 @@
   "lat": 55.3679,
   "lng": 10.4281,
   "label": "Université du Danemark du Sud"
+ },
+ "university of st andrews": {
+  "lat": 56.3399,
+  "lng": -2.8118,
+  "label": "University of St Andrews"
  },
  "university of tabuk": {
   "lat": 28.3907,
@@ -4711,6 +4771,7 @@
  "wdn:french open data": null,
  "wdn:gaia": null,
  "wdn:general data": null,
+ "wdn:ghana open ai": null,
  "wdn:glif loradex trainer": null,
  "wdn:google": {
   "lat": 37.4221,
@@ -4792,6 +4853,7 @@
  "wdn:maliba ai": null,
  "wdn:malinali": null,
  "wdn:maltese language resource server": null,
+ "wdn:mashbox labs": null,
  "wdn:maya research": null,
  "wdn:mcgill nlp group": null,
  "wdn:meta inc": null,
@@ -4829,6 +4891,7 @@
  "wdn:mythologic": null,
  "wdn:naiveai": null,
  "wdn:nanbeige llm lab": null,
+ "wdn:nativ": null,
  "wdn:newmean ai": null,
  "wdn:nexi health": null,
  "wdn:nile academy": {
@@ -4946,6 +5009,7 @@
  "wdn:tts omnivoice": null,
  "wdn:ucrel nlp research group": null,
  "wdn:umuteam": null,
+ "wdn:uni parser team": null,
  "wdn:universal dependencies": null,
  "wdn:univo": null,
  "wdn:unsloth ai": null,
