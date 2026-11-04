@@ -1,4 +1,9 @@
 {
+ "2788 san tomas expressway, santa clara, ca, 95051": {
+  "lat": 37.3705,
+  "lng": -121.9671,
+  "label": "NVIDIA Endeavor"
+ },
  "@google-deepmind": null,
  "@icra": {
   "lat": 41.9274,
@@ -12,6 +17,11 @@
   "label": "Aarhus Universitet"
  },
  "abu dhabi": {
+  "lat": 24.4538,
+  "lng": 54.3774,
+  "label": "Abou Dabi"
+ },
+ "abu dhabi, uae": {
   "lat": 24.4538,
   "lng": 54.3774,
   "label": "Abou Dabi"
@@ -90,12 +100,18 @@
   "lng": -77.0893,
   "label": "Arlington County"
  },
+ "around the globe": {
+  "lat": 34.0508,
+  "lng": -118.2532,
+  "label": "Bell Communications Around the Globe"
+ },
  "artois": {
   "lat": 39.6321,
   "lng": -122.1884,
   "label": "Artois"
  },
  "assistant lecturer, department of german language and literature,  karakalpak state university, uzbekistan.": null,
+ "associate profesor,  translation theory and practice, samsifl": null,
  "associate professor (phd), university of journalism and mass communications of uzbekistan": null,
  "associate professor of the department of translation theory and practice samarkand state institute of foreign languages": null,
  "associate professor, department of english language  teaching methodology, uswlu, uzbekistan,": null,
@@ -135,12 +151,22 @@
   "lng": -76.6108,
   "label": "Baltimore"
  },
+ "bandung institute of technology": {
+  "lat": -6.8904,
+  "lng": 107.6103,
+  "label": "Institut Teknologi Bandung"
+ },
  "bangalore, india": {
   "lat": 12.9768,
   "lng": 77.5901,
   "label": "Bangalore"
  },
  "bangkok": {
+  "lat": 13.7525,
+  "lng": 100.4935,
+  "label": "Bangkok"
+ },
+ "bangkok, thailand": {
   "lat": 13.7525,
   "lng": 100.4935,
   "label": "Bangkok"
@@ -187,6 +213,11 @@
   "lng": 13.3387,
   "label": "Berlin"
  },
+ "berlin, germany": {
+  "lat": 52.5174,
+  "lng": 13.3951,
+  "label": "Berlin"
+ },
  "besançon, université marie et louis pasteur": {
   "lat": 47.2483,
   "lng": 5.9894,
@@ -197,6 +228,7 @@
   "lng": 106.7968,
   "label": "Binus University"
  },
+ "bio-architectonic": null,
  "bolzano/bozen, italy": {
   "lat": 46.4964,
   "lng": 11.3588,
@@ -233,6 +265,11 @@
   "label": "Brême"
  },
  "broad institute of mit and harvard": null,
+ "brooklyn, ny": {
+  "lat": 40.6526,
+  "lng": -73.9497,
+  "label": "Brooklyn"
+ },
  "budapest, hungary": {
   "lat": 47.4818,
   "lng": 19.1449,
@@ -324,6 +361,11 @@
  },
  "clavis consulting, llc, kansas": null,
  "climate service center germany (gerics), helmholtz-zentrum hereon, fischertwiete 1, 20095 hamburg, germany": null,
+ "clips": {
+  "lat": 35.7019,
+  "lng": 139.5599,
+  "label": "CLIPS"
+ },
  "cn": {
   "lat": 34.5412,
   "lng": 108.9237,
@@ -495,6 +537,7 @@
  "department of civil and environmental engineering, monash university": null,
  "department of civil and environmental engineering, universitat politècnica de catalunya (upc), barcelona, spain": null,
  "department of computer science, khmelnytskyi national university, ukraine": null,
+ "department of computing technologies, school of computing, faculty of engineering and technology, srm institute of science and technology, kattankulathur – 603203, tamil nadu, india": null,
  "department of critical care medicine, seventh people's hospital of shanghai university of traditional chinese medicine, shanghai, china": null,
  "department of display materials engineering, soonchunhyang university": null,
  "department of ecology, faculty of science, charles university, prague, czechia; institute of microbiology of the czech academy of sciences, prague, czechia": null,
@@ -518,6 +561,11 @@
  "division of science, new york university abu dhabi, abu dhabi, united arab emirates": null,
  "dmytro motornyi tavria state agrotechnological university": null,
  "doctor of sciences (dsc) oriental university acting professor, department of languages-2": null,
+ "doha, qatar": {
+  "lat": 25.3109,
+  "lng": 51.5082,
+  "label": "Doha"
+ },
  "donostia-san sebastián": {
   "lat": 43.3224,
   "lng": -1.9839,
@@ -657,6 +705,10 @@
   "location": null,
   "name": "abdumalikolimov405-crypto"
  },
+ "gh:abosamoor": {
+  "location": "Mountain View, CA",
+  "name": "RAMI ALRFOU"
+ },
  "gh:agihunt": {
   "location": null,
   "name": "agihunt"
@@ -664,6 +716,10 @@
  "gh:ahmedbadr-dev": {
   "location": "Egypt",
   "name": "Badr A."
+ },
+ "gh:ai4bharat": {
+  "location": "India",
+  "name": "AI4Bhārat"
  },
  "gh:aientech": {
   "location": "Germany",
@@ -680,6 +736,10 @@
  "gh:alexturkey": {
   "location": "Türkiye",
   "name": "Ali Haydar Ozturk"
+ },
+ "gh:allenai": {
+  "location": "Seattle, WA",
+  "name": "Ai2"
  },
  "gh:allspark-research": {
   "location": null,
@@ -741,6 +801,10 @@
   "location": null,
   "name": "Rohan Salvi"
  },
+ "gh:camel-lab": {
+  "location": "Abu Dhabi, UAE",
+  "name": "CAMeL Lab"
+ },
  "gh:ccch1mneyyy": {
   "location": null,
   "name": "Chimney"
@@ -752,6 +816,10 @@
  "gh:chenxiachan": {
   "location": "Berlin",
   "name": "Xia Chen"
+ },
+ "gh:clips": {
+  "location": "CLiPS",
+  "name": "Computational Linguistics Research Group"
  },
  "gh:cobanov": {
   "location": "Kocaeli, Turkey",
@@ -768,6 +836,10 @@
  "gh:deeplethe": {
   "location": null,
   "name": "DeepLethe"
+ },
+ "gh:deepset-ai": {
+  "location": "Germany",
+  "name": "deepset"
  },
  "gh:dilrabonu": {
   "location": "Uzbekistan",
@@ -797,6 +869,18 @@
   "location": "Istanbul, Turkey",
   "name": "Emir Karşıyakalı"
  },
+ "gh:espnet": {
+  "location": null,
+  "name": "ESPnet"
+ },
+ "gh:explosion": {
+  "location": "Berlin, Germany",
+  "name": "Explosion"
+ },
+ "gh:facebookresearch": {
+  "location": "Menlo Park, California",
+  "name": "Meta Research"
+ },
  "gh:feelime": {
   "location": null,
   "name": "Feel IME"
@@ -804,6 +888,10 @@
  "gh:firmwareversion": {
   "location": "武汉",
   "name": "Atlas"
+ },
+ "gh:flairnlp": {
+  "location": null,
+  "name": "flair"
  },
  "gh:folkbench": {
   "location": null,
@@ -817,9 +905,25 @@
   "location": null,
   "name": "Nikita Prismakov"
  },
+ "gh:frigadehq": {
+  "location": "United States of America",
+  "name": "Frigade"
+ },
  "gh:gigaetherealos": {
   "location": "Skopje, North Macedonia",
   "name": "Gilbert Fowler"
+ },
+ "gh:google": {
+  "location": "United States of America",
+  "name": "Google"
+ },
+ "gh:googleapis": {
+  "location": null,
+  "name": "Google APIs"
+ },
+ "gh:h9-tec": {
+  "location": null,
+  "name": "h9-tec"
  },
  "gh:hanzohanzhe": {
   "location": null,
@@ -841,6 +945,14 @@
   "location": "Japan",
   "name": "Yuichi Tateno (secon)"
  },
+ "gh:hruiccc": {
+  "location": null,
+  "name": "hruiccc"
+ },
+ "gh:huggingface": {
+  "location": "NYC + Paris",
+  "name": "Hugging Face"
+ },
  "gh:iamathavan": {
   "location": null,
   "name": "ATHAVAN"
@@ -848,6 +960,10 @@
  "gh:ilien-dev": {
   "location": "Mexico",
   "name": "ilien"
+ },
+ "gh:intellabs": {
+  "location": "Around the globe",
+  "name": "Intel Labs"
  },
  "gh:jackwener": {
   "location": "Hangzhou, China",
@@ -877,6 +993,10 @@
   "location": null,
   "name": "KAVYA"
  },
+ "gh:kayson-39": {
+  "location": null,
+  "name": "kayson-39"
+ },
  "gh:keremss7": {
   "location": null,
   "name": "Kerem001"
@@ -900,6 +1020,10 @@
  "gh:kydlikebtc": {
   "location": null,
   "name": "KYD.ai"
+ },
+ "gh:langchain-ai": {
+  "location": "United States of America",
+  "name": "LangChain"
  },
  "gh:licincan": {
   "location": null,
@@ -949,9 +1073,21 @@
   "location": "Redmond, WA",
   "name": "Microsoft"
  },
+ "gh:milkteatw1": {
+  "location": null,
+  "name": "milkteatw1"
+ },
+ "gh:mishari": {
+  "location": "Bangkok, Thailand",
+  "name": "Mishari Muqbil"
+ },
  "gh:miuuyy": {
   "location": "Europe",
   "name": "vechen"
+ },
+ "gh:ml-explore": {
+  "location": null,
+  "name": "ml-explore"
  },
  "gh:mlsftwrs": {
   "location": "Segou, Mali",
@@ -997,6 +1133,10 @@
   "location": "China",
   "name": "nanoMuse"
  },
+ "gh:nltk": {
+  "location": null,
+  "name": "Natural Language Toolkit"
+ },
  "gh:nokia-applied-research": {
   "location": null,
   "name": "nokia-applied-research"
@@ -1008,6 +1148,10 @@
  "gh:novaemperor98577": {
   "location": null,
   "name": "novaemperor98577"
+ },
+ "gh:nvidia": {
+  "location": "2788 San Tomas Expressway, Santa Clara, CA, 95051",
+  "name": "NVIDIA Corporation"
  },
  "gh:nyosegawa": {
   "location": null,
@@ -1041,6 +1185,10 @@
   "location": null,
   "name": "opentuwa"
  },
+ "gh:openvinotoolkit": {
+  "location": null,
+  "name": "OpenVINO™ Toolkit"
+ },
  "gh:orderseekerpropagate": {
   "location": null,
   "name": "orderseekerpropagate"
@@ -1056,6 +1204,10 @@
  "gh:ozynautetu-create": {
   "location": null,
   "name": "ozynautetu-create"
+ },
+ "gh:paddlepaddle": {
+  "location": null,
+  "name": "paddlepaddle"
  },
  "gh:pedromarinhodev": {
   "location": null,
@@ -1081,6 +1233,10 @@
   "location": "Germany",
   "name": "sitefire.ai"
  },
+ "gh:qcri": {
+  "location": "Doha, Qatar",
+  "name": "QCRI"
+ },
  "gh:qingyuna": {
   "location": null,
   "name": "Cyan"
@@ -1100,6 +1256,14 @@
  "gh:rancychepchirchir": {
   "location": "Sheffield, UK",
   "name": "Rancy Chepchirchir"
+ },
+ "gh:rare-technologies": {
+  "location": null,
+  "name": "RARE Technologies"
+ },
+ "gh:rasahq": {
+  "location": "San Francisco",
+  "name": "Rasa"
  },
  "gh:receptron": {
   "location": null,
@@ -1124,6 +1288,10 @@
  "gh:ruc-datalab": {
   "location": null,
   "name": "RUC-DataLab"
+ },
+ "gh:run-llama": {
+  "location": "United States of America",
+  "name": "LlamaIndex"
  },
  "gh:saarthurr": {
   "location": "California",
@@ -1157,9 +1325,17 @@
   "location": null,
   "name": "ShinThink"
  },
+ "gh:simplexai-labs": {
+  "location": "United States of America",
+  "name": "simplexai"
+ },
  "gh:sitor-ai": {
   "location": null,
   "name": "Sitor"
+ },
+ "gh:sloria": {
+  "location": "Brooklyn, NY",
+  "name": "Steve Loria"
  },
  "gh:sno-ai": {
   "location": "United States of America",
@@ -1172,6 +1348,10 @@
  "gh:somastllc": {
   "location": "Somalia",
   "name": "Somast"
+ },
+ "gh:stanfordnlp": {
+  "location": "Stanford, CA",
+  "name": "Stanford NLP"
  },
  "gh:startluxlabs": {
   "location": null,
@@ -1200,6 +1380,10 @@
  "gh:syenzzz": {
   "location": null,
   "name": "Ayzzz"
+ },
+ "gh:tensorflow": {
+  "location": null,
+  "name": "tensorflow"
  },
  "gh:thesysdev": {
   "location": "United States of America",
@@ -1485,6 +1669,7 @@
  "hf:akynovaaigul": null,
  "hf:alegiuliano": null,
  "hf:alekringtonnn-ai": null,
+ "hf:aleksey336": null,
  "hf:aleph-alpha": {
   "fullname": "Aleph Alpha"
  },
@@ -1664,6 +1849,7 @@
  "hf:chao0524": null,
  "hf:chenchen12311": null,
  "hf:chenjigaram": null,
+ "hf:christophecruz": null,
  "hf:chrmongeau": null,
  "hf:circulus": {
   "fullname": "Circulus Inc."
@@ -1712,6 +1898,9 @@
  },
  "hf:cortex-ai-nova": null,
  "hf:crossroderick": null,
+ "hf:crossswe": {
+  "fullname": "CrossSWE Benchmark"
+ },
  "hf:csilit": null,
  "hf:cutting3dg3": null,
  "hf:cyron": null,
@@ -1776,16 +1965,19 @@
  "hf:divagr1925": null,
  "hf:djamelrb4": null,
  "hf:dksibbs": null,
+ "hf:dmk500": null,
  "hf:doannv": null,
  "hf:docling-project": {
   "fullname": "Docling"
  },
+ "hf:docs": null,
  "hf:doctoc-health": {
   "fullname": "Doctoc Health"
  },
  "hf:dougmov": null,
  "hf:drishtisharma": null,
  "hf:drko999": null,
+ "hf:drone900": null,
  "hf:ds8305": null,
  "hf:dsa1": null,
  "hf:duhow": null,
@@ -1843,6 +2035,7 @@
  "hf:fastino": {
   "fullname": "fastino"
  },
+ "hf:fddemarco": null,
  "hf:feanor5555": null,
  "hf:featherless-ai-quants": {
   "fullname": "Quants by Featherless.ai"
@@ -1979,6 +2172,9 @@
  "hf:huggingfacefw": {
   "fullname": "FineData"
  },
+ "hf:huggingfacegeclm": {
+  "fullname": "HuggingFaceGECLM"
+ },
  "hf:huggingworld": null,
  "hf:ibm-granite": {
   "fullname": "IBM Granite"
@@ -2085,6 +2281,7 @@
  "hf:karim12129": null,
  "hf:katmarie": null,
  "hf:kbayoud": null,
+ "hf:kbpk31": null,
  "hf:kefranabg": null,
  "hf:kevinbalistreri": null,
  "hf:khdidij": null,
@@ -2431,6 +2628,9 @@
  "hf:pakphum": null,
  "hf:panga-azazia": null,
  "hf:parikshirendupoojiyamettu": null,
+ "hf:parseh": {
+  "fullname": "parseh-io"
+ },
  "hf:pauhmolins": null,
  "hf:pauhu": {
   "fullname": "Pauhu AI"
@@ -2441,6 +2641,9 @@
   "fullname": "Peacockery Studio"
  },
  "hf:peluz": null,
+ "hf:pentesterflow": {
+  "fullname": "PentesterFlow"
+ },
  "hf:perplexity-ai": {
   "fullname": "Perplexity"
  },
@@ -2582,6 +2785,7 @@
  "hf:shunyalabs": {
   "fullname": "Shunya Labs"
  },
+ "hf:shustov-te": null,
  "hf:sigil-build": {
   "fullname": "sigil-build"
  },
@@ -2597,6 +2801,7 @@
   "fullname": "Sister Software"
  },
  "hf:skilledu": null,
+ "hf:slimanerebouh83": null,
  "hf:small-models-for-glam": {
   "fullname": "Small Models for GLAM"
  },
@@ -2622,6 +2827,7 @@
  },
  "hf:stefancosma": null,
  "hf:steja": null,
+ "hf:stepsergius": null,
  "hf:stevenlewis79": null,
  "hf:stickerdaniel": null,
  "hf:streameval": null,
@@ -2644,6 +2850,7 @@
  "hf:swinliq-ain-2": {
   "fullname": "SwinliQ-AI"
  },
+ "hf:t0msilver": null,
  "hf:tabahi": null,
  "hf:taichuai": null,
  "hf:talzoomanzoo": null,
@@ -2654,6 +2861,9 @@
  "hf:tatathamon": null,
  "hf:tatsu-lab": {
   "fullname": "Tatsu Lab"
+ },
+ "hf:tcn": {
+  "fullname": "TCN Inc"
  },
  "hf:teaguesterling": null,
  "hf:tech4bueno": null,
@@ -2745,6 +2955,7 @@
   "fullname": "UNSW NLP"
  },
  "hf:usa15371": null,
+ "hf:vaishalbusiness": null,
  "hf:valkayuh": null,
  "hf:vamboai": {
   "fullname": "Vambo AI"
@@ -2754,6 +2965,9 @@
  "hf:velkamez": null,
  "hf:venastine-research": {
   "fullname": "Venastine Research"
+ },
+ "hf:vext-ma": {
+  "fullname": "Vext"
  },
  "hf:vhke": null,
  "hf:viggle": {
@@ -2808,6 +3022,9 @@
  },
  "hf:worxrit17": null,
  "hf:wuvya": null,
+ "hf:x-ion-org": {
+  "fullname": "X-ion Organization"
+ },
  "hf:x054848": null,
  "hf:xaime": null,
  "hf:xangel0s": null,
@@ -3168,6 +3385,11 @@
   "lng": 144.9632,
   "label": "Melbourne"
  },
+ "menlo park, california": {
+  "lat": 37.452,
+  "lng": -122.178,
+  "label": "Menlo Park"
+ },
  "mexico": {
   "lat": 19.3208,
   "lng": -99.1515,
@@ -3203,6 +3425,11 @@
   "lat": 55.6707,
   "lng": 37.4815,
   "label": "MIREA"
+ },
+ "mountain view, ca": {
+  "lat": 37.3894,
+  "lng": -122.0832,
+  "label": "Mountain View"
  },
  "mrc cognition and brain sciences unit": {
   "lat": 52.1923,
@@ -3319,6 +3546,11 @@
   "label": "华北电力大学"
  },
  "nova information management school (nova ims), universidade nova de lisboa": null,
+ "nyc + paris": {
+  "lat": 40.7359,
+  "lng": -73.8649,
+  "label": "Paris"
+ },
  "nîmes université": {
   "lat": 43.8388,
   "lng": 4.3645,
@@ -3489,6 +3721,11 @@
   "label": "Redmond"
  },
  "research center for intelligent distributed surveillance and security, universitas dian nuswantoro, indonesia; faculty of computer science, universitas dian nuswantoro, semarang, indonesia": null,
+ "rmit university": {
+  "lat": -37.677,
+  "lng": 145.0729,
+  "label": "RMIT University (Bundoora East Campus)"
+ },
  "ronin institute for independent scholarship 2.0": null,
  "roskilde university": {
   "lat": 55.6527,
@@ -3566,6 +3803,11 @@
   "label": "Schaumburg"
  },
  "seattle": {
+  "lat": 47.6038,
+  "lng": -122.3301,
+  "label": "Seattle"
+ },
+ "seattle, wa": {
   "lat": 47.6038,
   "lng": -122.3301,
   "label": "Seattle"
@@ -3690,6 +3932,11 @@
   "lng": 80.045,
   "label": "SRM Institute of Science and Technology"
  },
+ "st. pete beach, florida": {
+  "lat": 27.7253,
+  "lng": -82.7412,
+  "label": "Saint Pete Beach"
+ },
  "st. petersburg, florida": {
   "lat": 27.7712,
   "lng": -82.634,
@@ -3699,6 +3946,11 @@
   "lat": 37.4313,
   "lng": -122.1694,
   "label": "Université Stanford"
+ },
+ "stanford, ca": {
+  "lat": 37.4265,
+  "lng": -122.1703,
+  "label": "Stanford"
  },
  "student of andijan state institute of foreign languages": null,
  "stuttgart": {
@@ -3943,6 +4195,11 @@
   "lat": -22.3477,
   "lng": -49.0302,
   "label": "Universidade Estadual Paulista - Unesp"
+ },
+ "universidade federal de alagoas": {
+  "lat": -9.5536,
+  "lng": -35.7739,
+  "label": "Universidade Federal de Alagoas"
  },
  "universidade federal de juiz de fora": {
   "lat": -21.7769,
@@ -4716,6 +4973,7 @@
   "region": "États-Unis",
   "geo_source": "Wikidata · Conway"
  },
+ "wdn:crossswe benchmark": null,
  "wdn:darija audio dataset": null,
  "wdn:data gouv community": null,
  "wdn:databricks": {
@@ -4799,6 +5057,7 @@
  "wdn:hplt": null,
  "wdn:hugging face biology research": null,
  "wdn:hugging face for audio": null,
+ "wdn:huggingfacegeclm": null,
  "wdn:ibm granite": null,
  "wdn:ibm research": null,
  "wdn:ikala": null,
@@ -4935,8 +5194,10 @@
  "wdn:organisation participant 27": null,
  "wdn:ornith": null,
  "wdn:orphera ai": null,
+ "wdn:parseh io": null,
  "wdn:pauhu ai": null,
  "wdn:peacockery studio": null,
+ "wdn:pentesterflow": null,
  "wdn:perplexity": null,
  "wdn:platzi community": null,
  "wdn:pleias": {
@@ -4988,6 +5249,7 @@
  "wdn:swe bench": null,
  "wdn:swinliq ai": null,
  "wdn:tatsu lab": null,
+ "wdn:tcn inc": null,
  "wdn:teltek video research s l": null,
  "wdn:tencent": {
   "lat": 19.33,
@@ -5016,6 +5278,13 @@
  "wdn:unsw nlp": null,
  "wdn:vambo ai": null,
  "wdn:venastine research": null,
+ "wdn:vext": {
+  "lat": 33.5992,
+  "lng": -7.62,
+  "city": "Casablanca",
+  "region": "Maroc",
+  "geo_source": "Wikidata · Vext"
+ },
  "wdn:viggle ai": null,
  "wdn:vllm": null,
  "wdn:vllm semantic router": null,
@@ -5028,6 +5297,7 @@
  "wdn:windstorm labs": null,
  "wdn:witfoo": null,
  "wdn:world cuisines": null,
+ "wdn:x ion organization": null,
  "wdn:xiaomi mimo": null,
  "wdn:xiaomi research": null,
  "wdn:yorganci": null,
