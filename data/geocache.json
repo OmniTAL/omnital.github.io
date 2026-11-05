@@ -188,6 +188,7 @@
   "lng": 116.3913,
   "label": "Pékin"
  },
+ "benito juárez autonomous university of oaxaca": null,
  "bergamo - italy": {
   "lat": 45.7567,
   "lng": 9.7542,
@@ -260,6 +261,11 @@
   "label": "Zona Econômica Exclusiva do Brasil"
  },
  "bremen": {
+  "lat": 53.0758,
+  "lng": 8.8072,
+  "label": "Brême"
+ },
+ "bremen, germany": {
   "lat": 53.0758,
   "lng": 8.8072,
   "label": "Brême"
@@ -642,6 +648,7 @@
  "faculty of geography and regional studies, university of warsaw": null,
  "faculty of information technology in prague": null,
  "faculty of science and technology, valaya alongkorn rajabhat university under the royal patronage, pathum thani, thailand": null,
+ "fast school of computing, fast-nuces, karachi, pakistan": null,
  "flux-frontiers": null,
  "formation continue unil-epfl": null,
  "formerly, electro-gravitational space propulsion laboratory (egspl), bhubaneswar, odisha 751030, india; formerly, university of calcutta, senate house, 87/1 college street, kolkata 700073, west bengal, india": null,
@@ -988,6 +995,10 @@
  "gh:jwuthri": {
   "location": "San Francisco, California",
   "name": "Wuthrich Julien"
+ },
+ "gh:kai-jungsthoefel": {
+  "location": "Bremen, Germany",
+  "name": "kai-jungsthoefel"
  },
  "gh:kavya1818-hub": {
   "location": null,
@@ -1717,6 +1728,7 @@
  },
  "hf:anirdari": null,
  "hf:ankitjh4": null,
+ "hf:anonlion1": null,
  "hf:anotona-music": null,
  "hf:ansu": null,
  "hf:ant-intl": {
@@ -1764,6 +1776,9 @@
  },
  "hf:axiomiclabs": {
   "fullname": "Axiomic Labs"
+ },
+ "hf:axion1-0": {
+  "fullname": "Axion"
  },
  "hf:ayb-bh1146": null,
  "hf:ayb98top": null,
@@ -1884,6 +1899,9 @@
  },
  "hf:cointegrated": null,
  "hf:collectionstudio": null,
+ "hf:collinear-ai": {
+  "fullname": "Collinear AI"
+ },
  "hf:coml": {
   "fullname": "Cognitive Machine Learning | @ENS"
  },
@@ -2012,6 +2030,7 @@
   "fullname": "EPFL Machine Learning and Optimization Laboratory"
  },
  "hf:erenyeager-1": null,
+ "hf:ericrisco": null,
  "hf:eripsa": null,
  "hf:ernes14ag": null,
  "hf:erponce": null,
@@ -2110,6 +2129,9 @@
   "fullname": "guardion"
  },
  "hf:gubernac": null,
+ "hf:gxl-ai": {
+  "fullname": "GXL (Generative Expert Labs)"
+ },
  "hf:hacht": null,
  "hf:hackaix": {
   "fullname": "HackAI 2026"
@@ -2147,6 +2169,7 @@
  },
  "hf:hillal-titouh": null,
  "hf:himanshu9636": null,
+ "hf:hisashisaruta": null,
  "hf:hitz": {
   "fullname": "HiTZ zentroa"
  },
@@ -2166,6 +2189,7 @@
  },
  "hf:hrm-labs": null,
  "hf:hsanyyasyn97gmail": null,
+ "hf:hthuatong": null,
  "hf:huggingfacebio": {
   "fullname": "Hugging Face Biology Research"
  },
@@ -2176,6 +2200,7 @@
   "fullname": "HuggingFaceGECLM"
  },
  "hf:huggingworld": null,
+ "hf:huihui-ai": null,
  "hf:ibm-granite": {
   "fullname": "IBM Granite"
  },
@@ -2284,6 +2309,7 @@
  "hf:kbpk31": null,
  "hf:kefranabg": null,
  "hf:kevinbalistreri": null,
+ "hf:khaled5": null,
  "hf:khdidij": null,
  "hf:kirilldual0987": null,
  "hf:kmerakeb": null,
@@ -2384,6 +2410,7 @@
  "hf:m-a-p": {
   "fullname": "Multimodal Art Projection"
  },
+ "hf:maaaaat": null,
  "hf:maanka2": null,
  "hf:mabus46": null,
  "hf:madurox": null,
@@ -2471,6 +2498,9 @@
  "hf:mohamedsanaf2001": null,
  "hf:mohamedsaousaou": null,
  "hf:mohammedaly22": null,
+ "hf:moonshotai": {
+  "fullname": "Moonshot AI"
+ },
  "hf:moonworks": {
   "fullname": "Moonworks AI"
  },
@@ -2665,6 +2695,7 @@
  "hf:prism-ml": {
   "fullname": "Prism ML"
  },
+ "hf:prithivmlmods": null,
  "hf:proj-persona": null,
  "hf:projecte-aina": {
   "fullname": "Projecte Aina"
@@ -2674,6 +2705,9 @@
  },
  "hf:proxectonos": {
   "fullname": "Proxecto Nós"
+ },
+ "hf:prunaai": {
+  "fullname": "Pruna AI"
  },
  "hf:pyannote": {
   "fullname": "pyannote"
@@ -3151,6 +3185,11 @@
   "lat": 41.0064,
   "lng": 28.9759,
   "label": "Istanbul"
+ },
+ "i̇stanbul esenyurt üniversitesi": {
+  "lat": 41.0204,
+  "lng": 28.6873,
+  "label": "İstanbul Esenyurt Üniversitesi"
  },
  "japan": {
   "lat": 36.5748,
@@ -4175,6 +4214,11 @@
   "lng": -79.5011,
   "label": "Universidad Técnica Estatal de Quevedo (Campus La María)"
  },
+ "universidade da coruña": {
+  "lat": 43.3709,
+  "lng": -8.3902,
+  "label": "Reitorado da Universidade da Coruña"
+ },
  "universidade de santiago de compostela": {
   "lat": 42.8732,
   "lng": -8.5536,
@@ -4226,10 +4270,20 @@
   "lng": -9.1602,
   "label": "Universidade Nova de Lisboa"
  },
+ "universidade tecnológica federal do paraná": {
+  "lat": -23.3073,
+  "lng": -51.1143,
+  "label": "Universidade Tecnológica Federal do Paraná"
+ },
  "universitas islam malang": {
   "lat": -7.9363,
   "lng": 112.6073,
   "label": "Universitas Islam Malang"
+ },
+ "universitas muhammadiyah malang": {
+  "lat": -7.9209,
+  "lng": 112.5972,
+  "label": "Universitas Muhammadiyah Malang"
  },
  "universitas sebelas maret": {
   "lat": -7.5595,
@@ -4464,6 +4518,11 @@
   "label": "University of Wisconsin-Madison"
  },
  "university of world economy and diplomacy,  senior lecturer, doctor of philosophy": null,
+ "university of würzburg": {
+  "lat": 49.7876,
+  "lng": 9.9338,
+  "label": "Technische Hochschule Würzburg-Schweinfurt"
+ },
  "university of zanjan": {
   "lat": 36.6717,
   "lng": 48.5055,
@@ -4916,6 +4975,7 @@
  "wdn:autotrust ai lab": null,
  "wdn:avencera": null,
  "wdn:axiomic labs": null,
+ "wdn:axion": null,
  "wdn:baidu": {
   "lat": 39.904,
   "lng": 116.4075,
@@ -4965,6 +5025,7 @@
  "wdn:cognitive machine learning ens": null,
  "wdn:cohearo": null,
  "wdn:cohere labs": null,
+ "wdn:collinear ai": null,
  "wdn:convex works o e": null,
  "wdn:conway": {
   "lat": 33.8381,
@@ -5040,6 +5101,7 @@
  },
  "wdn:greenbitai": null,
  "wdn:guardion": null,
+ "wdn:gxl generative expert labs": null,
  "wdn:hackai 2026": null,
  "wdn:hacktogone": null,
  "wdn:handy": null,
@@ -5142,6 +5204,13 @@
  "wdn:ml foundations": null,
  "wdn:mlx community": null,
  "wdn:mmmu": null,
+ "wdn:moonshot ai": {
+  "lat": 39.904,
+  "lng": 116.4075,
+  "city": "Pékin",
+  "region": "République populaire de Chine",
+  "geo_source": "Wikidata · Moonshot AI"
+ },
  "wdn:moonworks ai": null,
  "wdn:multimodal art projection": null,
  "wdn:multisynt": null,
@@ -5211,6 +5280,7 @@
  "wdn:projecte aina": null,
  "wdn:prometheus eval": null,
  "wdn:proxecto n s": null,
+ "wdn:pruna ai": null,
  "wdn:pyannote": null,
  "wdn:pythai net": null,
  "wdn:quants by featherless ai": null,
