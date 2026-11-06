@@ -6,7 +6,11 @@ name: Veille & déploiement
 
 on:
   schedule:
-    - cron: "17 5 * * *"     # 05:17 UTC ≈ 07:17 Paris (heure d'été) — après l'annonce arXiv
+    # Les déclenchements planifiés de GitHub prennent souvent plusieurs heures de retard aux heures
+    # chargées (la veille sortait vers 13 h UTC au lieu de 05 h). Deux créneaux creux, hors minute
+    # ronde : le second ne collecte que si le premier n'a pas tourné (garde « déjà collecté » ci-dessous).
+    - cron: "41 2 * * *"     # 02:41 UTC — arXiv publie à 00:00 UTC (lun.–ven.)
+    - cron: "23 5 * * *"     # 05:23 UTC — rattrapage
   issues:
     types: [opened, reopened, labeled]   # nouvelle requête suivie → collecte immédiate
   push:
@@ -53,7 +57,10 @@ jobs:
       - name: Agent de veille
         # sur un simple push on régénère sans collecter (rapide, pas d'appel réseau)
         run: |
-          if [ "$EVENT" = "push" ]; then
+          # veille complète déjà faite aujourd'hui ? (on regarde arXiv : une exécution partielle --only ne compte pas)
+          already=$(python -c "import json,datetime as d;r=json.load(open('data/radar.json'));print(((r.get('agent') or {}).get('sources',{}).get('arxiv') or {}).get('date','')[:10]==d.datetime.now(d.timezone.utc).date().isoformat())" 2>/dev/null || echo False)
+          if [ "$EVENT" = "push" ] || { [ "$EVENT" = "schedule" ] && [ "$already" = "True" ]; }; then
+            echo "Pas de collecte (push, ou veille du jour déjà faite) : régénération seulement."
             python scripts/agent_veille_nlp.py --offline
           elif [ "$EVENT" = "issues" ]; then
             python scripts/agent_veille_nlp.py --only requetes
@@ -85,7 +92,7 @@ jobs:
 
       - name: Commit des données
         run: |
-          git config user.name  "connectal-veille[bot]"
+          git config user.name  "omnital-veille[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/ assets/css/app.css
           if git diff --cached --quiet; then
@@ -102,6 +109,7 @@ jobs:
         run: |
           mkdir -p _site
           cp -r index.html 404.html robots.txt sitemap.xml .nojekyll assets data _site/
+          [ -f manifest.webmanifest ] && cp manifest.webmanifest _site/ || true
           rm -f _site/data/veille_history.json _site/data/geocache.json _site/data/catalogue_auto.json   # fichiers internes
 
       - uses: actions/upload-pages-artifact@v3

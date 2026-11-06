@@ -1,4 +1,6 @@
-# ConnecTAL
+# OmniTAL
+
+> Anciennement *OmniTAL*. Refonte v4 (novembre 2026) : nouveau design, corrections de la veille, nouvelles sources et langues — voir [Journal des modifications](#journal-des-modifications-v4).
 
 Tracker quotidien du **traitement automatique des langues (TAL)** : ressources ouvertes, revues, événements et opportunités (emplois, stages, thèses, formations), dans le monde entier. Il suit de près les **langues peu dotées** : les langues berbères, les langues méditerranéennes (catalan, basque, corse, sicilien, maltais, sarde, occitan…) et l'arabe dialectal.
 Site statique hébergé sur GitHub Pages et mis à jour chaque matin par un agent de veille (GitHub Actions).
@@ -54,19 +56,22 @@ scripts/requetes.py        requêtes suivies (recherches confiées à l'agent)
 
 ## L'agent de veille
 
-Chaque jour à 05:17 UTC, il interroge les sources suivantes :
+Chaque jour (créneau principal 02:41 UTC, rattrapage 05:23 UTC), il interroge les sources suivantes :
 
 | Source | Ce qui est suivi | Rubrique |
 |---|---|---|
 | arXiv | flux quotidien `cs.CL` + requêtes ciblées (langues berbères, méditerranéennes, arabe dialectal, langues peu dotées) | Veille |
 | HAL | dépôts récents du domaine *Informatique et langage* | Veille |
-| Hugging Face | datasets, modèles et Spaces dans les 35 langues suivies (codes ISO) + **tendances** TAL du moment | Veille, Catalogue |
+| Hugging Face | datasets, modèles et Spaces dans les 50 langues peu dotées suivies (codes ISO) + **tendances** TAL du moment | Veille, Catalogue |
 | GitHub | dépôts récents par langue suivie + dépôts TAL / LLM / parole populaires | Veille, Catalogue |
 | Zenodo | jeux de données et logiciels (TAL, langues suivies) | Veille, Catalogue |
 | European Language Grid | corpus, outils et modèles déclarés pour chaque langue suivie | Veille, Catalogue |
 | DOAJ | revues en libre accès de linguistique informatique / TAL | Veille, Catalogue |
 | WikiCFP | appels à communications (TAL, linguistique, parole, traduction, écoles d'été) | Veille, Catalogue |
-| NLP People | offres d'emploi, de stage et de thèse en TAL (monde entier) | Opportunités |
+| ccfddl (conférences) | échéances des grandes conférences TAL et parole (ACL, EMNLP, NAACL, EACL, COLING, LREC, ICASSP…) — relais de WikiCFP | Veille, Catalogue |
+| NLP People | offres d'emploi, de stage et de thèse en TAL (monde entier) — API JSON | Opportunités |
+| Jobicy, Himalayas, We Work Remotely | offres en télétravail, filtrées sur le TAL (titre) | Opportunités |
+| Hacker News « Who is hiring? » | annonces TAL du fil mensuel (API Algolia) | Opportunités |
 | Greenhouse, Ashby, Lever | offres TAL publiées par des organisations du domaine (liste dans `config/veille.json`) | Opportunités |
 | Remotive, Arbeitnow | offres en télétravail et en Europe, filtrées par mots-clés TAL | Opportunités |
 | theses.fr | thèses françaises en TAL, en préparation ou soutenues | Opportunités |
@@ -74,9 +79,10 @@ Chaque jour à 05:17 UTC, il interroge les sources suivantes :
 | Requêtes suivies | recherches confiées à l'agent depuis le site (voir plus bas) | Veille, Catalogue |
 
 **Langues peu dotées suivies** (`scripts/languages.py`) :
-- **berbère** : kabyle, chaoui, mozabite, tachelhit, tarifit, tamazight, touareg ;
-- **langues méditerranéennes** : catalan, basque, galicien, asturien, aragonais, occitan, francoprovençal, corse, sarde, sicilien, napolitain, ligure, vénitien, frioulan, ladin, maltais, judéo-espagnol, arbëresh, dialectes grecs ;
-- **arabe dialectal** : darija marocaine, darja algérienne, arabe tunisien, libyen, égyptien, levantin et du Golfe.
+- **berbère** : kabyle, chaoui, mozabite, tachelhit, tarifit, tamazight, touareg, siwi, ghadamsi, nafusi ;
+- **langues méditerranéennes** : catalan, basque, galicien, asturien, aragonais, occitan, francoprovençal, corse, sarde, sicilien, napolitain, ligure, vénitien, frioulan, ladin, maltais, judéo-espagnol, arbëresh, dialectes grecs, aroumain, istro-roumain, tsakonien, piémontais, lombard, émilien-romagnol, mirandais, croate molisan, kurde (kurmandji), araméen, domari ;
+- **arabe dialectal** : darija marocaine, darja algérienne, arabe tunisien, libyen, égyptien, levantin, du Golfe, arabe chypriote maronite ;
+- **langues nationales de Méditerranée** (étiquetage et filtres seulement, pas de collecte ciblée) : grec, turc, hébreu, albanais, croate, slovène, serbe, bosniaque, monténégrin, macédonien, italien, espagnol, arabe standard.
 
 Ajouter une langue se fait sur une seule ligne : codes ISO, mots-clés et point de référence sur la carte.
 
@@ -159,7 +165,7 @@ Tous les réglages sont dans `config/veille.json`.
 1. Dans l'organisation **OmniTAL**, créer un dépôt **public** nommé exactement `omnital.github.io`, sans README ni licence, pour que le premier push passe sans conflit.
 2. Pousser le code depuis le dossier décompressé :
    ```bash
-   git init && git add . && git commit -m "ConnecTAL : site + agent de veille"
+   git init && git add . && git commit -m "OmniTAL : site + agent de veille"
    git branch -M main
    git remote add origin https://github.com/OmniTAL/omnital.github.io.git
    git push -u origin main
@@ -187,7 +193,7 @@ npm run serve                               # http://localhost:8000
 
 ## Ajouter des ressources au catalogue
 
-Éditer le classeur concerné dans `sources/`, sur sa feuille maîtresse : `Toutes_ressources`, `Tous_depots` ou `Toutes_donnees`. Les autres feuilles ne sont que des vues filtrées.
+Éditer le classeur concerné dans `sources/`, sur sa feuille maîtresse : `Toutes_ressources`, `Tous_depots` ou `Toutes_donnees`. Le classeur `nlp_mediterranee_ressources.xlsx` (feuille `Toutes_ressources`, colonnes `categorie, nom, type, langue, taille, lien, description, licence, pays`) regroupe les ressources de référence des langues de Méditerranée. Les autres feuilles ne sont que des vues filtrées.
 Pousser ensuite la modification : le workflow régénère `data/ressources.json`.
 
 ## Points d'attention
@@ -203,3 +209,22 @@ Pousser ensuite la modification : le workflow régénère `data/ressources.json`
 - **Formations** : la liste `config/formations.json` est éditoriale. Il n'existe pas d'API ouverte des masters. Un lien mort est signalé « ⚠ lien à vérifier » sur le site.
 - **Offres d'emploi** : les grands sites d'offres (LinkedIn, Indeed, EURAXESS) n'ont pas d'API ouverte et bloquent la collecte automatique. L'agent s'appuie donc sur des sources ouvertes, que l'on peut compléter dans `config/veille.json` → `opportunites` (tableaux Greenhouse, Ashby ou Lever d'autres organisations).
 - Le **flux RSS arXiv** est vide le week-end : c'est normal.
+
+## Journal des modifications (v4)
+
+**Design** (skill *ui-ux-pro-max*, voir `design-system/omnital/MASTER.md`)
+- Charte *Swiss Modernism 2.0* : bleu méditerranéen, accent terracotta, Crimson Pro / Atkinson Hyperlegible / JetBrains Mono, icônes SVG (fin des emoji).
+- Carte réduite et collante au **centre-gauche** ; résultats en colonne principale (liste ou grille).
+- **Barre de recherche unique** (portée OmniTAL ou Web) + période + bouton **Filtres** ; puces des filtres actifs ; filtres « Langue » fusionnés (groupe ou langue) ; tiroir de filtres sur mobile.
+- Site **dynamique** : indicateurs animés, apparition des cartes, marqueur qui pulse au survol d'une fiche, filtres dans l'URL (liens partageables, retour arrière), raccourci `/`, mise à jour relative (« il y a 3 h »), squelettes de chargement.
+- **Pied de page** (à propos, sections, langues suivies, projet, crédits).
+- Opportunités : **filtre par pays** (champ `country` ISO calculé par l'agent, repli côté navigateur) et tri (offres ouvertes, récentes, pays).
+
+**Veille quotidienne — corrections**
+- Les nouveautés générales (arXiv cs.CL, HAL) n'étaient plus publiées : le plafond de `radar.json` était saturé par les fiches « focus ». Nouvelle sélection (`select_payload`) : tout ce qui a moins de 7 jours est publié.
+- Jeux Hugging Face massivement multilingues (dumps Wikipedia…) marqués à tort « langue suivie » et placés en Aragon : requalifiés (`migrate_history`).
+- NLP People renvoyait 0 offre (flux RSS supprimé) : passage à l'API JSON.
+- WikiCFP / theses.fr en `ConnectTimeout` : délais séparés connexion/lecture, essais http/https, coupe-circuit (plus de minutes perdues quand WikiCFP est en panne), échec isolé par flux.
+- Planification : la veille sortait vers 13 h UTC (retards GitHub) ; deux créneaux creux + garde « déjà collecté aujourd'hui ».
+
+**Langues** : 28 langues ajoutées (63 au total) — 15 peu dotées : minoritaires (aroumain, istro-roumain, tsakonien, piémontais, lombard, émilien-romagnol, mirandais, croate molisan, kurde kurmandji, araméen, domari), berbères (siwi, ghadamsi, nafusi), arabe chypriote maronite, et un groupe **« Langues nationales de Méditerranée »** (grec, turc, hébreu, albanais, croate, slovène, serbe, bosniaque, monténégrin, macédonien, italien, espagnol, arabe standard) utilisé pour l'étiquetage et les filtres, sans collecte ciblée.

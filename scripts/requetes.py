@@ -62,7 +62,7 @@ def acknowledge(http, cfg: dict, q: str, entry: dict, n: int) -> None:
     if not repo or entry.get("acknowledged") or not entry.get("issue"):
         return
     site = cfg.get("site_url", "")
-    body = (f"✅ Requête suivie par l'agent de veille ConnecTAL.\n\n"
+    body = (f"✅ Requête suivie par l'agent de veille OmniTAL.\n\n"
             f"Premier passage : **{n} résultat(s)** ajoutés à la carte et au catalogue "
             f"([voir sur le site]({site}/#q={q.replace(' ', '%20')})).\n\n"
             "L'agent relance cette recherche chaque jour. Fermez l'issue pour arrêter le suivi.")

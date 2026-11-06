@@ -1,7 +1,7 @@
 {
-  "name": "connectal",
+  "name": "omnital",
   "private": true,
-  "description": "ConnecTAL — ressources et veille en traitement automatique des langues",
+  "description": "OmniTAL — ressources et veille en traitement automatique des langues",
   "scripts": {
     "build:css": "tailwindcss -i assets/css/input.css -o assets/css/app.css --minify",
     "watch:css": "tailwindcss -i assets/css/input.css -o assets/css/app.css --watch",

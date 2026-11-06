@@ -4,17 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <title>ConnecTAL — ressources et veille en TAL</title>
-  <meta name="description" content="ConnecTAL : tracker quotidien des ressources ouvertes en traitement automatique des langues (corpus, modèles, outils), des revues, des événements et des opportunités (emplois, stages, thèses, masters), avec un focus sur les langues peu dotées : berbère, langues méditerranéennes, arabe dialectal.">
-  <meta name="theme-color" content="#138A07">
+  <title>OmniTAL — ressources et veille en TAL</title>
+  <meta name="description" content="OmniTAL : tracker quotidien des ressources ouvertes en traitement automatique des langues (corpus, modèles, outils), des revues, des événements et des opportunités (emplois, stages, thèses, masters), avec un focus sur les langues peu dotées du bassin méditerranéen : berbère, langues régionales, arabe dialectal.">
+  <meta name="theme-color" content="#1E3A5F" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0B1220" media="(prefers-color-scheme: dark)">
   <link rel="canonical" href="https://omnital.github.io/">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-  <link rel="alternate" type="application/rss+xml" title="ConnecTAL — veille TAL" href="data/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="OmniTAL — veille TAL" href="data/feed.xml">
 
   <!-- Open Graph / partage -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="ConnecTAL — ressources et veille en TAL">
-  <meta property="og:description" content="Corpus, modèles, outils et événements en TAL, mis à jour chaque jour.">
+  <meta property="og:site_name" content="OmniTAL">
+  <meta property="og:title" content="OmniTAL — ressources et veille en TAL">
+  <meta property="og:description" content="Corpus, modèles, outils, événements et opportunités en TAL, mis à jour chaque jour.">
   <meta property="og:url" content="https://omnital.github.io/">
   <meta property="og:locale" content="fr_FR">
 
@@ -33,7 +35,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+  <!-- Charte « Swiss Modernism 2.0 » (ui-ux-pro-max) : Crimson Pro (titres) + Atkinson Hyperlegible (texte) + JetBrains Mono (données) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin>
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" crossorigin>
@@ -42,189 +45,164 @@
   <link rel="stylesheet" href="assets/css/app.css">
 </head>
 
-<body class="flex flex-col h-[100dvh] overflow-hidden">
-  <a href="#main-content" class="skip-link">Aller au contenu</a>
+<body>
+  <a href="#results" class="skip-link" data-i18n="skip_link">Aller aux résultats</a>
 
-  <header class="flex-shrink-0 bg-surface border-b border-line z-20">
-    <div class="flex items-center justify-between gap-3 px-3 sm:px-4 h-16">
-      <a href="./" class="flex items-center gap-3 min-w-0" aria-label="ConnecTAL — accueil">
-        <span class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-accent flex items-center justify-center
-                     font-bold text-white text-lg shadow-lg flex-shrink-0 font-mono" aria-hidden="true">C</span>
+  <!-- ═══════════ En-tête ═══════════ -->
+  <header id="site-header" class="site-header">
+    <div class="container-wide header-row">
+      <a href="./" class="brand" aria-label="OmniTAL — accueil">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <rect width="40" height="40" rx="10" fill="var(--primary)"/>
+          <circle cx="20" cy="20" r="11" fill="none" stroke="#fff" stroke-width="3"/>
+          <path d="M9 20h22M20 9c4 3.2 4 18.8 0 22M20 9c-4 3.2-4 18.8 0 22" fill="none" stroke="#F0956A" stroke-width="2"/>
+        </svg>
         <span class="min-w-0">
-          <span class="block text-base sm:text-lg font-semibold tracking-tight text-txt truncate leading-tight"
-                data-i18n="site_title">ConnecTAL</span>
-          <span class="hidden sm:block text-xs text-txt-3 leading-tight mt-0.5 truncate"
-                data-i18n="site_subtitle">Ressources & veille en traitement automatique des langues</span>
+          <span class="brand-name" data-i18n="site_title">OmniTAL</span>
+          <span class="brand-sub" data-i18n="site_subtitle">Ressources, veille et opportunités en traitement automatique des langues</span>
         </span>
       </a>
 
-      <div class="flex items-center gap-2 sm:gap-3 flex-shrink-0">
-        <span id="new-today-chip" class="stat-chip hidden sm:inline-flex" data-i18n-title="new_today_hint">
-          <span aria-hidden="true">🆕</span><span id="new-today-num" class="font-mono">0</span>
-          <span class="hidden md:inline" data-i18n="today">aujourd'hui</span>
-        </span>
-        <span id="last-updated-badge"
-              class="hidden md:flex text-xs bg-app text-txt-2 px-3 py-1.5 rounded-full border border-line items-center gap-2 whitespace-nowrap">
-          <span id="agent-dot" class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" aria-hidden="true"></span>
-          <span><span data-i18n="updated">MAJ</span> : <span id="last-updated-time" class="font-mono">…</span></span>
-        </span>
-        <a href="data/feed.xml" class="icon-btn hidden sm:inline-flex" data-i18n-title="rss" title="Flux RSS" aria-label="Flux RSS">
-          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.18 15.64a2.18 2.18 0 110 4.36 2.18 2.18 0 010-4.36zM4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44zm0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/></svg>
-        </a>
+      <nav class="tabs" aria-label="Sections" role="tablist">
+        <button type="button" role="tab" data-tab="veille" aria-selected="true" class="tab-btn tab-active">
+          <svg class="ico" aria-hidden="true"><use href="#i-radar"/></svg>
+          <span data-i18n="tab_veille">Veille</span> <span id="tab-count-veille" class="tab-count"></span>
+        </button>
+        <button type="button" role="tab" data-tab="catalogue" aria-selected="false" class="tab-btn">
+          <svg class="ico" aria-hidden="true"><use href="#i-book"/></svg>
+          <span data-i18n="tab_catalogue">Catalogue</span> <span id="tab-count-catalogue" class="tab-count"></span>
+        </button>
+        <button type="button" role="tab" data-tab="opps" aria-selected="false" class="tab-btn">
+          <svg class="ico" aria-hidden="true"><use href="#i-briefcase"/></svg>
+          <span data-i18n="tab_opps">Opportunités</span> <span id="tab-count-opps" class="tab-count"></span>
+        </button>
+      </nav>
 
+      <div class="header-actions">
+        <span id="last-updated-badge" class="status-pill hidden md:inline-flex" aria-live="polite">
+          <span id="agent-dot" class="status-dot" aria-hidden="true"></span>
+          <span><span data-i18n="updated">Mis à jour</span> <span id="last-updated-time">…</span></span>
+        </span>
+        <a href="data/feed.xml" class="icon-btn" data-i18n-title="rss" title="Flux RSS" aria-label="Flux RSS">
+          <svg class="ico" aria-hidden="true"><use href="#i-rss"/></svg>
+        </a>
         <div class="lang-switcher" role="group" aria-label="Langue / Language / Tutlayt">
           <button type="button" class="lang-btn lang-active" data-lang="fr" lang="fr">FR</button>
           <button type="button" class="lang-btn" data-lang="en" lang="en">EN</button>
           <button type="button" class="lang-btn" data-lang="kab" lang="kab" title="Taqbaylit">TQ</button>
         </div>
-
-        <button id="theme-toggle" type="button" class="theme-toggle" aria-label="Basculer le thème" aria-pressed="false">
-          <span class="icon icon-sun" aria-hidden="true">☀</span>
-          <span class="icon icon-moon" aria-hidden="true">☾</span>
+        <button id="theme-toggle" type="button" class="icon-btn" aria-label="Basculer le thème" aria-pressed="false">
+          <svg class="ico icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+          <svg class="ico icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
         </button>
       </div>
     </div>
-
-    <nav class="px-3 sm:px-4 pb-3 lg:pb-0 lg:border-t lg:border-line lg:h-12 lg:flex lg:items-center" aria-label="Sections">
-      <div class="tabs-scroll flex gap-1 bg-app lg:bg-transparent rounded-lg p-1 lg:p-0 w-full lg:w-auto overflow-x-auto" role="tablist">
-        <button type="button" role="tab" data-tab="veille" aria-selected="true"
-                class="tab-btn tab-active flex-1 lg:flex-none text-center">
-          <span data-i18n="tab_veille">Veille</span> <span id="tab-count-veille" class="tab-count"></span>
-        </button>
-        <button type="button" role="tab" data-tab="catalogue" aria-selected="false"
-                class="tab-btn flex-1 lg:flex-none text-center">
-          <span data-i18n="tab_catalogue">Catalogue</span> <span id="tab-count-catalogue" class="tab-count"></span>
-        </button>
-        <button type="button" role="tab" data-tab="opps" aria-selected="false"
-                class="tab-btn flex-1 lg:flex-none text-center">
-          <span data-i18n="tab_opps">Opportunités</span> <span id="tab-count-opps" class="tab-count"></span>
-        </button>
-      </div>
-    </nav>
   </header>
 
-  <div class="flex flex-1 overflow-hidden">
+  <!-- ═══════════ Indicateurs du jour (animés) ═══════════ -->
+  <section class="kpi-band" aria-label="Indicateurs">
+    <div class="container-wide">
+      <h1 class="kpi-title"><span data-i18n="hero_title">La veille quotidienne du TAL, des langues peu dotées de Méditerranée au monde entier</span></h1>
+      <ul id="kpis" class="kpi-row">
+        <li class="kpi"><span class="kpi-num" data-kpi="new_today">0</span><span class="kpi-lbl" data-i18n="kpi_today">nouveautés aujourd'hui</span></li>
+        <li class="kpi"><span class="kpi-num" data-kpi="new_7d">0</span><span class="kpi-lbl" data-i18n="kpi_week">sur 7 jours</span></li>
+        <li class="kpi kpi-warm"><span class="kpi-num" data-kpi="deadlines">0</span><span class="kpi-lbl" data-i18n="kpi_deadlines">échéances sous 14 j</span></li>
+        <li class="kpi"><span class="kpi-num" data-kpi="opps">0</span><span class="kpi-lbl" data-i18n="kpi_opps">opportunités ouvertes</span></li>
+        <li class="kpi"><span class="kpi-num" data-kpi="langs">0</span><span class="kpi-lbl" data-i18n="kpi_langs">langues suivies</span></li>
+        <li class="kpi"><span class="kpi-num" data-kpi="sources">0</span><span class="kpi-lbl" data-i18n="kpi_sources">sources actives</span></li>
+      </ul>
+    </div>
+  </section>
 
-    <!-- Liste (veille ou catalogue) -->
-    <aside id="notices-panel" aria-label="Résultats"
-           class="hidden lg:flex w-full lg:w-80 xl:w-96 bg-surface lg:border-r border-line flex-col overflow-hidden">
-      <form id="web-search-form" class="web-search p-4 border-b border-line flex-shrink-0" role="search">
-        <label for="web-q" class="text-sm font-semibold text-accent uppercase tracking-wider mb-1 block" data-i18n="web_title">Chercher sur le web</label>
-        <p class="text-xs text-txt-3 mb-2.5" data-i18n="web_hint">Hugging Face, GitHub, Zenodo, HAL, theses.fr — les résultats s'affichent sur la carte et dans le catalogue.</p>
-        <div class="flex gap-2">
-          <input type="search" id="web-q" autocomplete="off" data-i18n-placeholder="web_placeholder" placeholder="ex. corpus sicilien, ASR maltais…"
-                 class="flex-1 min-w-0 bg-elevated text-base text-txt px-3.5 py-2.5 rounded-lg border border-line
-                        focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 placeholder-txt-3 transition">
-          <button type="submit" class="btn-primary" data-i18n="web_go">Lancer</button>
+  <!-- ═══════════ Barre de recherche & filtres (collante) ═══════════ -->
+  <section id="toolbar" class="toolbar" aria-label="Recherche et filtres">
+    <div class="container-wide">
+      <form id="search-form" class="search-row" role="search">
+        <div class="search-mode" role="radiogroup" aria-label="Portée de la recherche">
+          <button type="button" role="radio" data-mode="site" aria-checked="true" class="mode-active">
+            <svg class="ico" aria-hidden="true"><use href="#i-search"/></svg><span data-i18n="mode_site">OmniTAL</span>
+          </button>
+          <button type="button" role="radio" data-mode="web" aria-checked="false">
+            <svg class="ico" aria-hidden="true"><use href="#i-globe"/></svg><span data-i18n="mode_web">Web</span>
+          </button>
         </div>
-        <div id="web-history" class="flex flex-wrap gap-1.5 mt-2.5"></div>
+        <label for="search-input" class="sr-only" data-i18n="search_title">Chercher</label>
+        <div class="search-box">
+          <svg class="ico search-ico" aria-hidden="true"><use href="#i-search"/></svg>
+          <input type="search" id="search-input" autocomplete="off" enterkeyhint="search"
+                 data-i18n-placeholder="search_site" placeholder="Rechercher un titre, un auteur, une langue…">
+          <kbd class="kbd hidden lg:inline-flex" aria-hidden="true">/</kbd>
+        </div>
+        <button type="submit" id="web-go" class="btn-primary hidden" data-i18n="web_go">Lancer</button>
+
+        <div class="seg" role="radiogroup" id="period-filter" aria-label="Période">
+          <button type="button" role="radio" data-period="1" data-i18n="period_1">24 h</button>
+          <button type="button" role="radio" data-period="7" data-i18n="period_7">7 j</button>
+          <button type="button" role="radio" data-period="30" data-i18n="period_30">30 j</button>
+          <button type="button" role="radio" data-period="0" class="seg-active" aria-checked="true" data-i18n="period_all">Tout</button>
+        </div>
+
+        <button type="button" id="filters-toggle" class="btn-ghost hidden lg:inline-flex" aria-expanded="false" aria-controls="filters-panel">
+          <svg class="ico" aria-hidden="true"><use href="#i-sliders"/></svg>
+          <span data-i18n="filters">Filtres</span><span id="filters-count" class="count-badge hidden">0</span>
+        </button>
       </form>
+      <p class="web-hint hidden" id="web-hint" data-i18n="web_hint">Hugging Face, GitHub, Zenodo, HAL, theses.fr — les résultats s'affichent sur la carte et dans le catalogue.</p>
+      <div id="web-history" class="chip-list"></div>
 
-      <div class="p-4 border-b border-line flex-shrink-0">
-        <label for="search-input" class="text-sm font-semibold text-accent uppercase tracking-wider mb-3 block"
-               data-i18n="search_title">Chercher</label>
-        <div class="relative">
-          <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-txt-3 pointer-events-none"
-               fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
-          </svg>
-          <input type="search" id="search-input" data-i18n-placeholder="search_site" autocomplete="off"
-                 placeholder="Rechercher…"
-                 class="w-full bg-elevated text-base text-txt pl-10 pr-3.5 py-2.5 rounded-lg border border-line
-                        focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 placeholder-txt-3 transition">
+      <!-- Puces des filtres actifs -->
+      <div id="active-filters" class="chip-list" aria-live="polite"></div>
+    </div>
+
+    <!-- Panneau de filtres : grille sur ordinateur, tiroir sur mobile -->
+    <div id="filters-panel" class="filters-panel" hidden>
+      <div class="filters-sheet" role="dialog" aria-modal="false" aria-labelledby="filters-heading">
+        <div class="filters-head">
+          <h2 id="filters-heading" class="panel-title" data-i18n="filters">Filtres</h2>
+          <button type="button" id="filters-close" class="icon-btn" aria-label="Fermer"><svg class="ico" aria-hidden="true"><use href="#i-x"/></svg></button>
         </div>
-        <p class="text-xs text-txt-3 mt-2.5" aria-live="polite">
-          <span id="results-count" class="font-mono font-medium">0</span> <span data-i18n="results">résultat(s)</span>
-        </p>
-      </div>
 
-      <div id="banners-container" class="flex-shrink-0 max-h-[40vh] overflow-y-auto"></div>
-      <div id="cards-container" class="flex-1 overflow-y-auto p-3 space-y-3"></div>
-    </aside>
-
-    <!-- Carte / grille catalogue -->
-    <main id="main-content" class="flex-1 relative bg-app overflow-hidden" tabindex="-1">
-      <h1 class="sr-only">ConnecTAL — carte de la veille en traitement automatique des langues</h1>
-      <div id="map" class="w-full h-full" role="region" aria-label="Carte des ressources"></div>
-      <div id="map-legend-mini" class="map-overlay">
-        <span id="map-counter"><span aria-hidden="true">📍</span><span id="map-counter-num">0</span></span>
-        <span id="map-unlocated" class="text-txt-3"></span>
-      </div>
-      <div id="catalogue-view" class="hidden absolute inset-0 overflow-y-auto p-4 sm:p-6 lg:p-8">
-        <div id="catalogue-grid" class="grid grid-cols-[repeat(auto-fill,minmax(min(100%,270px),1fr))] gap-4"></div>
-      </div>
-      <div id="loading-overlay" class="loading-overlay hidden" role="status"><div class="spinner"></div></div>
-    </main>
-
-    <!-- Filtres -->
-    <aside id="filters-panel" aria-label="Filtres"
-           class="hidden lg:flex w-full lg:w-72 xl:w-80 bg-surface lg:border-l border-line p-4 lg:p-5 flex-col gap-6 overflow-y-auto">
-
-      <section id="filters-veille">
-        <h2 class="panel-title" data-i18n="filters">Filtres</h2>
-        <div class="space-y-4">
-          <div>
-            <span class="field-label" data-i18n="period">Période</span>
-            <div class="seg" role="radiogroup" id="period-filter">
-              <button type="button" role="radio" data-period="1" data-i18n="period_1">24 h</button>
-              <button type="button" role="radio" data-period="7" data-i18n="period_7">7 j</button>
-              <button type="button" role="radio" data-period="30" data-i18n="period_30">30 j</button>
-              <button type="button" role="radio" data-period="0" class="seg-active" aria-checked="true" data-i18n="period_all">Tout</button>
-            </div>
-          </div>
-          <div>
-            <label for="vsource-filter" class="field-label" data-i18n="source">Source</label>
-            <select id="vsource-filter" class="field"><option value="ALL" data-i18n="source_all">Toutes les sources</option></select>
-          </div>
-          <div>
+        <div id="filters-veille" class="filters-grid">
+          <div class="field-wrap">
             <label for="type-filter" class="field-label" data-i18n="type">Type de ressource</label>
             <select id="type-filter" class="field"><option value="ALL" data-i18n="type_all">Tous les types</option></select>
           </div>
-          <div>
-            <label for="region-filter" class="field-label" data-i18n="region">Région</label>
-            <select id="region-filter" class="field"><option value="ALL" data-i18n="region_all">Toutes les régions</option></select>
-          </div>
-          <div>
-            <label for="langgroup-filter" class="field-label" data-i18n="lowres">Langues peu dotées</label>
-            <select id="langgroup-filter" class="field">
-              <option value="ALL" data-i18n="lowres_all">Toutes les ressources</option>
-              <option value="ANY" data-i18n="lowres_any">Toutes les langues suivies</option>
-              <option value="berbere" data-i18n="group_berbere">Langues berbères</option>
-              <option value="mediterranee" data-i18n="group_mediterranee">Langues méditerranéennes</option>
-              <option value="arabe" data-i18n="group_arabe">Arabe dialectal</option>
-            </select>
-          </div>
-          <div>
+          <div class="field-wrap">
             <label for="lang-filter" class="field-label" data-i18n="language">Langue</label>
             <select id="lang-filter" class="field"><option value="ALL" data-i18n="language_all">Toutes</option></select>
           </div>
-          <div id="query-filter-wrap" class="hidden">
+          <div class="field-wrap">
+            <label for="vsource-filter" class="field-label" data-i18n="source">Source</label>
+            <select id="vsource-filter" class="field"><option value="ALL" data-i18n="source_all">Toutes les sources</option></select>
+          </div>
+          <div class="field-wrap">
+            <label for="region-filter" class="field-label" data-i18n="region">Région / pays</label>
+            <select id="region-filter" class="field"><option value="ALL" data-i18n="region_all">Toutes les régions</option></select>
+          </div>
+          <div id="query-filter-wrap" class="field-wrap hidden">
             <label for="query-filter" class="field-label" data-i18n="tracked_query">Requête suivie</label>
             <select id="query-filter" class="field"><option value="ALL" data-i18n="tracked_all">Toutes</option></select>
           </div>
-          <label class="check">
+          <label class="check field-wrap">
             <input type="checkbox" id="catalogue-layer" checked>
             <span data-i18n="show_catalogue_layer">Afficher le catalogue sur la carte</span>
           </label>
         </div>
-      </section>
 
-      <section id="filters-catalogue" class="hidden">
-        <h2 class="panel-title" data-i18n="filters_catalogue">Filtres catalogue</h2>
-        <div class="space-y-4">
-          <div>
-            <label for="source-filter" class="field-label" data-i18n="collection">Collection</label>
-            <select id="source-filter" class="field"><option value="ALL" data-i18n="source_all">Toutes</option></select>
-          </div>
-          <div>
+        <div id="filters-catalogue" class="filters-grid hidden">
+          <div class="field-wrap">
             <label for="cat-filter" class="field-label" data-i18n="category">Catégorie</label>
             <select id="cat-filter" class="field"><option value="ALL" data-i18n="category_all">Toutes</option></select>
           </div>
-          <div>
+          <div class="field-wrap">
             <label for="langue-filter" class="field-label" data-i18n="language">Langue</label>
             <select id="langue-filter" class="field"><option value="ALL" data-i18n="language_all">Toutes</option></select>
           </div>
-          <div>
+          <div class="field-wrap">
+            <label for="source-filter" class="field-label" data-i18n="collection">Collection</label>
+            <select id="source-filter" class="field"><option value="ALL" data-i18n="source_all">Toutes</option></select>
+          </div>
+          <div class="field-wrap">
             <label for="oa-filter" class="field-label" data-i18n="license">Licence / accès</label>
             <select id="oa-filter" class="field">
               <option value="ALL" data-i18n="license_all">Toutes</option>
@@ -234,7 +212,7 @@
               <option value="unknown" data-i18n="license_unknown">Non précisée</option>
             </select>
           </div>
-          <div>
+          <div class="field-wrap">
             <label for="cat-sort" class="field-label" data-i18n="sort">Trier par</label>
             <select id="cat-sort" class="field">
               <option value="relevance" data-i18n="sort_relevance">Pertinence</option>
@@ -243,78 +221,190 @@
               <option value="alpha" data-i18n="sort_alpha">Ordre alphabétique</option>
             </select>
           </div>
-          <label class="check">
+          <label class="check field-wrap">
             <input type="checkbox" id="deadline-filter">
             <span data-i18n="deadline_only">Échéance à venir uniquement</span>
           </label>
         </div>
-      </section>
 
-      <section id="filters-opps" class="hidden">
-        <h2 class="panel-title" data-i18n="filters_opps">Filtres opportunités</h2>
-        <div class="space-y-4">
-          <div>
+        <div id="filters-opps" class="filters-grid hidden">
+          <div class="field-wrap">
             <label for="opp-kind" class="field-label" data-i18n="opp_kind">Type d'opportunité</label>
             <select id="opp-kind" class="field"><option value="ALL" data-i18n="opp_all">Toutes</option></select>
           </div>
-          <div>
-            <label for="opp-region" class="field-label" data-i18n="region">Région / pays</label>
-            <select id="opp-region" class="field"><option value="ALL" data-i18n="region_all">Toutes les régions</option></select>
+          <div class="field-wrap">
+            <label for="opp-country" class="field-label" data-i18n="country">Pays</label>
+            <select id="opp-country" class="field"><option value="ALL" data-i18n="country_all">Tous les pays</option></select>
           </div>
-          <div>
+          <div class="field-wrap">
             <label for="opp-source" class="field-label" data-i18n="source">Source</label>
             <select id="opp-source" class="field"><option value="ALL" data-i18n="source_all">Toutes les sources</option></select>
           </div>
-          <label class="check">
+          <div class="field-wrap">
+            <label for="opp-sort" class="field-label" data-i18n="sort">Trier par</label>
+            <select id="opp-sort" class="field">
+              <option value="relevance" data-i18n="sort_open_first">Offres ouvertes d'abord</option>
+              <option value="recent" data-i18n="sort_recent">Ajouts récents</option>
+              <option value="country" data-i18n="sort_country">Pays</option>
+            </select>
+          </div>
+          <label class="check field-wrap">
             <input type="checkbox" id="opp-remote">
             <span data-i18n="opp_remote">Télétravail possible</span>
           </label>
         </div>
-      </section>
 
-      <button type="button" id="reset-filters" class="btn-ghost" data-i18n="reset_filters">Réinitialiser les filtres</button>
+        <div class="filters-foot">
+          <button type="button" id="reset-filters" class="btn-ghost" data-i18n="reset_filters">Réinitialiser les filtres</button>
+          <button type="button" id="filters-apply" class="btn-primary lg:hidden" data-i18n="show_results">Voir les résultats</button>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <section class="border-t border-line pt-5">
-        <h2 class="panel-title" data-i18n="legend">Légende</h2>
-        <ul class="space-y-2.5 text-sm" id="legend-list"></ul>
-      </section>
+  <!-- ═══════════ Contenu : carte (centre-gauche) + résultats ═══════════ -->
+  <main id="main-content" class="container-wide layout" tabindex="-1">
 
-      <section class="border-t border-line pt-5 mt-auto">
-        <h2 class="panel-title" data-i18n="agent_status">État de l'agent</h2>
-        <ul id="agent-status" class="space-y-1.5 text-xs font-mono"></ul>
-        <p class="text-xs text-txt-3 mt-3">
-          <a class="link" href="data/feed.xml" data-i18n="rss_subscribe">S'abonner au flux RSS</a> ·
-          <a class="link" href="https://github.com/OmniTAL/omnital.github.io" rel="noopener" data-i18n="source_code">Code source</a>
-        </p>
-      </section>
+    <aside class="map-col" aria-label="Carte">
+      <div class="map-sticky">
+        <div class="map-card">
+          <div class="map-card-head">
+            <h2 class="map-card-title"><svg class="ico" aria-hidden="true"><use href="#i-map"/></svg> <span data-i18n="map_title">Carte</span></h2>
+            <span class="map-counter font-mono"><span id="map-counter-num">0</span> <span data-i18n="map_located">localisés</span><span id="map-unlocated" class="text-txt-3"></span></span>
+            <button type="button" id="map-toggle" class="btn-ghost-sm lg:hidden" aria-expanded="true" aria-controls="map" data-i18n-title="map_toggle" title="Afficher / masquer la carte">
+              <svg class="ico" aria-hidden="true"><use href="#i-chevron"/></svg>
+            </button>
+          </div>
+          <div class="map-frame">
+            <div id="map" role="region" aria-label="Carte des ressources"></div>
+            <div id="loading-overlay" class="loading-overlay hidden" role="status"><div class="spinner"></div></div>
+          </div>
+          <ul id="legend-list" class="legend" aria-label="Légende"></ul>
+        </div>
+
+        <details class="agent-card">
+          <summary>
+            <span><span data-i18n="agent_status">État de l'agent</span></span>
+            <span id="agent-summary" class="font-mono text-xs"></span>
+          </summary>
+          <ul id="agent-status" class="agent-list"></ul>
+        </details>
+      </div>
     </aside>
-  </div>
 
-  <nav id="mobile-nav" class="lg:hidden flex-shrink-0 bg-surface border-t border-line flex items-stretch h-16 z-30" aria-label="Vues">
-    <button type="button" data-mobile-view="map" class="mobile-nav-btn mobile-nav-active flex-1">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-      </svg>
-      <span class="mobile-nav-label text-xs font-medium" data-i18n="view_map">Carte</span>
-    </button>
-    <button type="button" data-mobile-view="notices" class="mobile-nav-btn flex-1">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h10M4 18h10"/>
-      </svg>
-      <span class="text-xs font-medium" data-i18n="view_list">Liste</span>
-    </button>
-    <button type="button" data-mobile-view="filters" class="mobile-nav-btn flex-1">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"/>
-      </svg>
-      <span class="text-xs font-medium" data-i18n="view_filters">Filtres</span>
-    </button>
-  </nav>
+    <section id="results" class="results-col" aria-labelledby="results-heading" tabindex="-1">
+      <div id="banners-container" class="banners"></div>
+
+      <div class="results-head">
+        <h2 id="results-heading" class="results-title">
+          <span id="results-label" data-i18n="results_veille">Dernières détections</span>
+          <span class="results-count" aria-live="polite"><span id="results-count" class="font-mono">0</span> <span data-i18n="results">résultat(s)</span></span>
+        </h2>
+        <div class="view-toggle" role="group" aria-label="Affichage">
+          <button type="button" data-view="list" class="view-active" aria-pressed="true" data-i18n-title="view_list" title="Liste"><svg class="ico" aria-hidden="true"><use href="#i-list"/></svg></button>
+          <button type="button" data-view="grid" aria-pressed="false" data-i18n-title="view_grid" title="Grille"><svg class="ico" aria-hidden="true"><use href="#i-grid"/></svg></button>
+        </div>
+      </div>
+
+      <div id="cards-container" class="cards cards-list"></div>
+    </section>
+  </main>
+
+  <!-- ═══════════ Pied de page ═══════════ -->
+  <footer class="site-footer">
+    <div class="container-wide footer-grid">
+      <div class="footer-about">
+        <a href="./" class="brand brand-footer" aria-label="OmniTAL">
+          <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+            <rect width="40" height="40" rx="10" fill="var(--primary)"/>
+            <circle cx="20" cy="20" r="11" fill="none" stroke="#fff" stroke-width="3"/>
+            <path d="M9 20h22M20 9c4 3.2 4 18.8 0 22M20 9c-4 3.2-4 18.8 0 22" fill="none" stroke="#F0956A" stroke-width="2"/>
+          </svg>
+          <span class="brand-name">OmniTAL</span>
+        </a>
+        <p class="footer-text" data-i18n="footer_about">Portail ouvert de veille en traitement automatique des langues : ressources, publications, événements et opportunités, avec un regard particulier sur les langues peu dotées du bassin méditerranéen.</p>
+        <p class="footer-text"><span data-i18n="footer_update">Mise à jour automatique chaque matin par un agent de veille.</span> <span id="footer-updated"></span></p>
+      </div>
+
+      <nav aria-labelledby="f-sections">
+        <h2 id="f-sections" class="footer-h" data-i18n="footer_sections">Sections</h2>
+        <ul class="footer-links">
+          <li><a href="#veille" data-tab-link="veille" data-i18n="tab_veille">Veille</a></li>
+          <li><a href="#catalogue" data-tab-link="catalogue" data-i18n="tab_catalogue">Catalogue</a></li>
+          <li><a href="#opps" data-tab-link="opps" data-i18n="tab_opps">Opportunités</a></li>
+          <li><a href="data/feed.xml" data-i18n="rss_subscribe">S'abonner au flux RSS</a></li>
+        </ul>
+      </nav>
+
+      <nav aria-labelledby="f-langs">
+        <h2 id="f-langs" class="footer-h" data-i18n="footer_languages">Langues suivies</h2>
+        <ul class="footer-links" id="footer-groups"></ul>
+      </nav>
+
+      <nav aria-labelledby="f-project">
+        <h2 id="f-project" class="footer-h" data-i18n="footer_project">Projet</h2>
+        <ul class="footer-links">
+          <li><a href="https://github.com/OmniTAL/omnital.github.io" rel="noopener" data-i18n="source_code">Code source</a></li>
+          <li><a href="https://github.com/OmniTAL/omnital.github.io/issues/new?template=requete.yml" rel="noopener" data-i18n="footer_suggest">Proposer une requête de veille</a></li>
+          <li><a href="https://github.com/OmniTAL/omnital.github.io/issues" rel="noopener" data-i18n="footer_report">Signaler un problème</a></li>
+          <li><a href="https://github.com/OmniTAL/omnital.github.io#readme" rel="noopener" data-i18n="footer_docs">Documentation</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <div class="container-wide footer-bottom-row">
+        <p>© <span id="footer-year">2026</span> OmniTAL · <span data-i18n="footer_license">Données issues de sources ouvertes ; chaque fiche renvoie à sa source et à sa licence.</span></p>
+        <p class="footer-credits"><span data-i18n="footer_map">Fonds de carte</span> © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> · <a href="https://openfreemap.org" rel="noopener">OpenFreeMap</a></p>
+        <a href="#site-header" class="to-top" data-i18n-title="to_top" title="Haut de page" aria-label="Haut de page"><svg class="ico" aria-hidden="true"><use href="#i-arrow-up"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bouton flottant « Filtres » (mobile) -->
+  <button type="button" id="fab-filters" class="fab lg:hidden" aria-controls="filters-panel">
+    <svg class="ico" aria-hidden="true"><use href="#i-sliders"/></svg><span data-i18n="filters">Filtres</span><span id="fab-count" class="count-badge hidden">0</span>
+  </button>
 
   <noscript>
-    <p style="padding:1rem;text-align:center">ConnecTAL nécessite JavaScript. Le flux de veille reste disponible en <a href="data/feed.xml">RSS</a>.</p>
+    <p style="padding:1rem;text-align:center">OmniTAL nécessite JavaScript. Le flux de veille reste disponible en <a href="data/feed.xml">RSS</a>.</p>
   </noscript>
+
+  <!-- Icônes (Lucide, ISC) : une seule définition, réutilisée via <use> -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></symbol>
+      <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></symbol>
+      <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+      <symbol id="i-map" viewBox="0 0 24 24"><path d="m9 4-6 2v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+      <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+      <symbol id="i-list" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></symbol>
+      <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></symbol>
+      <symbol id="i-rss" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></symbol>
+      <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
+      <symbol id="i-radar" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><path d="m12 12 6-6"/></symbol>
+      <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h14v16H6.5A2.5 2.5 0 0 0 4 21.5v-2z"/><path d="M8 7h8"/></symbol>
+      <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></symbol>
+      <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+      <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></symbol>
+      <symbol id="i-pen" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></symbol>
+      <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></symbol>
+      <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></symbol>
+      <symbol id="i-flame" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.4-.5-2-1-3-1.1-2.1-.2-4 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.2.4-2.3 1-3.2.2 1.4 1.2 2.7 2.5 2.7z"/></symbol>
+      <symbol id="i-lang" viewBox="0 0 24 24"><path d="M5 8l6 6M4 14l6-6 2-3M2 5h12M7 2h1M22 22l-5-10-5 10M14 18h6"/></symbol>
+      <symbol id="i-package" viewBox="0 0 24 24"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></symbol>
+      <symbol id="i-alert" viewBox="0 0 24 24"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4M12 17h.01"/></symbol>
+      <symbol id="i-megaphone" viewBox="0 0 24 24"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></symbol>
+      <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+      <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+      <symbol id="i-follow" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M12 2v1"/></symbol>
+      <symbol id="i-cap" viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></symbol>
+    </defs>
+  </svg>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin></script>

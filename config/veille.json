@@ -1,7 +1,7 @@
 {
-  "_doc": "Configuration de l'agent de veille ConnecTAL. Modifiable sans toucher au code Python.",
+  "_doc": "Configuration de l'agent de veille OmniTAL. Modifiable sans toucher au code Python.",
   "site_url": "https://omnital.github.io",
-  "user_agent": "ConnecTAL-veille/3.0 (+https://omnital.github.io)",
+  "user_agent": "OmniTAL-veille/4.0 (+https://omnital.github.io)",
   "retention_days": {
     "_doc": "Durée de conservation dans l'historique (par source). Les éléments 'focus' (berbère, kabyle...) sont conservés indéfiniment.",
     "arxiv": 21,
@@ -13,9 +13,10 @@
     "zenodo": 365,
     "elg": 365,
     "doaj": 3650,
-    "theses": 365
+    "theses": 365,
+    "confdeadlines": 400
   },
-  "max_items_payload": 3000,
+  "max_items_payload": 4500,
   "focus_keywords": [
     "kabyl",
     "kabyle",
@@ -107,6 +108,7 @@
       "huggingface",
       "github",
       "wikicfp",
+      "confdeadlines",
       "zenodo",
       "elg",
       "doaj"
@@ -149,7 +151,7 @@
     "page_size": 100
   },
   "opportunites": {
-    "_doc": "Emplois, stages, thèses, postdocs, formations. ttl_days : une offre disparaît si elle n'est plus vue depuis N jours.",
+    "_doc": "Emplois, stages, thèses, postdocs, formations. ttl_days : une offre disparaît si elle n'est plus vue depuis N jours. strict_keywords : filtre (sur le titre) des tableaux généralistes.",
     "keywords": [
       "nlp",
       "natural language",
@@ -178,13 +180,20 @@
     "nlppeople_pages": 3,
     "greenhouse": [
       "anthropic",
-      "scaleai"
+      "scaleai",
+      "assemblyai",
+      "speechmatics"
     ],
     "ashby": [
       "openai",
       "cohere",
       "elevenlabs",
-      "perplexity"
+      "perplexity",
+      "deepl",
+      "synthesia",
+      "poolside",
+      "writer",
+      "character"
     ],
     "lever": [],
     "remotive_queries": [
@@ -208,8 +217,55 @@
       "remotive": 30,
       "arbeitnow": 30,
       "theses": 365,
-      "default": 45
-    }
+      "default": 45,
+      "jobicy": 30,
+      "himalayas": 30,
+      "weworkremotely": 30,
+      "hnhiring": 35
+    },
+    "strict_keywords": [
+      "nlp",
+      "natural language",
+      "language model",
+      "llm",
+      "computational linguist",
+      "speech",
+      "asr",
+      "tts",
+      "machine translation",
+      "conversational ai",
+      "dialogue",
+      "text mining",
+      "information retrieval",
+      "search relevance",
+      "rag",
+      "genai",
+      "generative ai"
+    ],
+    "jobicy_tags": [
+      "nlp",
+      "llm",
+      "machine-learning"
+    ],
+    "himalayas_queries": [
+      "natural language processing",
+      "nlp",
+      "computational linguistics",
+      "speech recognition",
+      "llm"
+    ],
+    "wwr_categories": [
+      "remote-programming-jobs",
+      "remote-back-end-programming-jobs",
+      "remote-full-stack-programming-jobs"
+    ],
+    "hn_queries": [
+      "NLP",
+      "LLM",
+      "natural language",
+      "speech",
+      "linguist"
+    ]
   },
   "locate": {
     "_doc": "Géolocalisation : quotas d'appels par exécution (cache data/geocache.json)",
@@ -222,5 +278,11 @@
     "label": "veille:requete",
     "max_queries": 40
   },
-  "repo": "OmniTAL/omnital.github.io"
+  "repo": "OmniTAL/omnital.github.io",
+  "payload_recent_days": 7,
+  "confdeadlines": {
+    "_doc": "Échéances des grandes conférences TAL/parole (ccfddl, YAML communautaire). Relais de WikiCFP.",
+    "url": "https://ccfddl.com/conference/allconf.yml"
+  },
+  "_payload": "max_items_payload : plafond d'éléments publiés dans radar.json ; payload_recent_days : tout ce qui a été détecté depuis N jours est publié, en plus des langues suivies, opportunités, événements et revues."
 }

@@ -235,7 +235,7 @@ def _online(loc: str | None) -> bool:
 
 # ───────────────────────────── rédaction IA (optionnelle) ─────────────────────────────
 
-SYSTEM_PROMPT = """Tu rédiges les notices du catalogue ConnecTAL, un portail de ressources en traitement automatique des langues (TAL).
+SYSTEM_PROMPT = """Tu rédiges les notices du catalogue OmniTAL, un portail de ressources en traitement automatique des langues (TAL).
 Règles :
 - 2 à 4 phrases, ton neutre et informatif, sans superlatifs ni formule promotionnelle.
 - Uniquement les faits présents dans les MÉTADONNÉES et le TEXTE SOURCE fournis. N'invente rien (ni date, ni lieu, ni chiffre, ni licence).

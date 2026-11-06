@@ -12,7 +12,7 @@ Q = """SELECT ?iso ?fr ?en ?coord WHERE {
 }"""
 r = requests.get("https://query.wikidata.org/sparql", params={"query": Q},
                  headers={"Accept": "application/sparql-results+json",
-                          "User-Agent": "ConnecTAL-veille/2.0 (+https://omnital.github.io)"}, timeout=120)
+                          "User-Agent": "OmniTAL-veille/2.0 (+https://omnital.github.io)"}, timeout=120)
 r.raise_for_status()
 out = {}
 for b in r.json()["results"]["bindings"]:

@@ -21,6 +21,7 @@ from openpyxl import load_workbook
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from geo import detect_region, geo_fields, region_from_country  # noqa: E402
+from languages import detect_languages  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES_DIR = ROOT / "sources"
@@ -31,6 +32,7 @@ WORKBOOKS = [
     ("berbere",    "nlp_berbere_kabyle_ressources.xlsx",       "Toutes_ressources", "TAL berbère & kabyle"),
     ("ecosysteme", "nlp_depots_datasets_modeles_outils.xlsx",  "Tous_depots",       "Écosystème : dépôts, datasets, modèles, outils"),
     ("general",    "nlp_ressources_filtrees.xlsx",             "Toutes_donnees",    "Veille générale : revues, événements, emplois"),
+    ("mediterranee", "nlp_mediterranee_ressources.xlsx",       "Toutes_ressources", "Langues de Méditerranée : modèles, corpus, outils"),
 ]
 
 CATEGORY_RULES = [
@@ -128,7 +130,8 @@ def build_item(source_id: str, row: dict) -> dict | None:
 
     # Géographie : variété berbère d'abord, puis pays déclaré
     region = None
-    if source_id == "berbere":
+    multilingual = bool(langue and re.match(r"multiling", langue, re.I))
+    if source_id in ("berbere", "mediterranee") and not multilingual:
         region = detect_region(langue, nom, description)
     region = region or region_from_country(pays)
 
@@ -147,7 +150,17 @@ def build_item(source_id: str, row: dict) -> dict | None:
         "description": {"fr": description},
         "pays": pays or ("International" if region in (None, "International") else None),
         **geo_fields(region),
+        **_lang_fields(None if multilingual else f"{langue or ''} {nom}"),
     }
+
+
+def _lang_fields(text: str | None) -> dict:
+    """Langues suivies citées (filtre « Langue » du catalogue)."""
+    langs = detect_languages(text or "")
+    if not langs:
+        return {}
+    return {"lang_codes": [l["code"] for l in langs][:6], "lang_groups": sorted({l["group"] for l in langs}),
+            "focus": any(l["focus"] for l in langs)}
 
 
 def main() -> int:

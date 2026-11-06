@@ -44,6 +44,18 @@ def _country_names() -> dict:
     return out
 
 
+US_STATES = set("AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY "
+                "NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC".split())
+# Grandes villes fréquentes dans les offres, sans pays explicite
+HUB_CITIES = {"new york": "US", "san francisco": "US", "seattle": "US", "boston": "US", "los angeles": "US",
+              "palo alto": "US", "mountain view": "US", "austin": "US", "chicago": "US", "london": "GB",
+              "cambridge, uk": "GB", "edinburgh": "GB", "paris": "FR", "lyon": "FR", "grenoble": "FR",
+              "toulouse": "FR", "berlin": "DE", "munich": "DE", "münchen": "DE", "zurich": "CH", "zürich": "CH",
+              "geneva": "CH", "amsterdam": "NL", "barcelona": "ES", "madrid": "ES", "milan": "IT", "rome": "IT",
+              "toronto": "CA", "montreal": "CA", "montréal": "CA", "vancouver": "CA", "tel aviv": "IL",
+              "dubai": "AE", "abu dhabi": "AE", "singapore": "SG", "tokyo": "JP", "bangalore": "IN", "bengaluru": "IN"}
+
+
 def country_code(text: str | None) -> str | None:
     """Code ISO d'un pays nommé dans `text` (« München (Germany) », « Paris, France »…)."""
     if not text:
@@ -57,6 +69,20 @@ def country_code(text: str | None) -> str | None:
     for n, iso in sorted(names.items(), key=lambda x: -len(x[0])):
         if len(n) > 3 and re.search(rf"(?<!\w){re.escape(n)}(?!\w)", t):
             return iso
+    for city, iso in HUB_CITIES.items():
+        if re.search(rf"(?<!\w){re.escape(city)}(?!\w)", t):
+            return iso
+    # code final sur deux lettres : « Brussels, BE » (ISO) ou « Austin, TX » (État américain) ;
+    # en cas d'ambiguïté (CA, DE, IN, IL, GA…) le code pays ISO l'emporte
+    m = re.search(r",\s*([A-Z]{2})\s*$", text.strip())
+    if m:
+        code = m.group(1)
+        if code in countries() and code != "UK":
+            return code
+        if code in US_STATES:
+            return "US"
+        if code == "UK":
+            return "GB"
     return None
 
 

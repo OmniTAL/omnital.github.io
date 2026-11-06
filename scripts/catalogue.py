@@ -20,7 +20,7 @@ from build_ressources import licence_class
 from cfp import mentions_journal, search_special_issues
 from notices import LANG_NAMES, rule_notice
 
-ELIGIBLE_SOURCES = {"huggingface", "github", "wikicfp", "zenodo", "elg", "doaj"}
+ELIGIBLE_SOURCES = {"huggingface", "github", "wikicfp", "confdeadlines", "zenodo", "elg", "doaj"}
 SPECIAL_ISSUE_RX = re.compile(r"special issue|numéro spécial|\bjournal\b|topical collection", re.I)
 EVENT_KEYS = ("start", "end", "location", "abstract_deadline", "paper_deadline", "notification",
               "camera_ready", "website", "categories", "deadline_sources")
@@ -31,6 +31,8 @@ def kind_of(it: dict) -> str:
         return {"Corpus": "hf_dataset", "Model": "hf_model"}.get(it["type"], "hf_space")
     if it["source"] == "github":
         return "github"
+    if it["source"] == "confdeadlines":
+        return "event"
     if it["source"] == "wikicfp":
         return "special_issue" if SPECIAL_ISSUE_RX.search(it.get("title", "")) else "event"
     if it["source"] == "zenodo":
@@ -154,7 +156,7 @@ def update_catalogue(history: dict, curated: list[dict], store: dict, writer, ht
 
     def expired(it: dict) -> bool:
         ev = it.get("event") or {}
-        if it["source"] != "wikicfp":
+        if it["source"] not in ("wikicfp", "confdeadlines"):
             return False
         if kind_of(it) == "special_issue":
             return bool(ev.get("paper_deadline")) and ev["paper_deadline"] < limit0

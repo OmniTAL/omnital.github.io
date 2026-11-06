@@ -1,8 +1,9 @@
-"""Collecteurs complémentaires de l'agent de veille ConnecTAL.
+"""Collecteurs complémentaires de l'agent de veille OmniTAL.
 
 Ressources ouvertes : Zenodo, European Language Grid (ELG), DOAJ (revues en libre accès).
-Opportunités       : NLP People, tableaux d'offres d'organisations du TAL (Greenhouse, Ashby,
-                     Lever), Remotive, Arbeitnow, theses.fr, formations (liste éditoriale).
+Opportunités       : NLP People (API JSON), tableaux d'offres d'organisations du TAL (Greenhouse,
+                     Ashby, Lever), Remotive, Arbeitnow, Jobicy, Himalayas, We Work Remotely,
+                     Hacker News « Who is hiring? », theses.fr, formations (liste éditoriale).
 
 Chaque collecteur renvoie des éléments construits par `mk` (= make_item de l'agent) et ne
 lève une exception que si la source entière est inaccessible : l'agent consigne alors
@@ -81,7 +82,7 @@ def collect_zenodo(http, cfg, mk, **_) -> list[dict]:
 def collect_elg(http, cfg, mk, **_) -> list[dict]:
     """European Language Grid : une recherche par langue méditerranéenne / berbère / arabe dialectale."""
     out: dict[str, dict] = {}
-    terms = sorted({l["en"].split(" (")[0] for l in LANGS if "/" not in l["en"] and l["code"] != "ar-dial"})
+    terms = sorted({l["en"].split(" (")[0] for l in LANGS if l["focus"] and "/" not in l["en"] and l["code"] != "ar-dial"})
     for term in terms:
         try:
             data = http.get("https://live.european-language-grid.eu/catalogue_backend/api/registry/search/",
@@ -163,54 +164,53 @@ def _nlp_match(cfg, *texts: str) -> bool:
     return any(re.search(rf"(?<![a-z]){re.escape(k.strip())}(?![a-z])", blob) for k in cfg["opportunites"]["keywords"])
 
 
-def collect_nlppeople(http, cfg, mk, previous: dict | None = None, **_) -> list[dict]:
-    out = []
-    budget = 40  # pages d'offres lues par exécution pour trouver le lieu (données structurées JSON-LD)
-    for page in range(1, cfg["opportunites"]["nlppeople_pages"] + 1):
-        url = "https://nlppeople.com/jobs/feed/" + (f"?paged={page}" if page > 1 else "")
+def _strict_nlp(cfg, title: str) -> bool:
+    """Filtre resserré pour les tableaux généralistes (Jobicy, Himalayas, WWR, HN) : le titre doit
+    viser le TAL (sinon « Translation Review Lead » ou « Full-stack engineer » passeraient)."""
+    keys = cfg["opportunites"].get("strict_keywords") or [
+        "nlp", "natural language", "language model", "llm", "computational linguist", "linguist",
+        "speech", "asr", "tts", "machine translation", "conversational ai", "dialogue", "text mining",
+        "information retrieval", "search relevance", "rag", "genai", "generative ai"]
+    t = (title or "").lower()
+    return any(re.search(rf"(?<![a-z]){re.escape(k)}(?![a-z])", t) for k in keys)
+
+
+def collect_nlppeople(http, cfg, mk, **_) -> list[dict]:
+    """NLP People — le site a abandonné son flux RSS (fin 2026) ; on lit son API JSON publique
+    (lieu, pays et coordonnées fournis, plus besoin de lire chaque page d'offre)."""
+    out: dict[str, dict] = {}
+    pages = cfg["opportunites"].get("nlppeople_pages", 3)
+    for page in range(1, pages + 1):
         try:
-            root = ET.fromstring(http.get(url, retries=1).content)
+            jobs = http.get("https://nlppeople.com/api/v1/jobs", params={"limit": 50, "page": page}, retries=2).json()
         except Exception as ex:
             if page == 1:
                 raise
             print(f"    [NLP People] page {page} : {ex}")
             break
-        for it in root.iter("item"):
-            title = it.findtext("title") or ""
-            desc = _txt(it.findtext("description"))
-            link = (it.findtext("link") or "").split("?utm_")[0]
-            pid = re.search(r"[?&]p=(\d+)", it.findtext("guid") or "") or re.search(r"/job/([^/]+)/", link)
-            # « Société | Ville, Pays | hybride | … » en tête de description
-            parts = [p.strip() for p in desc.split("|")]
-            place = next((p for p in parts[:4] if re.search(r",\s*[A-Z]", p) and len(p) < 60), None)
-            iid = f"nlppeople:{pid.group(1) if pid else link}"
-            old = (previous or {}).get(iid) or {}
-            place = place or old.get("location")
-            checked = bool(old.get("page_checked"))
-            if not place and not checked and budget > 0:
-                budget -= 1
-                checked = True
-                try:
-                    page = http.get(link, retries=0).text
-                    loc = re.findall(r'"addressLocality"\s*:\s*"([^"]+)"', page)
-                    ctry = re.findall(r'"addressCountry"\s*:\s*(?:\{[^}]*"name"\s*:\s*)?"([^"]+)"', page)
-                    place = ", ".join(x for x in (loc[0] if loc else "", ctry[0] if ctry else "") if x) or None
-                    if not place and re.search(r'"jobLocationType"\s*:\s*"TELECOMMUTE"', page):
-                        place = "Remote"
-                except Exception:
-                    pass
-                time.sleep(1)
-            pub = it.findtext("pubDate")
-            if place:
-                place = re.sub(r"\s*\(\+\d+ others?\)", "", place).strip()
-            out.append(mk(
-                id=iid, title=title, type="Opportunity", source="nlppeople",
-                url=link, date_s=parsedate_to_datetime(pub).date().isoformat() if pub else None,
-                summary=desc[:400], author=parts[0][:60] if len(parts) > 1 else "",
-                opp_kind=opp_kind(title, desc), location=place, place_hint=place,
-                page_checked=checked or None))
-        time.sleep(1.5)
-    return out
+        if not isinstance(jobs, list) or not jobs:
+            break
+        for j in jobs:
+            if j.get("status") not in (None, "published") or not j.get("slug"):
+                continue
+            company = (j.get("company") or {}).get("name") or ""
+            kinds = " ".join(j.get("type") or [])
+            remote = re.search(r"remote", kinds, re.I)
+            place = j.get("geoaddress") or ", ".join(x for x in (j.get("geocity"), j.get("geocountry")) if x) or None
+            coords = (j.get("geocoordinates") or {}).get("coordinates") or []
+            geo = {"lat": round(coords[1], 4), "lng": round(coords[0], 4), "city": j.get("geocity"),
+                   "region": j.get("geocountry"), "geo_precision": "lieu"} if len(coords) == 2 else None
+            desc = _txt(j.get("description"), 400)
+            out[j["slug"]] = mk(
+                id=f"nlppeople:{j['slug']}", title=j.get("title") or "", type="Opportunity", source="nlppeople",
+                url=f"https://nlppeople.com/jobs/{j['slug']}", date_s=(j.get("date_created") or "")[:10] or None,
+                summary=desc, author=company[:60], opp_kind=opp_kind(j.get("title") or "", desc),
+                location=("Remote · " + place if remote and place else place or ("Remote" if remote else None)),
+                place_hint=place, country=j.get("geocountry"), geo=geo,
+                employment=", ".join(j.get("type") or []) or None, seniority=j.get("experience"),
+                closing=(j.get("closing_date") or "")[:10] or None)
+        time.sleep(1)
+    return list(out.values())
 
 
 def collect_job_boards(http, cfg, mk, **_) -> list[dict]:
@@ -311,9 +311,19 @@ def collect_remote_boards(http, cfg, mk, **_) -> list[dict]:
 def collect_theses(http, cfg, mk, **_) -> list[dict]:
     """Thèses françaises en TAL (en préparation et soutenues) — API theses.fr."""
     out: dict[str, dict] = {}
-    for q in cfg["opportunites"]["theses_queries"]:
-        data = http.get("https://theses.fr/api/v1/theses/recherche/", retries=1,
-                        params={"q": q, "debut": 0, "nombre": 50, "tri": "dateDesc"}).json()
+    failures = 0
+    queries = cfg["opportunites"]["theses_queries"]
+    for q in queries:
+        try:
+            # theses.fr répond parfois lentement depuis les runners GitHub : délai de lecture long, 3 essais
+            data = http.get("https://theses.fr/api/v1/theses/recherche/", retries=3, timeout=(20, 90),
+                            params={"q": q, "debut": 0, "nombre": 50, "tri": "dateDesc"}).json()
+        except Exception as ex:
+            failures += 1
+            print(f"    [theses.fr] « {q} » : {ex}")
+            if failures == len(queries):
+                raise
+            continue
         for t in data.get("theses", []):
             if t["id"] in out:
                 continue
@@ -361,3 +371,137 @@ def collect_formations(http, cfg, mk, today: str, previous: dict, **_) -> list[d
             place_hint=place if f.get("ville") else None, country=f.get("pays"),
             link_status=status, link_checked=checked, teaching_languages=f["langues"]))
     return out
+
+
+def _loc_country(loc: str | None) -> str | None:
+    from geo import country_code
+    return country_code(loc)
+
+
+def collect_jobicy(http, cfg, mk, **_) -> list[dict]:
+    """Jobicy — offres en télétravail (API publique), filtrées sur le TAL."""
+    out: dict[str, dict] = {}
+    for tag in cfg["opportunites"].get("jobicy_tags", ["nlp", "machine learning", "ai"]):
+        try:
+            data = http.get("https://jobicy.com/api/v2/remote-jobs", params={"count": 50, "tag": tag}, retries=1).json()
+        except Exception as ex:
+            print(f"    [Jobicy] {tag} : {ex}")
+            continue
+        for j in data.get("jobs") or []:
+            if str(j.get("id")) in out or not _strict_nlp(cfg, j.get("jobTitle")):
+                continue
+            geo = re.sub(r"\s+", " ", j.get("jobGeo") or "Anywhere").strip(" ,")
+            first = geo.split(",")[0].strip()
+            out[str(j["id"])] = mk(
+                id=f"jobicy:{j['id']}", title=_txt(j.get("jobTitle")), type="Opportunity", source="jobicy",
+                url=j.get("url", ""), date_s=(j.get("pubDate") or "")[:10] or None,
+                summary=_txt(j.get("jobExcerpt"), 400), author=j.get("companyName", ""),
+                opp_kind=opp_kind(j.get("jobTitle") or ""), location=f"Remote · {geo[:80]}",
+                place_hint=None if re.search(r"anywhere|worldwide|europe|emea|latam", first, re.I) or "," in geo else first,
+                country=None if "," in geo else first, employment=_txt(str(j.get("jobType") or "")).strip("[]'") or None)
+        time.sleep(1)
+    return list(out.values())
+
+
+def collect_himalayas(http, cfg, mk, **_) -> list[dict]:
+    """Himalayas — moteur d'offres en télétravail (API de recherche publique)."""
+    out: dict[str, dict] = {}
+    for q in cfg["opportunites"].get("himalayas_queries", ["natural language processing", "nlp", "computational linguistics", "speech recognition", "llm"]):
+        for page in (1, 2):
+            try:
+                data = http.get("https://himalayas.app/jobs/api/search", params={"q": q, "page": page}, retries=1).json()
+            except Exception as ex:
+                print(f"    [Himalayas] {q} p{page} : {ex}")
+                break
+            jobs = data.get("jobs") or []
+            for j in jobs:
+                gid = j.get("guid") or j.get("applicationLink")
+                if not gid or gid in out or not _strict_nlp(cfg, j.get("title")):
+                    continue
+                restr = j.get("locationRestrictions") or []
+                if isinstance(restr, str):
+                    restr = re.findall(r"'([^']+)'", restr) or [restr]
+                loc = ", ".join(restr[:3]) if restr else "Anywhere"
+                ts = j.get("pubDate")
+                d = time.strftime("%Y-%m-%d", time.gmtime(int(ts))) if str(ts or "").isdigit() else None
+                out[gid] = mk(
+                    id=f"himalayas:{gid.rstrip('/').rsplit('/', 2)[-2]}:{gid.rstrip('/').rsplit('/', 1)[-1]}",
+                    title=_txt(j.get("title")), type="Opportunity", source="himalayas", url=gid, date_s=d,
+                    summary=_txt(j.get("excerpt"), 400), author=j.get("companyName", ""),
+                    opp_kind=opp_kind(j.get("title") or ""), location=f"Remote · {loc}",
+                    place_hint=restr[0] if len(restr) == 1 else None, country=restr[0] if len(restr) == 1 else None,
+                    employment=j.get("employmentType"))
+            if len(jobs) < 20:
+                break
+            time.sleep(1)
+        time.sleep(1)
+    return list(out.values())
+
+
+def collect_weworkremotely(http, cfg, mk, **_) -> list[dict]:
+    """We Work Remotely — flux RSS par catégorie, filtrés sur le TAL."""
+    out: dict[str, dict] = {}
+    for cat in cfg["opportunites"].get("wwr_categories", ["remote-programming-jobs", "remote-back-end-programming-jobs", "remote-full-stack-programming-jobs"]):
+        try:
+            root = ET.fromstring(http.get(f"https://weworkremotely.com/categories/{cat}.rss", retries=1).content)
+        except Exception as ex:
+            print(f"    [WWR] {cat} : {ex}")
+            continue
+        for it in root.iter("item"):
+            full = it.findtext("title") or ""
+            company, _, title = full.partition(": ")
+            if not _strict_nlp(cfg, title or full):
+                continue
+            link = (it.findtext("link") or "").strip()
+            region = it.findtext("region") or "Anywhere"
+            pub = it.findtext("pubDate")
+            wid = f"wwr:{link.rstrip('/').rsplit('/', 1)[-1]}"
+            out[wid] = (mk(
+                id=wid, title=title or full, type="Opportunity",
+                source="weworkremotely", url=link, date_s=parsedate_to_datetime(pub).date().isoformat() if pub else None,
+                summary=_txt(it.findtext("description"), 400), author=company,
+                opp_kind=opp_kind(title or full), location=f"Remote · {region}",
+                place_hint=None, country=None if re.search(r"anywhere|world", region, re.I) else region))
+        time.sleep(1)
+    return list(out.values())
+
+
+def collect_hn_hiring(http, cfg, mk, **_) -> list[dict]:
+    """Hacker News « Ask HN: Who is hiring? » (fil mensuel) — commentaires TAL via l'API Algolia."""
+    stories = http.get("https://hn.algolia.com/api/v1/search_by_date",
+                       params={"tags": "story,author_whoishiring", "hitsPerPage": 6}, retries=1).json().get("hits", [])
+    story = next((h for h in stories if "who is hiring" in (h.get("title") or "").lower()), None)
+    if not story:
+        return []
+    sid = story["objectID"]
+    out: dict[str, dict] = {}
+    for q in cfg["opportunites"].get("hn_queries", ["NLP", "LLM", "natural language", "speech", "linguist"]):
+        try:
+            hits = http.get("https://hn.algolia.com/api/v1/search", retries=1, params={
+                "tags": f"comment,story_{sid}", "query": q, "hitsPerPage": 100}).json().get("hits", [])
+        except Exception as ex:
+            print(f"    [HN] {q} : {ex}")
+            continue
+        for h in hits:
+            if str(h.get("parent_id")) != str(sid) or h["objectID"] in out:
+                continue  # offres = commentaires de premier niveau
+            text = html.unescape(h.get("comment_text") or "")
+            first = _txt(re.split(r"<p>", text)[0], 300)
+            parts = [p.strip() for p in first.split("|") if p.strip()]
+            if len(parts) < 2 or not _nlp_match(cfg, text[:1500]):
+                continue
+            company = parts[0][:60]
+            # « Société | Poste | Lieu | Remote | Salaire » — l'ordre varie d'une annonce à l'autre
+            job_rx = re.compile(r"engineer|scientist|research|developer|lead|manager|founding|designer|intern|head of|"
+                                r"director|analyst|architect|linguist|\bml\b|\bai\b|nlp|llm", re.I)
+            loc_rx = re.compile(r"remote|onsite|on-site|in-office|hybrid|^[A-Z][a-zA-Z .]+(,|\s\()|\b(USA|UK|EU|US)\b")
+            role = next((p for p in parts[1:] if job_rx.search(p) and not re.search(r"https?://", p)), parts[1])[:140]
+            loc = next((p for p in parts[1:] if p != role and loc_rx.search(p) and len(p) < 70), None)
+            out[h["objectID"]] = mk(
+                id=f"hn:{h['objectID']}", title=f"{role} — {company}", type="Opportunity", source="hnhiring",
+                url=f"https://news.ycombinator.com/item?id={h['objectID']}", date_s=(h.get("created_at") or "")[:10],
+                summary=_txt(text, 400), author=company, opp_kind=opp_kind(role, text[:300]),
+                location=loc, place_hint=re.sub(r"(?i)\b(remote|onsite|on-site|hybrid)\b[^,]*,?", "", loc or "").strip(" ,()") or None)
+        time.sleep(1)
+    return list(out.values())
+

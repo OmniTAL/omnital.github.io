@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Agent de veille TAL de ConnecTAL — exécuté chaque jour par GitHub Actions.
+"""Agent de veille TAL d'OmniTAL — exécuté chaque jour par GitHub Actions.
 
 Sources suivies (configurables dans config/veille.json) :
   • arXiv      — flux RSS quotidien cs.CL + requêtes ciblées (langues berbères…) via l'API
@@ -7,6 +7,10 @@ Sources suivies (configurables dans config/veille.json) :
   • Hugging Face — datasets, modèles et Spaces en langues berbères
   • GitHub     — dépôts récents liés au TAL berbère
   • WikiCFP    — appels à communications TAL (géocodés pour la carte)
+  • ccfddl     — échéances des grandes conférences TAL/parole (ACL, EMNLP, COLING, ICASSP…),
+                 relais fiable quand WikiCFP est indisponible
+  • Opportunités : NLP People (API), Greenhouse/Ashby/Lever, Remotive, Arbeitnow, Jobicy,
+                 Himalayas, We Work Remotely, HN « Who is hiring? », theses.fr, formations
 
 Principes :
   • identifiants STABLES (arXiv id, id HF, nom GitHub…) → pas de doublons d'un jour à l'autre ;
@@ -35,8 +39,8 @@ from xml.sax.saxutils import escape as xml_escape
 import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from geo import detect_region, geo_fields  # noqa: E402
-from languages import LANGS, all_codes, detect_languages, search_terms  # noqa: E402
+from geo import country_code, countries, detect_region, geo_fields  # noqa: E402
+from languages import BY_CODE, LANGS, all_codes, detect_languages, is_focus, search_terms  # noqa: E402
 from catalogue import merge_curated, update_catalogue  # noqa: E402
 from cfp import fetch_event_details  # noqa: E402
 from notices import LLMWriter  # noqa: E402
@@ -57,7 +61,8 @@ REQUETES_PATH = DATA / "requetes.json"
 CATALOGUE_PATH = DATA / "catalogue.json"
 # Champs ajoutés après la collecte (enrichissement) : conservés d'une exécution à l'autre
 ENRICHED_KEYS = ("event", "details_checked", "geo_tried", "geo_precision", "geo_source", "queries", "page_checked")
-OPPORTUNITY_SOURCES = {"nlppeople", "greenhouse", "ashby", "lever", "remotive", "arbeitnow", "theses", "formations"}
+OPPORTUNITY_SOURCES = {"nlppeople", "greenhouse", "ashby", "lever", "remotive", "arbeitnow", "theses", "formations",
+                       "jobicy", "himalayas", "weworkremotely", "hnhiring"}
 
 TODAY = datetime.now(timezone.utc).date()
 FOCUS_KW: list[str] = []  # complété depuis config/veille.json au démarrage
@@ -116,7 +121,11 @@ class Http:
         self.s = requests.Session()
         self.s.headers["User-Agent"] = user_agent
 
-    def get(self, url: str, *, params=None, headers=None, retries: int = 3, timeout: int = 40) -> requests.Response:
+    def get(self, url: str, *, params=None, headers=None, retries: int = 3,
+            timeout: int | tuple = (15, 60)) -> requests.Response:
+        """GET avec reprises. Délai de connexion court (15 s) mais plusieurs essais : les échecs
+        « ConnectTimeout » observés depuis les runners GitHub (theses.fr, WikiCFP) sont le plus
+        souvent transitoires."""
         delay = 5
         for attempt in range(retries + 1):
             try:
@@ -186,8 +195,10 @@ def make_item(*, id: str, title: str, type: str, source: str, url: str, date_s: 
     blob = f"{title} {summary} {extra_text}"
     langs = detect_languages(blob, [c for c in (languages or []) if isinstance(c, str)])
     kw = focus_kw if focus_kw is not None else FOCUS_KW
-    focus = force_focus or bool(langs) or any(k in blob.lower() for k in kw)
-    region = region or (langs[0]["region"] if langs else None)
+    focus = force_focus or is_focus(langs) or any(k in blob.lower() for k in kw)
+    # région de la fiche : langue peu dotée d'abord ; une langue nationale seulement si c'est la seule citée
+    focus_langs = [l for l in langs if l["focus"]]
+    region = region or (focus_langs[0]["region"] if focus_langs else langs[0]["region"] if len(langs) == 1 else None)
     fields = geo_fields(region)
     if geo and (fields["lat"] is None or fields.get("geo_precision") != "lieu"):  # géocodage explicite (lieu, pays)
         fields = {"region": geo.get("region") or geo.get("label") or fields["region"], "city": geo.get("label") or geo.get("city"),
@@ -295,6 +306,8 @@ def collect_huggingface(http: Http, cfg: dict, focus_kw: list[str], **_) -> list
     def tag_value(tags: list[str], prefix: str) -> str | None:
         return next((t.split(":", 1)[1] for t in tags if t.startswith(prefix + ":")), None)
 
+    lang_codes = all_codes() if hf["languages"] == "auto" else hf["languages"]
+
     def run(kind: str, params: dict):
         base = {"sort": "createdAt", "direction": -1, "limit": hf["limit"]}
         term = params.get("search", "").lower()
@@ -314,7 +327,11 @@ def collect_huggingface(http: Http, cfg: dict, focus_kw: list[str], **_) -> list
             if term and term not in f"{name} {e.get('description') or ''} {' '.join(tags)}".lower():
                 continue
             langs = [t.split(":", 1)[1] for t in tags if t.startswith("language:")] or \
-                    [t for t in tags if t in hf["languages"]]
+                    [t for t in tags if t in lang_codes]
+            # Jeux massivement multilingues (Wikipedia, CommonCrawl… : des centaines de langues) :
+            # ils ne sont pas « ciblés » et ne doivent pas encombrer la veille ni la carte.
+            multilingual = len(langs) > 12
+            tracked = [c for c in langs if c.split("-")[0] in BY_CODE]
             base_model = next((t.split(":", 1)[1] for t in tags if t.startswith("base_model:")
                                and t.count(":") == 1), None)
             meta = {"task": tag_value(tags, "task_categories") or e.get("pipeline_tag"),
@@ -324,12 +341,13 @@ def collect_huggingface(http: Http, cfg: dict, focus_kw: list[str], **_) -> list
                 id=f"hf:{kind}:{rid}", title=rid, type=type_map[kind], source="huggingface",
                 url=url_prefix[kind] + rid, date_s=e.get("createdAt"),
                 summary=e.get("description") or "", author=e.get("author") or owner,
-                focus_kw=focus_kw, extra_text=" ".join(tags), languages=langs[:8], force_focus=True,
+                focus_kw=focus_kw, extra_text="" if multilingual else " ".join(tags),
+                languages=[] if multilingual else tracked[:8], force_focus=not multilingual,
+                multilingual=len(langs) if multilingual else None,
                 likes=e.get("likes"), downloads=e.get("downloads"),
                 meta={k: v for k, v in meta.items() if v})
         time.sleep(0.4)
 
-    lang_codes = all_codes() if hf["languages"] == "auto" else hf["languages"]
     terms = (search_terms() + ["kabyle", "taqbaylit", "tifinagh", "darija"]) if hf["search_terms"] == "auto" else hf["search_terms"]
     for kind in hf["kinds"]:
         if kind != "spaces":  # les Spaces n'ont pas de filtre de langue
@@ -353,6 +371,7 @@ def collect_huggingface(http: Http, cfg: dict, focus_kw: list[str], **_) -> list
             if not rid or f"{kind}:{rid}" in focus_ids or not (text_tasks.search(task) or "modality:text" in tags):
                 continue
             langs = [t.split(":", 1)[1] for t in tags if t.startswith("language:")]
+            langs = [] if len(langs) > 12 else [c for c in langs if c.split("-")[0] in BY_CODE]
             seen[f"{kind}:{rid}"] = make_item(
                 id=f"hf:{kind}:{rid}", title=rid, type=type_map[kind], source="huggingface",
                 url=url_prefix[kind] + rid, date_s=e.get("createdAt"), summary=e.get("description") or "",
@@ -414,9 +433,27 @@ def _parse_cfp_dates(s: str) -> tuple[str | None, str | None]:
 
 def collect_wikicfp(http: Http, cfg: dict, focus_kw: list[str], geocoder: Geocoder, **_) -> list[dict]:
     out: dict[str, dict] = {}
+    failures = []
     for feed in cfg["wikicfp"]["feeds"]:
-        r = http.get(feed, retries=2)
-        root = ET.fromstring(r.content)
+        r = None
+        # WikiCFP refuse régulièrement les connexions (503, reset) : on tente http puis https,
+        # et une catégorie en panne n'empêche pas de lire les autres.
+        for url in dict.fromkeys([feed, feed.replace("http://", "https://")]):
+            try:
+                r = http.get(url, retries=2, timeout=(20, 60))
+                break
+            except Exception as ex:
+                last = ex
+        if r is None:
+            failures.append(f"{feed.rsplit('=', 1)[-1]}: {type(last).__name__}")
+            if not out and len(failures) >= 2:
+                break  # coupe-circuit : site indisponible, inutile d'insister sur les autres flux
+            continue
+        try:
+            root = ET.fromstring(r.content)
+        except ET.ParseError as ex:
+            failures.append(f"{feed.rsplit('=', 1)[-1]}: XML {ex}")
+            continue
         for it in root.iter("item"):
             link = (it.findtext("link") or "").strip()
             m = re.search(r"eventid=(\d+)", link)
@@ -442,7 +479,74 @@ def collect_wikicfp(http: Http, cfg: dict, focus_kw: list[str], geocoder: Geocod
                 date_s=start, summary=fullname or desc, author="WikiCFP", focus_kw=focus_kw,
                 geo=geo, date_end=end, location=loc or "Online", acronym=acronym.strip())
         time.sleep(1.5)
+    if failures and not out:
+        raise RuntimeError("WikiCFP inaccessible (" + "; ".join(failures[:3]) + ")")
+    if failures:
+        print(f"    [WikiCFP] flux en échec : {', '.join(failures)}")
     return list(out.values())
+
+
+def collect_confdeadlines(http: Http, cfg: dict, focus_kw: list[str], geocoder: Geocoder, **_) -> list[dict]:
+    """Échéances des grandes conférences TAL et parole, tenues à jour par la communauté ccfddl
+    (fichier YAML public). Complète WikiCFP, souvent inaccessible depuis les runners GitHub."""
+    import yaml  # PyYAML (requirements.txt)
+    c = cfg.get("confdeadlines", {})
+    rx = re.compile(c.get("title_regex", r"^(ACL|EMNLP|NAACL|COLING|EACL|AACL|LREC|CoNLL|INTERSPEECH|ICASSP|SIGDIAL|"
+                                          r"IJCNLP|NLPCC|SLT|ASRU|RANLP|TALN|SemEval|\*SEM)\b"), re.I)
+    data = yaml.safe_load(http.get(c.get("url", "https://ccfddl.com/conference/allconf.yml"), retries=2).content) or []
+    out = []
+    for conf in data:
+        title = conf.get("title") or ""
+        if not rx.search(title):
+            continue
+        for ed in conf.get("confs") or []:
+            # échéances de cette édition (cycles ARR compris) ; on garde la prochaine à venir
+            tl = ed.get("timeline") or []
+            dls = sorted(d for t in tl for d in [str(t.get("deadline") or "")[:10]] if d[:4].isdigit())
+            abs_ = sorted(d for t in tl for d in [str(t.get("abstract_deadline") or "")[:10]] if d[:4].isdigit())
+            nxt = next((d for d in dls if d >= TODAY_S), None)
+            year = ed.get("year") or 0
+            if not nxt and int(year) < TODAY.year:
+                continue
+            place = (ed.get("place") or "").strip()
+            start, end = _parse_human_dates(ed.get("date") or "", year)
+            if (end or start or nxt or "") < (TODAY - timedelta(days=1)).isoformat():
+                continue
+            online = not place or re.search(r"online|virtual|tba|tbd", place, re.I)
+            geo = None if online else geocoder.lookup(re.sub(r"\(.*?\)", "", place).strip())
+            if geo:
+                geo = {**geo, "region": re.split(r"[,\-–]", place)[-1].strip(" ()") or None}
+            nxt_abs = next((d for d in abs_ if d >= TODAY_S), None)
+            out.append(make_item(
+                id=f"ccfddl:{ed.get('id') or title.lower() + str(year)}", title=f"{title} {year} : {conf.get('description', '')}",
+                type="Event", source="confdeadlines", url=ed.get("link") or "", date_s=start or nxt,
+                summary=conf.get("description") or "", author="ccfddl", focus_kw=focus_kw, geo=geo,
+                date_end=end, location=place or "TBA",
+                event={"start": start, "end": end, "location": place or None, "official_url": ed.get("link"),
+                       "paper_deadline": nxt, "abstract_deadline": nxt_abs if nxt_abs and (not nxt or nxt_abs <= nxt) else None,
+                       "deadline_sources": {}, "timezone": ed.get("timezone")}))
+    return out
+
+
+_MONTHS = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+
+
+def _parse_human_dates(s: str, year) -> tuple[str | None, str | None]:
+    """« August 2-4, 2021 », « May 30 - June 4, 2026 » → (début, fin) ISO."""
+    try:
+        y = int(re.search(r"(20\d\d)", s).group(1)) if re.search(r"20\d\d", s) else int(year)
+        parts = re.findall(r"([A-Za-z]{3})[a-z]*\.?\s+(\d{1,2})", s)
+        days = re.findall(r"(?<![\d])(\d{1,2})(?![\d])", s.split(",")[0])
+        if not parts:
+            return None, None
+        m1, d1 = _MONTHS[parts[0][0].lower()], int(parts[0][1])
+        if len(parts) > 1:
+            m2, d2 = _MONTHS[parts[1][0].lower()], int(parts[1][1])
+        else:
+            m2, d2 = m1, int(days[-1]) if days else d1
+        return date(y, m1, d1).isoformat(), date(y, m2, d2).isoformat()
+    except (AttributeError, KeyError, ValueError, TypeError):
+        return None, None
 
 
 def enrich_events(history: dict, http: Http, geocoder: Geocoder, budget: int) -> int:
@@ -456,14 +560,19 @@ def enrich_events(history: dict, http: Http, geocoder: Geocoder, budget: int) ->
             it["details_checked"] < week_ago and
             ((it.get("event") or {}).get("paper_deadline") or it.get("date") or "9999") >= TODAY_S))]
     todo.sort(key=lambda i: i.get("details_checked") or "")  # jamais lus d'abord
-    done = 0
+    done, fails = 0, 0
     for it in todo[:budget]:
         eid = it["id"].split(":", 1)[1]
         try:
             time.sleep(1.5)
             ev = fetch_event_details(http, eid)
+            fails = 0
         except Exception as ex:
             print(f"    [WikiCFP] détails {eid} : {ex}")
+            fails += 1
+            if fails >= 3:  # coupe-circuit : WikiCFP indisponible → on réessaiera demain
+                print("    [WikiCFP] site indisponible : lecture des détails reportée")
+                break
             continue
         it["event"] = ev
         it["details_checked"] = TODAY_S
@@ -494,10 +603,15 @@ COLLECTORS: dict[str, Callable] = {
     # revues et événements
     "doaj": cx.collect_doaj,
     "wikicfp": collect_wikicfp,
+    "confdeadlines": collect_confdeadlines,
     # opportunités (emplois, stages, thèses, formations)
     "nlppeople": cx.collect_nlppeople,
     "jobboards": cx.collect_job_boards,
     "remote": cx.collect_remote_boards,
+    "jobicy": cx.collect_jobicy,
+    "himalayas": cx.collect_himalayas,
+    "weworkremotely": cx.collect_weworkremotely,
+    "hnhiring": cx.collect_hn_hiring,
     "theses": cx.collect_theses,
     "formations": cx.collect_formations,
 }
@@ -520,7 +634,7 @@ def merge_history(history: dict, fresh: Iterable[dict], bootstrap: bool) -> list
                 it.pop("geo_tried", None)  # nouveau lieu connu : on retente la géolocalisation
             if old.get("queries") and it.get("queries"):
                 it["queries"] = sorted(set(old["queries"]) | set(it["queries"]))
-            if old.get("focus"):
+            if old.get("focus") and not it.get("multilingual"):
                 it["focus"] = True  # une ressource ciblée le reste (même si revue via les tendances)
             # on garde une géoloc déjà obtenue si la nouvelle passe n'en a pas (budget géocodage)
             if it.get("lat") is None and old.get("lat") is not None:
@@ -534,6 +648,40 @@ def merge_history(history: dict, fresh: Iterable[dict], bootstrap: bool) -> list
                 new_items.append(it)
         history[it["id"]] = it
     return new_items
+
+
+def migrate_history(history: dict) -> int:
+    """Corrige les fiches Hugging Face massivement multilingues enregistrées avant la v4
+    (8 premières étiquettes de langue gardées, ex. « ab, ace, ady… » pour un dump Wikipedia) :
+    elles étaient marquées « focus » et placées sur la carte (Aragon…) à tort."""
+    fixed = 0
+    for it in history.values():
+        langs = it.get("languages") or []
+        if it.get("source") != "huggingface" or it.get("multilingual") or len(langs) < 8:
+            continue
+        if all(c.split("-")[0] in BY_CODE for c in langs):
+            continue  # format v4 : uniquement des langues suivies
+        if detect_languages(f"{it.get('title', '')} {it.get('summary', '')}") and is_focus(
+                detect_languages(f"{it.get('title', '')} {it.get('summary', '')}")):
+            continue  # la langue suivie est citée dans le titre ou la description : vraie ressource ciblée
+        it.update({"focus": False, "multilingual": len(langs)})
+        for k in ("lang_codes", "lang_groups", "languages"):
+            it.pop(k, None)
+        if it.get("geo_precision") == "langue":
+            it.update({"lat": None, "lng": None, "city": None, "region": "International"})
+            it.pop("geo_precision", None)
+        fixed += 1
+    # Langues ajoutées au référentiel (ex. v4 : aroumain, siwi, grec, turc…) : on ré-étiquette l'historique
+    for it in history.values():
+        if it.get("multilingual") or it["type"] == "Opportunity":
+            continue
+        langs = detect_languages(f"{it.get('title', '')} {it.get('summary', '')}", it.get("languages"))
+        codes = [l["code"] for l in langs][:6]
+        if codes and set(codes) - set(it.get("lang_codes") or []):
+            it["lang_codes"] = list(dict.fromkeys((it.get("lang_codes") or []) + codes))[:6]
+            it["lang_groups"] = sorted(set(it.get("lang_groups") or []) | {l["group"] for l in langs})
+            it["focus"] = bool(it.get("focus")) or is_focus(langs)
+    return fixed
 
 
 def prune(history: dict, retention: dict) -> int:
@@ -580,7 +728,7 @@ def write_feed(items: list[dict], site_url: str) -> None:
     FEED_PATH.write_text(f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ConnecTAL — veille TAL</title>
+    <title>OmniTAL — veille TAL</title>
     <link>{site_url}/</link>
     <atom:link href="{site_url}/data/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Nouvelles ressources en traitement automatique des langues (arXiv, HAL, Hugging Face, GitHub, WikiCFP).</description>
@@ -646,6 +794,48 @@ def collect_deadlines(cat_items: list[dict], notices: list[dict]) -> list[dict]:
             add(r["id"], f"{r['nom']} — {i['title']}", i.get("abstract_deadline") or i.get("deadline"),
                 "dl_abstract" if i.get("abstract_deadline") else "dl_paper", i["url"])
     return sorted(out, key=lambda d: d["date"])[:200]
+
+
+def select_payload(history: dict, cfg: dict) -> list[dict]:
+    """Éléments publiés sur le site.
+
+    Correctif : l'ancienne règle réservait toute la place aux éléments « focus » (≈ 3 000 fiches
+    Hugging Face), si bien que les nouveautés générales du jour (arXiv cs.CL, HAL) n'étaient
+    plus jamais publiées (90 articles arXiv détectés, 2 publiés). Désormais :
+      1. toujours publiés : ressources en langues suivies (hors jeux massivement multilingues),
+         opportunités, événements, revues, requêtes suivies, et tout ce qui a été détecté
+         dans les `payload_recent_days` derniers jours ;
+      2. le reste complète jusqu'au plafond, du plus récent au plus ancien.
+    """
+    items = sorted(history.values(), key=lambda i: (i["first_seen"], i["date"]), reverse=True)
+    cap = cfg.get("max_items_payload", 4500)
+    if len(items) <= cap:
+        return items
+    recent = (TODAY - timedelta(days=cfg.get("payload_recent_days", 7))).isoformat()
+    must = lambda i: ((i.get("focus") and not i.get("multilingual")) or i["first_seen"] >= recent
+                      or i["type"] in ("Opportunity", "Event", "Journal") or i.get("queries"))
+    keep_ids = {i["id"] for i in items if must(i)}
+    room = max(0, cap - len(keep_ids))
+    for i in items:
+        if room <= 0:
+            break
+        if i["id"] not in keep_ids:
+            keep_ids.add(i["id"]); room -= 1
+    return [i for i in items if i["id"] in keep_ids]
+
+
+def infer_country(it: dict) -> str | None:
+    """Code ISO du pays d'une fiche (filtre « Pays » des opportunités)."""
+    c = (it.get("country") or "").strip()
+    if len(c) == 2 and c.upper() in countries():
+        return c.upper()
+    for text in (c, it.get("location"), it.get("place_hint"), it.get("city"), it.get("region")):
+        iso = country_code(text)
+        if iso:
+            return iso
+    if it.get("source") in ("theses",):
+        return "FR"
+    return None
 
 
 def split_payload_items(items: list[dict]) -> tuple[list[dict], list[dict]]:
@@ -728,6 +918,9 @@ def main() -> int:
         n = enrich_locations(history, locator, cfg.get("locate", {}).get("items_per_run", 600))
         print(f"[OK] localisation : {n} éléments placés sur la carte ({locator.stats})")
 
+    migrated = migrate_history(history)
+    if migrated:
+        print(f"[OK] historique : {migrated} fiches multilingues requalifiées (non ciblées)")
     pruned = prune(history, cfg["retention_days"])
 
     # Alimentation du catalogue : fiches + notices (IA Gemini si GEMINI_API_KEY, sinon gabarits)
@@ -752,12 +945,7 @@ def main() -> int:
     write_json(HISTORY_PATH, store)
 
     # Charge utile du site : focus d'abord, puis les plus récents
-    items = sorted(history.values(), key=lambda i: (i["first_seen"], i["date"]), reverse=True)
-    cap = cfg.get("max_items_payload", 3000)
-    if len(items) > cap:
-        keep = [i for i in items if i.get("focus") or i["type"] in ("Opportunity", "Event", "Journal") or i.get("queries")]
-        rest = [i for i in items if i not in keep][: max(0, cap - len(keep))]
-        items = sorted(keep + rest, key=lambda i: (i["first_seen"], i["date"]), reverse=True)
+    items = select_payload(history, cfg)
     # Le texte intégral des appels sert à la rédaction ; inutile côté site
     items = [{**i, "event": {k: v for k, v in i["event"].items() if k != "cfp_text"}} if i.get("event") else i
              for i in items]
@@ -768,6 +956,13 @@ def main() -> int:
     for i in items:
         if len(i.get("summary") or "") > 240:
             i["summary"] = i["summary"][:239].rsplit(" ", 1)[0] + "…"
+    for i in items:
+        if i["type"] in ("Opportunity", "Event"):
+            iso = infer_country(i)
+            if iso:
+                i["country"] = iso
+            elif "country" in i and len(str(i["country"])) != 2:
+                i.pop("country")
     notices, opportunites = split_payload_items(items)
 
     ressources = load_json(RESSOURCES_PATH, {"total": 0, "sources": [], "counts": {}, "items": []})
@@ -823,7 +1018,7 @@ def main() -> int:
     msg = (f"[OK] veille : {len(new_items)} nouveautés, {len(notices)} éléments de veille, "
            f"{len(opportunites)} opportunités, {pruned} archivés, sources OK {ok}/{len(status)}")
     print(msg)
-    step_summary([f"## Veille ConnecTAL — {TODAY_S}", "", f"**{len(new_items)}** nouveautés · "
+    step_summary([f"## Veille OmniTAL — {TODAY_S}", "", f"**{len(new_items)}** nouveautés · "
                   f"{len(notices)} éléments de veille · {len(opportunites)} opportunités · {pruned} archivés · "
                   f"catalogue +{cat_stats['added']} fiches", "",
                   "| Source | Statut | Récupérés | Nouveaux |",
