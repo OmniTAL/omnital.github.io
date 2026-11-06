@@ -33,6 +33,11 @@
   "lng": 138.6042,
   "label": "University of Adelaide"
  },
+ "adelaide, australia": {
+  "lat": -34.9282,
+  "lng": 138.5999,
+  "label": "Adélaïde"
+ },
  "affirm": {
   "lat": 32.5509,
   "lng": -84.9103,
@@ -52,6 +57,11 @@
   "lat": 43.3056,
   "lng": 5.3786,
   "label": "Aix-Marseille Université - Campus de Saint-Charles"
+ },
+ "albi, occitanie, france": {
+  "lat": 43.9278,
+  "lng": 2.1479,
+  "label": "Albi"
  },
  "alfraganus universiteti xorijiy tillar kafedrasi o'qituvchisi": null,
  "alfred wegener institute, helmholtz centre for polar and marine research": null,
@@ -130,6 +140,7 @@
   "lng": -85.496,
   "label": "Auburn University"
  },
+ "austin, tx or oakland, ca": null,
  "australian national university": {
   "lat": -35.2813,
   "lng": 149.1172,
@@ -224,12 +235,22 @@
   "lng": 5.9894,
   "label": "Université Marie-et-Louis-Pasteur"
  },
+ "bielefeld university": {
+  "lat": 52.0445,
+  "lng": 8.4927,
+  "label": "Hochschule Bielefeld - Hauptgebäude"
+ },
  "binus university": {
   "lat": -6.2289,
   "lng": 106.7968,
   "label": "Binus University"
  },
  "bio-architectonic": null,
+ "blr , ind": {
+  "lat": 12.9822,
+  "lng": 77.7088,
+  "label": "BLR Brewing Co"
+ },
  "bolzano/bozen, italy": {
   "lat": 46.4964,
   "lng": 11.3588,
@@ -627,6 +648,7 @@
   "lng": -6.2348,
   "label": "Ericsson Ireland"
  },
+ "escgd, upc": null,
  "escola politécnica, universidade federal do rio de janeiro": null,
  "europe": {
   "lat": 51.0,
@@ -652,10 +674,20 @@
  "flux-frontiers": null,
  "formation continue unil-epfl": null,
  "formerly, electro-gravitational space propulsion laboratory (egspl), bhubaneswar, odisha 751030, india; formerly, university of calcutta, senate house, 87/1 college street, kolkata 700073, west bengal, india": null,
+ "france": {
+  "lat": 46.6034,
+  "lng": 1.8883,
+  "label": "France"
+ },
  "frankfurt": {
   "lat": 50.1106,
   "lng": 8.6821,
   "label": "Francfort-sur-le-Main"
+ },
+ "freiburg, germany": {
+  "lat": 47.9961,
+  "lng": 7.8494,
+  "label": "Fribourg-en-Brisgau"
  },
  "fudan university": {
   "lat": 31.3012,
@@ -772,9 +804,17 @@
   "location": null,
   "name": "Animan"
  },
+ "gh:anoopkunchukuttan": {
+  "location": "Hyderabad, India",
+  "name": "Anoop Kunchukuttan"
+ },
  "gh:anotiawang": {
   "location": "China",
   "name": "Andy Wang"
+ },
+ "gh:astralbeneathsilver": {
+  "location": "Adelaide, Australia",
+  "name": "Jace Graham"
  },
  "gh:atria-asi": {
   "location": null,
@@ -795,6 +835,10 @@
  "gh:bilibili": {
   "location": "Shanghai, China",
   "name": "bilibili"
+ },
+ "gh:boepeanjafay": {
+  "location": null,
+  "name": "boepeanjafay"
  },
  "gh:bookofbash": {
   "location": "St. Petersburg, Florida",
@@ -859,6 +903,10 @@
  "gh:donet-org-cn": {
   "location": null,
   "name": ".NET 中文开源社区"
+ },
+ "gh:dragonkingio": {
+  "location": null,
+  "name": "dragonkingio"
  },
  "gh:ebony-vinyl": {
   "location": null,
@@ -1316,9 +1364,17 @@
   "location": "Rawalpindi , punjab, Pakistan",
   "name": "Salik Hussain"
  },
+ "gh:sandflow-ai": {
+  "location": "France",
+  "name": "Sandflow"
+ },
  "gh:sani-abdullahi-sani": {
   "location": null,
   "name": "Sani Abdullahi Sani"
+ },
+ "gh:saos-3624": {
+  "location": null,
+  "name": "saos-3624"
  },
  "gh:sgfsd": {
   "location": null,
@@ -1359,6 +1415,10 @@
  "gh:somastllc": {
   "location": "Somalia",
   "name": "Somast"
+ },
+ "gh:souravberaakaspeed": {
+  "location": "BLR , Ind",
+  "name": "Sourav bera"
  },
  "gh:stanfordnlp": {
   "location": "Stanford, CA",
@@ -1508,6 +1568,10 @@
   "location": "Shenzhen",
   "name": "程序员Carl"
  },
+ "gh:ytjanmind": {
+  "location": "Toulouse, France",
+  "name": "Peter Brooks"
+ },
  "gh:zeekk0": {
   "location": "Sunnyvale, CA",
   "name": "Zeekk - MekaHime"
@@ -1618,10 +1682,12 @@
   "label": "Heriot-Watt University"
  },
  "hf:1of2": null,
+ "hf:1xcodeteam": null,
  "hf:3dcodeverse": {
   "fullname": "3dcodeverse"
  },
  "hf:6morpheus6": null,
+ "hf:aarontseng": null,
  "hf:abdelhaqueidali": null,
  "hf:abdeljalilelmajjodi": null,
  "hf:abdnaouri": null,
@@ -1641,11 +1707,17 @@
  "hf:adelwolf5": null,
  "hf:adieyal": null,
  "hf:adiska3388": null,
+ "hf:adisyonist": {
+  "fullname": "Adisyonist AI"
+ },
  "hf:adit2k": null,
  "hf:adithyanai": null,
+ "hf:adocleancode": null,
+ "hf:aeirya": null,
  "hf:aeryx-ai": {
   "fullname": "Aeryx AI"
  },
+ "hf:af5553g": null,
  "hf:afaji": null,
  "hf:afifaimran": null,
  "hf:afrispeech": {
@@ -1655,6 +1727,7 @@
  "hf:agentory": null,
  "hf:agharib": null,
  "hf:ahcenr": null,
+ "hf:ahelk": null,
  "hf:ahmed-amedo": null,
  "hf:ahmedcpe": null,
  "hf:ahmedheakl": null,
@@ -1668,6 +1741,9 @@
  },
  "hf:aididian": null,
  "hf:aidsoid": null,
+ "hf:aihazz": {
+  "fullname": "Aihazz"
+ },
  "hf:aioxlabs": {
   "fullname": "AIOX Labs"
  },
@@ -1675,10 +1751,15 @@
  "hf:ajescandon": null,
  "hf:ajesujoba": null,
  "hf:ajmcclary": null,
+ "hf:akahana": null,
  "hf:akashpb13": null,
  "hf:akhzam-775": null,
+ "hf:akoksal": null,
  "hf:akynovaaigul": null,
+ "hf:alamios": null,
+ "hf:albertvillanova": null,
  "hf:alegiuliano": null,
+ "hf:aleixsant": null,
  "hf:alekringtonnn-ai": null,
  "hf:aleksey336": null,
  "hf:aleph-alpha": {
@@ -1688,10 +1769,12 @@
   "fullname": "Aletheia AI"
  },
  "hf:alexdimmock": null,
+ "hf:alexjerpelea": null,
  "hf:algerian-nlp": {
   "fullname": "Algerian NLP Collective"
  },
  "hf:algorithco": null,
+ "hf:ali-elganzory": null,
  "hf:aliabdo": null,
  "hf:aliados": null,
  "hf:aliaeai": {
@@ -1701,6 +1784,9 @@
   "fullname": "Alibaba-NLP-Community"
  },
  "hf:alielmrh": null,
+ "hf:alinia": {
+  "fullname": "Alinia AI"
+ },
  "hf:alishi": null,
  "hf:alisky71": null,
  "hf:alkove-ai": {
@@ -1715,20 +1801,27 @@
  "hf:almanach": {
   "fullname": "ALMAnaCH (Inria)"
  },
+ "hf:aloginfile": null,
  "hf:alphaedge-ai": {
   "fullname": "AlphaEdgeAI"
  },
+ "hf:alumniiiith": null,
  "hf:amaimedia": null,
  "hf:amine-khelif": null,
+ "hf:amirhallaji": null,
  "hf:amitness": null,
+ "hf:anakin87": null,
  "hf:anas0079": null,
+ "hf:anayak": null,
  "hf:andrea86": null,
  "hf:anira-project": {
   "fullname": "anira-project"
  },
  "hf:anirdari": null,
+ "hf:anisafifi": null,
  "hf:ankitjh4": null,
  "hf:anonlion1": null,
+ "hf:anonymous-submission-nips": null,
  "hf:anotona-music": null,
  "hf:ansu": null,
  "hf:ant-intl": {
@@ -1742,12 +1835,18 @@
  "hf:apjanco": null,
  "hf:aqvaylis": null,
  "hf:arach": null,
+ "hf:arbeltepper": null,
+ "hf:archangel-system": null,
  "hf:archivestudio": null,
  "hf:ares-realm-studios": {
   "fullname": "Ares Realm Studios"
  },
+ "hf:arichoux": null,
  "hf:ark-tech": {
   "fullname": "Ark Tech"
+ },
+ "hf:aronlp": {
+  "fullname": "Aromanian NLP Group"
  },
  "hf:artemmmmmmmmmmmmmmmmmmm": null,
  "hf:arvindk9835": null,
@@ -1755,12 +1854,14 @@
  "hf:ashtok897": null,
  "hf:asincole": null,
  "hf:aslp-lab": null,
+ "hf:aspectrs": null,
  "hf:assafvayner": null,
  "hf:astroware": {
   "fullname": "Astroware Labs"
  },
  "hf:astutu": null,
  "hf:athaze": null,
+ "hf:athirham": null,
  "hf:atomicchat": {
   "fullname": "Atomic Chat"
  },
@@ -1774,6 +1875,7 @@
  "hf:avencera": {
   "fullname": "Avencera"
  },
+ "hf:aviv-anthonnyolime": null,
  "hf:axiomiclabs": {
   "fullname": "Axiomic Labs"
  },
@@ -1784,6 +1886,7 @@
  "hf:ayb98top": null,
  "hf:ayoubelfallah1": null,
  "hf:ayymen": null,
+ "hf:azack2004": null,
  "hf:azhouas": null,
  "hf:azrunguraya": null,
  "hf:azwaw": null,
@@ -1804,14 +1907,24 @@
  },
  "hf:basquelabs": null,
  "hf:basquete-leo": null,
+ "hf:bayanat-labs": {
+  "fullname": "Bayanat Labs"
+ },
  "hf:bc7ec356": null,
  "hf:beardedmonster": null,
  "hf:belhaddadmohamed": null,
  "hf:beshkenadze": null,
  "hf:bezzam": null,
+ "hf:bible-nlp": {
+  "fullname": "The Partnership for Applied Biblical NLP"
+ },
+ "hf:biggraph-ai": {
+  "fullname": "BigGraph AI, Inc"
+ },
  "hf:biglam": {
   "fullname": "BigLAM: BigScience Libraries, Archives and Museums"
  },
+ "hf:bigxho15": null,
  "hf:biosontoriyama": null,
  "hf:biox2": null,
  "hf:birgermoell": null,
@@ -1819,6 +1932,7 @@
  "hf:bltlab": {
   "fullname": "Broadening Linguistic Technologies Lab (BLT Lab)"
  },
+ "hf:bobhe2099": null,
  "hf:boffire": null,
  "hf:bossyfaycal": null,
  "hf:boubet": null,
@@ -1852,18 +1966,25 @@
  },
  "hf:camilaalves": null,
  "hf:canberkkkkkk": null,
+ "hf:caoxuhao": null,
  "hf:caoyuji": null,
  "hf:cartik": null,
  "hf:catalan258": null,
  "hf:ccop": null,
  "hf:ccore": null,
+ "hf:cerru02": null,
  "hf:cguldogan": null,
  "hf:chaimaehde": null,
  "hf:chaimandala": null,
  "hf:chandocchi": null,
  "hf:chao0524": null,
+ "hf:chemfm": {
+  "fullname": "ChemFM"
+ },
  "hf:chenchen12311": null,
  "hf:chenjigaram": null,
+ "hf:chilomax": null,
+ "hf:chris951027": null,
  "hf:christophecruz": null,
  "hf:chrmongeau": null,
  "hf:circulus": {
@@ -1897,6 +2018,9 @@
  "hf:coherelabs": {
   "fullname": "Cohere Labs"
  },
+ "hf:coherelabscommunity": {
+  "fullname": "Cohere Labs Community"
+ },
  "hf:cointegrated": null,
  "hf:collectionstudio": null,
  "hf:collinear-ai": {
@@ -1904,6 +2028,12 @@
  },
  "hf:coml": {
   "fullname": "Cognitive Machine Learning | @ENS"
+ },
+ "hf:commoncrawl": {
+  "fullname": "Common Crawl Foundation"
+ },
+ "hf:community-datasets": {
+  "fullname": "Community Datasets"
  },
  "hf:compiwerai": null,
  "hf:contrastive-lm": null,
@@ -1920,10 +2050,15 @@
   "fullname": "CrossSWE Benchmark"
  },
  "hf:csilit": null,
+ "hf:csukuangfj": null,
  "hf:cutting3dg3": null,
  "hf:cyron": null,
+ "hf:czqdfsdf": null,
  "hf:dali20266": null,
  "hf:dampi001": null,
+ "hf:danish-foundation-models": {
+  "fullname": "Danish Foundation Models"
+ },
  "hf:darija-audio1": {
   "fullname": "Darija Audio Dataset"
  },
@@ -1936,6 +2071,9 @@
  "hf:datalab-to": {
   "fullname": "Datalab"
  },
+ "hf:datasets-cnrs": {
+  "fullname": "datasets-CNRS"
+ },
  "hf:datasmartly": null,
  "hf:datasocial": null,
  "hf:datoric": {
@@ -1945,6 +2083,7 @@
  "hf:davidau": null,
  "hf:davidheineman": null,
  "hf:davidschulte": null,
+ "hf:davidstap": null,
  "hf:davlan": null,
  "hf:dawsonvosburg": null,
  "hf:dealignai": null,
@@ -1959,6 +2098,7 @@
  },
  "hf:dengling222": null,
  "hf:derive11": null,
+ "hf:destitech": null,
  "hf:dev-vinod": null,
  "hf:devendradhakad": null,
  "hf:devilloots": null,
@@ -1973,6 +2113,7 @@
  },
  "hf:difyousrakh": null,
  "hf:digitalsolutionsai": null,
+ "hf:dinopusceddu": null,
  "hf:dioleti": {
   "fullname": "Dioleti"
  },
@@ -1993,9 +2134,11 @@
   "fullname": "Doctoc Health"
  },
  "hf:dougmov": null,
+ "hf:dragnoz": null,
  "hf:drishtisharma": null,
  "hf:drko999": null,
  "hf:drone900": null,
+ "hf:ds123ddd": null,
  "hf:ds8305": null,
  "hf:dsa1": null,
  "hf:duhow": null,
@@ -2003,6 +2146,7 @@
  "hf:edge0": {
   "fullname": "Edge0"
  },
+ "hf:edytas": null,
  "hf:eeahugs": {
   "fullname": "European Environment Agency"
  },
@@ -2022,8 +2166,15 @@
  "hf:elohimdavid": null,
  "hf:elonmsk": null,
  "hf:emerald7664": null,
+ "hf:emmabedna": null,
  "hf:emogheneakpomedaye": null,
  "hf:emrd95": null,
+ "hf:emulated-inc": {
+  "fullname": "Emulated, Inc."
+ },
+ "hf:enc-psl": {
+  "fullname": "École nationale des chartes - PSL"
+ },
  "hf:enockackaah": null,
  "hf:enriqueag": null,
  "hf:epfml": {
@@ -2059,6 +2210,7 @@
  "hf:featherless-ai-quants": {
   "fullname": "Quants by Featherless.ai"
  },
+ "hf:felprot75": null,
  "hf:fermionresearch": null,
  "hf:fineenvs": {
   "fullname": "FineEnvs"
@@ -2083,6 +2235,9 @@
  "hf:fr4nkst3in": null,
  "hf:francesca9805": null,
  "hf:franciscobdl": null,
+ "hf:francophonia": {
+  "fullname": "FrancophonIA"
+ },
  "hf:frankmorales2020": null,
  "hf:freedomintelligence": {
   "fullname": "FreedomAI"
@@ -2096,6 +2251,7 @@
  "hf:freonius": null,
  "hf:fromdeath2morning": null,
  "hf:fussraider": null,
+ "hf:fvilmar": null,
  "hf:gahabeen": null,
  "hf:gaia-benchmark": {
   "fullname": "GAIA"
@@ -2105,8 +2261,11 @@
  "hf:generaldata": {
   "fullname": "General Data"
  },
+ "hf:gentaiscool": null,
+ "hf:georgen404": null,
  "hf:ggaaaga": null,
  "hf:ggghv": null,
+ "hf:ggufguy": null,
  "hf:ghanaopenai": {
   "fullname": "Ghana Open AI"
  },
@@ -2115,7 +2274,9 @@
  "hf:glif-loradex-trainer": {
   "fullname": "Glif Loradex Trainer"
  },
+ "hf:gockph": null,
  "hf:golden-eaglet": null,
+ "hf:goldfish-models": null,
  "hf:google": {
   "fullname": "Google"
  },
@@ -2142,6 +2303,7 @@
  },
  "hf:hadidiz9": null,
  "hf:hafsa0": null,
+ "hf:hahouari": null,
  "hf:haitam03": null,
  "hf:hammedalmodel": null,
  "hf:hamzaweb3": null,
@@ -2167,6 +2329,7 @@
  "hf:hf-audio": {
   "fullname": "Hugging Face for Audio"
  },
+ "hf:hfxunlp": null,
  "hf:hillal-titouh": null,
  "hf:himanshu9636": null,
  "hf:hisashisaruta": null,
@@ -2201,6 +2364,7 @@
  },
  "hf:huggingworld": null,
  "hf:huihui-ai": null,
+ "hf:huwenjie333": null,
  "hf:ibm-granite": {
   "fullname": "IBM Granite"
  },
@@ -2226,6 +2390,9 @@
  "hf:ilyass-42": null,
  "hf:ilyes25": null,
  "hf:imenorj": null,
+ "hf:impresso-project": {
+  "fullname": "Impresso - Media Monitoring of the Past"
+ },
  "hf:imsidag-community": {
   "fullname": "Imsidag"
  },
@@ -2264,20 +2431,31 @@
  "hf:itgorn": null,
  "hf:itspeet": null,
  "hf:itsreidar": null,
+ "hf:itzmenishh": null,
  "hf:iukocha": null,
  "hf:iv-ayman": null,
+ "hf:jablonkagroup": {
+  "fullname": "Lab of Kevin Jablonka at Uni Jena"
+ },
  "hf:jake-anto": null,
  "hf:jamalinu": null,
  "hf:janavivekariya": null,
+ "hf:jar-ai": {
+  "fullname": "Jar AI"
+ },
  "hf:jaydo88": null,
+ "hf:jaygala24": null,
  "hf:jbmkmbrlb": null,
+ "hf:jessteru": null,
  "hf:jetbrains": {
   "fullname": "JetBrains"
  },
+ "hf:jgchaparro": null,
  "hf:jhu-clsp": {
   "fullname": "Center for Language and Speech Processing @ JHU"
  },
  "hf:jialinyyzz": null,
+ "hf:jianshangquan": null,
  "hf:jimenagh": null,
  "hf:jimwong8899": null,
  "hf:jinever": null,
@@ -2285,6 +2463,7 @@
  "hf:jknafou": null,
  "hf:jmkim329": null,
  "hf:jo-valer": null,
+ "hf:jobs-git": null,
  "hf:joelniklaus": null,
  "hf:johannes765": null,
  "hf:jonnyverse": null,
@@ -2298,26 +2477,38 @@
  "hf:jscreatorpro": {
   "fullname": "JSCreatorPro Pte. Ltd."
  },
+ "hf:jtz18": null,
  "hf:ju-esperantisto": null,
+ "hf:juanhm04": null,
  "hf:julienp79": null,
  "hf:justanormaltinkerer": null,
  "hf:justmeeandy": null,
+ "hf:kabeer9997": null,
  "hf:kaptionai": null,
  "hf:karim12129": null,
+ "hf:kathleenkunliu": null,
  "hf:katmarie": null,
  "hf:kbayoud": null,
  "hf:kbpk31": null,
  "hf:kefranabg": null,
+ "hf:ketanmore": null,
  "hf:kevinbalistreri": null,
  "hf:khaled5": null,
  "hf:khdidij": null,
  "hf:kirilldual0987": null,
  "hf:kmerakeb": null,
+ "hf:knightcy": null,
  "hf:korosh405": null,
+ "hf:koryd207": null,
+ "hf:koseiuemura": null,
+ "hf:kotib": {
+  "fullname": "Kotib.ai"
+ },
  "hf:krafton": {
   "fullname": "KRAFTON"
  },
  "hf:kremon96": null,
+ "hf:krist67": null,
  "hf:krynexlabs": null,
  "hf:kugiyt8i": null,
  "hf:kushan1232222": null,
@@ -2339,15 +2530,21 @@
  },
  "hf:laufey": null,
  "hf:lbourdois": null,
+ "hf:leeaandrob": null,
+ "hf:legesher": {
+  "fullname": "Legesher"
+ },
  "hf:leggedrobotics": {
   "fullname": "Robotic Systems Lab - ETH Zürich"
  },
+ "hf:leideng": null,
  "hf:lemonfox-ai": {
   "fullname": "Lemonfox"
  },
  "hf:lemuralabs": {
   "fullname": "Lemura Labs"
  },
+ "hf:lennartkeller": null,
  "hf:leo-liujun": null,
  "hf:leogaudin": null,
  "hf:leonflux": null,
@@ -2355,6 +2552,9 @@
   "fullname": "LeRobot"
  },
  "hf:lesterpaintstheworld": null,
+ "hf:lexmount": {
+  "fullname": "Lexmount"
+ },
  "hf:lgessler": null,
  "hf:lgi2p": null,
  "hf:lhajtechno": null,
@@ -2364,12 +2564,15 @@
  "hf:lifeai-dev": {
   "fullname": "LifeAi"
  },
+ "hf:lindonghello": null,
  "hf:linguardia": null,
  "hf:lingvanex": null,
+ "hf:linq1005": null,
  "hf:linuxme": null,
  "hf:lion-ai": {
   "fullname": "thelion.ai"
  },
+ "hf:lionking927": null,
  "hf:lipik": {
   "fullname": "Lipik"
  },
@@ -2381,6 +2584,10 @@
   "fullname": "LiteRT Community (FKA TFLite)"
  },
  "hf:litovation": null,
+ "hf:liuganghuggingface": null,
+ "hf:liva-ai": {
+  "fullname": "Liva AI"
+ },
  "hf:llamaindex": {
   "fullname": "LlamaIndex"
  },
@@ -2394,24 +2601,37 @@
   "fullname": "LocalLLaMA"
  },
  "hf:lodestones": null,
+ "hf:lombardata": null,
  "hf:longlenai-team": null,
  "hf:loom-ai-org": {
   "fullname": "Loom AI"
  },
  "hf:lopatnov": null,
+ "hf:loria-mosaik": {
+  "fullname": "Loria-MosAIk"
+ },
  "hf:loscrossos": null,
  "hf:lostnotfound11": null,
+ "hf:loudness-ai": {
+  "fullname": "Loudness AI"
+ },
  "hf:ltopaiman4": null,
  "hf:luca-949": null,
  "hf:luckmeeer": null,
  "hf:luispoveda93": null,
+ "hf:lumiopen": {
+  "fullname": "LumiOpen"
+ },
  "hf:luweigen": null,
+ "hf:lylybig8": null,
  "hf:lyra13": null,
  "hf:m-a-p": {
   "fullname": "Multimodal Art Projection"
  },
+ "hf:m3hrdadfi": null,
  "hf:maaaaat": null,
  "hf:maanka2": null,
+ "hf:mabsoutwassim": null,
  "hf:mabus46": null,
  "hf:madurox": null,
  "hf:maghreb-ai-research": null,
@@ -2419,6 +2639,9 @@
  "hf:mahesh27": null,
  "hf:maigonis": null,
  "hf:maksl": null,
+ "hf:mala-lm": {
+  "fullname": "MaLA-LM"
+ },
  "hf:maliba-ai": {
   "fullname": "MALIBA-AI"
  },
@@ -2426,12 +2649,14 @@
   "fullname": "malinali"
  },
  "hf:mamei16": null,
+ "hf:mandelbroccoli": null,
  "hf:mansourizona": null,
  "hf:manusagents": null,
  "hf:marcbrun": null,
  "hf:marcosremar2": null,
  "hf:marcozxcghgjalw2": null,
  "hf:marouaneoa": null,
+ "hf:martinthoma": null,
  "hf:marxx01": null,
  "hf:mashbox-labs": {
   "fullname": "MASHBOX Labs"
@@ -2451,6 +2676,10 @@
  "hf:mcgill-nlp": {
   "fullname": "McGill NLP Group"
  },
+ "hf:meer3305": null,
+ "hf:meetween": {
+  "fullname": "Meetween"
+ },
  "hf:megatranscribe": null,
  "hf:menoviar28": null,
  "hf:meriemdarija": null,
@@ -2458,6 +2687,7 @@
  "hf:meta-models": {
   "fullname": "Meta Inc."
  },
+ "hf:michaeldinzinger": null,
  "hf:michaelj2026": null,
  "hf:microsoft": {
   "fullname": "Microsoft"
@@ -2498,6 +2728,8 @@
  "hf:mohamedsanaf2001": null,
  "hf:mohamedsaousaou": null,
  "hf:mohammedaly22": null,
+ "hf:moltherm1": null,
+ "hf:monarch700": null,
  "hf:moonshotai": {
   "fullname": "Moonshot AI"
  },
@@ -2511,11 +2743,20 @@
  "hf:mosessss": null,
  "hf:mouad009": null,
  "hf:mozed54": null,
+ "hf:mq3": null,
  "hf:mradermacher": null,
+ "hf:mrdavidalv": null,
+ "hf:mrlbenchmarks": null,
  "hf:msmth": null,
+ "hf:mteb": {
+  "fullname": "Massive Text Embedding Benchmark"
+ },
  "hf:mubarak123456": null,
  "hf:mubarak2026s": null,
  "hf:muennighoff": null,
+ "hf:multilingualunigramlm": {
+  "fullname": "LangMAP"
+ },
  "hf:multisynt": {
   "fullname": "MultiSynt"
  },
@@ -2540,6 +2781,8 @@
  "hf:nanbeige": {
   "fullname": "Nanbeige LLM Lab"
  },
+ "hf:nanexxx": null,
+ "hf:naren1704": null,
  "hf:narinari3": null,
  "hf:nasrellahkharroubi": null,
  "hf:nassimjp": null,
@@ -2549,6 +2792,10 @@
  "hf:ncannings": null,
  "hf:necent": null,
  "hf:nerkyor": null,
+ "hf:neulab": {
+  "fullname": "NeuLab @ LTI/CMU"
+ },
+ "hf:neurlang": null,
  "hf:neuronix12314585": null,
  "hf:neweret": null,
  "hf:newmean-ai": {
@@ -2573,6 +2820,7 @@
  "hf:noeflandre": null,
  "hf:noerror": null,
  "hf:nordinb": null,
+ "hf:nordpolemil": null,
  "hf:nostraempire": null,
  "hf:nota-ai": {
   "fullname": "Nota AI"
@@ -2601,8 +2849,12 @@
  "hf:oleg777o": null,
  "hf:omagaman32": null,
  "hf:omarkamali": null,
+ "hf:omerfsahan": null,
  "hf:onnx-community": {
   "fullname": "ONNX Community"
+ },
+ "hf:ontocord": {
+  "fullname": "Ontocord"
  },
  "hf:open-index": {
   "fullname": "OpenIndex"
@@ -2627,6 +2879,9 @@
  },
  "hf:openflowlm": {
   "fullname": "OpenFlowLM"
+ },
+ "hf:openlanguagedata": {
+  "fullname": "Open Language Data Initiative"
  },
  "hf:openmoss-team": {
   "fullname": "OpenMOSS"
@@ -2670,6 +2925,7 @@
  "hf:peacockery": {
   "fullname": "Peacockery Studio"
  },
+ "hf:pei39": null,
  "hf:peluz": null,
  "hf:pentesterflow": {
   "fullname": "PentesterFlow"
@@ -2677,6 +2933,7 @@
  "hf:perplexity-ai": {
   "fullname": "Perplexity"
  },
+ "hf:peterkirby": null,
  "hf:phase-technologies": null,
  "hf:physicalai-bmi": {
   "fullname": "Institute for Physical AI @ BMI"
@@ -2692,6 +2949,7 @@
  "hf:plutonupv": null,
  "hf:polystation": null,
  "hf:prachi-munda": null,
+ "hf:princezaman": null,
  "hf:prism-ml": {
   "fullname": "Prism ML"
  },
@@ -2718,7 +2976,13 @@
  "hf:qrzysztof": null,
  "hf:quantumbraid": null,
  "hf:quiho": null,
+ "hf:quixiai": {
+  "fullname": "Quixi AI"
+ },
  "hf:quran-lab": {
+  "fullname": "Quran Lab"
+ },
+ "hf:quranlab": {
   "fullname": "Quran Lab"
  },
  "hf:qwen": {
@@ -2728,14 +2992,17 @@
  "hf:rahul05ranjan": null,
  "hf:rail70": null,
  "hf:rainboww51": null,
+ "hf:rajface345": null,
  "hf:ramakairi": null,
  "hf:ranagaber": null,
+ "hf:rancper": null,
  "hf:rapidata": {
   "fullname": "Rapidata"
  },
  "hf:raptormetal97": null,
  "hf:raspbfox": null,
  "hf:rattyc": null,
+ "hf:rcarvalo": null,
  "hf:rebego": null,
  "hf:recursivesi": {
   "fullname": "Recursive Superintelligence, Inc."
@@ -2756,8 +3023,10 @@
   "fullname": "rifai"
  },
  "hf:riyan200324200324": null,
+ "hf:riyansh0406": null,
  "hf:rleo": null,
  "hf:robertbschuette": null,
+ "hf:robinhad": null,
  "hf:rociourquijo": null,
  "hf:romaindurif": null,
  "hf:roneneldan": null,
@@ -2767,11 +3036,15 @@
  "hf:rudrakshrakeshzodage": null,
  "hf:ruggsea": null,
  "hf:ruudvelo": null,
+ "hf:ryaluous": null,
  "hf:ryanmarten": null,
  "hf:s1lvrn0": null,
+ "hf:sacii": null,
+ "hf:sadatsami": null,
  "hf:saidutta69": null,
  "hf:saiidah": null,
  "hf:sailu4": null,
+ "hf:sajida12": null,
  "hf:sakasegawa": null,
  "hf:salahuddin1234": null,
  "hf:salama1429": null,
@@ -2783,25 +3056,43 @@
  "hf:salvacat": null,
  "hf:sam8000": null,
  "hf:samielakkad1": null,
+ "hf:sandflow": {
+  "fullname": "Sandflow"
+ },
  "hf:sandovs": null,
  "hf:sanghyang00": null,
  "hf:sargedev": null,
+ "hf:satwikguptha": null,
+ "hf:satyadube": null,
  "hf:savial": null,
  "hf:sc117": null,
  "hf:scenario-labs": {
   "fullname": "Scenario"
  },
+ "hf:scicom-intl": {
+  "fullname": "Scicom (MSC) Bhd"
+ },
+ "hf:scikit-fingerprints": {
+  "fullname": "scikit-fingerprints"
+ },
+ "hf:scralius": null,
  "hf:sdantonio": null,
  "hf:sdobson": null,
  "hf:seamon67": null,
+ "hf:sebochs": null,
  "hf:secemp9": null,
+ "hf:sejongwang": null,
  "hf:sekkit": null,
  "hf:selcukkubur": null,
+ "hf:sellopale": null,
  "hf:seml-lab": {
   "fullname": "Secure Machine Learning Lab"
  },
  "hf:sensenova": {
   "fullname": "SenseNova"
+ },
+ "hf:sentientfutures": {
+  "fullname": "Sentient Futures"
  },
  "hf:sepidmnorozy": null,
  "hf:sequentiallearning": {
@@ -2814,7 +3105,9 @@
  "hf:shaikayany": null,
  "hf:sharifeh-fadaei": null,
  "hf:shashankholla3": null,
+ "hf:shenjj1017": null,
  "hf:shields": null,
+ "hf:shriyaask": null,
  "hf:shun3232": null,
  "hf:shunyalabs": {
   "fullname": "Shunya Labs"
@@ -2849,8 +3142,15 @@
  },
  "hf:sonoale": null,
  "hf:spazziep456": null,
+ "hf:speaches-ai": {
+  "fullname": "Speaches AI"
+ },
  "hf:speridlabs": {
   "fullname": "speridlabs"
+ },
+ "hf:ssschuang": null,
+ "hf:sssorganization": {
+  "fullname": "Sp1der 1 Organization"
  },
  "hf:st192011": null,
  "hf:stanfordnlp": {
@@ -2862,10 +3162,12 @@
  "hf:stefancosma": null,
  "hf:steja": null,
  "hf:stepsergius": null,
+ "hf:stevenjisu": null,
  "hf:stevenlewis79": null,
  "hf:stickerdaniel": null,
  "hf:streameval": null,
  "hf:subrati": null,
+ "hf:suchinthana": null,
  "hf:sunbird": {
   "fullname": "Sunbird AI"
  },
@@ -2876,7 +3178,9 @@
  },
  "hf:supremelobster": null,
  "hf:suprim": null,
+ "hf:supriyocode": null,
  "hf:supyoshi": null,
+ "hf:surresh877687": null,
  "hf:svngoku": null,
  "hf:swe-bench": {
   "fullname": "SWE-bench"
@@ -2884,10 +3188,17 @@
  "hf:swinliq-ain-2": {
   "fullname": "SwinliQ-AI"
  },
+ "hf:syvai": {
+  "fullname": "syv.ai"
+ },
  "hf:t0msilver": null,
  "hf:tabahi": null,
  "hf:taichuai": null,
+ "hf:taj3316": null,
  "hf:talzoomanzoo": null,
+ "hf:tamazight-nlp": {
+  "fullname": "Tamazight NLP"
+ },
  "hf:tampajohn": null,
  "hf:taqacuct": null,
  "hf:tarchi983": null,
@@ -2902,6 +3213,9 @@
  "hf:teaguesterling": null,
  "hf:tech4bueno": null,
  "hf:technobaptist": null,
+ "hf:telefonica": {
+  "fullname": "Telefonica"
+ },
  "hf:teltek": {
   "fullname": "Teltek Video Research S.L."
  },
@@ -2921,6 +3235,7 @@
  "hf:theavenger": null,
  "hf:theoracleguy": null,
  "hf:thkmon": null,
+ "hf:thomos978": null,
  "hf:thy025": null,
  "hf:tian77hh": null,
  "hf:tianming6233": null,
@@ -2933,7 +3248,9 @@
  "hf:tildeai": {
   "fullname": "Tilde"
  },
+ "hf:tilya203": null,
  "hf:timmzak": null,
+ "hf:timothyhartzog": null,
  "hf:timteamteem": null,
  "hf:tiwu-lab": {
   "fullname": "TiWu Lab"
@@ -2946,8 +3263,12 @@
  "hf:topher20": null,
  "hf:topherau": null,
  "hf:torkovweryyy": null,
+ "hf:tox1can": null,
  "hf:transcriber-app": {
   "fullname": "Transcriber App"
+ },
+ "hf:trelis": {
+  "fullname": "Trelis"
  },
  "hf:tremulo": null,
  "hf:trendy31171": null,
@@ -2972,6 +3293,9 @@
  "hf:umuteam": {
   "fullname": "UMUTeam"
  },
+ "hf:unimorph": {
+  "fullname": "Universal Morphology"
+ },
  "hf:uniparser": {
   "fullname": "Uni-Parser Team"
  },
@@ -2989,13 +3313,16 @@
   "fullname": "UNSW NLP"
  },
  "hf:usa15371": null,
+ "hf:uzbekswe": null,
  "hf:vaishalbusiness": null,
  "hf:valkayuh": null,
  "hf:vamboai": {
   "fullname": "Vambo AI"
  },
  "hf:vansh62": null,
+ "hf:vardansharma13": null,
  "hf:vasanth009": null,
+ "hf:vedalabs": null,
  "hf:velkamez": null,
  "hf:venastine-research": {
   "fullname": "Venastine Research"
@@ -3016,6 +3343,9 @@
   "fullname": "vLLM Semantic Router"
  },
  "hf:vnahata": null,
+ "hf:vocabradar": {
+  "fullname": "VocabRadar"
+ },
  "hf:voicetide": {
   "fullname": "Voice Tide"
  },
@@ -3037,6 +3367,9 @@
  "hf:watt-mind": {
   "fullname": "Watt Mind"
  },
+ "hf:webai-official": {
+  "fullname": "webAI"
+ },
  "hf:werner1hugo": null,
  "hf:wikilangs": {
   "fullname": "Wikilangs"
@@ -3051,10 +3384,16 @@
  "hf:witfoo": {
   "fullname": "WitFoo"
  },
+ "hf:wmt": {
+  "fullname": "WMT: Workshop on Statistical Machine Translation"
+ },
  "hf:worldcuisines": {
   "fullname": "World Cuisines"
  },
  "hf:worxrit17": null,
+ "hf:wuenlp": {
+  "fullname": "WüNLP"
+ },
  "hf:wuvya": null,
  "hf:x-ion-org": {
   "fullname": "X-ion Organization"
@@ -3075,12 +3414,15 @@
  "hf:xiaoxiaodong1": null,
  "hf:xiaoyanit": null,
  "hf:yama01tgt665": null,
+ "hf:yohannabelay": null,
  "hf:yorganci": {
   "fullname": "yorganci"
  },
  "hf:yosef0h4": null,
  "hf:yrrhall": null,
  "hf:yuiti-ara": null,
+ "hf:zabr946": null,
+ "hf:zachelramadhanadhitya": null,
  "hf:zaevlad": null,
  "hf:zai-org": {
   "fullname": "Z.ai"
@@ -3099,6 +3441,7 @@
  },
  "hf:zhanli-li": null,
  "hf:zineddine": null,
+ "hf:zouhar": null,
  "hf:zubr-ai": {
   "fullname": "Zubr AI community & developer"
  },
@@ -3112,6 +3455,11 @@
   "lat": 52.5183,
   "lng": 13.3929,
   "label": "Humboldt-Universität zu Berlin"
+ },
+ "hyderabad, india": {
+  "lat": 17.3606,
+  "lng": 78.4741,
+  "label": "Hyderabad"
  },
  "idiap research institute": null,
  "ikerbasque": null,
@@ -3238,6 +3586,11 @@
   "label": "Kennesaw State University"
  },
  "kharkiv national university of radio electronics": null,
+ "khobar, saudi arabia": {
+  "lat": 26.304,
+  "lng": 50.196,
+  "label": "Khobar"
+ },
  "king abdulaziz university": {
   "lat": 21.4934,
   "lng": 39.2485,
@@ -3533,6 +3886,7 @@
  },
  "national defence university of ukraine": null,
  "national institute for basic biology": null,
+ "national institute of informatics": null,
  "national research council (cnr), institute for research on population and social policies (irpps), rome, italy": null,
  "national research council - institute of methodologies for environmental analysis": null,
  "national taiwan university of science and technology": {
@@ -3563,7 +3917,17 @@
   "lng": -74.006,
   "label": "New York"
  },
+ "new york (flatiron)": {
+  "lat": 40.7411,
+  "lng": -73.9896,
+  "label": "Flatiron Building"
+ },
  "new york city, usa": {
+  "lat": 40.7127,
+  "lng": -74.006,
+  "label": "New York"
+ },
+ "new york, ny": {
   "lat": 40.7127,
   "lng": -74.006,
   "label": "New York"
@@ -3617,6 +3981,11 @@
   "lat": 30.3308,
   "lng": 71.2475,
   "label": "Pakistan"
+ },
+ "palermo, sicily, italy": {
+  "lat": 38.1112,
+  "lng": 13.3524,
+  "label": "Palerme"
  },
  "palo alto, ca": {
   "lat": 37.4443,
@@ -3760,6 +4129,7 @@
   "label": "Redmond"
  },
  "research center for intelligent distributed surveillance and security, universitas dian nuswantoro, indonesia; faculty of computer science, universitas dian nuswantoro, semarang, indonesia": null,
+ "richmond, va (+1 other), united states": null,
  "rmit university": {
   "lat": -37.677,
   "lng": 145.0729,
@@ -3775,6 +4145,11 @@
   "lat": 45.8865,
   "lng": 11.0452,
   "label": "Rovereto"
+ },
+ "roßtal": {
+  "lat": 49.388,
+  "lng": 10.8932,
+  "label": "Roßtal"
  },
  "saarbr\\u00fccken": null,
  "saarbrücken": {
@@ -3878,6 +4253,7 @@
   "lng": 127.0795,
   "label": "서울과학기술대학교"
  },
+ "sf bay (redwood city)": null,
  "shanghai jiao tong university": {
   "lat": 31.2009,
   "lng": 121.4284,
@@ -3955,6 +4331,11 @@
   "lat": 38.7942,
   "lng": -90.0003,
   "label": "Southern Illinois University Edwardsville"
+ },
+ "southern university of science and technology": {
+  "lat": 22.6036,
+  "lng": 113.9968,
+  "label": "南方科技大学"
  },
  "spain": {
   "lat": 39.3261,
@@ -4104,6 +4485,11 @@
   "lng": 139.3841,
   "label": "東京薬科大学 八王子キャンパス"
  },
+ "tokyo, japan": {
+  "lat": 35.6769,
+  "lng": 139.7639,
+  "label": "Tokyo"
+ },
  "tongji university": {
   "lat": 31.2847,
   "lng": 121.4969,
@@ -4115,6 +4501,12 @@
   "label": "Toronto"
  },
  "toshkent shahar olmazor tumani 28-idum ingliz tili o'qituvchisi": null,
+ "toulouse biotechnology institute, tbi, université de toulouse, cnrs, inrae, insa, 135, avenue de rangueil, f-31077 cedex 04 toulouse, france": null,
+ "toulouse, france": {
+  "lat": 43.6045,
+  "lng": 1.4442,
+  "label": "Toulouse"
+ },
  "tours": {
   "lat": 47.39,
   "lng": 0.6889,
@@ -4420,6 +4812,11 @@
   "lat": 42.3893,
   "lng": -72.5284,
   "label": "University of Massachusetts Amherst"
+ },
+ "university of nebraska–lincoln": {
+  "lat": 40.8306,
+  "lng": -96.6697,
+  "label": "University of Nebraska - Lincoln (East Campus)"
  },
  "university of new mexico": {
   "lat": 35.0866,
@@ -4727,6 +5124,7 @@
  "wd:glassdoor.fr": null,
  "wd:gluebenchmark.com": null,
  "wd:haystackapp.io": null,
+ "wd:himalayas.app": null,
  "wd:ics.uci.edu": {
   "lat": 33.6432,
   "lng": -117.842,
@@ -4794,6 +5192,7 @@
  "wd:movoznavstvo.knu.ua": null,
  "wd:nejlt.org": null,
  "wd:neuralhire.ai": null,
+ "wd:news.ycombinator.com": null,
  "wd:nlpl.eu": null,
  "wd:numl.edu.pk": {
   "lat": 33.6989,
@@ -4910,7 +5309,16 @@
   "geo_source": "Wikidata · World Academy of Science, Engineering and Technology",
   "_coarse": true
  },
+ "wd:weworkremotely.com": null,
  "wd:wuwr.pl": null,
+ "wd:ycombinator.com": {
+  "lat": 37.3928,
+  "lng": -122.0419,
+  "city": "Mountain View",
+  "region": "États-Unis",
+  "geo_source": "Wikidata · Q2616400",
+  "_coarse": false
+ },
  "wd:ziglobitha.org": null,
  "wdn:3dcodeverse": null,
  "wdn:aeryx ai": null,
@@ -5318,6 +5726,7 @@
  "wdn:supersonic labs": null,
  "wdn:swe bench": null,
  "wdn:swinliq ai": null,
+ "wdn:tamazight nlp": null,
  "wdn:tatsu lab": null,
  "wdn:tcn inc": null,
  "wdn:teltek video research s l": null,
