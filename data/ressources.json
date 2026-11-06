@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-04T11:43:07+00:00",
- "total": 165,
+ "generated_at": "2026-11-06T02:01:38+00:00",
+ "total": 187,
  "sources": [
   {
    "id": "berbere",
@@ -19,19 +19,26 @@
    "label": "Veille générale : revues, événements, emplois",
    "file": "nlp_ressources_filtrees.xlsx",
    "count": 47
+  },
+  {
+   "id": "mediterranee",
+   "label": "Langues de Méditerranée : modèles, corpus, outils",
+   "file": "nlp_mediterranee_ressources.xlsx",
+   "count": 22
   }
  ],
  "counts": {
   "by_source": {
    "berbere": 50,
    "ecosysteme": 68,
-   "general": 47
+   "general": 47,
+   "mediterranee": 22
   },
   "by_category": {
-   "cat_Dataset": 39,
-   "cat_Model": 26,
-   "cat_Tool": 53,
-   "cat_Event": 15,
+   "cat_Dataset": 43,
+   "cat_Model": 39,
+   "cat_Tool": 57,
+   "cat_Event": 16,
    "cat_Job": 12,
    "cat_Journal": 20
   }
@@ -57,7 +64,14 @@
    "city": "Tamazgha",
    "lat": 34.0209,
    "lng": -6.8416,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-10c215ad8f",
@@ -79,7 +93,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-1d351d62f5",
@@ -101,7 +122,15 @@
    "city": "Souss",
    "lat": 30.4278,
    "lng": -9.5981,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "shi",
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-fd0dbb64a0",
@@ -123,7 +152,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-bd203edbd9",
@@ -145,7 +181,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-5298c583ed",
@@ -167,7 +210,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-342c6b00a9",
@@ -189,7 +239,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-c9c07761d8",
@@ -211,7 +268,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-f0caee3fc4",
@@ -233,7 +297,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-9c129d04f9",
@@ -255,7 +326,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-905ba8d1f7",
@@ -277,7 +355,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-fdbe607ba9",
@@ -299,7 +384,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-a6659cc7b5",
@@ -321,7 +413,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-1d077e9eaf",
@@ -343,7 +442,14 @@
    "city": "Tamazgha",
    "lat": 34.0209,
    "lng": -6.8416,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-079473aba5",
@@ -365,7 +471,15 @@
    "city": "Rif",
    "lat": 35.2517,
    "lng": -3.9372,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "rif",
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-585f8e1978",
@@ -387,7 +501,15 @@
    "city": "Souss",
    "lat": 30.4278,
    "lng": -9.5981,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "shi",
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-248f4cdf49",
@@ -409,7 +531,15 @@
    "city": "Souss",
    "lat": 30.4278,
    "lng": -9.5981,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "shi",
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-29c9e3487e",
@@ -431,7 +561,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-2cd8b76667",
@@ -453,7 +590,14 @@
    "city": "Tamazgha",
    "lat": 34.0209,
    "lng": -6.8416,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-2cb415452d",
@@ -475,7 +619,15 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab",
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-8475eb9006",
@@ -497,7 +649,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-2b0bfc6282",
@@ -519,7 +678,14 @@
    "city": "Tamazgha",
    "lat": 34.0209,
    "lng": -6.8416,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-ab6b9be7b5",
@@ -541,7 +707,14 @@
    "city": "Tamazgha",
    "lat": 34.0209,
    "lng": -6.8416,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-2b20187a36",
@@ -563,7 +736,14 @@
    "city": "Tamazgha",
    "lat": 34.0209,
    "lng": -6.8416,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-3777cbea45",
@@ -585,7 +765,14 @@
    "city": "Tamazgha",
    "lat": 34.0209,
    "lng": -6.8416,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-906dd420c6",
@@ -607,7 +794,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-7cf7bedd9f",
@@ -629,7 +823,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-52ef53dd9a",
@@ -651,7 +852,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-4d8313d193",
@@ -673,7 +881,14 @@
    "city": "Tamazgha",
    "lat": 34.0209,
    "lng": -6.8416,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-0d9cf6ed21",
@@ -695,7 +910,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-6b8934bb06",
@@ -717,7 +939,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-389b76e9f3",
@@ -739,7 +968,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-201be25e66",
@@ -761,7 +997,15 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab",
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-1e948b9681",
@@ -783,7 +1027,14 @@
    "city": "Tamazgha",
    "lat": 34.0209,
    "lng": -6.8416,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-0afefee27b",
@@ -801,11 +1052,10 @@
     "fr": "Bibliothèque pour langues à ressources limitées (adaptable berbère)"
    },
    "pays": "International",
-   "region": "Tamazgha",
-   "city": "Tamazgha",
-   "lat": 34.0209,
-   "lng": -6.8416,
-   "geo_precision": "langue"
+   "region": "International",
+   "city": null,
+   "lat": null,
+   "lng": null
   },
   {
    "id": "res-850f3f6adc",
@@ -827,7 +1077,15 @@
    "city": "Moyen Atlas",
    "lat": 32.9394,
    "lng": -5.6675,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "tzm",
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-57bbab592b",
@@ -849,7 +1107,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-28e852f080",
@@ -871,7 +1136,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-71c940af6c",
@@ -893,7 +1165,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-3c303e7650",
@@ -915,7 +1194,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-7cd75671d3",
@@ -937,7 +1223,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-d4c3283294",
@@ -959,7 +1252,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-735060a5fc",
@@ -981,7 +1281,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-94c5c19909",
@@ -1003,7 +1310,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-822a4ffe19",
@@ -1025,7 +1339,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-b3fab95d4c",
@@ -1047,7 +1368,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-13c697a7db",
@@ -1069,7 +1397,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-1b27d1789b",
@@ -1091,7 +1426,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-f3024669fa",
@@ -1113,7 +1455,14 @@
    "city": "Tamazgha",
    "lat": 34.0209,
    "lng": -6.8416,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "zgh"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-2dee98c8f7",
@@ -1135,7 +1484,14 @@
    "city": "Kabylie",
    "lat": 36.7118,
    "lng": 4.0459,
-   "geo_precision": "langue"
+   "geo_precision": "langue",
+   "lang_codes": [
+    "kab"
+   ],
+   "lang_groups": [
+    "berbere"
+   ],
+   "focus": true
   },
   {
    "id": "res-23e28ec469",
@@ -1177,7 +1533,14 @@
    "region": "International",
    "city": null,
    "lat": null,
-   "lng": null
+   "lng": null,
+   "lang_codes": [
+    "ar"
+   ],
+   "lang_groups": [
+    "nationales"
+   ],
+   "focus": false
   },
   {
    "id": "res-2e72a997e9",
@@ -1396,7 +1759,7 @@
    "categorie": "Datasets",
    "categorie_key": "cat_Dataset",
    "type": "Datasets",
-   "langue": null,
+   "langue": "Multilingue",
    "taille": null,
    "licence": "Ouverte",
    "licence_class": "open",
@@ -1406,9 +1769,11 @@
    },
    "pays": "International",
    "region": "International",
-   "city": null,
-   "lat": null,
-   "lng": null
+   "city": "Finlande",
+   "lat": 65.0,
+   "lng": 27.0,
+   "country": "FI",
+   "geo_precision": "pays"
   },
   {
    "id": "res-0e159dd1b4",
@@ -1522,7 +1887,7 @@
    "categorie": "Datasets",
    "categorie_key": "cat_Dataset",
    "type": "Datasets",
-   "langue": null,
+   "langue": "Multilingue (grec, turc, hébreu, maltais, catalan…)",
    "taille": null,
    "licence": "Ouverte",
    "licence_class": "open",
@@ -2026,7 +2391,7 @@
    "categorie": "Outils",
    "categorie_key": "cat_Tool",
    "type": "Outils",
-   "langue": null,
+   "langue": "Arabe standard et dialectal",
    "taille": null,
    "licence": "Apache 2.0",
    "licence_class": "open",
@@ -2036,9 +2401,17 @@
    },
    "pays": "International",
    "region": "International",
-   "city": null,
-   "lat": null,
-   "lng": null
+   "city": "Monde arabe",
+   "lat": 30.0444,
+   "lng": 31.2357,
+   "lang_codes": [
+    "ar"
+   ],
+   "lang_groups": [
+    "nationales"
+   ],
+   "focus": false,
+   "geo_precision": "langue"
   },
   {
    "id": "res-c09b4b8160",
@@ -2143,7 +2516,14 @@
    "region": "International",
    "city": null,
    "lat": null,
-   "lng": null
+   "lng": null,
+   "lang_codes": [
+    "ar"
+   ],
+   "lang_groups": [
+    "nationales"
+   ],
+   "focus": false
   },
   {
    "id": "res-83bbd3c9af",
@@ -3565,6 +3945,633 @@
    "city": null,
    "lat": null,
    "lng": null
+  },
+  {
+   "id": "res-65919c2a9d",
+   "nom": "FLORES-200",
+   "source": "mediterranee",
+   "categorie": "Dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Benchmark",
+   "langue": "Multilingue (200 langues)",
+   "taille": null,
+   "licence": "CC BY-SA 4.0",
+   "licence_class": "unknown",
+   "lien": "https://github.com/facebookresearch/flores",
+   "description": {
+    "fr": "Jeu d'évaluation de la traduction automatique pour 200 langues (maltais, kabyle, tamasheq, sicilien…)."
+   },
+   "pays": "International",
+   "region": "International",
+   "city": null,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": "res-ebed34c9d4",
+   "nom": "Korpus Malti",
+   "source": "mediterranee",
+   "categorie": "Dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Corpus",
+   "langue": "Maltais",
+   "taille": null,
+   "licence": "Variable selon sous-corpus",
+   "licence_class": "partial",
+   "lien": "https://huggingface.co/datasets/MLRS/korpus_malti",
+   "description": {
+    "fr": "Corpus général de référence du maltais (presse, littérature, droit, web)."
+   },
+   "pays": "Malte",
+   "region": "Malte",
+   "city": "Malte",
+   "lat": 35.8989,
+   "lng": 14.5146,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "mt"
+   ],
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "focus": true
+  },
+  {
+   "id": "res-f76c8bb690",
+   "nom": "MADAR",
+   "source": "mediterranee",
+   "categorie": "Dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Corpus parallèle",
+   "langue": "Arabe dialectal (25 villes)",
+   "taille": null,
+   "licence": "Licence de recherche",
+   "licence_class": "unknown",
+   "lien": "https://camel.abudhabi.nyu.edu/madar-parallel-corpus/",
+   "description": {
+    "fr": "Corpus parallèle de dialectes arabes de 25 villes (CAMeL Lab)."
+   },
+   "pays": "Émirats arabes unis",
+   "region": "Maghreb–Machrek",
+   "city": "Maghreb–Machrek",
+   "lat": 33.0,
+   "lng": 15.0,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "ar-dial"
+   ],
+   "lang_groups": [
+    "arabe"
+   ],
+   "focus": true
+  },
+  {
+   "id": "res-556831115d",
+   "nom": "Mozilla Common Voice",
+   "source": "mediterranee",
+   "categorie": "Dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Corpus de parole",
+   "langue": "Multilingue",
+   "taille": null,
+   "licence": "CC0",
+   "licence_class": "open",
+   "lien": "https://commonvoice.mozilla.org/datasets",
+   "description": {
+    "fr": "Corpus de parole participatif (kabyle, catalan, basque, maltais, grec, turc, sarde…)."
+   },
+   "pays": "International",
+   "region": "International",
+   "city": null,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": "res-3fdb7a772d",
+   "nom": "EVALITA",
+   "source": "mediterranee",
+   "categorie": "Événement",
+   "categorie_key": "cat_Event",
+   "type": "Campagne d'évaluation",
+   "langue": "Italien",
+   "taille": null,
+   "licence": "Ouverte",
+   "licence_class": "open",
+   "lien": "https://www.evalita.it/",
+   "description": {
+    "fr": "Campagne d'évaluation périodique du TAL et de la parole pour l'italien."
+   },
+   "pays": "Italie",
+   "region": "Italie",
+   "city": "Italie",
+   "lat": 41.9028,
+   "lng": 12.4964,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "it"
+   ],
+   "lang_groups": [
+    "nationales"
+   ],
+   "focus": false
+  },
+  {
+   "id": "res-acd490e072",
+   "nom": "AlephBERT",
+   "source": "mediterranee",
+   "categorie": "Modèle",
+   "categorie_key": "cat_Model",
+   "type": "Modèle de langue",
+   "langue": "Hébreu",
+   "taille": null,
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/onlplab/alephbert-base",
+   "description": {
+    "fr": "Modèle BERT pour l'hébreu moderne (ONLP Lab, Bar-Ilan)."
+   },
+   "pays": "Israël",
+   "region": "Israël",
+   "city": "Israël",
+   "lat": 32.0853,
+   "lng": 34.7818,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "he"
+   ],
+   "lang_groups": [
+    "nationales"
+   ],
+   "focus": false
+  },
+  {
+   "id": "res-ff13be9aa1",
+   "nom": "AraBERT v2",
+   "source": "mediterranee",
+   "categorie": "Modèle",
+   "categorie_key": "cat_Model",
+   "type": "Modèle de langue",
+   "langue": "Arabe standard",
+   "taille": null,
+   "licence": "Ouverte",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/aubmindlab/bert-base-arabertv2",
+   "description": {
+    "fr": "Modèle BERT pour l'arabe standard (AUB MIND Lab)."
+   },
+   "pays": "Liban",
+   "region": "Monde arabe",
+   "city": "Monde arabe",
+   "lat": 30.0444,
+   "lng": 31.2357,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "ar"
+   ],
+   "lang_groups": [
+    "nationales"
+   ],
+   "focus": false
+  },
+  {
+   "id": "res-90327cc012",
+   "nom": "BERTić (BCMS)",
+   "source": "mediterranee",
+   "categorie": "Modèle",
+   "categorie_key": "cat_Model",
+   "type": "Modèle de langue",
+   "langue": "Croate, bosniaque, monténégrin, serbe",
+   "taille": null,
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/classla/bcms-bertic",
+   "description": {
+    "fr": "Modèle ELECTRA pour les langues BCMS (croate, bosniaque, monténégrin, serbe)."
+   },
+   "pays": "Croatie",
+   "region": "Croatie",
+   "city": "Croatie",
+   "lat": 45.815,
+   "lng": 15.9819,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "hr",
+    "sr",
+    "bs",
+    "cnr"
+   ],
+   "lang_groups": [
+    "nationales"
+   ],
+   "focus": false
+  },
+  {
+   "id": "res-d7c429b7c3",
+   "nom": "BERTu",
+   "source": "mediterranee",
+   "categorie": "Modèle",
+   "categorie_key": "cat_Model",
+   "type": "Modèle de langue",
+   "langue": "Maltais",
+   "taille": null,
+   "licence": "CC BY-NC-SA 4.0",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/MLRS/BERTu",
+   "description": {
+    "fr": "Modèle BERT monolingue maltais entraîné sur Korpus Malti (MLRS, Université de Malte)."
+   },
+   "pays": "Malte",
+   "region": "Malte",
+   "city": "Malte",
+   "lat": 35.8989,
+   "lng": 14.5146,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "mt"
+   ],
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "focus": true
+  },
+  {
+   "id": "res-073e730d87",
+   "nom": "BERTurk",
+   "source": "mediterranee",
+   "categorie": "Modèle",
+   "categorie_key": "cat_Model",
+   "type": "Modèle de langue",
+   "langue": "Turc",
+   "taille": null,
+   "licence": "MIT",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/dbmdz/bert-base-turkish-cased",
+   "description": {
+    "fr": "Modèle BERT turc de référence (MDZ Digital Library)."
+   },
+   "pays": "Turquie",
+   "region": "Turquie",
+   "city": "Turquie",
+   "lat": 41.0082,
+   "lng": 28.9784,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "tr"
+   ],
+   "lang_groups": [
+    "nationales"
+   ],
+   "focus": false
+  },
+  {
+   "id": "res-7696deac24",
+   "nom": "BETO",
+   "source": "mediterranee",
+   "categorie": "Modèle",
+   "categorie_key": "cat_Model",
+   "type": "Modèle de langue",
+   "langue": "Espagnol",
+   "taille": null,
+   "licence": "CC BY 4.0",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased",
+   "description": {
+    "fr": "BERT espagnol (Université du Chili)."
+   },
+   "pays": "Chili",
+   "region": "Espagne",
+   "city": "Espagne",
+   "lat": 40.4168,
+   "lng": -3.7038,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "es"
+   ],
+   "lang_groups": [
+    "nationales"
+   ],
+   "focus": false
+  },
+  {
+   "id": "res-5fe4bf1b25",
+   "nom": "CroSloEngual BERT",
+   "source": "mediterranee",
+   "categorie": "Modèle",
+   "categorie_key": "cat_Model",
+   "type": "Modèle de langue",
+   "langue": "Croate, slovène, anglais",
+   "taille": null,
+   "licence": "CC BY 4.0",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/EMBEDDIA/crosloengual-bert",
+   "description": {
+    "fr": "BERT trilingue croate-slovène-anglais (EMBEDDIA)."
+   },
+   "pays": "Slovénie",
+   "region": "Croatie",
+   "city": "Croatie",
+   "lat": 45.815,
+   "lng": 15.9819,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "hr",
+    "sl"
+   ],
+   "lang_groups": [
+    "nationales"
+   ],
+   "focus": false
+  },
+  {
+   "id": "res-40c935bb1b",
+   "nom": "GreekBERT",
+   "source": "mediterranee",
+   "categorie": "Modèle",
+   "categorie_key": "cat_Model",
+   "type": "Modèle de langue",
+   "langue": "Grec",
+   "taille": null,
+   "licence": "Ouverte",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1",
+   "description": {
+    "fr": "Modèle BERT pour le grec moderne (AUEB NLP Group)."
+   },
+   "pays": "Grèce",
+   "region": "Grèce",
+   "city": "Grèce",
+   "lat": 37.9838,
+   "lng": 23.7275,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "el"
+   ],
+   "lang_groups": [
+    "nationales"
+   ],
+   "focus": false
+  },
+  {
+   "id": "res-0f4e69b53a",
+   "nom": "Latxa",
+   "source": "mediterranee",
+   "categorie": "Modèle",
+   "categorie_key": "cat_Model",
+   "type": "Modèle de langue",
+   "langue": "Basque",
+   "taille": null,
+   "licence": "Llama 2 community",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/HiTZ/latxa-7b-v1.2",
+   "description": {
+    "fr": "Famille de LLM basques (HiTZ, Université du Pays basque)."
+   },
+   "pays": "Espagne",
+   "region": "Pays basque",
+   "city": "Pays basque",
+   "lat": 43.263,
+   "lng": -2.935,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "eu"
+   ],
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "focus": true
+  },
+  {
+   "id": "res-6b4a861405",
+   "nom": "MarIA (RoBERTa BNE)",
+   "source": "mediterranee",
+   "categorie": "Modèle",
+   "categorie_key": "cat_Model",
+   "type": "Modèle de langue",
+   "langue": "Espagnol",
+   "taille": null,
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/PlanTL-GOB-ES/roberta-base-bne",
+   "description": {
+    "fr": "Modèle RoBERTa espagnol entraîné sur les archives web de la Bibliothèque nationale d'Espagne."
+   },
+   "pays": "Espagne",
+   "region": "Espagne",
+   "city": "Espagne",
+   "lat": 40.4168,
+   "lng": -3.7038,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "es"
+   ],
+   "lang_groups": [
+    "nationales"
+   ],
+   "focus": false
+  },
+  {
+   "id": "res-16d51550f0",
+   "nom": "Projecte AINA — RoBERTa-ca",
+   "source": "mediterranee",
+   "categorie": "Modèle",
+   "categorie_key": "cat_Model",
+   "type": "Modèle de langue",
+   "langue": "Catalan",
+   "taille": null,
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/projecte-aina/roberta-base-ca-v2",
+   "description": {
+    "fr": "Modèle RoBERTa catalan du Projecte AINA (BSC)."
+   },
+   "pays": "Espagne",
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "ca"
+   ],
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "focus": true
+  },
+  {
+   "id": "res-0be39f3456",
+   "nom": "SloBERTa",
+   "source": "mediterranee",
+   "categorie": "Modèle",
+   "categorie_key": "cat_Model",
+   "type": "Modèle de langue",
+   "langue": "Slovène",
+   "taille": null,
+   "licence": "CC BY-SA 4.0",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/EMBEDDIA/sloberta",
+   "description": {
+    "fr": "Modèle CamemBERT/RoBERTa monolingue slovène (EMBEDDIA)."
+   },
+   "pays": "Slovénie",
+   "region": "Slovénie",
+   "city": "Slovénie",
+   "lat": 46.0569,
+   "lng": 14.5058,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "sl"
+   ],
+   "lang_groups": [
+    "nationales"
+   ],
+   "focus": false
+  },
+  {
+   "id": "res-d9a9333bf3",
+   "nom": "UmBERTo",
+   "source": "mediterranee",
+   "categorie": "Modèle",
+   "categorie_key": "cat_Model",
+   "type": "Modèle de langue",
+   "langue": "Italien",
+   "taille": null,
+   "licence": "Ouverte",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/Musixmatch/umberto-commoncrawl-cased-v1",
+   "description": {
+    "fr": "Modèle RoBERTa italien entraîné sur CommonCrawl (Musixmatch)."
+   },
+   "pays": "Italie",
+   "region": "Italie",
+   "city": "Italie",
+   "lat": 41.9028,
+   "lng": 12.4964,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "it"
+   ],
+   "lang_groups": [
+    "nationales"
+   ],
+   "focus": false
+  },
+  {
+   "id": "res-b19bec4be2",
+   "nom": "Apertium",
+   "source": "mediterranee",
+   "categorie": "Outil",
+   "categorie_key": "cat_Tool",
+   "type": "Traduction automatique",
+   "langue": "Catalan, occitan, aragonais, sarde, basque…",
+   "taille": null,
+   "licence": "GPL",
+   "licence_class": "open",
+   "lien": "https://www.apertium.org/",
+   "description": {
+    "fr": "Plateforme libre de traduction automatique à base de règles, très présente pour les langues romanes minoritaires."
+   },
+   "pays": "International",
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "ca",
+    "eu",
+    "an",
+    "oc",
+    "sc"
+   ],
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "focus": true
+  },
+  {
+   "id": "res-3c4bae3deb",
+   "nom": "CLASSLA-Stanza",
+   "source": "mediterranee",
+   "categorie": "Outil",
+   "categorie_key": "cat_Tool",
+   "type": "Pipeline",
+   "langue": "Slovène, croate, serbe, macédonien, bulgare",
+   "taille": null,
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://github.com/clarinsi/classla",
+   "description": {
+    "fr": "Chaîne de traitement (tokenisation, étiquetage, lemmatisation, dépendances) pour les langues slaves du Sud."
+   },
+   "pays": "Slovénie",
+   "region": "Croatie",
+   "city": "Croatie",
+   "lat": 45.815,
+   "lng": 15.9819,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "hr",
+    "sl",
+    "sr",
+    "mk"
+   ],
+   "lang_groups": [
+    "nationales"
+   ],
+   "focus": false
+  },
+  {
+   "id": "res-5c0d18a94d",
+   "nom": "Stanza",
+   "source": "mediterranee",
+   "categorie": "Outil",
+   "categorie_key": "cat_Tool",
+   "type": "Pipeline",
+   "langue": "Multilingue (70 langues)",
+   "taille": null,
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://stanfordnlp.github.io/stanza/",
+   "description": {
+    "fr": "Chaîne de traitement neuronale multilingue (Stanford NLP), modèles pour grec, turc, hébreu, maltais, catalan, basque…"
+   },
+   "pays": "États-Unis",
+   "region": "États-Unis",
+   "city": "États-Unis",
+   "lat": 39.828,
+   "lng": -98.579,
+   "country": "US",
+   "geo_precision": "pays"
+  },
+  {
+   "id": "res-f64ddf113c",
+   "nom": "Zemberek-NLP",
+   "source": "mediterranee",
+   "categorie": "Outil",
+   "categorie_key": "cat_Tool",
+   "type": "Bibliothèque",
+   "langue": "Turc",
+   "taille": null,
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://github.com/ahmetaa/zemberek-nlp",
+   "description": {
+    "fr": "Outils de TAL pour le turc : morphologie, normalisation, tokenisation."
+   },
+   "pays": "Turquie",
+   "region": "Turquie",
+   "city": "Turquie",
+   "lat": 41.0082,
+   "lng": 28.9784,
+   "geo_precision": "langue",
+   "lang_codes": [
+    "tr"
+   ],
+   "lang_groups": [
+    "nationales"
+   ],
+   "focus": false
   }
  ]
 }
