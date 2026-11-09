@@ -267,6 +267,11 @@
   "lng": -0.58,
   "label": "Bordeaux"
  },
+ "boston university": {
+  "lat": 42.3504,
+  "lng": -71.1032,
+  "label": "Boston University"
+ },
  "boston, ma": {
   "lat": 42.3588,
   "lng": -71.0578,
@@ -528,6 +533,11 @@
   "lat": 46.1199,
   "lng": 14.8153,
   "label": "Slovénie"
+ },
+ "country:tn": {
+  "lat": 33.8439,
+  "lng": 9.4001,
+  "label": "Tunisie"
  },
  "country:us": {
   "lat": 39.7837,
@@ -862,6 +872,10 @@
  "gh:balanov": {
   "location": null,
   "name": "Антон Николаевич Баланов"
+ },
+ "gh:banan1cee": {
+  "location": "北京",
+  "name": "高晨阳"
  },
  "gh:bilibili": {
   "location": "Shanghai, China",
@@ -1459,6 +1473,10 @@
   "location": "Brooklyn, NY",
   "name": "Steve Loria"
  },
+ "gh:slowpokeislife": {
+  "location": "Puebla, MX",
+  "name": "Jorge Uc"
+ },
  "gh:sno-ai": {
   "location": "United States of America",
   "name": "Sno AI"
@@ -1474,6 +1492,10 @@
  "gh:souravberaakaspeed": {
   "location": "BLR , Ind",
   "name": "Sourav bera"
+ },
+ "gh:sp-yduck": {
+  "location": "Tokyo,Japan",
+  "name": "Teppei Sudo"
  },
  "gh:stanfordnlp": {
   "location": "Stanford, CA",
@@ -2199,6 +2221,7 @@
   "fullname": "Doctoc Health"
  },
  "hf:dougmov": null,
+ "hf:draconiticlabs": null,
  "hf:dragnoz": null,
  "hf:drishtisharma": null,
  "hf:drko999": null,
@@ -2398,6 +2421,7 @@
  "hf:hfxunlp": null,
  "hf:hillal-titouh": null,
  "hf:himanshu9636": null,
+ "hf:hinimdou": null,
  "hf:hisashisaruta": null,
  "hf:hitz": {
   "fullname": "HiTZ zentroa"
@@ -2491,6 +2515,7 @@
  "hf:iseddik": null,
  "hf:ismailait": null,
  "hf:ismailea04": null,
+ "hf:israellaguan": null,
  "hf:ista-daslab": {
   "fullname": "IST Austria Distributed Algorithms and Systems Lab"
  },
@@ -2732,6 +2757,9 @@
  "hf:maternion": null,
  "hf:mathematiciannlper": null,
  "hf:mathmaster1122": null,
+ "hf:matterwaveai": {
+  "fullname": "MatterWaveAI"
+ },
  "hf:mattt": null,
  "hf:maurorisonho": null,
  "hf:maya-research": {
@@ -3091,6 +3119,7 @@
  "hf:rifailabs": {
   "fullname": "rifai"
  },
+ "hf:rikiyat": null,
  "hf:riyan200324200324": null,
  "hf:riyansh0406": null,
  "hf:rleo": null,
@@ -3136,6 +3165,9 @@
  "hf:satyadube": null,
  "hf:savial": null,
  "hf:sc117": null,
+ "hf:scantist": {
+  "fullname": "Scantist Pte. Ltd."
+ },
  "hf:scenario-labs": {
   "fullname": "Scenario"
  },
@@ -3517,6 +3549,11 @@
   "fullname": "Zubr AI community & developer"
  },
  "hf:zyrexz": null,
+ "higher colleges of technology": {
+  "lat": 31.5673,
+  "lng": -110.2452,
+  "label": "College of Applied Science and Technology"
+ },
  "hokkaido": {
   "lat": 43.452,
   "lng": 142.8198,
@@ -3966,6 +4003,11 @@
  "national defence university of ukraine": null,
  "national institute for basic biology": null,
  "national institute of informatics": null,
+ "national kaohsiung university of science and technology": {
+  "lat": 22.7264,
+  "lng": 120.3148,
+  "label": "國立高雄科技大學楠梓校區"
+ },
  "national research council (cnr), institute for research on population and social policies (irpps), rome, italy": null,
  "national research council - institute of methodologies for environmental analysis": null,
  "national taiwan university of science and technology": {
@@ -4187,6 +4229,11 @@
   "lat": 40.3387,
   "lng": -74.6584,
   "label": "Princeton University"
+ },
+ "puebla, mx": {
+  "lat": 18.8333,
+  "lng": -98.0,
+  "label": "Puebla"
  },
  "pune": {
   "lat": 18.5214,
@@ -4459,6 +4506,7 @@
   "label": "Stanford"
  },
  "student of andijan state institute of foreign languages": null,
+ "student, english language teaching  (philology and language teaching) program faculty of foreign philology termez state university, uzbekistan.": null,
  "stuttgart": {
   "lat": 48.7784,
   "lng": 9.18,
@@ -4535,6 +4583,11 @@
   "lng": -96.3521,
   "label": "Texas A&M University"
  },
+ "texas a&m university-corpus christi": {
+  "lat": 27.7128,
+  "lng": -97.3234,
+  "label": "Texas A&M University-Corpus Christi"
+ },
  "texas state university": {
   "lat": 29.8911,
   "lng": -97.9376,
@@ -4556,6 +4609,7 @@
   "lng": -106.5079,
   "label": "The University of Texas at El Paso"
  },
+ "tianjin institute of industrial biotechnology, chinese academy of sciences": null,
  "tilburg university": {
   "lat": 51.5631,
   "lng": 5.0436,
@@ -4573,6 +4627,11 @@
   "label": "東京薬科大学 八王子キャンパス"
  },
  "tokyo, japan": {
+  "lat": 35.6769,
+  "lng": 139.7639,
+  "label": "Tokyo"
+ },
+ "tokyo,japan": {
   "lat": 35.6769,
   "lng": 139.7639,
   "label": "Tokyo"
@@ -5013,6 +5072,11 @@
   "lng": 9.0712,
   "label": "Klimagarten der Universität Tübingen"
  },
+ "university of virginia": {
+  "lat": 38.0411,
+  "lng": -78.5055,
+  "label": "University of Virginia"
+ },
  "university of wisconsin–madison": {
   "lat": 43.0803,
   "lng": -89.431,
@@ -5124,6 +5188,16 @@
   "lng": 3.5136,
   "label": "Université Polytechnique Hauts-de-France"
  },
+ "varna, bulgaria": {
+  "lat": 43.2074,
+  "lng": 27.9167,
+  "label": "Varna"
+ },
+ "vellore institute of technology university": {
+  "lat": 12.9697,
+  "lng": 79.1607,
+  "label": "Vellore Institute of Technology"
+ },
  "venice": {
   "lat": 45.4372,
   "lng": 12.3346,
@@ -5152,6 +5226,11 @@
   "lat": 42.4933,
   "lng": -83.0063,
   "label": "Warren"
+ },
+ "waseda university": {
+  "lat": 35.7092,
+  "lng": 139.7197,
+  "label": "Université Waseda"
  },
  "washington state university": {
   "lat": 46.7338,
@@ -5693,6 +5772,7 @@
  "wdn:malinali": null,
  "wdn:maltese language resource server": null,
  "wdn:mashbox labs": null,
+ "wdn:matterwaveai": null,
  "wdn:maya research": null,
  "wdn:mcgill nlp group": null,
  "wdn:meta inc": null,
@@ -5813,6 +5893,7 @@
  "wdn:rifai": null,
  "wdn:robotic systems lab eth z rich": null,
  "wdn:salesforce ai research": null,
+ "wdn:scantist pte ltd": null,
  "wdn:scenario": null,
  "wdn:secure machine learning lab": null,
  "wdn:sensenova": null,
@@ -5931,6 +6012,12 @@
   "label": "École Polytechnique Fédérale de Lausanne"
  },
  "доцент, ташкентский государственный медицинский университет": null,
+ "доцент, ташкентский государственный медицинский университет тел.: +998909392868": null,
+ "北京": {
+  "lat": 39.9011,
+  "lng": 116.421,
+  "label": "北京"
+ },
  "北京市海淀区": {
   "lat": 39.9581,
   "lng": 116.2924,
