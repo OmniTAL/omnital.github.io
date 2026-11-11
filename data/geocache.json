@@ -29,6 +29,7 @@
  },
  "academy of sciences and literature": null,
  "active inference institute": null,
+ "adam mickiewicz university in poznań": null,
  "adelaide university": {
   "lat": -34.9189,
   "lng": 138.6042,
@@ -71,6 +72,7 @@
   "lng": -0.4882,
   "label": "Alicante"
  },
+ "alumnus, eötvös loránd university": null,
  "amazon (united states)": {
   "lat": 44.6339,
   "lng": -93.2641,
@@ -383,6 +385,11 @@
   "lat": 45.5663,
   "lng": 5.9204,
   "label": "Chambéry"
+ },
+ "charité - universitätsmedizin berlin": {
+  "lat": 52.53,
+  "lng": 13.3487,
+  "label": "Institut für Rechtsmedizin der Charité Universitätsmedizin Berlin"
  },
  "cherkasy state technological university": null,
  "china": {
@@ -908,6 +915,10 @@
   "location": "Abu Dhabi, UAE",
   "name": "CAMeL Lab"
  },
+ "gh:cattmonkey": {
+  "location": null,
+  "name": "cattmonkey"
+ },
  "gh:ccch1mneyyy": {
   "location": null,
   "name": "Chimney"
@@ -1263,6 +1274,10 @@
  "gh:nano-muse": {
   "location": "China",
   "name": "nanoMuse"
+ },
+ "gh:nerverdevs": {
+  "location": null,
+  "name": "nerverdevs"
  },
  "gh:nltk": {
   "location": null,
@@ -2134,6 +2149,9 @@
  "hf:collinear-ai": {
   "fullname": "Collinear AI"
  },
+ "hf:comfy-org": {
+  "fullname": "Comfy Org"
+ },
  "hf:coml": {
   "fullname": "Cognitive Machine Learning | @ENS"
  },
@@ -2162,6 +2180,9 @@
  "hf:cutting3dg3": null,
  "hf:cyron": null,
  "hf:czqdfsdf": null,
+ "hf:dagroup-pku": {
+  "fullname": "DAGroup-PKU"
+ },
  "hf:dali20266": null,
  "hf:dampi001": null,
  "hf:danish-foundation-models": {
@@ -2477,6 +2498,7 @@
  "hf:huggingworld": null,
  "hf:huihui-ai": null,
  "hf:huwenjie333": null,
+ "hf:hyuki5": null,
  "hf:ibm-granite": {
   "fullname": "IBM Granite"
  },
@@ -3894,6 +3916,11 @@
   "lng": 99.8951,
   "label": "มหาวิทยาลัยแม่ฟ้าหลวง"
  },
+ "manchester metropolitan university": {
+  "lat": 53.4695,
+  "lng": -2.238,
+  "label": "Grosvenor West"
+ },
  "manpla.net": null,
  "masaryk university": {
   "lat": 49.21,
@@ -3943,6 +3970,11 @@
   "lat": 25.7742,
   "lng": -80.1936,
   "label": "Miami"
+ },
+ "michigan state university": {
+  "lat": 42.7024,
+  "lng": -84.4804,
+  "label": "Michigan State University"
  },
  "michigan technological university": {
   "lat": 47.1097,
@@ -4113,6 +4145,7 @@
   "lng": -73.8649,
   "label": "Paris"
  },
+ "nzilbb": null,
  "nîmes université": {
   "lat": 43.8388,
   "lng": 4.3645,
@@ -4295,6 +4328,7 @@
   "label": "Redmond"
  },
  "research center for intelligent distributed surveillance and security, universitas dian nuswantoro, indonesia; faculty of computer science, universitas dian nuswantoro, semarang, indonesia": null,
+ "research library for the history of education": null,
  "richmond, va (+1 other), united states": null,
  "rmit university": {
   "lat": -37.677,
@@ -4357,6 +4391,11 @@
   "label": "San Francisco"
  },
  "san francisco, california": {
+  "lat": 37.7879,
+  "lng": -122.4075,
+  "label": "San Francisco"
+ },
+ "san francisco, california, united states": {
   "lat": 37.7879,
   "lng": -122.4075,
   "label": "San Francisco"
@@ -4659,6 +4698,11 @@
   "lng": 139.3829,
   "label": "東京都立大学"
  },
+ "tokyo university of foreign studies": {
+  "lat": 35.6742,
+  "lng": 139.5204,
+  "label": "東京外国語大学"
+ },
  "tokyo university of pharmacy and life sciences": {
   "lat": 35.6378,
   "lng": 139.3841,
@@ -4878,6 +4922,11 @@
   "lng": 112.5972,
   "label": "Universitas Muhammadiyah Malang"
  },
+ "universitas pendidikan indonesia": {
+  "lat": -6.8612,
+  "lng": 107.5917,
+  "label": "Universitas Pendidikan Indonesia"
+ },
  "universitas sebelas maret": {
   "lat": -7.5595,
   "lng": 110.8569,
@@ -4982,6 +5031,11 @@
   "lng": 0.9499,
   "label": "University of Essex"
  },
+ "university of galway": {
+  "lat": 53.2936,
+  "lng": -9.0751,
+  "label": "Ollscoil na Gaillimhe - University of Galway"
+ },
  "university of gdańsk": {
   "lat": 54.3964,
   "lng": 18.574,
@@ -5013,6 +5067,16 @@
   "lat": 42.3893,
   "lng": -72.5284,
   "label": "University of Massachusetts Amherst"
+ },
+ "university of michigan": {
+  "lat": 42.2942,
+  "lng": -83.71,
+  "label": "University of Michigan"
+ },
+ "university of michigan–dearborn": {
+  "lat": 42.3172,
+  "lng": -83.2319,
+  "label": "University of Michigan-Dearborn"
  },
  "university of nebraska–lincoln": {
   "lat": 40.8306,
@@ -5686,6 +5750,7 @@
  "wdn:cohere labs community": null,
  "wdn:cole nationale des chartes psl": null,
  "wdn:collinear ai": null,
+ "wdn:comfy org": null,
  "wdn:common crawl foundation": null,
  "wdn:community datasets": null,
  "wdn:convex works o e": null,
@@ -5697,6 +5762,7 @@
   "geo_source": "Wikidata · Conway"
  },
  "wdn:crossswe benchmark": null,
+ "wdn:dagroup pku": null,
  "wdn:danish foundation models": null,
  "wdn:darija audio dataset": null,
  "wdn:data gouv community": null,
@@ -6086,6 +6152,7 @@
   "lng": 108.9423,
   "label": "Xi'an"
  },
+ "xuzhou central hospital, affiliated hospital of southeast university": null,
  "zhejiang university": {
   "lat": 30.5216,
   "lng": 120.7195,
