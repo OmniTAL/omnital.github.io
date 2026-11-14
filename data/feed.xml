@@ -6,806 +6,806 @@
     <atom:link href="https://omnital.github.io/data/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Nouvelles ressources en traitement automatique des langues (arXiv, HAL, Hugging Face, GitHub, WikiCFP).</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 11 Nov 2026 12:49:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 09:30:11 +0000</lastBuildDate>
     <item>
-      <title>[Event] LTEDI 2027 : Seventh Workshop on Language Technology for Equality, Diversity and Inclusion</title>
-      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=204137</link>
-      <guid isPermaLink="false">wikicfp:204137</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Event] IberLEF 2027 : [IberLEF 2027] Call for Task Proposals</title>
+      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=204166</link>
+      <guid isPermaLink="false">wikicfp:204166</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
       <category>wikicfp</category>
-      <description>Seventh Workshop on Language Technology for Equality, Diversity and Inclusion</description>
+      <description>[IberLEF 2027] Call for Task Proposals</description>
     </item>
     <item>
-      <title>[Opportunity] Senior AI Research Engineer - LLM Training &amp; Inference Infrastructure</title>
-      <link>https://www.arbeitnow.fr/jobs/companies/datadog/senior-ai-research-engineer-llm-training-inference-infrastructure-paris-322553</link>
-      <guid isPermaLink="false">arbeitnow:senior-ai-research-engineer-llm-training-inference-infrastructure-paris-322553</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arbeitnow</category>
-      <description>As a Research Engineer on the Frontier Foundations team, you will partner with Research Scientists to build the systems that run large-scale LLM training, reinforcement learning, and inference at Datadog. You will build and operate an…</description>
+      <title>[Event] LoResMT 2027 : he Tenth Workshop on Technologies for Machine Translation of Low-Resource Languages</title>
+      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=204214</link>
+      <guid isPermaLink="false">wikicfp:204214</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>wikicfp</category>
+      <description>he Tenth Workshop on Technologies for Machine Translation of Low-Resource Languages</description>
     </item>
     <item>
-      <title>[Paper] From Relevant Posts to Attributable Spans: Explicit Symptom Evidence for Depression Questionnaire Inference</title>
-      <link>https://arxiv.org/abs/2611.12900</link>
-      <guid isPermaLink="false">arxiv:2611.12900</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Longitudinal social-media histories offer an opportunity to assess depression, potentially supporting the inference of standardized depression questionnaire responses. However, this task requires evidence that is semantically relevant to…</description>
+      <title>[Event] TLLL13 2027 : The 13th International Conference on Languages, Linguistics, Translation and Literature</title>
+      <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=204216</link>
+      <guid isPermaLink="false">wikicfp:204216</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>wikicfp</category>
+      <description>The 13th International Conference on Languages, Linguistics, Translation and Literature</description>
     </item>
     <item>
-      <title>[Paper] Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding</title>
-      <link>https://arxiv.org/abs/2611.12901</link>
-      <guid isPermaLink="false">arxiv:2611.12901</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Recent advancements in multimodal diffusion language models (MDLMs) have exhibited strong global modeling capabilities through iterative refinement. We observe that mask uncertainty follows an overall downward trend during iterative…</description>
+      <title>[Corpus] HYUKI5/MartinThoma__wili_2018</title>
+      <link>https://huggingface.co/datasets/HYUKI5/MartinThoma__wili_2018</link>
+      <guid isPermaLink="false">hf:datasets:HYUKI5/MartinThoma__wili_2018</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>MartinThoma/wili_2018（複製） データの内容 Wikipedia の段落を 235 言語のいずれかに判定する言語識別のベンチマーク。1 行が 1 段落で、sentence に本文、label に言語の番号が入っている。235 言語それぞれの段落が均衡しており、train と test に分けられている。ライセンスは ODC Open Database License v1.0 である。 データの概要 項目 値 行数 235,000（1 構成・2…</description>
     </item>
     <item>
-      <title>[Paper] TimeOmni-o1: Bidirectionally Coupling Time Series Foundation Models and LLMs for Multimodal Reasoning and Forecasting</title>
-      <link>https://arxiv.org/abs/2611.12902</link>
-      <guid isPermaLink="false">arxiv:2611.12902</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Time series from real-world systems are often accompanied by text, such as a report on an event that affects them. Two common tasks on these series are understanding, e.g., answering questions about a series, and forecasting its future…</description>
+      <title>[Corpus] HYUKI5/Davlan__sib200</title>
+      <link>https://huggingface.co/datasets/HYUKI5/Davlan__sib200</link>
+      <guid isPermaLink="false">hf:datasets:HYUKI5/Davlan__sib200</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Davlan/sib200（複製） データの内容 Flores-200 に基づく、205 の言語と方言のトピック分類のデータ。1 行が 1 文で、text、トピックを表す category、Flores-200 の文番号 index_id を含む。トピックは科学・技術、旅行、政治、スポーツ、健康、エンターテインメント、地理の 7 つである。元の文は新聞社や通信社の記事で、アノテーターは Masakhane から募集された。報道の文章だけなので、他の分野への適用は限られる。…</description>
     </item>
     <item>
-      <title>[Paper] SELD: Detecting Silent Evidence Loss in Context Compression beyond the Answer</title>
-      <link>https://arxiv.org/abs/2611.12903</link>
-      <guid isPermaLink="false">arxiv:2611.12903</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Context compression is now routine for language models with long inputs, but a compressed context is useful only if it keeps the evidence for the answer. Existing checks compare the reader model's answer or its most likely words, and thus…</description>
+      <title>[Model] jgalego/gemma-3-270m-it-shem</title>
+      <link>https://huggingface.co/jgalego/gemma-3-270m-it-shem</link>
+      <guid isPermaLink="false">hf:models:jgalego/gemma-3-270m-it-shem</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
     </item>
     <item>
-      <title>[Paper] Actionable Feedback: Improving Model Capabilities from User Edit Data on Clinical Documentation</title>
-      <link>https://arxiv.org/abs/2611.12904</link>
-      <guid isPermaLink="false">arxiv:2611.12904</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language models (LLMs) are increasingly being deployed in clinical documentation workflows, where clinicians review and edit their outputs before use. In principle, these clinician edits represent a scalable source of supervision…</description>
+      <title>[Model] AnyAutomation/parakeet-tdt-0.6b-v3-onnx</title>
+      <link>https://huggingface.co/AnyAutomation/parakeet-tdt-0.6b-v3-onnx</link>
+      <guid isPermaLink="false">hf:models:AnyAutomation/parakeet-tdt-0.6b-v3-onnx</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
     </item>
     <item>
-      <title>[Paper] Brasilidade: Measuring Brazilian Identity for Large Language Models</title>
-      <link>https://arxiv.org/abs/2611.12906</link>
-      <guid isPermaLink="false">arxiv:2611.12906</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>This work presents a new benchmark that aims to address the limitations of current methods for evaluating LLMs in Brazilian Portuguese. We introduced Brasilidade, an assessment methodology comprised of standardized tasks distributed…</description>
+      <title>[Tool] ouldmiloudzakaria/ouldmiloudzakaria.github.io</title>
+      <link>https://github.com/ouldmiloudzakaria/ouldmiloudzakaria.github.io</link>
+      <guid isPermaLink="false">gh:ouldmiloudzakaria/ouldmiloudzakaria.github.io</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Portfolio: AI engineering, LLMs and Arabic/Darija NLP</description>
     </item>
     <item>
-      <title>[Paper] M\"obius Interaction Filtering: Order-Selective Spectral Regularization for Multimodal Humor Detection</title>
-      <link>https://arxiv.org/abs/2611.12913</link>
-      <guid isPermaLink="false">arxiv:2611.12913</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Multimodal humor detection requires interpreting language, vocal delivery, and visual behavior jointly. Expressive fusion must also regulate how interactions of different orders enter the final judgment. We propose M\"obius Interaction…</description>
+      <title>[Corpus] The Impact of ChatGPT on Academic English Vocabulary Acquisition among Uzbek University Students: A Corpus-Based and Empirical Study</title>
+      <link>https://zenodo.org/records/24216096</link>
+      <guid isPermaLink="false">zenodo:24216095</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>The study looks at the effect of ChatGPT on the acquisition of academic English vocabulary by Uzbek university students using an integrated method that combines corpus-based analysis with empirical research. Since generative artificial…</description>
     </item>
     <item>
-      <title>[Paper] IntentTwin: Deconfounding Candidate Support and the Oracle-to-Deployment Gap in Offline Web Behavior Prediction</title>
-      <link>https://arxiv.org/abs/2611.12918</link>
-      <guid isPermaLink="false">arxiv:2611.12918</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Offline web-behavior benchmarks frequently insert the demonstrated action into a finite candidate set and then measure reranking. We show that this protocol can create a candidate-support confound: when the target is outside training…</description>
+      <title>[Corpus] The data and scripts for the manuscript: "Universality of intrinsic vowel F0 in 75 languages: The universality of intrinsic vowel F0: Crosslinguistic and speaker-level variation across 75 languages"</title>
+      <link>https://zenodo.org/records/24139679</link>
+      <guid isPermaLink="false">zenodo:24139678</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>This study investigated the crosslinguistic distribution of vowel intrinsic F0 (VF0), the tendency for high vowels to be produced with slightly higher fundamental frequency (F0) than low vowels. Although documented for over a century, the…</description>
     </item>
     <item>
-      <title>[Paper] Using LLM Agents to Evaluate Prosocial Interventions on Social Media Platforms</title>
-      <link>https://arxiv.org/abs/2611.12922</link>
-      <guid isPermaLink="false">arxiv:2611.12922</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Social media platforms are a primary source of information for many users. Although research explores various interventions to promote prosocial content or demote harmful content on platforms, there are few systematic methods for…</description>
+      <title>[Corpus] Nowhere except under negation? Exceptive constructions in native and heritage grammars</title>
+      <link>https://zenodo.org/records/24211722</link>
+      <guid isPermaLink="false">zenodo:24211721</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>This repository contains the data, analysis scripts and fitted model objects for the manuscript ` Nowhere except under negation? Exceptive constructions in native and heritage grammars '. The .rds files contain the saved model objects,…</description>
     </item>
     <item>
-      <title>[Paper] Tracing Psychometric Inference in Large Language Models</title>
-      <link>https://arxiv.org/abs/2611.12937</link>
-      <guid isPermaLink="false">arxiv:2611.12937</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Do large language models represent psychological constructs internally, or do they only generate outputs that resemble psychometric structure? We address this question using a cross-persona paradigm across 14 model variants from two…</description>
+      <title>[Corpus] Dataset Hypothetical Document Embeddings for Retrieving High-Complexity Python Functions</title>
+      <link>https://zenodo.org/records/24211756</link>
+      <guid isPermaLink="false">zenodo:24211755</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>This dataset supports the paper “Hypothetical Document Embeddings for Retrieving High-Complexity Python Functions” (ICDSG 2025). It contains a corpus of Python functions labelled with cyclomatic complexity (CC), together with all…</description>
     </item>
     <item>
-      <title>[Paper] ZeroPoint: Lightweight Energy-Based Decision Model</title>
-      <link>https://arxiv.org/abs/2611.12992</link>
-      <guid isPermaLink="false">arxiv:2611.12992</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Energy-based models (EBMs) assign a scalar energy to every joint value of the observed and predicted variables. In decision models, the prediction is chosen from a finite list of options provided with each input. Inference then reduces to…</description>
+      <title>[Corpus] Smart Contract Security Audit Findings and Vulnerability Corpus</title>
+      <link>https://zenodo.org/records/24210917</link>
+      <guid isPermaLink="false">zenodo:24210916</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Smart Contract Security Audit Findings and Vulnerability Corpus. (Paper: Do Smart-Contract Audits Tell Us Anything? Audit Findings, Exploits and Capital Flows in Decentralized Finance) Overview This dataset provides a comprehensive…</description>
     </item>
     <item>
-      <title>[Paper] Capacity Allocation at the Source: Sparse Target Optimization for LLM Knowledge Editing</title>
-      <link>https://arxiv.org/abs/2611.12995</link>
-      <guid isPermaLink="false">arxiv:2611.12995</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Knowledge editing has emerged as a promising approach for efficiently updating embedded knowledge in large language models (LLMs). It first computes an ideal target hidden state that steers the LLM toward the new output, and then edits…</description>
-    </item>
-    <item>
-      <title>[Paper] Linear Probes to Bayesian Manifolds: Geometry of Arithmetic in Large Language Models</title>
-      <link>https://arxiv.org/abs/2611.12998</link>
-      <guid isPermaLink="false">arxiv:2611.12998</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Linear probes are a standard method to study geometric structures, such as helices and circles, from the activations of large language models (LLMs), and such structure is often taken as evidence that the model computes with it. Probe…</description>
-    </item>
-    <item>
-      <title>[Paper] Seeing Is Not Believing: Counterfactual Lesion Erasure Teaches a Small Medical Vision-Language Agent to Report Only What the Image Shows</title>
-      <link>https://arxiv.org/abs/2611.13006</link>
-      <guid isPermaLink="false">arxiv:2611.13006</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Medical vision-language models (VLMs) often report a finding because the question names it; standard benchmarks miss this. From public segmentation datasets we build counterfactual views without manual annotation: the lesion erased by…</description>
-    </item>
-    <item>
-      <title>[Paper] khammoon: From a Linguistic Guideline to a Thai Morpheme Segmenter</title>
-      <link>https://arxiv.org/abs/2611.13012</link>
-      <guid isPermaLink="false">arxiv:2611.13012</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Thai is written without spaces between words, making segmentation a foundational step in most Thai NLP pipelines. Existing tools primarily reproduce the word-level conventions of corpora such as BEST; however, because the notion of a…</description>
-    </item>
-    <item>
-      <title>[Paper] Repository-Context-Guided Image Understanding for Agentic Software Development</title>
-      <link>https://arxiv.org/abs/2611.13026</link>
-      <guid isPermaLink="false">arxiv:2611.13026</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Coding agents increasingly receive UI screenshots as part of bug reports, yet degraded image quality - caused by low resolution, compression artifacts, or small rendered text - can prevent them from identifying the relevant UI elements…</description>
-    </item>
-    <item>
-      <title>[Paper] GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2611.13028</link>
-      <guid isPermaLink="false">arxiv:2611.13028</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>AAA games offer a rich testbed for evaluating agent perception, reasoning, and control. However, evaluating whether agents can complete tasks in AAA games is challenging and often human-annotated because task outcomes are often difficult…</description>
-    </item>
-    <item>
-      <title>[Paper] The Indic Token Tax in 2026: Measuring Tokenizer. Disparity and Its Cost for the Languages of India</title>
-      <link>https://arxiv.org/abs/2611.13058</link>
-      <guid isPermaLink="false">arxiv:2611.13058</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Commercial language model APIs bill per token, so a tokenizer that needs more tokens for the same content in one language makes that language more expensive, slower, and able to fit less text in a fixed context window. We measure this…</description>
-    </item>
-    <item>
-      <title>[Paper] A Multi-Word Tokenizer for 204 Languages That Needs Fewer Tokens Than GPT-4o's, Including on English</title>
-      <link>https://arxiv.org/abs/2611.13059</link>
-      <guid isPermaLink="false">arxiv:2611.13059</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Languages of India need 1.6 to 14 times as many tokens as English on GPT-4o's tokenizer for the same content, which makes them more expensive and slower to serve. We train tokenizers from scratch on human-written text in about 200…</description>
-    </item>
-    <item>
-      <title>[Paper] The Left Ripple of Byte-Pair Encoding: Certified Lookbehind for Every Dictionary</title>
-      <link>https://arxiv.org/abs/2611.13061</link>
-      <guid isPermaLink="false">arxiv:2611.13061</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Berglund and van der Merwe formalized byte-pair encoding and bounded how far an appended string can change a tokenization, leaving the converse open: how far can a string prepended on the left change it, which dictionaries make that…</description>
-    </item>
-    <item>
-      <title>[Paper] One Temperature to Rule Them All?</title>
-      <link>https://arxiv.org/abs/2611.13077</link>
-      <guid isPermaLink="false">arxiv:2611.13077</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Inference-time sampling is a central mechanism for improving large language models, with temperature controlling the tradeoff between reliability and diversity. While recent work suggests that varying temperature across samples can…</description>
-    </item>
-    <item>
-      <title>[Paper] Catch It Where It Happens: Real Time Error Correction During LLM Reasoning</title>
-      <link>https://arxiv.org/abs/2611.13107</link>
-      <guid isPermaLink="false">arxiv:2611.13107</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language models (LLMs) are increasingly trusted with mathematical, scientific and engineering work, yet their mistakes are often confidently written and hard to spot. A single wrong step tends to propagate, making the model waste…</description>
-    </item>
-    <item>
-      <title>[Paper] ASPIRE: An Agentic System-Identification Platform for Iterative Reasoning and Exploration</title>
-      <link>https://arxiv.org/abs/2611.13114</link>
-      <guid isPermaLink="false">arxiv:2611.13114</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>System identification requires expert decisions on the identification method, incorporation of prior physical knowledge, and model validation. We propose ASPIRE, a framework for nonlinear system identification in which a large language…</description>
-    </item>
-    <item>
-      <title>[Paper] Activation-Guided Graph Retrieval for Cognitive Memory Reconstruction in Language Model Systems</title>
-      <link>https://arxiv.org/abs/2611.13127</link>
-      <guid isPermaLink="false">arxiv:2611.13127</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Retrieval-augmented language model systems generally select context by query-conditioned relevance. We argue that long-lived AI systems require a second operator: activation-conditioned memory availability. We specify an architecture in…</description>
-    </item>
-    <item>
-      <title>[Paper] Which Successes Make Good References? Action-Sequence Alignment for Multi-Turn On-Policy Distillation</title>
-      <link>https://arxiv.org/abs/2611.13135</link>
-      <guid isPermaLink="false">arxiv:2611.13135</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>On-policy distillation (OPD) reduces train-inference distribution mismatch by supervising a student on its own trajectories. For multi-turn tool-use agents, conditioning the teacher on a validated same-task successful trajectory as a…</description>
-    </item>
-    <item>
-      <title>[Paper] Agreeing on the Answer but Not the Reason: Measurement Limits of LLM Reasoning Failure Taxonomies</title>
-      <link>https://arxiv.org/abs/2611.13140</link>
-      <guid isPermaLink="false">arxiv:2611.13140</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Failure taxonomies for LLM reasoning are increasingly reported as measurements: papers state what fraction of a model's errors fall into named categories, then compare those fractions across models. We show that for one such category the…</description>
-    </item>
-    <item>
-      <title>[Paper] One-Sided Expert-Parallel All-to-All for Mixture-of-Experts Inference over NVLink</title>
-      <link>https://arxiv.org/abs/2611.13188</link>
-      <guid isPermaLink="false">arxiv:2611.13188</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Expert parallelism (EP) shards the experts of a Mixture-of-Experts (MoE) layer across GPUs, so every MoE layer requires two all-to-all communications, namely dispatch and combine. Compared with training, inference processes relatively few…</description>
-    </item>
-    <item>
-      <title>[Paper] HiCAP: Hierarchical Cultural Adaptation via Personality for Dialogue Generation</title>
-      <link>https://arxiv.org/abs/2611.13207</link>
-      <guid isPermaLink="false">arxiv:2611.13207</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Cultural adaptation in dialogue systems refers to the ability to generate responses that conform to linguistic norms and social expectations across different cultures. However, existing dialogue generation approaches pay limited attention…</description>
-    </item>
-    <item>
-      <title>[Paper] Latin American Studies since the 1980s: From Apocalyptic Dreams to Assimilationist Consolidation</title>
-      <link>https://arxiv.org/abs/2611.13216</link>
-      <guid isPermaLink="false">arxiv:2611.13216</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>We investigate how Latin American Studies (LAS) has evolved since 1982 in three leading LAS journals. Using network analysis, text mining, and bibliometrics, we trace transformations in disciplinary positioning, authorship, and citation…</description>
-    </item>
-    <item>
-      <title>[Paper] Deletion Sensitivity Is a Property of the Model: A Three-Condition Measurement across Seven Open Reasoning Models</title>
-      <link>https://arxiv.org/abs/2611.13223</link>
-      <guid isPermaLink="false">arxiv:2611.13223</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Reasoning models write a reasoning trace at every turn of a multi-turn tool session, and later turns read this history. Across 94k ShareGPT conversations, 73 percent of user interactions span multiple turns. Upstream providers bind each…</description>
-    </item>
-    <item>
-      <title>[Paper] Domain-Routed Delta Optimization for Multi-Teacher On-Policy Distillation</title>
-      <link>https://arxiv.org/abs/2611.13249</link>
-      <guid isPermaLink="false">arxiv:2611.13249</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Multi-teacher on-policy distillation assigns each sample a domain teacher but typically updates shared student parameters. We introduce Domain-Routed Delta Optimization (DRD-MOPD), which specifies which parameter components each domain's…</description>
-    </item>
-    <item>
-      <title>[Paper] What drives the emergence of symbolic mechanisms in large language models?</title>
-      <link>https://arxiv.org/abs/2611.13270</link>
-      <guid isPermaLink="false">arxiv:2611.13270</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Recent work has identified a set of emergent symbolic mechanisms that support abstract reasoning in large language models, but it remains unclear what factors drive the emergence of these mechanisms. To address this question, we trained…</description>
-    </item>
-    <item>
-      <title>[Paper] Decode Token Parallelism: Memory-Efficient Distributed Attention Parallelism for Scalable LLM Decoding</title>
-      <link>https://arxiv.org/abs/2611.13293</link>
-      <guid isPermaLink="false">arxiv:2611.13293</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Serving large language models at high concurrency with long contexts requires KV-cache capacity and attention bandwidth that grow with the decode pool. Existing parallelization strategies trade one against the other: data parallelism…</description>
-    </item>
-    <item>
-      <title>[Paper] MicroLens: Read, Trace, and Rewire the Residual Stream with Two Lenses</title>
-      <link>https://arxiv.org/abs/2611.13322</link>
-      <guid isPermaLink="false">arxiv:2611.13322</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Lenses that decode hidden states into words are a popular way to look inside language models, but a heatmap of decoded words only shows what a vector reads as and cannot distinguish whether, or how much, the model uses the information. We…</description>
-    </item>
-    <item>
-      <title>[Paper] Measuring Definition Sensitivity in LLM Annotation of Social Science Concepts</title>
-      <link>https://arxiv.org/abs/2611.13339</link>
-      <guid isPermaLink="false">arxiv:2611.13339</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>In social science research, text annotation is a fundamental task that is traditionally a costly, hard-to-scale manual process. Researchers have used large language models (LLMs) to perform annotation by writing a definition of a concept…</description>
-    </item>
-    <item>
-      <title>[Paper] Understanding Students' Rationales for AI-Mediated Cheating: An Instructor Perspective from Online Forums Analysis</title>
-      <link>https://arxiv.org/abs/2611.13358</link>
-      <guid isPermaLink="false">arxiv:2611.13358</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>The extensive adoption of AI has precipitated a crisis in academic integrity. While studies attempt to quantify cheating, less is known about the motivations instructors believe students have for using AI in prohibited ways. We analyze…</description>
-    </item>
-    <item>
-      <title>[Paper] Mapping Instructors' Attitudes Towards Cheating with AI: An Exploratory Analysis Using Forum Analysis</title>
-      <link>https://arxiv.org/abs/2611.13366</link>
-      <guid isPermaLink="false">arxiv:2611.13366</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>In teaching and learning environments, cheating and the violation of academic integrity have always been one of the challenges, involving different levels of concerns such as administrative, personal knowledge, learning, and equity. The…</description>
-    </item>
-    <item>
-      <title>[Paper] Orthographic depth at two scales, with English also matched for lexicon size</title>
-      <link>https://arxiv.org/abs/2611.13400</link>
-      <guid isPermaLink="false">arxiv:2611.13400</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>A reader can struggle to read in only one of their languages, and one proposed reason is how predictably spelling maps to sound. We measure that predictability as conditional entropy, the pronunciation uncertainty left once the spelling…</description>
-    </item>
-    <item>
-      <title>[Paper] Free Lunch Uncertainty: Sequence-Level R\'enyi Entropy from Particle Decoding for Adaptive LLM Reasoning</title>
-      <link>https://arxiv.org/abs/2611.13414</link>
-      <guid isPermaLink="false">arxiv:2611.13414</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Quantifying uncertainty over an entire LLM completion is critical for selective prediction and adaptive compute. Zero-cost signals such as mean token entropy and log-probability are local to tokens or to one completion, and…</description>
-    </item>
-    <item>
-      <title>[Paper] BioMem: Agentic Memory for Biomedical LLM Agents</title>
-      <link>https://arxiv.org/abs/2611.13426</link>
-      <guid isPermaLink="false">arxiv:2611.13426</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language models (LLMs) have demonstrated considerable potential in biomedical applications, while agentic memory systems have emerged as a promising approach to preserving and utilizing information across tasks and interactions.…</description>
-    </item>
-    <item>
-      <title>[Paper] Off-target posterior mass: A training-free diagnostic for fine-tuning spoken language diarization probes</title>
-      <link>https://arxiv.org/abs/2611.13430</link>
-      <guid isPermaLink="false">arxiv:2611.13430</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Spoken Language Diarization (SLD) models provide frame-level language information of a speech recording. SLD modeling pipeline includes feature extraction from pre-trained speech models followed by clustering. Fine-tuning pre-trained…</description>
-    </item>
-    <item>
-      <title>[Paper] Inherited Weights: Measuring the Tokenization Premium and the Sovereignty Cost of Language Models for the Global South</title>
-      <link>https://arxiv.org/abs/2611.13441</link>
-      <guid isPermaLink="false">arxiv:2611.13441</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Most language models deployed outside the United States and China are fine-tuned descendants of a small number of pretrained families. We argue that fine-tuning leaves the decisive properties of a model inherited from its base:…</description>
-    </item>
-    <item>
-      <title>[Paper] Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling</title>
-      <link>https://arxiv.org/abs/2611.13477</link>
-      <guid isPermaLink="false">arxiv:2611.13477</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Integrating human feedback into language models has gained increasing attention as a means to align model outputs with human preferences, with Reinforcement Learning from Human Feedback (RLHF) serving as a prominent framework for…</description>
-    </item>
-    <item>
-      <title>[Paper] Evaluating Compositional Generalization in Transformers: The Role of Composition Equivalence and Module Coverage</title>
-      <link>https://arxiv.org/abs/2611.13498</link>
-      <guid isPermaLink="false">arxiv:2611.13498</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Compositional generalization is an important form of out-of-distribution generalization, defined as the ability to train on some combinations of modules (e.g., functions such as sort, filter) and then generalize to unseen combinations.…</description>
-    </item>
-    <item>
-      <title>[Paper] Mobile AI Factory: Building Specialized Language Models for Your Mobile Device</title>
-      <link>https://arxiv.org/abs/2611.13509</link>
-      <guid isPermaLink="false">arxiv:2611.13509</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Small language models (SLMs) running on mobile devices can keep user data private and work without connectivity. But they perform well only when fine-tuned for the target task and sized for the target device, a process that today requires…</description>
-    </item>
-    <item>
-      <title>[Paper] Differentiable Filtering for Inertial Odometry</title>
-      <link>https://arxiv.org/abs/2611.13517</link>
-      <guid isPermaLink="false">arxiv:2611.13517</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Accurate inertial odometry is critical for autonomous systems but suffers from unbounded drift caused by the integration of sensor noise and biases. In approaches such as TLIO, neural pseudo-measurements are trained independently of their…</description>
-    </item>
-    <item>
-      <title>[Paper] EJAI: Judgment-Preserving Civic AI for Data Center Environmental Justice</title>
-      <link>https://arxiv.org/abs/2611.13525</link>
-      <guid isPermaLink="false">arxiv:2611.13525</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Communities in the United States and around the world are contesting data centers, the physical infrastructure of AI. These disputes pose environmental justice issues: residents must weigh unevenly distributed burdens using evidence…</description>
-    </item>
-    <item>
-      <title>[Paper] Framing-Induced Vulnerability in Large Language Models: Evidence from Chinese News Headlines</title>
-      <link>https://arxiv.org/abs/2611.13531</link>
-      <guid isPermaLink="false">arxiv:2611.13531</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language models increasingly evaluate, route, and moderate news, so a model's judgment of a headline has become a gatekeeping decision. We ask whether that judgment follows the fact being reported or the way the fact is framed. We…</description>
-    </item>
-    <item>
-      <title>[Paper] Sanity Checks for Attention Surgery: Null Models and Matched Interventions for Representation-Motivated Design</title>
-      <link>https://arxiv.org/abs/2611.13543</link>
-      <guid isPermaLink="false">arxiv:2611.13543</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Transformer architectural modifications frequently measure a statistic on internal representations, observe that it is large, remove it architecturally, and report an improvement. Interpreting that sequence requires evaluating whether the…</description>
-    </item>
-    <item>
-      <title>[Paper] How Post-Training Influences Verbalized Algorithmic Computation in Language Models</title>
-      <link>https://arxiv.org/abs/2611.13552</link>
-      <guid isPermaLink="false">arxiv:2611.13552</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Post-training improves language-model reasoning, but how it changes the use of internal information and verbalized chain of thought (CoT) remains unclear. We study successive SFT, DPO, and RLVR checkpoints of Olmo-3-7B-Instruct on…</description>
-    </item>
-    <item>
-      <title>[Paper] Darmok: Championship Cryptic Crossword Solving via Constraint Tightening and Resilient Orchestration</title>
-      <link>https://arxiv.org/abs/2611.13557</link>
-      <guid isPermaLink="false">arxiv:2611.13557</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>We present Darmok, the first automated system to reach superhuman performance on British cryptic crosswords. Unlike American-style crosswords, cryptic clues disguise an unmarked definition and compositional wordplay beneath a misleading…</description>
-    </item>
-    <item>
-      <title>[Paper] Are Dense Rewards Worth Their Tokens in GRPO?</title>
-      <link>https://arxiv.org/abs/2611.13560</link>
-      <guid isPermaLink="false">arxiv:2611.13560</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>RLVR trains language models to reason by rewarding correct final answers. A widely used algorithm, group-relative policy optimization (GRPO), gives every token of a solution the same credit, so dense process rewards have been proposed to…</description>
-    </item>
-    <item>
-      <title>[Paper] An evidence-traceable benchmark of clinical reasoning in large language models</title>
-      <link>https://arxiv.org/abs/2611.13562</link>
-      <guid isPermaLink="false">arxiv:2611.13562</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Benchmark scores for medical large language models (LLMs) are difficult to interpret when scoring criteria cannot be traced to clinical evidence. Here we developed Med Evidence Bench (MEB; https://www.medevidencebench.org.cn/), comprising…</description>
-    </item>
-    <item>
-      <title>[Paper] A Concept-Based Interpretable Framework for Clinical Text-based Prediction via Token-Concept Attention without Concept Supervision</title>
-      <link>https://arxiv.org/abs/2611.13564</link>
-      <guid isPermaLink="false">arxiv:2611.13564</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Objective: Concept-based interpretation has emerged as a promising approach for explaining blackbox models using human-understandable, high-level concepts. However, most existing methods require annotated concept labels to train the model…</description>
-    </item>
-    <item>
-      <title>[Paper] Pair-Merge Tokenisation Is Hard to Approximate on Binary Strings and Strongly NP-Hard on Unary Datasets</title>
-      <link>https://arxiv.org/abs/2611.13568</link>
-      <guid isPermaLink="false">arxiv:2611.13568</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Tokenisers such as Byte-Pair Encoding (BPE) shorten text by repeatedly merging an adjacent pair of symbols into a new one; fewer tokens mean less computation. We ask whether an efficient algorithm can choose $k$ merges that leave a string…</description>
-    </item>
-    <item>
-      <title>[Paper] TERM: Target-Free Jailbreak Defense via Entropy-Guided Residual Modulation</title>
-      <link>https://arxiv.org/abs/2611.13577</link>
-      <guid isPermaLink="false">arxiv:2611.13577</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language models (LLMs) have shown strong capabilities across diverse applications, making both safety and utility essential for reliable deployment. Jailbreak attacks use diverse forms of adversarial prompting to bypass alignment…</description>
-    </item>
-    <item>
-      <title>[Paper] POEM: Output-Relative Block-Sparse Attention for Long-Context Prefilling</title>
-      <link>https://arxiv.org/abs/2611.13578</link>
-      <guid isPermaLink="false">arxiv:2611.13578</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language models (LLMs) have shown strong capabilities across diverse applications, making both safety and utility essential for reliable deployment. Jailbreak attacks use diverse forms of adversarial prompting to bypass alignment…</description>
-    </item>
-    <item>
-      <title>[Paper] IFRS Compliance Verification: An Open Multi-LLM Benchmark and Content-Conditioned Ensemble Classifier</title>
-      <link>https://arxiv.org/abs/2611.13595</link>
-      <guid isPermaLink="false">arxiv:2611.13595</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Verifying corporate financial disclosures against the International Financial Reporting Standards (IFRS) is a core auditing task in which experts cross-reference disclosures with hundreds of fine-grained regulatory paragraphs: a…</description>
-    </item>
-    <item>
-      <title>[Paper] Towards Reliable VLM Judges: State-Conditional Invariance and Presentation-Aware Diagnostics</title>
-      <link>https://arxiv.org/abs/2611.13596</link>
-      <guid isPermaLink="false">arxiv:2611.13596</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Vision-language models (VLMs) are increasingly used as automated judges for multimodal and embodied tasks, yet aggregate accuracy or consistency alone does not reveal whether a judge changes its verdict for the right reason. We propose…</description>
-    </item>
-    <item>
-      <title>[Paper] Compute the Interactions, Not the Attributes: What a Fact Layer Must Supply in the Chinese Sexagenary System</title>
-      <link>https://arxiv.org/abs/2611.13597</link>
-      <guid isPermaLink="false">arxiv:2611.13597</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Language-model systems in rule-governed domains often pair the model with a deterministic fact layer, but which facts that layer should supply is rarely measured. We measure it in the Chinese sexagenary system underlying BaZi chart…</description>
-    </item>
-    <item>
-      <title>[Paper] One Byte, One Token: Byteifying a 27B Hybrid-Attention LLM with Self-Generated Data</title>
-      <link>https://arxiv.org/abs/2611.13607</link>
-      <guid isPermaLink="false">arxiv:2611.13607</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Byte-level BPE fragments Chinese text (for Qwen3.8 on Chinese Wikipedia, 3.84 bytes per token on average; 64% of tokens are single characters) and hides spelling from the model. We ask whether an already-trained 27B subword model can be…</description>
-    </item>
-    <item>
-      <title>[Paper] Post-OCR Correction of Mixed-Script Uzbek Text: Byte-Level ByT5 with an Empirical Homoglyph Noise Matrix</title>
-      <link>https://arxiv.org/abs/2611.13609</link>
-      <guid isPermaLink="false">arxiv:2611.13609</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>In Uzbek official and technical documents, a large share of OCR errors is caused not by poor image quality but by characters that are visually identical across the two alphabets in use. Because the script transition is still under way,…</description>
-    </item>
-    <item>
-      <title>[Paper] Synapse-Control: Making Agent Experience Actionable with Lightweight Runtime Control</title>
-      <link>https://arxiv.org/abs/2611.13615</link>
-      <guid isPermaLink="false">arxiv:2611.13615</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language model agents reuse execution experience to improve reliability on complex tool-based tasks. Systems such as Sentry call large models to generate failure diagnoses before retrieving advice, adding inference cost to…</description>
-    </item>
-    <item>
-      <title>[Paper] An Interpretable Stylometric Framework for Early Chinese Buddhist Translator Styles: A Case Study on the Attribution of Disputed Works of An Shigao</title>
-      <link>https://arxiv.org/abs/2611.13636</link>
-      <guid isPermaLink="false">arxiv:2611.13636</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Attributing early Chinese Buddhist translations requires evidence that scholars can trace back to the texts. We develop an interpretable stylometric framework that uses features defined or reviewed by Buddhist philologists, including…</description>
-    </item>
-    <item>
-      <title>[Paper] OpticalRAG: Pixel-Space Compression for Token-Efficient Retrieval-Augmented Generation</title>
-      <link>https://arxiv.org/abs/2611.13675</link>
-      <guid isPermaLink="false">arxiv:2611.13675</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Retrieval-augmented generation (RAG) is bottlenecked by the token budget of large language models: feeding long documents into the context window is expensive, while aggressive textual compression discards fine-grained information that is…</description>
-    </item>
-    <item>
-      <title>[Paper] You Are What You Read: Indian Political News Media Bias Dataset for Hindi Language</title>
-      <link>https://arxiv.org/abs/2611.13686</link>
-      <guid isPermaLink="false">arxiv:2611.13686</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Media bias understanding and detection remains an under-researched problem for Indian context, specifically for Indic languages, such as, Hindi, which is widely spoken in India. In this paper, we introduce a comprehensive,…</description>
-    </item>
-    <item>
-      <title>[Paper] Walrus Technical Report</title>
-      <link>https://arxiv.org/abs/2611.13689</link>
-      <guid isPermaLink="false">arxiv:2611.13689</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>We present Walrus, a unified 8B speech-and-audio foundation model handling speech recognition (including code-switching and multi-talker speech), speech-to-text and speech-to-speech translation, text-to-speech, emotion recognition, audio…</description>
-    </item>
-    <item>
-      <title>[Paper] Do Language Models Feel the Sentiment? Investigating Emotion Vectors</title>
-      <link>https://arxiv.org/abs/2611.13744</link>
-      <guid isPermaLink="false">arxiv:2611.13744</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Emotion vectors are directions in a language model's internal representations that are associated with emotional concepts. Prior work shows that these vectors can influence model behavior, but their role in sentiment classification…</description>
-    </item>
-    <item>
-      <title>[Paper] Word-Level Alignment of OCR and Ground Truth under Zoning and Reading-Order Errors</title>
-      <link>https://arxiv.org/abs/2611.13752</link>
-      <guid isPermaLink="false">arxiv:2611.13752</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>OCR post-processing needs OCR text aligned word by word with its ground truth. Data sets rarely provide that mapping, and a monotone aligner can lose its place when zoning errors permute the reading order. We revisit this problem, the…</description>
-    </item>
-    <item>
-      <title>[Paper] LLM Validation Makes Minimal-Pair Benchmarks Easier for Language Models</title>
-      <link>https://arxiv.org/abs/2611.13788</link>
-      <guid isPermaLink="false">arxiv:2611.13788</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Minimal-pair benchmarks are only as good as their labels, and LLMs are an obvious substitute for costly human validation. We test it on BLiMP (English) and QFrBLiMP (Quebec French), the two public minimal-pair datasets releasing every…</description>
-    </item>
-    <item>
-      <title>[Paper] Antalia-2 Mini: A 7.6-million-parameter Turkish text-to-speech model trained entirely on synthetic speech</title>
-      <link>https://arxiv.org/abs/2611.13811</link>
-      <guid isPermaLink="false">arxiv:2611.13811</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Antalia-2 Mini is a single-voice Turkish text-to-speech model with 7,620,931 parameters. It reads characters and produces 48 kHz audio at 41 times real time on an Apple M5 laptop CPU (2 threads). Its training audio came only from VoxCPM2…</description>
-    </item>
-    <item>
-      <title>[Paper] PolyRoute: A Twelve-Language and Code-Mixed Benchmark for Typed-Decision Routing, with Baselines and a Leaderboard</title>
-      <link>https://arxiv.org/abs/2611.13843</link>
-      <guid isPermaLink="false">arxiv:2611.13843</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Typed-decision encoders answer a question about a text in one forward pass, but their behaviour outside English is rarely measured on a fixed yardstick. We release PolyRoute: 322 native-language support messages in 12 languages and 9…</description>
-    </item>
-    <item>
-      <title>[Paper] Alania-2: Turkish text-to-speech with instant and fine-tuned voice cloning</title>
-      <link>https://arxiv.org/abs/2611.13845</link>
-      <guid isPermaLink="false">arxiv:2611.13845</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>We present Alania-2, a Turkish text-to-speech (TTS) system with two built-in voices, voice design from text descriptions, and two kinds of voice cloning. Alania-2 is a 488M-parameter model with the VoxCPM architecture, which generates…</description>
-    </item>
-    <item>
-      <title>[Paper] Beyond Passive Imitation: On-Policy Mid-Training Distillation for Language Models</title>
-      <link>https://arxiv.org/abs/2611.13855</link>
-      <guid isPermaLink="false">arxiv:2611.13855</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Continual pre-training (CPT) adapts large language models (LLMs) to specialized domains, yet its standard next-token prediction (NTP) objective treats every corpus token as a fixed target, regardless of its utility to the current model.…</description>
-    </item>
-    <item>
-      <title>[Paper] Are Causal Neuron Circuits Unique and Transferable?</title>
-      <link>https://arxiv.org/abs/2611.13885</link>
-      <guid isPermaLink="false">arxiv:2611.13885</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Interpretability demonstrations often show that intervening on a group of neurons changes a model's answer. A recent example removes an 18-neuron group in Qwen3-32B and the model answers "Simba" instead of "Scar" to a two-hop Lion King…</description>
-    </item>
-    <item>
-      <title>[Paper] Beyond Fluent Responses: Finding User Dissatisfaction in Human-AI Interactions</title>
-      <link>https://arxiv.org/abs/2611.13894</link>
-      <guid isPermaLink="false">arxiv:2611.13894</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>As large language models generate increasingly high-quality responses, recent work on response evaluation has moved beyond response-centered criteria, such as correctness and coherence, toward user-centered criteria, including user…</description>
-    </item>
-    <item>
-      <title>[Paper] AVCC: Audio-Visual Conversation Corpus for Turn-Taking Prediction with a Human Benchmark</title>
-      <link>https://arxiv.org/abs/2611.13957</link>
-      <guid isPermaLink="false">arxiv:2611.13957</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>} Predicting who will speak next, and when, is a prerequisite for conversational agents and social robots that take turns without waiting for silence. Multiparty next-speaker prediction (NSP) has been studied on corpora with per-speaker…</description>
-    </item>
-    <item>
-      <title>[Paper] Understanding Mixture-of-Experts Language Models Beyond Expert Boundaries</title>
-      <link>https://arxiv.org/abs/2611.13975</link>
-      <guid isPermaLink="false">arxiv:2611.13975</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>In Mixture-of-Experts (MoE) models, the nature of expert specialization remains controversial. Reports of domain-associated expert preferences contrast with analyses attributing routing primarily to token identity or syntactic patterns.…</description>
-    </item>
-    <item>
-      <title>[Paper] On the information rate of phones, syllables and words</title>
-      <link>https://arxiv.org/abs/2611.13990</link>
-      <guid isPermaLink="false">arxiv:2611.13990</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Which linguistic units minimise the bitrate required to encode speech content: phones, syllables, words, maybe larger units, or something in between? This question has implications for the development of speech and language systems and…</description>
-    </item>
-    <item>
-      <title>[Paper] Specify Privacy Yourself: Assessing Inference-Time Personalized Privacy Preservation Ability of Large Vision-Language Models</title>
-      <link>https://arxiv.org/abs/2611.13997</link>
-      <guid isPermaLink="false">arxiv:2611.13997</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large Vision-Language Models (LVLMs) have demonstrated remarkable capabilities but raise significant privacy concerns due to their abilities to infer sensitive personal information from images with high precision. While current LVLMs are…</description>
-    </item>
-    <item>
-      <title>[Paper] Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation</title>
-      <link>https://arxiv.org/abs/2611.14009</link>
-      <guid isPermaLink="false">arxiv:2611.14009</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Language-model agents increasingly tackle long-horizon tasks whose interaction histories exceed the model's active context. They must therefore decide what to write down and what to read back, and when to do either. Recent work has begun…</description>
-    </item>
-    <item>
-      <title>[Paper] One Sequence Is Enough: Fingerprinting Language Models from Fixed-Length Integer Sequences</title>
-      <link>https://arxiv.org/abs/2611.14010</link>
-      <guid isPermaLink="false">arxiv:2611.14010</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Users of model APIs and third-party platforms often rely on the declared model name to identify the model responding to their requests. However, the actual model may differ from the declared one, motivating identity verification based on…</description>
-    </item>
-    <item>
-      <title>[Paper] Program-Aided Patchable Skill Evolution</title>
-      <link>https://arxiv.org/abs/2611.14019</link>
-      <guid isPermaLink="false">arxiv:2611.14019</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Agent skills have emerged as an effective means of enabling LLM agents to solve complex, interactive tasks by encoding reusable knowledge without modifying model parameters. Recent approaches further improve skill adaptation by distilling…</description>
-    </item>
-    <item>
-      <title>[Paper] MISO-BR: An Open Corpus for Misogyny Detection in Brazilian Portuguese</title>
-      <link>https://arxiv.org/abs/2611.14036</link>
-      <guid isPermaLink="false">arxiv:2611.14036</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Misogyny is among the most prevalent forms of online hate speech directed at Brazilian users, yet open and auditable resources dedicated to it in Brazilian Portuguese remain scarce. We introduce MISO-BR, an open, documented and versioned…</description>
-    </item>
-    <item>
-      <title>[Paper] Thermodynamics of words</title>
-      <link>https://arxiv.org/abs/2611.14039</link>
-      <guid isPermaLink="false">arxiv:2611.14039</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>We introduce the word thermalization hypothesis according to which in a literary work there are effective interactions between words that drive them to thermalization where their word frequency distribution is the same as for the…</description>
-    </item>
-    <item>
-      <title>[Paper] HandsOnAid: Building and Evaluating an Offline First-Aid Assistant for Emergency Response Scenarios</title>
-      <link>https://arxiv.org/abs/2611.14059</link>
-      <guid isPermaLink="false">arxiv:2611.14059</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Emergencies can occur where there is no phone signal and no ambulance nearby. A small language model on a phone can be helpful in such situations, but its advice needs to be safe and accurate. We built HandsOnAid, a 4-bit Gemma 2B model…</description>
-    </item>
-    <item>
-      <title>[Paper] From Bias to Positionality: A critical grammar for Large Language Models</title>
-      <link>https://arxiv.org/abs/2611.14079</link>
-      <guid isPermaLink="false">arxiv:2611.14079</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Bias has become a default lens for understanding what machine learning systems do and how we should relate to them. Bias is at root a deviation from a standard; in decision making systems we can supply a standard from outside: a law, a…</description>
-    </item>
-    <item>
-      <title>[Paper] Sckwoky at SHROOM-Visions: Character-Level Hallucination-Span Detection in Image-Conditioned VLMs via Dual-Prompted LoRA Decoders</title>
-      <link>https://arxiv.org/abs/2611.14100</link>
-      <guid isPermaLink="false">arxiv:2611.14100</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>We present our system for the SHROOM-visions 2026 shared task on character-level hallucination span detection in image-conditioned vision-language model (VLM) responses, evaluated across English, French, Italian, and Chinese. The detector…</description>
-    </item>
-    <item>
-      <title>[Paper] Visual Similarity in Adult Word Extension and Artificial Word Learning</title>
-      <link>https://arxiv.org/abs/2611.14116</link>
-      <guid isPermaLink="false">arxiv:2611.14116</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>When two objects share a name, how much does their visual similarity explain, and what do the teaching examples add? First, we reanalyzed trial-level data from a large adult word-extension study (Lewis &amp; Frank, 2018), computing each test…</description>
-    </item>
-    <item>
-      <title>[Paper] Representational Atoms in Neural Networks</title>
-      <link>https://arxiv.org/abs/2611.14168</link>
-      <guid isPermaLink="false">arxiv:2611.14168</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Understanding the internal representations of neural networks and characterizing their relationship with human conceptual structure are two critical questions for elucidating model mechanisms. The former reveals how learned knowledge is…</description>
-    </item>
-    <item>
-      <title>[Paper] Breakdown of Autoregressive Multi-Step Reasoning Under Concentrated vs. Diffuse Attention Head Dropout</title>
-      <link>https://arxiv.org/abs/2611.14209</link>
-      <guid isPermaLink="false">arxiv:2611.14209</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>During extended wakefulness, mammalian neocortical networks experience localized periods of transient neuronal silence termed off-states. Here, we examine how analogous spatiotemporally concentrated disruptions affect sequential reasoning…</description>
-    </item>
-    <item>
-      <title>[Paper] Stagewise and interpretable emergence of inside-outside computation in Transformer-based language models</title>
-      <link>https://arxiv.org/abs/2611.14221</link>
-      <guid isPermaLink="false">arxiv:2611.14221</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Variability in syntactic structure and parsing ambiguity are fundamental aspects of natural language which modern LLMs have to learn to deal with proficiently. Previous "post-mortem" studies have shown that fully trained Transformers…</description>
-    </item>
-    <item>
-      <title>[Paper] StaRSE: Compact Russian Sentence Embeddings with a Sign-Coded Static Encoder</title>
-      <link>https://arxiv.org/abs/2611.14236</link>
-      <guid isPermaLink="false">arxiv:2611.14236</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Transformer sentence encoders provide strong retrieval quality, but their inference cost becomes a bottleneck when embeddings must be produced on CPUs or refreshed frequently. We introduce StaRSE, a compact Russian static sentence encoder…</description>
-    </item>
-    <item>
-      <title>[Paper] Dyship: Leveraging Acoustic Features For Speaker Relationship Classification From Dyadic Conversations</title>
-      <link>https://arxiv.org/abs/2611.14241</link>
-      <guid isPermaLink="false">arxiv:2611.14241</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>We introduce DyShip, a framework for classifying speaker familiarity and kinship from dyadic conversations in the Seamless Interaction corpus. We compare five speech representations: spectrograms, MFCCs, self-supervised WavLM…</description>
-    </item>
-    <item>
-      <title>[Paper] An AI Assistant for Automating Anti-Corruption Expertise of Draft Legislation Based on the TRACE Framework</title>
-      <link>https://arxiv.org/abs/2611.14244</link>
-      <guid isPermaLink="false">arxiv:2611.14244</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>We present an AI assistant for automating anti-corruption expertise of draft legislation based on the TRACE architecture, designed to screen bills for corruption risks: pinpoint provisions an expert would criticise and name the regulatory…</description>
-    </item>
-    <item>
-      <title>[Paper] Semantic Chains: From Reachable Facts to Justified Answers</title>
-      <link>https://arxiv.org/abs/2611.14252</link>
-      <guid isPermaLink="false">arxiv:2611.14252</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>How can the facts that justify an answer be found from a question and presented as a sequence of connected statements? This paper models a context as a graph of logical facts and takes as given which expressions represent each fact. A…</description>
-    </item>
-    <item>
-      <title>[Paper] MMDM: Measuring Massive Multitask Decision Making</title>
-      <link>https://arxiv.org/abs/2611.14309</link>
-      <guid isPermaLink="false">arxiv:2611.14309</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent…</description>
-    </item>
-    <item>
-      <title>[Paper] Point-in-Time Encoders for Earnings Calls</title>
-      <link>https://arxiv.org/abs/2611.14325</link>
-      <guid isPermaLink="false">arxiv:2611.14325</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Text encoders turn earnings calls into vectors for search, for language models that answer from retrieved passages, and for forecasting models. A live retriever can use an encoder trained once on all available text, as finance retrievers…</description>
+      <title>[Corpus] Data and code for: Inconsistent and divergent large language model safety guidance during intraoperative crises: a guideline-anchored benchmark</title>
+      <link>https://zenodo.org/records/24209920</link>
+      <guid isPermaLink="false">zenodo:24209708</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>De-identified sentinel-level scores and analysis code that reproduce the tables, supplementary tables and figures of the manuscript "Inconsistent and divergent large language model safety guidance during intraoperative crises: a…</description>
+    </item>
+    <item>
+      <title>[Paper] Active identification of safe Petri nets with interleaving and maximal step semantics</title>
+      <link>https://hal.science/hal-05863177v1</link>
+      <guid isPermaLink="false">hal:hal-05863177</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>hal</category>
+      <description>The aim of this article is to synthesize Petri nets modelling the behaviour of synchronous or asynchronous systems. We then propose an active learning method for safe Petri nets, considering both interleaving semantics and maximal step…</description>
+    </item>
+    <item>
+      <title>[Paper] When Can You Prune Your Network? A Study of Intermediate Neurons in Multilingual Speech Parsing</title>
+      <link>https://hal.science/hal-05862778v1</link>
+      <guid isPermaLink="false">hal:hal-05862778</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>hal</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Corpus] HYUKI5/tasksource__oasst1_pairwise_rlhf_reward</title>
+      <link>https://huggingface.co/datasets/HYUKI5/tasksource__oasst1_pairwise_rlhf_reward</link>
+      <guid isPermaLink="false">hf:datasets:HYUKI5/tasksource__oasst1_pairwise_rlhf_reward</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>tasksource/oasst1_pairwise_rlhf_reward（複製） データの内容 OASST1（OpenAssistant の会話データ）から報酬モデル学習用の比較の組を作ったデータ。1 行は同じ親の返答どうしの比較で、prompt に親までの会話を role: text の行で連ねたもの、chosen と rejected に返答が入り、lang で言語を持つ。rank の値が小さい返答を chosen、大きい返答を rejected…</description>
+    </item>
+    <item>
+      <title>[Corpus] HYUKI5/juletxara__xstory_cloze</title>
+      <link>https://huggingface.co/datasets/HYUKI5/juletxara__xstory_cloze</link>
+      <guid isPermaLink="false">hf:datasets:HYUKI5/juletxara__xstory_cloze</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>juletxara/xstory_cloze（複製） データの内容 英語の StoryCloze を 10 の言語にプロの翻訳者が訳した、物語の結末を選ぶ常識推論のデータ。1 行が 1 話で、input_sentence_1 から input_sentence_4 に 4 文の物語、sentence_quiz1 と sentence_quiz2 に結末の候補、answer_right_ending に正しい方の番号（1 か 2）が入る。言語ごとに train 用 360…</description>
+    </item>
+    <item>
+      <title>[Corpus] razhan/kurdish-news-corpus</title>
+      <link>https://huggingface.co/datasets/razhan/kurdish-news-corpus</link>
+      <guid isPermaLink="false">hf:datasets:razhan/kurdish-news-corpus</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Kurdish News Corpus 3.42M news articles crawled daily from 259 Kurdish and Kurdish-regional news websites between 2026-02-10 and 2026-11-13, built for Kurdish NLP work (language modeling, dialect classification, low-resource text mining).…</description>
+    </item>
+    <item>
+      <title>[Corpus] MuntasirElagami/sudanese-arabic-speech</title>
+      <link>https://huggingface.co/datasets/MuntasirElagami/sudanese-arabic-speech</link>
+      <guid isPermaLink="false">hf:datasets:MuntasirElagami/sudanese-arabic-speech</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>sudanese-arabic-speech: Sudanese Arabic speech cut for text-to-speech apd is the ISO 639-3 code for Sudanese Arabic; the source corpus files it under apd_Arab. 3,807 clips (8.81 h) of spontaneous Sudanese Arabic from 12 speakers, cut into…</description>
+    </item>
+    <item>
+      <title>[Model] atraq/OmniVoice</title>
+      <link>https://huggingface.co/atraq/OmniVoice</link>
+      <guid isPermaLink="false">hf:models:atraq/OmniVoice</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] olaverse/MIST-QG-1.0</title>
+      <link>https://huggingface.co/olaverse/MIST-QG-1.0</link>
+      <guid isPermaLink="false">hf:models:olaverse/MIST-QG-1.0</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] prithivMLmods/drama-3-TTS-GGUF</title>
+      <link>https://huggingface.co/prithivMLmods/drama-3-TTS-GGUF</link>
+      <guid isPermaLink="false">hf:models:prithivMLmods/drama-3-TTS-GGUF</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] xix3r/voxix-whisper-large-v3-gguf</title>
+      <link>https://huggingface.co/xix3r/voxix-whisper-large-v3-gguf</link>
+      <guid isPermaLink="false">hf:models:xix3r/voxix-whisper-large-v3-gguf</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] xix3r/voxix-whisper-large-v2-gguf</title>
+      <link>https://huggingface.co/xix3r/voxix-whisper-large-v2-gguf</link>
+      <guid isPermaLink="false">hf:models:xix3r/voxix-whisper-large-v2-gguf</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] xix3r/voxix-whisper-large-gguf</title>
+      <link>https://huggingface.co/xix3r/voxix-whisper-large-gguf</link>
+      <guid isPermaLink="false">hf:models:xix3r/voxix-whisper-large-gguf</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] xix3r/voxix-whisper-large-v3-turbo-gguf</title>
+      <link>https://huggingface.co/xix3r/voxix-whisper-large-v3-turbo-gguf</link>
+      <guid isPermaLink="false">hf:models:xix3r/voxix-whisper-large-v3-turbo-gguf</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] xix3r/voxix-whisper-small-gguf</title>
+      <link>https://huggingface.co/xix3r/voxix-whisper-small-gguf</link>
+      <guid isPermaLink="false">hf:models:xix3r/voxix-whisper-small-gguf</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] xix3r/voxix-whisper-base-gguf</title>
+      <link>https://huggingface.co/xix3r/voxix-whisper-base-gguf</link>
+      <guid isPermaLink="false">hf:models:xix3r/voxix-whisper-base-gguf</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] xix3r/voxix-whisper-tiny-gguf</title>
+      <link>https://huggingface.co/xix3r/voxix-whisper-tiny-gguf</link>
+      <guid isPermaLink="false">hf:models:xix3r/voxix-whisper-tiny-gguf</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] xix3r/voxix-whisper-medium-gguf</title>
+      <link>https://huggingface.co/xix3r/voxix-whisper-medium-gguf</link>
+      <guid isPermaLink="false">hf:models:xix3r/voxix-whisper-medium-gguf</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] jgalego/smollm2-135m-instruct-shem</title>
+      <link>https://huggingface.co/jgalego/smollm2-135m-instruct-shem</link>
+      <guid isPermaLink="false">hf:models:jgalego/smollm2-135m-instruct-shem</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Aavola/parakeet-tdt-0.6b-v3-onnx-fp16</title>
+      <link>https://huggingface.co/Aavola/parakeet-tdt-0.6b-v3-onnx-fp16</link>
+      <guid isPermaLink="false">hf:models:Aavola/parakeet-tdt-0.6b-v3-onnx-fp16</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] FluidVoice-Labs/fluid-speech-pro-gguf</title>
+      <link>https://huggingface.co/FluidVoice-Labs/fluid-speech-pro-gguf</link>
+      <guid isPermaLink="false">hf:models:FluidVoice-Labs/fluid-speech-pro-gguf</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] FluidVoice-Labs/fluid-speech-pro-mlx</title>
+      <link>https://huggingface.co/FluidVoice-Labs/fluid-speech-pro-mlx</link>
+      <guid isPermaLink="false">hf:models:FluidVoice-Labs/fluid-speech-pro-mlx</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] FluidVoice-Labs/fluid-speech-pro-onnx</title>
+      <link>https://huggingface.co/FluidVoice-Labs/fluid-speech-pro-onnx</link>
+      <guid isPermaLink="false">hf:models:FluidVoice-Labs/fluid-speech-pro-onnx</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] FluidVoice-Labs/fluid-speech-pro-coreml</title>
+      <link>https://huggingface.co/FluidVoice-Labs/fluid-speech-pro-coreml</link>
+      <guid isPermaLink="false">hf:models:FluidVoice-Labs/fluid-speech-pro-coreml</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] xix3r/voxix-parakeet-tdt-0.6b-v3-gguf</title>
+      <link>https://huggingface.co/xix3r/voxix-parakeet-tdt-0.6b-v3-gguf</link>
+      <guid isPermaLink="false">hf:models:xix3r/voxix-parakeet-tdt-0.6b-v3-gguf</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] xix3r/voxix-canary-1b-v2-gguf</title>
+      <link>https://huggingface.co/xix3r/voxix-canary-1b-v2-gguf</link>
+      <guid isPermaLink="false">hf:models:xix3r/voxix-canary-1b-v2-gguf</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] xix3r/voxix-Fun-ASR-MLT-Nano-2512-gguf</title>
+      <link>https://huggingface.co/xix3r/voxix-Fun-ASR-MLT-Nano-2512-gguf</link>
+      <guid isPermaLink="false">hf:models:xix3r/voxix-Fun-ASR-MLT-Nano-2512-gguf</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] JihaneJra/darija-lid-fasttext</title>
+      <link>https://huggingface.co/JihaneJra/darija-lid-fasttext</link>
+      <guid isPermaLink="false">hf:models:JihaneJra/darija-lid-fasttext</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] MuntasirElagami/sudanese-chatterbox</title>
+      <link>https://huggingface.co/MuntasirElagami/sudanese-chatterbox</link>
+      <guid isPermaLink="false">hf:models:MuntasirElagami/sudanese-chatterbox</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Corpus] ropedia-ai/Ropedia-Xperience-2</title>
+      <link>https://huggingface.co/datasets/ropedia-ai/Ropedia-Xperience-2</link>
+      <guid isPermaLink="false">hf:datasets:ropedia-ai/Ropedia-Xperience-2</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description>Ropedia Xperience 2 A Gold Standard for Scaling Physical AI Environments and Behaviors. 1,500+ scanned scenes and 4,000+ egocentric recordings, registered in one metric frame. 📄 Paper (arXiv:2611.17060) · 🤗 Paper page · 🌐 Project page…</description>
+    </item>
+    <item>
+      <title>[Tool] Nour-Ghribi/DerjaSpeechLab-Tunisian-Arabic-ASR-Speech-Translation</title>
+      <link>https://github.com/Nour-Ghribi/DerjaSpeechLab-Tunisian-Arabic-ASR-Speech-Translation</link>
+      <guid isPermaLink="false">gh:nour-ghribi/derjaspeechlab-tunisian-arabic-asr-speech-translation</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Research-oriented NLP project for Tunisian Arabic speech recognition, multilingual speech translation, code-switching analysis and LLM-assisted text processing using Whisper, NLLB and LoRA.</description>
+    </item>
+    <item>
+      <title>[Corpus] Researchers' View of Using LLMs in Systematic Literature Reviews - Replication Package</title>
+      <link>https://zenodo.org/records/24199838</link>
+      <guid isPermaLink="false">zenodo:21628174</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Corpus] Connecting the Dots Variables of Literary History and Emotions in German-language Poetry - Code and Data</title>
+      <link>https://zenodo.org/records/24198663</link>
+      <guid isPermaLink="false">zenodo:10148449</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Usage Experiments can be replicated by running run.py. Please take a look at run.py, since there are some choices to be made within the code. Since pymc4 and gpu usage is under heavy development at the time, we advise to stick to the…</description>
+    </item>
+    <item>
+      <title>[Corpus] Framing National Development through Metaphor: A Cognitive-Linguistic Analysis of Presidential Speeches in Uzbekistan</title>
+      <link>https://zenodo.org/records/24195562</link>
+      <guid isPermaLink="false">zenodo:24195561</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>National development is communicated not only as policy but also through metaphors of movement, construction and shared social life. This article examines six presidential speeches by Shavkat Mirziyoyev (2021–2025), using their Uzbek…</description>
+    </item>
+    <item>
+      <title>[Corpus] Replication data and code for "Policy Without Evidence: A Three-Level Measure of Artificial Intelligence Governance Disclosure by Malaysian Boards"</title>
+      <link>https://zenodo.org/records/24190607</link>
+      <guid isPermaLink="false">zenodo:24190606</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Coded dataset, document manifest and analysis code behind every figure, table and statistical test reported in the paper. Thirty-six Malaysian listed organizations in three strata of regulatory attention are coded on four governance…</description>
+    </item>
+    <item>
+      <title>[Corpus] Data and code for "Language-Model Answers and Verification Rules in Military Higher Education: A Pilot Audit and Policy Analysis from Ukraine"</title>
+      <link>https://zenodo.org/records/24189514</link>
+      <guid isPermaLink="false">zenodo:24189512</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Data and code for the article "Language-Model Answers and Verification Rules in Military Higher Education: A Pilot Audit and Policy Analysis from Ukraine". The record holds the materials of a pilot study with two parts: an audit of 480…</description>
+    </item>
+    <item>
+      <title>[Corpus] Data, protocol, screening tables and code for: The nerve injury response across rodent models of traumatic, chemotherapy-induced and diabetic neuropathy: A meta-analysis of dorsal root ganglion and nerve transcriptomes</title>
+      <link>https://zenodo.org/records/24186862</link>
+      <guid isPermaLink="false">zenodo:23317369</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Record of the article “The nerve injury response across rodent models of traumatic, chemotherapy-induced and diabetic neuropathy: A meta-analysis of dorsal root ganglion and nerve transcriptomes” (Jin Q, Kou L, Gao Z, et al.). Data…</description>
+    </item>
+    <item>
+      <title>[Corpus] Know Thy Neighbour Dataset</title>
+      <link>https://zenodo.org/records/24181855</link>
+      <guid isPermaLink="false">zenodo:24181854</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Data and embeddings to reproduce Know Thy Neighbour: Benchmarking Protein Language Model Embedding-Based Annotation Reveals Anisotropy Substantially Impacts Retrieval (George Bouras and Robert A. Edwards, NeurIPS 2026 Workshop: I Can't…</description>
+    </item>
+    <item>
+      <title>[Corpus] Trait-Specific Limits on Prompt-Based Personality Control in a Small Open-Weight Language Model: Data and Analysis Code</title>
+      <link>https://zenodo.org/records/24178934</link>
+      <guid isPermaLink="false">zenodo:24178933</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>This deposit contains the trial-level data and the analysis code for a study of whether prompt-based personality assignment works equally well across the five Big Five traits in a small open-weight language model. Llama 3.2 3B completed…</description>
+    </item>
+    <item>
+      <title>[Corpus] AptaLM: synthetic and natural RNA cohorts, aptamer references, and model checkpoints</title>
+      <link>https://zenodo.org/records/24182420</link>
+      <guid isPermaLink="false">zenodo:24182419</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Data and trained checkpoints for the AptaLM manuscript on inverse-folding distillation for foldable RNA (Bhat, Ul-Kabir, Islam, Caulfield; Digital Ether Computing LLC). Sequences are 10–80 nt over A, C, G, U. Restricted : the metadata is…</description>
+    </item>
+    <item>
+      <title>[Tool] Gemma 4 12B IT</title>
+      <link>https://zenodo.org/records/24208866</link>
+      <guid isPermaLink="false">zenodo:24208865</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Preservation mirror. This Zenodo record is a long-term preservation mirror of the official Hugging Face repository google/gemma-4-12B-it published by Google, mirrored byte-for-byte at the pinned revision…</description>
+    </item>
+    <item>
+      <title>[Tool] Evaluating an open image-to-CAD model on photographed hand sketches of construction equipment parts</title>
+      <link>https://zenodo.org/records/24208953</link>
+      <guid isPermaLink="false">zenodo:22670847</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Pen2STEP-Bench contains 27 hand-drawn three-view sheets with verified ground-truth CadQuery models and STEP solids: 19 development sheets drawn by the authors and 8 spare parts of a concrete placing boom drawn by a practising engineer…</description>
+    </item>
+    <item>
+      <title>[Tool] Phi-4-reasoning-plus</title>
+      <link>https://zenodo.org/records/24207974</link>
+      <guid isPermaLink="false">zenodo:24207973</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Preservation mirror. This Zenodo record is a long-term preservation mirror of the official Hugging Face repository microsoft/Phi-4-reasoning-plus published by Microsoft, mirrored byte-for-byte at the pinned revision…</description>
+    </item>
+    <item>
+      <title>[Tool] NaviMed-UMB: hardware envelope studies for local AI deployment on consumer RDNA 4 GPUs</title>
+      <link>https://zenodo.org/records/24206670</link>
+      <guid isPermaLink="false">zenodo:19851346</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>NaviMed-UMB is an engineering log and a reproducible benchmark suite. It measures how modern open-weight large language models run on a consumer workstation with two AMD Radeon AI PRO R9700 32 GB cards (gfx1201, RDNA 4, Navi 48), under…</description>
+    </item>
+    <item>
+      <title>[Tool] Phi-4-mini-reasoning</title>
+      <link>https://zenodo.org/records/24200618</link>
+      <guid isPermaLink="false">zenodo:24200617</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Preservation mirror. This Zenodo record is a long-term preservation mirror of the official Hugging Face repository microsoft/Phi-4-mini-reasoning published by Microsoft, mirrored byte-for-byte at the pinned revision…</description>
+    </item>
+    <item>
+      <title>[Tool] xueyongshef/LLM-HBC: LLM-HBC v0.1.0: Initial research release</title>
+      <link>https://zenodo.org/records/24202065</link>
+      <guid isPermaLink="false">zenodo:24202064</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>LLM-HBC is a large language model (LLM)-assisted workflow for extracting and organising hydrogen barrier coating data from scientific literature. It focuses on coating composition, fabrication methods, substrate materials, microstructure,…</description>
+    </item>
+    <item>
+      <title>[Tool] EmpiRE-Compass</title>
+      <link>https://zenodo.org/records/24196520</link>
+      <guid isPermaLink="false">zenodo:18170202</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>EmpiRE-Compass is a neuro-symbolic dashboard that facilitates the exploration, synthesis, and reuse of empirical research knowledge in Requirements Engineering (RE). It integrates two complementary layers: A symbolic layer based on the…</description>
+    </item>
+    <item>
+      <title>[Tool] Korean AI collaborative writing analysis: Code and pseudonymized analytical data</title>
+      <link>https://zenodo.org/records/24191921</link>
+      <guid isPermaLink="false">zenodo:24191920</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>관련 논문 / Associated publication 이 기록은 관련 논문의 분석을 재현하기 위한 분석 코드와 가명 처리 분석 자료이다. 논문은 학술지 게재가 확정되었으며 현재 출판을 앞두고 있다. 출판 후 이 기록에 논문의 서지 정보와 DOI를 추가할 예정이다. This record provides the analysis code and pseudonymized analytical data for reproducing…</description>
+    </item>
+    <item>
+      <title>[Tool] gherardovarando/criba-ref: criba-ref 0.1.0</title>
+      <link>https://zenodo.org/records/24190599</link>
+      <guid isPermaLink="false">zenodo:24190598</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>First release. Screen references (titles and abstracts) with a language model, using questions, labels and tags from criba-ref.toml. One JSON file per reference; runs resume. Inputs: CSV/TSV, BibTeX, RIS, JSON, JSONL. Back-ends: Ollama…</description>
+    </item>
+    <item>
+      <title>[Tool] The standalone package of EiRA</title>
+      <link>https://zenodo.org/records/24184230</link>
+      <guid isPermaLink="false">zenodo:24184229</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>The standalone running package of EiRA (Biomolecule-binding motif scaffolding with a specialized multimodal protein language model). It includes the code for training and inference, as well as the pre-trained dataset samples.</description>
+    </item>
+    <item>
+      <title>[Tool] Self-aware artificial intelligence (Yahiq) Persian version</title>
+      <link>https://zenodo.org/records/24181200</link>
+      <guid isPermaLink="false">zenodo:24181199</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Self-aware artificial intelligence (Yahiq) Persian version هوش مصنوعی خودآگاه (SAI) یحیق Software Description and Versioning Policy This record presents the Persian edition of the YAHIQ algorithm (YAHIQ 20/26), a semantic-algebraic engine…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior AI Engineer - Agentic AI &amp; Data Intelligence</title>
+      <link>https://nlppeople.com/jobs/senior-ai-engineer-agentic-ai-data-intelligence-houston</link>
+      <guid isPermaLink="false">nlppeople:senior-ai-engineer-agentic-ai-data-intelligence-houston</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads the strategy, development, evaluation, and delivery of Agentic AI, Generative AI, and Enterprise Data Intelligence products. Defines product roadmaps, evaluates AI solutions, and translates capabilities into secure,…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer II</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-ii-bengaluru</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-ii-bengaluru</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds and implements GenAI and Agentic AI solutions for enterprise CRM platforms, integrating LLMs, data pipelines, and cloud services. Ensures AI applications are reliable, secure, and aligned with responsible AI governance.…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Software Engineer, Geo, Computer Vision</title>
+      <link>https://nlppeople.com/jobs/software-engineer-geo-computer-vision-mountain-view</link>
+      <guid isPermaLink="false">nlppeople:software-engineer-geo-computer-vision-mountain-view</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Develops software for Google's Geo products, including maps and image processing, and contributes to design reviews, code reviews, and issue resolution. info_outline XIn most instances, this position requires in-person interviews…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Research Scientist, AI Safety and Alignment, DeepMind</title>
+      <link>https://nlppeople.com/jobs/research-scientist-ai-safety-and-alignment-deepmind-seattle</link>
+      <guid isPermaLink="false">nlppeople:research-scientist-ai-safety-and-alignment-deepmind-seattle</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Conducts AI safety and alignment research by defining research problems, building evaluation metrics, and authoring papers. Works on large-scale tests and prototypes of safety measures for frontier models. info_outline XIn…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Research Scientist/Engineer, GenMedia Safety Post-Training TLM, DeepMind</title>
+      <link>https://nlppeople.com/jobs/research-scientist-engineer-genmedia-safety-post-training-tlm-deepmind-mountain-view</link>
+      <guid isPermaLink="false">nlppeople:research-scientist-engineer-genmedia-safety-post-training-tlm-deepmind-mountain-view</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads research on AI safety and post-training for multimodal foundation models, defining architecture and training methods. Also manages a team of researchers and engineers. info_outline XNote: By applying to this position you…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Agentic AI Engineer</title>
+      <link>https://nlppeople.com/jobs/agentic-ai-engineer-warsaw</link>
+      <guid isPermaLink="false">nlppeople:agentic-ai-engineer-warsaw</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Acts as a trusted technical advisor designing and implementing multi-step Agentic AI workflows and production GenAI and document processing solutions for clients. Everything is possible with the right people In4ge jest firmą…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI/ML Research Consultant</title>
+      <link>https://nlppeople.com/jobs/ai-ml-research-consultant-cambridge</link>
+      <guid isPermaLink="false">nlppeople:ai-ml-research-consultant-cambridge</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, trains and deploys machine learning systems for defence and security projects, from proofs-of-concept through to working prototypes. Researches model architectures and the ML pipeline while partnering with clients to…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Lead / Senior ML Engineer</title>
+      <link>https://nlppeople.com/jobs/lead-senior-ml-engineer-lisbon</link>
+      <guid isPermaLink="false">nlppeople:lead-senior-ml-engineer-lisbon</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs and improves machine learning and search algorithms for a cross-border marketplace, covering search relevance and order-related AI support. Joom is a global cross-border marketplace where millions can find anything they…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Staff Research Scientist - Foundation &amp; World Models</title>
+      <link>https://nlppeople.com/jobs/staff-research-scientist-foundation-world-models-paris</link>
+      <guid isPermaLink="false">nlppeople:staff-research-scientist-foundation-world-models-paris</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Drives fundamental research in foundation models and multimodality as a hands-on individual contributor, advancing large-scale pre-training and multimodal learning over distributed system telemetry. As a Staff Research Scientist…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Staff Research Scientist - Post-Training for Observability Native Models</title>
+      <link>https://nlppeople.com/jobs/staff-research-scientist-post-training-for-observability-native-models-paris</link>
+      <guid isPermaLink="false">nlppeople:staff-research-scientist-post-training-for-observability-native-models-paris</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Conducts hands-on fundamental research on post-training, simulated environments, synthetic data, and evaluation methods for multimodal observability-native decision models. Sets technical direction for research programs and…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Experienced AI Professional</title>
+      <link>https://nlppeople.com/jobs/experienced-ai-professional-patras</link>
+      <guid isPermaLink="false">nlppeople:experienced-ai-professional-patras</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, develops, and deploys AI and GenAI solutions for clients, including multi-agent systems and RAG-based applications. Works within multidisciplinary teams to turn data into actionable insights. At EY, we’re all in to shape…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-warsaw-3</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-warsaw-3</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Identifies automation opportunities across business processes and delivers end-to-end AI and software solutions, from concept design through production deployment. Everything is possible with the right people In4ge jest firmą…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior AI Quality &amp; Evaluation Engineer</title>
+      <link>https://nlppeople.com/jobs/senior-ai-quality-evaluation-engineer-usa</link>
+      <guid isPermaLink="false">nlppeople:senior-ai-quality-evaluation-engineer-usa</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds and runs the golden question suite, negative entitlement tests, and drift alarms that act as acceptance gates for AI systems. Reports evaluation misses and trains client stewards and platform owners to interpret…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer (w/m/d)</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-w-m-d-starnberg</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-w-m-d-starnberg</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Develops, implements and operates scalable AI agents and platform components such as APIs and data integrations. Works with data engineers and analysts to build reliable data foundations for agent-based solutions. für den…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-prague</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-prague</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs and owns the group's AI development harness and builds AI-native software delivery, mainly by orchestrating coding agents. Also supports non-engineering teams in shipping apps with AI under governance policies. FTMO is…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Agentic AI Engineer (d/m/f)</title>
+      <link>https://nlppeople.com/jobs/agentic-ai-engineer-d-m-f-carnaxide</link>
+      <guid isPermaLink="false">nlppeople:agentic-ai-engineer-d-m-f-carnaxide</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, builds, and deploys AI-powered applications, copilots, and intelligent agents using generative AI and enterprise integrations. Creates scalable, secure AI solutions and trains other departments on Microsoft Copilot…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior Research Scientist – Efficient Multimodal Video Generation</title>
+      <link>https://nlppeople.com/jobs/senior-research-scientist-efficient-multimodal-video-generation-zurich</link>
+      <guid isPermaLink="false">nlppeople:senior-research-scientist-efficient-multimodal-video-generation-zurich</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads research on making large multimodal and video generation models faster and more efficient, shaping research directions and mentoring researchers. Also implements, trains and optimizes models hands-on. About Us Huawei is a…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior Manager, ML Engineering</title>
+      <link>https://nlppeople.com/jobs/senior-manager-ml-engineering-au-hq-nsw</link>
+      <guid isPermaLink="false">nlppeople:senior-manager-ml-engineering-au-hq-nsw</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads the design and delivery of production machine learning systems that power clinical and product features. Sets engineering standards and mentors the ML engineering team. We're the world's leading consumer healthcare…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Lead AI/ML Engineer</title>
+      <link>https://nlppeople.com/jobs/lead-ai-ml-engineer-bengaluru-2</link>
+      <guid isPermaLink="false">nlppeople:lead-ai-ml-engineer-bengaluru-2</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, develops, and operates cloud-hosted AI applications and agentic platforms built on large language models and retrieval-augmented generation. Provides technical leadership and guides architecture and evaluation decisions…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Engineer - AI - Madrid</title>
+      <link>https://nlppeople.com/jobs/engineer-ai-madrid-madrid</link>
+      <guid isPermaLink="false">nlppeople:engineer-ai-madrid-madrid</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, develops, and deploys Generative AI solutions that integrate enterprise data into production-ready applications. Builds reliable AI components, data integrations, and conversational workflows for scalable business use…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Machine Learning Engineer</title>
+      <link>https://nlppeople.com/jobs/machine-learning-engineer-chennai</link>
+      <guid isPermaLink="false">nlppeople:machine-learning-engineer-chennai</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds and productionizes machine learning models across the full lifecycle, from data collection to deployment and monitoring. Works with cross-functional teams to make ML services reliable and scalable. About Poshmark Poshmark…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Research Scientist – Efficient Multimodal Video Generation</title>
+      <link>https://nlppeople.com/jobs/research-scientist-efficient-multimodal-video-generation-zurich</link>
+      <guid isPermaLink="false">nlppeople:research-scientist-efficient-multimodal-video-generation-zurich</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs and implements large multimodal and video generation models to make them faster and more efficient. Runs experiments at scale, builds working systems, and publishes research. About Us Huawei is a global leader in…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AIプロダクトエンジニア・People Empowerment AI</title>
+      <link>https://nlppeople.com/jobs/aihurotakutoensiniapeople-empowerment-ai-chuo</link>
+      <guid isPermaLink="false">nlppeople:aihurotakutoensiniapeople-empowerment-ai-chuo</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, implements, and tests AI-powered products that use people's experience and knowledge, working with users and UX researchers to improve usability and quality. ウーブン・バイ・トヨタについて…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-athens</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-athens</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds agentic AI applications and LLM-assisted data processing pipelines, integrating AI agents with enterprise systems and deploying them to production. The Opportunity Interamerican, a member of the Achmea Group and certified…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Applied Ai Engineer</title>
+      <link>https://nlppeople.com/jobs/applied-ai-engineer-manchester</link>
+      <guid isPermaLink="false">nlppeople:applied-ai-engineer-manchester</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, builds and deploys AI-enabled agentic workflows and LLM solutions on Microsoft Azure for infrastructure and urban development projects. Supports bids and proposals by shaping AI solutions for client requirements. Company…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Product Engineer, People Empowerment AI</title>
+      <link>https://nlppeople.com/jobs/ai-product-engineer-people-empowerment-ai-tokyo</link>
+      <guid isPermaLink="false">nlppeople:ai-product-engineer-people-empowerment-ai-tokyo</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Develops and validates AI-enabled products that draw on people's experiences and knowledge to support learning, decision-making, and invention. Works with users and specialists from design through release and ongoing improvement.…</description>
+    </item>
+    <item>
+      <title>[Opportunity] ML Engineer / Chimico computazionale (Hybrid - NO REMOTE)</title>
+      <link>https://nlppeople.com/jobs/ml-engineer-chimico-computazionale-hybrid-no-remote-cagliari</link>
+      <guid isPermaLink="false">nlppeople:ml-engineer-chimico-computazionale-hybrid-no-remote-cagliari</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Develops deep learning models for NMR spectroscopy and related scientific data, covering problem definition, dataset design, training, validation and production deployment. Chi siamo Siamo una giovane azienda specializzata in…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Lead Product AI Engineer</title>
+      <link>https://nlppeople.com/jobs/lead-product-ai-engineer-haryana-india</link>
+      <guid isPermaLink="false">nlppeople:lead-product-ai-engineer-haryana-india</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs and delivers enterprise data, analytics, and AI solutions, owning them end to end from architecture through production support. Works with business and technology teams to turn problems into secure, scalable solutions.…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Lead Product AI Engineer</title>
+      <link>https://nlppeople.com/jobs/lead-product-ai-engineer-noida</link>
+      <guid isPermaLink="false">nlppeople:lead-product-ai-engineer-noida</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs and delivers enterprise People Data, analytics, and AI solutions, owning them end to end from architecture through production support. Works with business and technology teams to turn problems into secure, scalable…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Sr. AI Perception Engineer</title>
+      <link>https://nlppeople.com/jobs/sr-ai-perception-engineer-fremont</link>
+      <guid isPermaLink="false">nlppeople:sr-ai-perception-engineer-fremont</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds and owns AI perception capabilities for warehouse automation robots, covering object localization, pose estimation, and scene reconstruction on robot hardware. Works end to end from prototyping through deployment,…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Principal AI Engineer</title>
+      <link>https://nlppeople.com/jobs/principal-ai-engineer-bengaluru-3</link>
+      <guid isPermaLink="false">nlppeople:principal-ai-engineer-bengaluru-3</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs and delivers customer-facing AI proof of concepts on SAP BTP, building machine learning models, agentic AI architectures, and front-end applications for enterprise customers. Company Description At SAP, you'll belong to a…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Specialist, Finance</title>
+      <link>https://nlppeople.com/jobs/ai-specialist-finance-jersey-city</link>
+      <guid isPermaLink="false">nlppeople:ai-specialist-finance-jersey-city</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Design, build, and run AI agents and automations for the finance organization to replace manual spreadsheet work with reliable workflows. Partner with Accounting, FP&amp;A, and IT to map processes, deploy solutions on NetSuite, and…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Staff Software ML Engineer, Search Discover Feed Recommendation</title>
+      <link>https://nlppeople.com/jobs/staff-software-ml-engineer-search-discover-feed-recommendation-mountain-view</link>
+      <guid isPermaLink="false">nlppeople:staff-software-ml-engineer-search-discover-feed-recommendation-mountain-view</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads quality control, context engineering, and evaluation frameworks for AI-generated content on Google Search surfaces. Resolves system-level bottlenecks in serving AIGC content for low-latency global surfaces. info_outline XIn…</description>
+    </item>
+    <item>
+      <title>[Opportunity] 機械学習エンジニア｜AIエージェント・基盤モデル開発</title>
+      <link>https://nlppeople.com/jobs/ji-jie-xue-xi-ensinia-aiesientoji-pan-moterukai-fa-chuo</link>
+      <guid isPermaLink="false">nlppeople:ji-jie-xue-xi-ensinia-aiesientoji-pan-moterukai-fa-chuo</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs and develops AI agent, foundation model, and RAG-based systems for YURIA and customer-facing AI solutions. Also performs model evaluation, inference optimization, and deep learning work. 仕事概要 会社概要 I.Y.P…</description>
+    </item>
+    <item>
+      <title>[Opportunity] SSE- AgentOps</title>
+      <link>https://nlppeople.com/jobs/sse-agentops-gautam-buddha-nagar-up-india</link>
+      <guid isPermaLink="false">nlppeople:sse-agentops-gautam-buddha-nagar-up-india</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Owns the runtime, infrastructure, and operational monitoring for an AI agent testing platform. Deploys and instruments agents, sets up observability on live traffic, and manages the cloud infrastructure the platform runs on.…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior AI &amp; MLOps Engineer</title>
+      <link>https://nlppeople.com/jobs/senior-ai-mlops-engineer-us</link>
+      <guid isPermaLink="false">nlppeople:senior-ai-mlops-engineer-us</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Deploys and manages Agentic AI and Generative AI solutions across enterprise cloud environments, building MLOps and LLMOps practices to move AI products from proof of concept to production. This position is listed on behalf of a…</description>
     </item>
   </channel>
 </rss>

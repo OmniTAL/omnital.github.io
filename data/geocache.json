@@ -118,6 +118,11 @@
   "lng": -77.0893,
   "label": "Arlington County"
  },
+ "armenia": {
+  "lat": 4.492,
+  "lng": -75.7414,
+  "label": "Armenia"
+ },
  "around the globe": {
   "lat": 34.0508,
   "lng": -118.2532,
@@ -408,6 +413,11 @@
   "label": "전남대학교"
  },
  "clavis consulting, llc, kansas": null,
+ "clemson university": {
+  "lat": 34.6687,
+  "lng": -82.8374,
+  "label": "Clemson University"
+ },
  "climate service center germany (gerics), helmholtz-zentrum hereon, fischertwiete 1, 20095 hamburg, germany": null,
  "clips": {
   "lat": 35.7019,
@@ -593,11 +603,13 @@
  },
  "department of anesthesiology, fogang people's hospital, qingyuan, guangdong province, 511600, china": null,
  "department of biomedical sciences, link campus university, rome, italy": null,
+ "department of chemistry and biochemistry, university of california san diego": null,
  "department of civil and environmental engineering, monash university": null,
  "department of civil and environmental engineering, universitat politècnica de catalunya (upc), barcelona, spain": null,
  "department of computer science, khmelnytskyi national university, ukraine": null,
  "department of computing technologies, school of computing, faculty of engineering and technology, srm institute of science and technology, kattankulathur – 603203, tamil nadu, india": null,
  "department of critical care medicine, seventh people's hospital of shanghai university of traditional chinese medicine, shanghai, china": null,
+ "department of data science, cheongju university, cheongju, republic of korea": null,
  "department of diagnostic and interventional radiology, lausanne university hospital and university of lausanne, lausanne, switzerland": null,
  "department of display materials engineering, soonchunhyang university": null,
  "department of ecology, faculty of science, charles university, prague, czechia; institute of microbiology of the czech academy of sciences, prague, czechia": null,
@@ -608,10 +620,13 @@
  "department of inorganic chemistry, ivan franko national university of lviv": null,
  "department of linguistics, stockholm university": null,
  "department of neurology, staten island university hospital, northwell health": null,
+ "department of neurosurgery, china-japan friendship hospital (institute of clinical medical sciences), chinese academy of medical sciences & peking union medical college, beijing 100029, china": null,
  "department of orthopedics, xuzhou central hospital, affiliated hospital of southeast university, xuzhou, jiangsu 221000, china; xuzhou medical university clinical college, xuzhou, jiangsu 221000, china": null,
  "department of orthopedics, xuzhou central hospital, affiliated hospital of southeast university, xuzhou, jiangsu, china": null,
  "department of plant sciences, university of cambridge, uk": null,
  "department of programming languages and computer sciences, universidad de málaga": null,
+ "department of respiratory physiopathology, medical university of białystok, poland": null,
+ "department of veterinary integrative data analytics, wageningen bioveterinary research, wageningen university & research, lelystad, the netherlands": null,
  "department of zoology, university of granada, granada, spain": null,
  "des moines, ia": {
   "lat": 41.5869,
@@ -619,6 +634,7 @@
   "label": "Des Moines"
  },
  "digital economy, the business school, rmit university vietnam": null,
+ "digital ether computing llc": null,
  "division of earth observation and geoinformatics (diotg), general coordination of earth sciences (cg-ct), national institute for space research (inpe), são josé dos campos, sp, brazil": null,
  "division of science, new york university abu dhabi, abu dhabi, united arab emirates": null,
  "dmytro motornyi tavria state agrotechnological university": null,
@@ -712,6 +728,7 @@
  "faculty of information technology in prague": null,
  "faculty of science and technology, valaya alongkorn rajabhat university under the royal patronage, pathum thani, thailand": null,
  "fast school of computing, fast-nuces, karachi, pakistan": null,
+ "first-year student,english filology faculty of uzbekistan  state world languages university": null,
  "flux-frontiers": null,
  "fondazione bruno kessler": {
   "lat": 46.0675,
@@ -799,6 +816,10 @@
   "location": "Mountain View, CA",
   "name": "RAMI ALRFOU"
  },
+ "gh:agentes-chat": {
+  "location": null,
+  "name": "agentes.chat"
+ },
  "gh:agihunt": {
   "location": null,
   "name": "agihunt"
@@ -855,6 +876,10 @@
   "location": "Toronto, Canada",
   "name": "Andris Gauračs"
  },
+ "gh:anhnx000": {
+  "location": "Hanoi",
+  "name": "Xuan-Anh Nguyen"
+ },
  "gh:animan-ai": {
   "location": null,
   "name": "Animan"
@@ -902,6 +927,10 @@
  "gh:bookofbash": {
   "location": "St. Petersburg, Florida",
   "name": "Bashir Harrell"
+ },
+ "gh:boromat": {
+  "location": "Poland",
+  "name": "Mateusz Borowy"
  },
  "gh:boumedinebillal": {
   "location": null,
@@ -966,6 +995,10 @@
  "gh:divagr18": {
   "location": null,
   "name": "Divyansh Agrawal"
+ },
+ "gh:dodaios": {
+  "location": null,
+  "name": "dodaios"
  },
  "gh:donet-org-cn": {
   "location": null,
@@ -1079,6 +1112,10 @@
   "location": "NYC + Paris",
   "name": "Hugging Face"
  },
+ "gh:hyperionaidev": {
+  "location": "Armenia",
+  "name": "Hyperion AI"
+ },
  "gh:iamathavan": {
   "location": null,
   "name": "ATHAVAN"
@@ -1086,6 +1123,10 @@
  "gh:ilien-dev": {
   "location": "Mexico",
   "name": "ilien"
+ },
+ "gh:imraywang": {
+  "location": "on earch",
+  "name": "Ray Wang"
  },
  "gh:intellabs": {
   "location": "Around the globe",
@@ -1191,6 +1232,10 @@
   "location": null,
   "name": "Loris"
  },
+ "gh:madeval": {
+  "location": "Ukraine",
+  "name": "Leonidov Yevhen"
+ },
  "gh:mallahyari": {
   "location": "Atlanta",
   "name": "Mehdi Allahyari"
@@ -1198,6 +1243,10 @@
  "gh:marcreichel": {
   "location": "Haan, Germany",
   "name": "Marc Reichel"
+ },
+ "gh:mdiri-ai": {
+  "location": null,
+  "name": "mdiri-ai"
  },
  "gh:memtensor": {
   "location": null,
@@ -1218,6 +1267,10 @@
  "gh:milkteatw1": {
   "location": null,
   "name": "milkteatw1"
+ },
+ "gh:miri-labs": {
+  "location": null,
+  "name": "Miri-Labs"
  },
  "gh:mishari": {
   "location": "Bangkok, Thailand",
@@ -1499,6 +1552,10 @@
   "location": null,
   "name": "Sitor"
  },
+ "gh:slavh": {
+  "location": null,
+  "name": "Slav Hayrapetyan"
+ },
  "gh:sloria": {
   "location": "Brooklyn, NY",
   "name": "Steve Loria"
@@ -1550,6 +1607,10 @@
  "gh:sunerpy": {
   "location": "CN",
   "name": "sunerpy"
+ },
+ "gh:suyashkumar05": {
+  "location": null,
+  "name": "suyashkumar05"
  },
  "gh:swax": {
   "location": null,
@@ -1687,6 +1748,10 @@
   "location": "Toulouse, France",
   "name": "Peter Brooks"
  },
+ "gh:zaxiu88888": {
+  "location": null,
+  "name": "zx"
+ },
  "gh:zeekk0": {
   "location": "Sunnyvale, CA",
   "name": "Zeekk - MekaHime"
@@ -1753,10 +1818,20 @@
   "lng": 120.2052,
   "label": "Hangzhou"
  },
+ "hanoi": {
+  "lat": 21.0283,
+  "lng": 105.854,
+  "label": "Hanoï"
+ },
  "hanoi university of science and technology": {
   "lat": 21.0055,
   "lng": 105.8436,
   "label": "Institut Polytechnique de Hanoi"
+ },
+ "hanyang university erica": {
+  "lat": 37.2984,
+  "lng": 126.8388,
+  "label": "ERICA GUEST HOUSE at Hanyang university"
  },
  "hatfield": {
   "lat": 51.7635,
@@ -1987,6 +2062,7 @@
  "hf:atomicchat": {
   "fullname": "Atomic Chat"
  },
+ "hf:atraq": null,
  "hf:atw-9": null,
  "hf:aufklarer": null,
  "hf:augurybot": null,
@@ -2064,6 +2140,7 @@
  "hf:bretagne": {
   "fullname": "Bretagne"
  },
+ "hf:brettrey": null,
  "hf:brexitcapital": null,
  "hf:briaai": {
   "fullname": "BRIA AI"
@@ -2101,6 +2178,9 @@
  "hf:chaimandala": null,
  "hf:chandocchi": null,
  "hf:chao0524": null,
+ "hf:chatrlabs": {
+  "fullname": "Chatr Labs"
+ },
  "hf:chemfm": {
   "fullname": "ChemFM"
  },
@@ -2650,6 +2730,9 @@
  "hf:l3zzri": null,
  "hf:laaraari2025": null,
  "hf:ladinomendes": null,
+ "hf:laion": {
+  "fullname": "LAION eV"
+ },
  "hf:lakoreai": {
   "fullname": "LakoreAI"
  },
@@ -2820,6 +2903,9 @@
   "fullname": "Meetween"
  },
  "hf:megatranscribe": null,
+ "hf:meituan-longcat": {
+  "fullname": "LongCat"
+ },
  "hf:menoviar28": null,
  "hf:meriemdarija": null,
  "hf:mesozoicmetallurgist": null,
@@ -3173,6 +3259,9 @@
  "hf:rociourquijo": null,
  "hf:romaindurif": null,
  "hf:roneneldan": null,
+ "hf:ropedia-ai": {
+  "fullname": "Ropedia"
+ },
  "hf:rosany": null,
  "hf:rozabel": null,
  "hf:rshoemake": null,
@@ -3381,6 +3470,9 @@
  },
  "hf:theavenger": null,
  "hf:theoracleguy": null,
+ "hf:thinkingmachines": {
+  "fullname": "Thinking Machines Lab"
+ },
  "hf:thkmon": null,
  "hf:thomos978": null,
  "hf:thy025": null,
@@ -3596,6 +3688,9 @@
  "hf:zubr-ai": {
   "fullname": "Zubr AI community & developer"
  },
+ "hf:zyphra": {
+  "fullname": "Zyphra"
+ },
  "hf:zyrexz": null,
  "higher colleges of technology": {
   "lat": 31.5673,
@@ -3655,7 +3750,9 @@
   "lng": 2.2141,
   "label": "Institut Polytechnique de Paris"
  },
+ "institute for chemical research, kyoto university, uji, kyoto 611-0011, japan": null,
  "institute for cross-disciplinary physics and complex systems": null,
+ "institute of humanities, sungkyunkwan university": null,
  "institute of mathematics, statistics and computer science, university of são paulo": null,
  "institute of sociology, academia sinica": null,
  "institute of software systems of the national academy of sciences of ukraine": null,
@@ -3675,6 +3772,11 @@
   "lng": 16.3582,
   "label": "IIASA"
  },
+ "istanbul": {
+  "lat": 41.0064,
+  "lng": 28.9759,
+  "label": "Istanbul"
+ },
  "istanbul 29 mayis university": {
   "lat": 41.0326,
   "lng": 29.0987,
@@ -3684,6 +3786,11 @@
   "lat": 41.0135,
   "lng": 28.9553,
   "label": "Istanbul Büyükşehir Belediyesi"
+ },
+ "istanbul technical university": {
+  "lat": 41.1046,
+  "lng": 29.0263,
+  "label": "Université technique d’Istanbul"
  },
  "istanbul university-cerrahpaşa": {
   "lat": 41.0701,
@@ -3842,6 +3949,11 @@
   "lng": 1.2645,
   "label": "Limoges"
  },
+ "lincoln university": {
+  "lat": 39.8066,
+  "lng": -75.9287,
+  "label": "Lincoln University"
+ },
  "lisboa": {
   "lat": 38.7078,
   "lng": -9.1366,
@@ -3905,6 +4017,11 @@
   "lng": 4.877,
   "label": "INSA"
  },
+ "macau university of science and technology": {
+  "lat": 22.1526,
+  "lng": 113.568,
+  "label": "澳門科技大學 Universidade de Ciência e Tecnologia de Macau"
+ },
  "macau, china": {
   "lat": 22.1758,
   "lng": 113.5514,
@@ -3961,6 +4078,7 @@
   "lng": -122.178,
   "label": "Menlo Park"
  },
+ "metacognition institute": null,
  "mexico": {
   "lat": 19.3208,
   "lng": -99.1515,
@@ -4164,6 +4282,7 @@
   "lng": 20.4777,
   "label": "Olsztyn"
  },
+ "on earch": null,
  "onsite (5 days)": null,
  "orléans": {
   "lat": 47.9027,
@@ -4269,6 +4388,11 @@
   "lat": 40.4407,
   "lng": -80.0026,
   "label": "Pittsburgh"
+ },
+ "poland": {
+  "lat": 52.2159,
+  "lng": 19.1344,
+  "label": "Pologne"
  },
  "politecnica salesiana university": {
   "lat": -2.8862,
@@ -4625,6 +4749,11 @@
   "lng": 23.7777,
   "label": "Université"
  },
+ "taras shevchenko national university of kyiv": {
+  "lat": 50.3842,
+  "lng": 30.4743,
+  "label": "Université nationale Taras-Chevtchenko de Kiev"
+ },
  "tashkent state university of oriental studies,  master's degree in computational linguistics (70230401)": null,
  "teacher at the silk road innovation university": null,
  "teacher at the university of information technologies and management": null,
@@ -4654,6 +4783,11 @@
   "lat": 40.9952,
   "lng": 27.5896,
   "label": "Tekirdağ Namık Kemal Üniversitesi"
+ },
+ "termez state university, uzbekistan": {
+  "lat": 37.2397,
+  "lng": 67.3122,
+  "label": "Termiz davlat muhandislik va agrotexnalogiyalar universiteti"
  },
  "texas a&m university": {
   "lat": 30.6109,
@@ -4687,10 +4821,16 @@
   "label": "The University of Texas at El Paso"
  },
  "tianjin institute of industrial biotechnology, chinese academy of sciences": null,
+ "tib - leibniz information centre for science and technology": null,
  "tilburg university": {
   "lat": 51.5631,
   "lng": 5.0436,
   "label": "Tilburg University"
+ },
+ "tohoku university": {
+  "lat": 38.2581,
+  "lng": 140.836,
+  "label": "東北大学 青葉山北キャンパス"
  },
  "tokenmaxxing": null,
  "tokyo metropolitan university": {
@@ -4774,7 +4914,13 @@
   "label": "Pascasarjana UIN Sultan Syarif Kasim Riau"
  },
  "uit the arctic university of norway": null,
+ "ukraine": {
+  "lat": 49.4872,
+  "lng": 31.2718,
+  "label": "Ukraine"
+ },
  "unesco chair in digital culture and arts in education (ucdcae), friedrich-alexander-universität erlangen-nürnberg": null,
+ "unikl business school, universiti kuala lumpur, kuala lumpur, malaysia": null,
  "united arab emirates": {
   "lat": 24.0002,
   "lng": 53.9995,
@@ -4855,6 +5001,11 @@
   "lat": 42.8732,
   "lng": -8.5536,
   "label": "Universidade de Santiago de Compostela"
+ },
+ "universidade de são paulo": {
+  "lat": -23.5652,
+  "lng": -46.7126,
+  "label": "Universidade de São Paulo (Portaria 1)"
  },
  "universidade do estado do amazonas": {
   "lat": -4.0978,
@@ -4937,6 +5088,11 @@
   "lng": 2.1635,
   "label": "Universitat de Barcelona"
  },
+ "universitat de valència": {
+  "lat": 39.4605,
+  "lng": -0.3601,
+  "label": "Universitat de València"
+ },
  "universitat oberta de catalunya": {
   "lat": 41.1539,
   "lng": 1.1004,
@@ -4983,6 +5139,11 @@
   "lng": -117.2335,
   "label": "Via Alicante"
  },
+ "university of auckland": {
+  "lat": -36.8661,
+  "lng": 174.7737,
+  "label": "Waipapa Taumata Rau / University of Auckland"
+ },
  "university of bari aldo moro": {
   "lat": 41.1095,
   "lng": 16.8817,
@@ -5005,6 +5166,11 @@
   "label": "Università di Bologna"
  },
  "university of california, san francisco; waymark": null,
+ "university of castilla-la mancha": {
+  "lat": 38.9894,
+  "lng": -3.921,
+  "label": "Escuela de Magisterio"
+ },
  "university of catania": null,
  "university of chinese academy of sciences": {
   "lat": 40.0022,
@@ -5210,6 +5376,7 @@
   "lng": 15.5511,
   "label": "Università degli Studi di Messina"
  },
+ "università degli sudi di messina": null,
  "université clermont auvergne (2021-...)": {
   "lat": 45.04,
   "lng": 3.8808,
@@ -5729,6 +5896,7 @@
  },
  "wdn:center for language and speech processing jhu": null,
  "wdn:chair of data science university of passau": null,
+ "wdn:chatr labs": null,
  "wdn:chemfm": null,
  "wdn:circulus inc": null,
  "wdn:cis lmu munich": null,
@@ -5883,6 +6051,7 @@
   "geo_source": "Wikidata · Krafton"
  },
  "wdn:lab of kevin jablonka at uni jena": null,
+ "wdn:laion ev": null,
  "wdn:lakoreai": null,
  "wdn:langmap": null,
  "wdn:langtech machine translation": null,
@@ -5910,6 +6079,7 @@
  "wdn:llamaindex": null,
  "wdn:lmaana": null,
  "wdn:localllama": null,
+ "wdn:longcat": null,
  "wdn:loom ai": null,
  "wdn:loria mosaik": null,
  "wdn:loudness ai": null,
@@ -6045,6 +6215,7 @@
  "wdn:resources": null,
  "wdn:rifai": null,
  "wdn:robotic systems lab eth z rich": null,
+ "wdn:ropedia": null,
  "wdn:salesforce ai research": null,
  "wdn:sandflow": null,
  "wdn:scantist pte ltd": null,
@@ -6096,6 +6267,7 @@
  "wdn:the partnership for applied biblical nlp": null,
  "wdn:the sequential learning group": null,
  "wdn:thelion ai": null,
+ "wdn:thinking machines lab": null,
  "wdn:tiger lab": null,
  "wdn:tigre g tico lda": null,
  "wdn:tilde": null,
@@ -6145,6 +6317,7 @@
  "wdn:zarnite": null,
  "wdn:zgcagi": null,
  "wdn:zubr ai community developer": null,
+ "wdn:zyphra": null,
  "worldly knowledge publishing centre": null,
  "wyss institute for biologically inspired engineering at harvard university, boston, ma, usa": null,
  "xi'an, china": {
