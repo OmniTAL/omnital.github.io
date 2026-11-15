@@ -6,7 +6,7 @@
     <atom:link href="https://omnital.github.io/data/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Nouvelles ressources en traitement automatique des langues (arXiv, HAL, Hugging Face, GitHub, WikiCFP).</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 15 Nov 2026 09:59:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 12:50:43 +0000</lastBuildDate>
     <item>
       <title>[Event] COLING 2027 : International Conference on Computational Linguistics</title>
       <link>https://2027.coling-iccl.org/</link>
@@ -16,153 +16,9 @@
       <description>International Conference on Computational Linguistics</description>
     </item>
     <item>
-      <title>[Corpus] sara-moricz/token-tax</title>
-      <link>https://huggingface.co/datasets/sara-moricz/token-tax</link>
-      <guid isPermaLink="false">hf:datasets:sara-moricz/token-tax</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Token tax: LLM token premiums for 200 languages relative to English (FLORES-200) Hindi needs 57 % more tokens than English for the same text on ChatGPT. In other words, for Hindi speakers: each answer costs 57 % more chat memory fills up…</description>
-    </item>
-    <item>
-      <title>[Corpus] jnorthrup/justicedao__ipfs_andorra_municipal_laws_ir</title>
-      <link>https://huggingface.co/datasets/jnorthrup/justicedao__ipfs_andorra_municipal_laws_ir</link>
-      <guid isPermaLink="false">hf:datasets:jnorthrup/justicedao__ipfs_andorra_municipal_laws_ir</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Andorra Municipal legislation IR (CID-keyed sparse GraphRAG) Research retrieval release of endomorphosis/ipfs_andorra_municipal_laws (revision 6f4c94694e9a06452e55477247d40ec8dbc972b0) packaged as country-laws-ir-graphrag/v1 (layout…</description>
-    </item>
-    <item>
-      <title>[Corpus] jnorthrup/justicedao__ipfs_spain_municipal_laws_ir</title>
-      <link>https://huggingface.co/datasets/jnorthrup/justicedao__ipfs_spain_municipal_laws_ir</link>
-      <guid isPermaLink="false">hf:datasets:jnorthrup/justicedao__ipfs_spain_municipal_laws_ir</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>Spain Municipal legislation IR (CID-keyed sparse GraphRAG) Research retrieval release of endomorphosis/ipfs_spain_municipal_laws (revision 7e9e5fc4d935588753ad12eb66b69b024a3703bb) packaged as country-laws-ir-graphrag/v1 (layout family…</description>
-    </item>
-    <item>
-      <title>[Model] Hunter123/paraphrase-multilingual-MiniLM-L12-v2</title>
-      <link>https://huggingface.co/Hunter123/paraphrase-multilingual-MiniLM-L12-v2</link>
-      <guid isPermaLink="false">hf:models:Hunter123/paraphrase-multilingual-MiniLM-L12-v2</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] atelasi/multilingual-reranker-small</title>
-      <link>https://huggingface.co/atelasi/multilingual-reranker-small</link>
-      <guid isPermaLink="false">hf:models:atelasi/multilingual-reranker-small</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Williiii/piper-voices</title>
-      <link>https://huggingface.co/Williiii/piper-voices</link>
-      <guid isPermaLink="false">hf:models:Williiii/piper-voices</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] kaitemoreau/drama-3</title>
-      <link>https://huggingface.co/kaitemoreau/drama-3</link>
-      <guid isPermaLink="false">hf:models:kaitemoreau/drama-3</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] MacEpic/fluid-speech-pro-coreml</title>
-      <link>https://huggingface.co/MacEpic/fluid-speech-pro-coreml</link>
-      <guid isPermaLink="false">hf:models:MacEpic/fluid-speech-pro-coreml</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] coder543/fluid-speech-pro-glade</title>
-      <link>https://huggingface.co/coder543/fluid-speech-pro-glade</link>
-      <guid isPermaLink="false">hf:models:coder543/fluid-speech-pro-glade</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] kaitemoreau/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</title>
-      <link>https://huggingface.co/kaitemoreau/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</link>
-      <guid isPermaLink="false">hf:models:kaitemoreau/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Hapyr/svm-breast-cancer-wisconsin</title>
-      <link>https://huggingface.co/Hapyr/svm-breast-cancer-wisconsin</link>
-      <guid isPermaLink="false">hf:models:Hapyr/svm-breast-cancer-wisconsin</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Corpus] HOW DOES THE PRESS EXPLAIN THE LAW?</title>
-      <link>https://zenodo.org/records/24242394</link>
-      <guid isPermaLink="false">zenodo:24242393</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>zenodo</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Corpus] Evaluability and resilience in Hungarian municipal environmental programmes: OOIR coding dataset</title>
-      <link>https://zenodo.org/records/24242016</link>
-      <guid isPermaLink="false">zenodo:24242015</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>zenodo</category>
-      <description>Coded dataset and analysis script for the article "Evaluability and Resilience in Hungarian Municipal Environmental Programmes" (J. Pécsinger, submitted to Discover Sustainability). The dataset contains the item-level coding of 24…</description>
-    </item>
-    <item>
-      <title>[Corpus] Long reads assign a 23S rRNA resistance allele to one of the two copies in Helicobacter pylori; a complete short-read assembly does not</title>
-      <link>https://zenodo.org/records/24241889</link>
-      <guid isPermaLink="false">zenodo:23263283</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>zenodo</category>
-      <description>Analysis package for a study of copy-specific assignment at the two 23S rRNA copies of Helicobacter pylori . The package contains the seventeen supplementary tables, the analysis and figure code, the recorded software versions, the…</description>
-    </item>
-    <item>
-      <title>[Corpus] Closed-Loop SLA Assurance for 5G Slices on a Shared Transport Dataset</title>
-      <link>https://zenodo.org/records/24237258</link>
-      <guid isPermaLink="false">zenodo:23793478</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>zenodo</category>
-      <description>Measured data of the paper Closed-Loop SLA Assurance for 5G Slices on a Shared Transport: Deterministic Rules versus a Local Small Language Model (E. Mulyana, Iskandar; School of Electrical Engineering and Informatics, Institut Teknologi…</description>
-    </item>
-    <item>
-      <title>[Tool] Hiw Whee pipeline and Construction Concordancer</title>
-      <link>https://zenodo.org/records/24240290</link>
-      <guid isPermaLink="false">zenodo:21470349</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>zenodo</category>
-      <description>A pipeline for building and searching a corpus of unscripted Thai speech from YouTube, developed for the Hiw Whee project, a corpus-based Construction Grammar analysis of Thai LGBTQ+ colloquial speech. yt-dlp : audio download Speech…</description>
-    </item>
-    <item>
-      <title>[Tool] BF Vibe Desktop</title>
-      <link>https://zenodo.org/records/24236080</link>
-      <guid isPermaLink="false">zenodo:22036542</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>zenodo</category>
-      <description>BF Vibe is a cataloging assistant. It supports those new to BIBFRAME. Describe a resource in chat and get a draft BIBFRAME RDF/XML record back. It is checked against shared validation rules, with notes on where each part came from. The AI…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Speech Tester (Italian native speaker - Switzerland regional variant)</title>
-      <link>https://www.arbeitnow.ch/jobs/companies/tsmg/ai-speech-tester-italian-native-speaker-switzerland-regional-variant-lugano-171247</link>
-      <guid isPermaLink="false">arbeitnow:ai-speech-tester-italian-native-speaker-switzerland-regional-variant-lugano-171247</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arbeitnow</category>
-      <description>Company description Terry Soot Management Group (TSMG) is a field data collection company founded in 2017 in Europe. We collect data where automation is not possible. We count features, take pictures, make videos, record speech, and scan…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Speech Tester (Italian native speaker - Switzerland regional variant)</title>
-      <link>https://www.arbeitnow.ch/jobs/companies/tsmg/ai-speech-tester-italian-native-speaker-switzerland-regional-variant-bellinzona-80812</link>
-      <guid isPermaLink="false">arbeitnow:ai-speech-tester-italian-native-speaker-switzerland-regional-variant-bellinzona-80812</guid>
+      <title>[Opportunity] AI Speech Tester (French native speaker - Switzerland regional variant)</title>
+      <link>https://www.arbeitnow.ch/jobs/companies/tsmg/ai-speech-tester-french-native-speaker-switzerland-regional-variant-lausanne-70244</link>
+      <guid isPermaLink="false">arbeitnow:ai-speech-tester-french-native-speaker-switzerland-regional-variant-lausanne-70244</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>arbeitnow</category>
       <description>Company description Terry Soot Management Group (TSMG) is a field data collection company founded in 2017 in Europe. We collect data where automation is not possible. We count features, take pictures, make videos, record speech, and scan…</description>
@@ -184,339 +40,155 @@
       <description>Company description Terry Soot Management Group (TSMG) is a field data collection company founded in 2017 in Europe. We collect data where automation is not possible. We count features, take pictures, make videos, record speech, and scan…</description>
     </item>
     <item>
-      <title>[Opportunity] AI Speech Tester (French native speaker - Switzerland regional variant)</title>
-      <link>https://www.arbeitnow.ch/jobs/companies/tsmg/ai-speech-tester-french-native-speaker-switzerland-regional-variant-lausanne-70244</link>
-      <guid isPermaLink="false">arbeitnow:ai-speech-tester-french-native-speaker-switzerland-regional-variant-lausanne-70244</guid>
+      <title>[Opportunity] AI Speech Tester (Italian native speaker - Switzerland regional variant)</title>
+      <link>https://www.arbeitnow.ch/jobs/companies/tsmg/ai-speech-tester-italian-native-speaker-switzerland-regional-variant-bellinzona-80812</link>
+      <guid isPermaLink="false">arbeitnow:ai-speech-tester-italian-native-speaker-switzerland-regional-variant-bellinzona-80812</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>arbeitnow</category>
       <description>Company description Terry Soot Management Group (TSMG) is a field data collection company founded in 2017 in Europe. We collect data where automation is not possible. We count features, take pictures, make videos, record speech, and scan…</description>
     </item>
     <item>
-      <title>[Corpus] AzhariFerdaous/moroccan_alignement_benchmark_scores</title>
-      <link>https://huggingface.co/datasets/AzhariFerdaous/moroccan_alignement_benchmark_scores</link>
-      <guid isPermaLink="false">hf:datasets:AzhariFerdaous/moroccan_alignement_benchmark_scores</guid>
+      <title>[Opportunity] AI Speech Tester (Italian native speaker - Switzerland regional variant)</title>
+      <link>https://www.arbeitnow.ch/jobs/companies/tsmg/ai-speech-tester-italian-native-speaker-switzerland-regional-variant-lugano-171247</link>
+      <guid isPermaLink="false">arbeitnow:ai-speech-tester-italian-native-speaker-switzerland-regional-variant-lugano-171247</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>The Moroccan Alignment Benchmark — evaluation scores Companion to AzhariFerdaous/moroccan_alignement_benchmark. Contains existing model-level results, closed-format per-item verdicts, open-rubric breakdowns and winner-only open item…</description>
+      <category>arbeitnow</category>
+      <description>Company description Terry Soot Management Group (TSMG) is a field data collection company founded in 2017 in Europe. We collect data where automation is not possible. We count features, take pictures, make videos, record speech, and scan…</description>
     </item>
     <item>
-      <title>[Corpus] AzhariFerdaous/moroccan_alignement_benchmark</title>
-      <link>https://huggingface.co/datasets/AzhariFerdaous/moroccan_alignement_benchmark</link>
-      <guid isPermaLink="false">hf:datasets:AzhariFerdaous/moroccan_alignement_benchmark</guid>
+      <title>[Corpus] jnorthrup/justicedao__ipfs_andorra_municipal_laws_ir</title>
+      <link>https://huggingface.co/datasets/jnorthrup/justicedao__ipfs_andorra_municipal_laws_ir</link>
+      <guid isPermaLink="false">hf:datasets:jnorthrup/justicedao__ipfs_andorra_municipal_laws_ir</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
-      <description>The Moroccan Alignment Benchmark — items with model answers 1,672 final items, with reference answers/keys, metadata, and saved answers from 17 evaluated systems (16 for short answer). Subset/configuration Split Items Model answer columns…</description>
+      <description>Andorra Municipal legislation IR (CID-keyed sparse GraphRAG) Research retrieval release of endomorphosis/ipfs_andorra_municipal_laws (revision 6f4c94694e9a06452e55477247d40ec8dbc972b0) packaged as country-laws-ir-graphrag/v1 (layout…</description>
     </item>
     <item>
-      <title>[Model] mradermacher/MIST-QG-1.1-GGUF</title>
-      <link>https://huggingface.co/mradermacher/MIST-QG-1.1-GGUF</link>
-      <guid isPermaLink="false">hf:models:mradermacher/MIST-QG-1.1-GGUF</guid>
+      <title>[Corpus] jnorthrup/justicedao__ipfs_spain_municipal_laws_ir</title>
+      <link>https://huggingface.co/datasets/jnorthrup/justicedao__ipfs_spain_municipal_laws_ir</link>
+      <guid isPermaLink="false">hf:datasets:jnorthrup/justicedao__ipfs_spain_municipal_laws_ir</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
-      <description></description>
+      <description>Spain Municipal legislation IR (CID-keyed sparse GraphRAG) Research retrieval release of endomorphosis/ipfs_spain_municipal_laws (revision 7e9e5fc4d935588753ad12eb66b69b024a3703bb) packaged as country-laws-ir-graphrag/v1 (layout family…</description>
     </item>
     <item>
-      <title>[Model] jackyb1234/OmniVoice-Onnx</title>
-      <link>https://huggingface.co/jackyb1234/OmniVoice-Onnx</link>
-      <guid isPermaLink="false">hf:models:jackyb1234/OmniVoice-Onnx</guid>
+      <title>[Corpus] sara-moricz/token-tax</title>
+      <link>https://huggingface.co/datasets/sara-moricz/token-tax</link>
+      <guid isPermaLink="false">hf:datasets:sara-moricz/token-tax</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
-      <description></description>
+      <description>Token tax: LLM token premiums for 200 languages relative to English (FLORES-200) Hindi needs 57 % more tokens than English for the same text on ChatGPT. In other words, for Hindi speakers: each answer costs 57 % more chat memory fills up…</description>
     </item>
     <item>
-      <title>[Model] olaverse/MIST-QG-1.1</title>
-      <link>https://huggingface.co/olaverse/MIST-QG-1.1</link>
-      <guid isPermaLink="false">hf:models:olaverse/MIST-QG-1.1</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/vits-hitz-ca_pau</title>
-      <link>https://huggingface.co/Phoonnx/vits-hitz-ca_pau</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-ca_pau</guid>
+      <title>[Model] Hapyr/svm-breast-cancer-wisconsin</title>
+      <link>https://huggingface.co/Hapyr/svm-breast-cancer-wisconsin</link>
+      <guid isPermaLink="false">hf:models:Hapyr/svm-breast-cancer-wisconsin</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
     </item>
     <item>
-      <title>[Model] Phoonnx/vits-hitz-ca_ona</title>
-      <link>https://huggingface.co/Phoonnx/vits-hitz-ca_ona</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-ca_ona</guid>
+      <title>[Model] Hunter123/paraphrase-multilingual-MiniLM-L12-v2</title>
+      <link>https://huggingface.co/Hunter123/paraphrase-multilingual-MiniLM-L12-v2</link>
+      <guid isPermaLink="false">hf:models:Hunter123/paraphrase-multilingual-MiniLM-L12-v2</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
     </item>
     <item>
-      <title>[Model] Phoonnx/vits-piper_ca_ES-upc_ona-x_low</title>
-      <link>https://huggingface.co/Phoonnx/vits-piper_ca_ES-upc_ona-x_low</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/vits-piper_ca_ES-upc_ona-x_low</guid>
+      <title>[Model] MacEpic/fluid-speech-pro-coreml</title>
+      <link>https://huggingface.co/MacEpic/fluid-speech-pro-coreml</link>
+      <guid isPermaLink="false">hf:models:MacEpic/fluid-speech-pro-coreml</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
     </item>
     <item>
-      <title>[Model] Phoonnx/vits-hf_community_projecte-aina_tts-ca-coqui-vits-multispeaker</title>
-      <link>https://huggingface.co/Phoonnx/vits-hf_community_projecte-aina_tts-ca-coqui-vits-multispeaker</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/vits-hf_community_projecte-aina_tts-ca-coqui-vits-multispeaker</guid>
+      <title>[Model] Williiii/piper-voices</title>
+      <link>https://huggingface.co/Williiii/piper-voices</link>
+      <guid isPermaLink="false">hf:models:Williiii/piper-voices</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
     </item>
     <item>
-      <title>[Model] Phoonnx/styletts2-bsc-ca-styletts2</title>
-      <link>https://huggingface.co/Phoonnx/styletts2-bsc-ca-styletts2</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/styletts2-bsc-ca-styletts2</guid>
+      <title>[Model] atelasi/multilingual-reranker-small</title>
+      <link>https://huggingface.co/atelasi/multilingual-reranker-small</link>
+      <guid isPermaLink="false">hf:models:atelasi/multilingual-reranker-small</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
     </item>
     <item>
-      <title>[Model] Phoonnx/coqui-vits-ca-custom-vits</title>
-      <link>https://huggingface.co/Phoonnx/coqui-vits-ca-custom-vits</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/coqui-vits-ca-custom-vits</guid>
+      <title>[Model] coder543/fluid-speech-pro-glade</title>
+      <link>https://huggingface.co/coder543/fluid-speech-pro-glade</link>
+      <guid isPermaLink="false">hf:models:coder543/fluid-speech-pro-glade</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
     </item>
     <item>
-      <title>[Model] Phoonnx/matcha-cat-multispeaker-hifigan</title>
-      <link>https://huggingface.co/Phoonnx/matcha-cat-multispeaker-hifigan</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/matcha-cat-multispeaker-hifigan</guid>
+      <title>[Model] kaitemoreau/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</title>
+      <link>https://huggingface.co/kaitemoreau/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</link>
+      <guid isPermaLink="false">hf:models:kaitemoreau/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
     </item>
     <item>
-      <title>[Model] Phoonnx/matcha-cat-multispeaker-acoustic</title>
-      <link>https://huggingface.co/Phoonnx/matcha-cat-multispeaker-acoustic</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/matcha-cat-multispeaker-acoustic</guid>
+      <title>[Model] kaitemoreau/drama-3</title>
+      <link>https://huggingface.co/kaitemoreau/drama-3</link>
+      <guid isPermaLink="false">hf:models:kaitemoreau/drama-3</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
     </item>
     <item>
-      <title>[Model] Phoonnx/matcha-cat-multispeaker-wavenext</title>
-      <link>https://huggingface.co/Phoonnx/matcha-cat-multispeaker-wavenext</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/matcha-cat-multispeaker-wavenext</guid>
+      <title>[Tool] Hiw Whee pipeline and Construction Concordancer</title>
+      <link>https://zenodo.org/records/24240290</link>
+      <guid isPermaLink="false">zenodo:21470349</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
+      <category>zenodo</category>
+      <description>A pipeline for building and searching a corpus of unscripted Thai speech from YouTube, developed for the Hiw Whee project, a corpus-based Construction Grammar analysis of Thai LGBTQ+ colloquial speech. yt-dlp : audio download Speech…</description>
     </item>
     <item>
-      <title>[Model] Phoonnx/matcha-cat-multiaccent-wavenext</title>
-      <link>https://huggingface.co/Phoonnx/matcha-cat-multiaccent-wavenext</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/matcha-cat-multiaccent-wavenext</guid>
+      <title>[Tool] BF Vibe Desktop</title>
+      <link>https://zenodo.org/records/24236080</link>
+      <guid isPermaLink="false">zenodo:22036542</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
+      <category>zenodo</category>
+      <description>BF Vibe is a cataloging assistant. It supports those new to BIBFRAME. Describe a resource in chat and get a draft BIBFRAME RDF/XML record back. It is checked against shared validation rules, with notes on where each part came from. The AI…</description>
     </item>
     <item>
-      <title>[Model] Phoonnx/matcha-cat-central-graphemes-v2</title>
-      <link>https://huggingface.co/Phoonnx/matcha-cat-central-graphemes-v2</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/matcha-cat-central-graphemes-v2</guid>
+      <title>[Corpus] Long reads assign a 23S rRNA resistance allele to one of the two copies in Helicobacter pylori; a complete short-read assembly does not</title>
+      <link>https://zenodo.org/records/24241889</link>
+      <guid isPermaLink="false">zenodo:23263283</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
+      <category>zenodo</category>
+      <description>Analysis package for a study of copy-specific assignment at the two 23S rRNA copies of Helicobacter pylori . The package contains the seventeen supplementary tables, the analysis and figure code, the recorded software versions, the…</description>
     </item>
     <item>
-      <title>[Model] Phoonnx/vocoders-wavenext-22khz</title>
-      <link>https://huggingface.co/Phoonnx/vocoders-wavenext-22khz</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/vocoders-wavenext-22khz</guid>
+      <title>[Corpus] Closed-Loop SLA Assurance for 5G Slices on a Shared Transport Dataset</title>
+      <link>https://zenodo.org/records/24237258</link>
+      <guid isPermaLink="false">zenodo:23793478</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
+      <category>zenodo</category>
+      <description>Measured data of the paper Closed-Loop SLA Assurance for 5G Slices on a Shared Transport: Deterministic Rules versus a Local Small Language Model (E. Mulyana, Iskandar; School of Electrical Engineering and Informatics, Institut Teknologi…</description>
     </item>
     <item>
-      <title>[Model] Phoonnx/vocoders-alvocat-vocos-22khz</title>
-      <link>https://huggingface.co/Phoonnx/vocoders-alvocat-vocos-22khz</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/vocoders-alvocat-vocos-22khz</guid>
+      <title>[Corpus] Evaluability and resilience in Hungarian municipal environmental programmes: OOIR coding dataset</title>
+      <link>https://zenodo.org/records/24242016</link>
+      <guid isPermaLink="false">zenodo:24242015</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
+      <category>zenodo</category>
+      <description>Coded dataset and analysis script for the article "Evaluability and Resilience in Hungarian Municipal Environmental Programmes" (J. Pécsinger, submitted to Discover Sustainability). The dataset contains the item-level coding of 24…</description>
     </item>
     <item>
-      <title>[Model] Phoonnx/vits-hitz-eu_maider</title>
-      <link>https://huggingface.co/Phoonnx/vits-hitz-eu_maider</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-eu_maider</guid>
+      <title>[Corpus] HOW DOES THE PRESS EXPLAIN THE LAW?</title>
+      <link>https://zenodo.org/records/24242394</link>
+      <guid isPermaLink="false">zenodo:24242393</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/vits-hitz-eu_antton</title>
-      <link>https://huggingface.co/Phoonnx/vits-hitz-eu_antton</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-eu_antton</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/styletts2-hitz-eu-styletts2</title>
-      <link>https://huggingface.co/Phoonnx/styletts2-hitz-eu-styletts2</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/styletts2-hitz-eu-styletts2</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/styletts2-hitz-eu-emo-styletts2</title>
-      <link>https://huggingface.co/Phoonnx/styletts2-hitz-eu-emo-styletts2</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/styletts2-hitz-eu-emo-styletts2</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/vits-hitz-gl_paulo</title>
-      <link>https://huggingface.co/Phoonnx/vits-hitz-gl_paulo</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-gl_paulo</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/vits-hitz-gl_brais</title>
-      <link>https://huggingface.co/Phoonnx/vits-hitz-gl_brais</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-gl_brais</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/vits-hitz-gl_iago</title>
-      <link>https://huggingface.co/Phoonnx/vits-hitz-gl_iago</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-gl_iago</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/vits-hitz-gl_sabela</title>
-      <link>https://huggingface.co/Phoonnx/vits-hitz-gl_sabela</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-gl_sabela</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/vits-hitz-gl_celtia</title>
-      <link>https://huggingface.co/Phoonnx/vits-hitz-gl_celtia</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-gl_celtia</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/styletts2-proxectonos-gl-brais</title>
-      <link>https://huggingface.co/Phoonnx/styletts2-proxectonos-gl-brais</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/styletts2-proxectonos-gl-brais</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/styletts2-proxectonos-gl-celtia</title>
-      <link>https://huggingface.co/Phoonnx/styletts2-proxectonos-gl-celtia</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/styletts2-proxectonos-gl-celtia</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/matcha-proxectonos_icia-matcha-phonemes</title>
-      <link>https://huggingface.co/Phoonnx/matcha-proxectonos_icia-matcha-phonemes</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/matcha-proxectonos_icia-matcha-phonemes</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/matcha-proxectonos_icia-extended-matcha-phonemes-ljspeech</title>
-      <link>https://huggingface.co/Phoonnx/matcha-proxectonos_icia-extended-matcha-phonemes-ljspeech</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/matcha-proxectonos_icia-extended-matcha-phonemes-ljspeech</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/matcha-proxectonos_icia-matcha-phonemes-ljspeech</title>
-      <link>https://huggingface.co/Phoonnx/matcha-proxectonos_icia-matcha-phonemes-ljspeech</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/matcha-proxectonos_icia-matcha-phonemes-ljspeech</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/matcha-proxectonos_celtia-matcha-graphemes</title>
-      <link>https://huggingface.co/Phoonnx/matcha-proxectonos_celtia-matcha-graphemes</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/matcha-proxectonos_celtia-matcha-graphemes</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/matcha-proxectonos_brais-matcha-graphemes</title>
-      <link>https://huggingface.co/Phoonnx/matcha-proxectonos_brais-matcha-graphemes</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/matcha-proxectonos_brais-matcha-graphemes</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/matcha-proxectonos_icia-extended-matcha-phonemes</title>
-      <link>https://huggingface.co/Phoonnx/matcha-proxectonos_icia-extended-matcha-phonemes</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/matcha-proxectonos_icia-extended-matcha-phonemes</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/coqui-vits-mt-cv-vits</title>
-      <link>https://huggingface.co/Phoonnx/coqui-vits-mt-cv-vits</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/coqui-vits-mt-cv-vits</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] voiceforever/parakeet-tdt-0.6b-v3-mlx-8bit</title>
-      <link>https://huggingface.co/voiceforever/parakeet-tdt-0.6b-v3-mlx-8bit</link>
-      <guid isPermaLink="false">hf:models:voiceforever/parakeet-tdt-0.6b-v3-mlx-8bit</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] wiamAi/darija-stories-llama-75m</title>
-      <link>https://huggingface.co/wiamAi/darija-stories-llama-75m</link>
-      <guid isPermaLink="false">hf:models:wiamAi/darija-stories-llama-75m</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/glowtts-fr-fr-siwis</title>
-      <link>https://huggingface.co/Phoonnx/glowtts-fr-fr-siwis</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/glowtts-fr-fr-siwis</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Model] Phoonnx/vits-fr_FR-siwis-medium</title>
-      <link>https://huggingface.co/Phoonnx/vits-fr_FR-siwis-medium</link>
-      <guid isPermaLink="false">hf:models:Phoonnx/vits-fr_FR-siwis-medium</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
-    </item>
-    <item>
-      <title>[Tool] massinNiss/moroccan-darija-nlp-suite</title>
-      <link>https://github.com/massinNiss/moroccan-darija-nlp-suite</link>
-      <guid isPermaLink="false">gh:massinniss/moroccan-darija-nlp-suite</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>github</category>
+      <category>zenodo</category>
       <description></description>
     </item>
     <item>
@@ -528,41 +200,17 @@
       <description>📅 AI-powered academic deadline assistant that uses Gemini Vision to extract assignments, exams, projects &amp; submission dates from academic documents, with smart deadline Q&amp;A and Telegram notifications. 🤖📸💬📲</description>
     </item>
     <item>
-      <title>[Tool] Topkiflare74/ai--manus2.0</title>
-      <link>https://github.com/Topkiflare74/ai--manus2.0</link>
-      <guid isPermaLink="false">gh:topkiflare74/ai--manus2.0</guid>
+      <title>[Tool] massinNiss/moroccan-darija-nlp-suite</title>
+      <link>https://github.com/massinNiss/moroccan-darija-nlp-suite</link>
+      <guid isPermaLink="false">gh:massinniss/moroccan-darija-nlp-suite</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>github</category>
-      <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
+      <description></description>
     </item>
     <item>
-      <title>[Tool] topapothecarycanal/ai--manus2.0</title>
-      <link>https://github.com/topapothecarycanal/ai--manus2.0</link>
-      <guid isPermaLink="false">gh:topapothecarycanal/ai--manus2.0</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>github</category>
-      <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
-    </item>
-    <item>
-      <title>[Tool] toppatronweave/ai--manus2.0</title>
-      <link>https://github.com/toppatronweave/ai--manus2.0</link>
-      <guid isPermaLink="false">gh:toppatronweave/ai--manus2.0</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>github</category>
-      <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
-    </item>
-    <item>
-      <title>[Tool] topconstableinlet67/ai--manus2.0</title>
-      <link>https://github.com/topconstableinlet67/ai--manus2.0</link>
-      <guid isPermaLink="false">gh:topconstableinlet67/ai--manus2.0</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>github</category>
-      <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
-    </item>
-    <item>
-      <title>[Tool] tornadonovicewhirl40/ai--manus2.0</title>
-      <link>https://github.com/tornadonovicewhirl40/ai--manus2.0</link>
-      <guid isPermaLink="false">gh:tornadonovicewhirl40/ai--manus2.0</guid>
+      <title>[Tool] taboospecialistblade/ai--manus2.0</title>
+      <link>https://github.com/taboospecialistblade/ai--manus2.0</link>
+      <guid isPermaLink="false">gh:taboospecialistblade/ai--manus2.0</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>github</category>
       <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
@@ -576,9 +224,65 @@
       <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
     </item>
     <item>
-      <title>[Tool] Ultimateakiln/ai--manus2.0</title>
-      <link>https://github.com/Ultimateakiln/ai--manus2.0</link>
-      <guid isPermaLink="false">gh:ultimateakiln/ai--manus2.0</guid>
+      <title>[Tool] Tonephorepair/ai--manus2.0</title>
+      <link>https://github.com/Tonephorepair/ai--manus2.0</link>
+      <guid isPermaLink="false">gh:tonephorepair/ai--manus2.0</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
+    </item>
+    <item>
+      <title>[Tool] topapothecarycanal/ai--manus2.0</title>
+      <link>https://github.com/topapothecarycanal/ai--manus2.0</link>
+      <guid isPermaLink="false">gh:topapothecarycanal/ai--manus2.0</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
+    </item>
+    <item>
+      <title>[Tool] topconstableinlet67/ai--manus2.0</title>
+      <link>https://github.com/topconstableinlet67/ai--manus2.0</link>
+      <guid isPermaLink="false">gh:topconstableinlet67/ai--manus2.0</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
+    </item>
+    <item>
+      <title>[Tool] Topkiflare74/ai--manus2.0</title>
+      <link>https://github.com/Topkiflare74/ai--manus2.0</link>
+      <guid isPermaLink="false">gh:topkiflare74/ai--manus2.0</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
+    </item>
+    <item>
+      <title>[Tool] toppatronweave/ai--manus2.0</title>
+      <link>https://github.com/toppatronweave/ai--manus2.0</link>
+      <guid isPermaLink="false">gh:toppatronweave/ai--manus2.0</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
+    </item>
+    <item>
+      <title>[Tool] tornadonovicewhirl40/ai--manus2.0</title>
+      <link>https://github.com/tornadonovicewhirl40/ai--manus2.0</link>
+      <guid isPermaLink="false">gh:tornadonovicewhirl40/ai--manus2.0</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
+    </item>
+    <item>
+      <title>[Tool] Torusdrasocket/ai--manus2.0</title>
+      <link>https://github.com/Torusdrasocket/ai--manus2.0</link>
+      <guid isPermaLink="false">gh:torusdrasocket/ai--manus2.0</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
+    </item>
+    <item>
+      <title>[Tool] trackboatwrightplan/ai--manus2.0</title>
+      <link>https://github.com/trackboatwrightplan/ai--manus2.0</link>
+      <guid isPermaLink="false">gh:trackboatwrightplan/ai--manus2.0</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>github</category>
       <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
@@ -600,17 +304,17 @@
       <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
     </item>
     <item>
-      <title>[Tool] Torusdrasocket/ai--manus2.0</title>
-      <link>https://github.com/Torusdrasocket/ai--manus2.0</link>
-      <guid isPermaLink="false">gh:torusdrasocket/ai--manus2.0</guid>
+      <title>[Tool] TremorRatTackle/ai--manus2.0</title>
+      <link>https://github.com/TremorRatTackle/ai--manus2.0</link>
+      <guid isPermaLink="false">gh:tremorrattackle/ai--manus2.0</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>github</category>
       <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
     </item>
     <item>
-      <title>[Tool] TremorRatTackle/ai--manus2.0</title>
-      <link>https://github.com/TremorRatTackle/ai--manus2.0</link>
-      <guid isPermaLink="false">gh:tremorrattackle/ai--manus2.0</guid>
+      <title>[Tool] Ultimateakiln/ai--manus2.0</title>
+      <link>https://github.com/Ultimateakiln/ai--manus2.0</link>
+      <guid isPermaLink="false">gh:ultimateakiln/ai--manus2.0</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>github</category>
       <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
@@ -624,124 +328,420 @@
       <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
     </item>
     <item>
-      <title>[Tool] taboospecialistblade/ai--manus2.0</title>
-      <link>https://github.com/taboospecialistblade/ai--manus2.0</link>
-      <guid isPermaLink="false">gh:taboospecialistblade/ai--manus2.0</guid>
+      <title>[Corpus] AzhariFerdaous/moroccan_alignement_benchmark</title>
+      <link>https://huggingface.co/datasets/AzhariFerdaous/moroccan_alignement_benchmark</link>
+      <guid isPermaLink="false">hf:datasets:AzhariFerdaous/moroccan_alignement_benchmark</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>github</category>
-      <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
+      <category>huggingface</category>
+      <description>The Moroccan Alignment Benchmark — items with model answers 1,672 final items, with reference answers/keys, metadata, and saved answers from 17 evaluated systems (16 for short answer). Subset/configuration Split Items Model answer columns…</description>
     </item>
     <item>
-      <title>[Tool] Tonephorepair/ai--manus2.0</title>
-      <link>https://github.com/Tonephorepair/ai--manus2.0</link>
-      <guid isPermaLink="false">gh:tonephorepair/ai--manus2.0</guid>
+      <title>[Corpus] AzhariFerdaous/moroccan_alignement_benchmark_scores</title>
+      <link>https://huggingface.co/datasets/AzhariFerdaous/moroccan_alignement_benchmark_scores</link>
+      <guid isPermaLink="false">hf:datasets:AzhariFerdaous/moroccan_alignement_benchmark_scores</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>github</category>
-      <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
+      <category>huggingface</category>
+      <description>The Moroccan Alignment Benchmark — evaluation scores Companion to AzhariFerdaous/moroccan_alignement_benchmark. Contains existing model-level results, closed-format per-item verdicts, open-rubric breakdowns and winner-only open item…</description>
     </item>
     <item>
-      <title>[Tool] trackboatwrightplan/ai--manus2.0</title>
-      <link>https://github.com/trackboatwrightplan/ai--manus2.0</link>
-      <guid isPermaLink="false">gh:trackboatwrightplan/ai--manus2.0</guid>
+      <title>[Model] Phoonnx/coqui-vits-ca-custom-vits</title>
+      <link>https://huggingface.co/Phoonnx/coqui-vits-ca-custom-vits</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/coqui-vits-ca-custom-vits</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>github</category>
-      <description>AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.</description>
-    </item>
-    <item>
-      <title>[Corpus] Data, prompts and code for: The Limits of Large Language Models in Assessing People at Work. A Systematic Bibliometric Review of Validity, Fairness and Reproducibility Evidence in Human Resource Management (2023–2026)</title>
-      <link>https://zenodo.org/records/24226630</link>
-      <guid isPermaLink="false">zenodo:24226629</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>zenodo</category>
-      <description>This deposit contains the materials needed to reproduce the systematic bibliometric review "The Limits of Large Language Models in Assessing People at Work: A Systematic Bibliometric Review of Validity, Fairness and Reproducibility…</description>
-    </item>
-    <item>
-      <title>[Corpus] SOSA/SSN Usage Observatory</title>
-      <link>https://zenodo.org/records/24223889</link>
-      <guid isPermaLink="false">zenodo:24223888</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>zenodo</category>
-      <description>An observatory of how the W3C/OGC Semantic Sensor Network ontology (SSN) and its core, SOSA, are used in the scientific literature: every work that cites a publication on SOSA/SSN or writes its names in its full text (3,067 works in this…</description>
-    </item>
-    <item>
-      <title>[Corpus] INSTITUTIONAL REFERENCE AND SOURCE ATTRIBUTION IN ENGLISH AND UZBEK NEWS DISCOURSE: A CONTRASTIVE PRAGMATIC ANALYSIS</title>
-      <link>https://zenodo.org/records/24220653</link>
-      <guid isPermaLink="false">zenodo:24220652</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>zenodo</category>
+      <category>huggingface</category>
       <description></description>
     </item>
     <item>
-      <title>[Tool] Code, questions, ratings and redacted logs for the graph-RAG judge-reliability study (MJCSC-D-26-00033)</title>
-      <link>https://zenodo.org/records/24223394</link>
-      <guid isPermaLink="false">zenodo:24223393</guid>
+      <title>[Model] Phoonnx/coqui-vits-mt-cv-vits</title>
+      <link>https://huggingface.co/Phoonnx/coqui-vits-mt-cv-vits</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/coqui-vits-mt-cv-vits</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>zenodo</category>
-      <description>Code, question set, human ratings and redacted logs accompanying the article ‘The Reliability of a Small Local Large Language Model Judge for Comparing Graph-Augmented and Vector Retrieval: A Cautionary Case Study’ (Mesopotamian Journal…</description>
+      <category>huggingface</category>
+      <description></description>
     </item>
     <item>
-      <title>[Tool] EcoToxFred: a knowledge-graph-grounded conversational agent for ecotoxicological monitoring and hazard data</title>
-      <link>https://zenodo.org/records/24219536</link>
-      <guid isPermaLink="false">zenodo:24219535</guid>
+      <title>[Model] Phoonnx/glowtts-fr-fr-siwis</title>
+      <link>https://huggingface.co/Phoonnx/glowtts-fr-fr-siwis</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/glowtts-fr-fr-siwis</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>zenodo</category>
-      <description>EcoToxFred is a conversational agent that provides natural language access to a Neo4j knowledge graph of chemical monitoring and hazard data for European surface waters. This release includes the benchmark (questions, reference queries,…</description>
+      <category>huggingface</category>
+      <description></description>
     </item>
     <item>
-      <title>[Opportunity] LLM Data Researcher</title>
-      <link>https://nlppeople.com/jobs/llm-data-researcher-barcelona-2</link>
-      <guid isPermaLink="false">nlppeople:llm-data-researcher-barcelona-2</guid>
+      <title>[Model] Phoonnx/matcha-cat-central-graphemes-v2</title>
+      <link>https://huggingface.co/Phoonnx/matcha-cat-central-graphemes-v2</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/matcha-cat-central-graphemes-v2</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/matcha-cat-multiaccent-wavenext</title>
+      <link>https://huggingface.co/Phoonnx/matcha-cat-multiaccent-wavenext</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/matcha-cat-multiaccent-wavenext</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/matcha-cat-multispeaker-acoustic</title>
+      <link>https://huggingface.co/Phoonnx/matcha-cat-multispeaker-acoustic</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/matcha-cat-multispeaker-acoustic</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/matcha-cat-multispeaker-hifigan</title>
+      <link>https://huggingface.co/Phoonnx/matcha-cat-multispeaker-hifigan</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/matcha-cat-multispeaker-hifigan</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/matcha-cat-multispeaker-wavenext</title>
+      <link>https://huggingface.co/Phoonnx/matcha-cat-multispeaker-wavenext</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/matcha-cat-multispeaker-wavenext</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/matcha-proxectonos_brais-matcha-graphemes</title>
+      <link>https://huggingface.co/Phoonnx/matcha-proxectonos_brais-matcha-graphemes</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/matcha-proxectonos_brais-matcha-graphemes</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/matcha-proxectonos_celtia-matcha-graphemes</title>
+      <link>https://huggingface.co/Phoonnx/matcha-proxectonos_celtia-matcha-graphemes</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/matcha-proxectonos_celtia-matcha-graphemes</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/matcha-proxectonos_icia-extended-matcha-phonemes</title>
+      <link>https://huggingface.co/Phoonnx/matcha-proxectonos_icia-extended-matcha-phonemes</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/matcha-proxectonos_icia-extended-matcha-phonemes</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/matcha-proxectonos_icia-extended-matcha-phonemes-ljspeech</title>
+      <link>https://huggingface.co/Phoonnx/matcha-proxectonos_icia-extended-matcha-phonemes-ljspeech</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/matcha-proxectonos_icia-extended-matcha-phonemes-ljspeech</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/matcha-proxectonos_icia-matcha-phonemes</title>
+      <link>https://huggingface.co/Phoonnx/matcha-proxectonos_icia-matcha-phonemes</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/matcha-proxectonos_icia-matcha-phonemes</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/matcha-proxectonos_icia-matcha-phonemes-ljspeech</title>
+      <link>https://huggingface.co/Phoonnx/matcha-proxectonos_icia-matcha-phonemes-ljspeech</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/matcha-proxectonos_icia-matcha-phonemes-ljspeech</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/styletts2-bsc-ca-styletts2</title>
+      <link>https://huggingface.co/Phoonnx/styletts2-bsc-ca-styletts2</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/styletts2-bsc-ca-styletts2</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/styletts2-hitz-eu-emo-styletts2</title>
+      <link>https://huggingface.co/Phoonnx/styletts2-hitz-eu-emo-styletts2</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/styletts2-hitz-eu-emo-styletts2</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/styletts2-hitz-eu-styletts2</title>
+      <link>https://huggingface.co/Phoonnx/styletts2-hitz-eu-styletts2</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/styletts2-hitz-eu-styletts2</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/styletts2-proxectonos-gl-brais</title>
+      <link>https://huggingface.co/Phoonnx/styletts2-proxectonos-gl-brais</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/styletts2-proxectonos-gl-brais</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/styletts2-proxectonos-gl-celtia</title>
+      <link>https://huggingface.co/Phoonnx/styletts2-proxectonos-gl-celtia</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/styletts2-proxectonos-gl-celtia</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/vits-fr_FR-siwis-medium</title>
+      <link>https://huggingface.co/Phoonnx/vits-fr_FR-siwis-medium</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/vits-fr_FR-siwis-medium</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/vits-hf_community_projecte-aina_tts-ca-coqui-vits-multispeaker</title>
+      <link>https://huggingface.co/Phoonnx/vits-hf_community_projecte-aina_tts-ca-coqui-vits-multispeaker</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/vits-hf_community_projecte-aina_tts-ca-coqui-vits-multispeaker</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/vits-hitz-ca_ona</title>
+      <link>https://huggingface.co/Phoonnx/vits-hitz-ca_ona</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-ca_ona</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/vits-hitz-ca_pau</title>
+      <link>https://huggingface.co/Phoonnx/vits-hitz-ca_pau</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-ca_pau</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/vits-hitz-eu_antton</title>
+      <link>https://huggingface.co/Phoonnx/vits-hitz-eu_antton</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-eu_antton</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/vits-hitz-eu_maider</title>
+      <link>https://huggingface.co/Phoonnx/vits-hitz-eu_maider</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-eu_maider</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/vits-hitz-gl_brais</title>
+      <link>https://huggingface.co/Phoonnx/vits-hitz-gl_brais</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-gl_brais</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/vits-hitz-gl_celtia</title>
+      <link>https://huggingface.co/Phoonnx/vits-hitz-gl_celtia</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-gl_celtia</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/vits-hitz-gl_iago</title>
+      <link>https://huggingface.co/Phoonnx/vits-hitz-gl_iago</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-gl_iago</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/vits-hitz-gl_paulo</title>
+      <link>https://huggingface.co/Phoonnx/vits-hitz-gl_paulo</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-gl_paulo</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/vits-hitz-gl_sabela</title>
+      <link>https://huggingface.co/Phoonnx/vits-hitz-gl_sabela</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/vits-hitz-gl_sabela</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/vits-piper_ca_ES-upc_ona-x_low</title>
+      <link>https://huggingface.co/Phoonnx/vits-piper_ca_ES-upc_ona-x_low</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/vits-piper_ca_ES-upc_ona-x_low</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/vocoders-alvocat-vocos-22khz</title>
+      <link>https://huggingface.co/Phoonnx/vocoders-alvocat-vocos-22khz</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/vocoders-alvocat-vocos-22khz</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] Phoonnx/vocoders-wavenext-22khz</title>
+      <link>https://huggingface.co/Phoonnx/vocoders-wavenext-22khz</link>
+      <guid isPermaLink="false">hf:models:Phoonnx/vocoders-wavenext-22khz</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] jackyb1234/OmniVoice-Onnx</title>
+      <link>https://huggingface.co/jackyb1234/OmniVoice-Onnx</link>
+      <guid isPermaLink="false">hf:models:jackyb1234/OmniVoice-Onnx</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] mradermacher/MIST-QG-1.1-GGUF</title>
+      <link>https://huggingface.co/mradermacher/MIST-QG-1.1-GGUF</link>
+      <guid isPermaLink="false">hf:models:mradermacher/MIST-QG-1.1-GGUF</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] olaverse/MIST-QG-1.1</title>
+      <link>https://huggingface.co/olaverse/MIST-QG-1.1</link>
+      <guid isPermaLink="false">hf:models:olaverse/MIST-QG-1.1</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] voiceforever/parakeet-tdt-0.6b-v3-mlx-8bit</title>
+      <link>https://huggingface.co/voiceforever/parakeet-tdt-0.6b-v3-mlx-8bit</link>
+      <guid isPermaLink="false">hf:models:voiceforever/parakeet-tdt-0.6b-v3-mlx-8bit</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Model] wiamAi/darija-stories-llama-75m</title>
+      <link>https://huggingface.co/wiamAi/darija-stories-llama-75m</link>
+      <guid isPermaLink="false">hf:models:wiamAi/darija-stories-llama-75m</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>huggingface</category>
+      <description></description>
+    </item>
+    <item>
+      <title>[Opportunity] Abschlussarbeiten im Themenfeld: Computer Vision / Machine Vision</title>
+      <link>https://nlppeople.com/jobs/abschlussarbeiten-im-themenfeld-computer-vision-machine-vision-duisburg</link>
+      <guid isPermaLink="false">nlppeople:abschlussarbeiten-im-themenfeld-computer-vision-machine-vision-duisburg</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Investigates whether expert-authored datasets improve frontier language models through hands-on experimentation. Designs and runs evaluations of large language models across expert domains and turns findings into dataset…</description>
+      <description>Summary: Carry out a thesis on computer vision and machine vision topics, covering literature review, algorithm development and evaluation of image processing and machine learning methods. Das Fraunhofer IMS beschäftigt sich intensiv mit…</description>
     </item>
     <item>
-      <title>[Opportunity] Sr. Software Engineer, Machine Learning &amp; Data Infrastructure</title>
-      <link>https://nlppeople.com/jobs/sr-software-engineer-machine-learning-data-infrastructure-san-jose</link>
-      <guid isPermaLink="false">nlppeople:sr-software-engineer-machine-learning-data-infrastructure-san-jose</guid>
+      <title>[Opportunity] AI Applied Scientist</title>
+      <link>https://nlppeople.com/jobs/ai-applied-scientist-paris</link>
+      <guid isPermaLink="false">nlppeople:ai-applied-scientist-paris</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Builds and improves the machine learning and data infrastructure behind risk and fraud prevention systems, moving models into production and developing data pipelines for training and real-time decisions. Who We Are At OKX, we…</description>
+      <description>Summary: Turns Maki's science into client-facing AI scoring results by adapting models, analysing assessment data and testing fairness. Also improves the scoring systems used across client projects. About the Science and AI Team The…</description>
     </item>
     <item>
-      <title>[Opportunity] AI/ML Software engineer III</title>
-      <link>https://nlppeople.com/jobs/ai-ml-software-engineer-iii-bengaluru</link>
-      <guid isPermaLink="false">nlppeople:ai-ml-software-engineer-iii-bengaluru</guid>
+      <title>[Opportunity] AI Context Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-context-engineer-bengaluru</link>
+      <guid isPermaLink="false">nlppeople:ai-context-engineer-bengaluru</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Builds data pipelines, Spark and Airflow workflows and cloud data stores that support analytics and ML features for a cloud content application. Snapshot Synchronoss is a global player in the Technology, Media and…</description>
+      <description>Summary: Designs, develops, tests, and optimizes prompts for generative AI solutions powered by large language models. Evaluates AI outputs and improves model performance to deliver accurate, reliable, and scalable AI-driven solutions. AI…</description>
     </item>
     <item>
-      <title>[Opportunity] BAC+5 Stagiaire outils IA, développement, déploiement de solutions dans l'Ingénierie Nucléaire F/H</title>
-      <link>https://nlppeople.com/jobs/bac-5-stagiaire-outils-ia-developpement-deploiement-de-solutions-dans-l-ingenierie-nucleaire-f-h-marseille</link>
-      <guid isPermaLink="false">nlppeople:bac-5-stagiaire-outils-ia-developpement-deploiement-de-solutions-dans-l-ingenierie-nucleaire-f-h-marseille</guid>
+      <title>[Opportunity] AI Engineer 1016</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-1016-fully-remote-us</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-1016-fully-remote-us</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: The intern evaluates and experiments with different artificial intelligence approaches to improve access to technical information and knowledge management in nuclear park engineering. The role also involves prototyping and…</description>
+      <description>Summary: Designs, develops, and deploys AI/ML solutions, including Python-based applications, generative AI models, and integrations with APIs and backend systems. Replies within 24 hours Job Title: AI Engineer Experience: 3+ Years…</description>
     </item>
     <item>
-      <title>[Opportunity] Software Engineer I - AI/ML</title>
-      <link>https://nlppeople.com/jobs/software-engineer-i-ai-ml-chantilly</link>
-      <guid isPermaLink="false">nlppeople:software-engineer-i-ai-ml-chantilly</guid>
+      <title>[Opportunity] AI Engineer Claims 80-100% (m/w/d)</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-claims-80-100-m-w-d-wallisellen</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-claims-80-100-m-w-d-wallisellen</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Designs, develops, tests, and deploys AI-enabled services and applications for military networking and computing systems. Works with COTS networking and wireless technologies to build rugged, high-performance software. ###…</description>
+      <description>Summary: Develops and implements AI models and solutions for the claims domain, taking them from concept to production. Builds and quality-assures machine learning and generative AI solutions while supporting cloud data platforms. Wir…</description>
     </item>
     <item>
-      <title>[Opportunity] Staff / Principal ML Infrastructure Engineer</title>
-      <link>https://nlppeople.com/jobs/staff-principal-ml-infrastructure-engineer-cupertino</link>
-      <guid isPermaLink="false">nlppeople:staff-principal-ml-infrastructure-engineer-cupertino</guid>
+      <title>[Opportunity] AI Engineer: Evals</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-evals-london</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-evals-london</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Architects the on-disk table format, indexing structures, and Rust data plane that power large-scale ML training workloads. Leads design and code reviews while mentoring senior engineers. The Apple AI Platform team builds the…</description>
+      <description>Summary: Builds the evaluation discipline and shared frameworks that let teams design, deploy and improve trustworthy agents in production. Also develops public benchmarks for agents performing real engineering work. About us…</description>
     </item>
     <item>
-      <title>[Opportunity] Machine Learning Engineer</title>
-      <link>https://nlppeople.com/jobs/machine-learning-engineer-san-francisco-4</link>
-      <guid isPermaLink="false">nlppeople:machine-learning-engineer-san-francisco-4</guid>
+      <title>[Opportunity] AI Engineer (IA Gen &amp; LLM) H/F</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-ia-gen-llm-h-f-paris</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-ia-gen-llm-h-f-paris</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Builds machine learning and data platforms that power learning loops across Clay's product surfaces. Designs and ships recommendation and learning features, and builds evaluation systems that keep features trustworthy. About Clay…</description>
+      <description>Summary: Designs, deploys and evaluates LLM-based applications such as RAG, agents and business assistants for client projects. Integrates these solutions into existing systems while managing costs, latency and compliance. eXalt IT,…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer III</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-iii-new-york</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-iii-new-york</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds and ships production agentic AI features on real financial data, working alongside experienced engineers to design, implement, and operate LLM-powered systems. Joining Amex Tech means discovering and shaping your…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-india-4</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-india-4</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds, deploys, and improves AI-powered systems and features across the full lifecycle, from prototyping and model development to production monitoring. Works independently to turn AI concepts into reliable, scalable products.…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-new-york-2</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-new-york-2</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds and leads the architecture and agents of a production agentic AI system that automatically resolves insurance claim denials for healthcare practices. New York, NY · Full-time · Hybrid (in office 3 days a week) · $150,000 -…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-paris</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-paris</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Join Modjo to build and scale LLM and agent-based features for sales teams. You will design the agentic stack, architect end-to-end LLM features, and develop robust evaluation pipelines while collaborating with engineering and…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer (Python/LLM Agents) - Hybrid Porto (2 days/week office)</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-python-llm-agents-hybrid-porto-2-days-week-office-porto</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-python-llm-agents-hybrid-porto-2-days-week-office-porto</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs and builds agent-to-agent systems and pipelines that let autonomous agents share context and hand off tasks reliably in production. Turns business registry and web data into structured, auditable records. AI Engineer…</description>
     </item>
     <item>
       <title>[Opportunity] AI Engineer</title>
@@ -752,60 +752,60 @@
       <description>Summary: Owns a product domain end to end, from requirements through design, implementation, testing, deployment, and outcomes. Manages teams of AI agents and defines what they know, how they reason, and what they can do. ### Description…</description>
     </item>
     <item>
-      <title>[Opportunity] Staff Machine Learning Engineer - Vision AI</title>
-      <link>https://nlppeople.com/jobs/staff-machine-learning-engineer-vision-ai-remote-us</link>
-      <guid isPermaLink="false">nlppeople:staff-machine-learning-engineer-vision-ai-remote-us</guid>
+      <title>[Opportunity] AI Engineer - SME</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-sme-chantilly</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-sme-chantilly</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Builds and owns machine learning systems for Vision AI, from video processing services to customer-facing features used by restaurant operators. Sets technical direction and collaborates with product, design, and engineering…</description>
+      <description>Summary: Builds and deploys scalable AI, ML, and generative AI models, pipelines, and microservices for LLM applications and agentic workflows. Supports an in-house custom application across secure environments while mentoring engineers.…</description>
     </item>
     <item>
-      <title>[Opportunity] Principal Machine Learning Engineer, Vision AI</title>
-      <link>https://nlppeople.com/jobs/principal-machine-learning-engineer-vision-ai-remote-us</link>
-      <guid isPermaLink="false">nlppeople:principal-machine-learning-engineer-vision-ai-remote-us</guid>
+      <title>[Opportunity] AI Engineer - US Remote</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-us-remote-atlanta</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-us-remote-atlanta</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Architects and builds the platform behind Vision AI products, owning the technical direction and hands-on delivery of video analysis and machine learning systems. Works directly with restaurant operators to turn what cameras see…</description>
+      <description>Summary: Defines and ships vision models for factory automation, covering training, evaluation, and production deployment on cloud and edge hardware. Leads cross-team technical projects and mentors engineers. About Maneva Maneva is…</description>
     </item>
     <item>
-      <title>[Opportunity] Engineering Manager, Applied AI — NYC</title>
-      <link>https://nlppeople.com/jobs/engineering-manager-applied-ai-nyc-new-york</link>
-      <guid isPermaLink="false">nlppeople:engineering-manager-applied-ai-nyc-new-york</guid>
+      <title>[Opportunity] AI Engineer - US Remote</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-us-remote-boston</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-us-remote-boston</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Leads fullstack engineering teams building user-facing features and agentic AI workflows for legal and professional services. Also helps shape architecture, hires engineers, and drives product and technical delivery. Why Harvey…</description>
+      <description>Summary: Defines and ships vision models for factory automation, covering detection, VLM, and VLA workloads. Builds data pipelines, evaluation frameworks, and production deployment on cloud and edge hardware. About Maneva Maneva is…</description>
     </item>
     <item>
-      <title>[Opportunity] Machine Learning Engineer</title>
-      <link>https://nlppeople.com/jobs/machine-learning-engineer-bay-area-california-united-states</link>
-      <guid isPermaLink="false">nlppeople:machine-learning-engineer-bay-area-california-united-states</guid>
+      <title>[Opportunity] AI Engineer - US Remote</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-us-remote-chicago</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-us-remote-chicago</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Builds and scales the data, model training, and evaluation infrastructure behind AI model benchmarking. Works with researchers and product teams to turn new evaluation ideas into reliable systems. About Arena Intelligence Arena…</description>
+      <description>Summary: Defines and ships vision models for factory automation, covering training, evaluation, and production deployment on cloud and edge hardware. Leads cross-team technical projects and mentors engineers. About Maneva Maneva is…</description>
     </item>
     <item>
-      <title>[Opportunity] Staff AI/ML Engineer</title>
-      <link>https://nlppeople.com/jobs/staff-ai-ml-engineer-vancouver</link>
-      <guid isPermaLink="false">nlppeople:staff-ai-ml-engineer-vancouver</guid>
+      <title>[Opportunity] AI Engineer - US Remote</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-us-remote-dallas</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-us-remote-dallas</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Defines the AI/ML engineering strategy and standards, solves complex model development and serving challenges, and mentors senior engineers. Sets technical direction for the enterprise data and AI platform. Description &amp;…</description>
+      <description>Summary: Defines and ships vision models for factory automation, covering training, evaluation, and production deployment on cloud and edge hardware. Leads cross-team technical projects and mentors engineers. About Maneva Maneva is…</description>
     </item>
     <item>
-      <title>[Opportunity] Staff AI/ML Engineer</title>
-      <link>https://nlppeople.com/jobs/staff-ai-ml-engineer-seattle</link>
-      <guid isPermaLink="false">nlppeople:staff-ai-ml-engineer-seattle</guid>
+      <title>[Opportunity] AI Engineer - US Remote</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-us-remote-san-francisco</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-us-remote-san-francisco</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Defines the AI/ML engineering strategy and standards, solves complex model development and serving challenges, and mentors senior engineers. Sets technical direction for GenAI systems and enterprise AI platforms. Description &amp;…</description>
+      <description>Summary: Defines and ships vision models for factory automation, covering detection, VLM, and VLA workloads. Builds data pipelines, evaluation frameworks, and production deployment on cloud and edge hardware. About Maneva Maneva is…</description>
     </item>
     <item>
-      <title>[Opportunity] Principal Sofware Engineer, Applied AI</title>
-      <link>https://nlppeople.com/jobs/principal-sofware-engineer-applied-ai-santa-clara</link>
-      <guid isPermaLink="false">nlppeople:principal-sofware-engineer-applied-ai-santa-clara</guid>
+      <title>[Opportunity] AI Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-zurich-2</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-zurich-2</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Guides the platform from pre-release into production-ready customer deployments while setting engineering standards to scale. Sets technical direction, drives architecture and product decisions, and stays hands-on with code,…</description>
+      <description>Summary: Designs, builds and runs AI solutions such as LLM assistants, agents and RAG applications on enterprise data, taking them from prototype to stable production. Works with business teams to define use cases and measures their…</description>
     </item>
   </channel>
 </rss>
