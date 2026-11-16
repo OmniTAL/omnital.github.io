@@ -138,6 +138,7 @@
  "associate profesor,  translation theory and practice, samsifl": null,
  "associate professor (phd), university of journalism and mass communications of uzbekistan": null,
  "associate professor of the department of translation theory and practice samarkand state institute of foreign languages": null,
+ "associate professor, department of computer engineering, faculty of artificial intelligence and digital technologies, andijan state university; phd in technical sciences": null,
  "associate professor, department of english language  teaching methodology, uswlu, uzbekistan,": null,
  "associate professor, department of linguistics, fergana state university": null,
  "athens, greece": {
@@ -276,6 +277,7 @@
   "lng": 11.3588,
   "label": "Bolzano - Bozen"
  },
+ "bonn aachen international center for information technology": null,
  "bordeaux": {
   "lat": 44.8412,
   "lng": -0.58,
@@ -437,6 +439,7 @@
  "college of civil engineering, fuzhou university": null,
  "college of computer engineering, university of technology-iraq, baghdad, iraq": null,
  "college of humanities and social sciences, hamad bin khalifa university, doha, qatar": null,
+ "college of media and communication, texas tech university": null,
  "compiègne": {
   "lat": 49.4179,
   "lng": 2.8263,
@@ -609,6 +612,7 @@
  },
  "department of anesthesiology, fogang people's hospital, qingyuan, guangdong province, 511600, china": null,
  "department of biomedical sciences, link campus university, rome, italy": null,
+ "department of biomedical technologies, university of siena": null,
  "department of chemistry and biochemistry, university of california san diego": null,
  "department of civil and environmental engineering, monash university": null,
  "department of civil and environmental engineering, universitat politècnica de catalunya (upc), barcelona, spain": null,
@@ -1101,6 +1105,10 @@
  "gh:hexsyro": {
   "location": "Sri Lanka",
   "name": "Heshan Sanjuka"
+ },
+ "gh:hitkeeen": {
+  "location": null,
+  "name": "hitkeen"
  },
  "gh:hnlyf168": {
   "location": null,
@@ -1718,6 +1726,10 @@
   "location": null,
   "name": "tudoumashu"
  },
+ "gh:typetyrantscheme": {
+  "location": null,
+  "name": "typetyrantscheme"
+ },
  "gh:uclanlp": {
   "location": null,
   "name": "Natural Language Processing @UCLA"
@@ -1750,6 +1762,10 @@
   "location": null,
   "name": "violetkomodolimit"
  },
+ "gh:visionbeyondtrack": {
+  "location": null,
+  "name": "visionbeyondtrack"
+ },
  "gh:vornex-01": {
   "location": null,
   "name": "VORNEX-01"
@@ -1778,6 +1794,14 @@
   "location": "United States of America",
   "name": "WiCi Technologies"
  },
+ "gh:wingdatavacuum": {
+  "location": null,
+  "name": "wingdatavacuum"
+ },
+ "gh:winnerspecialist": {
+  "location": null,
+  "name": "winnerspecialist"
+ },
  "gh:wquguru": {
   "location": null,
   "name": "WquGuru"
@@ -1793,6 +1817,10 @@
  "gh:yaya-sy": {
   "location": "Paris",
   "name": "Yaya Sy"
+ },
+ "gh:yellowlaborermarket": {
+  "location": null,
+  "name": "yellowlaborermarket"
  },
  "gh:yeonwoosung": {
   "location": "Seoul",
@@ -3070,6 +3098,7 @@
   "fullname": "Mythologic"
  },
  "hf:n4derax20": null,
+ "hf:n4ze3m": null,
  "hf:nadineai1": null,
  "hf:nailyk14": null,
  "hf:naiveai": {
@@ -3089,6 +3118,7 @@
  },
  "hf:ncannings": null,
  "hf:necent": null,
+ "hf:nemya9066": null,
  "hf:nerkyor": null,
  "hf:neulab": {
   "fullname": "NeuLab @ LTI/CMU"
@@ -3362,6 +3392,9 @@
  "hf:salman-elhaddadi": null,
  "hf:salollaexperience": null,
  "hf:saloua-sarbout": null,
+ "hf:salt-nlp": {
+  "fullname": "Social And Language Technology Lab"
+ },
  "hf:salvacat": null,
  "hf:sam8000": null,
  "hf:samielakkad1": null,
@@ -3763,6 +3796,9 @@
  "hf:zouhar": null,
  "hf:zubr-ai": {
   "fullname": "Zubr AI community & developer"
+ },
+ "hf:zurichnlp": {
+  "fullname": "University of Zurich, Department of Computational Linguistics"
  },
  "hf:zyphra": {
   "fullname": "Zyphra"
@@ -4721,6 +4757,7 @@
   "lng": 103.8195,
   "label": "Singapour"
  },
+ "sintef ocean": null,
  "skopje, north macedonia": {
   "lat": 41.9962,
   "lng": 21.4319,
@@ -4956,6 +4993,11 @@
   "lng": 139.7639,
   "label": "Tokyo"
  },
+ "ton duc thang university": {
+  "lat": 10.732,
+  "lng": 106.6985,
+  "label": "Trường Đại học Tôn Đức Thắng"
+ },
  "tongji university": {
   "lat": 31.2847,
   "lng": 121.4969,
@@ -5131,6 +5173,11 @@
   "lng": -43.3692,
   "label": "Universidade Federal de Juiz de Fora"
  },
+ "universidade federal de pernambuco": {
+  "lat": -8.0524,
+  "lng": -34.9511,
+  "label": "Universidade Federal de Pernambuco"
+ },
  "universidade federal de santa catarina": {
   "lat": -27.6034,
   "lng": -48.5224,
@@ -5170,6 +5217,11 @@
   "lat": -7.9209,
   "lng": 112.5972,
   "label": "Universitas Muhammadiyah Malang"
+ },
+ "universitas muhammadiyah semarang": {
+  "lat": -7.0216,
+  "lng": 110.4617,
+  "label": "Universitas Muhammadiyah Semarang"
  },
  "universitas pendidikan indonesia": {
   "lat": -6.8612,
@@ -5566,6 +5618,11 @@
   "lng": 63.9528,
   "label": "Ouzbékistan"
  },
+ "valahia university of targoviste": {
+  "lat": 44.9433,
+  "lng": 25.4549,
+  "label": "Universitatea Valahia din Targoviste"
+ },
  "valenciennes, université polytechnique hauts-de-france": {
   "lat": 50.3225,
   "lng": 3.5136,
@@ -5591,6 +5648,11 @@
   "lat": -37.7524,
   "lng": 144.7979,
   "label": "Victoria University (St Albans Campus)"
+ },
+ "villanova university": {
+  "lat": 40.0368,
+  "lng": -75.342,
+  "label": "Villanova University"
  },
  "vsb - technical university of ostrava": null,
  "vtt technical research centre of finland": null,
@@ -6337,6 +6399,7 @@
  "wdn:since ai": null,
  "wdn:sister software": null,
  "wdn:small models for glam": null,
+ "wdn:social and language technology lab": null,
  "wdn:somast": null,
  "wdn:sonalect ag": null,
  "wdn:sp1der 1 organization": null,
@@ -6387,6 +6450,7 @@
  "wdn:uni parser team": null,
  "wdn:universal dependencies": null,
  "wdn:universal morphology": null,
+ "wdn:university of zurich department of computational linguistics": null,
  "wdn:univo": null,
  "wdn:unsloth ai": null,
  "wdn:unsw nlp": null,
