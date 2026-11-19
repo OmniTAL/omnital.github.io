@@ -10182,12 +10182,11 @@
    ],
    "lang_codes": [
     "arq",
-    "ary",
     "ar-dial"
    ],
    "description": {
-    "fr": "Jeu de données publié sur Hugging Face par algerian-nlp le 16 septembre 2026. Langue(s) : darija algérienne. Tâche : génération de texte. Taille : 10K<n<100K. Algerian Youtube Comments 55,365 raw YouTube comments on Algeria-related videos for Darija social-text modeling, from the Algerian NLP Collective.",
-    "en": "Dataset published on Hugging Face by algerian-nlp on 16 September 2026. Language(s): Algerian Arabic. Task: text generation. Size: 10K<n<100K. Algerian Youtube Comments 55,365 raw YouTube comments on Algeria-related videos for Darija social-text modeling, from the Algerian NLP Collective."
+    "fr": "Jeu de données publié sur Hugging Face par algerian-nlp le 16 septembre 2026. Langue(s) : darija algérienne. Tâche : génération de texte. Taille : 10K<n<100K. Algerian YouTube Comments Algerian YouTube Comments is a 55,365-row raw collection of user comments scraped from Algeria-related YouTube videos, preserved uncleaned across 885 Parquet shards for Algerian social-text…",
+    "en": "Dataset published on Hugging Face by algerian-nlp on 16 September 2026. Language(s): Algerian Arabic. Task: text generation. Size: 10K<n<100K. Algerian YouTube Comments Algerian YouTube Comments is a 55,365-row raw collection of user comments scraped from Algeria-related YouTube videos, preserved uncleaned across 885 Parquet shards for Algerian social-text…"
    },
    "notice_by": "règles"
   },
@@ -10221,8 +10220,8 @@
     "ary"
    ],
    "description": {
-    "fr": "Jeu de données publié sur Hugging Face par algerian-nlp le 16 septembre 2026. Langue(s) : darija algérienne. Tâche : génération de texte. Taille : 10K<n<100K. TinyStories Algerian Darija Synthetic short stories in Algerian Darja paired with their English originals, for Darija language modeling and translation, from the Algerian NLP Collective.",
-    "en": "Dataset published on Hugging Face by algerian-nlp on 16 September 2026. Language(s): Algerian Arabic. Task: text generation. Size: 10K<n<100K. TinyStories Algerian Darija Synthetic short stories in Algerian Darja paired with their English originals, for Darija language modeling and translation, from the Algerian NLP Collective."
+    "fr": "Jeu de données publié sur Hugging Face par algerian-nlp le 16 septembre 2026. Langue(s) : darija algérienne. Tâche : génération de texte. Taille : 10K<n<100K. TinyStories Algerian Darija TinyStories Algerian Darija is a 11,326-row synthetic narrative dataset pairing short stories generated in Algerian Darija (arq) with their English source stories across 381 Parquet shards,…",
+    "en": "Dataset published on Hugging Face by algerian-nlp on 16 September 2026. Language(s): Algerian Arabic. Task: text generation. Size: 10K<n<100K. TinyStories Algerian Darija TinyStories Algerian Darija is a 11,326-row synthetic narrative dataset pairing short stories generated in Algerian Darija (arq) with their English source stories across 381 Parquet shards,…"
    },
    "notice_by": "règles"
   },
@@ -10252,11 +10251,12 @@
     "arabe"
    ],
    "lang_codes": [
-    "arq"
+    "arq",
+    "ary"
    ],
    "description": {
-    "fr": "Jeu de données publié sur Hugging Face par algerian-nlp le 16 septembre 2026. Langue(s) : darija algérienne. Tâche : traduction automatique. Taille : 10K<n<100K. Algerian Arabic English Translation 50K 50,000 aligned Algerian Darja to English sentence pairs for machine translation, from the Algerian NLP Collective.",
-    "en": "Dataset published on Hugging Face by algerian-nlp on 16 September 2026. Language(s): Algerian Arabic. Task: translation. Size: 10K<n<100K. Algerian Arabic English Translation 50K 50,000 aligned Algerian Darja to English sentence pairs for machine translation, from the Algerian NLP Collective."
+    "fr": "Jeu de données publié sur Hugging Face par algerian-nlp le 16 septembre 2026. Langue(s) : darija algérienne. Tâche : traduction automatique. Taille : 10K<n<100K. Algerian Arabic–English Translation 50K Algerian Arabic–English Translation 50K is a 50,000-pair aligned Algerian Darija (arq)–English parallel dataset for machine translation and bilingual modeling, published by the…",
+    "en": "Dataset published on Hugging Face by algerian-nlp on 16 September 2026. Language(s): Algerian Arabic. Task: translation. Size: 10K<n<100K. Algerian Arabic–English Translation 50K Algerian Arabic–English Translation 50K is a 50,000-pair aligned Algerian Darija (arq)–English parallel dataset for machine translation and bilingual modeling, published by the…"
    },
    "notice_by": "règles"
   },
@@ -10287,11 +10287,12 @@
    ],
    "lang_codes": [
     "arq",
+    "ary",
     "ar-dial"
    ],
    "description": {
-    "fr": "Jeu de données publié sur Hugging Face par algerian-nlp le 16 septembre 2026. Langue(s) : darija algérienne. Tâche : génération de texte. Taille : 1K<n<10K. DziriAlign 1,000 preference pairs (prompt, chosen, rejected) for aligning language models with Algerian Darja and its sociocultural norms, from the Algerian NLP Collective.",
-    "en": "Dataset published on Hugging Face by algerian-nlp on 16 September 2026. Language(s): Algerian Arabic. Task: text generation. Size: 1K<n<10K. DziriAlign 1,000 preference pairs (prompt, chosen, rejected) for aligning language models with Algerian Darja and its sociocultural norms, from the Algerian NLP Collective."
+    "fr": "Jeu de données publié sur Hugging Face par algerian-nlp le 16 septembre 2026. Langue(s) : darija algérienne. Tâche : génération de texte. Taille : 1K<n<10K. DziriAlign DziriAlign is a 1,000-pair preference dataset (prompt, chosen, rejected) for aligning language models with natural Algerian Darija (arq) phrasing and sociocultural norms across market negotiation, daily…",
+    "en": "Dataset published on Hugging Face by algerian-nlp on 16 September 2026. Language(s): Algerian Arabic. Task: text generation. Size: 1K<n<10K. DziriAlign DziriAlign is a 1,000-pair preference dataset (prompt, chosen, rejected) for aligning language models with natural Algerian Darija (arq) phrasing and sociocultural norms across market negotiation, daily…"
    },
    "notice_by": "règles"
   },
@@ -10322,11 +10323,12 @@
    ],
    "lang_codes": [
     "arq",
+    "ary",
     "ar-dial"
    ],
    "description": {
-    "fr": "Jeu de données publié sur Hugging Face par algerian-nlp le 16 septembre 2026. Langue(s) : darija algérienne. Tâche : multiple choice. Taille : 1K<n<10K. DziriEval 1,000 native multiple-choice questions in Algerian Darja for LLM evaluation, from the Algerian NLP Collective.",
-    "en": "Dataset published on Hugging Face by algerian-nlp on 16 September 2026. Language(s): Algerian Arabic. Task: multiple choice. Size: 1K<n<10K. DziriEval 1,000 native multiple-choice questions in Algerian Darja for LLM evaluation, from the Algerian NLP Collective."
+    "fr": "Jeu de données publié sur Hugging Face par algerian-nlp le 16 septembre 2026. Langue(s) : darija algérienne. Tâche : multiple choice. Taille : 1K<n<10K. DziriEval DziriEval is a 1,000-question native multiple-choice evaluation benchmark in Algerian Darija (arq) testing cultural knowledge, geography, history, everyday life, and the Algerian lexicon — including Arabizi…",
+    "en": "Dataset published on Hugging Face by algerian-nlp on 16 September 2026. Language(s): Algerian Arabic. Task: multiple choice. Size: 1K<n<10K. DziriEval DziriEval is a 1,000-question native multiple-choice evaluation benchmark in Algerian Darija (arq) testing cultural knowledge, geography, history, everyday life, and the Algerian lexicon — including Arabizi…"
    },
    "notice_by": "règles"
   },
@@ -10357,11 +10359,12 @@
    ],
    "lang_codes": [
     "arq",
+    "ary",
     "ar-dial"
    ],
    "description": {
-    "fr": "Jeu de données publié sur Hugging Face par algerian-nlp le 16 septembre 2026. Langue(s) : darija algérienne. Tâche : génération de texte. Taille : 10K<n<100K. Algerian Darja Corpus 11,151 long-form conversational transcripts in Algerian Darja for language modeling of real spoken Algerian, by Kamel Touati (Independent AI Researcher, Algiers, ORCID 0009-0000-5330-2123, Hugging…",
-    "en": "Dataset published on Hugging Face by algerian-nlp on 16 September 2026. Language(s): Algerian Arabic. Task: text generation. Size: 10K<n<100K. Algerian Darja Corpus 11,151 long-form conversational transcripts in Algerian Darja for language modeling of real spoken Algerian, by Kamel Touati (Independent AI Researcher, Algiers, ORCID 0009-0000-5330-2123, Hugging…"
+    "fr": "Jeu de données publié sur Hugging Face par algerian-nlp le 16 septembre 2026. Langue(s) : darija algérienne. Tâche : génération de texte. Taille : 10K<n<100K. Algerian Darja Corpus Algerian Darja Corpus is a 11,151-document collection of long-form conversational transcripts in Algerian Darija (arq) totaling 34,336,366 words (~53M subword tokens), curated by Kamel Touati…",
+    "en": "Dataset published on Hugging Face by algerian-nlp on 16 September 2026. Language(s): Algerian Arabic. Task: text generation. Size: 10K<n<100K. Algerian Darja Corpus Algerian Darja Corpus is a 11,151-document collection of long-form conversational transcripts in Algerian Darija (arq) totaling 34,336,366 words (~53M subword tokens), curated by Kamel Touati…"
    },
    "notice_by": "règles"
   },
@@ -11951,28 +11954,6 @@
    "description": {
     "fr": "Jeu de données publié sur Hugging Face par toloka le 28 février 2025. Langue(s) : arabe, arb, darija marocaine, arz, apc. Tâche : génération de texte. Taille : 1K<n<10K. 📊 Curated by: Toloka, MBZUAI 🌐 Language(s): Modern Standard Arabic, 🇯🇴 Jordanian dialect, 🇪🇬 Egyptian dialect, 🇦🇪 Emirati dialect, 🇲🇦 Moroccan dialect 🔍 Dataset Description JEEM is a benchmark dataset designed to…",
     "en": "Dataset published on Hugging Face by toloka on 28 February 2025. Language(s): Arabic, arb, Moroccan Arabic, arz, apc. Task: text generation. Size: 1K<n<10K. 📊 Curated by: Toloka, MBZUAI 🌐 Language(s): Modern Standard Arabic, 🇯🇴 Jordanian dialect, 🇪🇬 Egyptian dialect, 🇦🇪 Emirati dialect, 🇲🇦 Moroccan dialect 🔍 Dataset Description JEEM is a benchmark dataset designed to…"
-   },
-   "notice_by": "règles"
-  },
-  "hf:datasets:allenai/Dolci-Instruct-SFT": {
-   "id": "hf:datasets:allenai/Dolci-Instruct-SFT",
-   "nom": "allenai/Dolci-Instruct-SFT",
-   "source": "veille",
-   "origin": "veille",
-   "provider": "huggingface",
-   "kind": "hf_dataset",
-   "categorie_key": "cat_Dataset",
-   "type": "Dataset (Hugging Face)",
-   "taille": "1M<n<10M",
-   "licence": "odc-by",
-   "licence_class": "unknown",
-   "lien": "https://huggingface.co/datasets/allenai/Dolci-Instruct-SFT",
-   "added": "2025-11-18",
-   "focus": false,
-   "region": "International",
-   "description": {
-    "fr": "Jeu de données publié sur Hugging Face par allenai le 18 novembre 2025. Tâche : other. Taille : 1M<n<10M. Dolci Instruct SFT Mixture Note that this collection licensed under ODC-BY.",
-    "en": "Dataset published on Hugging Face by allenai on 18 November 2025. Task: other. Size: 1M<n<10M. Dolci Instruct SFT Mixture Note that this collection licensed under ODC-BY."
    },
    "notice_by": "règles"
   },
@@ -27513,12 +27494,30 @@
    "lien": "https://huggingface.co/agentlans/multilingual-e5-small-doc-type-v2-classifier",
    "added": "2026-05-03",
    "focus": true,
-   "region": "International",
+   "region": "Maroc",
    "description": {
-    "fr": "Modèle publié sur Hugging Face par agentlans le 3 mai 2026. Dérivé de intfloat/multilingual-e5-small.",
-    "en": "Model published on Hugging Face by agentlans on 3 May 2026. Fine-tuned from intfloat/multilingual-e5-small."
+    "fr": "Modèle publié sur Hugging Face par agentlans le 3 mai 2026. Langue(s) : darija marocaine, arz, cat, eus, glg. Dérivé de intfloat/multilingual-e5-small.",
+    "en": "Model published on Hugging Face by agentlans on 3 May 2026. Language(s): Moroccan Arabic, arz, cat, eus, glg. Fine-tuned from intfloat/multilingual-e5-small."
    },
-   "notice_by": "règles"
+   "notice_by": "règles",
+   "langue": "Darija marocaine, Arz, Cat, Eus",
+   "city": "Maroc",
+   "lat": 33.5731,
+   "lng": -7.5898,
+   "pays": "Maroc",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe",
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ary",
+    "arz",
+    "ca",
+    "eu",
+    "gl",
+    "kmr"
+   ]
   },
   "hf:models:agentlans/multilingual-e5-small-domain-classifier": {
    "id": "hf:models:agentlans/multilingual-e5-small-domain-classifier",
@@ -27534,12 +27533,30 @@
    "lien": "https://huggingface.co/agentlans/multilingual-e5-small-domain-classifier",
    "added": "2026-05-03",
    "focus": true,
-   "region": "International",
+   "region": "Maroc",
    "description": {
-    "fr": "Modèle publié sur Hugging Face par agentlans le 3 mai 2026. Dérivé de intfloat/multilingual-e5-small.",
-    "en": "Model published on Hugging Face by agentlans on 3 May 2026. Fine-tuned from intfloat/multilingual-e5-small."
+    "fr": "Modèle publié sur Hugging Face par agentlans le 3 mai 2026. Langue(s) : darija marocaine, arz, cat, eus, glg. Dérivé de intfloat/multilingual-e5-small.",
+    "en": "Model published on Hugging Face by agentlans on 3 May 2026. Language(s): Moroccan Arabic, arz, cat, eus, glg. Fine-tuned from intfloat/multilingual-e5-small."
    },
-   "notice_by": "règles"
+   "notice_by": "règles",
+   "langue": "Darija marocaine, Arz, Cat, Eus",
+   "city": "Maroc",
+   "lat": 33.5731,
+   "lng": -7.5898,
+   "pays": "Maroc",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe",
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ary",
+    "arz",
+    "ca",
+    "eu",
+    "gl",
+    "kmr"
+   ]
   },
   "hf:models:agentlans/multilingual-e5-small-doc-type-v1-classifier": {
    "id": "hf:models:agentlans/multilingual-e5-small-doc-type-v1-classifier",
@@ -27555,12 +27572,30 @@
    "lien": "https://huggingface.co/agentlans/multilingual-e5-small-doc-type-v1-classifier",
    "added": "2026-05-03",
    "focus": true,
-   "region": "International",
+   "region": "Maroc",
    "description": {
-    "fr": "Modèle publié sur Hugging Face par agentlans le 3 mai 2026. Dérivé de intfloat/multilingual-e5-small.",
-    "en": "Model published on Hugging Face by agentlans on 3 May 2026. Fine-tuned from intfloat/multilingual-e5-small."
+    "fr": "Modèle publié sur Hugging Face par agentlans le 3 mai 2026. Langue(s) : darija marocaine, arz, cat, eus, glg. Dérivé de intfloat/multilingual-e5-small.",
+    "en": "Model published on Hugging Face by agentlans on 3 May 2026. Language(s): Moroccan Arabic, arz, cat, eus, glg. Fine-tuned from intfloat/multilingual-e5-small."
    },
-   "notice_by": "règles"
+   "notice_by": "règles",
+   "langue": "Darija marocaine, Arz, Cat, Eus",
+   "city": "Maroc",
+   "lat": 33.5731,
+   "lng": -7.5898,
+   "pays": "Maroc",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe",
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ary",
+    "arz",
+    "ca",
+    "eu",
+    "gl",
+    "kmr"
+   ]
   },
   "hf:models:alphaedge-ai/Qwen3-1.7B-eus-32768": {
    "id": "hf:models:alphaedge-ai/Qwen3-1.7B-eus-32768",
@@ -30134,12 +30169,24 @@
    "lien": "https://huggingface.co/alphaedge-ai/multilingual-e5-small-arg-16384",
    "added": "2025-11-14",
    "focus": true,
-   "region": "International",
+   "region": "Aragon",
    "description": {
-    "fr": "Modèle publié sur Hugging Face par alphaedge-ai le 14 novembre 2025. Tâche : similarité de phrases. Dérivé de intfloat/multilingual-e5-small.",
-    "en": "Model published on Hugging Face by alphaedge-ai on 14 November 2025. Task: sentence similarity. Fine-tuned from intfloat/multilingual-e5-small."
+    "fr": "Modèle publié sur Hugging Face par alphaedge-ai le 14 novembre 2025. Langue(s) : arg. Tâche : similarité de phrases. Dérivé de intfloat/multilingual-e5-small.",
+    "en": "Model published on Hugging Face by alphaedge-ai on 14 November 2025. Language(s): arg. Task: sentence similarity. Fine-tuned from intfloat/multilingual-e5-small."
    },
-   "notice_by": "règles"
+   "notice_by": "règles",
+   "langue": "Arg",
+   "city": "Aragon",
+   "lat": 42.1362,
+   "lng": -0.4087,
+   "pays": "Aragon",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "an"
+   ]
   },
   "hf:models:mamei16/chonky_distilbert-base-multilingual-cased": {
    "id": "hf:models:mamei16/chonky_distilbert-base-multilingual-cased",
@@ -31180,17 +31227,20 @@
    "pays": "Catalogne",
    "geo_precision": "langue",
    "lang_groups": [
-    "mediterranee"
+    "mediterranee",
+    "nationales"
    ],
    "lang_codes": [
     "ca",
-    "oc"
+    "oc",
+    "es"
    ],
    "description": {
-    "fr": "Modèle publié sur Hugging Face par WindyWord le 20 avril 2026. Tâche : traduction automatique. Dérivé de Helsinki-NLP/opus-mt-tc-big-en-cat_oci_spa.",
-    "en": "Model published on Hugging Face by WindyWord on 20 April 2026. Task: translation. Fine-tuned from Helsinki-NLP/opus-mt-tc-big-en-cat_oci_spa."
+    "fr": "Modèle publié sur Hugging Face par WindyWord le 20 avril 2026. Langue(s) : cat, oci. Tâche : traduction automatique. Dérivé de Helsinki-NLP/opus-mt-tc-big-en-cat_oci_spa.",
+    "en": "Model published on Hugging Face by WindyWord on 20 April 2026. Language(s): cat, oci. Task: translation. Fine-tuned from Helsinki-NLP/opus-mt-tc-big-en-cat_oci_spa."
    },
-   "notice_by": "règles"
+   "notice_by": "règles",
+   "langue": "Cat, Oci"
   },
   "hf:models:WindyWord/translate-tc-big-cat_oci_spa-en": {
    "id": "hf:models:WindyWord/translate-tc-big-cat_oci_spa-en",
@@ -31213,17 +31263,20 @@
    "pays": "Catalogne",
    "geo_precision": "langue",
    "lang_groups": [
-    "mediterranee"
+    "mediterranee",
+    "nationales"
    ],
    "lang_codes": [
     "ca",
-    "oc"
+    "oc",
+    "es"
    ],
    "description": {
-    "fr": "Modèle publié sur Hugging Face par WindyWord le 20 avril 2026. Tâche : traduction automatique. Dérivé de Helsinki-NLP/opus-mt-tc-big-cat_oci_spa-en.",
-    "en": "Model published on Hugging Face by WindyWord on 20 April 2026. Task: translation. Fine-tuned from Helsinki-NLP/opus-mt-tc-big-cat_oci_spa-en."
+    "fr": "Modèle publié sur Hugging Face par WindyWord le 20 avril 2026. Langue(s) : cat, oci. Tâche : traduction automatique. Dérivé de Helsinki-NLP/opus-mt-tc-big-cat_oci_spa-en.",
+    "en": "Model published on Hugging Face by WindyWord on 20 April 2026. Language(s): cat, oci. Task: translation. Fine-tuned from Helsinki-NLP/opus-mt-tc-big-cat_oci_spa-en."
    },
-   "notice_by": "règles"
+   "notice_by": "règles",
+   "langue": "Cat, Oci"
   },
   "hf:models:WindstormLabs/origin-Helsinki-NLP-opus-mt-tc-bible-big-roa-en": {
    "id": "hf:models:WindstormLabs/origin-Helsinki-NLP-opus-mt-tc-bible-big-roa-en",
@@ -50582,7 +50635,7 @@
    "langue": "Eng",
    "licence": "mit-license",
    "licence_class": "open",
-   "lien": "https://zenodo.org/records/21823153",
+   "lien": "https://zenodo.org/records/24345356",
    "added": "2026-08-06",
    "focus": false,
    "region": "Turquie",
@@ -50592,8 +50645,8 @@
    "pays": "Turquie",
    "geo_precision": "langue",
    "description": {
-    "fr": "Logiciel déposé sur Zenodo le 6 août 2026 par Aslan, Özkan. Langue(s) : tr. Licence : mit-license. DistillProbe is a modular probing framework that maps the \"loss spectrum\" of distilled static embeddings: what linguistic structure survives when a contextual sentence transformer is collapsed into a bag-of-words lookup…",
-    "en": "Software deposited on Zenodo on 6 August 2026 by Aslan, Özkan. Language(s): tr. License: mit-license. DistillProbe is a modular probing framework that maps the \"loss spectrum\" of distilled static embeddings: what linguistic structure survives when a contextual sentence transformer is collapsed into a bag-of-words lookup…"
+    "fr": "Logiciel déposé sur Zenodo le 18 novembre 2026 par Aslan, Özkan. Langue(s) : tr. Licence : mit-license. DistillProbe is a modular probing framework that measures what static sentence encoders retain of a contextual reference encoder across five linguistic axes -- morphology, polysemy, syntactic role, cross-lingual…",
+    "en": "Software deposited on Zenodo on 18 November 2026 by Aslan, Özkan. Language(s): tr. License: mit-license. DistillProbe is a modular probing framework that measures what static sentence encoders retain of a contextual reference encoder across five linguistic axes -- morphology, polysemy, syntactic role, cross-lingual…"
    },
    "notice_by": "règles",
    "lang_groups": [
@@ -63397,7 +63450,7 @@
   },
   "zenodo:23151913": {
    "id": "zenodo:23151913",
-   "nom": "Prior colonization with multidrug-resistant organisms as a predictor of etiology, empirical therapy and outcomes in HAP/VAP: systematic review and meta-analysis - dataset, screening log and analysis code (PROSPERO CRD420261374138)",
+   "nom": "Prior colonization with multidrug-resistant organisms as a predictor of the causative pathogen in hospital-acquired and ventilator-associated pneumonia: a systematic review and meta-analysis by site of colonization - dataset, screening log and analysis code (PROSPERO CRD420261374138)",
    "source": "veille",
    "origin": "veille",
    "provider": "zenodo",
@@ -63407,7 +63460,7 @@
    "langue": "Eng",
    "licence": "cc-by-4.0",
    "licence_class": "open",
-   "lien": "https://zenodo.org/records/23151914",
+   "lien": "https://zenodo.org/records/24364110",
    "added": "2026-10-05",
    "focus": false,
    "region": "King Saud bin Abdulaziz University for Health Sciences",
@@ -63417,8 +63470,8 @@
    "pays": "King Saud bin Abdulaziz University for Health Sciences",
    "geo_precision": "lieu",
    "description": {
-    "fr": "Jeu de données déposé sur Zenodo le 1 octobre 2026 par Awadh, Abdullah. Langue(s) : eng. Licence : cc-by-4.0. Data and code for the systematic review and meta-analysis \"Prior colonization with multidrug-resistant organisms as a predictor of etiology, empirical therapy and outcomes in hospital-acquired and ventilator-associated…",
-    "en": "Dataset deposited on Zenodo on 1 October 2026 by Awadh, Abdullah. Language(s): eng. License: cc-by-4.0. Data and code for the systematic review and meta-analysis \"Prior colonization with multidrug-resistant organisms as a predictor of etiology, empirical therapy and outcomes in hospital-acquired and ventilator-associated…"
+    "fr": "Jeu de données déposé sur Zenodo le 19 novembre 2026 par Awadh, Abdullah. Langue(s) : eng. Licence : cc-by-4.0. Data and code for the systematic review and meta-analysis \"Prior colonization with multidrug-resistant organisms as a predictor of the causative pathogen in hospital-acquired and ventilator-associated pneumonia: a…",
+    "en": "Dataset deposited on Zenodo on 19 November 2026 by Awadh, Abdullah. Language(s): eng. License: cc-by-4.0. Data and code for the systematic review and meta-analysis \"Prior colonization with multidrug-resistant organisms as a predictor of the causative pathogen in hospital-acquired and ventilator-associated pneumonia: a…"
    },
    "notice_by": "règles"
   },
@@ -68247,7 +68300,6 @@
    "kind": "hf_dataset",
    "categorie_key": "cat_Dataset",
    "type": "Dataset (Hugging Face)",
-   "langue": "Anglais",
    "taille": "1K<n<10K",
    "licence": "cc-by-4.0",
    "licence_class": "open",
@@ -68257,8 +68309,8 @@
    "region": "International",
    "trending": true,
    "description": {
-    "fr": "Jeu de données publié sur Hugging Face par Idavidrein le 27 novembre 2023. Langue(s) : anglais. Tâche : questions-réponses. Taille : 1K<n<10K. GPQA is a multiple-choice, Q&A dataset of very hard questions written and validated by experts in biology, physics, and chemistry.",
-    "en": "Dataset published on Hugging Face by Idavidrein on 27 November 2023. Language(s): English. Task: question answering. Size: 1K<n<10K. GPQA is a multiple-choice, Q&A dataset of very hard questions written and validated by experts in biology, physics, and chemistry."
+    "fr": "Jeu de données publié sur Hugging Face par Idavidrein le 27 novembre 2023. Tâche : questions-réponses. Taille : 1K<n<10K. GPQA is a multiple-choice, Q&A dataset of very hard questions written and validated by experts in biology, physics, and chemistry.",
+    "en": "Dataset published on Hugging Face by Idavidrein on 27 November 2023. Task: question answering. Size: 1K<n<10K. GPQA is a multiple-choice, Q&A dataset of very hard questions written and validated by experts in biology, physics, and chemistry."
    },
    "notice_by": "règles"
   },
@@ -68815,13 +68867,13 @@
    "langue": "Eng",
    "licence": "cc-by-4.0",
    "licence_class": "open",
-   "lien": "https://zenodo.org/records/23210360",
+   "lien": "https://zenodo.org/records/24345701",
    "added": "2026-10-08",
    "focus": false,
    "region": "International",
    "description": {
-    "fr": "Jeu de données déposé sur Zenodo le 7 octobre 2026 par Calvo, Amaia, Cejudo, Ander, Martin, Cristina. Langue(s) : eng. Licence : cc-by-4.0. Data Description The QoL_Stress dataset is organized into collections exported as CSV files.",
-    "en": "Dataset deposited on Zenodo on 7 October 2026 by Calvo, Amaia, Cejudo, Ander, Martin, Cristina. Language(s): eng. License: cc-by-4.0. Data Description The QoL_Stress dataset is organized into collections exported as CSV files."
+    "fr": "Jeu de données déposé sur Zenodo le 18 novembre 2026 par Calvo, Amaia, Cejudo, Ander, Martin, Cristina. Langue(s) : eng. Licence : cc-by-4.0. Data Description The QoL_Stress dataset is organized into collections exported as CSV files.",
+    "en": "Dataset deposited on Zenodo on 18 November 2026 by Calvo, Amaia, Cejudo, Ander, Martin, Cristina. Language(s): eng. License: cc-by-4.0. Data Description The QoL_Stress dataset is organized into collections exported as CSV files."
    },
    "notice_by": "règles"
   },
@@ -86979,7 +87031,7 @@
    "categorie_key": "cat_Tool",
    "type": "Logiciel (Zenodo)",
    "licence_class": "unknown",
-   "lien": "https://zenodo.org/records/24329429",
+   "lien": "https://zenodo.org/records/24349840",
    "added": "2026-10-20",
    "focus": false,
    "region": "International",
@@ -108130,13 +108182,13 @@
    "type": "Logiciel (Zenodo)",
    "licence": "mit-license",
    "licence_class": "open",
-   "lien": "https://zenodo.org/records/24305214",
+   "lien": "https://zenodo.org/records/24351080",
    "added": "2026-11-05",
    "focus": false,
    "region": "International",
    "description": {
-    "fr": "Logiciel déposé sur Zenodo le 17 novembre 2026 par Ciepluch, Marius. Licence : mit-license. Lesscode is a research project on making AI-generated codebases smaller and less entangled while keeping their behaviour at the public surface.",
-    "en": "Software deposited on Zenodo on 17 November 2026 by Ciepluch, Marius. License: mit-license. Lesscode is a research project on making AI-generated codebases smaller and less entangled while keeping their behaviour at the public surface."
+    "fr": "Logiciel déposé sur Zenodo le 18 novembre 2026 par Ciepluch, Marius. Licence : mit-license. Lesscode is a research project on making AI-generated codebases smaller and less entangled while keeping their behaviour at the public surface.",
+    "en": "Software deposited on Zenodo on 18 November 2026 by Ciepluch, Marius. License: mit-license. Lesscode is a research project on making AI-generated codebases smaller and less entangled while keeping their behaviour at the public surface."
    },
    "notice_by": "règles"
   },
@@ -121976,8 +122028,8 @@
    "geo_precision": "organisation",
    "geo_source": "GitHub · WiCi Technologies",
    "description": {
-    "fr": "Dépôt GitHub écrit en C++, créé le 22 octobre 2026 par wici-ai. Run models larger than your RAM or VRAM by streaming MoE experts from SSD. Thèmes : apple-silicon, cuda, gguf, inference, llama-cpp.",
-    "en": "GitHub repository written in C++, created on 22 October 2026 by wici-ai. Run models larger than your RAM or VRAM by streaming MoE experts from SSD. Topics: apple-silicon, cuda, gguf, inference, llama-cpp."
+    "fr": "Dépôt GitHub écrit en C++, créé le 22 octobre 2026 par wici-ai. Run models larger than your RAM or VRAM by streaming MoE experts from SSD. Thèmes : cuda, gguf, linux, llama-cpp, llm.",
+    "en": "GitHub repository written in C++, created on 22 October 2026 by wici-ai. Run models larger than your RAM or VRAM by streaming MoE experts from SSD. Topics: cuda, gguf, linux, llama-cpp, llm."
    },
    "notice_by": "règles"
   },
@@ -132719,13 +132771,13 @@
    "type": "Jeu de données (Zenodo)",
    "licence": "cc-by-4.0",
    "licence_class": "open",
-   "lien": "https://zenodo.org/records/24271187",
+   "lien": "https://zenodo.org/records/24357143",
    "added": "2026-11-16",
    "focus": false,
    "region": "International",
    "description": {
-    "fr": "Jeu de données déposé sur Zenodo le 16 novembre 2026 par Anonymous. Licence : cc-by-4.0. Anonymized replication package for the manuscript \"When Assistance Becomes Substitution: Cognitive Agency and Psychological Dependency in Large Language Model Use\", which is under double-anonymized peer review.",
-    "en": "Dataset deposited on Zenodo on 16 November 2026 by Anonymous. License: cc-by-4.0. Anonymized replication package for the manuscript \"When Assistance Becomes Substitution: Cognitive Agency and Psychological Dependency in Large Language Model Use\", which is under double-anonymized peer review."
+    "fr": "Jeu de données déposé sur Zenodo le 18 novembre 2026 par Anonymous. Licence : cc-by-4.0. Anonymized replication package for the manuscript \"When Assistance Becomes Substitution: Cognitive Agency and Psychological Dependency in Large Language Model Use\", which is under double-anonymized peer review.",
+    "en": "Dataset deposited on Zenodo on 18 November 2026 by Anonymous. License: cc-by-4.0. Anonymized replication package for the manuscript \"When Assistance Becomes Substitution: Cognitive Agency and Psychological Dependency in Large Language Model Use\", which is under double-anonymized peer review."
    },
    "notice_by": "règles"
   },
@@ -139401,6 +139453,2750 @@
     "en": "Software deposited on Zenodo on 17 November 2026 by Flávio Codeço Coelho. License: gpl-3.0. Features feat(graph): graphify-inspired upgrades — Louvain communities, bridges, edge provenance, hub suppression feat(embed): per-request auto_ingest override + part-aware delete_document feat(graph): stubs endpoint…"
    },
    "notice_by": "règles"
+  },
+  "hf:datasets:MineAITechnology/mine-embed-v3-dataset": {
+   "id": "hf:datasets:MineAITechnology/mine-embed-v3-dataset",
+   "nom": "MineAITechnology/mine-embed-v3-dataset",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "taille": "1M<n<10M",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/datasets/MineAITechnology/mine-embed-v3-dataset",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par MineAITechnology le 17 novembre 2026. Tâche : similarité de phrases. Taille : 1M<n<10M. mine-embed multilingual pairs: one .npy file 4,647,029 cleaned, deduplicated text pairs in 71 public sources for training multilingual embedding models, already tokenized and packed into one NumPy file:…",
+    "en": "Dataset published on Hugging Face by MineAITechnology on 17 November 2026. Task: sentence similarity. Size: 1M<n<10M. mine-embed multilingual pairs: one .npy file 4,647,029 cleaned, deduplicated text pairs in 71 public sources for training multilingual embedding models, already tokenized and packed into one NumPy file:…"
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:HYUKI5/cis-lmu__Taxi1500-RawData": {
+   "id": "hf:datasets:HYUKI5/cis-lmu__Taxi1500-RawData",
+   "nom": "HYUKI5/cis-lmu__Taxi1500-RawData",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/datasets/HYUKI5/cis-lmu__Taxi1500-RawData",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par HYUKI5 le 18 novembre 2026. cis-lmu/Taxi1500-RawData（複製） データの内容 聖書の節の本文を言語ごとに集めた、生のテキストのデータ。1 行が 1 節の本文で、text に本文、lang_script に acr_Latn のような言語と文字体系のコードが入る。Taxi1500-c_v3.0 コーパスから分類ラベルと節の ID を除いたもので、形式は Glot500 と同じである。 データの概要 項目 値 行数 15,583,678（960…",
+    "en": "Dataset published on Hugging Face by HYUKI5 on 18 November 2026. cis-lmu/Taxi1500-RawData（複製） データの内容 聖書の節の本文を言語ごとに集めた、生のテキストのデータ。1 行が 1 節の本文で、text に本文、lang_script に acr_Latn のような言語と文字体系のコードが入る。Taxi1500-c_v3.0 コーパスから分類ラベルと節の ID を除いたもので、形式は Glot500 と同じである。 データの概要 項目 値 行数 15,583,678（960…"
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:LangTech-MT/IEA-AALO_aranese_monolingual_corpus": {
+   "id": "hf:datasets:LangTech-MT/IEA-AALO_aranese_monolingual_corpus",
+   "nom": "LangTech-MT/IEA-AALO_aranese_monolingual_corpus",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Oc",
+   "taille": "n<1K",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/LangTech-MT/IEA-AALO_aranese_monolingual_corpus",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Occitanie",
+   "city": "Occitanie",
+   "lat": 43.6047,
+   "lng": 1.4442,
+   "pays": "Occitanie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "oc"
+   ],
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par LangTech-MT le 30 octobre 2026. Langue(s) : oc. Tâche : traduction automatique. Taille : n<1K. Aranese Monolingual Corpus Dataset Summary A monolingual document-level corpus of Aranese (the Occitan variety of the Val d'Aran, labelled oc_arn) built from texts extracted from the website of the Institut d'Estudis…",
+    "en": "Dataset published on Hugging Face by LangTech-MT on 30 October 2026. Language(s): oc. Task: translation. Size: n<1K. Aranese Monolingual Corpus Dataset Summary A monolingual document-level corpus of Aranese (the Occitan variety of the Val d'Aran, labelled oc_arn) built from texts extracted from the website of the Institut d'Estudis…"
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:HYUKI5/coastalcph__multi_eurlex": {
+   "id": "hf:datasets:HYUKI5/coastalcph__multi_eurlex",
+   "nom": "HYUKI5/coastalcph__multi_eurlex",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "taille": "10K<n<100K",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/HYUKI5/coastalcph__multi_eurlex",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par HYUKI5 le 18 novembre 2026. Tâche : classification de textes. Taille : 10K<n<100K. coastalcph/multi_eurlex（複製） データの内容 EU の法令（EUR-Lex）の本文を 23 の公用語で集め、EUROVOC の概念でラベルを付けたデータ。1 行が 1 件の法令で、celex_id、本文の text、ラベルの組 labels が入っている。ラベルは EU 出版局が付けたもので、階層の上位 3…",
+    "en": "Dataset published on Hugging Face by HYUKI5 on 18 November 2026. Task: text classification. Size: 10K<n<100K. coastalcph/multi_eurlex（複製） データの内容 EU の法令（EUR-Lex）の本文を 23 の公用語で集め、EUROVOC の概念でラベルを付けたデータ。1 行が 1 件の法令で、celex_id、本文の text、ラベルの組 labels が入っている。ラベルは EU 出版局が付けたもので、階層の上位 3…"
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:Frishtx/kurmanji-hate-speech": {
+   "id": "hf:datasets:Frishtx/kurmanji-hate-speech",
+   "nom": "Frishtx/kurmanji-hate-speech",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Kmr",
+   "taille": "1K<n<10K",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/Frishtx/kurmanji-hate-speech",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par Frishtx le 18 novembre 2026. Langue(s) : kmr. Tâche : classification de textes. Taille : 1K<n<10K. Kurmanji Hate Speech Dataset A binary hate speech dataset for Kurmanji (Northern Kurdish), made for training and evaluating hate speech detection models for social media comments.",
+    "en": "Dataset published on Hugging Face by Frishtx on 18 November 2026. Language(s): kmr. Task: text classification. Size: 1K<n<10K. Kurmanji Hate Speech Dataset A binary hate speech dataset for Kurmanji (Northern Kurdish), made for training and evaluating hate speech detection models for social media comments."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:LKPrajapati/KuSL2023-Dataset": {
+   "id": "hf:datasets:LKPrajapati/KuSL2023-Dataset",
+   "nom": "LKPrajapati/KuSL2023-Dataset",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Ku",
+   "taille": "1K<n<10K",
+   "licence": "cc-by-nc-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/LKPrajapati/KuSL2023-Dataset",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par LKPrajapati le 19 novembre 2026. Langue(s) : ku. Tâche : image classification. Taille : 1K<n<10K.",
+    "en": "Dataset published on Hugging Face by LKPrajapati on 19 November 2026. Language(s): ku. Task: image classification. Size: 1K<n<10K."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:Kandil7/wanees-action-v1": {
+   "id": "hf:datasets:Kandil7/wanees-action-v1",
+   "nom": "Kandil7/wanees-action-v1",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Arabe, Arz",
+   "taille": "10K<n<100K",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/Kandil7/wanees-action-v1",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Égypte",
+   "city": "Égypte",
+   "lat": 30.0444,
+   "lng": 31.2357,
+   "pays": "Égypte",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe",
+    "nationales"
+   ],
+   "lang_codes": [
+    "arz",
+    "ar"
+   ],
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par Kandil7 le 18 novembre 2026. Langue(s) : arabe, arz. Tâche : génération de texte. Taille : 10K<n<100K. Wanees-Action v1 — Safety-Grounded Mobile Function Calling A function-calling dataset for on-device mobile assistants, designed to train lightweight models (e.g.",
+    "en": "Dataset published on Hugging Face by Kandil7 on 18 November 2026. Language(s): Arabic, arz. Task: text generation. Size: 10K<n<100K. Wanees-Action v1 — Safety-Grounded Mobile Function Calling A function-calling dataset for on-device mobile assistants, designed to train lightweight models (e.g."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:AfriSpeech/gemma-3-1b-translate-sft-best": {
+   "id": "hf:models:AfriSpeech/gemma-3-1b-translate-sft-best",
+   "nom": "AfriSpeech/gemma-3-1b-translate-sft-best",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Tachelhit, Kabyle, Tamazight du maroc central, Arz",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/AfriSpeech/gemma-3-1b-translate-sft-best",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Souss",
+   "city": "Souss",
+   "lat": 30.4278,
+   "lng": -9.5981,
+   "pays": "Souss",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe",
+    "berbere"
+   ],
+   "lang_codes": [
+    "shi",
+    "kab",
+    "tzm",
+    "arz",
+    "taq",
+    "zgh"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par AfriSpeech le 19 novembre 2026. Langue(s) : tachelhit, kabyle, tamazight du Maroc central, arz, tamasheq. Tâche : traduction automatique. Dérivé de google/gemma-3-1b-it.",
+    "en": "Model published on Hugging Face by AfriSpeech on 19 November 2026. Language(s): Tachelhit, Kabyle, Central Atlas Tamazight, arz, Tamasheq. Task: translation. Fine-tuned from google/gemma-3-1b-it."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:AfriSpeech/gemma-3-1b-translate-best": {
+   "id": "hf:models:AfriSpeech/gemma-3-1b-translate-best",
+   "nom": "AfriSpeech/gemma-3-1b-translate-best",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Tachelhit, Kabyle, Tamazight du maroc central, Arz",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/AfriSpeech/gemma-3-1b-translate-best",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Souss",
+   "city": "Souss",
+   "lat": 30.4278,
+   "lng": -9.5981,
+   "pays": "Souss",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe",
+    "berbere"
+   ],
+   "lang_codes": [
+    "shi",
+    "kab",
+    "tzm",
+    "arz",
+    "taq",
+    "zgh"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par AfriSpeech le 19 novembre 2026. Langue(s) : tachelhit, kabyle, tamazight du Maroc central, arz, tamasheq. Tâche : traduction automatique. Dérivé de google/gemma-3-1b-it.",
+    "en": "Model published on Hugging Face by AfriSpeech on 19 November 2026. Language(s): Tachelhit, Kabyle, Central Atlas Tamazight, arz, Tamasheq. Task: translation. Fine-tuned from google/gemma-3-1b-it."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Phoonnx/vits-kab-mms-graphemes": {
+   "id": "hf:models:Phoonnx/vits-kab-mms-graphemes",
+   "nom": "Phoonnx/vits-kab-mms-graphemes",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kabyle",
+   "licence": "cc-by-nc-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/Phoonnx/vits-kab-mms-graphemes",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kabylie",
+   "city": "Kabylie",
+   "lat": 36.7118,
+   "lng": 4.0459,
+   "pays": "Kabylie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "berbere"
+   ],
+   "lang_codes": [
+    "kab"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Phoonnx le 18 novembre 2026. Langue(s) : kabyle. Tâche : synthèse vocale.",
+    "en": "Model published on Hugging Face by Phoonnx on 18 November 2026. Language(s): Kabyle. Task: text to speech."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Infinix-io/s2-pro-fp8": {
+   "id": "hf:models:Infinix-io/s2-pro-fp8",
+   "nom": "Infinix-io/s2-pro-fp8",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Eu, Ca, Gl",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/Infinix-io/s2-pro-fp8",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Pays basque",
+   "city": "Pays basque",
+   "lat": 43.263,
+   "lng": -2.935,
+   "pays": "Pays basque",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "eu",
+    "ca",
+    "gl"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Infinix-io le 19 novembre 2026. Langue(s) : eu, ca, gl. Tâche : synthèse vocale. Dérivé de fishaudio/s2-pro.",
+    "en": "Model published on Hugging Face by Infinix-io on 19 November 2026. Language(s): eu, ca, gl. Task: text to speech. Fine-tuned from fishaudio/s2-pro."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:litert-community/Rumble-2-Flash-LiteRT": {
+   "id": "hf:models:litert-community/Rumble-2-Flash-LiteRT",
+   "nom": "litert-community/Rumble-2-Flash-LiteRT",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Ca, Eu, Mt",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/litert-community/Rumble-2-Flash-LiteRT",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca",
+    "eu",
+    "mt"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par litert-community le 19 novembre 2026. Langue(s) : ca, eu, mt. Tâche : reconnaissance de la parole. Dérivé de Reson8/Rumble-2-Flash.",
+    "en": "Model published on Hugging Face by litert-community on 19 November 2026. Language(s): ca, eu, mt. Task: automatic speech recognition. Fine-tuned from Reson8/Rumble-2-Flash."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Jeffarese/flowie-ca-es-conformer-coreml": {
+   "id": "hf:models:Jeffarese/flowie-ca-es-conformer-coreml",
+   "nom": "Jeffarese/flowie-ca-es-conformer-coreml",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Ca",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/Jeffarese/flowie-ca-es-conformer-coreml",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee",
+    "nationales"
+   ],
+   "lang_codes": [
+    "ca",
+    "es"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Jeffarese le 18 novembre 2026. Langue(s) : ca. Tâche : reconnaissance de la parole. Dérivé de projecte-aina/stt_ca-es_conformer_transducer_large.",
+    "en": "Model published on Hugging Face by Jeffarese on 18 November 2026. Language(s): ca. Task: automatic speech recognition. Fine-tuned from projecte-aina/stt_ca-es_conformer_transducer_large."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:AtomicChat/Rumble-2-Flash-GGUF": {
+   "id": "hf:models:AtomicChat/Rumble-2-Flash-GGUF",
+   "nom": "AtomicChat/Rumble-2-Flash-GGUF",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Ca, Eu, Mt",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/AtomicChat/Rumble-2-Flash-GGUF",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca",
+    "eu",
+    "mt"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par AtomicChat le 18 novembre 2026. Langue(s) : ca, eu, mt. Tâche : reconnaissance de la parole. Dérivé de Reson8/Rumble-2-Flash.",
+    "en": "Model published on Hugging Face by AtomicChat on 18 November 2026. Language(s): ca, eu, mt. Task: automatic speech recognition. Fine-tuned from Reson8/Rumble-2-Flash."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:TechnoBaptist/Rumble-2-Flash": {
+   "id": "hf:models:TechnoBaptist/Rumble-2-Flash",
+   "nom": "TechnoBaptist/Rumble-2-Flash",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Ca, Eu, Mt",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/TechnoBaptist/Rumble-2-Flash",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca",
+    "eu",
+    "mt"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par TechnoBaptist le 18 novembre 2026. Langue(s) : ca, eu, mt. Tâche : reconnaissance de la parole.",
+    "en": "Model published on Hugging Face by TechnoBaptist on 18 November 2026. Language(s): ca, eu, mt. Task: automatic speech recognition."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Azyan02/piper-voices": {
+   "id": "hf:models:Azyan02/piper-voices",
+   "nom": "Azyan02/piper-voices",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Ca",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/Azyan02/piper-voices",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Azyan02 le 18 novembre 2026. Langue(s) : ca.",
+    "en": "Model published on Hugging Face by Azyan02 on 18 November 2026. Language(s): ca."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:arvins01/faster-whisper-small": {
+   "id": "hf:models:arvins01/faster-whisper-small",
+   "nom": "arvins01/faster-whisper-small",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Ca, Eu, Gl, Oc",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/arvins01/faster-whisper-small",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca",
+    "eu",
+    "gl",
+    "oc",
+    "mt"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par arvins01 le 18 novembre 2026. Langue(s) : ca, eu, gl, oc, mt. Tâche : reconnaissance de la parole.",
+    "en": "Model published on Hugging Face by arvins01 on 18 November 2026. Language(s): ca, eu, gl, oc, mt. Task: automatic speech recognition."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:OVHaiLLM/Olala-v1.0-mini-7A1B-MLX": {
+   "id": "hf:models:OVHaiLLM/Olala-v1.0-mini-7A1B-MLX",
+   "nom": "OVHaiLLM/Olala-v1.0-mini-7A1B-MLX",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Ca",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/OVHaiLLM/Olala-v1.0-mini-7A1B-MLX",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par OVHaiLLM le 16 novembre 2026. Langue(s) : ca. Tâche : génération de texte. Dérivé de OVHaiLLM/Olala-v1.0-mini-7A1B.",
+    "en": "Model published on Hugging Face by OVHaiLLM on 16 November 2026. Language(s): ca. Task: text generation. Fine-tuned from OVHaiLLM/Olala-v1.0-mini-7A1B."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:OVHaiLLM/Olala-v1.0-mini-7A1B-base": {
+   "id": "hf:models:OVHaiLLM/Olala-v1.0-mini-7A1B-base",
+   "nom": "OVHaiLLM/Olala-v1.0-mini-7A1B-base",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Ca",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/OVHaiLLM/Olala-v1.0-mini-7A1B-base",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par OVHaiLLM le 16 novembre 2026. Langue(s) : ca. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by OVHaiLLM on 16 November 2026. Language(s): ca. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:OVHaiLLM/Olala-v1.0-mini-7A1B-SFT": {
+   "id": "hf:models:OVHaiLLM/Olala-v1.0-mini-7A1B-SFT",
+   "nom": "OVHaiLLM/Olala-v1.0-mini-7A1B-SFT",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Ca",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/OVHaiLLM/Olala-v1.0-mini-7A1B-SFT",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par OVHaiLLM le 16 novembre 2026. Langue(s) : ca. Tâche : génération de texte. Dérivé de OVHaiLLM/Olala-v1.0-mini-7A1B-base.",
+    "en": "Model published on Hugging Face by OVHaiLLM on 16 November 2026. Language(s): ca. Task: text generation. Fine-tuned from OVHaiLLM/Olala-v1.0-mini-7A1B-base."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:mradermacher/Latxa-3-122B-A10B-i1-GGUF": {
+   "id": "hf:models:mradermacher/Latxa-3-122B-A10B-i1-GGUF",
+   "nom": "mradermacher/Latxa-3-122B-A10B-i1-GGUF",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Eu",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/mradermacher/Latxa-3-122B-A10B-i1-GGUF",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Pays basque",
+   "city": "Pays basque",
+   "lat": 43.263,
+   "lng": -2.935,
+   "pays": "Pays basque",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "eu"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par mradermacher le 19 novembre 2026. Langue(s) : eu. Dérivé de HiTZ/Latxa-3-122B-A10B.",
+    "en": "Model published on Hugging Face by mradermacher on 19 November 2026. Language(s): eu. Fine-tuned from HiTZ/Latxa-3-122B-A10B."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:mradermacher/Latxa-3-122B-A10B-GGUF": {
+   "id": "hf:models:mradermacher/Latxa-3-122B-A10B-GGUF",
+   "nom": "mradermacher/Latxa-3-122B-A10B-GGUF",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Eu",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/mradermacher/Latxa-3-122B-A10B-GGUF",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Pays basque",
+   "city": "Pays basque",
+   "lat": 43.263,
+   "lng": -2.935,
+   "pays": "Pays basque",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "eu"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par mradermacher le 19 novembre 2026. Langue(s) : eu. Dérivé de HiTZ/Latxa-3-122B-A10B.",
+    "en": "Model published on Hugging Face by mradermacher on 19 November 2026. Language(s): eu. Fine-tuned from HiTZ/Latxa-3-122B-A10B."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:HiTZ/Latxa-3-122B-A10B-FP8": {
+   "id": "hf:models:HiTZ/Latxa-3-122B-A10B-FP8",
+   "nom": "HiTZ/Latxa-3-122B-A10B-FP8",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Eu",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/HiTZ/Latxa-3-122B-A10B-FP8",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Pays basque",
+   "city": "Pays basque",
+   "lat": 43.263,
+   "lng": -2.935,
+   "pays": "Pays basque",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "eu"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par HiTZ le 18 novembre 2026. Langue(s) : eu. Tâche : vision-langage. Dérivé de HiTZ/Latxa-3-122B-A10B.",
+    "en": "Model published on Hugging Face by HiTZ on 18 November 2026. Language(s): eu. Task: image text to text. Fine-tuned from HiTZ/Latxa-3-122B-A10B."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:HiTZ/Latxa-3-122B-A10B": {
+   "id": "hf:models:HiTZ/Latxa-3-122B-A10B",
+   "nom": "HiTZ/Latxa-3-122B-A10B",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Eu",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/HiTZ/Latxa-3-122B-A10B",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Pays basque",
+   "city": "Pays basque",
+   "lat": 43.263,
+   "lng": -2.935,
+   "pays": "Pays basque",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "eu"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par HiTZ le 18 novembre 2026. Langue(s) : eu. Tâche : vision-langage. Dérivé de Qwen/Qwen3.5-122B-A10B.",
+    "en": "Model published on Hugging Face by HiTZ on 18 November 2026. Language(s): eu. Task: image text to text. Fine-tuned from Qwen/Qwen3.5-122B-A10B."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:captaainal/baby-cry-ast": {
+   "id": "hf:models:captaainal/baby-cry-ast",
+   "nom": "captaainal/baby-cry-ast",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Ast",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/captaainal/baby-cry-ast",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Asturies",
+   "city": "Asturies",
+   "lat": 43.3614,
+   "lng": -5.8593,
+   "pays": "Asturies",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ast"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par captaainal le 19 novembre 2026. Langue(s) : ast. Tâche : classification audio. Dérivé de MIT/ast-finetuned-audioset-10-10-0.4593.",
+    "en": "Model published on Hugging Face by captaainal on 19 November 2026. Language(s): ast. Task: audio classification. Fine-tuned from MIT/ast-finetuned-audioset-10-10-0.4593."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:otavio-lemos/oci-copilot-jr-dataset": {
+   "id": "hf:models:otavio-lemos/oci-copilot-jr-dataset",
+   "nom": "otavio-lemos/oci-copilot-jr-dataset",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Oci",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/otavio-lemos/oci-copilot-jr-dataset",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Occitanie",
+   "city": "Occitanie",
+   "lat": 43.6047,
+   "lng": 1.4442,
+   "pays": "Occitanie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "oc"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par otavio-lemos le 19 avril 2026. Langue(s) : oci.",
+    "en": "Model published on Hugging Face by otavio-lemos on 19 April 2026. Language(s): oci."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:otavio-lemos/oci-copilot-jr": {
+   "id": "hf:models:otavio-lemos/oci-copilot-jr",
+   "nom": "otavio-lemos/oci-copilot-jr",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Oci",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/otavio-lemos/oci-copilot-jr",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Occitanie",
+   "city": "Occitanie",
+   "lat": 43.6047,
+   "lng": 1.4442,
+   "pays": "Occitanie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "oc"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par otavio-lemos le 19 avril 2026. Langue(s) : oci.",
+    "en": "Model published on Hugging Face by otavio-lemos on 19 April 2026. Language(s): oci."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:otavio-lemos/oci-copilot-jr-safetensors": {
+   "id": "hf:models:otavio-lemos/oci-copilot-jr-safetensors",
+   "nom": "otavio-lemos/oci-copilot-jr-safetensors",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Oci",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/otavio-lemos/oci-copilot-jr-safetensors",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Occitanie",
+   "city": "Occitanie",
+   "lat": 43.6047,
+   "lng": 1.4442,
+   "pays": "Occitanie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "oc"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par otavio-lemos le 19 avril 2026. Langue(s) : oci.",
+    "en": "Model published on Hugging Face by otavio-lemos on 19 April 2026. Language(s): oci."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:atrezonator/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B": {
+   "id": "hf:models:atrezonator/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "nom": "atrezonator/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Mt",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/atrezonator/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Malte",
+   "city": "Malte",
+   "lat": 35.8989,
+   "lng": 14.5146,
+   "pays": "Malte",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "mt"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par atrezonator le 18 novembre 2026. Langue(s) : mt. Tâche : reconnaissance de la parole. Dérivé de nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16.",
+    "en": "Model published on Hugging Face by atrezonator on 18 November 2026. Language(s): mt. Task: automatic speech recognition. Fine-tuned from nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:kwar9898/parakeet-tdt-0.6b-v3": {
+   "id": "hf:models:kwar9898/parakeet-tdt-0.6b-v3",
+   "nom": "kwar9898/parakeet-tdt-0.6b-v3",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Mt",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/kwar9898/parakeet-tdt-0.6b-v3",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Malte",
+   "city": "Malte",
+   "lat": 35.8989,
+   "lng": 14.5146,
+   "pays": "Malte",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "mt"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par kwar9898 le 18 novembre 2026. Langue(s) : mt. Tâche : reconnaissance de la parole.",
+    "en": "Model published on Hugging Face by kwar9898 on 18 November 2026. Language(s): mt. Task: automatic speech recognition."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:kaptionai/parakeet-tdt-0.6b-v3-ultra-onnx-q4": {
+   "id": "hf:models:kaptionai/parakeet-tdt-0.6b-v3-ultra-onnx-q4",
+   "nom": "kaptionai/parakeet-tdt-0.6b-v3-ultra-onnx-q4",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Mt",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/kaptionai/parakeet-tdt-0.6b-v3-ultra-onnx-q4",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Malte",
+   "city": "Malte",
+   "lat": 35.8989,
+   "lng": 14.5146,
+   "pays": "Malte",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "mt"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par kaptionai le 18 novembre 2026. Langue(s) : mt. Tâche : reconnaissance de la parole. Dérivé de moondream/parakeet-ultra.",
+    "en": "Model published on Hugging Face by kaptionai on 18 November 2026. Language(s): mt. Task: automatic speech recognition. Fine-tuned from moondream/parakeet-ultra."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Phoonnx/vits-kmr_arab-mms-graphemes": {
+   "id": "hf:models:Phoonnx/vits-kmr_arab-mms-graphemes",
+   "nom": "Phoonnx/vits-kmr_arab-mms-graphemes",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kmr",
+   "licence": "cc-by-nc-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/Phoonnx/vits-kmr_arab-mms-graphemes",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Phoonnx le 18 novembre 2026. Langue(s) : kmr. Tâche : synthèse vocale.",
+    "en": "Model published on Hugging Face by Phoonnx on 18 November 2026. Language(s): kmr. Task: text to speech."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Phoonnx/vits-kmr_latn-mms-graphemes": {
+   "id": "hf:models:Phoonnx/vits-kmr_latn-mms-graphemes",
+   "nom": "Phoonnx/vits-kmr_latn-mms-graphemes",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kmr",
+   "licence": "cc-by-nc-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/Phoonnx/vits-kmr_latn-mms-graphemes",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Phoonnx le 18 novembre 2026. Langue(s) : kmr. Tâche : synthèse vocale.",
+    "en": "Model published on Hugging Face by Phoonnx on 18 November 2026. Language(s): kmr. Task: text to speech."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Phoonnx/vits-kmr_cyrl-mms-graphemes": {
+   "id": "hf:models:Phoonnx/vits-kmr_cyrl-mms-graphemes",
+   "nom": "Phoonnx/vits-kmr_cyrl-mms-graphemes",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kmr",
+   "licence": "cc-by-nc-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/Phoonnx/vits-kmr_cyrl-mms-graphemes",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Phoonnx le 18 novembre 2026. Langue(s) : kmr. Tâche : synthèse vocale.",
+    "en": "Model published on Hugging Face by Phoonnx on 18 November 2026. Language(s): kmr. Task: text to speech."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:LKPrajapati/kurdish2023": {
+   "id": "hf:models:LKPrajapati/kurdish2023",
+   "nom": "LKPrajapati/kurdish2023",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Ku",
+   "licence": "cc-by-nc-4.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/LKPrajapati/kurdish2023",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par LKPrajapati le 19 novembre 2026. Langue(s) : ku. Tâche : image classification. Dérivé de google/mobilenet_v2_1.0_224.",
+    "en": "Model published on Hugging Face by LKPrajapati on 19 November 2026. Language(s): ku. Task: image classification. Fine-tuned from google/mobilenet_v2_1.0_224."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:durth6/aya-101": {
+   "id": "hf:models:durth6/aya-101",
+   "nom": "durth6/aya-101",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Cat, Eus, Glg, Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/durth6/aya-101",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca",
+    "eu",
+    "gl",
+    "kmr",
+    "mt"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par durth6 le 27 février 2026. Langue(s) : cat, eus, glg, kur, mlt.",
+    "en": "Model published on Hugging Face by durth6 on 27 February 2026. Language(s): cat, eus, glg, kur, mlt."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:m-i/Mistral-7B-Instruct-Aya-101-mlx-6Bit": {
+   "id": "hf:models:m-i/Mistral-7B-Instruct-Aya-101-mlx-6Bit",
+   "nom": "m-i/Mistral-7B-Instruct-Aya-101-mlx-6Bit",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Cat, Eus, Glg, Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/m-i/Mistral-7B-Instruct-Aya-101-mlx-6Bit",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca",
+    "eu",
+    "gl",
+    "kmr",
+    "mt"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par m-i le 25 janvier 2026. Langue(s) : cat, eus, glg, kur, mlt. Dérivé de MaziyarPanahi/Mistral-7B-Instruct-Aya-101.",
+    "en": "Model published on Hugging Face by m-i on 25 January 2026. Language(s): cat, eus, glg, kur, mlt. Fine-tuned from MaziyarPanahi/Mistral-7B-Instruct-Aya-101."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:mradermacher/Mistral-7B-Instruct-Aya-101-GGUF": {
+   "id": "hf:models:mradermacher/Mistral-7B-Instruct-Aya-101-GGUF",
+   "nom": "mradermacher/Mistral-7B-Instruct-Aya-101-GGUF",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Cat, Eus, Glg, Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/mradermacher/Mistral-7B-Instruct-Aya-101-GGUF",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca",
+    "eu",
+    "gl",
+    "kmr",
+    "mt"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par mradermacher le 5 novembre 2024. Langue(s) : cat, eus, glg, kur, mlt. Dérivé de MaziyarPanahi/Mistral-7B-Instruct-Aya-101.",
+    "en": "Model published on Hugging Face by mradermacher on 5 November 2024. Language(s): cat, eus, glg, kur, mlt. Fine-tuned from MaziyarPanahi/Mistral-7B-Instruct-Aya-101."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:goldfish-models/kur_latn_5mb": {
+   "id": "hf:models:goldfish-models/kur_latn_5mb",
+   "nom": "goldfish-models/kur_latn_5mb",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/goldfish-models/kur_latn_5mb",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par goldfish-models le 14 août 2024. Langue(s) : kur. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by goldfish-models on 14 August 2024. Language(s): kur. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:goldfish-models/kur_arab_5mb": {
+   "id": "hf:models:goldfish-models/kur_arab_5mb",
+   "nom": "goldfish-models/kur_arab_5mb",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/goldfish-models/kur_arab_5mb",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par goldfish-models le 14 août 2024. Langue(s) : kur. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by goldfish-models on 14 August 2024. Language(s): kur. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:goldfish-models/kmr_latn_5mb": {
+   "id": "hf:models:goldfish-models/kmr_latn_5mb",
+   "nom": "goldfish-models/kmr_latn_5mb",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kmr, Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/goldfish-models/kmr_latn_5mb",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par goldfish-models le 14 août 2024. Langue(s) : kmr, kur. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by goldfish-models on 14 August 2024. Language(s): kmr, kur. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:goldfish-models/ckb_arab_5mb": {
+   "id": "hf:models:goldfish-models/ckb_arab_5mb",
+   "nom": "goldfish-models/ckb_arab_5mb",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/goldfish-models/ckb_arab_5mb",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par goldfish-models le 14 août 2024. Langue(s) : kur. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by goldfish-models on 14 August 2024. Language(s): kur. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:goldfish-models/kur_latn_10mb": {
+   "id": "hf:models:goldfish-models/kur_latn_10mb",
+   "nom": "goldfish-models/kur_latn_10mb",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/goldfish-models/kur_latn_10mb",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par goldfish-models le 13 août 2024. Langue(s) : kur. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by goldfish-models on 13 August 2024. Language(s): kur. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:goldfish-models/kur_arab_10mb": {
+   "id": "hf:models:goldfish-models/kur_arab_10mb",
+   "nom": "goldfish-models/kur_arab_10mb",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/goldfish-models/kur_arab_10mb",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par goldfish-models le 13 août 2024. Langue(s) : kur. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by goldfish-models on 13 August 2024. Language(s): kur. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:goldfish-models/kmr_latn_10mb": {
+   "id": "hf:models:goldfish-models/kmr_latn_10mb",
+   "nom": "goldfish-models/kmr_latn_10mb",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kmr, Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/goldfish-models/kmr_latn_10mb",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par goldfish-models le 13 août 2024. Langue(s) : kmr, kur. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by goldfish-models on 13 August 2024. Language(s): kmr, kur. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:goldfish-models/ckb_arab_10mb": {
+   "id": "hf:models:goldfish-models/ckb_arab_10mb",
+   "nom": "goldfish-models/ckb_arab_10mb",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/goldfish-models/ckb_arab_10mb",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par goldfish-models le 13 août 2024. Langue(s) : kur. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by goldfish-models on 13 August 2024. Language(s): kur. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:goldfish-models/kur_latn_100mb": {
+   "id": "hf:models:goldfish-models/kur_latn_100mb",
+   "nom": "goldfish-models/kur_latn_100mb",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/goldfish-models/kur_latn_100mb",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par goldfish-models le 12 août 2024. Langue(s) : kur. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by goldfish-models on 12 August 2024. Language(s): kur. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:goldfish-models/kur_arab_100mb": {
+   "id": "hf:models:goldfish-models/kur_arab_100mb",
+   "nom": "goldfish-models/kur_arab_100mb",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/goldfish-models/kur_arab_100mb",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par goldfish-models le 12 août 2024. Langue(s) : kur. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by goldfish-models on 12 August 2024. Language(s): kur. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:goldfish-models/ckb_arab_100mb": {
+   "id": "hf:models:goldfish-models/ckb_arab_100mb",
+   "nom": "goldfish-models/ckb_arab_100mb",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/goldfish-models/ckb_arab_100mb",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par goldfish-models le 12 août 2024. Langue(s) : kur. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by goldfish-models on 12 August 2024. Language(s): kur. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:goldfish-models/kur_latn_full": {
+   "id": "hf:models:goldfish-models/kur_latn_full",
+   "nom": "goldfish-models/kur_latn_full",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/goldfish-models/kur_latn_full",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par goldfish-models le 11 août 2024. Langue(s) : kur. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by goldfish-models on 11 August 2024. Language(s): kur. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:goldfish-models/kur_arab_full": {
+   "id": "hf:models:goldfish-models/kur_arab_full",
+   "nom": "goldfish-models/kur_arab_full",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/goldfish-models/kur_arab_full",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par goldfish-models le 11 août 2024. Langue(s) : kur. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by goldfish-models on 11 August 2024. Language(s): kur. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:goldfish-models/kmr_latn_full": {
+   "id": "hf:models:goldfish-models/kmr_latn_full",
+   "nom": "goldfish-models/kmr_latn_full",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kmr, Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/goldfish-models/kmr_latn_full",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par goldfish-models le 11 août 2024. Langue(s) : kmr, kur. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by goldfish-models on 11 August 2024. Language(s): kmr, kur. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:goldfish-models/ckb_arab_full": {
+   "id": "hf:models:goldfish-models/ckb_arab_full",
+   "nom": "goldfish-models/ckb_arab_full",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Kur",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/goldfish-models/ckb_arab_full",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Kurdistan",
+   "city": "Kurdistan",
+   "lat": 37.9144,
+   "lng": 40.2306,
+   "pays": "Kurdistan",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "kmr"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par goldfish-models le 10 août 2024. Langue(s) : kur. Tâche : génération de texte.",
+    "en": "Model published on Hugging Face by goldfish-models on 10 August 2024. Language(s): kur. Task: text generation."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Tilas/nemotron-3.5-darija-v1": {
+   "id": "hf:models:Tilas/nemotron-3.5-darija-v1",
+   "nom": "Tilas/nemotron-3.5-darija-v1",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Darija marocaine",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/Tilas/nemotron-3.5-darija-v1",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Maroc",
+   "city": "Maroc",
+   "lat": 33.5731,
+   "lng": -7.5898,
+   "pays": "Maroc",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "ary"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Tilas le 18 novembre 2026. Langue(s) : darija marocaine. Tâche : reconnaissance de la parole. Dérivé de nvidia/nemotron-3.5-asr-streaming-0.6b.",
+    "en": "Model published on Hugging Face by Tilas on 18 November 2026. Language(s): Moroccan Arabic. Task: automatic speech recognition. Fine-tuned from nvidia/nemotron-3.5-asr-streaming-0.6b."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:s1nju/zaki-livekit-wakeword-onnx": {
+   "id": "hf:models:s1nju/zaki-livekit-wakeword-onnx",
+   "nom": "s1nju/zaki-livekit-wakeword-onnx",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Darija algérienne",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/s1nju/zaki-livekit-wakeword-onnx",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Algérie",
+   "city": "Algérie",
+   "lat": 36.7538,
+   "lng": 3.0588,
+   "pays": "Algérie",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "arq"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par s1nju le 18 novembre 2026. Langue(s) : darija algérienne.",
+    "en": "Model published on Hugging Face by s1nju on 18 November 2026. Language(s): Algerian Arabic."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:akmalmanggala/pdu-apd-detection-yolo11": {
+   "id": "hf:models:akmalmanggala/pdu-apd-detection-yolo11",
+   "nom": "akmalmanggala/pdu-apd-detection-yolo11",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "langue": "Apd",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/akmalmanggala/pdu-apd-detection-yolo11",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Levant",
+   "city": "Levant",
+   "lat": 33.8938,
+   "lng": 35.5018,
+   "pays": "Levant",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "apc"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par akmalmanggala le 5 novembre 2026. Langue(s) : apd. Tâche : object detection.",
+    "en": "Model published on Hugging Face by akmalmanggala on 5 November 2026. Language(s): apd. Task: object detection."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:darija-asr-host/wav2vec2-darija-arabizi-int8": {
+   "id": "hf:models:darija-asr-host/wav2vec2-darija-arabizi-int8",
+   "nom": "darija-asr-host/wav2vec2-darija-arabizi-int8",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/darija-asr-host/wav2vec2-darija-arabizi-int8",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Maroc",
+   "city": "Maroc",
+   "lat": 33.5731,
+   "lng": -7.5898,
+   "pays": "Maroc",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "ary"
+   ],
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par darija-asr-host le 19 novembre 2026. Tâche : reconnaissance de la parole.",
+    "en": "Model published on Hugging Face by darija-asr-host on 19 November 2026. Task: automatic speech recognition."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:Digitaluz/uzbek-language-corpus": {
+   "id": "hf:datasets:Digitaluz/uzbek-language-corpus",
+   "nom": "Digitaluz/uzbek-language-corpus",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "taille": "1M<n<10M",
+   "licence": "odc-by",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/datasets/Digitaluz/uzbek-language-corpus",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par Digitaluz le 18 novembre 2026. Tâche : génération de texte. Taille : 1M<n<10M. Uzbek Language Corpus Dataset Summary A cleaned Uzbek language corpus for language-model pretraining: 5,637,375 documents, 6,062,309,059 words, in Latin and Cyrillic script.",
+    "en": "Dataset published on Hugging Face by Digitaluz on 18 November 2026. Task: text generation. Size: 1M<n<10M. Uzbek Language Corpus Dataset Summary A cleaned Uzbek language corpus for language-model pretraining: 5,637,375 documents, 6,062,309,059 words, in Latin and Cyrillic script."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:Trelis/duplex-pre-training-yodas3-mimi": {
+   "id": "hf:datasets:Trelis/duplex-pre-training-yodas3-mimi",
+   "nom": "Trelis/duplex-pre-training-yodas3-mimi",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "taille": "1K<n<10K",
+   "licence": "cc-by-3.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/Trelis/duplex-pre-training-yodas3-mimi",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par Trelis le 13 novembre 2026. Taille : 1K<n<10K. YODAS3 tokenized speech-to-speech pre-training dataset [!TIP] For speech separation and audio annotation services, contact voice@trelis.com.",
+    "en": "Dataset published on Hugging Face by Trelis on 13 November 2026. Size: 1K<n<10K. YODAS3 tokenized speech-to-speech pre-training dataset [!TIP] For speech separation and audio annotation services, contact voice@trelis.com."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:latam-gpt/LatamGPT-Corpus-1.0": {
+   "id": "hf:datasets:latam-gpt/LatamGPT-Corpus-1.0",
+   "nom": "latam-gpt/LatamGPT-Corpus-1.0",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "langue": "Es",
+   "taille": "100M<n<1B",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/datasets/latam-gpt/LatamGPT-Corpus-1.0",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "Espagne",
+   "city": "Espagne",
+   "lat": 40.4168,
+   "lng": -3.7038,
+   "pays": "Espagne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "nationales"
+   ],
+   "lang_codes": [
+    "es"
+   ],
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par latam-gpt le 17 juillet 2026. Langue(s) : es. Tâche : génération de texte. Taille : 100M<n<1B. LatamGPT-Corpus-1.0 🌐 Language versions: English | Español | Português 🔗 Project links: Official LatamGPT website | Corpus dashboard 🤖 Associated model: The complete LatamGPT corpus—of which this repository contains the…",
+    "en": "Dataset published on Hugging Face by latam-gpt on 17 July 2026. Language(s): es. Task: text generation. Size: 100M<n<1B. LatamGPT-Corpus-1.0 🌐 Language versions: English | Español | Português 🔗 Project links: Official LatamGPT website | Corpus dashboard 🤖 Associated model: The complete LatamGPT corpus—of which this repository contains the…"
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:SWE-at-Scale/SWE-at-Scale": {
+   "id": "hf:datasets:SWE-at-Scale/SWE-at-Scale",
+   "nom": "SWE-at-Scale/SWE-at-Scale",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "taille": "1K<n<10K",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/SWE-at-Scale/SWE-at-Scale",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par SWE-at-Scale le 16 novembre 2026. Tâche : génération de texte. Taille : 1K<n<10K. SWE-at-Scale Dataset v1.0 📄 Paper · 🤗 Model SWE-at-Scale dataset is a synthetic software engineering dataset generated using SWE-at-Scale and SWE-smith images.",
+    "en": "Dataset published on Hugging Face by SWE-at-Scale on 16 November 2026. Task: text generation. Size: 1K<n<10K. SWE-at-Scale Dataset v1.0 📄 Paper · 🤗 Model SWE-at-Scale dataset is a synthetic software engineering dataset generated using SWE-at-Scale and SWE-smith images."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:ccore/ThreeJS-3D-Scenes-v2": {
+   "id": "hf:datasets:ccore/ThreeJS-3D-Scenes-v2",
+   "nom": "ccore/ThreeJS-3D-Scenes-v2",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "taille": "1K<n<10K",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/ccore/ThreeJS-3D-Scenes-v2",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par ccore le 17 novembre 2026. Tâche : génération de texte. Taille : 1K<n<10K. CCORE Three.js 3D Scenes v2 3,445 curated scene examples across 50 domains, including 1,431 voxel scenes, with scene prompts, curated reasoning traces, HTML/JavaScript responses and rendered references.",
+    "en": "Dataset published on Hugging Face by ccore on 17 November 2026. Task: text generation. Size: 1K<n<10K. CCORE Three.js 3D Scenes v2 3,445 curated scene examples across 50 domains, including 1,431 voxel scenes, with scene prompts, curated reasoning traces, HTML/JavaScript responses and rendered references."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:bigcode/the-stack-v2": {
+   "id": "hf:datasets:bigcode/the-stack-v2",
+   "nom": "bigcode/the-stack-v2",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "licence": "other",
+   "licence_class": "unknown",
+   "lien": "https://huggingface.co/datasets/bigcode/the-stack-v2",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par bigcode le 26 février 2024. Tâche : génération de texte. The Stack v2 The dataset consists of 4 versions: bigcode/the-stack-v2: the full \"The Stack v2\" dataset <-- you are here bigcode/the-stack-v2-dedup: based on the bigcode/the-stack-v2 but further near-deduplicated…",
+    "en": "Dataset published on Hugging Face by bigcode on 26 February 2024. Task: text generation. The Stack v2 The dataset consists of 4 versions: bigcode/the-stack-v2: the full \"The Stack v2\" dataset <-- you are here bigcode/the-stack-v2-dedup: based on the bigcode/the-stack-v2 but further near-deduplicated…"
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:Voidreaper2026/cybersec-master-dataset": {
+   "id": "hf:datasets:Voidreaper2026/cybersec-master-dataset",
+   "nom": "Voidreaper2026/cybersec-master-dataset",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "taille": "1M<n<10M",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/Voidreaper2026/cybersec-master-dataset",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par Voidreaper2026 le 6 mai 2026. Tâche : génération de texte. Taille : 1M<n<10M. Cybersecurity Master Instruction Dataset Overview A large-scale cybersecurity instruction-tuning dataset in ShareGPT conversational format, assembled from multiple authoritative open sources and deduplicated.",
+    "en": "Dataset published on Hugging Face by Voidreaper2026 on 6 May 2026. Task: text generation. Size: 1M<n<10M. Cybersecurity Master Instruction Dataset Overview A large-scale cybersecurity instruction-tuning dataset in ShareGPT conversational format, assembled from multiple authoritative open sources and deduplicated."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:TeraTTS/webinars": {
+   "id": "hf:datasets:TeraTTS/webinars",
+   "nom": "TeraTTS/webinars",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "taille": "100K<n<1M",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/TeraTTS/webinars",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par TeraTTS le 12 novembre 2026. Tâche : reconnaissance de la parole. Taille : 100K<n<1M. 💜 Support TeraTTS If this dataset is useful to you, consider supporting TeraTTS development.",
+    "en": "Dataset published on Hugging Face by TeraTTS on 12 November 2026. Task: automatic speech recognition. Size: 100K<n<1M. 💜 Support TeraTTS If this dataset is useful to you, consider supporting TeraTTS development."
+   },
+   "notice_by": "règles"
+  },
+  "hf:datasets:codepawl/rocketbox-avatars-glb": {
+   "id": "hf:datasets:codepawl/rocketbox-avatars-glb",
+   "nom": "codepawl/rocketbox-avatars-glb",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Dataset (Hugging Face)",
+   "taille": "n<1K",
+   "licence": "mit",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/datasets/codepawl/rocketbox-avatars-glb",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Jeu de données publié sur Hugging Face par codepawl le 14 novembre 2026. Taille : n<1K. Microsoft Rocketbox Avatars as GLB Microsoft's Rocketbox library of rigged 3D people (business, medical, police, fire, military, construction, pilots, sports, adults and children) and rigged farm animals, rebuilt as…",
+    "en": "Dataset published on Hugging Face by codepawl on 14 November 2026. Size: n<1K. Microsoft Rocketbox Avatars as GLB Microsoft's Rocketbox library of rigged 3D people (business, medical, police, fire, military, construction, pilots, sports, adults and children) and rigged farm animals, rebuilt as…"
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:HuggingFaceTB/SmolVLM2-256M-Video-Instruct": {
+   "id": "hf:models:HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+   "nom": "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par HuggingFaceTB le 11 février 2025. Tâche : vision-langage.",
+    "en": "Model published on Hugging Face by HuggingFaceTB on 11 February 2025. Task: image text to text."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:Reson8/Rumble-2-Flash": {
+   "id": "hf:models:Reson8/Rumble-2-Flash",
+   "nom": "Reson8/Rumble-2-Flash",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/Reson8/Rumble-2-Flash",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "France",
+   "city": "Francheville",
+   "lat": 45.7364,
+   "lng": 4.7636,
+   "pays": "France",
+   "geo_precision": "organisation",
+   "geo_source": "Hugging Face · Reson8",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par Reson8 le 14 octobre 2026. Tâche : reconnaissance de la parole.",
+    "en": "Model published on Hugging Face by Reson8 on 14 October 2026. Task: automatic speech recognition."
+   },
+   "notice_by": "règles"
+  },
+  "hf:models:RadixArk/DaisyRose-27B": {
+   "id": "hf:models:RadixArk/DaisyRose-27B",
+   "nom": "RadixArk/DaisyRose-27B",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "huggingface",
+   "kind": "hf_model",
+   "categorie_key": "cat_Model",
+   "type": "Modèle (Hugging Face)",
+   "licence": "apache-2.0",
+   "licence_class": "open",
+   "lien": "https://huggingface.co/RadixArk/DaisyRose-27B",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "trending": true,
+   "description": {
+    "fr": "Modèle publié sur Hugging Face par RadixArk le 18 novembre 2026. Tâche : vision-langage.",
+    "en": "Model published on Hugging Face by RadixArk on 18 November 2026. Task: image text to text."
+   },
+   "notice_by": "règles"
+  },
+  "gh:vortexhostfeel/gemini-config-checker-": {
+   "id": "gh:vortexhostfeel/gemini-config-checker-",
+   "nom": "VortexHostFeel/Gemini-Config-Checker-",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Makefile, créé le 15 novembre 2026 par VortexHostFeel. Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Thèmes : ai, ai-search, aichecker, chatgpt, cli.",
+    "en": "GitHub repository written in Makefile, created on 15 November 2026 by VortexHostFeel. Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Topics: ai, ai-search, aichecker, chatgpt, cli."
+   },
+   "notice_by": "règles"
+  },
+  "gh:violetnyudress/gemini-config-checker-": {
+   "id": "gh:violetnyudress/gemini-config-checker-",
+   "nom": "Violetnyudress/Gemini-Config-Checker-",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "Apache-2.0",
+   "licence_class": "open",
+   "lien": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Dépôt GitHub écrit en Go, créé le 15 novembre 2026 par Violetnyudress. Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Thèmes : ai, ai-search, aichecker, chatgpt, cli.",
+    "en": "GitHub repository written in Go, created on 15 November 2026 by Violetnyudress. Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Topics: ai, ai-search, aichecker, chatgpt, cli."
+   },
+   "notice_by": "règles"
+  },
+  "gh:dkaraush/tinyasr": {
+   "id": "gh:dkaraush/tinyasr",
+   "nom": "dkaraush/tinyasr",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "github",
+   "kind": "github",
+   "categorie_key": "cat_Tool",
+   "type": "Dépôt GitHub",
+   "licence": "GPL-3.0",
+   "licence_class": "open",
+   "lien": "https://github.com/dkaraush/tinyasr",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "Ukraine",
+   "city": "Ukraine",
+   "lat": 49.4872,
+   "lng": 31.2718,
+   "pays": "Ukraine",
+   "geo_precision": "organisation",
+   "geo_source": "GitHub · Dmytro Karaush",
+   "lang_groups": [
+    "nationales"
+   ],
+   "lang_codes": [
+    "it",
+    "es"
+   ],
+   "description": {
+    "fr": "Dépôt GitHub écrit en Rust, créé le 9 novembre 2026 par dkaraush. Rust library for running small Zipformer models, trained for speech recognition on device. Thèmes : english, farsi, italian, khmer, model.",
+    "en": "GitHub repository written in Rust, created on 9 November 2026 by dkaraush. Rust library for running small Zipformer models, trained for speech recognition on device. Topics: english, farsi, italian, khmer, model."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:24363795": {
+   "id": "zenodo:24363795",
+   "nom": "Code and data from: Structure search inflates the apparent performance of interpretable gene regulatory models on genetic perturbation data",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "mit-license",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24363796",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "Vellore Institute of Technology University",
+   "city": "Vellore Institute of Technology",
+   "lat": 12.9697,
+   "lng": 79.1607,
+   "pays": "Vellore Institute of Technology University",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 19 novembre 2026 par Mahaboob Ali, Anees Ahmed, Delhibabu, Radhakrishnan, Nelson, Everette Jacob Remington. Licence : mit-license. Code, derived inputs and result files for a comparison of regulatory structure sources on genome-scale single-cell perturbation data.",
+    "en": "Dataset deposited on Zenodo on 19 November 2026 by Mahaboob Ali, Anees Ahmed, Delhibabu, Radhakrishnan, Nelson, Everette Jacob Remington. License: mit-license. Code, derived inputs and result files for a comparison of regulatory structure sources on genome-scale single-cell perturbation data."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:24359276": {
+   "id": "zenodo:24359276",
+   "nom": "PHONOLOGICAL AND STRUCTURAL ASPECTS OF SPONTANEOUS MONOLOGUE AND DIALOGUE",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24359277",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 19 novembre 2026 par D. A. Oktayeva. Licence : cc-by-4.0. This paper contrasts the phonological and structural properties of spontaneous monologue and dialogue.",
+    "en": "Dataset deposited on Zenodo on 19 November 2026 by D. A. Oktayeva. License: cc-by-4.0. This paper contrasts the phonological and structural properties of spontaneous monologue and dialogue."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:24350020": {
+   "id": "zenodo:24350020",
+   "nom": "CysForcing: cysteine-reactivity dataset and AlphaFold2 structures",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24350021",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 18 novembre 2026 par Zhang, Hongyu, Zhang, Feng, Wang, Fengzhang. Langue(s) : eng. Licence : cc-by-4.0. Data and AlphaFold2-structure companion to the paper “Ratio-prior Multimodal Alignment for Generalizable Cysteine Reactivity Prediction” Code: github.com/Hong-yu-Zhang/CysForcing .",
+    "en": "Dataset deposited on Zenodo on 18 November 2026 by Zhang, Hongyu, Zhang, Feng, Wang, Fengzhang. Language(s): eng. License: cc-by-4.0. Data and AlphaFold2-structure companion to the paper “Ratio-prior Multimodal Alignment for Generalizable Cysteine Reactivity Prediction” Code: github.com/Hong-yu-Zhang/CysForcing ."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23442873": {
+   "id": "zenodo:23442873",
+   "nom": "Recovered inputs and listening audio of the evaluation of secure and scalable speech transcription for local and HPC: Summaries, hypothesis dumps, job records and recordings",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23442874",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 3 novembre 2026 par Bernabeu, Pablo. Langue(s) : eng. Licence : cc-by-4.0. Inputs that Oxford ARC jobs wrote for the study Defensive Transcription on the Desk and on the Cluster: What a Local, Privacy-Conscious Speech-to-Text Workflow Can Be Shown to Do, and that the workflow's repository does…",
+    "en": "Dataset deposited on Zenodo on 3 November 2026 by Bernabeu, Pablo. Language(s): eng. License: cc-by-4.0. Inputs that Oxford ARC jobs wrote for the study Defensive Transcription on the Desk and on the Cluster: What a Local, Privacy-Conscious Speech-to-Text Workflow Can Be Shown to Do, and that the workflow's repository does…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:24354676": {
+   "id": "zenodo:24354676",
+   "nom": "PhageLysClass: Evidence-aware classification of phage lytic proteins using protein language models",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24354677",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 18 novembre 2026 par David, Medina-Ortiz, Álvaro, Olivera-Nappa, María Elena, Lienqueo. Langue(s) : eng. Licence : cc-by-4.0. PhageLysClass v1.0 — Evidence-Aware Machine Learning for Phage Lytic Enzyme Classification PhageLysClass is an evidence-aware machine learning framework for the identification and functional classification of…",
+    "en": "Dataset deposited on Zenodo on 18 November 2026 by David, Medina-Ortiz, Álvaro, Olivera-Nappa, María Elena, Lienqueo. Language(s): eng. License: cc-by-4.0. PhageLysClass v1.0 — Evidence-Aware Machine Learning for Phage Lytic Enzyme Classification PhageLysClass is an evidence-aware machine learning framework for the identification and functional classification of…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:21941888": {
+   "id": "zenodo:21941888",
+   "nom": "Code and data for \"Not Flawless, but Good Enough: Vision-Language Models and the Invisible Errors of Machine Transcription\"",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24355243",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "Princeton University",
+   "city": "Princeton University",
+   "lat": 40.3387,
+   "lng": -74.6584,
+   "pays": "Princeton University",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 18 novembre 2026 par Haverals, Wouter, Janco, Andrew. Langue(s) : eng. Licence : cc-by-4.0. This deposit accompanies the article \"Not Flawless, but Good Enough: Vision-Language Models and the Invisible Errors of Machine Transcription\" (Wouter Haverals and Andrew Janco, Computational Humanities Research 2027).",
+    "en": "Dataset deposited on Zenodo on 18 November 2026 by Haverals, Wouter, Janco, Andrew. Language(s): eng. License: cc-by-4.0. This deposit accompanies the article \"Not Flawless, but Good Enough: Vision-Language Models and the Invisible Errors of Machine Transcription\" (Wouter Haverals and Andrew Janco, Computational Humanities Research 2027)."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:24354134": {
+   "id": "zenodo:24354134",
+   "nom": "Replication package for: Does Mandatory Integrated Reporting Improve Climate Risk Disclosure? Evidence from Chile's Staggered Mandate",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24354135",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 18 novembre 2026 par Dote-Pardo, Jairo, Parra-Domínguez, Javier, Quezada-Baier, Claudia. Licence : cc-by-4.0. Data, codebook, prompt, model outputs and code for a study of Chile's General Rule (NCG) No.",
+    "en": "Dataset deposited on Zenodo on 18 November 2026 by Dote-Pardo, Jairo, Parra-Domínguez, Javier, Quezada-Baier, Claudia. License: cc-by-4.0. Data, codebook, prompt, model outputs and code for a study of Chile's General Rule (NCG) No."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:24354028": {
+   "id": "zenodo:24354028",
+   "nom": "TABIIY TILNI QAYTA ISHLASH UCHUN KENG KO'LAMLI O'ZBEK TILIDAGI MATNLAR KORPUSINI YARATISH",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24354029",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "Aniq va ijtimoiy fanlar universiteti",
+   "city": "Aniq va ijtimoiy fanlar universiteti",
+   "lat": 41.3503,
+   "lng": 69.2376,
+   "pays": "Aniq va ijtimoiy fanlar universiteti",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 18 novembre 2026 par O'ralova Feruza O'ktam qizi, Worldly Knowledge Publishing Centre. Langue(s) : eng. Licence : cc-by-4.0. Ushbu tezisda tabiiy tilni qayta ishlash (NLP) texnologiyalari va intellektual axborot tizimlari uchun keng ko‘lamli o‘zbek tilidagi matnlar korpusini yaratishning nazariy, lingvistik va dasturiy-texnologik muammolari…",
+    "en": "Dataset deposited on Zenodo on 18 November 2026 by O'ralova Feruza O'ktam qizi, Worldly Knowledge Publishing Centre. Language(s): eng. License: cc-by-4.0. Ushbu tezisda tabiiy tilni qayta ishlash (NLP) texnologiyalari va intellektual axborot tizimlari uchun keng ko‘lamli o‘zbek tilidagi matnlar korpusini yaratishning nazariy, lingvistik va dasturiy-texnologik muammolari…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:15447078": {
+   "id": "zenodo:15447078",
+   "nom": "Data-optimal scaling of paired antibody language models",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24327243",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "Scripps Research Institute",
+   "city": "Scripps Research Institute",
+   "lat": 32.8985,
+   "lng": -117.2429,
+   "pays": "Scripps Research Institute",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 18 novembre 2026 par Shafiei Neyestanak, Mahdi, Briney, Bryan. Licence : cc-by-4.0. Motivation : Antibody language models (AbLMs) play a critical role in exploring the extensive sequence diversity of antibody repertoires, significantly enhancing therapeutic discovery.",
+    "en": "Dataset deposited on Zenodo on 18 November 2026 by Shafiei Neyestanak, Mahdi, Briney, Bryan. License: cc-by-4.0. Motivation : Antibody language models (AbLMs) play a critical role in exploring the extensive sequence diversity of antibody repertoires, significantly enhancing therapeutic discovery."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:24351133": {
+   "id": "zenodo:24351133",
+   "nom": "FORMULAIC FRAMING IN ENGLISH FAIRY-TALE DISCOURSE (ON THE BASIS OF JOSEPH JACOBS'S \"ENGLISH FAIRY TALES\")",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24351134",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 18 novembre 2026 par Ismatov Asliddin Fazliddin ugli, Worldly Knowledge Publishing Centre. Licence : cc-by-4.0. Fairy-tale formulae are usually described from a few famous examples, so their real weight in English fairy-tale discourse remains unmeasured.",
+    "en": "Dataset deposited on Zenodo on 18 November 2026 by Ismatov Asliddin Fazliddin ugli, Worldly Knowledge Publishing Centre. License: cc-by-4.0. Fairy-tale formulae are usually described from a few famous examples, so their real weight in English fairy-tale discourse remains unmeasured."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23911469": {
+   "id": "zenodo:23911469",
+   "nom": "Replication packages for four preregistered studies on LLM coding of teacher talk moves (TalkMoves)",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-nc-sa-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24350129",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "TU Dortmund University",
+   "city": "Technische Universität Dortmund",
+   "lat": 51.4915,
+   "lng": 7.4123,
+   "pays": "TU Dortmund University",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 18 novembre 2026 par Filler, Simon. Langue(s) : eng. Licence : cc-by-nc-sa-4.0. Materials to check and reproduce four preregistered studies and their control runs on large language model coding of teacher talk moves in the TalkMoves dataset.",
+    "en": "Dataset deposited on Zenodo on 18 November 2026 by Filler, Simon. Language(s): eng. License: cc-by-nc-sa-4.0. Materials to check and reproduce four preregistered studies and their control runs on large language model coding of teacher talk moves in the TalkMoves dataset."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:22676367": {
+   "id": "zenodo:22676367",
+   "nom": "Deception Archive: Standardized Verbal Deception Datasets - Anonymous authors",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/23263887",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 9 octobre 2026 par Borgese, Caterina, Loconte, Riccardo, Pfründer, Lucca. Licence : cc-by-4.0. The Deception Archive is a curated repository of verbal deception datasets identified through a systematic review of the computational verbal deception literature.",
+    "en": "Dataset deposited on Zenodo on 9 October 2026 by Borgese, Caterina, Loconte, Riccardo, Pfründer, Lucca. License: cc-by-4.0. The Deception Archive is a curated repository of verbal deception datasets identified through a systematic review of the computational verbal deception literature."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:24340293": {
+   "id": "zenodo:24340293",
+   "nom": "SciLExRE- KG V.0",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24340294",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "University of Bologna",
+   "city": "Università di Bologna",
+   "lat": 44.4983,
+   "lng": 11.3545,
+   "pays": "University of Bologna",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 18 novembre 2026 par Ringwald, Célian. Licence : cc-by-4.0. # SciLEx survey of relation extraction: release 2026-11-18 A knowledge graph of a systematic literature review on **relation extraction** and **text-to-graph extraction**: what each paper does and which datasets, models…",
+    "en": "Dataset deposited on Zenodo on 18 November 2026 by Ringwald, Célian. License: cc-by-4.0. # SciLEx survey of relation extraction: release 2026-11-18 A knowledge graph of a systematic literature review on **relation extraction** and **text-to-graph extraction**: what each paper does and which datasets, models…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:24339477": {
+   "id": "zenodo:24339477",
+   "nom": "Premise correction and alarm language in large language model responses to patient questions about medical interventions: coded dataset, prompts and analysis code",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24339478",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 18 novembre 2026 par Xu, Zhonghan, Huang, Qibing, Tian, Guanyuan. Langue(s) : eng. Licence : cc-by-4.0. Coded dataset, rater sheets, prompts and analysis code for a content analysis of 960 responses from four general-purpose language models to ten procedure- or drug-related patient questions about complication risk.",
+    "en": "Dataset deposited on Zenodo on 18 November 2026 by Xu, Zhonghan, Huang, Qibing, Tian, Guanyuan. Language(s): eng. License: cc-by-4.0. Coded dataset, rater sheets, prompts and analysis code for a content analysis of 960 responses from four general-purpose language models to ten procedure- or drug-related patient questions about complication risk."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:24311880": {
+   "id": "zenodo:24311880",
+   "nom": "FSLDR",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Swe",
+   "licence": "cc-zero",
+   "licence_class": "unknown",
+   "lien": "https://zenodo.org/records/24311881",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 17 novembre 2026 par Reunamo, Akseli, Peltonen, Laura-Maria, Moen, Hans. Langue(s) : swe. Licence : cc-zero. FSLDR: Finnish Swedish Long Document Retrieval FSLDR is a long-document retrieval benchmark for Finnish and Swedish .",
+    "en": "Dataset deposited on Zenodo on 17 November 2026 by Reunamo, Akseli, Peltonen, Laura-Maria, Moen, Hans. Language(s): swe. License: cc-zero. FSLDR: Finnish Swedish Long Document Retrieval FSLDR is a long-document retrieval benchmark for Finnish and Swedish ."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:24354761": {
+   "id": "zenodo:24354761",
+   "nom": "A deliberately simple agent-based model of capacity sharing between work units: code and data",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24354762",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "Jönköping University",
+   "city": "Högskolan i Jönköping",
+   "lat": 57.778,
+   "lng": 14.1621,
+   "pays": "Jönköping University",
+   "geo_precision": "lieu",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 18 novembre 2026 par Coelho, Denis A.. Langue(s) : eng. Licence : cc-by-4.0. This deposit holds the model, every simulation output and the scripts behind the article \"When does sharing capacity between work units help?",
+    "en": "Software deposited on Zenodo on 18 November 2026 by Coelho, Denis A.. Language(s): eng. License: cc-by-4.0. This deposit holds the model, every simulation output and the scripts behind the article \"When does sharing capacity between work units help?"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:24358709": {
+   "id": "zenodo:24358709",
+   "nom": "fsantibanezleal/CAOS_RiskValidation: riskvalidation 1.05.000",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "mit-license",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24358710",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 19 novembre 2026 par Felipe Santibáñez-Leal. Licence : mit-license. Versions 1.02.000, 1.03.000 and 1.04.000 were merged into main between 14 and 16 November 2026 and were never published as releases, so this release, 1.05.000, is the first one after 1.01.000 on GitHub, PyPI and Zenodo…",
+    "en": "Software deposited on Zenodo on 19 November 2026 by Felipe Santibáñez-Leal. License: mit-license. Versions 1.02.000, 1.03.000 and 1.04.000 were merged into main between 14 and 16 November 2026 and were never published as releases, so this release, 1.05.000, is the first one after 1.01.000 on GitHub, PyPI and Zenodo…"
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:24355540": {
+   "id": "zenodo:24355540",
+   "nom": "lu177-resolution-dosimetry: analysis code for isolating the effect of spatial resolution on absorbed-dose estimation in 177Lu-DOTATATE dosimetry",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "licence": "mit-license",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24355541",
+   "added": "2026-11-19",
+   "focus": false,
+   "region": "International",
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 19 novembre 2026 par Ogino, Tsukasa, Ito, Shun, Onuma, Kota. Licence : mit-license. Analysis code for the article \"Isolating the effect of spatial resolution on absorbed-dose estimation in 177Lu-DOTATATE dosimetry: a noise-free digital phantom study with comparison to measured SPECT/CT\" (EJNMMI Physics).",
+    "en": "Software deposited on Zenodo on 19 November 2026 by Ogino, Tsukasa, Ito, Shun, Onuma, Kota. License: mit-license. Analysis code for the article \"Isolating the effect of spatial resolution on absorbed-dose estimation in 177Lu-DOTATATE dosimetry: a noise-free digital phantom study with comparison to measured SPECT/CT\" (EJNMMI Physics)."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:23434678": {
+   "id": "zenodo:23434678",
+   "nom": "Newcomer cohorts in four Wikipedia language editions. Aggregate dataset (version 2)",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_dataset",
+   "categorie_key": "cat_Dataset",
+   "type": "Jeu de données (Zenodo)",
+   "langue": "Eng",
+   "licence": "cc-by-4.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24355276",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Catalogne",
+   "city": "Catalogne",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "pays": "Catalogne",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "mediterranee"
+   ],
+   "lang_codes": [
+    "ca"
+   ],
+   "description": {
+    "fr": "Jeu de données déposé sur Zenodo le 18 novembre 2026 par Boté-Vericad, Juan-José. Langue(s) : ca. Licence : cc-by-4.0. Aggregate result tables underlying version 2 of the technical report Constructing newcomer cohorts from Wikimedia logs.",
+    "en": "Dataset deposited on Zenodo on 18 November 2026 by Boté-Vericad, Juan-José. Language(s): ca. License: cc-by-4.0. Aggregate result tables underlying version 2 of the technical report Constructing newcomer cohorts from Wikimedia logs."
+   },
+   "notice_by": "règles"
+  },
+  "zenodo:24354751": {
+   "id": "zenodo:24354751",
+   "nom": "sudanese-asr-eval: split, normaliser and scoring for Sudanese Arabic ASR",
+   "source": "veille",
+   "origin": "veille",
+   "provider": "zenodo",
+   "kind": "zenodo_software",
+   "categorie_key": "cat_Tool",
+   "type": "Logiciel (Zenodo)",
+   "langue": "Eng",
+   "licence": "apache2.0",
+   "licence_class": "open",
+   "lien": "https://zenodo.org/records/24354752",
+   "added": "2026-11-19",
+   "focus": true,
+   "region": "Maghreb–Machrek",
+   "city": "Maghreb–Machrek",
+   "lat": 33.0,
+   "lng": 15.0,
+   "pays": "Maghreb–Machrek",
+   "geo_precision": "langue",
+   "lang_groups": [
+    "arabe"
+   ],
+   "lang_codes": [
+    "ar-dial"
+   ],
+   "description": {
+    "fr": "Logiciel déposé sur Zenodo le 18 novembre 2026 par Ahmed, Saifuddin. Langue(s) : ar-dial. Licence : apache2.0. Code, speaker-disjoint split and text-free per-clip scores for the paper \"What Is in a WER?",
+    "en": "Software deposited on Zenodo on 18 November 2026 by Ahmed, Saifuddin. Language(s): ar-dial. License: apache2.0. Code, speaker-disjoint split and text-free per-clip scores for the paper \"What Is in a WER?"
+   },
+   "notice_by": "règles"
   }
  },
  "journals": {
@@ -139644,11 +142440,23 @@
     "en": "Machine Learning is a peer-reviewed journal published by Springer. Scope: ML, dont modeles de langage. Hybrid model: optional open access (APC). Regular submissions are open year-round; only special issues have deadlines."
    },
    "notice_by": "règles",
-   "special_issues": [],
+   "special_issues": [
+    {
+     "title": "ECML PKDD 2026 : European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+     "deadline": null,
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=191917"
+    }
+   ],
    "submission": "continuous",
    "next_deadline": null,
-   "search_issues": [],
-   "searched": "2026-11-11"
+   "search_issues": [
+    {
+     "title": "ECML PKDD 2026 : European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+     "deadline": null,
+     "url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=191917"
+    }
+   ],
+   "searched": "2026-11-19"
   },
   "res-98056e235e": {
    "notice": {
@@ -139660,7 +142468,7 @@
    "submission": "continuous",
    "next_deadline": null,
    "search_issues": [],
-   "searched": "2026-11-11"
+   "searched": "2026-11-19"
   },
   "res-5f75973c87": {
    "notice": {
@@ -139672,7 +142480,7 @@
    "submission": "continuous",
    "next_deadline": null,
    "search_issues": [],
-   "searched": "2026-11-11"
+   "searched": "2026-11-19"
   },
   "res-45d0bbecc7": {
    "notice": {
@@ -139684,7 +142492,7 @@
    "submission": "continuous",
    "next_deadline": null,
    "search_issues": [],
-   "searched": "2026-11-11"
+   "searched": "2026-11-19"
   }
  },
  "duplicates": {
