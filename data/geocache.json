@@ -204,6 +204,11 @@
   "lng": 100.4935,
   "label": "Bangkok"
  },
+ "bank of spain": {
+  "lat": 40.4814,
+  "lng": -3.7173,
+  "label": "Caja rural"
+ },
  "barcelona": {
   "lat": 41.3826,
   "lng": 2.1771,
@@ -683,6 +688,7 @@
   "lng": -6.2606,
   "label": "Dublin"
  },
+ "eacl (athens, greece)": null,
  "east west university": {
   "lat": 41.8713,
   "lng": -87.6251,
@@ -958,6 +964,10 @@
   "location": "St. Petersburg, Florida",
   "name": "Bashir Harrell"
  },
+ "gh:bookwjitchieni1986": {
+  "location": null,
+  "name": "bookwjitchieni1986"
+ },
  "gh:boromat": {
   "location": "Poland",
   "name": "Mateusz Borowy"
@@ -1209,6 +1219,10 @@
  "gh:jmanico": {
   "location": null,
   "name": "Jim Manico"
+ },
+ "gh:josssphzhou": {
+  "location": null,
+  "name": "Joseph"
  },
  "gh:junwan666": {
   "location": "HuNan",
@@ -2183,6 +2197,7 @@
  "hf:alphaedge-ai": {
   "fullname": "AlphaEdgeAI"
  },
+ "hf:alphaxiv": null,
  "hf:alumniiiith": null,
  "hf:amaimedia": null,
  "hf:amine-khelif": null,
@@ -3659,6 +3674,7 @@
  "hf:swinliq-ain-2": {
   "fullname": "SwinliQ-AI"
  },
+ "hf:sylvainsouche": null,
  "hf:syvai": {
   "fullname": "syv.ai"
  },
@@ -3707,6 +3723,7 @@
   "fullname": "The Agentic Data Company"
  },
  "hf:theavenger": null,
+ "hf:thejagstudio": null,
  "hf:theoracleguy": null,
  "hf:thinkingmachines": {
   "fullname": "Thinking Machines Lab"
@@ -4006,6 +4023,7 @@
  "institute of mathematics, statistics and computer science, university of são paulo": null,
  "institute of sociology, academia sinica": null,
  "institute of software systems of the national academy of sciences of ukraine": null,
+ "instituto federal de educação, ciência e tecnologia do ceará": null,
  "instituto nacional de investigación y tecnología agraria y alimentaria": {
   "lat": 40.455,
   "lng": -3.7492,
@@ -4094,6 +4112,7 @@
   "lng": 14.1621,
   "label": "Högskolan i Jönköping"
  },
+ "kanazawa seiryo university": null,
  "kangwon national university": {
   "lat": 37.8673,
   "lng": 127.7447,
@@ -4191,6 +4210,11 @@
   "lat": 35.0116,
   "lng": 135.7681,
   "label": "Kyoto"
+ },
+ "kyung hee university": {
+  "lat": 37.5971,
+  "lng": 127.052,
+  "label": "경희대학교 서울캠퍼스"
  },
  "laboratori de botànica – unitat associada csic. facultat de farmàcia i ciències de l'alimentació. institut de recerca de la biodiversitat. universitat de barcelona. av. joan xxiii, 27-31. 08028 barcelona, catalonia": null,
  "language technologies institute, cmu": null,
@@ -4331,6 +4355,7 @@
  },
  "master degree student of nukus state pedagogical institute  named after ajiniyaz nukus, uzbekistan": null,
  "master student, study program linguistik (s2),  universitas pendidikan indonesia": null,
+ "master student, study program linguistik (s2), universitas pendidikan indonesia": null,
  "master's student urgench state university": null,
  "master's student, samarkand state  institute of foreign languages, uzbekistan": null,
  "mbarara university of science and technology": {
@@ -4998,6 +5023,11 @@
   "lng": 80.045,
   "label": "SRM Institute of Science and Technology"
  },
+ "st petersburg university": {
+  "lat": 59.9407,
+  "lng": 30.2965,
+  "label": "Université d'État de Saint-Pétersbourg"
+ },
  "st. pete beach, florida": {
   "lat": 27.7253,
   "lng": -82.7412,
@@ -5019,6 +5049,7 @@
   "label": "Stanford"
  },
  "student of andijan state institute of foreign languages": null,
+ "student of uzbekistan state university of world languages": null,
  "student, english language teaching  (philology and language teaching) program faculty of foreign philology termez state university, uzbekistan.": null,
  "stuttgart": {
   "lat": 48.7784,
@@ -5128,6 +5159,7 @@
   "lng": 114.2079,
   "label": "香港中文大學 The Chinese University of Hong Kong"
  },
+ "the hebrew university of jerusalem": null,
  "the hong kong polytechnic university": {
   "lat": 22.3045,
   "lng": 114.1797,
@@ -5326,6 +5358,11 @@
   "lat": 28.3904,
   "lng": -16.5243,
   "label": "Universidad Europea de Canarias"
+ },
+ "universidad nacional del sur": {
+  "lat": -38.6943,
+  "lng": -62.2472,
+  "label": "Universidad Nacional del Sur"
  },
  "universidad nebrija": {
   "lat": 40.4292,
@@ -5557,6 +5594,11 @@
   "lng": 0.9499,
   "label": "University of Essex"
  },
+ "university of exact and social sciences": {
+  "lat": 41.3503,
+  "lng": 69.2376,
+  "label": "Aniq va ijtimoiy fanlar universiteti"
+ },
  "university of galway": {
   "lat": 53.2936,
   "lng": -9.0751,
@@ -5760,6 +5802,11 @@
   "label": "Parc Valrose - Université Côte d'Azur - Faculté des Sciences"
  },
  "université côte d'azur, cnrs, oca, ird, umr géoazur, nice, france": null,
+ "université de lille": {
+  "lat": 50.6286,
+  "lng": 3.126,
+  "label": "Université de Lille - Pont-de-Bois"
+ },
  "université de lille (2022-....)": {
   "lat": 50.6286,
   "lng": 3.126,
@@ -6233,6 +6280,13 @@
   "city": "San Francisco",
   "region": "États-Unis",
   "geo_source": "Wikidata · Anthropic"
+ },
+ "wdn:apple": {
+  "lat": 37.3175,
+  "lng": -122.0419,
+  "city": "Cupertino",
+  "region": "États-Unis",
+  "geo_source": "Wikidata · Apple"
  },
  "wdn:applied intelligence data analysis universidad polit cnica de madrid": null,
  "wdn:ares realm studios": null,
