@@ -6,7 +6,7 @@
     <atom:link href="https://omnital.github.io/data/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Nouvelles ressources en traitement automatique des langues (arXiv, HAL, Hugging Face, GitHub, WikiCFP).</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 23 Nov 2026 11:27:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 16:10:45 +0000</lastBuildDate>
     <item>
       <title>[Event] 12AICLF 2027 : 12th All India Conference of Linguistics and Folklore</title>
       <link>http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=204390</link>
@@ -14,6 +14,38 @@
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
       <category>wikicfp</category>
       <description>12th All India Conference of Linguistics and Folklore</description>
+    </item>
+    <item>
+      <title>[Paper] SDG: State-Dependent Gating at Chunk Boundaries for Linear Attention</title>
+      <link>https://arxiv.org/abs/2611.26637</link>
+      <guid isPermaLink="false">arxiv:2611.26637</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Recent gated linear attention models use state-independent gates, computed from token representations without directly reading the recurrent memory. This design supports efficient chunkwise computation: sequences are divided into chunks…</description>
+    </item>
+    <item>
+      <title>[Paper] VerifiQuant: Governance-by-Execution for Financial LLM Workflows</title>
+      <link>https://arxiv.org/abs/2611.26649</link>
+      <guid isPermaLink="false">arxiv:2611.26649</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Large language models embedded in financial workflows fail most dangerously by emitting confident, well-formatted but wrong numbers with no signal distinguishing them from correct ones. We argue that the central deployment problem is…</description>
+    </item>
+    <item>
+      <title>[Paper] Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams</title>
+      <link>https://arxiv.org/abs/2611.26663</link>
+      <guid isPermaLink="false">arxiv:2611.26663</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open. We crossed AI partnership (one versus two) with behavioral formation (calibrated to average human behavior…</description>
+    </item>
+    <item>
+      <title>[Paper] TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator</title>
+      <link>https://arxiv.org/abs/2611.26722</link>
+      <guid isPermaLink="false">arxiv:2611.26722</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>To autonomously execute multi-step tasks, enterprise agents must reliably interact with tools, call APIs, or query databases, making tool-calling a fundamental capability of AI models. Supervised fine-tuning (SFT) optimises for producing…</description>
     </item>
     <item>
       <title>[Paper] SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills</title>
@@ -46,6 +78,14 @@
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
       <category>arxiv</category>
       <description>Systems that flag violent video for a human operator can now be built from language models without training, by combining perception models and letting a language model decide. We ask how the observations of the perception models should…</description>
+    </item>
+    <item>
+      <title>[Paper] Don't Discard Your Rollouts: Reusing Teacher RL Traces for Student Distillation</title>
+      <link>https://arxiv.org/abs/2611.26803</link>
+      <guid isPermaLink="false">arxiv:2611.26803</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>RL post-training methods such as PPO and GRPO are computationally expensive, with substantial resources devoted to sampling rollouts, which contain multiple completions per prompt along with their respective rewards. Canonical…</description>
     </item>
     <item>
       <title>[Paper] MedicalRSI: Medical Recursive Self-Improving Agents via Clinical Model-Harness Co-Evolution</title>
@@ -152,6 +192,46 @@
       <description>According to the reformulated Learned Helplessness theory, repeated exposure to uncontrollable negative events can foster a depressogenic attributional style, increasing susceptibility to depression yet remaining a tractable target for…</description>
     </item>
     <item>
+      <title>[Paper] Perceive Once, Escalate on Demand: Handing Off Visual KV Memory from Small to Large VLMs</title>
+      <link>https://arxiv.org/abs/2611.26902</link>
+      <guid isPermaLink="false">arxiv:2611.26902</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>An embodied agent cannot afford a large vision-language model (VLM) at every step of a long video, so a cascade runs a small VLM continuously and escalates only uncertain decisions to a large one. Each escalation, however, forces the…</description>
+    </item>
+    <item>
+      <title>[Paper] What Does a Zoom Actually Add? Decomposing Fine-Grained Perception Failures in Vision-Language Models</title>
+      <link>https://arxiv.org/abs/2611.26904</link>
+      <guid isPermaLink="false">arxiv:2611.26904</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Zooming into a region often turns a wrong answer from a vision-language model (VLM) into a right one, and a growing literature takes this as evidence that the model lacked the pixels. But a zoom changes several things at once. It removes…</description>
+    </item>
+    <item>
+      <title>[Paper] AstronautBench: Measuring Agent Self-Improvement Across Episodes Through Knowledge, Evidence, and Progress</title>
+      <link>https://arxiv.org/abs/2611.26910</link>
+      <guid isPermaLink="false">arxiv:2611.26910</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>LLM agents are expected to improve themselves from their own experience across episodes, with fixed weights. Self-improvement in an embodied world cannot be read from one measure. Existing benchmarks measure task progress, world-knowledge…</description>
+    </item>
+    <item>
+      <title>[Paper] What Does the Visual Encoder Buy? Visual Information Gain in Encoder-Free Multimodal Pretraining</title>
+      <link>https://arxiv.org/abs/2611.26917</link>
+      <guid isPermaLink="false">arxiv:2611.26917</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Recent scaling studies ask whether vision-language models still need a visual encoder by comparing encoder-free and encoder-based models on the next-token loss of the text in image-text data. This loss can fall without any use of the…</description>
+    </item>
+    <item>
+      <title>[Paper] ERA: Embed, Route, Adapt for Cold-Start Cross-Model Latent Retrieval</title>
+      <link>https://arxiv.org/abs/2611.26919</link>
+      <guid isPermaLink="false">arxiv:2611.26919</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Production retrieval systems are tied to the embedding model that indexed their corpus. Moving queries to a different encoder normally requires re-embedding the whole corpus, and at cold start there are no query logs while every document…</description>
+    </item>
+    <item>
       <title>[Paper] Partially canonical axes in large language model representations</title>
       <link>https://arxiv.org/abs/2611.26920</link>
       <guid isPermaLink="false">arxiv:2611.26920</guid>
@@ -160,12 +240,44 @@
       <description>Large language models (LLMs) develop rich internal representations of language, but whether their individual coordinate axes carry meaning, or whether meaning is encoded only in directions in representation space, is still an open…</description>
     </item>
     <item>
+      <title>[Paper] Self-similar Organization of Information in Language</title>
+      <link>https://arxiv.org/abs/2611.26935</link>
+      <guid isPermaLink="false">arxiv:2611.26935</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>How much information relevant to predicting the future of a passage (i.e. predictive information) is carried by the preceding text, and how is this information distributed along that history? These questions are fundamental to…</description>
+    </item>
+    <item>
       <title>[Paper] Beyond Prompt Heuristics: Assessing Child Safety Alignment in LLMs</title>
       <link>https://arxiv.org/abs/2611.26965</link>
       <guid isPermaLink="false">arxiv:2611.26965</guid>
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
       <category>arxiv</category>
       <description>Child-safety taxonomies typically characterize safety risks through a predefined set of harm categories, and existing evaluations largely operationalize these categories using prompts that explicitly invoke them. However, child-safety…</description>
+    </item>
+    <item>
+      <title>[Paper] Right Numbers, Wrong Story: When LLMs Narrate Financial Changes Beyond Their Inputs</title>
+      <link>https://arxiv.org/abs/2611.26968</link>
+      <guid isPermaLink="false">arxiv:2611.26968</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>A financial report drafted by an LLM can state every number correctly but still go beyond its input, adding judgments and causes that no one supplied. We call these additions unsupported framing and find them far more often in LLM drafts…</description>
+    </item>
+    <item>
+      <title>[Paper] Run One, Get Two: Near-Free Streaming Safety Checks for Local LLMs</title>
+      <link>https://arxiv.org/abs/2611.26975</link>
+      <guid isPermaLink="false">arxiv:2611.26975</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Local LLM assistants decode for one user at a time, so decoding is bound by memory bandwidth and leaves compute idle. Streaming safety checks today trade accuracy against cost. A dedicated guard model is accurate but nearly doubles the…</description>
+    </item>
+    <item>
+      <title>[Paper] From Letter-of-Credit Requirements to Executable Specifications: Evaluating Verification Accuracy and Completeness</title>
+      <link>https://arxiv.org/abs/2611.26988</link>
+      <guid isPermaLink="false">arxiv:2611.26988</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>In letter-of-credit (LC) document examination, a correct final decision does not show that every requirement was examined. We therefore evaluate examination requirement by requirement and make each requirement executable. A language model…</description>
     </item>
     <item>
       <title>[Paper] Isolating the Language Shell: A Content-Controlled Study of Multilingual Reasoning</title>
@@ -200,12 +312,36 @@
       <description>Language models assign different probabilities to token sequences that decode to the same string. In reinforcement learning from verifiable rewards (RLVR), a trainer that re-encodes sampled text may train on a different token sequence…</description>
     </item>
     <item>
+      <title>[Paper] ORION: Exact Canonical-State Supervision for Systematic Generalization in Transformers</title>
+      <link>https://arxiv.org/abs/2611.27087</link>
+      <guid isPermaLink="false">arxiv:2611.27087</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Autoregressive Transformers generally fail on out-of-distribution reasoning due to two primary reasons: positional corruption over long sequences and structural state drift across deep execution steps. We introduce ORION, a framework that…</description>
+    </item>
+    <item>
+      <title>[Paper] PLoQ: A Prompt-Specific Low-Rank Basis for 4-bit Quantization of LLM Activations</title>
+      <link>https://arxiv.org/abs/2611.27092</link>
+      <guid isPermaLink="false">arxiv:2611.27092</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Low-bit activation quantization of large language models remains challenging, as a small number of dominant directions dictate the quantization range. State-of-the-art methods isolate these directions in a high-precision subspace through…</description>
+    </item>
+    <item>
       <title>[Paper] Separating Automation Gains from Agent Contributions in AI-Assisted Model Validation</title>
       <link>https://arxiv.org/abs/2611.27094</link>
       <guid isPermaLink="false">arxiv:2611.27094</guid>
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
       <category>arxiv</category>
       <description>LLM agents are being proposed for bank model validation, yet evaluations that compare agent-assisted work with manual practice credit the agent with gains that come from digitized evidence and deterministic tests. We propose a staged…</description>
+    </item>
+    <item>
+      <title>[Paper] Reasoning in Two Dimensions: Quantifying Chain-of-Thought Faithfulness and Efficiency</title>
+      <link>https://arxiv.org/abs/2611.27100</link>
+      <guid isPermaLink="false">arxiv:2611.27100</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Chain-of-thought (CoT) reasoning exposes intermediate steps, but a correct answer does not establish that an LLM relies on the dependence expressed by those steps or reasons efficiently. We operationalize CoT faithfulness and efficiency…</description>
     </item>
     <item>
       <title>[Paper] Cross-Platform Production Signatures of State-Linked Information Operations</title>
@@ -216,6 +352,14 @@
       <description>An information operation active on several platforms presents different names, personas, and topics on each. Its working routine is harder to change. We call this routine the operation's production signature: the regularities in when and…</description>
     </item>
     <item>
+      <title>[Paper] Double counting in LLM evidence fusion: exact posteriors separate rule compliance from posterior gain</title>
+      <link>https://arxiv.org/abs/2611.27138</link>
+      <guid isPermaLink="false">arxiv:2611.27138</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Language models fuse reports in retrieval, multi-agent consensus and agent memory, where treating shared-source reports as independent can double count evidence. A common remedy is an instruction to count each source once. Its value…</description>
+    </item>
+    <item>
       <title>[Paper] Do Senior Agents Do Their Job? Measuring Role Integrity in How LLM Agents Use Subordinate Material</title>
       <link>https://arxiv.org/abs/2611.27139</link>
       <guid isPermaLink="false">arxiv:2611.27139</guid>
@@ -224,12 +368,28 @@
       <description>Multi-agent LLM systems increasingly divide long tasks among subagents whose reports a senior agent turns into the final answer. Such a division of labor pays off only if each agent, and above all the senior agent, carries out the duties…</description>
     </item>
     <item>
+      <title>[Paper] The Vulnerability Window: Decision Instability in Quantized Reward Models</title>
+      <link>https://arxiv.org/abs/2611.27155</link>
+      <guid isPermaLink="false">arxiv:2611.27155</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Reward models and LLM judges are routinely quantized to 4 bits so that scoring many candidates stays affordable, and the usual check is that benchmark accuracy barely moves. That check is close to blind. Across eight reward models from…</description>
+    </item>
+    <item>
       <title>[Paper] Co-Evolving Behavioral Agents and Detectors for Adaptive Information Operations</title>
       <link>https://arxiv.org/abs/2611.27156</link>
       <guid isPermaLink="false">arxiv:2611.27156</guid>
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
       <category>arxiv</category>
       <description>Detectors of state-sponsored information operations (IOs) are trained on campaigns that platforms have already taken down. They lose much of their accuracy on an actor they have not seen, even though no operator in the archived data is…</description>
+    </item>
+    <item>
+      <title>[Paper] What Does Matching a Human Intervention Effect Establish? Benchmark Checks for LLM Simulations</title>
+      <link>https://arxiv.org/abs/2611.27186</link>
+      <guid isPermaLink="false">arxiv:2611.27186</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>LLM simulations are validated by equivalence with human effects, yet a zero reference passes whenever the human 90 percent interval lies inside the margin, as the human benchmark shows before simulation. When the zero reference fails,…</description>
     </item>
     <item>
       <title>[Paper] How Much of a Calculation-Error Rate Is Not Arithmetic: Auditing the FinReason Cup 2026 Task 3 Metric with a Deterministic Rule System</title>
@@ -280,6 +440,14 @@
       <description>Initial public offering (IPO) filings describe what a company does and what it intends to become. Yet whether individual forward-looking claims are subsequently realized is difficult to assess. We introduce Vision Follow-Through (VFT), a…</description>
     </item>
     <item>
+      <title>[Paper] Belief-State Management Meets Rubric Rewards for Agentic Forecasting</title>
+      <link>https://arxiv.org/abs/2611.27286</link>
+      <guid isPermaLink="false">arxiv:2611.27286</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Current large language model (LLM) agents still struggle to forecast real-world events. This stems from two primary limitations: i) standard ReAct harness accumulates reasoning and evidence within one growing context, and ii)…</description>
+    </item>
+    <item>
       <title>[Paper] Observed, Curated, Reused: Observation Bias in Clinical AI Evaluation</title>
       <link>https://arxiv.org/abs/2611.27301</link>
       <guid isPermaLink="false">arxiv:2611.27301</guid>
@@ -294,6 +462,14 @@
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
       <category>arxiv</category>
       <description>While chain-of-thought (CoT) prompting elicits intermediate reasoning steps from language models, it is unclear which words in the context actually steer the CoT. We identify Phantom Context Influence (PCI): language models are…</description>
+    </item>
+    <item>
+      <title>[Paper] SAVIOR: Sample-efficient Adaptation of Vision-Language Models for OCR Representation</title>
+      <link>https://arxiv.org/abs/2611.27319</link>
+      <guid isPermaLink="false">arxiv:2611.27319</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Optical Character Recognition (OCR) pipelines and vision-language models exhibit high accuracy on standard OCR and document-understanding benchmarks, yet they systematically underperform on document patterns that are operationally…</description>
     </item>
     <item>
       <title>[Paper] Reasoning in Fewer Tokens: Concept-Normalized Multilingual Scratchpads and Reversible Model-Adaptive Reasoning Codes</title>
@@ -318,6 +494,30 @@
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
       <category>arxiv</category>
       <description>As the capabilities of large language models keep improving, traditional mechanistic interpretability methods struggle to keep pace. In contrast, trainable introspection methods emerge as a promising alternative; they repurpose the model…</description>
+    </item>
+    <item>
+      <title>[Paper] AMARIS: Merging Generalist and Specialist LLMs via Adaptive Subspace Inheritance</title>
+      <link>https://arxiv.org/abs/2611.27369</link>
+      <guid isPermaLink="false">arxiv:2611.27369</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Domain specialization of large language models (LLMs) often improves target-domain performance but degrades broad capabilities. Model merging is an attractive training-free alternative, yet common parameter-space strategies (for example,…</description>
+    </item>
+    <item>
+      <title>[Paper] Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training</title>
+      <link>https://arxiv.org/abs/2611.27376</link>
+      <guid isPermaLink="false">arxiv:2611.27376</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>RL post-training typically produces domain experts that must then be consolidated into one model, and as new experts keep arriving, this consolidation becomes a continual process. Weight merging and multi-teacher on-policy distillation…</description>
+    </item>
+    <item>
+      <title>[Paper] HR-Merge: Model Merging with Headroom-Weighted Residual Refinement</title>
+      <link>https://arxiv.org/abs/2611.27377</link>
+      <guid isPermaLink="false">arxiv:2611.27377</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Model merging combines experts fine-tuned from a shared backbone, such as LoRA adapters of a large language model, into one multi-task model without further training. Existing methods apply one rule to every task, yet the accuracy they…</description>
     </item>
     <item>
       <title>[Paper] ORBIT: Offset-based Activation Steering for Cross-lingual Multimodal Fact Verification</title>
@@ -352,6 +552,22 @@
       <description>Large language model (LLM) capabilities have been associated with localized parameter regions, enabling targeted model editing and intervention. However, it remains unclear whether a region identified before model optimization remains an…</description>
     </item>
     <item>
+      <title>[Paper] On the Challenges of Using LLMs in High-Risk AI Recruitment: Guiding Questions for Legal Conformity with the AI Act</title>
+      <link>https://arxiv.org/abs/2611.27462</link>
+      <guid isPermaLink="false">arxiv:2611.27462</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>The EU Artificial Intelligence Act (AI Act) imposes detailed obligations on providers of high-risk AI systems but offers limited operational guidance, particularly when these systems integrate third-party General-Purpose AI (GPAI) models.…</description>
+    </item>
+    <item>
+      <title>[Paper] Efficient Natural Language to Temporal Logic Translation for Real-Time Physical AI</title>
+      <link>https://arxiv.org/abs/2611.27489</link>
+      <guid isPermaLink="false">arxiv:2611.27489</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Robots can be controlled to perform tasks with guaranteed correctness when the task instructions are stated in a formal language. Large language models (LLMs) have been widely used to allow users to provide such instructions in natural…</description>
+    </item>
+    <item>
       <title>[Paper] Alignment without Transfer: Tokenization Impacts Cross-lingual Representations during Multilingual Language Model Pretraining</title>
       <link>https://arxiv.org/abs/2611.27491</link>
       <guid isPermaLink="false">arxiv:2611.27491</guid>
@@ -384,6 +600,14 @@
       <description>Byte-level BPE vocabularies retain 256 single-byte fallback tokens. When converting such a model into a pure byte-level model, these tokens provide the starting embeddings. How much training have they received? We estimate byte-token…</description>
     </item>
     <item>
+      <title>[Paper] PaMuk-Bench: A Parallel Multilingual Multitask Benchmark for Vision-Language Tasks</title>
+      <link>https://arxiv.org/abs/2611.27521</link>
+      <guid isPermaLink="false">arxiv:2611.27521</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>While vision-language models (VLMs) currently obtain notable results for highly-studied languages, e.g. English, they exhibit significant performance drops in certain low-resource languages, especially due to the lack of annotated…</description>
+    </item>
+    <item>
       <title>[Paper] Open CDLM: A Benchmark and Library for Continuous Diffusion Language Models</title>
       <link>https://arxiv.org/abs/2611.27536</link>
       <guid isPermaLink="false">arxiv:2611.27536</guid>
@@ -408,6 +632,14 @@
       <description>We introduce Tasklets, a benchmark of small synthetic tasks for evaluating the computational capabilities of language model sequence-mixing layers. These tasks probe foundational capabilities such as recall, sequence manipulation, and…</description>
     </item>
     <item>
+      <title>[Paper] Potential emergence in LLM agents: a statistical physics perspective</title>
+      <link>https://arxiv.org/abs/2611.27618</link>
+      <guid isPermaLink="false">arxiv:2611.27618</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>There has been significant recent interest in understanding the behaviour of LLM agents from the perspective of human preferences or corpus statistics. In this paper we propose agent states as intermediate variables through which…</description>
+    </item>
+    <item>
       <title>[Paper] Auditing Post-Training Unlearning in Diffusion Language Models using Sparse Autoencoders</title>
       <link>https://arxiv.org/abs/2611.27652</link>
       <guid isPermaLink="false">arxiv:2611.27652</guid>
@@ -430,6 +662,14 @@
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
       <category>arxiv</category>
       <description>Decision models receive a question with a closed list of answers and return a probability for each answer instead of free text. They promise low latency and robustness to prompt wording, but no study has compared several of them with…</description>
+    </item>
+    <item>
+      <title>[Paper] Beyond Math, Code, and Logic: Do Reasoning Models Transfer to Scientific Argumentation?</title>
+      <link>https://arxiv.org/abs/2611.27722</link>
+      <guid isPermaLink="false">arxiv:2611.27722</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>arxiv</category>
+      <description>Scientific discourse depends on argumentative reasoning: identifying claims, evaluating evidence, and constructing coherent responses. While recent advances in reasoning-capable language models have demonstrated strong performance on…</description>
     </item>
     <item>
       <title>[Paper] AutoOntologyBench: A Task-Grounded Benchmark for Agentic Knowledge Engineering</title>
@@ -472,254 +712,6 @@
       <description>While large language models (LLMs) have advanced natural language understanding, their ability to perform complex target-aspect-sentiment detection (TASD) -- a key task within aspect-based sentiment analysis (ABSA) -- in zero-shot…</description>
     </item>
     <item>
-      <title>[Paper] MemOnce: A Scalable Memory Architecture for Large Language Models</title>
-      <link>https://arxiv.org/abs/2611.27973</link>
-      <guid isPermaLink="false">arxiv:2611.27973</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise,…</description>
-    </item>
-    <item>
-      <title>[Paper] SDG: State-Dependent Gating at Chunk Boundaries for Linear Attention</title>
-      <link>https://arxiv.org/abs/2611.26637</link>
-      <guid isPermaLink="false">arxiv:2611.26637</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Recent gated linear attention models use state-independent gates, computed from token representations without directly reading the recurrent memory. This design supports efficient chunkwise computation: sequences are divided into chunks…</description>
-    </item>
-    <item>
-      <title>[Paper] VerifiQuant: Governance-by-Execution for Financial LLM Workflows</title>
-      <link>https://arxiv.org/abs/2611.26649</link>
-      <guid isPermaLink="false">arxiv:2611.26649</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Large language models embedded in financial workflows fail most dangerously by emitting confident, well-formatted but wrong numbers with no signal distinguishing them from correct ones. We argue that the central deployment problem is…</description>
-    </item>
-    <item>
-      <title>[Paper] Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams</title>
-      <link>https://arxiv.org/abs/2611.26663</link>
-      <guid isPermaLink="false">arxiv:2611.26663</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open. We crossed AI partnership (one versus two) with behavioral formation (calibrated to average human behavior…</description>
-    </item>
-    <item>
-      <title>[Paper] TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator</title>
-      <link>https://arxiv.org/abs/2611.26722</link>
-      <guid isPermaLink="false">arxiv:2611.26722</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>To autonomously execute multi-step tasks, enterprise agents must reliably interact with tools, call APIs, or query databases, making tool-calling a fundamental capability of AI models. Supervised fine-tuning (SFT) optimises for producing…</description>
-    </item>
-    <item>
-      <title>[Paper] Don't Discard Your Rollouts: Reusing Teacher RL Traces for Student Distillation</title>
-      <link>https://arxiv.org/abs/2611.26803</link>
-      <guid isPermaLink="false">arxiv:2611.26803</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>RL post-training methods such as PPO and GRPO are computationally expensive, with substantial resources devoted to sampling rollouts, which contain multiple completions per prompt along with their respective rewards. Canonical…</description>
-    </item>
-    <item>
-      <title>[Paper] Perceive Once, Escalate on Demand: Handing Off Visual KV Memory from Small to Large VLMs</title>
-      <link>https://arxiv.org/abs/2611.26902</link>
-      <guid isPermaLink="false">arxiv:2611.26902</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>An embodied agent cannot afford a large vision-language model (VLM) at every step of a long video, so a cascade runs a small VLM continuously and escalates only uncertain decisions to a large one. Each escalation, however, forces the…</description>
-    </item>
-    <item>
-      <title>[Paper] What Does a Zoom Actually Add? Decomposing Fine-Grained Perception Failures in Vision-Language Models</title>
-      <link>https://arxiv.org/abs/2611.26904</link>
-      <guid isPermaLink="false">arxiv:2611.26904</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Zooming into a region often turns a wrong answer from a vision-language model (VLM) into a right one, and a growing literature takes this as evidence that the model lacked the pixels. But a zoom changes several things at once. It removes…</description>
-    </item>
-    <item>
-      <title>[Paper] AstronautBench: Measuring Agent Self-Improvement Across Episodes Through Knowledge, Evidence, and Progress</title>
-      <link>https://arxiv.org/abs/2611.26910</link>
-      <guid isPermaLink="false">arxiv:2611.26910</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>LLM agents are expected to improve themselves from their own experience across episodes, with fixed weights. Self-improvement in an embodied world cannot be read from one measure. Existing benchmarks measure task progress, world-knowledge…</description>
-    </item>
-    <item>
-      <title>[Paper] What Does the Visual Encoder Buy? Visual Information Gain in Encoder-Free Multimodal Pretraining</title>
-      <link>https://arxiv.org/abs/2611.26917</link>
-      <guid isPermaLink="false">arxiv:2611.26917</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Recent scaling studies ask whether vision-language models still need a visual encoder by comparing encoder-free and encoder-based models on the next-token loss of the text in image-text data. This loss can fall without any use of the…</description>
-    </item>
-    <item>
-      <title>[Paper] ERA: Embed, Route, Adapt for Cold-Start Cross-Model Latent Retrieval</title>
-      <link>https://arxiv.org/abs/2611.26919</link>
-      <guid isPermaLink="false">arxiv:2611.26919</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Production retrieval systems are tied to the embedding model that indexed their corpus. Moving queries to a different encoder normally requires re-embedding the whole corpus, and at cold start there are no query logs while every document…</description>
-    </item>
-    <item>
-      <title>[Paper] Self-similar Organization of Information in Language</title>
-      <link>https://arxiv.org/abs/2611.26935</link>
-      <guid isPermaLink="false">arxiv:2611.26935</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>How much information relevant to predicting the future of a passage (i.e. predictive information) is carried by the preceding text, and how is this information distributed along that history? These questions are fundamental to…</description>
-    </item>
-    <item>
-      <title>[Paper] Right Numbers, Wrong Story: When LLMs Narrate Financial Changes Beyond Their Inputs</title>
-      <link>https://arxiv.org/abs/2611.26968</link>
-      <guid isPermaLink="false">arxiv:2611.26968</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>A financial report drafted by an LLM can state every number correctly but still go beyond its input, adding judgments and causes that no one supplied. We call these additions unsupported framing and find them far more often in LLM drafts…</description>
-    </item>
-    <item>
-      <title>[Paper] Run One, Get Two: Near-Free Streaming Safety Checks for Local LLMs</title>
-      <link>https://arxiv.org/abs/2611.26975</link>
-      <guid isPermaLink="false">arxiv:2611.26975</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Local LLM assistants decode for one user at a time, so decoding is bound by memory bandwidth and leaves compute idle. Streaming safety checks today trade accuracy against cost. A dedicated guard model is accurate but nearly doubles the…</description>
-    </item>
-    <item>
-      <title>[Paper] From Letter-of-Credit Requirements to Executable Specifications: Evaluating Verification Accuracy and Completeness</title>
-      <link>https://arxiv.org/abs/2611.26988</link>
-      <guid isPermaLink="false">arxiv:2611.26988</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>In letter-of-credit (LC) document examination, a correct final decision does not show that every requirement was examined. We therefore evaluate examination requirement by requirement and make each requirement executable. A language model…</description>
-    </item>
-    <item>
-      <title>[Paper] ORION: Exact Canonical-State Supervision for Systematic Generalization in Transformers</title>
-      <link>https://arxiv.org/abs/2611.27087</link>
-      <guid isPermaLink="false">arxiv:2611.27087</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Autoregressive Transformers generally fail on out-of-distribution reasoning due to two primary reasons: positional corruption over long sequences and structural state drift across deep execution steps. We introduce ORION, a framework that…</description>
-    </item>
-    <item>
-      <title>[Paper] PLoQ: A Prompt-Specific Low-Rank Basis for 4-bit Quantization of LLM Activations</title>
-      <link>https://arxiv.org/abs/2611.27092</link>
-      <guid isPermaLink="false">arxiv:2611.27092</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Low-bit activation quantization of large language models remains challenging, as a small number of dominant directions dictate the quantization range. State-of-the-art methods isolate these directions in a high-precision subspace through…</description>
-    </item>
-    <item>
-      <title>[Paper] Reasoning in Two Dimensions: Quantifying Chain-of-Thought Faithfulness and Efficiency</title>
-      <link>https://arxiv.org/abs/2611.27100</link>
-      <guid isPermaLink="false">arxiv:2611.27100</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Chain-of-thought (CoT) reasoning exposes intermediate steps, but a correct answer does not establish that an LLM relies on the dependence expressed by those steps or reasons efficiently. We operationalize CoT faithfulness and efficiency…</description>
-    </item>
-    <item>
-      <title>[Paper] Double counting in LLM evidence fusion: exact posteriors separate rule compliance from posterior gain</title>
-      <link>https://arxiv.org/abs/2611.27138</link>
-      <guid isPermaLink="false">arxiv:2611.27138</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Language models fuse reports in retrieval, multi-agent consensus and agent memory, where treating shared-source reports as independent can double count evidence. A common remedy is an instruction to count each source once. Its value…</description>
-    </item>
-    <item>
-      <title>[Paper] The Vulnerability Window: Decision Instability in Quantized Reward Models</title>
-      <link>https://arxiv.org/abs/2611.27155</link>
-      <guid isPermaLink="false">arxiv:2611.27155</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Reward models and LLM judges are routinely quantized to 4 bits so that scoring many candidates stays affordable, and the usual check is that benchmark accuracy barely moves. That check is close to blind. Across eight reward models from…</description>
-    </item>
-    <item>
-      <title>[Paper] What Does Matching a Human Intervention Effect Establish? Benchmark Checks for LLM Simulations</title>
-      <link>https://arxiv.org/abs/2611.27186</link>
-      <guid isPermaLink="false">arxiv:2611.27186</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>LLM simulations are validated by equivalence with human effects, yet a zero reference passes whenever the human 90 percent interval lies inside the margin, as the human benchmark shows before simulation. When the zero reference fails,…</description>
-    </item>
-    <item>
-      <title>[Paper] Belief-State Management Meets Rubric Rewards for Agentic Forecasting</title>
-      <link>https://arxiv.org/abs/2611.27286</link>
-      <guid isPermaLink="false">arxiv:2611.27286</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Current large language model (LLM) agents still struggle to forecast real-world events. This stems from two primary limitations: i) standard ReAct harness accumulates reasoning and evidence within one growing context, and ii)…</description>
-    </item>
-    <item>
-      <title>[Paper] SAVIOR: Sample-efficient Adaptation of Vision-Language Models for OCR Representation</title>
-      <link>https://arxiv.org/abs/2611.27319</link>
-      <guid isPermaLink="false">arxiv:2611.27319</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Optical Character Recognition (OCR) pipelines and vision-language models exhibit high accuracy on standard OCR and document-understanding benchmarks, yet they systematically underperform on document patterns that are operationally…</description>
-    </item>
-    <item>
-      <title>[Paper] AMARIS: Merging Generalist and Specialist LLMs via Adaptive Subspace Inheritance</title>
-      <link>https://arxiv.org/abs/2611.27369</link>
-      <guid isPermaLink="false">arxiv:2611.27369</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Domain specialization of large language models (LLMs) often improves target-domain performance but degrades broad capabilities. Model merging is an attractive training-free alternative, yet common parameter-space strategies (for example,…</description>
-    </item>
-    <item>
-      <title>[Paper] Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training</title>
-      <link>https://arxiv.org/abs/2611.27376</link>
-      <guid isPermaLink="false">arxiv:2611.27376</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>RL post-training typically produces domain experts that must then be consolidated into one model, and as new experts keep arriving, this consolidation becomes a continual process. Weight merging and multi-teacher on-policy distillation…</description>
-    </item>
-    <item>
-      <title>[Paper] HR-Merge: Model Merging with Headroom-Weighted Residual Refinement</title>
-      <link>https://arxiv.org/abs/2611.27377</link>
-      <guid isPermaLink="false">arxiv:2611.27377</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Model merging combines experts fine-tuned from a shared backbone, such as LoRA adapters of a large language model, into one multi-task model without further training. Existing methods apply one rule to every task, yet the accuracy they…</description>
-    </item>
-    <item>
-      <title>[Paper] On the Challenges of Using LLMs in High-Risk AI Recruitment: Guiding Questions for Legal Conformity with the AI Act</title>
-      <link>https://arxiv.org/abs/2611.27462</link>
-      <guid isPermaLink="false">arxiv:2611.27462</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>The EU Artificial Intelligence Act (AI Act) imposes detailed obligations on providers of high-risk AI systems but offers limited operational guidance, particularly when these systems integrate third-party General-Purpose AI (GPAI) models.…</description>
-    </item>
-    <item>
-      <title>[Paper] Efficient Natural Language to Temporal Logic Translation for Real-Time Physical AI</title>
-      <link>https://arxiv.org/abs/2611.27489</link>
-      <guid isPermaLink="false">arxiv:2611.27489</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Robots can be controlled to perform tasks with guaranteed correctness when the task instructions are stated in a formal language. Large language models (LLMs) have been widely used to allow users to provide such instructions in natural…</description>
-    </item>
-    <item>
-      <title>[Paper] PaMuk-Bench: A Parallel Multilingual Multitask Benchmark for Vision-Language Tasks</title>
-      <link>https://arxiv.org/abs/2611.27521</link>
-      <guid isPermaLink="false">arxiv:2611.27521</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>While vision-language models (VLMs) currently obtain notable results for highly-studied languages, e.g. English, they exhibit significant performance drops in certain low-resource languages, especially due to the lack of annotated…</description>
-    </item>
-    <item>
-      <title>[Paper] Potential emergence in LLM agents: a statistical physics perspective</title>
-      <link>https://arxiv.org/abs/2611.27618</link>
-      <guid isPermaLink="false">arxiv:2611.27618</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>There has been significant recent interest in understanding the behaviour of LLM agents from the perspective of human preferences or corpus statistics. In this paper we propose agent states as intermediate variables through which…</description>
-    </item>
-    <item>
-      <title>[Paper] Beyond Math, Code, and Logic: Do Reasoning Models Transfer to Scientific Argumentation?</title>
-      <link>https://arxiv.org/abs/2611.27722</link>
-      <guid isPermaLink="false">arxiv:2611.27722</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>arxiv</category>
-      <description>Scientific discourse depends on argumentative reasoning: identifying claims, evaluating evidence, and constructing coherent responses. While recent advances in reasoning-capable language models have demonstrated strong performance on…</description>
-    </item>
-    <item>
       <title>[Paper] SLP-Bench: Evaluating and Improving Acoustic Claims of Reasoning Audio Language Models on Clinical Speech</title>
       <link>https://arxiv.org/abs/2611.27810</link>
       <guid isPermaLink="false">arxiv:2611.27810</guid>
@@ -744,20 +736,28 @@
       <description>Coding agents increasingly implement rules written by domain experts, and bugs in such code are silent: it runs and returns a plausible answer. We introduce TEA-Bench-BR, a benchmark built on the Brazilian pathway for early autism (TEA)…</description>
     </item>
     <item>
-      <title>[Model] Aletheia-ng/gemma-3-270m-translate-best</title>
-      <link>https://huggingface.co/Aletheia-ng/gemma-3-270m-translate-best</link>
-      <guid isPermaLink="false">hf:models:Aletheia-ng/gemma-3-270m-translate-best</guid>
+      <title>[Paper] MemOnce: A Scalable Memory Architecture for Large Language Models</title>
+      <link>https://arxiv.org/abs/2611.27973</link>
+      <guid isPermaLink="false">arxiv:2611.27973</guid>
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
+      <category>arxiv</category>
+      <description>Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise,…</description>
     </item>
     <item>
-      <title>[Model] Aletheia-ng/gemma-3-385m-translate-best</title>
-      <link>https://huggingface.co/Aletheia-ng/gemma-3-385m-translate-best</link>
-      <guid isPermaLink="false">hf:models:Aletheia-ng/gemma-3-385m-translate-best</guid>
+      <title>[Tool] rajandasguptaml/research</title>
+      <link>https://github.com/rajandasguptaml/research</link>
+      <guid isPermaLink="false">gh:rajandasguptaml/research</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>github</category>
+      <description>Code, data and notebooks behind my papers: clinical decision support, explainable ML, retrieval-augmented reasoning, and LLM benchmarks for low-resource languages. Nine former repositories merged with full history.</description>
+    </item>
+    <item>
+      <title>[Corpus] cfahlgren1/tesla-fsd-drive-5min</title>
+      <link>https://huggingface.co/datasets/cfahlgren1/tesla-fsd-drive-5min</link>
+      <guid isPermaLink="false">hf:datasets:cfahlgren1/tesla-fsd-drive-5min</guid>
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
-      <description></description>
+      <description>Tesla FSD Drive Five continuous minutes · six cameras · per-frame telemetry Top: left pillar · front · right pillarBottom: left repeater · rear · right repeater Five continuous minutes of a Tesla Model Y (HW4) driving with FSD…</description>
     </item>
     <item>
       <title>[Model] Aletheia-ng/gemma-3-0.8b-translate-Q8</title>
@@ -784,25 +784,25 @@
       <description></description>
     </item>
     <item>
-      <title>[Model] anthian/salamandra-2b-instruct-Q4_K_M-gguf</title>
-      <link>https://huggingface.co/anthian/salamandra-2b-instruct-Q4_K_M-gguf</link>
-      <guid isPermaLink="false">hf:models:anthian/salamandra-2b-instruct-Q4_K_M-gguf</guid>
+      <title>[Model] Aletheia-ng/gemma-3-270m-translate-best</title>
+      <link>https://huggingface.co/Aletheia-ng/gemma-3-270m-translate-best</link>
+      <guid isPermaLink="false">hf:models:Aletheia-ng/gemma-3-270m-translate-best</guid>
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
     </item>
     <item>
-      <title>[Model] espnet/espnet3_lid_voxlingua107_mms_ecapa</title>
-      <link>https://huggingface.co/espnet/espnet3_lid_voxlingua107_mms_ecapa</link>
-      <guid isPermaLink="false">hf:models:espnet/espnet3_lid_voxlingua107_mms_ecapa</guid>
+      <title>[Model] Aletheia-ng/gemma-3-385m-translate-best</title>
+      <link>https://huggingface.co/Aletheia-ng/gemma-3-385m-translate-best</link>
+      <guid isPermaLink="false">hf:models:Aletheia-ng/gemma-3-385m-translate-best</guid>
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
     </item>
     <item>
-      <title>[Model] aufklarer/Parakeet-Ultra-CoreML-INT8-30s</title>
-      <link>https://huggingface.co/aufklarer/Parakeet-Ultra-CoreML-INT8-30s</link>
-      <guid isPermaLink="false">hf:models:aufklarer/Parakeet-Ultra-CoreML-INT8-30s</guid>
+      <title>[Model] Hapnoid/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-backup</title>
+      <link>https://huggingface.co/Hapnoid/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-backup</link>
+      <guid isPermaLink="false">hf:models:Hapnoid/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-backup</guid>
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
