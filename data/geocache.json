@@ -103,6 +103,7 @@
  },
  "andijan state institute of foreign languages associate professor, phd": null,
  "andijan state institute of foreign languages english language and literature faculty": null,
+ "andijon davlat chet tillari instituti 2-bosqich talabasi, filologiya va tillarni o'qitish, nemis tili": null,
  "andijon davlat chet tillari instituti xorijiy filologiya va turizm fakultetining filologiya va tillarni o'qitish: koreys tili yo'nalishi 1-kurs talabasi": null,
  "anhui xinhua university": {
   "lat": 31.8276,
@@ -162,7 +163,17 @@
   "lng": -85.496,
   "label": "Auburn University"
  },
+ "auckland university of technology": {
+  "lat": -36.853,
+  "lng": 174.7664,
+  "label": "Auckland University of Technology"
+ },
  "austin, tx or oakland, ca": null,
+ "australia": {
+  "lat": -24.7761,
+  "lng": 134.755,
+  "label": "Australie"
+ },
  "australian national university": {
   "lat": -35.2813,
   "lng": 149.1172,
@@ -407,6 +418,12 @@
  },
  "centre for synthetic biology (csb)": null,
  "centre hospitalier universitaire de reims": null,
+ "centre of excellence for photoconversion, vinča institute of nuclear sciences, national institute of the republic of serbia, university of belgrade": null,
+ "centro universitário fei": {
+  "lat": -23.7263,
+  "lng": -46.5809,
+  "label": "Centro Universitário FEI"
+ },
  "chalermkwansatree school": {
   "lat": 16.8199,
   "lng": 100.2603,
@@ -639,6 +656,7 @@
   "lng": -72.2942,
   "label": "Dartmouth College"
  },
+ "data science core, chiba university, chiba, japan": null,
  "data science core, chiba university, chiba, japan; soujoudata inc., tokyo, japan": null,
  "deggendorf institute of technology": null,
  "denver, co": {
@@ -667,6 +685,7 @@
  "department of information and communication technology, faculty of science and liberal arts, rajamangala university of technology isan, thailand": null,
  "department of inorganic chemistry, ivan franko national university of lviv": null,
  "department of linguistics, stockholm university": null,
+ "department of medicinal chemistry, center for natural products, drug discovery and development, university of florida, gainesville, fl 32610, usa": null,
  "department of neurology, staten island university hospital, northwell health": null,
  "department of neurosurgery, china-japan friendship hospital (institute of clinical medical sciences), chinese academy of medical sciences & peking union medical college, beijing 100029, china": null,
  "department of orthopedics, xuzhou central hospital, affiliated hospital of southeast university, xuzhou, jiangsu 221000, china; xuzhou medical university clinical college, xuzhou, jiangsu 221000, china": null,
@@ -1277,6 +1296,10 @@
   "location": "Bremen, Germany",
   "name": "kai-jungsthoefel"
  },
+ "gh:kaisye": {
+  "location": "Ho Chi Minh",
+  "name": "Phong Nguyen"
+ },
  "gh:kavya1818-hub": {
   "location": null,
   "name": "KAVYA"
@@ -1284,6 +1307,10 @@
  "gh:kayson-39": {
   "location": null,
   "name": "kayson-39"
+ },
+ "gh:kenkaiii": {
+  "location": "Australia",
+  "name": "Ken Kai"
  },
  "gh:keremss7": {
   "location": null,
@@ -1724,6 +1751,10 @@
  "gh:souravberaakaspeed": {
   "location": "BLR , Ind",
   "name": "Sourav bera"
+ },
+ "gh:sous-labs": {
+  "location": null,
+  "name": "sous-labs"
  },
  "gh:sp-yduck": {
   "location": "Tokyo,Japan",
@@ -2377,6 +2408,7 @@
  "hf:azrunguraya": null,
  "hf:azwaw": null,
  "hf:azyg0s": null,
+ "hf:azygod": null,
  "hf:baidu": {
   "fullname": "BAIDU"
  },
@@ -2528,6 +2560,9 @@
  "hf:coml": {
   "fullname": "Cognitive Machine Learning | @ENS"
  },
+ "hf:common-pile": {
+  "fullname": "Common Pile"
+ },
  "hf:commoncrawl": {
   "fullname": "Common Crawl Foundation"
  },
@@ -2572,6 +2607,9 @@
  },
  "hf:datalab-to": {
   "fullname": "Datalab"
+ },
+ "hf:datapointai": {
+  "fullname": "Datapoint AI"
  },
  "hf:datasets-cnrs": {
   "fullname": "datasets-CNRS"
@@ -2662,6 +2700,7 @@
  "hf:eidon-ai": {
   "fullname": "Eidon AI"
  },
+ "hf:einsia": null,
  "hf:ekanshbfoe": null,
  "hf:elabora": {
   "fullname": "Elabora"
@@ -2937,6 +2976,9 @@
  "hf:innadark": null,
  "hf:inoka-32": null,
  "hf:insafee": null,
+ "hf:interhuman": {
+  "fullname": "Interhuman"
+ },
  "hf:internscience": {
   "fullname": "Intern Science"
  },
@@ -4090,6 +4132,11 @@
   "lng": -110.2452,
   "label": "College of Applied Science and Technology"
  },
+ "ho chi minh": {
+  "lat": 10.7737,
+  "lng": 106.7166,
+  "label": "Hô Chi Minh-Ville"
+ },
  "hokkaido": {
   "lat": 43.452,
   "lng": 142.8198,
@@ -4115,6 +4162,7 @@
   "lng": 78.4741,
   "label": "Hyderabad"
  },
+ "ideaconsult ltd": null,
  "idiap research institute": null,
  "ikerbasque": null,
  "imdea software institute": null,
@@ -4133,6 +4181,16 @@
   "lat": 22.3511,
   "lng": 78.6677,
   "label": "Inde"
+ },
+ "indian institute of technology delhi": {
+  "lat": 28.545,
+  "lng": 77.1892,
+  "label": "Institut indien de technologie de Delhi"
+ },
+ "indonesia university of education": {
+  "lat": -6.8612,
+  "lng": 107.5917,
+  "label": "Universitas Pendidikan Indonesia"
  },
  "industrial university of ho chi minh city": null,
  "inner mongolia university": {
@@ -4312,6 +4370,7 @@
   "lng": 29.9507,
   "label": "Kocaeli"
  },
+ "kokand university andijan branch. department of foreign languages., orcid: https://orcid.org/0009-0002-7273-0750": null,
  "korea electronics technology institute": null,
  "korea railroad research institute": null,
  "korea university": {
@@ -4517,6 +4576,7 @@
   "label": "Massachusetts"
  },
  "master degree student of nukus state pedagogical institute  named after ajiniyaz nukus, uzbekistan": null,
+ "master student, school of postgraduate studies,linguistik (s2),  universitas pendidikan indonesia": null,
  "master student, study program linguistik (s2),  universitas pendidikan indonesia": null,
  "master student, study program linguistik (s2), universitas pendidikan indonesia": null,
  "master's student urgench state university": null,
@@ -4729,6 +4789,7 @@
   "lng": 5.0929,
   "label": "Nieuwegein"
  },
+ "ningxia medical university, school of international education": null,
  "normandie": {
   "lat": 49.0678,
   "lng": 0.3139,
@@ -4883,6 +4944,11 @@
   "lng": -80.0026,
   "label": "Pittsburgh"
  },
+ "plovdiv university": {
+  "lat": 42.1578,
+  "lng": 24.7143,
+  "label": "Пловдивски университет „Паисий Хилендарски“"
+ },
  "poland": {
   "lat": 52.2159,
   "lng": 19.1344,
@@ -4952,6 +5018,7 @@
   "label": "Redmond"
  },
  "research center for intelligent distributed surveillance and security, universitas dian nuswantoro, indonesia; faculty of computer science, universitas dian nuswantoro, semarang, indonesia": null,
+ "research foundation - flanders": null,
  "research library for the history of education": null,
  "richmond, va (+1 other), united states": null,
  "rmit university": {
@@ -5261,6 +5328,11 @@
   "lat": -33.8698,
   "lng": 151.2083,
   "label": "Sydney"
+ },
+ "sylhet engineering college": {
+  "lat": 24.9118,
+  "lng": 91.9045,
+  "label": "Sylhet Engineering College"
  },
  "széchenyi istván university": {
   "lat": 47.6942,
@@ -5653,6 +5725,11 @@
   "lng": 112.6073,
   "label": "Universitas Islam Malang"
  },
+ "universitas muhammadiyah magelang": {
+  "lat": -7.5226,
+  "lng": 110.2261,
+  "label": "Universitas Muhammadiyah Magelang"
+ },
  "universitas muhammadiyah malang": {
   "lat": -7.9209,
   "lng": 112.5972,
@@ -5966,6 +6043,11 @@
   "lng": 9.0712,
   "label": "Klimagarten der Universität Tübingen"
  },
+ "university of valparaíso": {
+  "lat": 41.4676,
+  "lng": -87.0427,
+  "label": "Valparaiso University Student Health Center"
+ },
  "university of victoria": {
   "lat": 48.4621,
   "lng": -123.3114,
@@ -6104,6 +6186,11 @@
   "lng": 63.9528,
   "label": "Ouzbékistan"
  },
+ "uzbekistan national pedagogical university": {
+  "lat": 41.2722,
+  "lng": 69.2057,
+  "label": "Nizomiy nomidagi O'zbekiston Milliy pedagogika universiteti"
+ },
  "valahia university of targoviste": {
   "lat": 44.9433,
   "lng": 25.4549,
@@ -6113,6 +6200,11 @@
   "lat": 50.3225,
   "lng": 3.5136,
   "label": "Université Polytechnique Hauts-de-France"
+ },
+ "vanderbilt university": {
+  "lat": 36.1438,
+  "lng": -86.8028,
+  "label": "Vanderbilt University"
  },
  "varna, bulgaria": {
   "lat": 43.2074,
@@ -6592,6 +6684,7 @@
  "wdn:collinear ai": null,
  "wdn:comfy org": null,
  "wdn:common crawl foundation": null,
+ "wdn:common pile": null,
  "wdn:community datasets": null,
  "wdn:convex works o e": null,
  "wdn:conway": {
@@ -6614,6 +6707,7 @@
   "geo_source": "Wikidata · Databricks"
  },
  "wdn:datalab": null,
+ "wdn:datapoint ai": null,
  "wdn:datasets cnrs": null,
  "wdn:datoric": null,
  "wdn:decosa": null,
@@ -6707,6 +6801,7 @@
  "wdn:infosec innovations": null,
  "wdn:institute for physical ai bmi": null,
  "wdn:institute of foundation models": null,
+ "wdn:interhuman": null,
  "wdn:intern science": null,
  "wdn:ist austria distributed algorithms and systems lab": null,
  "wdn:j aime ma langue": null,
