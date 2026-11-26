@@ -144,6 +144,7 @@
  "assistant lecturer, department of german language and literature,  karakalpak state university, uzbekistan.": null,
  "associate profesor,  translation theory and practice, samsifl": null,
  "associate professor (phd), university of journalism and mass communications of uzbekistan": null,
+ "associate professor (phd), urgench state university": null,
  "associate professor of the department of translation theory and practice samarkand state institute of foreign languages": null,
  "associate professor, department of computer engineering, faculty of artificial intelligence and digital technologies, andijan state university; phd in technical sciences": null,
  "associate professor, department of english language  teaching methodology, uswlu, uzbekistan,": null,
@@ -485,6 +486,7 @@
  "college of civil aviation, nanjing university of aeronautics and astronautics": null,
  "college of civil engineering, fuzhou university": null,
  "college of computer engineering, university of technology-iraq, baghdad, iraq": null,
+ "college of computer science & information systems, pacific states university, los angeles, ca, usa": null,
  "college of humanities and social sciences, hamad bin khalifa university, doha, qatar": null,
  "college of media and communication, texas tech university": null,
  "compiègne": {
@@ -805,6 +807,7 @@
  "faculty of science and technology, valaya alongkorn rajabhat university under the royal patronage, pathum thani, thailand": null,
  "fasl.work": null,
  "fast school of computing, fast-nuces, karachi, pakistan": null,
+ "filologiya fanlari nomzodi, dotsent": null,
  "first clinical medical college, gannan medical university, ganzhou, jiangxi, china": null,
  "first-year student,english filology faculty of uzbekistan  state world languages university": null,
  "flux-frontiers": null,
@@ -927,6 +930,10 @@
  "gh:aimeoa": {
   "location": null,
   "name": "rsesw"
+ },
+ "gh:alesha-pro": {
+  "location": null,
+  "name": "Alexey Fateev"
  },
  "gh:alex314618-create": {
   "location": null,
@@ -1531,6 +1538,10 @@
  "gh:opensec-git": {
   "location": "India",
   "name": "OpenSec"
+ },
+ "gh:opensetlabs": {
+  "location": null,
+  "name": "Open Set Labs"
  },
  "gh:opentuwa": {
   "location": null,
@@ -2188,6 +2199,9 @@
  },
  "hf:1of2": null,
  "hf:1xcodeteam": null,
+ "hf:3dcodefactory": {
+  "fullname": "3DCodeFactory"
+ },
  "hf:3dcodeverse": {
   "fullname": "3dcodeverse"
  },
@@ -3452,6 +3466,7 @@
  "hf:nyu-mll": {
   "fullname": "NYU Machine Learning for Language"
  },
+ "hf:obadakr": null,
  "hf:obliteratus": {
   "fullname": "OBLITERATUS"
  },
@@ -3691,6 +3706,9 @@
  "hf:salvacat": null,
  "hf:sam8000": null,
  "hf:samielakkad1": null,
+ "hf:sand-ai": {
+  "fullname": "Sand AI"
+ },
  "hf:sandflow": {
   "fullname": "Sandflow"
  },
@@ -3832,6 +3850,9 @@
  },
  "hf:swinliq-ain-2": {
   "fullname": "SwinliQ-AI"
+ },
+ "hf:swiss-ai": {
+  "fullname": "Swiss AI Initiative"
  },
  "hf:sylvainsouche": null,
  "hf:syvai": {
@@ -4104,6 +4125,7 @@
  },
  "hf:zakaria013": null,
  "hf:zakariaelaoufi": null,
+ "hf:zake7749": null,
  "hf:zarnite": {
   "fullname": "zarnite"
  },
@@ -4783,6 +4805,11 @@
   "lng": -1.6147,
   "label": "Newcastle University"
  },
+ "nguyen tat thanh university": {
+  "lat": 10.7611,
+  "lng": 106.7095,
+  "label": "Trường Đại học Nguyễn Tất Thành"
+ },
  "nicolae bălcescu land forces academy": null,
  "nieuwegein": {
   "lat": 52.0299,
@@ -5211,6 +5238,11 @@
   "lng": 127.0421,
   "label": "신한대학교입구"
  },
+ "sichuan normal university": {
+  "lat": 30.6118,
+  "lng": 104.1139,
+  "label": "四川师大"
+ },
  "sidi mohamed ben abdellah university": null,
  "singapore": {
   "lat": 1.3571,
@@ -5430,6 +5462,7 @@
  },
  "the second xiangya hospital, central south university": null,
  "the solution stack": null,
+ "the university of texas at austin": null,
  "the university of texas at el paso": {
   "lat": 31.7758,
   "lng": -106.5079,
@@ -5833,6 +5866,7 @@
   "label": "Università di Bologna"
  },
  "university of california, san francisco; waymark": null,
+ "university of cambridge, cambridge, uk (hybrid)": null,
  "university of castilla-la mancha": {
   "lat": 38.9894,
   "lng": -3.921,
@@ -6037,6 +6071,11 @@
   "lat": 46.0662,
   "lng": 11.1166,
   "label": "Palazzo Cavazzani"
+ },
+ "university of turku": {
+  "lat": 60.4561,
+  "lng": 22.2864,
+  "label": "Turun yliopisto"
  },
  "university of tübingen": {
   "lat": 48.5341,
@@ -6544,6 +6583,7 @@
   "_coarse": false
  },
  "wd:ziglobitha.org": null,
+ "wdn:3dcodefactory": null,
  "wdn:3dcodeverse": null,
  "wdn:adisyonist ai": null,
  "wdn:aeryx ai": null,
@@ -7007,6 +7047,7 @@
  "wdn:robotic systems lab eth z rich": null,
  "wdn:ropedia": null,
  "wdn:salesforce ai research": null,
+ "wdn:sand ai": null,
  "wdn:sandflow": null,
  "wdn:scantist pte ltd": null,
  "wdn:scenario": null,
@@ -7042,6 +7083,7 @@
  "wdn:swe at scale": null,
  "wdn:swe bench": null,
  "wdn:swinliq ai": null,
+ "wdn:swiss ai initiative": null,
  "wdn:syv ai": null,
  "wdn:tamazight nlp": null,
  "wdn:tatsu lab": null,
@@ -7161,6 +7203,7 @@
  },
  "доцент, ташкентский государственный медицинский университет": null,
  "доцент, ташкентский государственный медицинский университет тел.: +998909392868": null,
+ "преподаватель наманганского  государственного университета": null,
  "北京": {
   "lat": 39.9011,
   "lng": 116.421,
