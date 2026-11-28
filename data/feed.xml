@@ -6,806 +6,806 @@
     <atom:link href="https://omnital.github.io/data/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Nouvelles ressources en traitement automatique des langues (arXiv, HAL, Hugging Face, GitHub, WikiCFP).</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 27 Nov 2026 15:17:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 11:06:48 +0000</lastBuildDate>
     <item>
-      <title>[Tool] 11Minato11/darijaidiom-qa</title>
-      <link>https://github.com/11Minato11/darijaidiom-qa</link>
-      <guid isPermaLink="false">gh:11minato11/darijaidiom-qa</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>github</category>
-      <description>Question-answering system for Moroccan Darija proverbs based on a reference book (DarijaBERT retriever + Qwen2.5 generator, FastAPI app)</description>
-    </item>
-    <item>
-      <title>[Corpus] Tadesse/AfriEmo-Annotators</title>
-      <link>https://huggingface.co/datasets/Tadesse/AfriEmo-Annotators</link>
-      <guid isPermaLink="false">hf:datasets:Tadesse/AfriEmo-Annotators</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Corpus] agentlans/universal-dependencies-parses</title>
+      <link>https://huggingface.co/datasets/agentlans/universal-dependencies-parses</link>
+      <guid isPermaLink="false">hf:datasets:agentlans/universal-dependencies-parses</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
-      <description>AfriEmo-Annotators Per-annotator emotion judgements for African-language texts. Each instance was independently labelled by three to five annotators, who could select any number of the six emotions — anger, disgust, fear, joy, sadness,…</description>
+      <description>Universal Dependencies Sentence Parses (v2.19) This unofficial dataset contains syntactic dependency parses from Universal Dependencies (UD) v2.19 (downloaded on November 27, 2026). The original CoNLL-U treebank annotations have been…</description>
     </item>
     <item>
-      <title>[Corpus] Tadesse/AfriHate-Annotators</title>
-      <link>https://huggingface.co/datasets/Tadesse/AfriHate-Annotators</link>
-      <guid isPermaLink="false">hf:datasets:Tadesse/AfriHate-Annotators</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>AfriHate-Annotators Per-annotator hate speech judgements for African-language tweets. Each instance was independently labelled by three or four annotators as hate (identity-based hateful or discriminatory content), abuse (insulting or…</description>
-    </item>
-    <item>
-      <title>[Corpus] Tadesse/AfriSent-Annotators</title>
-      <link>https://huggingface.co/datasets/Tadesse/AfriSent-Annotators</link>
-      <guid isPermaLink="false">hf:datasets:Tadesse/AfriSent-Annotators</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description>AfriSent-Annotators Per-annotator sentiment judgements for African-language tweets. Each instance was independently labelled by three annotators as positive, negative, or neutral. Unlike the usual release of these corpora, this one keeps…</description>
-    </item>
-    <item>
-      <title>[Model] Jeremy939494/Hy-MT3-7B</title>
-      <link>https://huggingface.co/Jeremy939494/Hy-MT3-7B</link>
-      <guid isPermaLink="false">hf:models:Jeremy939494/Hy-MT3-7B</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Model] raymondchins/thewhisper-large-v3-turbo-coreml</title>
+      <link>https://huggingface.co/raymondchins/thewhisper-large-v3-turbo-coreml</link>
+      <guid isPermaLink="false">hf:models:raymondchins/thewhisper-large-v3-turbo-coreml</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>huggingface</category>
       <description></description>
     </item>
     <item>
-      <title>[Model] Xylolabs/Hy-MT3-30B-A3B-MLX-4bit</title>
-      <link>https://huggingface.co/Xylolabs/Hy-MT3-30B-A3B-MLX-4bit</link>
-      <guid isPermaLink="false">hf:models:Xylolabs/Hy-MT3-30B-A3B-MLX-4bit</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
+      <title>[Corpus] Coding table for construction contract disputes in Vietnamese court judgments, 2016 to 2026 (version 3)</title>
+      <link>https://zenodo.org/records/24625443</link>
+      <guid isPermaLink="false">zenodo:22304762</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Dataset supporting the article "The Certification Gap: Why Payment Deadlines Fail in Construction Contracts" (Journal of Legal Affairs and Dispute Resolution in Engineering and Construction, manuscript LADR-1807, second revision). It…</description>
+    </item>
+    <item>
+      <title>[Corpus] Data and code for: Correct, Other-Species and Empty Records: Evaluating a Language-Model Access Layer to the Korean Statutory Species List, with Samples from Three Other Countries</title>
+      <link>https://zenodo.org/records/24621069</link>
+      <guid isPermaLink="false">zenodo:24621068</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Data and code for the article Correct, Other-Species and Empty Records: Evaluating a Language-Model Access Layer to the Korean Statutory Species List, with Samples from Three Other Countries (Ji Sun Hong and Yuyong Kim). The article asks…</description>
+    </item>
+    <item>
+      <title>[Corpus] De-identified data file for Knowledge graph-enhanced large language model for improvement of undergraduate performance in medical education: A retrospective cohort study</title>
+      <link>https://zenodo.org/records/24621063</link>
+      <guid isPermaLink="false">zenodo:24621062</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
       <description></description>
     </item>
     <item>
-      <title>[Model] Xylolabs/Hy-MT3-30B-A3B-MLX-8bit</title>
-      <link>https://huggingface.co/Xylolabs/Hy-MT3-30B-A3B-MLX-8bit</link>
-      <guid isPermaLink="false">hf:models:Xylolabs/Hy-MT3-30B-A3B-MLX-8bit</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
+      <title>[Corpus] CHARACTERISTICS OF COHESION AND COHERENCE IN ENGLISH AND UZBEKISTAN TEXTS CREATED BY GENERATIVE ARTIFICIAL INTELLIGENCE: ANALYSIS OF "HALLUCINATION" AND LOGICAL CONNECTION</title>
+      <link>https://zenodo.org/records/24617951</link>
+      <guid isPermaLink="false">zenodo:24617950</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>This scientific thesis studies the structural-semantic integrity of texts in English and Uzbek created by large language models (LLM) and generative artificial intelligence systems from a comparative-linguistic perspective. The main goal…</description>
     </item>
     <item>
-      <title>[Model] ferminjmg/livecaption-hitz-mt-onnx</title>
-      <link>https://huggingface.co/ferminjmg/livecaption-hitz-mt-onnx</link>
-      <guid isPermaLink="false">hf:models:ferminjmg/livecaption-hitz-mt-onnx</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
+      <title>[Tool] Source Review Evidence: Software and Retained Computational Records</title>
+      <link>https://zenodo.org/records/24622893</link>
+      <guid isPermaLink="false">zenodo:24522638</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Source Review Evidence provides software and computational records for examining the evidence obligations of heuristic source-review reports. Version 1.1.0 combines the complete retained 1.0.0 distribution with the later executable study,…</description>
     </item>
     <item>
-      <title>[Model] jianxin133/actpi05_model</title>
-      <link>https://huggingface.co/jianxin133/actpi05_model</link>
-      <guid isPermaLink="false">hf:models:jianxin133/actpi05_model</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>huggingface</category>
-      <description></description>
+      <title>[Tool] ESM-2 protein language model container image (CUDA 12.8)</title>
+      <link>https://zenodo.org/records/24617762</link>
+      <guid isPermaLink="false">zenodo:24617761</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>zenodo</category>
+      <description>Versioned container image firesimulations/esm:2-cuda12.8-r1 (linux/amd64, NVIDIA GPU required) for ESM-2 weights, Transformers. Immutable registry digest: sha256:cc5a8ec771a3fd01d78d73fe1e2f660276d51b96cc958d8de11186d13d4fea5d . The…</description>
     </item>
     <item>
-      <title>[Opportunity] 7669 - Agent Engineer</title>
-      <link>https://nlppeople.com/jobs/7669-agent-engineer-spain</link>
-      <guid isPermaLink="false">nlppeople:7669-agent-engineer-spain</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Opportunity] Trading AI Developer, Global Markets</title>
+      <link>https://nlppeople.com/jobs/trading-ai-developer-global-markets-new-york</link>
+      <guid isPermaLink="false">nlppeople:trading-ai-developer-global-markets-new-york</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Designs, develops and evolves AI-native solutions using multi-agent architectures and cognitive agents integrated with cloud platforms and LLMs. Advises development teams on deploying intelligent agents and guides integration…</description>
+      <description>Summary: Designs, builds and implements quantitative models and AI-powered trading systems for the Global Markets front office. Works with Trading, Structuring, Sales, Quant and IT partners to take solutions from idea through production…</description>
     </item>
     <item>
-      <title>[Opportunity] ADAS Perception Engineer</title>
-      <link>https://nlppeople.com/jobs/adas-perception-engineer-bengaluru</link>
-      <guid isPermaLink="false">nlppeople:adas-perception-engineer-bengaluru</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Opportunity] Computer Vision Co-Founder / CRO (100 % remote) (m/f/d)</title>
+      <link>https://nlppeople.com/jobs/computer-vision-co-founder-cro-100-remote-m-f-d-naples</link>
+      <guid isPermaLink="false">nlppeople:computer-vision-co-founder-cro-100-remote-m-f-d-naples</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Designs, implements and validates radar-based object detection and tracking algorithms for advanced driver assistance systems. Owns perception components end to end, from C++ implementation through data analysis, pipelines and…</description>
+      <description>Summary: Founders co-start and run their own computer vision startup, supported by coaching, hiring help, and funding assistance. The role focuses on building a product to market fit and growing revenue. We are looking to hire ambitious…</description>
     </item>
     <item>
-      <title>[Opportunity] Agentic AI Developer</title>
-      <link>https://nlppeople.com/jobs/agentic-ai-developer-pune</link>
-      <guid isPermaLink="false">nlppeople:agentic-ai-developer-pune</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Opportunity] Graduate Machine Learning Engineer</title>
+      <link>https://nlppeople.com/jobs/graduate-machine-learning-engineer-london</link>
+      <guid isPermaLink="false">nlppeople:graduate-machine-learning-engineer-london</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Designs, develops, and deploys AI agents and LLM-based workflows for enterprise business use cases. Evaluates, integrates, and optimizes these AI solutions in production environments. Company Description Company Introduction –…</description>
+      <description>Summary: Builds machine learning models that understand grocery shopper behaviour, including graphs, graph neural networks, sequence models and reinforcement learning. Works with a product leader to turn product priorities into technical…</description>
     </item>
     <item>
-      <title>[Opportunity] Agentic Intelligence Scientist</title>
-      <link>https://nlppeople.com/jobs/agentic-intelligence-scientist-tel-aviv</link>
-      <guid isPermaLink="false">nlppeople:agentic-intelligence-scientist-tel-aviv</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Opportunity] CDI – Ingénieur en apprentissage par renforcement profond – H/F</title>
+      <link>https://nlppeople.com/jobs/cdi-ingenieur-en-apprentissage-par-renforcement-profond-h-f-ollioules</link>
+      <guid isPermaLink="false">nlppeople:cdi-ingenieur-en-apprentissage-par-renforcement-profond-h-f-ollioules</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Analyzes Terra's operational data to measure and improve the performance of its AI security agents. Defines performance metrics, runs experiments, builds evals, and recommends changes to the agent infrastructure. Agentic…</description>
+      <description>Summary: Designs and develops deep reinforcement learning algorithms for naval combat systems, including data modeling, simulation and performance validation. Also trains users on data processing tools and contributes to academic and…</description>
     </item>
     <item>
-      <title>[Opportunity] AgentOps &amp; AI Engineer (m/f/d)</title>
-      <link>https://nlppeople.com/jobs/agentops-ai-engineer-m-f-d-barcelona-b-es-08022</link>
-      <guid isPermaLink="false">nlppeople:agentops-ai-engineer-m-f-d-barcelona-b-es-08022</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Opportunity] AI Migration Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-migration-engineer-bengaluru-2</link>
+      <guid isPermaLink="false">nlppeople:ai-migration-engineer-bengaluru-2</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Helps teams build their own AI agents safely and keeps agent costs under control. Runs the Copilot-based agent platform and provides reusable connectors, guardrails and cost management. Syntax is a leading Managed Cloud Provider…</description>
+      <description>Summary: Simplifies and re-engineers Risk &amp; Compliance processes and rebuilds them as governed agentic AI workflows running in production. Works with process owners to map current-state journeys and design target-state workflows. Job…</description>
     </item>
     <item>
-      <title>[Opportunity] AI Associate, Growth</title>
-      <link>https://nlppeople.com/jobs/ai-associate-growth-london</link>
-      <guid isPermaLink="false">nlppeople:ai-associate-growth-london</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Opportunity] AI Innovation Engineer NCE (m/f/d)</title>
+      <link>https://nlppeople.com/jobs/ai-innovation-engineer-nce-m-f-d-berlin</link>
+      <guid isPermaLink="false">nlppeople:ai-innovation-engineer-nce-m-f-d-berlin</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Builds and implements AI agents and automated workflows that deliver measurable impact for private equity investors. Tests experiments and turns repeatable solutions into reusable playbooks. Growth at United Media Are you looking…</description>
+      <description>Summary: Designs, builds, and tests AI-enabled automation and data-driven solutions that address real operational challenges. Works with frontline teams and business stakeholders to turn ideas into measurable business value. Professional…</description>
     </item>
     <item>
       <title>[Opportunity] AI Developer</title>
-      <link>https://nlppeople.com/jobs/ai-developer-warsaw-3</link>
-      <guid isPermaLink="false">nlppeople:ai-developer-warsaw-3</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <link>https://nlppeople.com/jobs/ai-developer-bengaluru-3</link>
+      <guid isPermaLink="false">nlppeople:ai-developer-bengaluru-3</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Builds modern React and Next.js front ends for an AI-based banking application that integrates with an existing Python backend. Works remotely on projects with business clients across various industries. Forma współpracy :…</description>
+      <description>Summary: Designs, builds, and operates production-grade AI and ML solutions on cloud platforms, owning their architecture and MLOps practices. Guides technical decisions and collaborates with architects, data scientists, and product…</description>
     </item>
     <item>
-      <title>[Opportunity] AI Engineer 4A</title>
-      <link>https://nlppeople.com/jobs/ai-engineer-4a-bengaluru</link>
-      <guid isPermaLink="false">nlppeople:ai-engineer-4a-bengaluru</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Opportunity] AI Innovation Engineer NCE (m/f/d)</title>
+      <link>https://nlppeople.com/jobs/ai-innovation-engineer-nce-m-f-d-szczecin</link>
+      <guid isPermaLink="false">nlppeople:ai-innovation-engineer-nce-m-f-d-szczecin</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Builds and deploys AI back-end and front-end services, including RAG pipelines, agent tooling and evaluation infrastructure, for client projects. AI Engineer Ready to turn bold ideas into real-world impact? At Genpact, we don’t…</description>
+      <description>Summary: Designs, builds, and tests AI-enabled automation and data-driven solutions that address real operational challenges. Works with frontline teams and business stakeholders to turn ideas into measurable business value. Professional…</description>
     </item>
     <item>
-      <title>[Opportunity] AI Engineer – Advisory</title>
-      <link>https://nlppeople.com/jobs/ai-engineer-advisory-bengaluru</link>
-      <guid isPermaLink="false">nlppeople:ai-engineer-advisory-bengaluru</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Opportunity] AI Innovation Engineer NCE (m/w/d)</title>
+      <link>https://nlppeople.com/jobs/ai-innovation-engineer-nce-m-w-d-szczecin</link>
+      <guid isPermaLink="false">nlppeople:ai-innovation-engineer-nce-m-w-d-szczecin</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Develops and supports production-oriented generative AI solutions, including agents, automation workflows and enterprise integrations, with a focus on secure engineering and responsible AI. WSP is seeking an AI Engineer to…</description>
+      <description>Summary: Develops practical AI, automation and data-driven solutions that address operational challenges. Works closely with users, business stakeholders and AI innovation leads to turn ideas into measurable business value. Digital…</description>
     </item>
     <item>
-      <title>[Opportunity] AI Engineer, AI/ML and Agent Harnessing (New Grad, 2027)</title>
-      <link>https://nlppeople.com/jobs/ai-engineer-ai-ml-and-agent-harnessing-new-grad-2027-sunnyvale</link>
-      <guid isPermaLink="false">nlppeople:ai-engineer-ai-ml-and-agent-harnessing-new-grad-2027-sunnyvale</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Opportunity] AI Innovation Engineer NCE (m/w/d)</title>
+      <link>https://nlppeople.com/jobs/ai-innovation-engineer-nce-m-w-d-berlin</link>
+      <guid isPermaLink="false">nlppeople:ai-innovation-engineer-nce-m-w-d-berlin</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Builds and improves the agent harness and models behind the Fury robotic foundation model, including tools, data pipelines, and evaluations. Works alongside senior engineers to ship and refine AI systems for defense. The future…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Engineer - Biostatistics</title>
-      <link>https://nlppeople.com/jobs/ai-engineer-biostatistics-livingston</link>
-      <guid isPermaLink="false">nlppeople:ai-engineer-biostatistics-livingston</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Applies advanced statistical methods to pre-clinical biological research and builds reproducible R-based analytical workflows. Supports the integration of AI agents into existing statistical and analytical pipelines. AI Engineer…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Engineer (FTC)</title>
-      <link>https://nlppeople.com/jobs/ai-engineer-ftc-london</link>
-      <guid isPermaLink="false">nlppeople:ai-engineer-ftc-london</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds and ships AI features and agents across the full stack, from model integration and backend services to frontend interfaces for agency teams. Takes features from idea to production while shaping how AI is tested, released…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI ENGINEER H/F</title>
-      <link>https://nlppeople.com/jobs/ai-engineer-h-f-montrouge</link>
-      <guid isPermaLink="false">nlppeople:ai-engineer-h-f-montrouge</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs, develops and deploys generative and agentic AI solutions for business use cases, ensuring technical quality, security and regulatory compliance. Works across Product, Data, IT and Security teams within agile squads. ###…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Engineer-Internal-1</title>
-      <link>https://nlppeople.com/jobs/ai-engineer-internal-1-bengaluru</link>
-      <guid isPermaLink="false">nlppeople:ai-engineer-internal-1-bengaluru</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs, develops, and implements AI and machine learning solutions, including Generative AI applications built on Large Language Models, to support digital transformation initiatives. About the Company Embitel Technologies is a…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Engineer</title>
-      <link>https://nlppeople.com/jobs/ai-engineer-los-angeles</link>
-      <guid isPermaLink="false">nlppeople:ai-engineer-los-angeles</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds AI-driven tools and product features for clients, the sales team and internal use, taking loosely defined technical problems from start to finish. About the company Our client is a small holding company. The role Raydar is…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Engineer</title>
-      <link>https://nlppeople.com/jobs/ai-engineer-munich</link>
-      <guid isPermaLink="false">nlppeople:ai-engineer-munich</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds and runs AI systems and Python services as production software, designing for scale, reliability and cost. Evaluates LLM results critically and uses coding agents to automate engineering work. Overview At Allianz Partners…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Engineer - Python &amp; Power Automate</title>
-      <link>https://nlppeople.com/jobs/ai-engineer-python-power-automate-brussel-brussels-hoofdstedelijk-gewest-belgie</link>
-      <guid isPermaLink="false">nlppeople:ai-engineer-python-power-automate-brussel-brussels-hoofdstedelijk-gewest-belgie</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Develops production-ready GenAI solutions on Azure, including RAG systems, LLM agent pipelines and automated workflows with Power Automate. Tests and monitors AI solutions while collaborating with business stakeholders and IT…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Engineer (Remote - Contractor)</title>
-      <link>https://nlppeople.com/jobs/ai-engineer-remote-contractor-warsaw</link>
-      <guid isPermaLink="false">nlppeople:ai-engineer-remote-contractor-warsaw</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds and ships AI agents and features across the full stack, from model integration and backend services to frontend interfaces. Takes features from idea to production while shaping how AI is tested, released and run safely.…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Engineer, RQA, Associate</title>
-      <link>https://nlppeople.com/jobs/ai-engineer-rqa-associate-gurgaon</link>
-      <guid isPermaLink="false">nlppeople:ai-engineer-rqa-associate-gurgaon</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds and operates production GenAI, RAG, and LLM systems that support investment risk management. Partners with risk managers and technology teams to deliver scalable, reliable risk analytics. About this role AI Engineer, RQA,…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI engineer</title>
-      <link>https://nlppeople.com/jobs/ai-engineer-seattle</link>
-      <guid isPermaLink="false">nlppeople:ai-engineer-seattle</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs, develops, tests, and documents AI and software solutions, capturing user needs and supporting integration, troubleshooting, and maintenance of live applications. In the assigned Job Role of Technology Consultant 1, your…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Engineer</title>
-      <link>https://nlppeople.com/jobs/ai-engineer-toronto</link>
-      <guid isPermaLink="false">nlppeople:ai-engineer-toronto</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds and operates the shared AI platform foundation that portfolio management, operations, and technology teams rely on. Works directly with those teams to integrate the agent platform into their workflows. AI Engineer Who We…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Engineer</title>
-      <link>https://nlppeople.com/jobs/ai-engineer-warsaw-5</link>
-      <guid isPermaLink="false">nlppeople:ai-engineer-warsaw-5</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds and runs AI systems and Python services as production software, designing for scale, reliability and cost. Evaluates LLM results critically and uses coding agents to automate engineering work. Overview At Allianz Partners…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Engineering Internship: LLM-Powered Document Migration</title>
-      <link>https://nlppeople.com/jobs/ai-engineering-internship-llm-powered-document-migration-zurich</link>
-      <guid isPermaLink="false">nlppeople:ai-engineering-internship-llm-powered-document-migration-zurich</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Design and implement an AI-powered document migration pipeline that uses LLMs to classify documents and extract metadata. Evaluate the approach on realistic customer data and refine it through human-in-the-loop feedback. Start…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Graduate (On-Site)</title>
-      <link>https://nlppeople.com/jobs/ai-graduate-on-site-austin</link>
-      <guid isPermaLink="false">nlppeople:ai-graduate-on-site-austin</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Explore, develop and implement AI-driven solutions across the business while supporting data analysis and AI model development. Gain hands-on experience applying AI to real-world business challenges alongside experienced team…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Infrastructure Engineer (m/w/x)</title>
-      <link>https://nlppeople.com/jobs/ai-infrastructure-engineer-m-w-x-graz</link>
-      <guid isPermaLink="false">nlppeople:ai-infrastructure-engineer-m-w-x-graz</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Operates and develops Linux-based server infrastructure, cloud environments and automation tools for internal teams and clients. Also evaluates emerging technologies such as AI within infrastructure and systems engineering.…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Infrastructure Engineer - NVIS</title>
-      <link>https://nlppeople.com/jobs/ai-infrastructure-engineer-nvis-us-tx-remote</link>
-      <guid isPermaLink="false">nlppeople:ai-infrastructure-engineer-nvis-us-tx-remote</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Keeps large-scale Linux HPC and GPU systems healthy by checking system readiness, troubleshooting validation issues, and improving operational tooling and automation. NVIDIA is looking for an AI Factory Infrastructure Engineer to…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Lead Developer</title>
-      <link>https://nlppeople.com/jobs/ai-lead-developer-sydney</link>
-      <guid isPermaLink="false">nlppeople:ai-lead-developer-sydney</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Leads the development of an agentic commerce workspace, bridging AI with enterprise architecture using .NET and multi-cloud infrastructure. Serves as technical visionary for the team. Ticketek Entertainment Group (TEG) is a Live…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Lead</title>
-      <link>https://nlppeople.com/jobs/ai-lead-london</link>
-      <guid isPermaLink="false">nlppeople:ai-lead-london</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Acts as an enterprise subject matter expert embedding Responsible AI principles across an AI portfolio. Translates ethical and regulatory requirements into practical controls throughout the AI lifecycle. Role: AI Lead Industry:…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI ML Engineer</title>
-      <link>https://nlppeople.com/jobs/ai-ml-engineer-hyderabad-3</link>
-      <guid isPermaLink="false">nlppeople:ai-ml-engineer-hyderabad-3</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs, develops, and deploys agentic AI and LLM solutions for MarTech use cases, including RAG pipelines and cloud-native applications. Optum is a global organization that delivers care, aided by technology to help millions of…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI/ML Engineer - (Remote from EU) - Deadline 30/11/26</title>
-      <link>https://nlppeople.com/jobs/ai-ml-engineer-remote-from-eu-deadline-30-11-26-brussels</link>
-      <guid isPermaLink="false">nlppeople:ai-ml-engineer-remote-from-eu-deadline-30-11-26-brussels</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Applies AI and semantic-similarity methods to extract Earth Observation requirements from EU policies and builds harmonised inventories of EO products. Designs the technical architecture of NLP and LLM components for these…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI/ML Engineer</title>
-      <link>https://nlppeople.com/jobs/ai-ml-engineer-telangana-india</link>
-      <guid isPermaLink="false">nlppeople:ai-ml-engineer-telangana-india</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs, builds, and serves large language models on Azure to solve complex business challenges. Develops datasets, pipelines, and tooling for LLM training and deployment. About Chubb Chubb is a world leader in insurance. With…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI/ML/Gen AI Engineer</title>
-      <link>https://nlppeople.com/jobs/ai-ml-gen-ai-engineer-bengaluru</link>
-      <guid isPermaLink="false">nlppeople:ai-ml-gen-ai-engineer-bengaluru</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs, develops, and deploys machine learning and generative AI solutions, including large language models and natural language processing, using cloud-based platforms. About the Role\*\* We are seeking an experienced AI/ML…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI or ML Engineer - RAG, Databricks</title>
-      <link>https://nlppeople.com/jobs/ai-or-ml-engineer-rag-databricks-noida</link>
-      <guid isPermaLink="false">nlppeople:ai-or-ml-engineer-rag-databricks-noida</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs, develops, and fine-tunes AI models and large language systems, and builds agentic AI capabilities for enterprise deployment. Works with cross-functional teams to deliver production AI solutions while embedding ethical AI…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Specialist for Industry and Computer vision</title>
-      <link>https://nlppeople.com/jobs/ai-specialist-for-industry-and-computer-vision-prague</link>
-      <guid isPermaLink="false">nlppeople:ai-specialist-for-industry-and-computer-vision-prague</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Explores and integrates AI, machine learning, and computer vision technologies to deliver practical solutions for industrial clients. Prototypes new algorithms and continuously improves existing AI-based products. Job Description…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Specialist for LLM and GenAI</title>
-      <link>https://nlppeople.com/jobs/ai-specialist-for-llm-and-genai-prague</link>
-      <guid isPermaLink="false">nlppeople:ai-specialist-for-llm-and-genai-prague</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Explores and integrates AI, machine learning, and GenAI technologies to deliver practical solutions for clients. Prototypes new models and continuously improves AI-based products and services. Job Description &amp; Summary About the…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AI Video Pipeline Engineer</title>
-      <link>https://nlppeople.com/jobs/ai-video-pipeline-engineer-sofia</link>
-      <guid isPermaLink="false">nlppeople:ai-video-pipeline-engineer-sofia</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds and maintains config-driven generative AI video pipelines that produce video ads for a gaming loyalty platform. Owns architecture, public API, releases, and the partner experience end to end. MWDN is a global IT…</description>
-    </item>
-    <item>
-      <title>[Opportunity] AIエンジニア</title>
-      <link>https://nlppeople.com/jobs/aiensinia-shinagawa</link>
-      <guid isPermaLink="false">nlppeople:aiensinia-shinagawa</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs, builds, and operates AI models and inference pipelines for evaluation logic, and applies reinforcement learning to improve them. Also embeds research findings into production AI agent platforms. 仕事概要 ■ 当社について（共通）…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Applied AI AM Associate</title>
-      <link>https://nlppeople.com/jobs/applied-ai-am-associate-bengaluru</link>
-      <guid isPermaLink="false">nlppeople:applied-ai-am-associate-bengaluru</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Develops and manages in-house fraud and credit risk machine learning models while supporting vendor model onboarding and performance monitoring. Works with product owners, risk officers and engineers to keep models compliant with…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Applied AI Engineer</title>
-      <link>https://nlppeople.com/jobs/applied-ai-engineer-new-york-5</link>
-      <guid isPermaLink="false">nlppeople:applied-ai-engineer-new-york-5</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds and deploys AI agents and automation solutions that address operational pain points for commercial and operational teams. Translates business needs into technical requirements and maintains documentation for the tools…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Applied AI ML Lead - Vice President</title>
-      <link>https://nlppeople.com/jobs/applied-ai-ml-lead-vice-president-bengaluru</link>
-      <guid isPermaLink="false">nlppeople:applied-ai-ml-lead-vice-president-bengaluru</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Leads applied AI and machine learning work on risk analytics, including building and deploying language models and optimizing model serving for asset and wealth management risk. Asset and Wealth Management Risk - Risk Analytics…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Applied Artificial Intelligence &amp; Machine Learning- Markets Operations - Vice President</title>
-      <link>https://nlppeople.com/jobs/applied-artificial-intelligence-machine-learning-markets-operations-vice-president-bengaluru</link>
-      <guid isPermaLink="false">nlppeople:applied-artificial-intelligence-machine-learning-markets-operations-vice-president-bengaluru</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Leads the design and delivery of AI agents and ML solutions for Market Operations while managing a team of scientists and engineers. Sets technical direction and drives the scaling of AI-driven tools. Join us to help shape the…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Applied Machine Learning Engineer - Developer Publications</title>
-      <link>https://nlppeople.com/jobs/applied-machine-learning-engineer-developer-publications-london</link>
-      <guid isPermaLink="false">nlppeople:applied-machine-learning-engineer-developer-publications-london</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds and integrates machine learning models into tools for third-party developers, including LLM evaluation pipelines and agentic workflows. Collaborates with domain experts and cross-functional teams on architecture and code…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Applied ML Engineer</title>
-      <link>https://nlppeople.com/jobs/applied-ml-engineer-kochi</link>
-      <guid isPermaLink="false">nlppeople:applied-ml-engineer-kochi</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs, builds, trains and deploys machine learning and deep learning models for real-world client applications, including fine-tuning, evaluation and MLOps. We are looking for an Applied ML Engineer with 4 to 8 years experience…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Architect, Ontology &amp; AI Innovation</title>
-      <link>https://nlppeople.com/jobs/architect-ontology-ai-innovation-remote-us</link>
-      <guid isPermaLink="false">nlppeople:architect-ontology-ai-innovation-remote-us</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds supply chain domain models, ontologies, and semantic models for the AI innovation platform, turning enterprise supply chain knowledge into reliable, reusable representations that agentic solutions can act on. About Kinaxis…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Artificial Intelligence/Machine Learning (AI/ML) Engineer</title>
-      <link>https://nlppeople.com/jobs/artificial-intelligence-machine-learning-ai-ml-engineer-annapolis</link>
-      <guid isPermaLink="false">nlppeople:artificial-intelligence-machine-learning-ai-ml-engineer-annapolis</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs, builds, and deploys AI/ML algorithms that learn from data and meet business requirements. Trains, evaluates, and improves models while overseeing their integration and performance. Eligible for a $15,000 sign on bonus,…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Beca Integración de sistemas de visión e inteligencia artificial en el proceso de fabricación</title>
-      <link>https://nlppeople.com/jobs/beca-integracion-de-sistemas-de-vision-e-inteligencia-artificial-en-el-proceso-de-fabricacion-palencia</link>
-      <guid isPermaLink="false">nlppeople:beca-integracion-de-sistemas-de-vision-e-inteligencia-artificial-en-el-proceso-de-fabricacion-palencia</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Develops, integrates and monitors vision and AI systems for in-line production quality control. Pilots industrial projects and coordinates with suppliers and factory departments to implement technology solutions. Company RENAULT…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Client Technology - Engineering AI Lead Engineer</title>
-      <link>https://nlppeople.com/jobs/client-technology-engineering-ai-lead-engineer-pune-2</link>
-      <guid isPermaLink="false">nlppeople:client-technology-engineering-ai-lead-engineer-pune-2</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Leads machine learning and AI agent initiatives, managing projects from inception to deployment and mentoring junior engineers. Designs and validates AI solutions and integrates LLM-based agents into enterprise applications. At…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Cloud/AI Engineer</title>
-      <link>https://nlppeople.com/jobs/cloud-ai-engineer-bengaluru</link>
-      <guid isPermaLink="false">nlppeople:cloud-ai-engineer-bengaluru</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs, develops, and deploys cloud-native Generative AI solutions on Microsoft Azure, building CI/CD pipelines and Infrastructure as Code while collaborating with data science and business teams. Job Description We are seeking…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Data and Applied Scientist - Application Integration and Cross Architecture</title>
-      <link>https://nlppeople.com/jobs/data-and-applied-scientist-application-integration-and-cross-architecture-sofia</link>
-      <guid isPermaLink="false">nlppeople:data-and-applied-scientist-application-integration-and-cross-architecture-sofia</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds and iterates on ML models and analytical pipelines that surface insights on cross-product integration, adoption, and provisioning performance. Owns assigned hypotheses end-to-end and drives findings toward actionable…</description>
-    </item>
-    <item>
-      <title>[Opportunity] DE-Python-AI Developer</title>
-      <link>https://nlppeople.com/jobs/de-python-ai-developer-bengaluru-3</link>
-      <guid isPermaLink="false">nlppeople:de-python-ai-developer-bengaluru-3</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds digital solutions using Python, AWS, and PostgreSQL, and develops AI-driven forecasting models and automation for pharmaceutical clients. At EY, you’ll have the chance to build a career as unique as you are, with the…</description>
-    </item>
-    <item>
-      <title>[Opportunity] DE-Python-AI Developer</title>
-      <link>https://nlppeople.com/jobs/de-python-ai-developer-bengaluru-4</link>
-      <guid isPermaLink="false">nlppeople:de-python-ai-developer-bengaluru-4</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds Python-based digital solutions on AWS and PostgreSQL, including AI-driven forecasting and automation for pharmaceutical clients. Works with stakeholders to translate business requirements into technical solutions. At EY,…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Developer (f/m/d) AI Foundation</title>
-      <link>https://nlppeople.com/jobs/developer-f-m-d-ai-foundation-potsdam</link>
-      <guid isPermaLink="false">nlppeople:developer-f-m-d-ai-foundation-potsdam</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds integrations, tools, and AI-enabled features that make SAP's AI capabilities accessible to internal teams, partners, and customers. Works in Scrum on coding, testing, and debugging while supporting CI/CD pipelines. Job…</description>
-    </item>
-    <item>
-      <title>[Opportunity] #DIGITALCAMPUS AI Platform Engineer H/F</title>
-      <link>https://nlppeople.com/jobs/digitalcampus-ai-platform-engineer-h-f-marseille-en-beauvaisis</link>
-      <guid isPermaLink="false">nlppeople:digitalcampus-ai-platform-engineer-h-f-marseille-en-beauvaisis</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Establishes, operates, and enhances a scalable Kubernetes/OpenShift AI platform for deploying, monitoring, and managing machine learning models in production. Owns the efficiency, reliability, and security of the model lifecycle.…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Engr II-AI Science</title>
-      <link>https://nlppeople.com/jobs/engr-ii-ai-science-chennai</link>
-      <guid isPermaLink="false">nlppeople:engr-ii-ai-science-chennai</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs, develops, and deploys AI/ML solutions and distributed computing systems for generative AI use cases. Builds AI/ML pipelines and analyzes algorithm performance while collaborating with cross-functional teams. When you…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Engr II-AI Science</title>
-      <link>https://nlppeople.com/jobs/engr-ii-ai-science-hyderabad</link>
-      <guid isPermaLink="false">nlppeople:engr-ii-ai-science-hyderabad</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Implements, tests, and maintains AI/ML solutions and production-grade AI Agents for an autonomous network operations platform. Builds data processing, feature engineering, and algorithm implementations that detect issues and…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Expert (m/f/d) for Molecular Machine Learning, Foundation Models – with Salary Details</title>
-      <link>https://nlppeople.com/jobs/expert-m-f-d-for-molecular-machine-learning-foundation-models-with-salary-details-leverkusen</link>
-      <guid isPermaLink="false">nlppeople:expert-m-f-d-for-molecular-machine-learning-foundation-models-with-salary-details-leverkusen</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Develops and trains 3D biomolecular foundation models for drug discovery, combining physics-based simulation data with experimental measurements. Scales models on HPC infrastructure and transfers them into production…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Financing Quant Lead AI Engineer</title>
-      <link>https://nlppeople.com/jobs/financing-quant-lead-ai-engineer-new-york</link>
-      <guid isPermaLink="false">nlppeople:financing-quant-lead-ai-engineer-new-york</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds and maintains scalable financing platforms and real-time trading systems, applying AI to improve engineering productivity and workflow performance. UBS is looking for a strong lead AI engineer to join the global Financing…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Forward Deployed AI Platform Engineer</title>
-      <link>https://nlppeople.com/jobs/forward-deployed-ai-platform-engineer-london</link>
-      <guid isPermaLink="false">nlppeople:forward-deployed-ai-platform-engineer-london</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs and builds enterprise AI platforms, including LLM and MCP gateways, identity, entitlement and cost controls, and agent marketplaces. Owns the technical direction of platform engagements and delivers them through Lead and…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Frontier AI Safety and Alignment Research Scientist, DeepMind</title>
-      <link>https://nlppeople.com/jobs/frontier-ai-safety-and-alignment-research-scientist-deepmind-mountain-view</link>
-      <guid isPermaLink="false">nlppeople:frontier-ai-safety-and-alignment-research-scientist-deepmind-mountain-view</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Leads foundational and empirical research on AI safety and alignment, characterizing failure modes in frontier models and proposing scalable alignment interventions. Shares findings internally and publishes them at peer-reviewed…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Graduate AI Agent Developer</title>
-      <link>https://nlppeople.com/jobs/graduate-ai-agent-developer-citywest-office-ireland</link>
-      <guid isPermaLink="false">nlppeople:graduate-ai-agent-developer-citywest-office-ireland</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Supports the design and development of intelligent, automated AI agents that streamline business processes and improve decision making. Works with technical and operational teams to ensure agents are reliable, compliant and…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Inference Engineer (HPC GPU)- Member of Technical Staff</title>
-      <link>https://nlppeople.com/jobs/inference-engineer-hpc-gpu-member-of-technical-staff-bellevue</link>
-      <guid isPermaLink="false">nlppeople:inference-engineer-hpc-gpu-member-of-technical-staff-bellevue</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds and operates production model-serving and inference systems for large AI models, optimizing throughput, latency, and reliability on GPU infrastructure. Inference Engineer (HPC GPU) - Member of Technical Staff Location:…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Ingénieur(e) doctorant(e) CIFRE — Intelligence artificielle pour la mammographie</title>
-      <link>https://nlppeople.com/jobs/ingenieur-e-doctorant-e-cifre-intelligence-artificielle-pour-la-mammographie-buc</link>
-      <guid isPermaLink="false">nlppeople:ingenieur-e-doctorant-e-cifre-intelligence-artificielle-pour-la-mammographie-buc</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Develops and validates artificial intelligence methods for mammography exams, combining machine learning, data analysis, clinical validation and prototyping. Works within an applied health research team toward potential transfer…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Intern - AI Research and Development Analyst</title>
-      <link>https://nlppeople.com/jobs/intern-ai-research-and-development-analyst-gurgaon</link>
-      <guid isPermaLink="false">nlppeople:intern-ai-research-and-development-analyst-gurgaon</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Researches emerging AI technologies and builds customized prototype solutions for business and tech teams. Documents technical approaches and considers how to scale the implemented solutions. Company: Description: We will count…</description>
-    </item>
-    <item>
-      <title>[Opportunity] J52444 (Associate Artificial Intelligence Engineer)</title>
-      <link>https://nlppeople.com/jobs/j52444-associate-artificial-intelligence-engineer-chennai</link>
-      <guid isPermaLink="false">nlppeople:j52444-associate-artificial-intelligence-engineer-chennai</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds and maintains machine learning models, pipelines, and APIs while collaborating with data scientists, product, and engineering teams. Documents AI workflows and supports deployment of ML models into production systems. Job…</description>
-    </item>
-    <item>
-      <title>[Opportunity] 【技術の可能性を引き出し、ビジネス価値を創出する】生成AIエンジニア募集！</title>
-      <link>https://nlppeople.com/jobs/ji-shu-noke-neng-xing-woyin-kichu-si-hisinesujia-zhi-wochuang-chu-suru-sheng-cheng-aiensiniamu-ji-shibuya</link>
-      <guid isPermaLink="false">nlppeople:ji-shu-noke-neng-xing-woyin-kichu-si-hisinesujia-zhi-wochuang-chu-suru-sheng-cheng-aiensiniamu-ji-shibuya</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs, implements and tests generative AI systems for client consulting projects, from requirements gathering through specification, implementation and testing. Also develops an information retrieval product on Azure. 仕事概要…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Junior Battery Data Analytics &amp; Algorithm Engineer</title>
-      <link>https://nlppeople.com/jobs/junior-battery-data-analytics-algorithm-engineer-modi-in</link>
-      <guid isPermaLink="false">nlppeople:junior-battery-data-analytics-algorithm-engineer-modi-in</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs and runs battery tests, analyzes experimental and field data, and builds dashboards to improve battery performance. Works with algorithm, hardware, and software teams to turn findings into product improvements. Power the…</description>
-    </item>
-    <item>
-      <title>[Opportunity] 【開発】画像処理エンジニア（ロボットビジョン）</title>
-      <link>https://nlppeople.com/jobs/kai-fa-hua-xiang-chu-li-ensinia-rohotutohisiyon-shinagawa</link>
-      <guid isPermaLink="false">nlppeople:kai-fa-hua-xiang-chu-li-ensinia-rohotutohisiyon-shinagawa</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Develops image processing and recognition methods that let robots operate reliably in real-world conditions with varying lighting and objects. Designs sensors and embeds the recognition system into robot software, then evaluates…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Knowledge Graph Devloper / Associate Director, Service Management</title>
-      <link>https://nlppeople.com/jobs/knowledge-graph-devloper-associate-director-service-management-hyderabad-2</link>
-      <guid isPermaLink="false">nlppeople:knowledge-graph-devloper-associate-director-service-management-hyderabad-2</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds and operates production-grade pipelines that construct and retrieve knowledge graph data from enterprise sources. Embeds quality, provenance and observability controls so the graph remains reliable as sources and AI use…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Lead AI Engineer - Vice President</title>
-      <link>https://nlppeople.com/jobs/lead-ai-engineer-vice-president-electronic-city</link>
-      <guid isPermaLink="false">nlppeople:lead-ai-engineer-vice-president-electronic-city</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs, builds and productionises AI solutions for banking and Corporate Functions use cases, ensuring they meet enterprise architecture, data governance and model risk requirements. Works as an individual contributor who guides…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Lead Engineer, AI Services</title>
-      <link>https://nlppeople.com/jobs/lead-engineer-ai-services-chennai</link>
-      <guid isPermaLink="false">nlppeople:lead-engineer-ai-services-chennai</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Leads the design, development and delivery of new software applications and system upgrades, directing technical staff and managing project budgets and timelines. Make an impact with NTT DATA Join a company that is pushing the…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Lead Machine Learning Engineer/Data Scientist</title>
-      <link>https://nlppeople.com/jobs/lead-machine-learning-engineer-data-scientist-prague</link>
-      <guid isPermaLink="false">nlppeople:lead-machine-learning-engineer-data-scientist-prague</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Leads a cross-functional squad of Data Scientists and Engineers to design, develop, and deliver machine learning and AI products. Combines hands-on technical work with squad leadership and end-to-end product delivery. Your role…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Lead Machine Learning Engineer (Personalisation / Recommendation) - Mumbai</title>
-      <link>https://nlppeople.com/jobs/lead-machine-learning-engineer-personalisation-recommendation-mumbai-mumbai</link>
-      <guid isPermaLink="false">nlppeople:lead-machine-learning-engineer-personalisation-recommendation-mumbai-mumbai</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds AI-powered personalisation and recommendation features for travel discovery products, including LLM-powered workflows and RAG systems. Owns the design and shipping of recommendation features alongside backend and product…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Lead Senior Associate | GenAI Engineering | Across Locations | Engineering as a Service/ Operate</title>
-      <link>https://nlppeople.com/jobs/lead-senior-associate-genai-engineering-across-locations-engineering-as-a-service-operate-ahmedabad</link>
-      <guid isPermaLink="false">nlppeople:lead-senior-associate-genai-engineering-across-locations-engineering-as-a-service-operate-ahmedabad</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs, develops, deploys, and maintains AI-powered applications and autonomous agent solutions using modern AI frameworks and cloud platforms. Builds and integrates AI agents, LLM-based services, REST APIs, and backend systems.…</description>
-    </item>
-    <item>
-      <title>[Opportunity] LLM ENGINEER IA - SENIOR (H/F)</title>
-      <link>https://nlppeople.com/jobs/llm-engineer-ia-senior-h-f-velizy-villacoublay</link>
-      <guid isPermaLink="false">nlppeople:llm-engineer-ia-senior-h-f-velizy-villacoublay</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs and technically leads end-to-end LLM solutions, including RAG, agentic, and SI integrations within multidisciplinary Agile teams. Lieu : Vélizy-Villacoublay, France Construisons ensemble un avenir de confiance Thales est…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Lumia Security- AI Engineer</title>
-      <link>https://nlppeople.com/jobs/lumia-security-ai-engineer-tel-aviv</link>
-      <guid isPermaLink="false">nlppeople:lumia-security-ai-engineer-tel-aviv</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs and builds AI-powered security solutions across the full lifecycle, from research and experimentation to production deployment. Works with LLMs and specialized models to improve accuracy, inference performance, and cost…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Machine Learning &amp; AI Internship</title>
-      <link>https://nlppeople.com/jobs/machine-learning-ai-internship-paris</link>
-      <guid isPermaLink="false">nlppeople:machine-learning-ai-internship-paris</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Works on a fixed ML topic within the ML &amp; AI team, from evaluation and a production baseline through to research and publication. Uses AI agents and coding assistants throughout the internship. WHY this position is important…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Machine Learning Engineer - Experimentation</title>
-      <link>https://nlppeople.com/jobs/machine-learning-engineer-experimentation-hyderabad</link>
-      <guid isPermaLink="false">nlppeople:machine-learning-engineer-experimentation-hyderabad</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs and builds the experimentation framework for machine learning algorithms at scale, including tools for managing AB tests, exploratory analysis and real-time experiment monitoring. At Apple, we work every day to create…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Machine Learning Engineer I</title>
-      <link>https://nlppeople.com/jobs/machine-learning-engineer-i-toronto</link>
-      <guid isPermaLink="false">nlppeople:machine-learning-engineer-i-toronto</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Designs, builds, and deploys scalable machine learning and generative AI systems that work with large, real-world datasets. Writes efficient code for ML models and integrates them with existing data infrastructure. Work Location:…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Machine Learning Engineer III</title>
-      <link>https://nlppeople.com/jobs/machine-learning-engineer-iii-bengaluru</link>
-      <guid isPermaLink="false">nlppeople:machine-learning-engineer-iii-bengaluru</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds and operates production ML and software pipelines, including feature engineering, model training, and serving at scale. Monitors model performance and drives improvements to reliability and efficiency. At Expedia Group, we…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Masterarbeit Fachkontext für Sprachmodelle im Controlling</title>
-      <link>https://nlppeople.com/jobs/masterarbeit-fachkontext-fur-sprachmodelle-im-controlling-schwieberdingen</link>
-      <guid isPermaLink="false">nlppeople:masterarbeit-fachkontext-fur-sprachmodelle-im-controlling-schwieberdingen</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Analyzes what information a language model needs to interpret key figures and reports, then develops and tests a prototype that answers Controlling questions about financial data. Unternehmensbeschreibung Bei Bosch gestalten wir…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Matériaux et application d'un modèle d'IA H/F</title>
-      <link>https://nlppeople.com/jobs/materiaux-et-application-d-un-modele-d-ia-h-f-grenoble</link>
-      <guid isPermaLink="false">nlppeople:materiaux-et-application-d-un-modele-d-ia-h-f-grenoble</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Applies machine learning models to TXRF contamination maps of silicon wafers to identify recurring contamination patterns and their possible sources. Works under guidance on developing methods to group similar contaminant…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Medior AI Engineer</title>
-      <link>https://nlppeople.com/jobs/medior-ai-engineer-brussels-2</link>
-      <guid isPermaLink="false">nlppeople:medior-ai-engineer-brussels-2</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Delivers AI solutions across the lifecycle, from scoping to production, combining hands-on AI experience with software engineering fundamentals. Defines technical approaches and collaborates with cross-functional teams. As a…</description>
-    </item>
-    <item>
-      <title>[Opportunity] Mid-Level AI Engineer</title>
-      <link>https://nlppeople.com/jobs/mid-level-ai-engineer-united-states</link>
-      <guid isPermaLink="false">nlppeople:mid-level-ai-engineer-united-states</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
-      <category>nlppeople</category>
-      <description>Summary: Builds production LLM services and full-stack AI features for regulated enterprise workflows, focusing on reliability, safety, and user impact. ### About the Role Join the core product team at a SaaS company building AI systems…</description>
+      <description>Summary: Develops practical AI, automation and data-driven solutions that address operational challenges. Works closely with users, business stakeholders and AI innovation leads to turn ideas into measurable business value. Digital…</description>
     </item>
     <item>
       <title>[Opportunity] ML Engineer</title>
-      <link>https://nlppeople.com/jobs/ml-engineer-london-2</link>
-      <guid isPermaLink="false">nlppeople:ml-engineer-london-2</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <link>https://nlppeople.com/jobs/ml-engineer-london-3</link>
+      <guid isPermaLink="false">nlppeople:ml-engineer-london-3</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Builds and operates machine learning models and products through to production, defining technical requirements and shaping MLOps practices within the Data Science team. Machine Learning Engineer Are you passionate about turning…</description>
+      <description>Summary: Builds, deploys and scales machine learning pipelines and production-ready ML services, taking models from concept to production with Data Scientists and Platform teams. ​ ML Engineer Royal Mail Farringdon Permanent, Full time…</description>
     </item>
     <item>
-      <title>[Opportunity] Principal Applied Scientist</title>
-      <link>https://nlppeople.com/jobs/principal-applied-scientist-australia</link>
-      <guid isPermaLink="false">nlppeople:principal-applied-scientist-australia</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Opportunity] Extracurricular Internship - Kalebic Group</title>
+      <link>https://nlppeople.com/jobs/extracurricular-internship-kalebic-group-milan</link>
+      <guid isPermaLink="false">nlppeople:extracurricular-internship-kalebic-group-milan</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Leads the architecture and delivery of Generative AI and large language model solutions for healthcare applications. Guides cross-functional teams from research and proof of concept through to production deployment. Principal…</description>
+      <description>Summary: Supports research projects in neurodevelopment and neuro-oncology within the Kalebic Group, contributing to publications while working alongside interdisciplinary teams. Application closing date: December 12, 2026 Join a place…</description>
     </item>
     <item>
-      <title>[Opportunity] Principal Optical AI Software Engineer</title>
-      <link>https://nlppeople.com/jobs/principal-optical-ai-software-engineer-united-states</link>
-      <guid isPermaLink="false">nlppeople:principal-optical-ai-software-engineer-united-states</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Opportunity] Senior AI Engineer</title>
+      <link>https://nlppeople.com/jobs/senior-ai-engineer-montreal</link>
+      <guid isPermaLink="false">nlppeople:senior-ai-engineer-montreal</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Develops AI-driven software, analytics, and simulation tools that optimize subsea optical link performance and predict cable degradation. Works with cross-functional teams and customers to deliver commissioning and upgrade…</description>
+      <description>Summary: Designs, deploys, and operates AI systems and agents from problem definition through production operation. Defines evaluation criteria, measures system performance, and improves quality using real user evidence. *Build the Future…</description>
     </item>
     <item>
-      <title>[Opportunity] Principal Software Engineer - AI</title>
-      <link>https://nlppeople.com/jobs/principal-software-engineer-ai-india-india</link>
-      <guid isPermaLink="false">nlppeople:principal-software-engineer-ai-india-india</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Opportunity] AI Engineer - Technical Lead</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-technical-lead-london</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-technical-lead-london</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Designs and builds LLM-powered generative AI applications, owning AI services from model integration and inference pipelines through production deployment. About the Role We are looking for a skilled Principal Software Engineer -…</description>
+      <description>Summary: Leads the technical vision for the API layer powering an AI-driven code modernisation platform. Builds and mentors a team of engineers working on agentic workflows and static analysis. About Us: ClearRoute is an engineering…</description>
     </item>
     <item>
-      <title>[Opportunity] Principal/Staff AI Platform Engineer</title>
-      <link>https://nlppeople.com/jobs/principal-staff-ai-platform-engineer-canada</link>
-      <guid isPermaLink="false">nlppeople:principal-staff-ai-platform-engineer-canada</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Opportunity] Computer Vision Co-Founder / CSO (100 % remote) (m/f/d)</title>
+      <link>https://nlppeople.com/jobs/computer-vision-co-founder-cso-100-remote-m-f-d-brisbane</link>
+      <guid isPermaLink="false">nlppeople:computer-vision-co-founder-cso-100-remote-m-f-d-brisbane</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Builds and operates production multi-agent orchestration and AI platform systems on GCP, including tenant isolation, agent memory, and MCP tool virtualization. Remains hands-on in production code while shaping platform…</description>
+      <description>Summary: Founders build and run their own computer vision startup, supported by mentorship, hiring assistance, and funding advice. The role aims to scale the business toward significant revenue. We are looking to hire ambitious…</description>
     </item>
     <item>
-      <title>[Opportunity] Python Developer (AI/ML) - Surat</title>
-      <link>https://nlppeople.com/jobs/python-developer-ai-ml-surat-surat</link>
-      <guid isPermaLink="false">nlppeople:python-developer-ai-ml-surat-surat</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Opportunity] AI Engineer (Perception) H/F</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-perception-h-f-paris</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-perception-h-f-paris</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Develops and integrates AI/ML models and Python-based solutions for client business problems. Works with data processing, backend development, and REST APIs alongside the client's technical team. Company Description WEQ…</description>
+      <description>Summary: Develops and maintains embedded perception models that let a warehouse robot detect, locate and track loads, obstacles and people. Owns the full lifecycle of models from data quality and training to production reliability. At…</description>
     </item>
     <item>
-      <title>[Opportunity] Research Associate (Industrial AI)</title>
-      <link>https://nlppeople.com/jobs/research-associate-industrial-ai-singapore</link>
-      <guid isPermaLink="false">nlppeople:research-associate-industrial-ai-singapore</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Opportunity] Senior AI-ML Platform Engineer</title>
+      <link>https://nlppeople.com/jobs/senior-ai-ml-platform-engineer-baltimore</link>
+      <guid isPermaLink="false">nlppeople:senior-ai-ml-platform-engineer-baltimore</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Conducts research on Industrial AI, develops novel AI methods, and prepares project requirements. Also writes research documentation and publications and mentors students and researchers. The School of Mechanical &amp; Aerospace…</description>
+      <description>Summary: Designs, implements, and operates the enterprise AI/ML platform, focusing on MLOps, CI/CD, cloud infrastructure, observability, and cost optimization. Senior AI/ML Platform Engineer - $55/hr Position Overview: We are seeking an…</description>
     </item>
     <item>
-      <title>[Opportunity] Research Fellow (Computer Vision/Machine Learning)</title>
-      <link>https://nlppeople.com/jobs/research-fellow-computer-vision-machine-learning-singapore</link>
-      <guid isPermaLink="false">nlppeople:research-fellow-computer-vision-machine-learning-singapore</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[Opportunity] Applied AI Engineer</title>
+      <link>https://nlppeople.com/jobs/applied-ai-engineer-berlin</link>
+      <guid isPermaLink="false">nlppeople:applied-ai-engineer-berlin</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
       <category>nlppeople</category>
-      <description>Summary: Conducts independent research in computer vision and machine learning, publishing peer-reviewed articles and engineering software from research outcomes. Also co-supervises students and manages research administration. Young and…</description>
+      <description>Summary: Takes AI apps and agents from prototype to production and keeps them running reliably in the field. Builds the platform and runtime that turns AI prototypes into secure, autonomous software. Voy is a healthcare platform led by…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Junior Deep Learning Scientist (H/F)</title>
+      <link>https://nlppeople.com/jobs/junior-deep-learning-scientist-h-f-paris</link>
+      <guid isPermaLink="false">nlppeople:junior-deep-learning-scientist-h-f-paris</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Develops, trains and tests deep learning and computer vision algorithms for industrial defect detection. Also implements reusable tooling and analyzes annotated data to ensure consistent results. Safran.AI - De l'IA qui opère…</description>
+    </item>
+    <item>
+      <title>[Opportunity] GNC Engineer - Reinforcement Learning</title>
+      <link>https://nlppeople.com/jobs/gnc-engineer-reinforcement-learning-zurich</link>
+      <guid isPermaLink="false">nlppeople:gnc-engineer-reinforcement-learning-zurich</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds and trains reinforcement learning models for autonomous flight guidance and control, validating performance across simulation, software-in-the-loop and flight test. ### About Us Harmattan AI is a next-generation defense…</description>
+    </item>
+    <item>
+      <title>[Opportunity] GNC Engineer - Reinforcement Learning</title>
+      <link>https://nlppeople.com/jobs/gnc-engineer-reinforcement-learning-paris</link>
+      <guid isPermaLink="false">nlppeople:gnc-engineer-reinforcement-learning-paris</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds and trains reinforcement learning models for autonomous guidance and control of defense systems. Validates models through simulation, software-in-the-loop and flight tests. ### About Us Harmattan AI is a next-generation…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer - Tech Lead</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-tech-lead-krakow</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-tech-lead-krakow</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads the technical direction and architecture of production AI/ML and LLM-powered solutions, while coaching engineers and supporting the delivery of scalable, secure, and reliable systems. At Mindbox we connect top IT talents…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior ML Engineer for AML Project</title>
+      <link>https://nlppeople.com/jobs/senior-ml-engineer-for-aml-project-prague</link>
+      <guid isPermaLink="false">nlppeople:senior-ml-engineer-for-aml-project-prague</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Reviews and validates machine learning and statistical models used to detect money laundering for banks and financial institutions. Leads validation streams end to end and translates technical findings into actionable advice for…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AWS GenAI Engineer</title>
+      <link>https://nlppeople.com/jobs/aws-genai-engineer-noida</link>
+      <guid isPermaLink="false">nlppeople:aws-genai-engineer-noida</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, implements, and manages AWS cloud infrastructure using CDK and CloudFormation, integrating AI services and IaC templates. Ensures secure, scalable deployments and maintains infrastructure documentation. AWS GenAI…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior Consultant / Manager – Forward Deployed AI Engineer (H/F/X)</title>
+      <link>https://nlppeople.com/jobs/senior-consultant-manager-forward-deployed-ai-engineer-h-f-x-puteaux</link>
+      <guid isPermaLink="false">nlppeople:senior-consultant-manager-forward-deployed-ai-engineer-h-f-x-puteaux</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: The Senior Consultant / Manager leads GenAI and agentics solutions from qualification to production deployment. This role involves defining architecture, managing delivery, and mentoring teams while ensuring robust governance and…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior Consultant / Manager – MLOps &amp; LLMOps Lead (H/F/X)</title>
+      <link>https://nlppeople.com/jobs/senior-consultant-manager-mlops-llmops-lead-h-f-x-puteaux</link>
+      <guid isPermaLink="false">nlppeople:senior-consultant-manager-mlops-llmops-lead-h-f-x-puteaux</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: The Senior Consultant leads the adoption of MLOps and LLMOps frameworks within the AI Business Unit, defining industrialization standards and governance. This role involves managing cross-functional teams across Data Science,…</description>
+    </item>
+    <item>
+      <title>[Opportunity] ML Engineer AI OPS (B5)</title>
+      <link>https://nlppeople.com/jobs/ml-engineer-ai-ops-b5-bengaluru</link>
+      <guid isPermaLink="false">nlppeople:ml-engineer-ai-ops-b5-bengaluru</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Monitors the post-deployment health, performance and reliability of ML and GenAI models, building monitoring frameworks to detect drift, degradation and anomalies. Uses Databricks native capabilities and MLOps tools to ensure…</description>
+    </item>
+    <item>
+      <title>[Opportunity] GFIT Intern, Computer Vision Machine Learning</title>
+      <link>https://nlppeople.com/jobs/gfit-intern-computer-vision-machine-learning-singapore</link>
+      <guid isPermaLink="false">nlppeople:gfit-intern-computer-vision-machine-learning-singapore</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs and evaluates computer vision and machine learning models to monitor cleanroom compliance in a manufacturing environment. Explores foundation model video intelligence and generative AI to turn video data into actionable…</description>
+    </item>
+    <item>
+      <title>[Opportunity] DevOps/ML Engineer (m/f/d)</title>
+      <link>https://nlppeople.com/jobs/devops-ml-engineer-m-f-d-munich</link>
+      <guid isPermaLink="false">nlppeople:devops-ml-engineer-m-f-d-munich</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs and implements DevOps and MLOps solutions for machine learning and data processing projects, supporting customers across cloud and on-premises environments. At Machine Learning Reply, we work with our customers on…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Python/Ai Developer</title>
+      <link>https://nlppeople.com/jobs/python-ai-developer-montreal-2</link>
+      <guid isPermaLink="false">nlppeople:python-ai-developer-montreal-2</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Develops and maintains Python-based applications and services, implementing AI-powered capabilities and enterprise AI solutions as an individual contributor within a team. Choosing Capgemini means choosing a company where you…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Data &amp; Knowledge Architect</title>
+      <link>https://nlppeople.com/jobs/ai-data-knowledge-architect-pune</link>
+      <guid isPermaLink="false">nlppeople:ai-data-knowledge-architect-pune</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Defines the architecture, standards and readiness requirements for how knowledge and data are sourced, structured, accessed and maintained across AI solutions. Assesses whether customer information environments are suitable for…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Central - Senior AI Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-central-senior-ai-engineer-india</link>
+      <guid isPermaLink="false">nlppeople:ai-central-senior-ai-engineer-india</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds repository-level context for AI coding agents, including instruction files, skills, and prompt libraries. Improves agent output quality by designing context and retrieval for production code. Authoring repository-level…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer | rthmc | Contractor</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-rthmc-contractor-turkey</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-rthmc-contractor-turkey</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds and ships LLM-powered AI features, retrieval pipelines and evaluation systems for venture products, from prototype to production. Owns AI architecture, quality and cost within each venture. ABOUT RTHMC VENTURES rthmc…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer | rthmc | Contractor</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-rthmc-contractor-india</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-rthmc-contractor-india</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds and ships LLM-powered AI features, retrieval pipelines and evaluation systems for venture products. Owns the AI layer end to end, from architecture through production reliability and cost. ABOUT RTHMC VENTURES rthmc…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer (Harness)</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-harness-london</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-harness-london</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds and maintains the skills, memory, context and guardrails that let AI agents act safely and proactively on their own. Works with teams to roll out harness setups and keeps live agents healthy. In 2026, Zinc used AI as an…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Google Cloud AI Engineer</title>
+      <link>https://nlppeople.com/jobs/google-cloud-ai-engineer-madrid</link>
+      <guid isPermaLink="false">nlppeople:google-cloud-ai-engineer-madrid</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, develops and implements intelligent conversational agents on Google Cloud using Vertex AI, LLMs, RAG and LangChain. Optimizes agent performance and collaborates with UX designers and engineers on user experiences.…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-amsterdam-5</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-amsterdam-5</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs and deploys end-to-end AI/ML systems from proof-of-concept to production for client projects. Owns client features and pipelines while collaborating with data scientists and engineers. We are AI builders Since 2018,…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Principal Investigator Tenure-Track Equivalent (f/m/d) – AI/ML for Childhood Cancer Research</title>
+      <link>https://nlppeople.com/jobs/principal-investigator-tenure-track-equivalent-f-m-d-ai-ml-for-childhood-cancer-research-vienna</link>
+      <guid isPermaLink="false">nlppeople:principal-investigator-tenure-track-equivalent-f-m-d-ai-ml-for-childhood-cancer-research-vienna</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads an independent AI/ML research program applying machine learning to childhood cancer research questions. Recruits and mentors researchers while building a competitive research portfolio and external grant funding. Principal…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Forward Deployed Engineer - AI &amp; GenAI (all genders)</title>
+      <link>https://nlppeople.com/jobs/forward-deployed-engineer-ai-genai-all-genders-munich</link>
+      <guid isPermaLink="false">nlppeople:forward-deployed-engineer-ai-genai-all-genders-munich</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Develops GenAI, RAG and agentic AI solutions and integrates them into enterprise systems, taking them from prototype to production use for customers across regulated industries. Deine Aufgaben Im Team AI Software Engineering &amp;…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Artificial Intelligence Engineer</title>
+      <link>https://nlppeople.com/jobs/artificial-intelligence-engineer-istanbul</link>
+      <guid isPermaLink="false">nlppeople:artificial-intelligence-engineer-istanbul</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds and integrates LLM and agent-based AI solutions into .NET backend services and APIs. Runs experiments and turns automable business processes into AI-driven workflows. Founded in 2012, Obilet.com is a comprehensive travel…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Developer – Student Internship (Joule Studio)</title>
+      <link>https://nlppeople.com/jobs/ai-developer-student-internship-joule-studio-sofia-sofia-city-province-bulgaria</link>
+      <guid isPermaLink="false">nlppeople:ai-developer-student-internship-joule-studio-sofia-sofia-city-province-bulgaria</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Join the Agentic Orchestration team in Joule Studio as an AI Developer Intern to build and test AI-powered components for the Joule agentic orchestration runtime. You will work on real engineering challenges involving LLM…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer (Java)</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-java-warsaw</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-java-warsaw</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds AI-powered components of the AI Software Factory product using Java, integrating large language models into the software development lifecycle. Analyses customer problems and proposes technical solutions while contributing…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior ML Engineer</title>
+      <link>https://nlppeople.com/jobs/senior-ml-engineer-prague</link>
+      <guid isPermaLink="false">nlppeople:senior-ml-engineer-prague</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds and productionizes data and ML pipelines on Databricks, CI/CD practices, and GenAI solutions for a payer healthcare analytics platform. Supports workload migrations and applies data quality and compliance practices. Our…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Internship – Research Intern &amp; Machine Learning Scientist</title>
+      <link>https://nlppeople.com/jobs/internship-research-intern-machine-learning-scientist-levallois-perret</link>
+      <guid isPermaLink="false">nlppeople:internship-research-intern-machine-learning-scientist-levallois-perret</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Conducts machine learning research on tabular foundation models for enterprise AI, designing experiments, developing algorithms, and evaluating model performance. Job Description What you'll bring You're studying Machine…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Stage – Recherche en Machine Learning F/H</title>
+      <link>https://nlppeople.com/jobs/stage-recherche-en-machine-learning-f-h-levallois-perret</link>
+      <guid isPermaLink="false">nlppeople:stage-recherche-en-machine-learning-f-h-levallois-perret</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Supports SAP's AI research team by designing and running experiments on foundation model tabular data, developing algorithms, and evaluating model performance. Works toward deploying research results into production. Description…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-london-13</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-london-13</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds and operates production-grade AI agents and the tooling harness that orchestrates long-running multi-agent workflows. Designs and runs evaluation suites to benchmark agent performance and keep agents reliable and…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior AI Engineer (Java / Spring Boot / Kafka)</title>
+      <link>https://nlppeople.com/jobs/senior-ai-engineer-java-spring-boot-kafka-zug</link>
+      <guid isPermaLink="false">nlppeople:senior-ai-engineer-java-spring-boot-kafka-zug</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, develops, integrates, secures and operates production AI solutions built on Java, Spring Boot and Kafka. Works closely with architecture, development, operations and business teams. Für ein anspruchsvolles,…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer (all genders)</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-all-genders-berlin</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-all-genders-berlin</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds and ships AI-powered features on foundation models, managing their lifecycle from development through production monitoring. Works with product, engineering and compliance experts to automate manual workflows. heyData is…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Développeur IA (H/F)</title>
+      <link>https://nlppeople.com/jobs/developpeur-ia-h-f-aix-en-provence-2</link>
+      <guid isPermaLink="false">nlppeople:developpeur-ia-h-f-aix-en-provence-2</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs and develops data pipelines and AI and machine learning models, then deploys and maintains them in cloud environments for clients. Description de l'entreprise Meritis est un cabinet de conseil, pilotage et développement…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Doctoral Thesis - Generative AI for Scenario-Based Testing of Automated Driving Systems (f/m/div)</title>
+      <link>https://nlppeople.com/jobs/doctoral-thesis-generative-ai-for-scenario-based-testing-of-automated-driving-systems-f-m-div-munich</link>
+      <guid isPermaLink="false">nlppeople:doctoral-thesis-generative-ai-for-scenario-based-testing-of-automated-driving-systems-f-m-div-munich</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Conduct doctoral research on generating scenario-based test cases for automated driving systems using generative AI and KPI-driven validation. Build a closed-loop pipeline that analyzes existing scenario pools and guides…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Agentic AI Engineer - Enterprise Systems Integration (SAP &amp; Core Systems)</title>
+      <link>https://nlppeople.com/jobs/agentic-ai-engineer-enterprise-systems-integration-sap-core-systems-bengaluru</link>
+      <guid isPermaLink="false">nlppeople:agentic-ai-engineer-enterprise-systems-integration-sap-core-systems-bengaluru</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, builds and operates secure integrations that let AI agents read from and write to SAP and other core systems. Also builds the MCP tool layer and oversees integration security and governance with Core IT. At Zimmer…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Expert Artificial Intelligence/Machine Learning Engineer</title>
+      <link>https://nlppeople.com/jobs/expert-artificial-intelligence-machine-learning-engineer-bulgaria</link>
+      <guid isPermaLink="false">nlppeople:expert-artificial-intelligence-machine-learning-engineer-bulgaria</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, builds and deploys advanced AI systems and LLM-driven applications, acting as technical authority for clients while mentoring engineers and shaping AI solutions. Ciklum is looking for an Expert AI Engineer to join our…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Platform Engineer 80-100%</title>
+      <link>https://nlppeople.com/jobs/ai-platform-engineer-80-100-zug</link>
+      <guid isPermaLink="false">nlppeople:ai-platform-engineer-80-100-zug</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds, deploys, and operates cloud platform services and infrastructure that power customer-facing AI products on AWS and portable cloud-native stacks. Together with our customers, we combine the real and digital worlds With…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Ingénieur de développement NLP/LLM F/H</title>
+      <link>https://nlppeople.com/jobs/ingenieur-de-developpement-nlp-llm-f-h-lyon</link>
+      <guid isPermaLink="false">nlppeople:ingenieur-de-developpement-nlp-llm-f-h-lyon</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Develops and trains BERT-based LLM models on medical reports and builds annotation tools to extend the product to other medical specialties. Description de l'entreprise Le groupe Coexya , leader du numérique et multi-spécialiste…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Agentic AI Engineer</title>
+      <link>https://nlppeople.com/jobs/agentic-ai-engineer-bengaluru</link>
+      <guid isPermaLink="false">nlppeople:agentic-ai-engineer-bengaluru</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, builds and operates secure integrations that let AI agents read from and write back to SAP and other core systems. Also builds the MCP tool layer and orchestrates multi-step agents for enterprise use. At Zimmer Biomet,…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior AI/ML Engineer (GenAI, AWS)</title>
+      <link>https://nlppeople.com/jobs/senior-ai-ml-engineer-genai-aws-ukraine</link>
+      <guid isPermaLink="false">nlppeople:senior-ai-ml-engineer-genai-aws-ukraine</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, builds, and ships production GenAI and agentic AI systems for enterprise clients, owning technical direction from evaluation through production deployment. Provectus is an AWS Premier Partner and an Anthropic Strategic…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior AI/ML Engineer (GenAI, AWS)</title>
+      <link>https://nlppeople.com/jobs/senior-ai-ml-engineer-genai-aws-north-macedonia</link>
+      <guid isPermaLink="false">nlppeople:senior-ai-ml-engineer-genai-aws-north-macedonia</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, builds, and ships production GenAI and agentic AI systems for enterprise clients, owning technical direction and evaluation. Works in a small senior pod alongside forward deployed executives and engineers. Provectus is…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Tech Lead IA (background Arquitecto/a software)</title>
+      <link>https://nlppeople.com/jobs/tech-lead-ia-background-arquitecto-a-software-spain</link>
+      <guid isPermaLink="false">nlppeople:tech-lead-ia-background-arquitecto-a-software-spain</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads complex technology initiatives and drives the practical adoption of Generative AI in software development. Provides architectural guidance, supports development teams, and contributes to training and pre-sales activities.…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Stage AI Developer</title>
+      <link>https://nlppeople.com/jobs/stage-ai-developer-amsterdam</link>
+      <guid isPermaLink="false">nlppeople:stage-ai-developer-amsterdam</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds front-end and back-end features for the On Brand AI platform while working with Claude Code. Tests, fixes bugs, and documents what was built. Over ACT.agency ACT. agency staat voor Advertising, Content and Technology. Wij…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior Consultant, AI Engineering, DE, FS</title>
+      <link>https://nlppeople.com/jobs/senior-consultant-ai-engineering-de-fs-london</link>
+      <guid isPermaLink="false">nlppeople:senior-consultant-ai-engineering-de-fs-london</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Delivers production-grade AI systems such as agents and RAG pipelines for regulated financial institutions. Works within squads to design, implement and govern solutions while shaping MVP scope and stakeholder adoption. At EY,…</description>
+    </item>
+    <item>
+      <title>[Opportunity] SDE I, AI Engineer</title>
+      <link>https://nlppeople.com/jobs/sde-i-ai-engineer-hyderabad</link>
+      <guid isPermaLink="false">nlppeople:sde-i-ai-engineer-hyderabad</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs and builds GenAI applications and Agentic AI workflows, applying ML and AI techniques to enterprise data and cloud infrastructure. Job Title : SDE I- AI Engineer Job Location : Hyderabad Experience Required : 2 - 4 years…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Expert AI Engineer</title>
+      <link>https://nlppeople.com/jobs/expert-ai-engineer-poland</link>
+      <guid isPermaLink="false">nlppeople:expert-ai-engineer-poland</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, builds and deploys advanced AI systems and LLM-driven applications, acting as technical authority for clients and mentoring engineering peers. Ciklum is looking for an Expert AI Engineer to join our team full-time in…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Masterarbeit über robuste agentische HEMS-Steuerung mithilfe von Time-Series-Foundation-Modellen über MCP (w/m/div.)</title>
+      <link>https://nlppeople.com/jobs/masterarbeit-uber-robuste-agentische-hems-steuerung-mithilfe-von-time-series-foundation-modellen-uber-mcp-w-m-div-renningen</link>
+      <guid isPermaLink="false">nlppeople:masterarbeit-uber-robuste-agentische-hems-steuerung-mithilfe-von-time-series-foundation-modellen-uber-mcp-w-m-div-renningen</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Conducts a six-month master's thesis on a closed-loop agent framework that uses LLM agents interacting with Time-Series Foundation Models over the Model Context Protocol to analyze, guard and optimize HEMS operation.…</description>
+    </item>
+    <item>
+      <title>[Opportunity] 【AIエンジニア（ポテンシャル）】経験よりポテンシャル重視。製造業の調達AIプラットフォーム「ニトエル」の、AIプロダクト・AIプラットフォーム・AI品質のいずれかの役割を目指すエンジニアを募集</title>
+      <link>https://nlppeople.com/jobs/aiensinia-hotensiyaru-jing-yan-yorihotensiyaruzhong-shi-zhi-zao-ye-nodiao-da-aihuratutohuomu-nitoeru-no-aihurotakutoaihuratutohuomuaipin-zhi-noisurekanoyi-ge-womu-zhi-suensiniawomu-ji-toshima</link>
+      <guid isPermaLink="false">nlppeople:aiensinia-hotensiyaru-jing-yan-yorihotensiyaruzhong-shi-zhi-zao-ye-nodiao-da-aihuratutohuomu-nitoeru-no-aihurotakutoaihuratutohuomuaipin-zhi-noisurekanoyi-ge-womu-zhi-suensiniawomu-ji-toshima</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Works on the procurement AI platform by deeply understanding user business processes and building AI-powered features, platforms, and quality checks. Starts as a potential AI engineer and grows into a specialist in one of these…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Polyglot Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-polyglot-engineer-london</link>
+      <guid isPermaLink="false">nlppeople:ai-polyglot-engineer-london</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs and delivers secure, scalable AI-enabled applications for enterprise clients, embedding generative AI and applying AI-assisted engineering practices. Works across the full software development lifecycle and owns…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-antwerp</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-antwerp</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, builds and manages AI solutions that are reliably, securely and scalable in production, working within client security and governance. Translates client use cases into practical AI applications and agents. *AI is vandaag…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Student*in Masterarbeit Agentic AI zur Analyse von Produktionsdaten (Digitalisierung Produktion)</title>
+      <link>https://nlppeople.com/jobs/student-in-masterarbeit-agentic-ai-zur-analyse-von-produktionsdaten-digitalisierung-produktion-sindelfingen</link>
+      <guid isPermaLink="false">nlppeople:student-in-masterarbeit-agentic-ai-zur-analyse-von-produktionsdaten-digitalisierung-produktion-sindelfingen</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Analyzes vehicle assembly processes by applying machine learning and data-driven methods to identify technical influences and anomalies. Integrates these findings into an existing multi-agent system and evaluates the approach on…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-london-14</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-london-14</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, builds, and governs enterprise AI solutions, including productivity agents and integrations within the Microsoft ecosystem. Partners with stakeholders to drive practical, secure adoption. I am partnering with a leading,…</description>
+    </item>
+    <item>
+      <title>[Opportunity] ML Engineer AI OPS (B6)</title>
+      <link>https://nlppeople.com/jobs/ml-engineer-ai-ops-b6-bengaluru</link>
+      <guid isPermaLink="false">nlppeople:ml-engineer-ai-ops-b6-bengaluru</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Monitors the health, performance and reliability of ML and GenAI models, building monitoring frameworks to detect drift, degradation and anomalies. Uses Databricks native capabilities to deliver scalable, automated observability…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Moveworks AI Engineer</title>
+      <link>https://nlppeople.com/jobs/moveworks-ai-engineer-chennai</link>
+      <guid isPermaLink="false">nlppeople:moveworks-ai-engineer-chennai</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds and deploys Moveworks AI agents, plugins, workflows and integrations, with a focus on hands-on development. Also supports platform administration, governance and production support. Moveworks AI Engineer About the Role We…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Inżynier/-ka R&amp;D ds. Rozwiązań AI</title>
+      <link>https://nlppeople.com/jobs/inzynier-ka-r-d-ds-rozwiazan-ai-warsaw</link>
+      <guid isPermaLink="false">nlppeople:inzynier-ka-r-d-ds-rozwiazan-ai-warsaw</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Tests, benchmarks and deploys AI models on GPU infrastructure while designing R&amp;D solutions and working with business units to automate their processes. Jesteśmy jednym z najdłużej działających domów maklerskich w Polsce - od…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Manager, AI Platforms &amp; Applications Engineering</title>
+      <link>https://nlppeople.com/jobs/manager-ai-platforms-applications-engineering-singapore</link>
+      <guid isPermaLink="false">nlppeople:manager-ai-platforms-applications-engineering-singapore</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, develops and maintains the university's AI application ecosystem, focusing on the AI Agentic Harness and related platform services. Supports students and academic staff in using these AI platforms and translates their…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-engineer-rotterdam-3</link>
+      <guid isPermaLink="false">nlppeople:ai-engineer-rotterdam-3</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds production AI agents, workflows and knowledge bases for an international trading business. Runs discovery workshops and delivers hands-on AI training for colleagues. *Do you thrive on complex problems and want to work at…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior Technical Lead</title>
+      <link>https://nlppeople.com/jobs/senior-technical-lead-bengaluru</link>
+      <guid isPermaLink="false">nlppeople:senior-technical-lead-bengaluru</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, develops, and deploys AI-powered solutions and intelligent automation capabilities that drive business outcomes. Prototypes and scales emerging AI technologies while establishing engineering best practices and governance…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Professor in Foundation Models for Artificial Intelligence</title>
+      <link>https://nlppeople.com/jobs/professor-in-foundation-models-for-artificial-intelligence-zwijnaarde-2</link>
+      <guid isPermaLink="false">nlppeople:professor-in-foundation-models-for-artificial-intelligence-zwijnaarde-2</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads academic teaching, research and institutional engagement in the field of foundation models for artificial intelligence. Conducts international research, secures research funding and supervises doctoral and master's…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Staff Computer Vision Engineer</title>
+      <link>https://nlppeople.com/jobs/staff-computer-vision-engineer-mont-saint-guibert</link>
+      <guid isPermaLink="false">nlppeople:staff-computer-vision-engineer-mont-saint-guibert</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Designs, implements and optimizes computer vision and machine learning algorithms to extract data from sports videos for automated content products. Shares knowledge across a distributed team and contributes to code reviews.…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior AI lead</title>
+      <link>https://nlppeople.com/jobs/senior-ai-lead-geneva</link>
+      <guid isPermaLink="false">nlppeople:senior-ai-lead-geneva</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: The Senior AI Lead defines and implements the organization's AI strategy, establishing governance frameworks and driving the integration of AI capabilities into engineering and product development. This role focuses on making AI…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI/ML Engineer</title>
+      <link>https://nlppeople.com/jobs/ai-ml-engineer-new-delhi</link>
+      <guid isPermaLink="false">nlppeople:ai-ml-engineer-new-delhi</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Builds, tests and deploys machine learning models for AI use cases in a rural digital platform, with evaluation, monitoring and handover to the Government's technical team. About Us Aplyd works with governments, development…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Principal Researcher (f/m/x) - Fundamentals of AI/ML</title>
+      <link>https://nlppeople.com/jobs/principal-researcher-f-m-x-fundamentals-of-ai-ml-vienna</link>
+      <guid isPermaLink="false">nlppeople:principal-researcher-f-m-x-fundamentals-of-ai-ml-vienna</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads an independent research group to advance the theoretical and methodological foundations of AI/ML. Conducts multidisciplinary research and supervises PhD students. OeAW - Discovering the future As a central non-university…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Scientist - Agentic AI</title>
+      <link>https://nlppeople.com/jobs/ai-scientist-agentic-ai-australia</link>
+      <guid isPermaLink="false">nlppeople:ai-scientist-agentic-ai-australia</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Owns agentic AI use cases from problem framing through experimentation, implementation and monitored deployment. Builds RAG pipelines, designs tool-use workflows and evaluates agents for safety, grounding and reliability. Create…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Ai Scientist - Machine Learning</title>
+      <link>https://nlppeople.com/jobs/ai-scientist-machine-learning-australia</link>
+      <guid isPermaLink="false">nlppeople:ai-scientist-machine-learning-australia</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Owns AI use cases from problem framing and data assessment through modelling, evaluation and monitored deployment. Works with product, data, engineering and risk partners to build and govern machine learning solutions. Create…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior Ai Scientist - Agentic AI</title>
+      <link>https://nlppeople.com/jobs/senior-ai-scientist-agentic-ai-australia</link>
+      <guid isPermaLink="false">nlppeople:senior-ai-scientist-agentic-ai-australia</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads multi-component agentic AI initiatives from design through deployment and continuous improvement. Coordinates technical work across contributors and engineering partners while staying hands-on in architecture, coding,…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior AI Scientist - Machine Learning</title>
+      <link>https://nlppeople.com/jobs/senior-ai-scientist-machine-learning-australia</link>
+      <guid isPermaLink="false">nlppeople:senior-ai-scientist-machine-learning-australia</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads complex multi-component machine learning initiatives from problem framing through monitored deployment and measured improvement. Acts as a trusted specialist in predictive modelling and decision science. Create your best…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior Applied Scientist - Remote (Seattle)</title>
+      <link>https://nlppeople.com/jobs/senior-applied-scientist-remote-seattle-seattle</link>
+      <guid isPermaLink="false">nlppeople:senior-applied-scientist-remote-seattle-seattle</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads applied machine learning research and production deployment for AI-powered products in industrial and physical environments. Translates product requirements into research questions and guides models from experimentation to…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior Applied Scientist - Remote (San Francisco Bay Area)</title>
+      <link>https://nlppeople.com/jobs/senior-applied-scientist-remote-san-francisco-bay-area-san-francisco</link>
+      <guid isPermaLink="false">nlppeople:senior-applied-scientist-remote-san-francisco-bay-area-san-francisco</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads applied machine learning research and development for AI-powered products in industrial and physical environments. Guides projects from hypothesis through experimentation and production deployment. This position is listed…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior Applied Scientist - Remote (Portland)</title>
+      <link>https://nlppeople.com/jobs/senior-applied-scientist-remote-portland-portland</link>
+      <guid isPermaLink="false">nlppeople:senior-applied-scientist-remote-portland-portland</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads applied machine learning research and development for AI-powered products in industrial and physical environments, taking models from research through production deployment. This position is listed on behalf of a partner…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior Applied Scientist - Remote (Philadelphia)</title>
+      <link>https://nlppeople.com/jobs/senior-applied-scientist-remote-philadelphia-philadelphia</link>
+      <guid isPermaLink="false">nlppeople:senior-applied-scientist-remote-philadelphia-philadelphia</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads applied machine learning research and production deployment for AI-powered products in industrial and physical environments. Translates product requirements into research questions and guides models from experimentation to…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior Applied Scientist - Remote (Denver)</title>
+      <link>https://nlppeople.com/jobs/senior-applied-scientist-remote-denver-denver</link>
+      <guid isPermaLink="false">nlppeople:senior-applied-scientist-remote-denver-denver</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads applied machine learning research and development for AI-powered products in industrial and physical environments, taking models from research through production deployment. This position is listed on behalf of a partner…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior Applied Scientist</title>
+      <link>https://nlppeople.com/jobs/senior-applied-scientist-us</link>
+      <guid isPermaLink="false">nlppeople:senior-applied-scientist-us</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads applied machine learning research and production deployment for AI-powered products in industrial and physical environments. Translates product requirements into research questions and guides models from experimentation to…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AI Scientist - Mortgage Pricing, Credit Risk and Capital</title>
+      <link>https://nlppeople.com/jobs/ai-scientist-mortgage-pricing-credit-risk-and-capital-australia</link>
+      <guid isPermaLink="false">nlppeople:ai-scientist-mortgage-pricing-credit-risk-and-capital-australia</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Owns defined pricing and credit-risk modelling use cases from problem framing through monitored deployment and improvement. Works with engineering and finance specialists to build, evaluate and govern production models. Create…</description>
+    </item>
+    <item>
+      <title>[Opportunity] AUTOMATION LEAD L1</title>
+      <link>https://nlppeople.com/jobs/automation-lead-l1-mumbai</link>
+      <guid isPermaLink="false">nlppeople:automation-lead-l1-mumbai</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads automation roadmaps and strategies for business units, deploying generative AI infrastructure and managing automation projects with account partners. Wipro Limited (NYSE: WIT, BSE: 507685, NSE: WIPRO) is a leading…</description>
+    </item>
+    <item>
+      <title>[Opportunity] Senior AI Scientist -Mortgage Pricing, Credit Risk and Capital</title>
+      <link>https://nlppeople.com/jobs/senior-ai-scientist-mortgage-pricing-credit-risk-and-capital-australia</link>
+      <guid isPermaLink="false">nlppeople:senior-ai-scientist-mortgage-pricing-credit-risk-and-capital-australia</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>nlppeople</category>
+      <description>Summary: Leads complex mortgage pricing, credit-risk and capital-modelling initiatives, delivering models and scenario analysis while mentoring AI Scientists. Create your best future and join Westpac's AI Science craft to lead complex…</description>
     </item>
   </channel>
 </rss>
